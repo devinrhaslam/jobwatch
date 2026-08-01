@@ -18,3 +18,24 @@ def test_company_config_defaults_wait_for_selector_to_none():
         name="Acme", career_url="https://acme.example", fetch_mode=FetchMode.STATIC
     )
     assert config.wait_for_selector is None
+
+
+def test_company_config_rendered_requires_wait_for_selector():
+    import pytest
+
+    with pytest.raises(ValueError, match="wait_for_selector is required"):
+        CompanyConfig(
+            name="Acme",
+            career_url="https://acme.example",
+            fetch_mode=FetchMode.RENDERED,
+        )
+
+
+def test_company_config_rendered_accepts_wait_for_selector():
+    config = CompanyConfig(
+        name="Acme",
+        career_url="https://acme.example",
+        fetch_mode=FetchMode.RENDERED,
+        wait_for_selector=".job-listing",
+    )
+    assert config.wait_for_selector == ".job-listing"

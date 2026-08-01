@@ -31,3 +31,9 @@ class CompanyConfig:
     career_url: str
     fetch_mode: FetchMode
     wait_for_selector: str | None = None  # required when fetch_mode is RENDERED
+
+    def __post_init__(self) -> None:
+        if self.fetch_mode is FetchMode.RENDERED and not self.wait_for_selector:
+            raise ValueError(
+                "wait_for_selector is required when fetch_mode is RENDERED"
+            )
