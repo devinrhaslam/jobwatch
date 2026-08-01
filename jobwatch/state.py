@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -11,7 +12,7 @@ DEFAULT_STATE_DIR = Path("state")
 
 
 def snapshot_path(company: str, state_dir: Path = DEFAULT_STATE_DIR) -> Path:
-    safe_name = company.lower().replace(" ", "_")
+    safe_name = re.sub(r"[^a-z0-9_]+", "_", company.lower()).strip("_")
     return state_dir / f"{safe_name}.json"
 
 

@@ -24,6 +24,30 @@ def test_snapshot_path_normalizes_company_name(tmp_path):
     assert path == tmp_path / "hudson_river_trading.json"
 
 
+def test_snapshot_path_preserves_existing_anthropic_mapping(tmp_path):
+    path = snapshot_path("Anthropic", state_dir=tmp_path)
+    assert path == tmp_path / "anthropic.json"
+
+
+def test_snapshot_path_sanitizes_path_separators(tmp_path):
+    path = snapshot_path("Evil/../Co", state_dir=tmp_path)
+    assert path == tmp_path / "evil_co.json"
+    assert path.resolve().is_relative_to(tmp_path.resolve())
+
+
+def test_snapshot_path_sanitizes_punctuation(tmp_path):
+    assert snapshot_path("Booking.com", state_dir=tmp_path) == tmp_path / "booking_com.json"
+    assert snapshot_path("AT&T", state_dir=tmp_path) == tmp_path / "at_t.json"
+
+
+def test_merge_snapshot_does_not_mutate_input_snapshot():
+    now = datetime(2026, 7, 31, tzinfo=timezone.utc)
+    snapshot = merge_snapshot({}, [_job("1")], now=now)
+    original = {job_id: dict(record) for job_id, record in snapshot.items()}
+    merge_snapshot(snapshot, [_job("1"), _job("2")], now=now)
+    assert snapshot == original
+
+
 def test_merge_snapshot_adds_new_job_with_first_and_last_seen():
     now = datetime(2026, 7, 31, tzinfo=timezone.utc)
     merged = merge_snapshot({}, [_job("1")], now=now)
