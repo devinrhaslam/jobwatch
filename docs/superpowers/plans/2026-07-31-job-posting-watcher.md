@@ -174,6 +174,8 @@ git commit -m "Scaffold jobwatch package and test setup"
 **Interfaces:**
 - Produces: `FetchMode` (enum: `STATIC`, `RENDERED`), `Job` (dataclass: `company`, `job_id`, `title`, `url`, `location`, `posted_date`, plus `Job.stable_id(title, location, url) -> str` staticmethod), `CompanyConfig` (dataclass: `name`, `career_url`, `fetch_mode`, `wait_for_selector: str | None = None`).
 
+**As implemented (review-driven addition):** `CompanyConfig.__post_init__` raises `ValueError` when `fetch_mode is FetchMode.RENDERED` and `wait_for_selector` is missing or empty, enforcing the spec's "required when RENDERED" rule rather than leaving it as a comment. Tasks 12 and 13 (the two RENDERED companies) already supply selectors, so this binds only future companies. Task 2 therefore ships 5 tests, not 3.
+
 - [ ] **Step 1: Write the failing tests**
 
 `tests/test_models.py`:
@@ -1989,7 +1991,7 @@ git commit -m "Add CLI entrypoint"
 - [ ] **Step 1: Run the full test suite**
 
 Run: `.venv/bin/pytest -v`
-Expected: PASS, 45 tests total (3 models + 6 state + 3 diff + 6 fetch + 7 engine + 4 report + 2 anthropic + 2 stripe + 2 cloudflare + 3 meta + 3 registry + 1 filters + 3 cli = 45), zero failures.
+Expected: PASS, 47 tests total (5 models + 6 state + 3 diff + 6 fetch + 7 engine + 4 report + 2 anthropic + 2 stripe + 2 cloudflare + 3 meta + 3 registry + 1 filters + 3 cli = 47), zero failures. If review-driven additions in earlier tasks changed a count, reconcile against the per-task expectations rather than assuming this total; what matters is zero failures and no skipped tests.
 
 - [ ] **Step 2: Run a live dry-run against all four pilot companies**
 
