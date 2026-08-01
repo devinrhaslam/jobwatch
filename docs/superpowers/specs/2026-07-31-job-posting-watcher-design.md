@@ -51,16 +51,18 @@ class Scraper(Protocol):
     career_url: str
     fetch_mode: FetchMode  # STATIC or RENDERED
 
-    def parse(self, html: str) -> list[Job]: ...
+    # payload is the fetched page text: parsers may read it as HTML or
+    # extract an embedded JSON payload from it.
+    def parse(self, payload: str) -> list[Job]: ...
 
     # Optional. Return the URL of the next page given the current page's
-    # HTML and its URL, or None when there are no further pages.
-    def next_page_url(self, html: str, current_url: str) -> str | None: ...
+    # payload and its URL, or None when there are no further pages.
+    def next_page_url(self, payload: str, current_url: str) -> str | None: ...
 ```
 
 This keeps each company isolated: adding company #5 through #59 is a small, self-contained change that cannot break existing scrapers.
 
-**Pagination is driven by the framework, not by individual scrapers.** The framework fetches `career_url`, calls `parse()`, then asks `next_page_url()` whether to continue, concatenating results across pages. Scrapers that omit `next_page_url` are treated as single-page. Keeping the fetch loop in the framework means retries, delays, timeouts, and rendering behavior stay consistent across companies, and each parser remains a pure HTML-to-jobs function that fixture tests can exercise offline. A page-count ceiling (default 50) prevents a malformed next-page link from causing an infinite loop.
+**Pagination is driven by the framework, not by individual scrapers.** The framework fetches `career_url`, calls `parse()`, then asks `next_page_url()` whether to continue, concatenating results across pages and deduplicating by `job_id`. Scrapers that omit `next_page_url` are treated as single-page. Keeping the fetch loop in the framework means retries, delays, timeouts, and rendering behavior stay consistent across companies, and each parser remains a pure text-to-jobs function that fixture tests can exercise offline. A page-count ceiling (default 20) prevents a malformed next-page link from causing an infinite loop.
 
 ### Data model
 
@@ -163,7 +165,7 @@ Additional handling:
 
 ## Testing
 
-**Parsers are tested offline against saved HTML fixtures.** Each company parser has a real captured page under `tests/fixtures/<company>.html`, with assertions on parsed job count and the fields of a known job. This makes parser tests fast, deterministic, and free of network flakiness and rate limits.
+**Parsers are tested offline against saved HTML fixtures.** Each company parser has a real captured page under `tests/fixtures/` (`anthropic_jobs.html`, `stripe_jobs_search.html`, `cloudflare_careers.html`, `meta_jobsearch_page1.html`), with assertions on parsed job count and the fields of a known job. This makes parser tests fast, deterministic, and free of network flakiness and rate limits.
 
 **Diff and state logic are unit-tested with synthetic jobs**, covering the cases that cause real-world misbehavior:
 
@@ -185,16 +187,34 @@ The planned filter is config-driven title matching: an allow-list of desired pat
 
 ## Pilot Companies
 
-Chosen for a deliberate spread of difficulty, so the framework is validated against both extremes:
+Recon has been completed against all four live pages, and each extraction strategy below was verified by parsing a captured page and confirming the job count and field values. Captures are stored as test fixtures under `tests/fixtures/`.
 
-| Company | Expected difficulty |
-|---|---|
-| Anthropic | Likely a simple hosted job board; static fetch |
-| Cloudflare | Likely a simple hosted job board; static fetch |
-| Stripe | Custom but structured page |
-| Meta | JS-rendered SPA; requires Playwright |
+| Company | Entry URL | Fetch mode | Extraction | Verified jobs | Posted date |
+|---|---|---|---|---|---|
+| Anthropic | `https://www.anthropic.com/jobs` | STATIC | DOM: `a[href*="/anthropic/jobs/"]`, first two `p.caption` descendants are title and location | 400, single page | No |
+| Stripe | `https://stripe.com/jobs/search` | STATIC | Embedded JSON: `"listings":[...]` array plus a `"locations":[...]` lookup table | 513, single fetch | No |
+| Cloudflare | `https://www.cloudflare.com/careers/#open-roles` | RENDERED | DOM: `a[href*="boards.greenhouse.io/cloudflare/jobs/"]`, `<p>` children are title, `"Dept - City, Country"`, `"Posted <date>"` | 285 unique (570 anchors) | Yes |
+| Meta | `https://www.metacareers.com/jobsearch/?sort_by_new=true&teams[0]=Software%20Engineering&page=N` | RENDERED | DOM: `a[href^="/profile/job_details/"]`, `<h3>` is title, next text node is location | 10 per page, paginated | No |
 
-Difficulty expectations are unverified. Implementation begins with a recon pass on each of the four pages to confirm actual page structure, pagination behavior, and fetch mode before any parser is written.
+### Recon findings that shape the design
+
+**Extraction targets are not always DOM elements.** Stripe embeds a complete JSON payload of all 513 listings in its page, making one plain HTTP fetch sufficient — no browser, no pagination. The scraper contract is therefore `parse(payload: str)`, where the payload is the fetched page text; a parser may read it as HTML or extract embedded JSON from it. This is why the contract takes text rather than a parsed DOM.
+
+**Selectors must not depend on class names.** Anthropic ships build-hashed CSS module classes (`JobsPage-module-scss-module__8DFgsW__jobItem`) and Meta ships obfuscated atomic classes (`x1i10hfl x1qjc9v5 ...`). Both change without notice. Parsers key off href patterns and structural position (child order, tag type) instead, which are far more stable.
+
+**Cloudflare's career page needs the `#open-roles` fragment.** Plain `https://www.cloudflare.com/careers/` renders only 6 of 285 roles ("Showing 6 of 285"), and neither scrolling nor `?page=2` loads more. With the `#open-roles` fragment, all 285 job links are present in the DOM — verified stable across repeated loads. Cloudflare also renders each job twice, so deduplication by `job_id` is required, not optional.
+
+**Meta rejects plain HTTP.** Direct requests return HTTP 400; headless Chromium works. Meta must use RENDERED mode.
+
+**Entry URLs may carry the site's own filters and sort order.** Meta returns only 10 jobs per page, so enumerating every posting would need hundreds of renders per run. Instead its entry URL applies Meta's own `teams[0]=Software Engineering` filter and `sort_by_new=true` sort, cutting the crawl to a few pages of relevant, newest-first results. Pages carry no overlap, and `&page=N` paginates reliably.
+
+This source-side narrowing is distinct from the phase 2 report-time filter. Narrowing is a per-company fetch concern used where a site's volume makes full enumeration impractical; report-time filtering remains the general mechanism for role fit. Because Meta's URL filter also constrains what ever enters the snapshot, a widened filter later means Meta's snapshot re-seeds for the newly included teams — an accepted trade-off, and the reason narrowing is applied only where volume demands it.
+
+**Cloudflare exposes real posted dates** (`Posted Jul 31, 2026`), so its `posted_date` is populated and can corroborate snapshot-derived recency. Anthropic, Stripe, and Meta expose no post date, though Meta marks some cards with a "New" badge.
+
+### Pagination early-stop
+
+For newest-first paginated sources such as Meta, the framework stops paginating when a page contributes no job IDs absent from the snapshot, since everything beyond that point is necessarily older and already known. Combined with the page ceiling, this keeps a routine run to one or two page fetches while still catching a large burst of new postings. On a seed run (no existing snapshot) the early-stop is skipped and the page ceiling alone applies.
 
 ## Success Criteria
 
