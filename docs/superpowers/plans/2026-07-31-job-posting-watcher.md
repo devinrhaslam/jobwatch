@@ -154,7 +154,7 @@ Expected: all commands exit 0. `playwright install chromium` downloads the headl
 - [ ] **Step 6: Smoke-test pytest collection**
 
 Run: `.venv/bin/pytest --collect-only`
-Expected: exits 0, reports "no tests ran" (no test files exist yet — this just confirms pytest can start and `jobwatch` imports cleanly).
+Expected: reports `collected 0 items` / `no tests collected` with no collection errors, and exits 5 (pytest's documented `NO_TESTS_COLLECTED` code — not 0, since no test files exist yet). This confirms pytest starts and `jobwatch` imports cleanly.
 
 - [ ] **Step 7: Commit**
 
