@@ -1,0 +1,13 @@
+# Runtime scraper snapshots and run logs
+state/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
