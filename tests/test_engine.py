@@ -1,4 +1,4 @@
-from jobwatch.engine import MAX_PAGES, run_company
+from jobwatch.engine import MAX_PAGES, MIN_JOBS_FOR_SUSPICIOUS_CHECK, run_company
 from jobwatch.fetch import FetchBlocked, FetchError
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
@@ -250,13 +250,34 @@ def test_dry_run_reports_results_without_persisting_snapshot(tmp_path):
 
 
 def test_suspicious_ratio_flags_likely_id_scheme_change(tmp_path):
+    total = MIN_JOBS_FOR_SUSPICIOUS_CHECK
     run_company(
-        FakeScraper([[_job(str(i)) for i in range(10)]]),
+        FakeScraper([[_job(str(i)) for i in range(total)]]),
         state_dir=tmp_path,
         fetch_page=lambda c, u: "0",
     )
-    mostly_new_jobs = [_job(str(i)) for i in range(2)] + [_job(f"new-{i}") for i in range(8)]
+    new_count = int(total * 0.9)
+    mostly_new_jobs = [_job(str(i)) for i in range(total - new_count)] + [
+        _job(f"new-{i}") for i in range(new_count)
+    ]
     result = run_company(
         FakeScraper([mostly_new_jobs]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
     )
     assert result.status == "suspicious"
+
+
+def test_suspicious_ratio_does_not_fire_below_the_minimum_job_floor(tmp_path):
+    # A small company (e.g. 4 roles) that turns over entirely is expected
+    # churn, not a scheme change; below the floor the ratio check must not
+    # trap it in "suspicious" forever (it never advances past the guard).
+    run_company(
+        FakeScraper([[_job("1"), _job("2"), _job("3"), _job("4")]]),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: "0",
+    )
+    all_new_jobs = [_job("new-1"), _job("new-2"), _job("new-3"), _job("new-4")]
+    result = run_company(
+        FakeScraper([all_new_jobs]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+    )
+    assert result.status == "ok"
+    assert {j.job_id for j in result.new_jobs} == {"new-1", "new-2", "new-3", "new-4"}

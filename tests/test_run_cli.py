@@ -24,6 +24,31 @@ class _CrashingScraper(Scraper):
         raise RuntimeError("boom")
 
 
+class _SuspiciousScraper(Scraper):
+    """Seeds 20 jobs, then returns 20 entirely different job IDs to trip the
+    suspicious-volume guard on the second run."""
+
+    config = CompanyConfig(
+        name="SuspiciousCo", career_url="https://example.com/jobs", fetch_mode=FetchMode.STATIC
+    )
+
+    def __init__(self):
+        self._call_count = 0
+
+    def parse(self, payload: str) -> list[Job]:
+        self._call_count += 1
+        prefix = "old" if self._call_count == 1 else "new"
+        return [
+            Job(
+                company="SuspiciousCo",
+                job_id=f"{prefix}-{i}",
+                title="Engineer",
+                url=f"https://example.com/{prefix}-{i}",
+            )
+            for i in range(20)
+        ]
+
+
 class _RenderedScraper(Scraper):
     config = CompanyConfig(
         name="RenderCo",
@@ -96,6 +121,23 @@ def test_one_company_crashing_does_not_abort_the_run(tmp_path, monkeypatch, caps
     report_files = list((tmp_path / "output").glob("*.json"))
     assert len(report_files) == 1
     assert "TestCo" in report_files[0].read_text()
+
+
+def test_suspicious_result_returns_nonzero_exit_code(tmp_path, monkeypatch):
+    scraper = _SuspiciousScraper()
+    monkeypatch.setattr(cli, "SCRAPERS", {"SuspiciousCo": scraper})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+
+    first_exit_code = cli.main(["--company", "SuspiciousCo"])
+    assert first_exit_code == 0
+
+    second_exit_code = cli.main(["--company", "SuspiciousCo"])
+
+    assert second_exit_code != 0
 
 
 def test_browser_launch_failure_still_reports_static_company(tmp_path, monkeypatch):

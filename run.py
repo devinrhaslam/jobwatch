@@ -113,7 +113,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.verbose:
             print(f"\nWrote {report_path}", file=sys.stderr)
 
-    return 1 if any(r.status in ("failed", "blocked") for r in results) else 0
+    return 1 if any(r.status in ("failed", "blocked", "suspicious") for r in results) else 0
 
 
 if __name__ == "__main__":

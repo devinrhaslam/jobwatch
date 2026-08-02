@@ -12,6 +12,7 @@ from jobwatch.scrapers.base import Scraper
 
 MAX_PAGES = 20
 SUSPICIOUS_NEW_JOB_RATIO = 0.8
+MIN_JOBS_FOR_SUSPICIOUS_CHECK = 20
 logger = logging.getLogger(__name__)
 
 FetchPage = Callable[[CompanyConfig, str], str]
@@ -83,7 +84,12 @@ def run_company(
     # jobs already recorded. With nothing recorded, an all-new run is expected
     # (a company that had no openings when it was first seeded), so flagging it
     # would be a false alarm that withholds genuinely new jobs.
-    if snapshot and jobs and len(new_jobs) / len(jobs) >= SUSPICIOUS_NEW_JOB_RATIO:
+    if (
+        snapshot
+        and jobs
+        and len(jobs) >= MIN_JOBS_FOR_SUSPICIOUS_CHECK
+        and len(new_jobs) / len(jobs) >= SUSPICIOUS_NEW_JOB_RATIO
+    ):
         return CompanyResult(
             config.name,
             "suspicious",
