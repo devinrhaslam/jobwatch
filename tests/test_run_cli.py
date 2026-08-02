@@ -24,6 +24,35 @@ class _CrashingScraper(Scraper):
         raise RuntimeError("boom")
 
 
+class _RenderedScraper(Scraper):
+    config = CompanyConfig(
+        name="RenderCo",
+        career_url="https://example.com/jobs",
+        fetch_mode=FetchMode.RENDERED,
+        wait_for_selector=".job",
+    )
+
+    def parse(self, payload: str) -> list[Job]:
+        return [Job(company="RenderCo", job_id="1", title="Engineer", url="https://example.com/1")]
+
+
+class _FailingChromium:
+    def launch(self):
+        raise RuntimeError("Executable doesn't exist")
+
+
+class _FakePlaywright:
+    chromium = _FailingChromium()
+
+
+class _FakePlaywrightContextManager:
+    def __enter__(self):
+        return _FakePlaywright()
+
+    def __exit__(self, *exc_info):
+        return False
+
+
 def test_main_runs_registered_company_and_writes_report(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
     monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
@@ -67,3 +96,26 @@ def test_one_company_crashing_does_not_abort_the_run(tmp_path, monkeypatch, caps
     report_files = list((tmp_path / "output").glob("*.json"))
     assert len(report_files) == 1
     assert "TestCo" in report_files[0].read_text()
+
+
+def test_browser_launch_failure_still_reports_static_company(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"TestCo": _OneJobScraper(), "RenderCo": _RenderedScraper()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    monkeypatch.setattr(cli, "sync_playwright", lambda: _FakePlaywrightContextManager())
+
+    exit_code = cli.main([])
+
+    assert exit_code == 1
+    report_files = list((tmp_path / "output").glob("*.json"))
+    assert len(report_files) == 1
+    payload = json.loads(report_files[0].read_text())
+    by_company = {entry["company"]: entry for entry in payload}
+    assert by_company["TestCo"]["status"] == "seeded"
+    assert by_company["RenderCo"]["status"] == "failed"
+    assert "launch" in by_company["RenderCo"]["detail"].lower()

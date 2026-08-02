@@ -22,6 +22,34 @@ def _build_fetch_page(browser):
     return fetch_page
 
 
+def _run_companies(
+    names, args, *, fetch_page, browser_error: Exception | None
+) -> list[CompanyResult]:
+    results = []
+    for name in names:
+        scraper = SCRAPERS[name]
+        if args.verbose:
+            print(f"Checking {name}...", file=sys.stderr)
+        if browser_error is not None and scraper.config.fetch_mode is FetchMode.RENDERED:
+            results.append(
+                CompanyResult(
+                    name, "failed", [], 0, f"browser launch failed: {browser_error}"
+                )
+            )
+            continue
+        try:
+            result = run_company(
+                scraper,
+                state_dir=STATE_DIR,
+                dry_run=args.dry_run,
+                fetch_page=fetch_page,
+            )
+        except Exception as exc:  # isolate one company's crash from the rest
+            result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
+        results.append(result)
+    return results
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Check tracked companies for newly posted jobs."
@@ -55,30 +83,29 @@ def main(argv: list[str] | None = None) -> int:
     needs_browser = any(
         SCRAPERS[n].config.fetch_mode is FetchMode.RENDERED for n in names
     )
-    results = []
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch() if needs_browser else None
-        fetch_page = _build_fetch_page(browser)
-        try:
-            for name in names:
-                scraper = SCRAPERS[name]
-                if args.verbose:
-                    print(f"Checking {name}...", file=sys.stderr)
-                try:
-                    result = run_company(
-                        scraper,
-                        state_dir=STATE_DIR,
-                        dry_run=args.dry_run,
-                        fetch_page=fetch_page,
-                    )
-                except Exception as exc:  # isolate one company's crash from the rest
-                    result = CompanyResult(
-                        name, "failed", [], 0, f"unexpected error: {exc}"
-                    )
-                results.append(result)
-        finally:
-            if browser is not None:
-                browser.close()
+
+    if needs_browser:
+        with sync_playwright() as pw:
+            browser = None
+            browser_error: Exception | None = None
+            try:
+                browser = pw.chromium.launch()
+            except Exception as exc:
+                browser_error = exc
+            try:
+                results = _run_companies(
+                    names,
+                    args,
+                    fetch_page=_build_fetch_page(browser),
+                    browser_error=browser_error,
+                )
+            finally:
+                if browser is not None:
+                    browser.close()
+    else:
+        results = _run_companies(
+            names, args, fetch_page=default_fetch_page, browser_error=None
+        )
 
     print(format_report(results))
     if not args.dry_run:
