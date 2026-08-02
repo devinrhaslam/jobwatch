@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import sys
 from pathlib import Path
+from time import sleep
 
 from playwright.sync_api import sync_playwright
 
@@ -13,6 +14,7 @@ from jobwatch.report import format_report, write_report
 
 STATE_DIR = Path("state")
 OUTPUT_DIR = Path("output")
+INTER_COMPANY_DELAY_SECONDS = 1.0
 
 
 def _build_fetch_page(browser):
@@ -26,7 +28,7 @@ def _run_companies(
     names, args, *, fetch_page, browser_error: Exception | None
 ) -> list[CompanyResult]:
     results = []
-    for name in names:
+    for index, name in enumerate(names):
         scraper = SCRAPERS[name]
         if args.verbose:
             print(f"Checking {name}...", file=sys.stderr)
@@ -36,17 +38,19 @@ def _run_companies(
                     name, "failed", [], 0, f"browser launch failed: {browser_error}"
                 )
             )
-            continue
-        try:
-            result = run_company(
-                scraper,
-                state_dir=STATE_DIR,
-                dry_run=args.dry_run,
-                fetch_page=fetch_page,
-            )
-        except Exception as exc:  # isolate one company's crash from the rest
-            result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
-        results.append(result)
+        else:
+            try:
+                result = run_company(
+                    scraper,
+                    state_dir=STATE_DIR,
+                    dry_run=args.dry_run,
+                    fetch_page=fetch_page,
+                )
+            except Exception as exc:  # isolate one company's crash from the rest
+                result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
+            results.append(result)
+        if index < len(names) - 1:
+            sleep(INTER_COMPANY_DELAY_SECONDS)
     return results
 
 

@@ -15,6 +15,15 @@ class _OneJobScraper(Scraper):
         return [Job(company="TestCo", job_id="1", title="Software Engineer", url="https://example.com/1")]
 
 
+class _OneJobScraper2(Scraper):
+    config = CompanyConfig(
+        name="TestCo2", career_url="https://example.com/jobs2", fetch_mode=FetchMode.STATIC
+    )
+
+    def parse(self, payload: str) -> list[Job]:
+        return [Job(company="TestCo2", job_id="1", title="Software Engineer", url="https://example.com/2/1")]
+
+
 class _CrashingScraper(Scraper):
     config = CompanyConfig(
         name="BrokenCo", career_url="https://example.com/jobs", fetch_mode=FetchMode.STATIC
@@ -111,6 +120,7 @@ def test_one_company_crashing_does_not_abort_the_run(tmp_path, monkeypatch, caps
     monkeypatch.setattr(
         cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
     )
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
 
     exit_code = cli.main([])
 
@@ -121,6 +131,38 @@ def test_one_company_crashing_does_not_abort_the_run(tmp_path, monkeypatch, caps
     report_files = list((tmp_path / "output").glob("*.json"))
     assert len(report_files) == 1
     assert "TestCo" in report_files[0].read_text()
+
+
+def test_sleeps_between_companies_but_not_after_the_last(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"TestCo": _OneJobScraper(), "TestCo2": _OneJobScraper2()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    sleeps = []
+    monkeypatch.setattr(cli, "sleep", lambda seconds: sleeps.append(seconds))
+
+    cli.main([])
+
+    assert sleeps == [cli.INTER_COMPANY_DELAY_SECONDS]
+
+
+def test_does_not_sleep_for_a_single_company(tmp_path, monkeypatch):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    sleeps = []
+    monkeypatch.setattr(cli, "sleep", lambda seconds: sleeps.append(seconds))
+
+    cli.main([])
+
+    assert sleeps == []
 
 
 def test_suspicious_result_returns_nonzero_exit_code(tmp_path, monkeypatch):
@@ -150,6 +192,7 @@ def test_browser_launch_failure_still_reports_static_company(tmp_path, monkeypat
         cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
     )
     monkeypatch.setattr(cli, "sync_playwright", lambda: _FakePlaywrightContextManager())
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
 
     exit_code = cli.main([])
 
