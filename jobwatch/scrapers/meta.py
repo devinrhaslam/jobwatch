@@ -54,5 +54,5 @@ class MetaScraper(Scraper):
         if current_page >= MAX_META_PAGES:
             return None
         query["page"] = [str(current_page + 1)]
-        new_query = urlencode({k: v[0] for k, v in query.items()}, safe="[]")
+        new_query = urlencode(query, doseq=True, safe="[]")
         return urlunparse(parsed._replace(query=new_query))
