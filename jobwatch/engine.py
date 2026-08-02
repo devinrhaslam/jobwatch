@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -11,6 +12,7 @@ from jobwatch.scrapers.base import Scraper
 
 MAX_PAGES = 20
 SUSPICIOUS_NEW_JOB_RATIO = 0.8
+logger = logging.getLogger(__name__)
 
 FetchPage = Callable[[CompanyConfig, str], str]
 
@@ -97,8 +99,19 @@ def _fetch_all_pages(
     all_jobs: dict[str, Job] = {}
     url = config.career_url
     for _ in range(MAX_PAGES):
-        payload = fetch_page(config, url)
-        page_jobs = scraper.parse(payload)
+        try:
+            payload = fetch_page(config, url)
+            page_jobs = scraper.parse(payload)
+        except (FetchBlocked, FetchError):
+            if not all_jobs:
+                raise
+            logger.warning(
+                "Stopping pagination for %s after a later page failed: %s",
+                config.name,
+                url,
+                exc_info=True,
+            )
+            break
         page_has_new = False
         for job in page_jobs:
             all_jobs[job.job_id] = job

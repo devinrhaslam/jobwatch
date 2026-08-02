@@ -182,6 +182,23 @@ def test_fetch_error_returns_failed_status(tmp_path):
     assert result.status == "failed"
 
 
+def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
+    def fetch_until_second_page(config, url):
+        if url == "1":
+            raise FetchError("request failed on second page")
+        return url
+
+    result = run_company(
+        FakeScraper([[_job("1")], [_job("2")]]),
+        state_dir=tmp_path,
+        fetch_page=fetch_until_second_page,
+    )
+
+    assert result.status == "seeded"
+    assert result.total_jobs == 1
+    assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+
+
 def test_dry_run_reports_results_without_persisting_snapshot(tmp_path):
     result = run_company(
         FakeScraper([[_job("1")]]),

@@ -19,6 +19,7 @@ CONFIG = CompanyConfig(
 )
 
 MAX_META_PAGES = 15
+META_PAGE_SIZE = 10
 
 
 class MetaScraper(Scraper):
@@ -51,7 +52,7 @@ class MetaScraper(Scraper):
         parsed = urlparse(current_url)
         query = parse_qs(parsed.query)
         current_page = int(query.get("page", ["1"])[0])
-        if current_page >= MAX_META_PAGES:
+        if len(self.parse(payload)) < META_PAGE_SIZE or current_page >= MAX_META_PAGES:
             return None
         query["page"] = [str(current_page + 1)]
         new_query = urlencode(query, doseq=True, safe="[]")
