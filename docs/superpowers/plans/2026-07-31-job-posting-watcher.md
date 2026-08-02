@@ -1644,8 +1644,10 @@ git commit -m "Add Meta scraper (rendered, filtered, paginated)"
 - Test: `tests/test_registry.py`
 
 **Interfaces:**
-- Consumes: `AnthropicScraper`, `StripeScraper`, `CloudflareScraper`, `MetaScraper` (Tasks 10–13); `Scraper` from `jobwatch.scrapers.base`.
+- Consumes: `AnthropicScraper`, `StripeScraper`, `CloudflareScraper`, `MetaScraper` (Tasks 10–13); `Scraper` from `jobwatch.scrapers.base`; `snapshot_path` from `jobwatch.state`.
 - Produces: `SCRAPERS: dict[str, Scraper]`, `get_scraper(name: str) -> Scraper`. Consumed by Task 16 (CLI).
+
+**Added requirement (review-driven, from Task 3):** `snapshot_path` sanitizes company names into filenames, so two names differing only in punctuation would map to the same snapshot file and silently share job history. The registry is the only place that sees every company name at once, so it must guard against that: add a check that all registered companies map to distinct `snapshot_path` values, raising a clear error naming the colliding companies if not, plus a test using two deliberately colliding names (e.g. `"Booking.com"` and `"Booking com"`). This keeps snapshot filenames human-readable — a spec goal — while making a collision loud instead of silent.
 
 - [ ] **Step 1: Write the failing tests**
 
