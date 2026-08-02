@@ -37,11 +37,13 @@ class StripeScraper(Scraper):
             slug = listing.get("slug")
             if not (job_id and title and slug):
                 continue
-            location_names = [
-                locations[i]["name"]
-                for i in listing.get("locationIndices", [])
-                if i < len(locations)
-            ]
+            location_names: list[str] = []
+            for i in listing.get("locationIndices", []):
+                if not 0 <= i < len(locations):
+                    continue
+                name = locations[i].get("name")
+                if name:
+                    location_names.append(name)
             jobs.append(
                 Job(
                     company=self.config.name,
