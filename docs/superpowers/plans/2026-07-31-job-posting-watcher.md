@@ -478,6 +478,8 @@ git commit -m "Add job diffing against saved snapshot"
 
 This task covers only `fetch_static`; `fetch_rendered` is added in Task 6 in the same file.
 
+**As implemented (review-driven corrections to the code sample below):** the sample's retry delay `backoff_seconds * (attempt + 1)` is *linear*, contradicting this plan's own constraint of exponential backoff, and it sleeps even after the final attempt — burning 12s of dead wait per unreachable company. The shipped version uses `backoff_seconds * (2 ** attempt)` and sleeps only when another attempt follows (default delays: 2s, 4s, then raise), and takes a keyword-only `sleep` seam so tests can assert the delay sequence without real waiting. Task 5 therefore ships 7 tests, not 4.
+
 - [ ] **Step 1: Write the failing tests**
 
 `tests/test_fetch.py`:
@@ -1993,7 +1995,7 @@ git commit -m "Add CLI entrypoint"
 - [ ] **Step 1: Run the full test suite**
 
 Run: `.venv/bin/pytest -v`
-Expected: PASS, 47 tests total (5 models + 6 state + 3 diff + 6 fetch + 7 engine + 4 report + 2 anthropic + 2 stripe + 2 cloudflare + 3 meta + 3 registry + 1 filters + 3 cli = 47), zero failures. If review-driven additions in earlier tasks changed a count, reconcile against the per-task expectations rather than assuming this total; what matters is zero failures and no skipped tests.
+Expected: PASS, roughly 55 tests, zero failures, no skips. Review-driven additions in earlier tasks moved several per-task counts above their original estimates (models 5, state 10, fetch 9 once Task 6 lands, registry 4 with the collision guard), so reconcile against the per-task expectations rather than treating this total as exact. What matters is zero failures and pristine output.
 
 - [ ] **Step 2: Run a live dry-run against all four pilot companies**
 
