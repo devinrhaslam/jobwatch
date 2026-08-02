@@ -64,6 +64,11 @@ def run_company(
 
     new_jobs = diff.find_new_jobs(jobs, snapshot)
 
+    # An empty snapshot is deliberately exempt: this guard detects a site
+    # changing its job ID scheme, which is only knowable by comparison against
+    # jobs already recorded. With nothing recorded, an all-new run is expected
+    # (a company that had no openings when it was first seeded), so flagging it
+    # would be a false alarm that withholds genuinely new jobs.
     if snapshot and jobs and len(new_jobs) / len(jobs) >= SUSPICIOUS_NEW_JOB_RATIO:
         return CompanyResult(
             config.name,
