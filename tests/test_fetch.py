@@ -50,6 +50,12 @@ def test_fetch_static_retries_on_500_then_succeeds():
     assert session.calls == 2
 
 
+def test_fetch_static_raises_fetch_error_on_404():
+    session = _StubSession([_StubResponse(404)])
+    with pytest.raises(FetchError):
+        fetch_static("https://example.com", session=session)
+
+
 def test_fetch_static_raises_fetch_error_after_retries_exhausted():
     session = _StubSession([_StubResponse(500), _StubResponse(500)])
     with pytest.raises(FetchError):

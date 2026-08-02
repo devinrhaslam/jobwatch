@@ -48,7 +48,8 @@ def fetch_static(
             if attempt < retries - 1:
                 sleep(backoff_seconds * (2**attempt))
             continue
-        response.raise_for_status()
+        if response.status_code >= 400:
+            raise FetchError(f"{url} returned HTTP {response.status_code}")
         return response.text
     raise FetchError(f"failed to fetch {url} after {retries} attempts") from last_error
 
