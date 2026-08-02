@@ -55,13 +55,25 @@ def run_company(
     except FetchError as exc:
         return CompanyResult(config.name, "failed", [], 0, str(exc))
 
-    if not jobs and snapshot:
+    if not jobs:
+        if is_seed_run:
+            # Persisting an empty seed would look identical, on every future
+            # run, to "existing snapshot" — permanently silencing a company
+            # whose scraper was broken from day one. Refuse to persist so the
+            # next run retries the seed instead of locking in the failure.
+            return CompanyResult(
+                config.name,
+                "failed",
+                [],
+                0,
+                "seed run produced zero jobs; the parser or page markup is suspect",
+            )
         return CompanyResult(
             config.name,
             "failed",
             [],
             0,
-            "parser returned zero jobs against a non-empty snapshot",
+            "parser returned zero jobs against an existing snapshot",
         )
 
     new_jobs = diff.find_new_jobs(jobs, snapshot)

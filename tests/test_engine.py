@@ -2,7 +2,7 @@ from jobwatch.engine import MAX_PAGES, run_company
 from jobwatch.fetch import FetchBlocked, FetchError
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
-from jobwatch.state import load_snapshot, snapshot_path
+from jobwatch.state import load_snapshot, save_snapshot, snapshot_path
 
 
 class FakeScraper(Scraper):
@@ -39,15 +39,26 @@ def test_first_run_seeds_without_reporting_new_jobs(tmp_path):
     assert result.total_jobs == 2
 
 
-def test_empty_first_run_persists_seed_state_and_reports_future_jobs(tmp_path):
+def test_zero_job_seed_run_fails_loudly_and_does_not_persist(tmp_path):
+    result = run_company(
+        FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+    )
+
+    assert result.status == "failed"
+    assert "seed" in result.detail.lower()
+    assert not snapshot_path("Acme", tmp_path).exists()
+
+
+def test_seed_is_retried_after_a_failed_zero_job_seed(tmp_path):
     run_company(FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0")
 
     result = run_company(
         FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
     )
 
-    assert result.status == "ok"
-    assert [job.job_id for job in result.new_jobs] == ["1"]
+    assert result.status == "seeded"
+    assert result.new_jobs == []
+    assert result.total_jobs == 1
 
 
 def test_unchanged_second_run_reports_no_new_jobs(tmp_path):
@@ -103,6 +114,32 @@ def test_zero_jobs_against_nonempty_snapshot_fails_without_overwriting_state(tmp
     )
     assert result.status == "failed"
     assert set(load_snapshot("Acme", tmp_path)) == {"1", "2"}
+
+
+def test_existing_empty_snapshot_with_zero_jobs_fails_not_silently_ok(tmp_path):
+    # Simulates a scraper that seeded fine once (writing an empty snapshot for
+    # a company with no jobs yet) and then broke before ever posting anything:
+    # the snapshot file exists but is empty, so this is NOT a seed run.
+    save_snapshot("Acme", {}, tmp_path)
+
+    result = run_company(
+        FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+    )
+
+    assert result.status == "failed"
+
+
+def test_existing_empty_snapshot_with_real_jobs_reports_them_as_ok(tmp_path):
+    save_snapshot("Acme", {}, tmp_path)
+
+    result = run_company(
+        FakeScraper([[_job("1"), _job("2")]]),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: "0",
+    )
+
+    assert result.status == "ok"
+    assert {j.job_id for j in result.new_jobs} == {"1", "2"}
 
 
 def test_pagination_stops_early_when_page_has_no_new_ids(tmp_path):
