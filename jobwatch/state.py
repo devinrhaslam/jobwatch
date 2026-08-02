@@ -16,6 +16,10 @@ def snapshot_path(company: str, state_dir: Path = DEFAULT_STATE_DIR) -> Path:
     return state_dir / f"{safe_name}.json"
 
 
+def snapshot_exists(company: str, state_dir: Path = DEFAULT_STATE_DIR) -> bool:
+    return snapshot_path(company, state_dir).exists()
+
+
 def load_snapshot(company: str, state_dir: Path = DEFAULT_STATE_DIR) -> dict[str, dict]:
     path = snapshot_path(company, state_dir)
     if not path.exists():

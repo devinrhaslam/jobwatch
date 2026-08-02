@@ -1,7 +1,13 @@
 from datetime import datetime, timezone
 
 from jobwatch.models import Job
-from jobwatch.state import load_snapshot, merge_snapshot, save_snapshot, snapshot_path
+from jobwatch.state import (
+    load_snapshot,
+    merge_snapshot,
+    save_snapshot,
+    snapshot_exists,
+    snapshot_path,
+)
 
 
 def _job(job_id):
@@ -12,6 +18,14 @@ def _job(job_id):
 
 def test_load_snapshot_missing_file_returns_empty_dict(tmp_path):
     assert load_snapshot("Acme", state_dir=tmp_path) == {}
+
+
+def test_snapshot_exists_distinguishes_missing_and_empty_snapshots(tmp_path):
+    assert not snapshot_exists("Acme", state_dir=tmp_path)
+
+    save_snapshot("Acme", {}, state_dir=tmp_path)
+
+    assert snapshot_exists("Acme", state_dir=tmp_path)
 
 
 def test_save_and_load_snapshot_round_trip(tmp_path):

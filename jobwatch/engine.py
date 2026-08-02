@@ -38,8 +38,8 @@ def run_company(
     fetch_page: FetchPage = default_fetch_page,
 ) -> CompanyResult:
     config = scraper.config
+    is_seed_run = not state.snapshot_exists(config.name, state_dir)
     snapshot = state.load_snapshot(config.name, state_dir)
-    is_seed_run = not snapshot
 
     try:
         jobs = _fetch_all_pages(
@@ -64,7 +64,7 @@ def run_company(
 
     new_jobs = diff.find_new_jobs(jobs, snapshot)
 
-    if not is_seed_run and jobs and len(new_jobs) / len(jobs) >= SUSPICIOUS_NEW_JOB_RATIO:
+    if snapshot and jobs and len(new_jobs) / len(jobs) >= SUSPICIOUS_NEW_JOB_RATIO:
         return CompanyResult(
             config.name,
             "suspicious",
