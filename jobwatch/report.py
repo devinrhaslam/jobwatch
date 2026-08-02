@@ -29,6 +29,11 @@ def format_report(results: list[CompanyResult]) -> str:
             lines.append(f"## {result.company} — FAILED: {result.detail}")
         elif result.status == "suspicious":
             lines.append(f"## {result.company} — SUSPICIOUS: {result.detail}")
+        else:
+            detail_part = f": {result.detail}" if result.detail else ""
+            lines.append(
+                f"## {result.company} — UNRECOGNIZED STATUS '{result.status}'{detail_part}"
+            )
     return "\n".join(lines)
 
 
