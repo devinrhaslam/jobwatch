@@ -1,8 +1,11 @@
+import http.server
+import threading
+
 import requests
 
 import pytest
 
-from jobwatch.fetch import FetchBlocked, FetchError, fetch_static
+from jobwatch.fetch import FetchBlocked, FetchError, fetch_rendered, fetch_static
 
 
 class _StubResponse:
@@ -119,3 +122,33 @@ def test_fetch_static_no_sleep_after_final_failed_attempt():
             sleep=record_sleep,
         )
     assert len(delays) == 3
+
+
+_LOCAL_HTML = "<!doctype html><html><body><div id=\"ready\">Loaded</div></body></html>"
+
+
+@pytest.fixture
+def local_server(tmp_path):
+    (tmp_path / "index.html").write_text(_LOCAL_HTML, encoding="utf-8")
+
+    def handler(*args, **kwargs):
+        return http.server.SimpleHTTPRequestHandler(*args, directory=str(tmp_path), **kwargs)
+
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    try:
+        yield f"http://127.0.0.1:{server.server_port}/index.html"
+    finally:
+        server.shutdown()
+        thread.join(timeout=5)
+
+
+def test_fetch_rendered_waits_for_selector(local_server):
+    html = fetch_rendered(local_server, wait_for_selector="#ready", timeout_ms=10000)
+    assert "Loaded" in html
+
+
+def test_fetch_rendered_raises_on_missing_selector(local_server):
+    with pytest.raises(FetchError):
+        fetch_rendered(local_server, wait_for_selector="#does-not-exist", timeout_ms=3000)
