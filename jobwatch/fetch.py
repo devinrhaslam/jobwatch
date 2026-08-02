@@ -56,7 +56,7 @@ def fetch_static(
 def fetch_rendered(
     url: str,
     *,
-    wait_for_selector: str | None = None,
+    wait_for_selector: str,
     timeout_ms: int = 30000,
     browser=None,
 ) -> str:
@@ -68,10 +68,7 @@ def fetch_rendered(
         try:
             page = pw_browser.new_page(user_agent=USER_AGENT)
             page.goto(url, wait_until="networkidle", timeout=timeout_ms)
-            if wait_for_selector:
-                page.wait_for_selector(wait_for_selector, timeout=timeout_ms)
-            else:
-                page.wait_for_timeout(2000)
+            page.wait_for_selector(wait_for_selector, timeout=timeout_ms)
             return page.content()
         except Exception as exc:
             failure = exc

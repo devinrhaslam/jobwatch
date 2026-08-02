@@ -135,7 +135,7 @@ _LOCAL_HTML = """\
       ready.id = "ready";
       ready.textContent = ["Delayed", "job", "listings", "loaded"].join(" ");
       document.body.append(ready);
-    }, 600);
+    }, 1800);
   </script>
 </body>
 </html>
@@ -168,3 +168,8 @@ def test_fetch_rendered_waits_for_selector(local_server):
 def test_fetch_rendered_raises_on_missing_selector(local_server):
     with pytest.raises(FetchError):
         fetch_rendered(local_server, wait_for_selector="#does-not-exist", timeout_ms=3000)
+
+
+def test_fetch_rendered_requires_wait_for_selector(local_server):
+    with pytest.raises(TypeError, match="wait_for_selector"):
+        fetch_rendered(local_server)
