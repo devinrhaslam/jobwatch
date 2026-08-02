@@ -6,8 +6,8 @@ to anything new on day one before the listing gets buried.
 
 Each company keeps a persistent snapshot of every job ID ever seen. A run
 fetches the current listings, diffs them against that snapshot, reports what
-is new, and merges the results back into the snapshot. Job URLs in the report
-resolve to live application pages.
+is new, and merges the results back into the snapshot. Reported jobs carry the
+site's own job-detail URL, so a listing can be opened and applied to directly.
 
 ## Setup
 
