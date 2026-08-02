@@ -124,7 +124,22 @@ def test_fetch_static_no_sleep_after_final_failed_attempt():
     assert len(delays) == 3
 
 
-_LOCAL_HTML = "<!doctype html><html><body><div id=\"ready\">Loaded</div></body></html>"
+_LOCAL_HTML = """\
+<!doctype html>
+<html>
+<body>
+  <div id="static-content">Page shell loaded</div>
+  <script>
+    setTimeout(() => {
+      const ready = document.createElement("div");
+      ready.id = "ready";
+      ready.textContent = ["Delayed", "job", "listings", "loaded"].join(" ");
+      document.body.append(ready);
+    }, 600);
+  </script>
+</body>
+</html>
+"""
 
 
 @pytest.fixture
@@ -146,7 +161,8 @@ def local_server(tmp_path):
 
 def test_fetch_rendered_waits_for_selector(local_server):
     html = fetch_rendered(local_server, wait_for_selector="#ready", timeout_ms=10000)
-    assert "Loaded" in html
+    assert "Page shell loaded" in html
+    assert "Delayed job listings loaded" in html
 
 
 def test_fetch_rendered_raises_on_missing_selector(local_server):
