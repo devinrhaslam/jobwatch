@@ -25,6 +25,20 @@ class FakeScraper(Scraper):
         return str(next_index)
 
 
+class RaisingScraper(FakeScraper):
+    """Like FakeScraper, but parse() raises for one specific page index,
+    simulating a site markup change breaking a BeautifulSoup selector."""
+
+    def __init__(self, pages, raise_at_index, config=None):
+        super().__init__(pages, config)
+        self._raise_at_index = raise_at_index
+
+    def parse(self, payload: str) -> list[Job]:
+        if int(payload) == self._raise_at_index:
+            raise KeyError("missing expected field")
+        return super().parse(payload)
+
+
 def _job(job_id, title="Software Engineer"):
     return Job(
         company="Acme", job_id=job_id, title=title, url=f"https://acme.example/{job_id}"
@@ -230,6 +244,26 @@ def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
         state_dir=tmp_path,
         fetch_page=fetch_until_second_page,
     )
+
+    assert result.status == "seeded"
+    assert result.total_jobs == 1
+    assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+
+
+def test_first_page_parse_error_returns_failed_naming_the_parser(tmp_path):
+    scraper = RaisingScraper([[_job("1")]], raise_at_index=0)
+
+    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: "0")
+
+    assert result.status == "failed"
+    assert "parser" in result.detail.lower()
+    assert "missing expected field" in result.detail
+
+
+def test_later_page_parse_error_keeps_already_collected_jobs(tmp_path):
+    scraper = RaisingScraper([[_job("1")], [_job("2")]], raise_at_index=1)
+
+    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: u)
 
     assert result.status == "seeded"
     assert result.total_jobs == 1

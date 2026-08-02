@@ -18,6 +18,11 @@ logger = logging.getLogger(__name__)
 FetchPage = Callable[[CompanyConfig, str], str]
 
 
+class ParseError(Exception):
+    """Raised when a scraper's parse() call raises against page markup,
+    e.g. a site redesign breaking a BeautifulSoup selector."""
+
+
 def default_fetch_page(config: CompanyConfig, url: str, *, browser=None) -> str:
     if config.fetch_mode is FetchMode.STATIC:
         return fetch_static(url)
@@ -54,6 +59,8 @@ def run_company(
     except FetchBlocked as exc:
         return CompanyResult(config.name, "blocked", [], 0, str(exc))
     except FetchError as exc:
+        return CompanyResult(config.name, "failed", [], 0, str(exc))
+    except ParseError as exc:
         return CompanyResult(config.name, "failed", [], 0, str(exc))
 
     if not jobs:
@@ -119,12 +126,25 @@ def _fetch_all_pages(
     for _ in range(MAX_PAGES):
         try:
             payload = fetch_page(config, url)
-            page_jobs = scraper.parse(payload)
         except (FetchBlocked, FetchError):
             if not all_jobs:
                 raise
             logger.warning(
-                "Stopping pagination for %s after a later page failed: %s",
+                "Stopping pagination for %s after a later page failed to fetch: %s",
+                config.name,
+                url,
+                exc_info=True,
+            )
+            break
+        try:
+            page_jobs = scraper.parse(payload)
+        except Exception as exc:
+            if not all_jobs:
+                raise ParseError(
+                    f"parser raised while parsing {config.name} at {url}: {exc}"
+                ) from exc
+            logger.warning(
+                "Stopping pagination for %s after a later page failed to parse: %s",
                 config.name,
                 url,
                 exc_info=True,
