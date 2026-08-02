@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
@@ -23,7 +24,7 @@ class AnthropicScraper(Scraper):
         for anchor in soup.select('a[href*="/anthropic/jobs/"]'):
             href = anchor.get("href", "")
             match = re.search(r"/jobs/(\d+)", href)
-            captions = anchor.select("p.caption")
+            captions = anchor.find_all("p")
             if not match or len(captions) < 2:
                 continue
             jobs.append(
@@ -31,7 +32,7 @@ class AnthropicScraper(Scraper):
                     company=self.config.name,
                     job_id=match.group(1),
                     title=captions[0].get_text(strip=True),
-                    url=href,
+                    url=urljoin(self.config.career_url, href),
                     location=captions[1].get_text(strip=True),
                 )
             )

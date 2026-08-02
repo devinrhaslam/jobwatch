@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from datetime import datetime
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
@@ -49,7 +50,7 @@ class CloudflareScraper(Scraper):
                 company=self.config.name,
                 job_id=job_id,
                 title=paragraphs[0],
-                url=href,
+                url=urljoin(self.config.career_url, href),
                 location=paragraphs[1],
                 posted_date=posted_date,
             )
