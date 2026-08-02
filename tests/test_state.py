@@ -1,5 +1,8 @@
 from datetime import datetime, timezone
 
+import pytest
+
+import jobwatch.state as state
 from jobwatch.models import Job
 from jobwatch.state import (
     load_snapshot,
@@ -77,6 +80,30 @@ def test_merge_snapshot_updates_last_seen_but_keeps_first_seen():
     merged = merge_snapshot(snapshot, [_job("1")], now=second)
     assert merged["1"]["first_seen"] == first.isoformat()
     assert merged["1"]["last_seen"] == second.isoformat()
+
+
+def test_save_snapshot_writes_valid_json_and_leaves_no_stray_temp_file(tmp_path):
+    save_snapshot("Acme", {"1": {"title": "Engineer"}}, state_dir=tmp_path)
+
+    assert load_snapshot("Acme", state_dir=tmp_path) == {"1": {"title": "Engineer"}}
+    assert list(tmp_path.iterdir()) == [snapshot_path("Acme", tmp_path)]
+
+
+def test_save_snapshot_failure_during_replace_leaves_existing_file_intact(
+    tmp_path, monkeypatch
+):
+    save_snapshot("Acme", {"1": {"title": "Engineer"}}, state_dir=tmp_path)
+
+    def boom(*args, **kwargs):
+        raise OSError("disk full")
+
+    monkeypatch.setattr(state.os, "replace", boom)
+
+    with pytest.raises(OSError):
+        save_snapshot("Acme", {"2": {"title": "New"}}, state_dir=tmp_path)
+
+    assert load_snapshot("Acme", state_dir=tmp_path) == {"1": {"title": "Engineer"}}
+    assert list(tmp_path.iterdir()) == [snapshot_path("Acme", tmp_path)]
 
 
 def test_merge_snapshot_retains_departed_job():

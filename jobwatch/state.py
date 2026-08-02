@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import json
+import os
 import re
+import tempfile
 from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,7 +34,16 @@ def save_snapshot(
 ) -> None:
     state_dir.mkdir(parents=True, exist_ok=True)
     path = snapshot_path(company, state_dir)
-    path.write_text(json.dumps(snapshot, indent=2, sort_keys=True), encoding="utf-8")
+    fd, tmp_name = tempfile.mkstemp(
+        dir=state_dir, prefix=f"{path.name}.", suffix=".tmp"
+    )
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(json.dumps(snapshot, indent=2, sort_keys=True))
+        os.replace(tmp_name, path)
+    except BaseException:
+        os.unlink(tmp_name)
+        raise
 
 
 def merge_snapshot(
