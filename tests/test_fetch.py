@@ -179,3 +179,82 @@ def test_fetch_rendered_raises_on_missing_selector(local_server):
 def test_fetch_rendered_requires_wait_for_selector(local_server):
     with pytest.raises(TypeError, match="wait_for_selector"):
         fetch_rendered(local_server)
+
+
+class _FakePage:
+    def __init__(self, should_fail):
+        self.should_fail = should_fail
+        self.closed = False
+
+    def goto(self, url, wait_until=None, timeout=None):
+        if self.should_fail:
+            raise TimeoutError("Timeout 30000ms exceeded")
+
+    def wait_for_selector(self, selector, timeout=None):
+        pass
+
+    def content(self):
+        return "<html>rendered</html>"
+
+    def close(self):
+        self.closed = True
+
+
+class _FakeBrowser:
+    """Stands in for a playwright Browser without launching real Chromium."""
+
+    def __init__(self, outcomes):
+        self._outcomes = list(outcomes)
+        self.pages: list[_FakePage] = []
+
+    def new_page(self, user_agent=None):
+        page = _FakePage(should_fail=self._outcomes.pop(0))
+        self.pages.append(page)
+        return page
+
+
+def test_fetch_rendered_retries_transient_failure_then_succeeds():
+    browser = _FakeBrowser([True, False])
+    html = fetch_rendered(
+        "https://example.com",
+        wait_for_selector="#ready",
+        browser=browser,
+        retries=3,
+        backoff_seconds=0,
+    )
+    assert html == "<html>rendered</html>"
+    assert len(browser.pages) == 2
+    assert all(page.closed for page in browser.pages)
+
+
+def test_fetch_rendered_raises_fetch_error_after_retries_exhausted():
+    browser = _FakeBrowser([True, True, True])
+    with pytest.raises(FetchError):
+        fetch_rendered(
+            "https://example.com",
+            wait_for_selector="#ready",
+            browser=browser,
+            retries=3,
+            backoff_seconds=0,
+        )
+    assert len(browser.pages) == 3
+    assert all(page.closed for page in browser.pages)
+
+
+def test_fetch_rendered_no_sleep_after_final_failed_attempt():
+    delays = []
+
+    def record_sleep(seconds):
+        delays.append(seconds)
+
+    browser = _FakeBrowser([True, True, True, True])
+    with pytest.raises(FetchError):
+        fetch_rendered(
+            "https://example.com",
+            wait_for_selector="#ready",
+            browser=browser,
+            retries=4,
+            backoff_seconds=1.0,
+            sleep=record_sleep,
+        )
+    assert delays == [1.0, 2.0, 4.0]

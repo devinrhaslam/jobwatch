@@ -59,28 +59,35 @@ def fetch_rendered(
     *,
     wait_for_selector: str,
     timeout_ms: int = 30000,
+    retries: int = DEFAULT_RETRIES,
+    backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
     browser=None,
+    sleep: Callable[[float], None] = time.sleep,
 ) -> str:
     from playwright.sync_api import sync_playwright
 
-    def _fetch(pw_browser) -> str:
-        page = None
-        failure = None
+    def _render_once(pw_browser) -> str:
+        page = pw_browser.new_page(user_agent=USER_AGENT)
         try:
-            page = pw_browser.new_page(user_agent=USER_AGENT)
-            page.goto(url, wait_until="networkidle", timeout=timeout_ms)
+            # domcontentloaded, not networkidle: the required wait_for_selector
+            # below is the real readiness signal, and networkidle is flaky on
+            # pages with analytics/polling that never go quiet.
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
             page.wait_for_selector(wait_for_selector, timeout=timeout_ms)
             return page.content()
-        except Exception as exc:
-            failure = exc
-            raise FetchError(f"failed to render {url}: {exc}") from exc
         finally:
-            if page is not None:
-                try:
-                    page.close()
-                except Exception as exc:
-                    if failure is None:
-                        raise FetchError(f"failed to render {url}: {exc}") from exc
+            page.close()
+
+    def _fetch(pw_browser) -> str:
+        last_error: Exception | None = None
+        for attempt in range(retries):
+            try:
+                return _render_once(pw_browser)
+            except Exception as exc:
+                last_error = exc
+                if attempt < retries - 1:
+                    sleep(backoff_seconds * (2**attempt))
+        raise FetchError(f"failed to render {url} after {retries} attempts") from last_error
 
     if browser is not None:
         return _fetch(browser)
