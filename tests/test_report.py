@@ -47,6 +47,27 @@ def test_format_report_shows_suspicious_companies_with_detail():
     assert "job count dropped 90%" in text
 
 
+def test_format_report_blocked_without_detail_omits_the_word_none():
+    results = [CompanyResult("Acme", "blocked", [], 0, None)]
+    text = format_report(results)
+    assert "BLOCKED" in text
+    assert "None" not in text
+
+
+def test_format_report_failed_without_detail_omits_the_word_none():
+    results = [CompanyResult("Acme", "failed", [], 0, None)]
+    text = format_report(results)
+    assert "FAILED" in text
+    assert "None" not in text
+
+
+def test_format_report_suspicious_without_detail_omits_the_word_none():
+    results = [CompanyResult("Acme", "suspicious", [], 12, None)]
+    text = format_report(results)
+    assert "SUSPICIOUS" in text
+    assert "None" not in text
+
+
 def test_format_report_shows_ok_companies_with_no_new_jobs():
     results = [CompanyResult("Acme", "ok", [], 5)]
     text = format_report(results)

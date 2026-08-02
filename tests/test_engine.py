@@ -198,6 +198,8 @@ def test_pagination_stops_at_page_ceiling(tmp_path):
     assert len(calls) == MAX_PAGES
     assert calls == [str(index) for index in range(MAX_PAGES)]
     assert result.total_jobs == MAX_PAGES
+    assert result.detail is not None
+    assert str(MAX_PAGES) in result.detail
 
 
 def test_pagination_deduplicates_job_ids_across_pages(tmp_path):
@@ -248,6 +250,7 @@ def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
     assert result.status == "seeded"
     assert result.total_jobs == 1
     assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+    assert result.detail is not None
 
 
 def test_first_page_parse_error_returns_failed_naming_the_parser(tmp_path):
@@ -268,6 +271,7 @@ def test_later_page_parse_error_keeps_already_collected_jobs(tmp_path):
     assert result.status == "seeded"
     assert result.total_jobs == 1
     assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+    assert result.detail is not None
 
 
 def test_dry_run_reports_results_without_persisting_snapshot(tmp_path):

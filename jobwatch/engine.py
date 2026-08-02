@@ -50,7 +50,7 @@ def run_company(
     snapshot = state.load_snapshot(config.name, state_dir)
 
     try:
-        jobs = _fetch_all_pages(
+        jobs, truncation_detail = _fetch_all_pages(
             scraper,
             config,
             known_ids=None if is_seed_run else set(snapshot),
@@ -111,7 +111,7 @@ def run_company(
 
     status = "seeded" if is_seed_run else "ok"
     reported_new = [] if is_seed_run else new_jobs
-    return CompanyResult(config.name, status, reported_new, len(jobs))
+    return CompanyResult(config.name, status, reported_new, len(jobs), truncation_detail)
 
 
 def _fetch_all_pages(
@@ -120,9 +120,10 @@ def _fetch_all_pages(
     *,
     known_ids: set[str] | None,
     fetch_page: FetchPage,
-) -> list[Job]:
+) -> tuple[list[Job], str | None]:
     all_jobs: dict[str, Job] = {}
     url = config.career_url
+    truncated: str | None = None
     for _ in range(MAX_PAGES):
         try:
             payload = fetch_page(config, url)
@@ -135,6 +136,7 @@ def _fetch_all_pages(
                 url,
                 exc_info=True,
             )
+            truncated = f"pagination stopped early: a later page failed to fetch ({url})"
             break
         try:
             page_jobs = scraper.parse(payload)
@@ -149,6 +151,7 @@ def _fetch_all_pages(
                 url,
                 exc_info=True,
             )
+            truncated = f"pagination stopped early: a later page failed to parse ({url})"
             break
         page_has_new = False
         for job in page_jobs:
@@ -161,4 +164,6 @@ def _fetch_all_pages(
         if known_ids is not None and not page_has_new:
             break
         url = next_url
-    return list(all_jobs.values())
+    else:
+        truncated = f"reached the {MAX_PAGES}-page pagination ceiling; more jobs may exist"
+    return list(all_jobs.values()), truncated

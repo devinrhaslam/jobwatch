@@ -14,6 +14,7 @@ def format_report(results: list[CompanyResult]) -> str:
     total_new = sum(len(r.new_jobs) for r in results)
     lines = [f"Job Posting Watcher — {len(results)} companies, {total_new} new jobs", ""]
     for result in results:
+        detail_part = f": {result.detail}" if result.detail else ""
         if result.status == "ok" and result.new_jobs:
             lines.append(f"## {result.company} — {len(result.new_jobs)} new")
             for job in result.new_jobs:
@@ -24,13 +25,12 @@ def format_report(results: list[CompanyResult]) -> str:
         elif result.status == "seeded":
             lines.append(f"## {result.company} — seeded {result.total_jobs} jobs, no alerts")
         elif result.status == "blocked":
-            lines.append(f"## {result.company} — BLOCKED: {result.detail}")
+            lines.append(f"## {result.company} — BLOCKED{detail_part}")
         elif result.status == "failed":
-            lines.append(f"## {result.company} — FAILED: {result.detail}")
+            lines.append(f"## {result.company} — FAILED{detail_part}")
         elif result.status == "suspicious":
-            lines.append(f"## {result.company} — SUSPICIOUS: {result.detail}")
+            lines.append(f"## {result.company} — SUSPICIOUS{detail_part}")
         else:
-            detail_part = f": {result.detail}" if result.detail else ""
             lines.append(
                 f"## {result.company} — UNRECOGNIZED STATUS '{result.status}'{detail_part}"
             )
