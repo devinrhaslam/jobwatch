@@ -223,3 +223,44 @@ For newest-first paginated sources such as Meta, the framework stops paginating 
 3. A deliberately broken parser (bad selector) is reported as a failure and leaves its snapshot unmodified.
 4. One company failing does not prevent the other three from reporting.
 5. Adding a new company requires only a new scraper module and a registry entry.
+
+## Addendum (2026-08-03): Scaling Past the Four Pilot Companies
+
+Phase 1 (this spec, the four pilot companies) is complete, live-verified, and merged to `main`. This section records a scoping investigation done before starting on the remaining ~40 companies in `companies.txt`, so that work is not repeated or lost. **No implementation decision below has been made yet** — this is findings plus an open question for the user.
+
+### Finding: most remaining companies share one of three hiring platforms
+
+Rather than assuming every company needs its own hand-written career-page scraper, `tools/probe_ats.py` (committed) probes each company in `companies.txt` against known ATS endpoints, requiring a non-trivial posting count as proof (≥3 jobs) so a platform that answers HTTP 200 with an empty result for any slug isn't misreported as a match.
+
+Result, run 2026-08-03:
+
+| Platform | Companies matched | Example |
+|---|---|---|
+| Greenhouse (public JSON API, `boards-api.greenhouse.io`) | 19, including Airbnb, Databricks, SpaceX, Reddit, Pinterest, Jane Street, and the already-built Anthropic/Stripe/Cloudflare | `https://boards-api.greenhouse.io/v1/boards/{slug}/jobs` |
+| Ashby (public JSON API, `api.ashbyhq.com`) | 6: OpenAI, Notion, Snowflake, Ramp, Plaid, Linear | `https://api.ashbyhq.com/posting-api/job-board/{slug}` |
+| SmartRecruiters | 1: Canva | `https://api.smartrecruiters.com/v1/companies/{slug}/postings` |
+| No known platform (custom career portal) | 18: Google, Amazon, Apple, Microsoft, Netflix, Uber, Tesla, NVIDIA, Meta (built), Snap, DoorDash, GitHub, Salesforce, CrowdStrike, Rippling, ByteDance, Two Sigma, Hudson River Trading | — |
+
+If confirmed, **26 of the 44 companies could be covered by three parameterized parsers instead of 26 bespoke ones** — including retiring the existing bespoke Anthropic, Stripe, and Cloudflare scrapers in favor of the shared Greenhouse parser. Both Greenhouse and Ashby also return a real publication timestamp per job (`first_published`/`updated_at` on Greenhouse, `publishedAt` on Ashby), which the current pilot scrapers mostly lack (only Cloudflare exposes one, via HTML scraping).
+
+The 18 custom-portal companies get no benefit from this and still need individual scrapers, following the existing Meta pattern (recon the live site, capture a fixture, write a scraper, register it).
+
+### Objection raised and investigated: would an ATS API be "stale" like a third-party aggregator?
+
+The user's concern: sites like Glassdoor or Indeed crawl company postings on their own schedule and can lag a real posting by a day or more, which would defeat a same-day-apply tool.
+
+Investigated by comparing Cloudflare's own careers page (the existing scraper, `tests/fixtures/cloudflare_careers.html` lineage) against the Greenhouse API for the same company on 2026-08-03: **both returned exactly 284 jobs, with zero jobs present in one but not the other.** Reasoning: Greenhouse/Ashby are not third-party observers crawling a company's page — they are the ATS the company's recruiters post directly into; the company's own careers page (what the pilot scrapers currently read) is itself a downstream renderer of that same underlying data. This is visible in the existing scrapers: Cloudflare's page links to `boards.greenhouse.io/cloudflare/jobs/<id>`, Anthropic's to `job-boards.greenhouse.io/anthropic/jobs/<id>`, and Stripe's embeds a `greenhouseId` per listing.
+
+One asymmetry found: Stripe's Greenhouse API returned 548 jobs vs. 513 on Stripe's own page — the career page is a *filtered* view of the same underlying data, not a separate or delayed one. If anything this suggests the API is more complete, not staler.
+
+This comparison was run on a quiet weekend with no new postings, so it did not prove same-day freshness under real posting activity — only that the two sources agree exactly when nothing is changing. **The suggested validation, not yet done:** on a weekday, compare a company's Greenhouse/Ashby API response against its careers page at the same moment once real postings are flowing, and check whether either source ever shows a job the other lacks, and by how long. If the careers page ever leads the API, that would undermine the API approach for that platform.
+
+### Open decision (unresolved — ask the user before proceeding)
+
+Three questions were on the table when this session ended, not yet answered:
+
+1. **Scope of the platform-parser work:** build the 3 platform parsers now (covering 26 companies, including replacing the 3 existing bespoke scrapers) — or build platform parsers only for *new* companies and leave Anthropic/Stripe/Cloudflare as-is — or reject the platform-API approach entirely and continue with one hand-written career-page scraper per company as originally scoped.
+2. **Priority order for the 18 custom-portal companies**, which get no benefit from the platform-parser approach regardless: all of them eventually, big tech first (Google/Amazon/Apple/Microsoft/Netflix), the quant firms first (Hudson River Trading/Two Sigma), or defer all of them until the platform-based companies are working.
+3. Whether to run the weekday freshness validation above before committing to the platform-API approach, or proceed on the weekend evidence and validate opportunistically.
+
+Whoever picks this up should ask the user these three questions (one at a time, per the brainstorming skill) before writing any new scraper code, rather than assuming an answer.
