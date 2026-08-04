@@ -11,43 +11,30 @@ Stripe
 Coinbase
 Databricks
 Snap
-Roblox
 Netflix
 GitHub
 LinkedIn
 Salesforce
-Capital One
 ByteDance
 Hudson River Trading
 Jane Street
 Snowflake
 Waymo
 Plaid
-Broadcom
-Citadel
 Twitch
 Block
 Pinterest
 DoorDash
 Tesla
 SpaceX
-Disney
-Chase
 NVIDIA
-AMD
 Airbnb
 Two Sigma
 Figma
-ServiceNow
-Adobe
-Bloomberg
-Datadog
 Cloudflare
 CrowdStrike
 MongoDB
-Atlassian
 Dropbox
-Shopify
 Vercel
 Linear
 Ramp
@@ -55,5 +42,3 @@ Rippling
 Notion
 Canva
 Reddit
-Intuit
-Oracle
