@@ -19,7 +19,7 @@ python3 -m venv .venv
 ```
 
 `playwright install chromium` is required for Meta, the only company not on a
-JSON board API. Runs that skip it (`--company` on any Greenhouse company) need
+JSON board API. Runs that skip it (`--company` on any platform company) need
 no browser.
 
 The editable install (`pip install -e .`) makes the `jobwatch` package
@@ -58,8 +58,8 @@ On a normal (non-dry-run) run, a dated JSON report is written under
 The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
 `seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
-widely: SpaceX seeds ~2,100 jobs, Databricks ~800, Stripe ~540, Dropbox ~36.
-Seeding all 19 companies stores roughly 5,600 listings.
+widely: SpaceX seeds ~2,100 jobs, OpenAI ~740, Databricks ~800, Stripe ~540,
+Linear ~24. Seeding all 25 companies stores roughly 8,100 listings.
 
 This is deliberate. Without seeding, day one would dump hundreds of "new"
 jobs that have been open for weeks. Real alerting starts on the second run:
@@ -67,9 +67,10 @@ only jobs whose IDs were not in the snapshot are reported. Two consecutive
 runs against unchanged live sites should report zero new jobs on the second
 pass — that is the property that makes daily use trustworthy.
 
-Run it daily after the initial seed. A full run over all 19 companies takes
-roughly 25 seconds, most of it the one-second courtesy delay between companies
-plus headless-browser rendering for Meta.
+Run it daily after the initial seed. A full run over all 25 companies takes
+roughly 35 seconds, most of it the one-second courtesy delay between companies
+plus headless-browser rendering for Meta. OpenAI's board is by far the largest
+download at ~11 MB, since Ashby inlines full job descriptions.
 
 Run it in the **early evening**. Postings appear through the business day, so
 an end-of-day run catches everything posted that day while it is still hours
@@ -91,18 +92,19 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-19 companies are watched: 18 through one shared Greenhouse scraper, plus Meta's
+25 companies are watched: 24 through two shared platform scrapers, plus Meta's
 custom portal. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
 |--------|-----------|------------|
 | Greenhouse board API | Airbnb, Anthropic, Block, Cloudflare, Coinbase, Databricks, Dropbox, Figma, Jane Street, Lyft, MongoDB, Pinterest, Reddit, SpaceX, Stripe, Twitch, Vercel, Waymo | static HTTP |
+| Ashby posting API | Linear, Notion, OpenAI, Plaid, Ramp, Snowflake | static HTTP |
 | Custom portal | Meta | headless browser |
 
-**Greenhouse is the upstream source, not a mirror.** Recruiters post into
-Greenhouse and the company's careers page renders from it — Anthropic's page
-links out to `job-boards.greenhouse.io`, Cloudflare's to
+**Both platforms are the upstream source, not a mirror.** Recruiters post into
+Greenhouse or Ashby and the company's careers page renders from it — Anthropic's
+page links out to `job-boards.greenhouse.io`, Cloudflare's to
 `boards.greenhouse.io`, Stripe embeds a `greenhouseId`. Reading the board API
 is therefore at least as fresh as the careers page, and measurably so: on
 2026-08-03 Anthropic's page and its board API returned an identical 399 jobs
@@ -111,8 +113,9 @@ with zero divergence in either direction, while the API was serving postings
 
 Two consequences worth knowing:
 
-- **Greenhouse companies get a real `posted_date`** from `first_published`.
-  Meta does not, so its recency still comes purely from snapshot diffing.
+- **Every platform company gets a real `posted_date`** — from `first_published`
+  on Greenhouse, `publishedAt` on Ashby. Meta does not, so its recency still
+  comes purely from snapshot diffing.
 - **Stripe's careers page is a filtered view** of its board — 544 jobs on the
   API against 513 on the page. Migrating it surfaced 34 listings the page never
   showed.
@@ -122,10 +125,10 @@ it needs no Playwright at all.
 
 ## Adding a company
 
-**If the company is on Greenhouse**, add one line to `BOARDS` in
-`jobwatch/scrapers/greenhouse.py` mapping its name to its board slug. Nothing
-else — no new module, no new test. Confirm the slug first with
-`python tools/probe_ats.py <name>`.
+**If the company is on Greenhouse or Ashby**, add one line to `BOARDS` in
+`jobwatch/scrapers/greenhouse.py` or `jobwatch/scrapers/ashby.py`, mapping its
+name to its board slug. Nothing else — no new module, no new test. Confirm the
+slug first with `python tools/probe_ats.py <name>`.
 
 **Otherwise** it needs its own module, following `jobwatch/scrapers/meta.py`:
 
@@ -139,12 +142,12 @@ else — no new module, no new test. Confirm the slug first with
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-03, 26 of 44 sit on three platforms:
+uses. As of 2026-08-03, 26 of 44 sit on three platforms — 24 are now built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
 | Greenhouse | 18 | done — shared scraper |
-| Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | not built; same shape as Greenhouse |
+| Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | SmartRecruiters | Canva | not built |
 | Custom portals | 18, incl. Google, Amazon, Apple, Microsoft, Netflix | one scraper each, no leverage |
 
@@ -165,10 +168,10 @@ jobwatch/
   registry.py           maps company name → scraper instance
   models.py             Job, CompanyConfig, FetchMode
   filters.py            report-time role-fit filtering via the Claude API
-  scrapers/             base.py, greenhouse.py (18 companies), meta.py
+  scrapers/             base.py, greenhouse.py (18), ashby.py (6), meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  123 tests, fixture-backed parser and unit tests
+tests/                  135 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -201,7 +204,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (123 tests)
+.venv/bin/pytest          # full suite (135 tests)
 .venv/bin/pytest -v       # verbose
 ```
 

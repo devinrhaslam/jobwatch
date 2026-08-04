@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 from pathlib import Path
 
+from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
@@ -26,6 +27,7 @@ def check_snapshot_path_collisions(
 
 _SCRAPER_INSTANCES = (
     *greenhouse_scrapers(),
+    *ashby_scrapers(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 

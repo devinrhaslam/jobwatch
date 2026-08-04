@@ -1,15 +1,21 @@
 import pytest
 
 from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scraper
-from jobwatch.scrapers.greenhouse import BOARDS
+from jobwatch.scrapers.ashby import BOARDS as ASHBY_BOARDS
+from jobwatch.scrapers.greenhouse import BOARDS as GREENHOUSE_BOARDS
 
 
-def test_every_greenhouse_board_is_registered():
-    assert set(BOARDS) <= set(SCRAPERS)
+def test_every_platform_board_is_registered():
+    assert set(GREENHOUSE_BOARDS) <= set(SCRAPERS)
+    assert set(ASHBY_BOARDS) <= set(SCRAPERS)
 
 
-def test_registry_is_exactly_the_greenhouse_boards_plus_meta():
-    assert set(SCRAPERS) == set(BOARDS) | {"Meta"}
+def test_registry_is_exactly_the_platform_boards_plus_meta():
+    assert set(SCRAPERS) == set(GREENHOUSE_BOARDS) | set(ASHBY_BOARDS) | {"Meta"}
+
+
+def test_no_company_is_claimed_by_two_platforms():
+    assert not set(GREENHOUSE_BOARDS) & set(ASHBY_BOARDS)
 
 
 def test_originally_piloted_companies_survived_the_greenhouse_migration():
