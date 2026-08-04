@@ -10,6 +10,7 @@ from jobwatch import diff, state
 from jobwatch.fetch import (
     FetchBlocked,
     FetchError,
+    fetch_form_post,
     fetch_json_post,
     fetch_rendered,
     fetch_static,
@@ -42,6 +43,8 @@ def default_fetch_page(config: CompanyConfig, url: str, *, browser=None) -> str:
         return fetch_static(url, headers=config.request_headers)
     if config.fetch_mode is FetchMode.JSON_POST:
         return fetch_json_post(url, headers=config.request_headers)
+    if config.fetch_mode is FetchMode.FORM_POST:
+        return fetch_form_post(url, headers=config.request_headers)
     return fetch_rendered(url, wait_for_selector=config.wait_for_selector, browser=browser)
 
 

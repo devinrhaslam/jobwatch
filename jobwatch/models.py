@@ -12,6 +12,9 @@ class FetchMode(Enum):
     # request parameters so a page still has a URL identity, which is what the
     # framework's pagination contract is built on.
     JSON_POST = "json_post"
+    # The same, but the body is form-encoded rather than JSON. Some endpoints
+    # reject a JSON body outright.
+    FORM_POST = "form_post"
 
 
 @dataclass(frozen=True)

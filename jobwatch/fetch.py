@@ -141,6 +141,52 @@ def fetch_json_post(
     raise FetchError(f"failed to fetch {endpoint} after {retries} attempts") from last_error
 
 
+def fetch_form_post(
+    url: str,
+    *,
+    timeout: int = DEFAULT_TIMEOUT,
+    retries: int = DEFAULT_RETRIES,
+    backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
+    session: requests.Session | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+    headers: dict[str, str] | None = None,
+) -> str:
+    """Like fetch_json_post, but sends the body form-encoded.
+
+    WordPress admin-ajax endpoints answer 400 to a JSON body, so the encoding
+    is not interchangeable.
+    """
+    endpoint, body = split_post_url(url)
+    session = session or requests.Session()
+    request_headers = {
+        "User-Agent": USER_AGENT,
+        "X-Requested-With": "XMLHttpRequest",
+        **(headers or {}),
+    }
+    last_error: Exception | None = None
+    for attempt in range(retries):
+        try:
+            response = session.post(
+                endpoint, data=body, timeout=timeout, headers=request_headers
+            )
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt < retries - 1:
+                sleep(backoff_seconds * (2**attempt))
+            continue
+        if response.status_code in (403, 429):
+            raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
+        if response.status_code >= 500:
+            last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")
+            if attempt < retries - 1:
+                sleep(backoff_seconds * (2**attempt))
+            continue
+        if response.status_code >= 400:
+            raise FetchError(f"{endpoint} returned HTTP {response.status_code}")
+        return response.text
+    raise FetchError(f"failed to fetch {endpoint} after {retries} attempts") from last_error
+
+
 def fetch_rendered(
     url: str,
     *,
