@@ -14,6 +14,7 @@ from jobwatch.scrapers.google import GoogleScraper
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.hudsonrivertrading import HudsonRiverTradingScraper
 from jobwatch.scrapers.meta import MetaScraper
+from jobwatch.scrapers.rippling import RipplingScraper
 from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
 from jobwatch.scrapers.snap import SnapScraper
 from jobwatch.scrapers.twosigma import TwoSigmaScraper
@@ -50,6 +51,7 @@ _SCRAPER_INSTANCES = (
     GitHubScraper(),
     GoogleScraper(),
     HudsonRiverTradingScraper(),
+    RipplingScraper(),
     TwoSigmaScraper(),
     SnapScraper(),
     UberScraper(),

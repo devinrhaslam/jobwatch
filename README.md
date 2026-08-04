@@ -98,8 +98,8 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-40 companies are watched: 30 through five shared platform scrapers, plus
-ten bespoke portals. The remaining names in `companies.txt` (44 total) are a target
+41 companies are watched: 30 through five shared platform scrapers, plus
+eleven bespoke portals. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
@@ -110,7 +110,7 @@ list — see "Scaling to the rest" below.
 | Eightfold | Netflix | static HTTP |
 | SmartRecruiters | Canva | static HTTP |
 | Bespoke portal | Amazon, Apple, GitHub, Google, Snap, Two Sigma | static HTTP |
-| Bespoke portal | ByteDance, Uber | JSON POST |
+| Bespoke portal | ByteDance, Rippling, Uber | JSON POST |
 | Bespoke portal | Hudson River Trading | form POST |
 | Bespoke portal | Meta | headless browser |
 
@@ -181,7 +181,7 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-04, 40 of 44 companies are built:
+uses. As of 2026-08-04, 41 of 44 companies are built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
@@ -191,8 +191,8 @@ uses. As of 2026-08-04, 40 of 44 companies are built:
 | SmartRecruiters | Canva | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
-| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Snap, Two Sigma, Uber, Meta | own module each |
-| Bespoke, remaining | Tesla, Rippling | see recon notes below |
+| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Uber, Meta | own module each |
+| Bespoke, remaining | Tesla | see recon notes below |
 
 ### Recon notes on the companies still unbuilt
 
@@ -201,9 +201,8 @@ Checked 2026-08-04.
 
 | Company | What was found | Why it is not built |
 |---|---|---|
-| **Rippling** | Runs its own ATS product at `ats.rippling.com`; the careers page loads roles from Algolia. | No public JSON board API found (eight endpoint shapes tried). The Algolia index needs an app key, and the ATS board page serves 553KB containing no job ids — it renders client-side too. |
 | **Microsoft** | Careers site is Eightfold-backed. | Tenant answers `403 {"message": "Not authorized for PCSX"}` to the public jobs API on every host and header combination tried. Its own `gcsservices` API is reachable, but not from behind a TLS-intercepting proxy. |
-| **Tesla** | Returns 403 to plain HTTP even with a full set of browser headers. | Bot-blocked at the edge; needs a browser. |
+| **Tesla** | Serves an "Access Denied" page to plain HTTP *and* to headless Chromium, including with the automation flag disabled and `navigator.webdriver` masked. | The block is at the edge rather than on browser fingerprinting, so getting past it would mean actively circumventing Tesla's bot protection. Not attempted, and not recommended. |
 | **Hudson River Trading** | *Now built.* Its page does embed Greenhouse, but that board (`hrttalentcommunity`) holds 3 "Talent Community" pipeline entries — the real 72 listings come from a self-hosted WordPress plugin. | — |
 
 The pattern is consistent: every remaining company either blocks plain HTTP or
@@ -231,11 +230,11 @@ jobwatch/
                         workday.py (3), eightfold.py (1),
                         smartrecruiters.py (1), amazon.py, github.py,
                         apple.py, bytedance.py, google.py,
-                        hudsonrivertrading.py, snap.py, twosigma.py,
-                        uber.py, meta.py
+                        hudsonrivertrading.py, rippling.py, snap.py,
+                        twosigma.py, uber.py, meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  328 tests, fixture-backed parser and unit tests
+tests/                  346 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -271,7 +270,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (328 tests)
+.venv/bin/pytest          # full suite (346 tests)
 .venv/bin/pytest -v       # verbose
 ```
 
