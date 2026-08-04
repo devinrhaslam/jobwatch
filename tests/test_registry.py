@@ -4,6 +4,7 @@ from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scra
 from jobwatch.scrapers.ashby import BOARDS as ASHBY_BOARDS
 from jobwatch.scrapers.eightfold import BOARDS as EIGHTFOLD_BOARDS
 from jobwatch.scrapers.greenhouse import BOARDS as GREENHOUSE_BOARDS
+from jobwatch.scrapers.oracle import BOARDS as ORACLE_BOARDS
 from jobwatch.scrapers.smartrecruiters import BOARDS as SMARTRECRUITERS_BOARDS
 from jobwatch.scrapers.workday import BOARDS as WORKDAY_BOARDS
 
@@ -14,11 +15,12 @@ _PLATFORMS = (
     WORKDAY_BOARDS,
     EIGHTFOLD_BOARDS,
     SMARTRECRUITERS_BOARDS,
+    ORACLE_BOARDS,
 )
 # Companies with a bespoke portal rather than a shared platform board.
 _CUSTOM = {
     "Amazon", "Apple", "ByteDance", "GitHub", "Google", "Hudson River Trading",
-    "Rippling", "Snap", "Two Sigma", "Uber", "Meta",
+    "Rippling", "Snap", "Two Sigma", "Meta",
 }
 
 

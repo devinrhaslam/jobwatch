@@ -98,8 +98,8 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-41 companies are watched: 30 through five shared platform scrapers, plus
-eleven bespoke portals. The remaining names in `companies.txt` (44 total) are a target
+41 companies are watched: 31 through six shared platform scrapers, plus
+ten bespoke portals. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
@@ -109,8 +109,9 @@ list — see "Scaling to the rest" below.
 | Workday CXS API | CrowdStrike, NVIDIA, Salesforce | JSON POST |
 | Eightfold | Netflix | static HTTP |
 | SmartRecruiters | Canva | static HTTP |
+| Oracle Recruiting Cloud | Uber | static HTTP |
 | Bespoke portal | Amazon, Apple, GitHub, Google, Snap, Two Sigma | static HTTP |
-| Bespoke portal | ByteDance, Rippling, Uber | JSON POST |
+| Bespoke portal | ByteDance, Rippling | JSON POST |
 | Bespoke portal | Hudson River Trading | form POST |
 | Bespoke portal | Meta | headless browser |
 
@@ -139,6 +140,11 @@ Two consequences worth knowing:
 - **Stripe's careers page is a filtered view** of its board — 544 jobs on the
   API against 513 on the page. Migrating it surfaced 34 listings the page never
   showed.
+- **A company's own careers domain is not always the right link.** Uber has
+  migrated to Oracle Recruiting Cloud, and both `uber.com/careers/list/<id>`
+  and `jobs.uber.com/en/jobs/<id>` now answer "the page you are looking for
+  does not exist" for requisitions its board reports as live. Its links point
+  at the Oracle-hosted posting instead.
 - **Job links prefer the company's own posting page, but only when its URL
   actually identifies the job.** Stripe and Pinterest point Greenhouse's
   `absolute_url` at a generic listing page with the id in a query parameter;
@@ -189,9 +195,10 @@ uses. As of 2026-08-04, 41 of 44 companies are built:
 | Workday | CrowdStrike, NVIDIA, Salesforce | done — shared scraper |
 | Eightfold | Netflix | done — shared scraper |
 | SmartRecruiters | Canva | done — shared scraper |
+| Oracle Recruiting Cloud | Uber | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
-| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Uber, Meta | own module each |
+| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Meta | own module each |
 | Bespoke, remaining | Tesla | see recon notes below |
 
 ### Recon notes on the companies still unbuilt
@@ -230,8 +237,8 @@ jobwatch/
                         workday.py (3), eightfold.py (1),
                         smartrecruiters.py (1), amazon.py, github.py,
                         apple.py, bytedance.py, google.py,
-                        hudsonrivertrading.py, rippling.py, snap.py,
-                        twosigma.py, uber.py, meta.py
+                        hudsonrivertrading.py, oracle.py (1), rippling.py,
+                        snap.py, twosigma.py, meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
 tests/                  346 tests, fixture-backed parser and unit tests

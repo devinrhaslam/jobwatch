@@ -14,11 +14,11 @@ from jobwatch.scrapers.google import GoogleScraper
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.hudsonrivertrading import HudsonRiverTradingScraper
 from jobwatch.scrapers.meta import MetaScraper
+from jobwatch.scrapers.oracle import scrapers as oracle_scrapers
 from jobwatch.scrapers.rippling import RipplingScraper
 from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
 from jobwatch.scrapers.snap import SnapScraper
 from jobwatch.scrapers.twosigma import TwoSigmaScraper
-from jobwatch.scrapers.uber import UberScraper
 from jobwatch.scrapers.workday import scrapers as workday_scrapers
 from jobwatch.state import DEFAULT_STATE_DIR, snapshot_path
 
@@ -44,6 +44,7 @@ _SCRAPER_INSTANCES = (
     *workday_scrapers(),
     *eightfold_scrapers(),
     *smartrecruiters_scrapers(),
+    *oracle_scrapers(),
     # Bespoke portals: each answers plain JSON, so none needs a browser.
     AmazonScraper(),
     AppleScraper(),
@@ -54,7 +55,6 @@ _SCRAPER_INSTANCES = (
     RipplingScraper(),
     TwoSigmaScraper(),
     SnapScraper(),
-    UberScraper(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 
