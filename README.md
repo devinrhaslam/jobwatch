@@ -74,8 +74,8 @@ several minutes — but results come newest-first, and the engine stops
 paginating at the first page with no unseen ids, so a routine run reads one or
 two pages per company.
 
-Netflix costs a further ~23 seconds because its board must be read in full
-(see above). OpenAI's board is the largest single download at ~11 MB, since
+Netflix costs a further ~48 seconds because its board must be read in full
+(see above) and pages are throttled. OpenAI's board is the largest single download at ~11 MB, since
 Ashby inlines full job descriptions.
 
 Run it in the **early evening**. Postings appear through the business day, so
@@ -137,6 +137,16 @@ Two consequences worth knowing:
 - **Stripe's careers page is a filtered view** of its board — 544 jobs on the
   API against 513 on the page. Migrating it surfaced 34 listings the page never
   showed.
+- **Job links prefer the company's own posting page, but only when its URL
+  actually identifies the job.** Stripe and Pinterest point Greenhouse's
+  `absolute_url` at a generic listing page with the id in a query parameter;
+  once a posting closes those silently render the whole search listing. Those
+  fall back to the canonical `job-boards.greenhouse.io` URL, which shows an
+  explicit error instead. Boards whose path names the job (Airbnb, Anthropic)
+  keep their own link.
+- **Pages of the same company are throttled** by `INTER_PAGE_DELAY_SECONDS`.
+  Paginated boards are the only place this tool makes rapid back-to-back
+  requests, and an unlucky first page takes a whole company down for the run.
 
 Meta is the only company still needing a headless browser, so a run that skips
 it needs no Playwright at all. Amazon, GitHub, and Snap answer plain JSON

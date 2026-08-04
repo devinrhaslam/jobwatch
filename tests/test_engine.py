@@ -354,3 +354,37 @@ def test_early_stop_still_applies_when_paginate_fully_is_off(tmp_path):
         FakeScraper(pages, config=config), state_dir=tmp_path, fetch_page=lambda c, u: u
     )
     assert result.new_jobs == []
+
+
+def test_pages_are_throttled_but_the_first_fetch_is_not_delayed(tmp_path):
+    """Netflix reads 49 pages every run and a Workday seed ~196. Firing those
+    back to back is impolite and was the likeliest source of the intermittent
+    fetch failures that took a whole company down."""
+    from jobwatch.engine import INTER_PAGE_DELAY_SECONDS, _fetch_all_pages
+
+    config = CompanyConfig(name="Paged", career_url="0", fetch_mode=FetchMode.STATIC)
+    scraper = FakeScraper([[_job("1")], [_job("2")], [_job("3")]], config=config)
+    slept = []
+    _fetch_all_pages(
+        scraper,
+        config,
+        known_ids=None,
+        fetch_page=lambda c, u: u,
+        sleep=slept.append,
+    )
+    assert slept == [INTER_PAGE_DELAY_SECONDS] * 2  # three pages, two gaps
+
+
+def test_a_single_page_company_is_never_delayed(tmp_path):
+    from jobwatch.engine import _fetch_all_pages
+
+    config = CompanyConfig(name="Single", career_url="0", fetch_mode=FetchMode.STATIC)
+    slept = []
+    _fetch_all_pages(
+        FakeScraper([[_job("1")]], config=config),
+        config,
+        known_ids=None,
+        fetch_page=lambda c, u: u,
+        sleep=slept.append,
+    )
+    assert slept == []

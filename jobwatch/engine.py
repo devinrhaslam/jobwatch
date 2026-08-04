@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -17,6 +18,13 @@ from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
 
 MAX_PAGES = 20
+# Paused between pages of the same company. A paginated board is the only place
+# this tool makes rapid back-to-back requests — Netflix reads 49 pages on every
+# run and a Workday seed runs to ~196 — which is both impolite and the most
+# likely source of a transient fetch failure. One company failing an entire run
+# because its first page happened to be the unlucky request is not a good trade
+# for a few saved seconds.
+INTER_PAGE_DELAY_SECONDS = 0.3
 SUSPICIOUS_NEW_JOB_RATIO = 0.8
 MIN_JOBS_FOR_SUSPICIOUS_CHECK = 20
 logger = logging.getLogger(__name__)
@@ -128,12 +136,15 @@ def _fetch_all_pages(
     *,
     known_ids: set[str] | None,
     fetch_page: FetchPage,
+    sleep: Callable[[float], None] = time.sleep,
 ) -> tuple[list[Job], str | None]:
     all_jobs: dict[str, Job] = {}
     url = config.career_url
     truncated: str | None = None
     max_pages = config.max_pages or MAX_PAGES
-    for _ in range(max_pages):
+    for page_number in range(max_pages):
+        if page_number:
+            sleep(INTER_PAGE_DELAY_SECONDS)
         try:
             payload = fetch_page(config, url)
         except (FetchBlocked, FetchError):
