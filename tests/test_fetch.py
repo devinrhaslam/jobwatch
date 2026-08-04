@@ -258,3 +258,68 @@ def test_fetch_rendered_no_sleep_after_final_failed_attempt():
             sleep=record_sleep,
         )
     assert delays == [1.0, 2.0, 4.0]
+
+
+# --- JSON_POST fetch -------------------------------------------------------
+
+
+def test_build_and_split_post_url_round_trip():
+    from jobwatch.fetch import build_post_url, split_post_url
+
+    endpoint = "https://example.com/wday/cxs/acme/site/jobs"
+    body = {"limit": 20, "offset": 40, "searchText": ""}
+    url = build_post_url(endpoint, body)
+    assert split_post_url(url) == (endpoint, body)
+
+
+def test_split_post_url_defaults_to_an_empty_body():
+    from jobwatch.fetch import split_post_url
+
+    assert split_post_url("https://example.com/jobs") == ("https://example.com/jobs", {})
+
+
+def test_split_post_url_rejects_an_unparseable_body():
+    from jobwatch.fetch import FetchError, split_post_url
+
+    with pytest.raises(FetchError, match="body parameter"):
+        split_post_url("https://example.com/jobs?body=%7Bnot-json")
+
+
+class _PostSession:
+    def __init__(self, responses):
+        self._responses = list(responses)
+        self.posts = []
+
+    def post(self, url, json=None, timeout=None, headers=None):
+        self.posts.append((url, json))
+        return self._responses.pop(0)
+
+
+def test_fetch_json_post_sends_the_encoded_body_to_the_bare_endpoint():
+    from jobwatch.fetch import build_post_url, fetch_json_post
+
+    session = _PostSession([_StubResponse(200, text='{"jobPostings":[]}')])
+    url = build_post_url("https://example.com/jobs", {"offset": 20})
+    result = fetch_json_post(url, session=session)
+
+    assert result == '{"jobPostings":[]}'
+    assert session.posts == [("https://example.com/jobs", {"offset": 20})]
+
+
+def test_fetch_json_post_raises_fetch_blocked_on_403():
+    from jobwatch.fetch import FetchBlocked, fetch_json_post
+
+    session = _PostSession([_StubResponse(403)])
+    with pytest.raises(FetchBlocked):
+        fetch_json_post("https://example.com/jobs", session=session)
+
+
+def test_fetch_json_post_retries_on_500_then_succeeds():
+    from jobwatch.fetch import fetch_json_post
+
+    session = _PostSession([_StubResponse(500), _StubResponse(200, text="ok")])
+    result = fetch_json_post(
+        "https://example.com/jobs", session=session, retries=3, backoff_seconds=0
+    )
+    assert result == "ok"
+    assert len(session.posts) == 2

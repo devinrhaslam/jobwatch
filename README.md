@@ -67,10 +67,15 @@ only jobs whose IDs were not in the snapshot are reported. Two consecutive
 runs against unchanged live sites should report zero new jobs on the second
 pass — that is the property that makes daily use trustworthy.
 
-Run it daily after the initial seed. A full run over all 25 companies takes
-roughly 35 seconds, most of it the one-second courtesy delay between companies
-plus headless-browser rendering for Meta. OpenAI's board is by far the largest
-download at ~11 MB, since Ashby inlines full job descriptions.
+Run it daily after the initial seed. Greenhouse and Ashby answer a whole board
+in one request, so those 24 companies finish in about 35 seconds. Workday caps
+a page at 20 results, so seeding its three companies costs ~196 requests and
+several minutes — but results come newest-first, and the engine stops
+paginating at the first page with no unseen ids, so a routine run reads one or
+two pages per company.
+
+OpenAI's board is the largest single download at ~11 MB, since Ashby inlines
+full job descriptions.
 
 Run it in the **early evening**. Postings appear through the business day, so
 an end-of-day run catches everything posted that day while it is still hours
@@ -92,14 +97,15 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-25 companies are watched: 24 through two shared platform scrapers, plus Meta's
-custom portal. The remaining names in `companies.txt` (44 total) are a target
+28 companies are watched: 27 through three shared platform scrapers, plus
+Meta's custom portal. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
 |--------|-----------|------------|
 | Greenhouse board API | Airbnb, Anthropic, Block, Cloudflare, Coinbase, Databricks, Dropbox, Figma, Jane Street, Lyft, MongoDB, Pinterest, Reddit, SpaceX, Stripe, Twitch, Vercel, Waymo | static HTTP |
 | Ashby posting API | Linear, Notion, OpenAI, Plaid, Ramp, Snowflake | static HTTP |
+| Workday CXS API | CrowdStrike, NVIDIA, Salesforce | JSON POST |
 | Custom portal | Meta | headless browser |
 
 **Both platforms are the upstream source, not a mirror.** Recruiters post into
@@ -113,9 +119,11 @@ with zero divergence in either direction, while the API was serving postings
 
 Two consequences worth knowing:
 
-- **Every platform company gets a real `posted_date`** — from `first_published`
-  on Greenhouse, `publishedAt` on Ashby. Meta does not, so its recency still
-  comes purely from snapshot diffing.
+- **Greenhouse and Ashby give an exact `posted_date`** (`first_published` /
+  `publishedAt`). **Workday only gives prose** — "Posted 5 Days Ago" — so its
+  dates are approximate, and "Posted 30+ Days Ago" is left unset rather than
+  invented as exactly 30. Meta gives nothing, so its recency comes purely from
+  snapshot diffing.
 - **Stripe's careers page is a filtered view** of its board — 544 jobs on the
   API against 513 on the page. Migrating it surfaced 34 listings the page never
   showed.
@@ -142,14 +150,17 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-03, 26 of 44 sit on three platforms — 24 are now built:
+uses. As of 2026-08-03, 27 of 44 sit on a known platform and are all built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
 | Greenhouse | 18 | done — shared scraper |
+| Workday | CrowdStrike, NVIDIA, Salesforce | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
-| SmartRecruiters | Canva | not built |
-| Custom portals | 18, incl. Google, Amazon, Apple, Microsoft, Netflix | one scraper each, no leverage |
+| SmartRecruiters | Canva | not built (single company) |
+| Eightfold | Microsoft, Netflix | not built; fingerprinted, endpoints unprobed |
+| iCIMS | GitHub | not built; fingerprinted |
+| Custom portals | Google, Amazon, Apple, Uber, Tesla, Snap, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | one scraper each, no leverage |
 
 LinkedIn is excluded deliberately: it matches three different boards
 (Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
@@ -168,10 +179,11 @@ jobwatch/
   registry.py           maps company name → scraper instance
   models.py             Job, CompanyConfig, FetchMode
   filters.py            report-time role-fit filtering via the Claude API
-  scrapers/             base.py, greenhouse.py (18), ashby.py (6), meta.py
+  scrapers/             base.py, greenhouse.py (18), ashby.py (6),
+                        workday.py (3), meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  135 tests, fixture-backed parser and unit tests
+tests/                  159 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -204,7 +216,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (135 tests)
+.venv/bin/pytest          # full suite (159 tests)
 .venv/bin/pytest -v       # verbose
 ```
 

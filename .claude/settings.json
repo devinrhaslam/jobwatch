@@ -5,6 +5,7 @@
       "Bash(.venv/bin/pip list *)",
       "Bash(.venv/bin/pip show *)",
       "Bash(.venv/bin/python *)",
+      "Bash(python3 *)",
       "Bash(git add *)",
       "Bash(git commit *)"
     ]

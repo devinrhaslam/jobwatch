@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import json
 import time
 from collections.abc import Callable
+from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 
 import requests
 
@@ -52,6 +54,67 @@ def fetch_static(
             raise FetchError(f"{url} returned HTTP {response.status_code}")
         return response.text
     raise FetchError(f"failed to fetch {url} after {retries} attempts") from last_error
+
+
+def split_post_url(url: str) -> tuple[str, dict]:
+    """Split a JSON_POST page URL into its endpoint and request body.
+
+    The framework identifies a page by its URL and paginates by handing back a
+    new URL, but some boards only answer POST. Carrying the request body in a
+    `body=` query parameter keeps a page addressable by URL — so pagination,
+    logging, and error messages all keep working unchanged — while still
+    letting the fetch layer send a real JSON body.
+    """
+    parsed = urlsplit(url)
+    raw = parse_qs(parsed.query).get("body", ["{}"])[0]
+    try:
+        body = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise FetchError(f"{url} has an unparseable body parameter: {exc}") from exc
+    return urlunsplit(parsed._replace(query="", fragment="")), body
+
+
+def build_post_url(endpoint: str, body: dict) -> str:
+    return f"{endpoint}?{urlencode({'body': json.dumps(body, sort_keys=True)})}"
+
+
+def fetch_json_post(
+    url: str,
+    *,
+    timeout: int = DEFAULT_TIMEOUT,
+    retries: int = DEFAULT_RETRIES,
+    backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
+    session: requests.Session | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+) -> str:
+    """POST the body encoded in `url` and return the response text.
+
+    Retry, blocked, and error semantics match fetch_static so a POST-only board
+    behaves the same as every other company from the engine's point of view.
+    """
+    endpoint, body = split_post_url(url)
+    session = session or requests.Session()
+    headers = {"User-Agent": USER_AGENT, "Content-Type": "application/json"}
+    last_error: Exception | None = None
+    for attempt in range(retries):
+        try:
+            response = session.post(endpoint, json=body, timeout=timeout, headers=headers)
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt < retries - 1:
+                sleep(backoff_seconds * (2**attempt))
+            continue
+        if response.status_code in (403, 429):
+            raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
+        if response.status_code >= 500:
+            last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")
+            if attempt < retries - 1:
+                sleep(backoff_seconds * (2**attempt))
+            continue
+        if response.status_code >= 400:
+            raise FetchError(f"{endpoint} returned HTTP {response.status_code}")
+        return response.text
+    raise FetchError(f"failed to fetch {endpoint} after {retries} attempts") from last_error
 
 
 def fetch_rendered(

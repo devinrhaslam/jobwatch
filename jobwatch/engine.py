@@ -6,7 +6,13 @@ from pathlib import Path
 from typing import Callable
 
 from jobwatch import diff, state
-from jobwatch.fetch import FetchBlocked, FetchError, fetch_rendered, fetch_static
+from jobwatch.fetch import (
+    FetchBlocked,
+    FetchError,
+    fetch_json_post,
+    fetch_rendered,
+    fetch_static,
+)
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
 
@@ -26,6 +32,8 @@ class ParseError(Exception):
 def default_fetch_page(config: CompanyConfig, url: str, *, browser=None) -> str:
     if config.fetch_mode is FetchMode.STATIC:
         return fetch_static(url)
+    if config.fetch_mode is FetchMode.JSON_POST:
+        return fetch_json_post(url)
     return fetch_rendered(url, wait_for_selector=config.wait_for_selector, browser=browser)
 
 
@@ -124,7 +132,8 @@ def _fetch_all_pages(
     all_jobs: dict[str, Job] = {}
     url = config.career_url
     truncated: str | None = None
-    for _ in range(MAX_PAGES):
+    max_pages = config.max_pages or MAX_PAGES
+    for _ in range(max_pages):
         try:
             payload = fetch_page(config, url)
         except (FetchBlocked, FetchError):
@@ -165,5 +174,5 @@ def _fetch_all_pages(
             break
         url = next_url
     else:
-        truncated = f"reached the {MAX_PAGES}-page pagination ceiling; more jobs may exist"
+        truncated = f"reached the {max_pages}-page pagination ceiling; more jobs may exist"
     return list(all_jobs.values()), truncated
