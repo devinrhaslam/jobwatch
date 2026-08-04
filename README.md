@@ -22,16 +22,27 @@ python3 -m venv .venv
 scraped without a headless browser. The editable install (`pip install -e .`)
 makes the `jobwatch` package importable from `run.py` and the test suite.
 
+Role-fit filtering calls the Claude API, so a key is required unless every run
+passes `--all-roles`:
+
+```bash
+export ANTHROPIC_API_KEY=...
+```
+
 ## Usage
 
 ```bash
 .venv/bin/python run.py                         # all registered companies
 .venv/bin/python run.py --company Stripe        # one company (repeatable)
 .venv/bin/python run.py --dry-run               # scrape and report, no state write
-.venv/bin/python run.py --verbose               # per-company progress on stderr
+.venv/bin/python run.py --verbose               # progress + filtered-out jobs on stderr
+.venv/bin/python run.py --all-roles             # skip the role-fit filter
 ```
 
 Combine flags as needed, e.g. `--company Meta --dry-run --verbose`.
+
+`--verbose` prints every job the role filter dropped, with the reason. Worth
+using for the first few runs to check the filter against your own judgement.
 
 A non-zero exit code means at least one company returned `FAILED` or
 `BLOCKED`. Check the report for details.
@@ -111,21 +122,32 @@ jobwatch/
   report.py             format stdout report and write dated JSON
   registry.py           maps company name → scraper instance
   models.py             Job, CompanyConfig, FetchMode
-  filters.py            pass-through stub for future role-fit filtering
+  filters.py            report-time role-fit filtering via the Claude API
   scrapers/             one module per company (base.py + four scrapers)
-state/                  per-company snapshots (gitignored)
+state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  76 tests, fixture-backed parser and unit tests
+tests/                  119 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
 
 ## Known limitations
 
-- **Role-fit filtering** is not implemented. `jobwatch/filters.py` is a
-  deliberate pass-through seam; snapshots always store every job regardless
-  of seniority or title match, so widening filters later requires no
-  re-seeding.
+- **Role-fit filtering judges the title only.** `jobwatch/filters.py` sends each
+  new job's title, company, and location to Claude, which decides against the
+  candidate profile in that module whether the role is a general backend or
+  full-stack IC job at the target level. It never reads the job description, so
+  a role whose title hides its real content can be misjudged. There is no
+  "uncertain" bucket — a job marked irrelevant is not reported at all, which is
+  why the prompt is told to keep genuinely borderline listings. Run `--verbose`
+  to see what was dropped, or `--all-roles` to see everything.
+- **Verdicts are cached** in `state/filter_cache.json`, keyed by company and
+  title, so repeated titles are judged once. Editing `CANDIDATE_PROFILE` or the
+  instructions in `filters.py` invalidates the whole cache automatically.
+- **A failed classification is loud, not silent.** Snapshots are written before
+  filtering, so a job dropped by an API failure would never be reported again.
+  When classification fails the run prints every new job unfiltered and exits
+  non-zero.
 - **No scheduling** — run `run.py` manually (e.g. via cron) when you want a
   check.
 - **Meta scope** — only software engineering roles, because that is what the
@@ -137,9 +159,10 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (76 tests)
+.venv/bin/pytest          # full suite (119 tests)
 .venv/bin/pytest -v       # verbose
 ```
 
 Parser tests use fixtures under `tests/fixtures/` and do not hit the network.
-Integration-style tests for fetch and the CLI use mocks.
+Integration-style tests for fetch and the CLI use mocks. The role filter is
+tested with an injected stub classifier, so no test calls the Claude API.

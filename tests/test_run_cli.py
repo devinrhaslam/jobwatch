@@ -1,9 +1,34 @@
 import json
 
+import pytest
+
+import jobwatch.filters as filters
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
 
 import run as cli
+
+# Titles a stub classifier treats as off-target, standing in for the specialised
+# tracks the real filter drops.
+_OFF_TARGET_MARKERS = ("Data Engineer", "Engineering Manager", "Security Engineer")
+
+
+def _stub_classify(jobs):
+    return [
+        filters.Verdict(
+            not any(marker in job.title for marker in _OFF_TARGET_MARKERS),
+            "stubbed verdict",
+        )
+        for job in jobs
+    ]
+
+
+@pytest.fixture(autouse=True)
+def never_call_claude(monkeypatch):
+    """The CLI runs the real filter, so every test in this file would otherwise
+    hit the network. Patch the classifier itself rather than apply_filters, so
+    the CLI's own filter wiring is still exercised."""
+    monkeypatch.setattr(filters, "classify_with_claude", _stub_classify)
 
 
 class _OneJobScraper(Scraper):
@@ -56,6 +81,47 @@ class _SuspiciousScraper(Scraper):
             )
             for i in range(20)
         ]
+
+
+class _MixedRelevanceScraper(Scraper):
+    """Seeds one job, then adds one relevant and one off-target job."""
+
+    config = CompanyConfig(
+        name="MixedCo", career_url="https://example.com/jobs", fetch_mode=FetchMode.STATIC
+    )
+
+    def __init__(self):
+        self._call_count = 0
+
+    def parse(self, payload: str) -> list[Job]:
+        self._call_count += 1
+        jobs = [
+            Job(
+                company="MixedCo",
+                job_id=f"seed-{i}",
+                title="Software Engineer",
+                url=f"https://example.com/seed-{i}",
+            )
+            for i in range(10)
+        ]
+        if self._call_count > 1:
+            jobs.append(
+                Job(
+                    company="MixedCo",
+                    job_id="relevant",
+                    title="Senior Software Engineer, Payments",
+                    url="https://example.com/relevant",
+                )
+            )
+            jobs.append(
+                Job(
+                    company="MixedCo",
+                    job_id="offtarget",
+                    title="Data Engineer, Analytics",
+                    url="https://example.com/offtarget",
+                )
+            )
+        return jobs
 
 
 class _RenderedScraper(Scraper):
@@ -180,6 +246,68 @@ def test_suspicious_result_returns_nonzero_exit_code(tmp_path, monkeypatch):
     second_exit_code = cli.main(["--company", "SuspiciousCo"])
 
     assert second_exit_code != 0
+
+
+def _run_mixed_company(tmp_path, monkeypatch, argv):
+    monkeypatch.setattr(cli, "SCRAPERS", {"MixedCo": _MixedRelevanceScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    cli.main(argv)
+    cli.main(argv)
+    return json.loads(next((tmp_path / "output").glob("*.json")).read_text())
+
+
+def test_report_omits_jobs_that_do_not_match_the_role_filter(tmp_path, monkeypatch):
+    payload = _run_mixed_company(tmp_path, monkeypatch, ["--company", "MixedCo"])
+    reported = {job["job_id"] for job in payload[0]["new_jobs"]}
+    assert reported == {"relevant"}
+
+
+def test_all_roles_flag_reports_every_new_job(tmp_path, monkeypatch):
+    payload = _run_mixed_company(
+        tmp_path, monkeypatch, ["--company", "MixedCo", "--all-roles"]
+    )
+    reported = {job["job_id"] for job in payload[0]["new_jobs"]}
+    assert reported == {"relevant", "offtarget"}
+
+
+def test_filtered_out_jobs_are_still_recorded_in_the_snapshot(tmp_path, monkeypatch):
+    _run_mixed_company(tmp_path, monkeypatch, ["--company", "MixedCo"])
+    snapshot = json.loads((tmp_path / "state" / "mixedco.json").read_text())
+    assert "offtarget" in snapshot
+
+
+def _run_mixed_with_failing_filter(tmp_path, monkeypatch, capsys):
+    def failing(jobs):
+        raise filters.FilterError("classification request failed")
+
+    monkeypatch.setattr(cli, "SCRAPERS", {"MixedCo": _MixedRelevanceScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    cli.main(["--company", "MixedCo"])  # seed run
+    monkeypatch.setattr(filters, "classify_with_claude", failing)
+    exit_code = cli.main(["--company", "MixedCo"])
+    return exit_code, capsys.readouterr()
+
+
+def test_filter_failure_returns_nonzero_exit_code(tmp_path, monkeypatch, capsys):
+    exit_code, _ = _run_mixed_with_failing_filter(tmp_path, monkeypatch, capsys)
+    assert exit_code != 0
+
+
+def test_filter_failure_still_reports_the_days_jobs_unfiltered(tmp_path, monkeypatch, capsys):
+    # Snapshots are written before filtering, so these jobs will never be
+    # reported again. Losing them to a failed API call would be silent data loss.
+    _, captured = _run_mixed_with_failing_filter(tmp_path, monkeypatch, capsys)
+    assert "https://example.com/relevant" in captured.out
+    assert "https://example.com/offtarget" in captured.out
+    assert "Role filter failed" in captured.err
 
 
 def test_browser_launch_failure_still_reports_static_company(tmp_path, monkeypatch):

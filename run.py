@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import argparse
 import sys
+from dataclasses import replace
 from pathlib import Path
 from time import sleep
 
 from playwright.sync_api import sync_playwright
 
 from jobwatch.engine import CompanyResult, default_fetch_page, run_company
+from jobwatch.filters import FilterError, apply_filters
 from jobwatch.models import FetchMode
 from jobwatch.registry import SCRAPERS
 from jobwatch.report import format_report, write_report
@@ -72,6 +74,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--verbose", action="store_true", help="Print per-company diagnostics to stderr."
     )
+    parser.add_argument(
+        "--all-roles",
+        action="store_true",
+        help="Report every new job, skipping the role-fit filter.",
+    )
     args = parser.parse_args(argv)
 
     names = args.companies or sorted(SCRAPERS)
@@ -111,12 +118,38 @@ def main(argv: list[str] | None = None) -> int:
             names, args, fetch_page=default_fetch_page, browser_error=None
         )
 
+    filter_failed = False
+    if not args.all_roles:
+        def report_drop(job, verdict):
+            print(f"  dropped: {job.title} — {verdict.reason}", file=sys.stderr)
+
+        try:
+            results = [
+                replace(
+                    r,
+                    new_jobs=apply_filters(
+                        r.new_jobs,
+                        cache_path=STATE_DIR / "filter_cache.json",
+                        on_drop=report_drop if args.verbose else None,
+                    ),
+                )
+                for r in results
+            ]
+        except FilterError as exc:
+            # Snapshots are already written by this point, so these jobs will not
+            # be reported again tomorrow. Show them unfiltered rather than lose them.
+            print(f"Role filter failed: {exc}", file=sys.stderr)
+            print("Reporting every new job unfiltered.", file=sys.stderr)
+            filter_failed = True
+
     print(format_report(results))
     if not args.dry_run:
         report_path = write_report(results, output_dir=OUTPUT_DIR)
         if args.verbose:
             print(f"\nWrote {report_path}", file=sys.stderr)
 
+    if filter_failed:
+        return 1
     return 1 if any(r.status in ("failed", "blocked", "suspicious") for r in results) else 0
 
 
