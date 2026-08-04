@@ -323,3 +323,48 @@ def test_fetch_json_post_retries_on_500_then_succeeds():
     )
     assert result == "ok"
     assert len(session.posts) == 2
+
+
+def test_fetch_static_merges_extra_headers():
+    captured = {}
+
+    class _HeaderSession:
+        def get(self, url, timeout=None, headers=None):
+            captured.update(headers or {})
+            return _StubResponse(200, text="ok")
+
+    from jobwatch.fetch import fetch_static
+
+    fetch_static("https://x", session=_HeaderSession(), headers={"x-csrf-token": "t"})
+    assert captured["x-csrf-token"] == "t"
+    assert "User-Agent" in captured  # the default is not lost
+
+
+def test_fetch_json_post_merges_extra_headers():
+    from jobwatch.fetch import fetch_json_post
+
+    captured = {}
+
+    class _HeaderSession:
+        def post(self, url, json=None, timeout=None, headers=None):
+            captured.update(headers or {})
+            return _StubResponse(200, text="{}")
+
+    fetch_json_post("https://x", session=_HeaderSession(), headers={"x-csrf-token": "t"})
+    assert captured["x-csrf-token"] == "t"
+    assert captured["Content-Type"] == "application/json"
+
+
+def test_post_url_round_trip_preserves_an_existing_endpoint_query():
+    # Uber's endpoint carries ?localeCode=en. Naively appending ?body= produced
+    # two query strings, and the body parsed back empty — a request with no
+    # parameters, silently.
+    from jobwatch.fetch import build_post_url, split_post_url
+
+    endpoint = "https://example.com/api/search?localeCode=en"
+    body = {"page": 3}
+    url = build_post_url(endpoint, body)
+    got_endpoint, got_body = split_post_url(url)
+    assert got_body == body
+    assert "localeCode=en" in got_endpoint
+    assert "body=" not in got_endpoint

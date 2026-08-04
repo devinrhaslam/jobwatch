@@ -95,10 +95,19 @@ PLATFORMS = {
 MIN_POSTINGS = 3
 
 
+# Boards are not always registered under the bare company name. DoorDash's
+# Greenhouse slug is "doordashusa", which a bare-name guess never finds.
+SLUG_SUFFIXES = ("", "usa", "inc", "careers", "jobs", "global", "us")
+
+
 def slugs_for(name: str) -> list[str]:
     compact = re.sub(r"[^a-z0-9]", "", name.lower())
     hyphen = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-    return list(dict.fromkeys([compact, hyphen]))
+    candidates = []
+    for base in (compact, hyphen):
+        for suffix in SLUG_SUFFIXES:
+            candidates.append(f"{base}{suffix}" if suffix else base)
+    return list(dict.fromkeys(candidates))
 
 
 def probe(name: str) -> tuple[str, list[tuple[str, str, int]]]:

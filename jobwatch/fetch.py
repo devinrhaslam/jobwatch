@@ -32,12 +32,14 @@ def fetch_static(
     backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
     session: requests.Session | None = None,
     sleep: Callable[[float], None] = time.sleep,
+    headers: dict[str, str] | None = None,
 ) -> str:
     session = session or requests.Session()
+    request_headers = {"User-Agent": USER_AGENT, **(headers or {})}
     last_error: Exception | None = None
     for attempt in range(retries):
         try:
-            response = session.get(url, timeout=timeout, headers={"User-Agent": USER_AGENT})
+            response = session.get(url, timeout=timeout, headers=request_headers)
         except requests.RequestException as exc:
             last_error = exc
             if attempt < retries - 1:
@@ -66,16 +68,31 @@ def split_post_url(url: str) -> tuple[str, dict]:
     letting the fetch layer send a real JSON body.
     """
     parsed = urlsplit(url)
-    raw = parse_qs(parsed.query).get("body", ["{}"])[0]
+    params = parse_qs(parsed.query)
+    raw = params.pop("body", ["{}"])[0]
     try:
         body = json.loads(raw)
     except json.JSONDecodeError as exc:
         raise FetchError(f"{url} has an unparseable body parameter: {exc}") from exc
-    return urlunsplit(parsed._replace(query="", fragment="")), body
+    # Everything other than `body` belongs to the endpoint itself.
+    endpoint = urlunsplit(
+        parsed._replace(query=urlencode(params, doseq=True), fragment="")
+    )
+    return endpoint, body
 
 
 def build_post_url(endpoint: str, body: dict) -> str:
-    return f"{endpoint}?{urlencode({'body': json.dumps(body, sort_keys=True)})}"
+    """Encode a POST body into a page URL, preserving any query the endpoint
+    already carries.
+
+    Naively appending `?body=...` produces a URL with two query strings when the
+    endpoint has its own parameters, and the body then parses back as empty —
+    silently sending a request with no parameters rather than failing.
+    """
+    parsed = urlsplit(endpoint)
+    params = parse_qs(parsed.query)
+    params["body"] = [json.dumps(body, sort_keys=True)]
+    return urlunsplit(parsed._replace(query=urlencode(params, doseq=True)))
 
 
 def fetch_json_post(
@@ -86,6 +103,7 @@ def fetch_json_post(
     backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
     session: requests.Session | None = None,
     sleep: Callable[[float], None] = time.sleep,
+    headers: dict[str, str] | None = None,
 ) -> str:
     """POST the body encoded in `url` and return the response text.
 
@@ -94,11 +112,17 @@ def fetch_json_post(
     """
     endpoint, body = split_post_url(url)
     session = session or requests.Session()
-    headers = {"User-Agent": USER_AGENT, "Content-Type": "application/json"}
+    request_headers = {
+        "User-Agent": USER_AGENT,
+        "Content-Type": "application/json",
+        **(headers or {}),
+    }
     last_error: Exception | None = None
     for attempt in range(retries):
         try:
-            response = session.post(endpoint, json=body, timeout=timeout, headers=headers)
+            response = session.post(
+                endpoint, json=body, timeout=timeout, headers=request_headers
+            )
         except requests.RequestException as exc:
             last_error = exc
             if attempt < retries - 1:

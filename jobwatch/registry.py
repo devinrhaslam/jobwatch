@@ -14,6 +14,7 @@ from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
 from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
 from jobwatch.scrapers.snap import SnapScraper
+from jobwatch.scrapers.uber import UberScraper
 from jobwatch.scrapers.workday import scrapers as workday_scrapers
 from jobwatch.state import DEFAULT_STATE_DIR, snapshot_path
 
@@ -45,6 +46,7 @@ _SCRAPER_INSTANCES = (
     GitHubScraper(),
     GoogleScraper(),
     SnapScraper(),
+    UberScraper(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 

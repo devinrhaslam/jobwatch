@@ -39,9 +39,9 @@ class ParseError(Exception):
 
 def default_fetch_page(config: CompanyConfig, url: str, *, browser=None) -> str:
     if config.fetch_mode is FetchMode.STATIC:
-        return fetch_static(url)
+        return fetch_static(url, headers=config.request_headers)
     if config.fetch_mode is FetchMode.JSON_POST:
-        return fetch_json_post(url)
+        return fetch_json_post(url, headers=config.request_headers)
     return fetch_rendered(url, wait_for_selector=config.wait_for_selector, browser=browser)
 
 

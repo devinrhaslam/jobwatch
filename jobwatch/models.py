@@ -39,6 +39,10 @@ class CompanyConfig:
     # at 20 results need a far higher ceiling to seed, while still stopping
     # after one or two pages on a normal run via the no-new-ids early stop.
     max_pages: int | None = None
+    # Extra headers sent with every fetch for this company. Some boards gate
+    # their API behind a header whose presence is checked but whose value is
+    # not, which is a bot filter rather than real authentication.
+    request_headers: dict[str, str] | None = None
     # Disables that early stop. It assumes newest-first ordering, so that a page
     # of entirely known jobs means everything beyond it is older and already
     # seen. Boards that do not order by recency violate the assumption and must
