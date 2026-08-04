@@ -201,10 +201,10 @@ Checked 2026-08-04.
 
 | Company | What was found | Why it is not built |
 |---|---|---|
-| **Rippling** | Runs its own ATS product at `ats.rippling.com`; the careers page loads roles from Algolia. | No public JSON board API found (six endpoint shapes tried, all 404). The Algolia index needs an app key. The board page itself is HTML and could be parsed. |
+| **Rippling** | Runs its own ATS product at `ats.rippling.com`; the careers page loads roles from Algolia. | No public JSON board API found (eight endpoint shapes tried). The Algolia index needs an app key, and the ATS board page serves 553KB containing no job ids — it renders client-side too. |
 | **Microsoft** | Careers site is Eightfold-backed. | Tenant answers `403 {"message": "Not authorized for PCSX"}` to the public jobs API on every host and header combination tried. Its own `gcsservices` API is reachable, but not from behind a TLS-intercepting proxy. |
 | **Tesla** | Returns 403 to plain HTTP even with a full set of browser headers. | Bot-blocked at the edge; needs a browser. |
-| **ByteDance** | Careers page loads but carries no platform fingerprint and no embedded job payload. | Job data is fetched client-side from an endpoint not yet identified. |
+| **ByteDance** | Endpoint identified: `POST jobs.bytedance.com/api/v1/public/supplier/search/job/posts`, called by the joinbytedance.com portal. | Every payload shape tried is rejected with a bare `400 invalid request`, and the request could not be captured — it fires during app boot, before in-page instrumentation can attach, and the Next.js chunks are served from a CDN path that does not enumerate. Needs the live request intercepted at the network layer rather than in JS. |
 | **Hudson River Trading** | *Now built.* Its page does embed Greenhouse, but that board (`hrttalentcommunity`) holds 3 "Talent Community" pipeline entries — the real 72 listings come from a self-hosted WordPress plugin. | — |
 
 The pattern is consistent: every remaining company either blocks plain HTTP or
