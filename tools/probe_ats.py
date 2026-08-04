@@ -52,6 +52,10 @@ def _count_ashby_html(text: str, slug: str) -> int:
     return len(set(re.findall(rf"/{re.escape(slug)}/([0-9a-f]{{8}}-[0-9a-f-]+)", text)))
 
 
+def _count_ashby_api(text: str) -> int:
+    return len(json.loads(text).get("jobs", []))
+
+
 # platform -> (url template, counter). The counter returns how many real
 # postings the response contains; zero means "this company is not here".
 PLATFORMS = {
@@ -71,9 +75,16 @@ PLATFORMS = {
         "https://api.lever.co/v0/postings/{slug}?mode=json",
         _count_lever_api,
     ),
+    # The public jobs.ashbyhq.com page renders its listings client-side, so the
+    # HTML probe silently reports zero for boards that are in fact live. Keep it
+    # as a secondary signal, but the JSON posting API is the authoritative check.
     "ashby": (
         "https://jobs.ashbyhq.com/{slug}",
         _count_ashby_html,
+    ),
+    "ashby-api": (
+        "https://api.ashbyhq.com/posting-api/job-board/{slug}",
+        _count_ashby_api,
     ),
     "smartrecruiters": (
         "https://api.smartrecruiters.com/v1/companies/{slug}/postings",
