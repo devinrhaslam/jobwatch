@@ -15,3 +15,6 @@ venv/
 
 # SDD scratch (progress ledger, task briefs, review packages)
 .superpowers/
+
+# Claude Code local overrides (machine-specific)
+.claude/settings.local.json
