@@ -8,6 +8,7 @@ from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
 from jobwatch.scrapers.eightfold import scrapers as eightfold_scrapers
 from jobwatch.scrapers.github import GitHubScraper
+from jobwatch.scrapers.google import GoogleScraper
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
 from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
@@ -40,6 +41,7 @@ _SCRAPER_INSTANCES = (
     # Bespoke portals: each answers plain JSON, so none needs a browser.
     AmazonScraper(),
     GitHubScraper(),
+    GoogleScraper(),
     SnapScraper(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )

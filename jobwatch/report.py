@@ -15,15 +15,20 @@ def format_report(results: list[CompanyResult]) -> str:
     lines = [f"Job Posting Watcher — {len(results)} companies, {total_new} new jobs", ""]
     for result in results:
         detail_part = f": {result.detail}" if result.detail else ""
+        # A successful run can still carry a detail — most often that pagination
+        # was truncated. Dropping it here would hide an incomplete result behind
+        # a line that reads like a clean one.
         if result.status == "ok" and result.new_jobs:
-            lines.append(f"## {result.company} — {len(result.new_jobs)} new")
+            lines.append(f"## {result.company} — {len(result.new_jobs)} new{detail_part}")
             for job in result.new_jobs:
                 loc = f" ({job.location})" if job.location else ""
                 lines.append(f"  - {job.title}{loc}\n    {job.url}")
         elif result.status == "ok":
-            lines.append(f"## {result.company} — no new jobs")
+            lines.append(f"## {result.company} — no new jobs{detail_part}")
         elif result.status == "seeded":
-            lines.append(f"## {result.company} — seeded {result.total_jobs} jobs, no alerts")
+            lines.append(
+                f"## {result.company} — seeded {result.total_jobs} jobs, no alerts{detail_part}"
+            )
         elif result.status == "blocked":
             lines.append(f"## {result.company} — BLOCKED{detail_part}")
         elif result.status == "failed":

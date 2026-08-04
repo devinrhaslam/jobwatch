@@ -90,3 +90,32 @@ def test_write_report_creates_dated_json_file(tmp_path):
     payload = json.loads(path.read_text())
     assert payload[0]["company"] == "Acme"
     assert payload[0]["new_jobs"][0]["job_id"] == "1"
+
+
+def test_seeded_result_surfaces_a_truncation_detail():
+    # A truncated seed reads like a clean one unless the detail is shown.
+    results = [
+        CompanyResult("Acme", "seeded", [], 1200, "reached the 60-page pagination ceiling")
+    ]
+    text = format_report(results)
+    assert "seeded 1200 jobs" in text
+    assert "60-page pagination ceiling" in text
+
+
+def test_ok_result_with_no_new_jobs_surfaces_a_detail():
+    results = [CompanyResult("Acme", "ok", [], 40, "pagination stopped early")]
+    assert "pagination stopped early" in format_report(results)
+
+
+def test_ok_result_with_new_jobs_surfaces_a_detail():
+    results = [
+        CompanyResult("Acme", "ok", [_job("1")], 40, "pagination stopped early")
+    ]
+    text = format_report(results)
+    assert "1 new" in text
+    assert "pagination stopped early" in text
+
+
+def test_clean_results_have_no_trailing_detail_separator():
+    results = [CompanyResult("Acme", "seeded", [], 40)]
+    assert format_report(results).rstrip().endswith("no alerts")

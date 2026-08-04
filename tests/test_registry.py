@@ -16,7 +16,7 @@ _PLATFORMS = (
     SMARTRECRUITERS_BOARDS,
 )
 # Companies with a bespoke portal rather than a shared platform board.
-_CUSTOM = {"Amazon", "GitHub", "Snap", "Meta"}
+_CUSTOM = {"Amazon", "GitHub", "Google", "Snap", "Meta"}
 
 
 def test_every_platform_board_is_registered():
