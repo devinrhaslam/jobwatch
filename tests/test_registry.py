@@ -17,7 +17,7 @@ _PLATFORMS = (
 )
 # Companies with a bespoke portal rather than a shared platform board.
 _CUSTOM = {
-    "Amazon", "Apple", "GitHub", "Google", "Hudson River Trading",
+    "Amazon", "Apple", "ByteDance", "GitHub", "Google", "Hudson River Trading",
     "Snap", "Two Sigma", "Uber", "Meta",
 }
 

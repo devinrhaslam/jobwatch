@@ -7,6 +7,7 @@ from jobwatch.scrapers.amazon import AmazonScraper
 from jobwatch.scrapers.apple import AppleScraper
 from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
+from jobwatch.scrapers.bytedance import ByteDanceScraper
 from jobwatch.scrapers.eightfold import scrapers as eightfold_scrapers
 from jobwatch.scrapers.github import GitHubScraper
 from jobwatch.scrapers.google import GoogleScraper
@@ -45,6 +46,7 @@ _SCRAPER_INSTANCES = (
     # Bespoke portals: each answers plain JSON, so none needs a browser.
     AmazonScraper(),
     AppleScraper(),
+    ByteDanceScraper(),
     GitHubScraper(),
     GoogleScraper(),
     HudsonRiverTradingScraper(),
