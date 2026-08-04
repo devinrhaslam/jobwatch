@@ -170,7 +170,7 @@ def _fetch_all_pages(
         next_url = scraper.next_page_url(payload, url)
         if next_url is None:
             break
-        if known_ids is not None and not page_has_new:
+        if known_ids is not None and not page_has_new and not config.paginate_fully:
             break
         url = next_url
     else:

@@ -5,6 +5,7 @@ from pathlib import Path
 
 from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
+from jobwatch.scrapers.eightfold import scrapers as eightfold_scrapers
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
 from jobwatch.scrapers.workday import scrapers as workday_scrapers
@@ -30,6 +31,7 @@ _SCRAPER_INSTANCES = (
     *greenhouse_scrapers(),
     *ashby_scrapers(),
     *workday_scrapers(),
+    *eightfold_scrapers(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 

@@ -319,3 +319,38 @@ def test_suspicious_ratio_does_not_fire_below_the_minimum_job_floor(tmp_path):
     )
     assert result.status == "ok"
     assert {j.job_id for j in result.new_jobs} == {"new-1", "new-2", "new-3", "new-4"}
+
+
+def test_paginate_fully_keeps_reading_past_a_page_of_known_jobs(tmp_path):
+    """Boards not ordered by recency can hide a new posting behind pages of
+    known ones. The default early stop would miss it."""
+    config = CompanyConfig(
+        name="Unsorted",
+        career_url="0",
+        fetch_mode=FetchMode.STATIC,
+        paginate_fully=True,
+    )
+    pages = [[_job("1")], [_job("2")], [_job("late")]]
+    run_company(
+        FakeScraper([[_job("1")], [_job("2")]], config=config),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: u,
+    )
+    result = run_company(
+        FakeScraper(pages, config=config), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+    assert [j.job_id for j in result.new_jobs] == ["late"]
+
+
+def test_early_stop_still_applies_when_paginate_fully_is_off(tmp_path):
+    config = CompanyConfig(name="Sorted", career_url="0", fetch_mode=FetchMode.STATIC)
+    pages = [[_job("1")], [_job("2")], [_job("late")]]
+    run_company(
+        FakeScraper([[_job("1")], [_job("2")]], config=config),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: u,
+    )
+    result = run_company(
+        FakeScraper(pages, config=config), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+    assert result.new_jobs == []

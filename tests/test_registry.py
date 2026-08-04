@@ -2,11 +2,12 @@ import pytest
 
 from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scraper
 from jobwatch.scrapers.ashby import BOARDS as ASHBY_BOARDS
+from jobwatch.scrapers.eightfold import BOARDS as EIGHTFOLD_BOARDS
 from jobwatch.scrapers.greenhouse import BOARDS as GREENHOUSE_BOARDS
 from jobwatch.scrapers.workday import BOARDS as WORKDAY_BOARDS
 
 
-_PLATFORMS = (GREENHOUSE_BOARDS, ASHBY_BOARDS, WORKDAY_BOARDS)
+_PLATFORMS = (GREENHOUSE_BOARDS, ASHBY_BOARDS, WORKDAY_BOARDS, EIGHTFOLD_BOARDS)
 
 
 def test_every_platform_board_is_registered():

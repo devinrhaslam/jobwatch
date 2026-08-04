@@ -74,8 +74,9 @@ several minutes — but results come newest-first, and the engine stops
 paginating at the first page with no unseen ids, so a routine run reads one or
 two pages per company.
 
-OpenAI's board is the largest single download at ~11 MB, since Ashby inlines
-full job descriptions.
+Netflix costs a further ~23 seconds because its board must be read in full
+(see above). OpenAI's board is the largest single download at ~11 MB, since
+Ashby inlines full job descriptions.
 
 Run it in the **early evening**. Postings appear through the business day, so
 an end-of-day run catches everything posted that day while it is still hours
@@ -97,7 +98,7 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-28 companies are watched: 27 through three shared platform scrapers, plus
+29 companies are watched: 28 through four shared platform scrapers, plus
 Meta's custom portal. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
@@ -106,6 +107,7 @@ list — see "Scaling to the rest" below.
 | Greenhouse board API | Airbnb, Anthropic, Block, Cloudflare, Coinbase, Databricks, Dropbox, Figma, Jane Street, Lyft, MongoDB, Pinterest, Reddit, SpaceX, Stripe, Twitch, Vercel, Waymo | static HTTP |
 | Ashby posting API | Linear, Notion, OpenAI, Plaid, Ramp, Snowflake | static HTTP |
 | Workday CXS API | CrowdStrike, NVIDIA, Salesforce | JSON POST |
+| Eightfold | Netflix | static HTTP |
 | Custom portal | Meta | headless browser |
 
 **Both platforms are the upstream source, not a mirror.** Recruiters post into
@@ -119,11 +121,17 @@ with zero divergence in either direction, while the API was serving postings
 
 Two consequences worth knowing:
 
-- **Greenhouse and Ashby give an exact `posted_date`** (`first_published` /
-  `publishedAt`). **Workday only gives prose** — "Posted 5 Days Ago" — so its
-  dates are approximate, and "Posted 30+ Days Ago" is left unset rather than
-  invented as exactly 30. Meta gives nothing, so its recency comes purely from
-  snapshot diffing.
+- **Greenhouse, Ashby, and Eightfold give an exact `posted_date`**
+  (`first_published` / `publishedAt` / `t_create`). **Workday only gives
+  prose** — "Posted 5 Days Ago" — so its dates are approximate, and "Posted
+  30+ Days Ago" is left unset rather than invented as exactly 30. Meta gives
+  nothing, so its recency comes purely from snapshot diffing.
+- **Netflix is read in full on every run.** Its Eightfold board is not ordered
+  by recency despite accepting `sort_by=timestamp`: of its 481 postings, the 15
+  newest were spread across pages 1 to 22 of 49. The engine's usual early stop
+  assumes newest-first ordering, so that company sets `paginate_fully` and
+  costs ~49 requests (about 23 seconds) every run rather than one or two
+  pages.
 - **Stripe's careers page is a filtered view** of its board — 544 jobs on the
   API against 513 on the page. Migrating it surfaced 34 listings the page never
   showed.
@@ -150,16 +158,17 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-03, 27 of 44 sit on a known platform and are all built:
+uses. As of 2026-08-03, 28 of 44 sit on a usable platform and are all built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
 | Greenhouse | 18 | done — shared scraper |
 | Workday | CrowdStrike, NVIDIA, Salesforce | done — shared scraper |
+| Eightfold | Netflix | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | SmartRecruiters | Canva | not built (single company) |
-| Eightfold | Microsoft, Netflix | not built; fingerprinted, endpoints unprobed |
 | iCIMS | GitHub | not built; fingerprinted |
+| Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
 | Custom portals | Google, Amazon, Apple, Uber, Tesla, Snap, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | one scraper each, no leverage |
 
 LinkedIn is excluded deliberately: it matches three different boards
@@ -180,10 +189,10 @@ jobwatch/
   models.py             Job, CompanyConfig, FetchMode
   filters.py            report-time role-fit filtering via the Claude API
   scrapers/             base.py, greenhouse.py (18), ashby.py (6),
-                        workday.py (3), meta.py
+                        workday.py (3), eightfold.py (1), meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  159 tests, fixture-backed parser and unit tests
+tests/                  175 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -216,7 +225,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (159 tests)
+.venv/bin/pytest          # full suite (175 tests)
 .venv/bin/pytest -v       # verbose
 ```
 
