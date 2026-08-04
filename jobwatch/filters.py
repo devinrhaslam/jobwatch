@@ -38,6 +38,10 @@ and ML research experience, plus production LLM integration work.
 Targeting: general backend and full-stack software engineering roles at the
 senior or staff level.
 
+Location: based in the United States. Only roles that can be done from the US
+are of interest — a US office, a US-remote role, or a role explicitly open to
+US-based candidates.
+
 NOT looking for: dedicated infrastructure/platform/SRE roles, data engineering
 or data science roles, ML/research engineer roles, security engineering,
 engineering management, or anything that is not primarily an
@@ -67,6 +71,15 @@ ML/research engineering, security), for management or non-engineering roles,
 and for levels well outside the band (internships, new grad, principal and
 above). An unleveled title such as plain "Software Engineer" is fine — many
 companies do not put a level in the title.
+
+Also mark relevant=false when the role is clearly based outside the United
+States — a listing in Bengaluru, Tokyo, London, or Sydney is not workable for
+this candidate no matter how well the role itself fits. A role listing several
+sites counts as relevant if any one of them is in the US. Treat unqualified
+"Remote" or "Distributed" as relevant, since it usually includes the US, but
+treat a region-qualified remote such as "Remote India" or "Remote - EMEA" as
+outside it. When a listing carries no location at all, do not drop it on
+location grounds — judge it on the role alone.
 
 There is no manual review step: anything you mark relevant=false disappears
 without the candidate ever seeing it. When a listing is genuinely borderline,
@@ -109,7 +122,10 @@ class Verdict:
 
 
 def cache_key(job: Job) -> str:
-    return f"{job.company}|{job.title}"
+    # Location is part of the key because it is part of the verdict: the same
+    # title is a keep in Seattle and a drop in Bengaluru. Keying on title alone
+    # would let whichever listing was judged first decide for all the others.
+    return f"{job.company}|{job.title}|{job.location or ''}"
 
 
 def prompt_fingerprint() -> str:

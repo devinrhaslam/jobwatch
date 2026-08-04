@@ -32,6 +32,30 @@ _RELATIVE_DAYS = re.compile(r"posted\s+(\d+)\+?\s+days?\s+ago", re.I)
 _POSTED_TODAY = re.compile(r"posted\s+today", re.I)
 _POSTED_YESTERDAY = re.compile(r"posted\s+yesterday", re.I)
 
+# "3 Locations" — a count, not a place.
+_LOCATION_COUNT = re.compile(r"^\s*\d+\s+locations?\s*$", re.I)
+# externalPath looks like /job/India---Hyderabad/Software-Engineer_JR1
+_PATH_LOCATION = re.compile(r"^/job/([^/]+)/")
+
+
+def _location(record: dict) -> str | None:
+    """Workday reports a bare count for any multi-site role, which is useless
+    for deciding whether a job is somewhere you would take it. The posting path
+    still names the primary site, so fall back to that: roughly a third of the
+    postings on these boards would otherwise carry no usable location at all.
+    """
+    text = (record.get("locationsText") or "").strip()
+    if text and not _LOCATION_COUNT.match(text):
+        return text
+    match = _PATH_LOCATION.match(record.get("externalPath") or "")
+    if not match:
+        return text or None
+    # Path segments encode separators as hyphen runs: "India---Hyderabad".
+    primary = re.sub(r"-{2,}", ", ", match.group(1)).replace("-", " ").strip()
+    if not primary:
+        return text or None
+    return f"{primary} (+{text})" if text else primary
+
 
 def _body(offset: int) -> dict:
     return {"appliedFacets": {}, "limit": PAGE_SIZE, "offset": offset, "searchText": ""}
@@ -105,8 +129,7 @@ class WorkdayScraper(Scraper):
                     # externalPath is site-relative; the public posting lives
                     # under the job board's own path, not the API's.
                     url=f"{self.base_url}/{self.site}{path}",
-                    # Often a count such as "3 Locations" rather than a place.
-                    location=record.get("locationsText") or None,
+                    location=_location(record),
                     posted_date=_posted_date(record),
                 )
             )

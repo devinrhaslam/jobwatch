@@ -276,3 +276,25 @@ def test_cache_path_none_skips_disk_entirely(tmp_path):
     apply_filters([job], cache_path=None, classifier=classifier)
 
     assert list(tmp_path.iterdir()) == []
+
+
+def test_cache_key_distinguishes_the_same_title_in_different_locations():
+    # The same role is a keep in Seattle and a drop in Bengaluru; sharing a
+    # cache entry would let the first one judged decide for both.
+    seattle = _job("1", "Software Engineer", location="Seattle, WA")
+    bengaluru = _job("2", "Software Engineer", location="Bengaluru, India")
+    assert cache_key(seattle) != cache_key(bengaluru)
+
+
+def test_locations_are_classified_independently(tmp_path):
+    seattle = _job("1", "Software Engineer", location="Seattle, WA")
+    bengaluru = _job("2", "Software Engineer", location="Bengaluru, India")
+
+    class ByLocation:
+        def __call__(self, jobs):
+            return [Verdict("Seattle" in (j.location or ""), "location") for j in jobs]
+
+    kept = apply_filters(
+        [seattle, bengaluru], cache_path=tmp_path / "c.json", classifier=ByLocation()
+    )
+    assert kept == [seattle]

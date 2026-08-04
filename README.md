@@ -192,23 +192,26 @@ jobwatch/
                         workday.py (3), eightfold.py (1), meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  175 tests, fixture-backed parser and unit tests
+tests/                  181 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
 
 ## Known limitations
 
-- **Role-fit filtering judges the title only.** `jobwatch/filters.py` sends each
-  new job's title, company, and location to Claude, which decides against the
-  candidate profile in that module whether the role is a general backend or
-  full-stack IC job at the target level. It never reads the job description, so
-  a role whose title hides its real content can be misjudged. There is no
+- **Role-fit filtering judges the title and location only.** `jobwatch/filters.py`
+  sends each new job's title, company, and location to Claude, which decides
+  against the candidate profile in that module whether the role is a general
+  backend or full-stack IC job at the target level **and workable from the US**.
+  It never reads the job description, so a role whose title hides its real
+  content can be misjudged. There is no
   "uncertain" bucket — a job marked irrelevant is not reported at all, which is
   why the prompt is told to keep genuinely borderline listings. Run `--verbose`
   to see what was dropped, or `--all-roles` to see everything.
-- **Verdicts are cached** in `state/filter_cache.json`, keyed by company and
-  title, so repeated titles are judged once. Editing `CANDIDATE_PROFILE` or the
+- **Verdicts are cached** in `state/filter_cache.json`, keyed by company,
+  title, and location, so a repeated listing is judged once. Location is part
+  of the key because it is part of the verdict: the same title is a keep in
+  Seattle and a drop in Bengaluru. Editing `CANDIDATE_PROFILE` or the
   instructions in `filters.py` invalidates the whole cache automatically.
 - **A failed classification is loud, not silent.** Snapshots are written before
   filtering, so a job dropped by an API failure would never be reported again.
@@ -225,7 +228,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (175 tests)
+.venv/bin/pytest          # full suite (181 tests)
 .venv/bin/pytest -v       # verbose
 ```
 

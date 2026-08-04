@@ -126,3 +126,60 @@ def test_every_board_yields_a_distinct_registered_scraper():
     assert len(built) == len(BOARDS)
     assert {s.config.name for s in built} == set(BOARDS)
     assert len({s.config.career_url for s in built}) == len(BOARDS)
+
+
+def test_location_falls_back_to_the_posting_path_when_it_is_just_a_count():
+    # "3 Locations" cannot be filtered on; the path names the primary site.
+    payload = json.dumps(
+        {
+            "jobPostings": [
+                {
+                    "title": "Software Engineer",
+                    "externalPath": "/job/India---Hyderabad/Software-Engineer_JR1",
+                    "bulletFields": ["JR1"],
+                    "locationsText": "3 Locations",
+                }
+            ]
+        }
+    )
+    job = _scraper().parse(payload)[0]
+    assert job.location == "India, Hyderabad (+3 Locations)"
+
+
+def test_a_real_location_is_preferred_over_the_path():
+    payload = json.dumps(
+        {
+            "jobPostings": [
+                {
+                    "title": "Software Engineer",
+                    "externalPath": "/job/India---Hyderabad/Software-Engineer_JR1",
+                    "bulletFields": ["JR1"],
+                    "locationsText": "USA - Sunnyvale, CA",
+                }
+            ]
+        }
+    )
+    assert _scraper().parse(payload)[0].location == "USA - Sunnyvale, CA"
+
+
+def test_multi_word_path_locations_are_readable():
+    payload = json.dumps(
+        {
+            "jobPostings": [
+                {
+                    "title": "Software Engineer",
+                    "externalPath": "/job/California---San-Francisco/Software-Engineer_JR1",
+                    "bulletFields": ["JR1"],
+                    "locationsText": "2 Locations",
+                }
+            ]
+        }
+    )
+    assert _scraper().parse(payload)[0].location == "California, San Francisco (+2 Locations)"
+
+
+def test_missing_location_and_path_yields_none():
+    payload = json.dumps(
+        {"jobPostings": [{"title": "SWE", "externalPath": "/job/x_JR1", "bulletFields": ["JR1"]}]}
+    )
+    assert _scraper().parse(payload)[0].location is None
