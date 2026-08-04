@@ -4,6 +4,7 @@ from collections.abc import Iterable
 from pathlib import Path
 
 from jobwatch.scrapers.amazon import AmazonScraper
+from jobwatch.scrapers.apple import AppleScraper
 from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
 from jobwatch.scrapers.eightfold import scrapers as eightfold_scrapers
@@ -40,6 +41,7 @@ _SCRAPER_INSTANCES = (
     *smartrecruiters_scrapers(),
     # Bespoke portals: each answers plain JSON, so none needs a browser.
     AmazonScraper(),
+    AppleScraper(),
     GitHubScraper(),
     GoogleScraper(),
     SnapScraper(),
