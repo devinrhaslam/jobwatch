@@ -18,9 +18,12 @@ python3 -m venv .venv
 .venv/bin/pip install -e .
 ```
 
-`playwright install chromium` is required — Cloudflare and Meta cannot be
-scraped without a headless browser. The editable install (`pip install -e .`)
-makes the `jobwatch` package importable from `run.py` and the test suite.
+`playwright install chromium` is required for Meta, the only company not on a
+JSON board API. Runs that skip it (`--company` on any Greenhouse company) need
+no browser.
+
+The editable install (`pip install -e .`) makes the `jobwatch` package
+importable from `run.py` and the test suite.
 
 Role-fit filtering calls the Claude API, so a key is required unless every run
 passes `--all-roles`:
@@ -54,9 +57,9 @@ On a normal (non-dry-run) run, a dated JSON report is written under
 
 The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
-`seeded N jobs, no alerts` — nothing is flagged as new. On a typical first
-seed that is roughly 400 jobs at Anthropic, 513 at Stripe, 284 at Cloudflare,
-and 65 at Meta.
+`seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
+widely: SpaceX seeds ~2,100 jobs, Databricks ~800, Stripe ~540, Dropbox ~36.
+Seeding all 19 companies stores roughly 5,600 listings.
 
 This is deliberate. Without seeding, day one would dump hundreds of "new"
 jobs that have been open for weeks. Real alerting starts on the second run:
@@ -64,9 +67,13 @@ only jobs whose IDs were not in the snapshot are reported. Two consecutive
 runs against unchanged live sites should report zero new jobs on the second
 pass — that is the property that makes daily use trustworthy.
 
-Run it daily after the initial seed. Each run takes roughly 40 seconds for all
-four companies; most of that time is headless-browser rendering for Cloudflare
-and Meta.
+Run it daily after the initial seed. A full run over all 19 companies takes
+roughly 25 seconds, most of it the one-second courtesy delay between companies
+plus headless-browser rendering for Meta.
+
+Run it in the **early evening**. Postings appear through the business day, so
+an end-of-day run catches everything posted that day while it is still hours
+old; a morning run would miss the whole preceding day.
 
 ## Report statuses
 
@@ -84,21 +91,43 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-Four companies have working scrapers. The remaining names in `companies.txt`
-(~44 total) are a target list, not yet implemented.
+19 companies are watched: 18 through one shared Greenhouse scraper, plus Meta's
+custom portal. The remaining names in `companies.txt` (44 total) are a target
+list — see "Scaling to the rest" below.
 
-| Company | Fetch mode | Notes |
-|---------|------------|-------|
-| Anthropic | static HTTP | ~400 jobs on first seed |
-| Stripe | static HTTP | ~513 jobs on first seed |
-| Cloudflare | headless browser | ~284 jobs; only company that exposes a real posted date |
-| Meta | headless browser | ~65 jobs; entry URL is pre-filtered to software engineering roles, newest-first, 10 per page |
+| Source | Companies | Fetch mode |
+|--------|-----------|------------|
+| Greenhouse board API | Airbnb, Anthropic, Block, Cloudflare, Coinbase, Databricks, Dropbox, Figma, Jane Street, Lyft, MongoDB, Pinterest, Reddit, SpaceX, Stripe, Twitch, Vercel, Waymo | static HTTP |
+| Custom portal | Meta | headless browser |
 
-Anthropic, Stripe, and Meta do not expose posted dates on their listing pages.
-Recency comes entirely from snapshot diffing — a job is "new" when its ID first
-appears, not when the page says it was posted.
+**Greenhouse is the upstream source, not a mirror.** Recruiters post into
+Greenhouse and the company's careers page renders from it — Anthropic's page
+links out to `job-boards.greenhouse.io`, Cloudflare's to
+`boards.greenhouse.io`, Stripe embeds a `greenhouseId`. Reading the board API
+is therefore at least as fresh as the careers page, and measurably so: on
+2026-08-03 Anthropic's page and its board API returned an identical 399 jobs
+with zero divergence in either direction, while the API was serving postings
+3.8 hours old.
+
+Two consequences worth knowing:
+
+- **Greenhouse companies get a real `posted_date`** from `first_published`.
+  Meta does not, so its recency still comes purely from snapshot diffing.
+- **Stripe's careers page is a filtered view** of its board — 544 jobs on the
+  API against 513 on the page. Migrating it surfaced 34 listings the page never
+  showed.
+
+Meta is the only company still needing a headless browser, so a run that skips
+it needs no Playwright at all.
 
 ## Adding a company
+
+**If the company is on Greenhouse**, add one line to `BOARDS` in
+`jobwatch/scrapers/greenhouse.py` mapping its name to its board slug. Nothing
+else — no new module, no new test. Confirm the slug first with
+`python tools/probe_ats.py <name>`.
+
+**Otherwise** it needs its own module, following `jobwatch/scrapers/meta.py`:
 
 1. Create `jobwatch/scrapers/<company>.py` with a `CompanyConfig` and a
    `Scraper` subclass implementing `parse()` (and `next_page_url()` if the
@@ -107,8 +136,21 @@ appears, not when the page says it was posted.
 3. Save a real page (or API response) into `tests/fixtures/` and add a parser
    test under `tests/test_scraper_<company>.py`.
 
-Follow the existing scrapers for patterns: Anthropic and Stripe use static
-HTTP; Cloudflare and Meta use Playwright rendering with a `wait_for_selector`.
+## Scaling to the rest
+
+`tools/probe_ats.py` identifies which platform each company in `companies.txt`
+uses. As of 2026-08-03, 26 of 44 sit on three platforms:
+
+| Platform | Companies | Status |
+|----------|-----------|--------|
+| Greenhouse | 18 | done — shared scraper |
+| Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | not built; same shape as Greenhouse |
+| SmartRecruiters | Canva | not built |
+| Custom portals | 18, incl. Google, Amazon, Apple, Microsoft, Netflix | one scraper each, no leverage |
+
+LinkedIn is excluded deliberately: it matches three different boards
+(Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
+needs individual recon rather than an assumed slug.
 
 ## Project layout
 
@@ -123,10 +165,10 @@ jobwatch/
   registry.py           maps company name → scraper instance
   models.py             Job, CompanyConfig, FetchMode
   filters.py            report-time role-fit filtering via the Claude API
-  scrapers/             one module per company (base.py + four scrapers)
+  scrapers/             base.py, greenhouse.py (18 companies), meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  119 tests, fixture-backed parser and unit tests
+tests/                  123 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -159,7 +201,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (119 tests)
+.venv/bin/pytest          # full suite (123 tests)
 .venv/bin/pytest -v       # verbose
 ```
 

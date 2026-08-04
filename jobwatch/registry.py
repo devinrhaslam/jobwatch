@@ -3,11 +3,9 @@ from __future__ import annotations
 from collections.abc import Iterable
 from pathlib import Path
 
-from jobwatch.scrapers.anthropic import AnthropicScraper
 from jobwatch.scrapers.base import Scraper
-from jobwatch.scrapers.cloudflare import CloudflareScraper
+from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
-from jobwatch.scrapers.stripe import StripeScraper
 from jobwatch.state import DEFAULT_STATE_DIR, snapshot_path
 
 
@@ -27,10 +25,8 @@ def check_snapshot_path_collisions(
 
 
 _SCRAPER_INSTANCES = (
-    AnthropicScraper(),
-    StripeScraper(),
-    CloudflareScraper(),
-    MetaScraper(),
+    *greenhouse_scrapers(),
+    MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 
 check_snapshot_path_collisions(scraper.config.name for scraper in _SCRAPER_INSTANCES)

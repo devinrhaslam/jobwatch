@@ -1,10 +1,22 @@
 import pytest
 
 from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scraper
+from jobwatch.scrapers.greenhouse import BOARDS
 
 
-def test_all_four_pilot_companies_registered():
-    assert set(SCRAPERS) == {"Anthropic", "Stripe", "Cloudflare", "Meta"}
+def test_every_greenhouse_board_is_registered():
+    assert set(BOARDS) <= set(SCRAPERS)
+
+
+def test_registry_is_exactly_the_greenhouse_boards_plus_meta():
+    assert set(SCRAPERS) == set(BOARDS) | {"Meta"}
+
+
+def test_originally_piloted_companies_survived_the_greenhouse_migration():
+    # These had bespoke page scrapers and existing snapshots; losing them from
+    # the registry would silently stop watching a company that already works.
+    for name in ("Anthropic", "Stripe", "Cloudflare", "Meta"):
+        assert name in SCRAPERS, name
 
 
 def test_get_scraper_returns_matching_scraper():
