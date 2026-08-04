@@ -187,6 +187,74 @@ def fetch_form_post(
     raise FetchError(f"failed to fetch {endpoint} after {retries} attempts") from last_error
 
 
+def fetch_rendered_xhr(
+    url: str,
+    *,
+    capture_response_url: str,
+    engine: str = "chromium",
+    timeout_ms: int = 45000,
+    retries: int = DEFAULT_RETRIES,
+    backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
+    browser=None,
+    sleep: Callable[[float], None] = time.sleep,
+) -> str:
+    """Open `url` in a browser and return the body of the API call it makes.
+
+    Some boards render entirely from one JSON call that carries the whole board.
+    Reading that response gives the same data the page shows without depending
+    on its markup, so a redesign of the page cannot break the parse.
+    """
+    from playwright.sync_api import sync_playwright
+
+    def _render_once(pw_browser) -> str:
+        # No user-agent override: the browser announces itself honestly. Pinning
+        # the shared Chrome UA string here made a Firefox engine claim to be
+        # Chrome, and a bot filter reads that mismatch as a disguise and blocks
+        # the page — the opposite of the intent.
+        page = pw_browser.new_page()
+        try:
+            # Arm the wait before navigating: the call fires during page load, so
+            # registering afterwards would race it and time out on a fast page.
+            with page.expect_response(
+                lambda response: capture_response_url in response.url
+                and response.status == 200,
+                timeout=timeout_ms,
+            ) as captured:
+                page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+            return captured.value.text()
+        finally:
+            page.close()
+
+    def _fetch(pw_browser) -> str:
+        last_error: Exception | None = None
+        for attempt in range(retries):
+            try:
+                return _render_once(pw_browser)
+            except Exception as exc:
+                last_error = exc
+                if attempt < retries - 1:
+                    sleep(backoff_seconds * (2**attempt))
+        raise FetchError(
+            f"failed to capture {capture_response_url} from {url} "
+            f"after {retries} attempts"
+        ) from last_error
+
+    if browser is not None:
+        return _fetch(browser)
+
+    try:
+        with sync_playwright() as pw:
+            launched = getattr(pw, engine).launch()
+            try:
+                return _fetch(launched)
+            finally:
+                launched.close()
+    except FetchError:
+        raise
+    except Exception as exc:
+        raise FetchError(f"failed to render {url}: {exc}") from exc
+
+
 def fetch_rendered(
     url: str,
     *,

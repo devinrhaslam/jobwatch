@@ -388,3 +388,36 @@ def test_a_single_page_company_is_never_delayed(tmp_path):
         sleep=slept.append,
     )
     assert slept == []
+
+
+def test_default_fetch_page_routes_rendered_xhr_with_its_engine(monkeypatch):
+    from jobwatch import engine as engine_module
+
+    seen = {}
+
+    def fake_fetch_rendered_xhr(url, *, capture_response_url, engine, browser):
+        seen.update(
+            url=url, capture=capture_response_url, engine=engine, browser=browser
+        )
+        return "{}"
+
+    monkeypatch.setattr(engine_module, "fetch_rendered_xhr", fake_fetch_rendered_xhr)
+    config = CompanyConfig(
+        name="Acme",
+        career_url="https://acme.example/careers",
+        fetch_mode=FetchMode.RENDERED_XHR,
+        capture_response_url="/api/state",
+        browser_engine="firefox",
+    )
+
+    payload = engine_module.default_fetch_page(config, config.career_url, browser="B")
+
+    assert payload == "{}"
+    # The engine must reach the fetch layer: routing a firefox-only board to the
+    # default chromium is exactly the failure this config exists to prevent.
+    assert seen == {
+        "url": "https://acme.example/careers",
+        "capture": "/api/state",
+        "engine": "firefox",
+        "browser": "B",
+    }

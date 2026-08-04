@@ -18,6 +18,7 @@ from jobwatch.scrapers.oracle import scrapers as oracle_scrapers
 from jobwatch.scrapers.rippling import RipplingScraper
 from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
 from jobwatch.scrapers.snap import SnapScraper
+from jobwatch.scrapers.tesla import TeslaScraper
 from jobwatch.scrapers.twosigma import TwoSigmaScraper
 from jobwatch.scrapers.workday import scrapers as workday_scrapers
 from jobwatch.state import DEFAULT_STATE_DIR, snapshot_path
@@ -56,6 +57,7 @@ _SCRAPER_INSTANCES = (
     TwoSigmaScraper(),
     SnapScraper(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
+    TeslaScraper(),  # behind Akamai; needs headless Firefox, which it does serve
 )
 
 check_snapshot_path_collisions(scraper.config.name for scraper in _SCRAPER_INSTANCES)

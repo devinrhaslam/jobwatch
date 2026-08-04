@@ -9,6 +9,7 @@ from time import sleep
 from playwright.sync_api import sync_playwright
 
 from jobwatch.engine import CompanyResult, default_fetch_page, run_company
+from jobwatch.fetch import FetchError
 from jobwatch.filters import FilterError, apply_filters
 from jobwatch.models import FetchMode
 from jobwatch.registry import SCRAPERS
@@ -19,38 +20,67 @@ OUTPUT_DIR = Path("output")
 INTER_COMPANY_DELAY_SECONDS = 1.0
 
 
-def _build_fetch_page(browser):
+BROWSER_MODES = (FetchMode.RENDERED, FetchMode.RENDERED_XHR)
+
+
+class _BrowserPool:
+    """Launches at most one browser per engine, on first use.
+
+    Companies do not all render in the same engine — a board's bot filter may
+    reject headless Chromium while serving headless Firefox — so a single shared
+    browser is not enough. Launching lazily means a run that needs only Chromium
+    never starts Firefox, and a failure to launch one engine is reported against
+    the companies that need it rather than failing the whole run.
+    """
+
+    def __init__(self, playwright):
+        self._playwright = playwright
+        self._browsers: dict[str, object] = {}
+        self._errors: dict[str, Exception] = {}
+
+    def get(self, engine: str):
+        if engine in self._browsers:
+            return self._browsers[engine]
+        if engine not in self._errors:
+            try:
+                self._browsers[engine] = getattr(self._playwright, engine).launch()
+                return self._browsers[engine]
+            except Exception as exc:
+                self._errors[engine] = exc
+        raise FetchError(f"browser launch failed for {engine}: {self._errors[engine]}")
+
+    def close(self) -> None:
+        for browser in self._browsers.values():
+            try:
+                browser.close()
+            except Exception:  # a browser that already died must not fail the run
+                pass
+
+
+def _build_fetch_page(pool: _BrowserPool):
     def fetch_page(config, url):
+        browser = pool.get(config.browser_engine) if config.fetch_mode in BROWSER_MODES else None
         return default_fetch_page(config, url, browser=browser)
 
     return fetch_page
 
 
-def _run_companies(
-    names, args, *, fetch_page, browser_error: Exception | None
-) -> list[CompanyResult]:
+def _run_companies(names, args, *, fetch_page) -> list[CompanyResult]:
     results = []
     for index, name in enumerate(names):
         scraper = SCRAPERS[name]
         if args.verbose:
             print(f"Checking {name}...", file=sys.stderr)
-        if browser_error is not None and scraper.config.fetch_mode is FetchMode.RENDERED:
-            results.append(
-                CompanyResult(
-                    name, "failed", [], 0, f"browser launch failed: {browser_error}"
-                )
+        try:
+            result = run_company(
+                scraper,
+                state_dir=STATE_DIR,
+                dry_run=args.dry_run,
+                fetch_page=fetch_page,
             )
-        else:
-            try:
-                result = run_company(
-                    scraper,
-                    state_dir=STATE_DIR,
-                    dry_run=args.dry_run,
-                    fetch_page=fetch_page,
-                )
-            except Exception as exc:  # isolate one company's crash from the rest
-                result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
-            results.append(result)
+        except Exception as exc:  # isolate one company's crash from the rest
+            result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
+        results.append(result)
         if index < len(names) - 1:
             sleep(INTER_COMPANY_DELAY_SECONDS)
     return results
@@ -92,31 +122,18 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     needs_browser = any(
-        SCRAPERS[n].config.fetch_mode is FetchMode.RENDERED for n in names
+        SCRAPERS[n].config.fetch_mode in BROWSER_MODES for n in names
     )
 
     if needs_browser:
         with sync_playwright() as pw:
-            browser = None
-            browser_error: Exception | None = None
+            pool = _BrowserPool(pw)
             try:
-                browser = pw.chromium.launch()
-            except Exception as exc:
-                browser_error = exc
-            try:
-                results = _run_companies(
-                    names,
-                    args,
-                    fetch_page=_build_fetch_page(browser),
-                    browser_error=browser_error,
-                )
+                results = _run_companies(names, args, fetch_page=_build_fetch_page(pool))
             finally:
-                if browser is not None:
-                    browser.close()
+                pool.close()
     else:
-        results = _run_companies(
-            names, args, fetch_page=default_fetch_page, browser_error=None
-        )
+        results = _run_companies(names, args, fetch_page=default_fetch_page)
 
     filter_failed = False
     if not args.all_roles:

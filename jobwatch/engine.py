@@ -13,6 +13,7 @@ from jobwatch.fetch import (
     fetch_form_post,
     fetch_json_post,
     fetch_rendered,
+    fetch_rendered_xhr,
     fetch_static,
 )
 from jobwatch.models import CompanyConfig, FetchMode, Job
@@ -45,6 +46,13 @@ def default_fetch_page(config: CompanyConfig, url: str, *, browser=None) -> str:
         return fetch_json_post(url, headers=config.request_headers)
     if config.fetch_mode is FetchMode.FORM_POST:
         return fetch_form_post(url, headers=config.request_headers)
+    if config.fetch_mode is FetchMode.RENDERED_XHR:
+        return fetch_rendered_xhr(
+            url,
+            capture_response_url=config.capture_response_url,
+            engine=config.browser_engine,
+            browser=browser,
+        )
     return fetch_rendered(url, wait_for_selector=config.wait_for_selector, browser=browser)
 
 

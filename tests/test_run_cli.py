@@ -3,6 +3,7 @@ import json
 import pytest
 
 import jobwatch.filters as filters
+from jobwatch.fetch import FetchError
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
 
@@ -332,3 +333,82 @@ def test_browser_launch_failure_still_reports_static_company(tmp_path, monkeypat
     assert by_company["TestCo"]["status"] == "seeded"
     assert by_company["RenderCo"]["status"] == "failed"
     assert "launch" in by_company["RenderCo"]["detail"].lower()
+
+
+class _StubBrowser:
+    def __init__(self, engine):
+        self.engine = engine
+        self.closed = False
+
+    def close(self):
+        self.closed = True
+
+
+class _StubEngine:
+    def __init__(self, name, fail=False):
+        self.name = name
+        self.fail = fail
+        self.launches = 0
+
+    def launch(self):
+        self.launches += 1
+        if self.fail:
+            raise RuntimeError("Executable doesn't exist")
+        return _StubBrowser(self.name)
+
+
+class _StubPlaywright:
+    def __init__(self, **engines):
+        for name, engine in engines.items():
+            setattr(self, name, engine)
+
+
+def test_browser_pool_launches_each_engine_once_and_closes_them():
+    chromium = _StubEngine("chromium")
+    firefox = _StubEngine("firefox")
+    pool = cli._BrowserPool(_StubPlaywright(chromium=chromium, firefox=firefox))
+
+    first = pool.get("chromium")
+    again = pool.get("chromium")
+    other = pool.get("firefox")
+
+    assert first is again  # reused across companies rather than relaunched
+    assert other.engine == "firefox"
+    assert (chromium.launches, firefox.launches) == (1, 1)
+
+    pool.close()
+    assert first.closed and other.closed
+
+
+def test_browser_pool_does_not_launch_an_engine_no_company_needs():
+    chromium = _StubEngine("chromium")
+    firefox = _StubEngine("firefox")
+    pool = cli._BrowserPool(_StubPlaywright(chromium=chromium, firefox=firefox))
+
+    pool.get("chromium")
+
+    assert firefox.launches == 0
+
+
+def test_browser_pool_reports_a_launch_failure_without_retrying_it():
+    firefox = _StubEngine("firefox", fail=True)
+    pool = cli._BrowserPool(_StubPlaywright(firefox=firefox))
+
+    for _ in range(2):
+        with pytest.raises(FetchError, match="browser launch failed for firefox"):
+            pool.get("firefox")
+
+    # A missing browser binary will not appear mid-run, so re-attempting the
+    # launch for every page would only slow the run down.
+    assert firefox.launches == 1
+
+
+def test_one_engine_failing_to_launch_leaves_another_engines_company_working():
+    chromium = _StubEngine("chromium")
+    firefox = _StubEngine("firefox", fail=True)
+    pool = cli._BrowserPool(_StubPlaywright(chromium=chromium, firefox=firefox))
+
+    with pytest.raises(FetchError):
+        pool.get("firefox")
+
+    assert pool.get("chromium").engine == "chromium"

@@ -14,13 +14,14 @@ site's own job-detail URL, so a listing can be opened and applied to directly.
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/playwright install chromium
+.venv/bin/playwright install chromium firefox
 .venv/bin/pip install -e .
 ```
 
-`playwright install chromium` is required for Meta, the only company not on a
-JSON board API. Runs that skip it (`--company` on any platform company) need
-no browser.
+The browsers are required for the two companies not readable over plain HTTP:
+Meta renders in Chromium, Tesla in Firefox (see below for why the engine
+differs). Each is launched only if a company in the run needs it, so runs that
+skip both (`--company` on any platform company) need no browser at all.
 
 The editable install (`pip install -e .`) makes the `jobwatch` package
 importable from `run.py` and the test suite.
@@ -58,8 +59,10 @@ On a normal (non-dry-run) run, a dated JSON report is written under
 The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
 `seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
-widely: SpaceX seeds ~2,100 jobs, OpenAI ~740, Databricks ~800, Stripe ~540,
-Linear ~24. Seeding all 25 companies stores roughly 8,100 listings.
+widely: Tesla seeds ~7,570 jobs, SpaceX ~2,100, Amazon ~2,060, NVIDIA ~2,050,
+OpenAI ~740, Stripe ~540, Linear ~24. Seeding all 42 companies stores roughly
+27,400 listings — Tesla alone is over a quarter of that, because its board
+covers every function and factory rather than engineering only.
 
 This is deliberate. Without seeding, day one would dump hundreds of "new"
 jobs that have been open for weeks. Real alerting starts on the second run:
@@ -98,9 +101,9 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-41 companies are watched: 31 through six shared platform scrapers, plus
-ten bespoke portals. The remaining names in `companies.txt` (44 total) are a target
-list — see "Scaling to the rest" below.
+42 companies are watched: 31 through six shared platform scrapers, plus
+eleven bespoke portals. The remaining names in `companies.txt` (44 total) are a
+target list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
 |--------|-----------|------------|
@@ -113,7 +116,8 @@ list — see "Scaling to the rest" below.
 | Bespoke portal | Amazon, Apple, GitHub, Google, Snap, Two Sigma | static HTTP |
 | Bespoke portal | ByteDance, Rippling | JSON POST |
 | Bespoke portal | Hudson River Trading | form POST |
-| Bespoke portal | Meta | headless browser |
+| Bespoke portal | Meta | headless browser (Chromium) |
+| Bespoke portal | Tesla | headless browser (Firefox), captured API response |
 
 **Both platforms are the upstream source, not a mirror.** Recruiters post into
 Greenhouse or Ashby and the company's careers page renders from it — Anthropic's
@@ -156,8 +160,31 @@ Two consequences worth knowing:
   Paginated boards are the only place this tool makes rapid back-to-back
   requests, and an unlucky first page takes a whole company down for the run.
 
-Meta is the only company still needing a headless browser, so a run that skips
-it needs no Playwright at all. Amazon, GitHub, and Snap answer plain JSON
+**Meta and Tesla are the only companies needing a headless browser**, so a run
+that skips both needs no Playwright at all.
+
+**Tesla is read through the API its own page calls, not its markup.** The
+careers page is a client-rendered app in front of a single request that returns
+the entire board — all ~7,570 listings plus the lookup tables that decode them —
+so `RENDERED_XHR` loads the page in a browser and keeps that response instead of
+the rendered DOM. The whole board arrives in one request in about three seconds,
+and a redesign of the page cannot break the parse. Listings are stored compactly
+(`t` title, `l` location id) with names held once in a `lookup` table rather
+than repeated across every row; job links are `…/job/<slug>-<id>`, where the
+slug is decorative — the router keys on the trailing id, so a link with an
+imperfect slug still resolves. Tesla exposes no posting date, so its recency
+comes purely from snapshot diffing.
+
+**Why Firefox for Tesla.** `www.tesla.com` sits behind Akamai Bot Manager, which
+answers plain HTTP *and* headless Chromium with "Access Denied" before any
+request reaches the board. Headless Firefox is served the page normally, so the
+`browser_engine` is set per company. Nothing is disguised to achieve this — and
+the one time something was, it backfired: forcing the shared Chrome user-agent
+string onto Firefox made the engine claim to be a browser it wasn't, and the
+filter blocked that where it had allowed an honest Firefox. `RENDERED_XHR` sends
+no user-agent override for exactly that reason.
+
+Amazon, GitHub, and Snap answer plain JSON
 despite running bespoke portals; Google has no public API, so its scraper parses
 server-rendered HTML, keyed on the job href pattern and structural position
 rather than its build-generated class names.
@@ -187,7 +214,7 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-04, 41 of 44 companies are built:
+uses. As of 2026-08-04, 42 of 44 companies are built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
@@ -198,10 +225,9 @@ uses. As of 2026-08-04, 41 of 44 companies are built:
 | Oracle Recruiting Cloud | Uber | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
-| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Meta | own module each |
-| Bespoke, remaining | Tesla | see recon notes below |
+| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Meta, Tesla | own module each |
 
-### Recon notes on the companies still unbuilt
+### Recon notes on the hard boards
 
 Recorded so the next attempt starts from here rather than repeating the search.
 Checked 2026-08-04.
@@ -209,12 +235,19 @@ Checked 2026-08-04.
 | Company | What was found | Why it is not built |
 |---|---|---|
 | **Microsoft** | Careers site is Eightfold-backed. | Tenant answers `403 {"message": "Not authorized for PCSX"}` to the public jobs API on every host and header combination tried. Its own `gcsservices` API is reachable, but not from behind a TLS-intercepting proxy. |
-| **Tesla** | Serves an "Access Denied" page to plain HTTP *and* to headless Chromium, including with the automation flag disabled and `navigator.webdriver` masked. | The block is at the edge rather than on browser fingerprinting, so getting past it would mean actively circumventing Tesla's bot protection. Not attempted, and not recommended. |
+| **Tesla** | *Now built.* The earlier "unscrapable" verdict was wrong. Akamai does serve "Access Denied" to plain HTTP and to headless Chromium, but that is a Chromium-specific check, not an edge-level IP block: **headless Firefox is served the page normally**. Its careers app calls one API returning the whole board. | — |
 | **Hudson River Trading** | *Now built.* Its page does embed Greenhouse, but that board (`hrttalentcommunity`) holds 3 "Talent Community" pipeline entries — the real 72 listings come from a self-hosted WordPress plugin. | — |
 
-The pattern is consistent: every remaining company either blocks plain HTTP or
-renders its listings client-side, so each needs Playwright and its own module —
-the `meta.py` treatment. There is no shared-platform leverage left.
+**The lesson from Tesla, worth applying to the next hard board:** "blocked" was
+a conclusion about one browser, not about the site. Before deciding a board
+cannot be read, try the other engines — `firefox` and `webkit` are one
+`browser_engine` field away — and watch the network panel for the API the page
+calls, which is usually cleaner than the DOM it renders. Circumventing a bot
+filter is still off the table; using a different real browser is not
+circumvention, and here it was the whole answer.
+
+Microsoft is the only target left, and its block is genuinely server-side
+(`403 Not authorized for PCSX`) rather than a matter of how the page is fetched.
 
 LinkedIn is excluded deliberately: it matches three different boards
 (Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
@@ -226,7 +259,8 @@ needs individual recon rather than an assumed slug.
 run.py                  CLI entry point
 jobwatch/
   engine.py             fetch, diff, snapshot merge for one company
-  fetch.py              static HTTP and Playwright rendering
+  fetch.py              static HTTP, POST, and Playwright rendering
+                        (page markup, or a captured API response)
   diff.py               find jobs not in the snapshot
   state.py              load/save/merge per-company JSON snapshots
   report.py             format stdout report and write dated JSON
