@@ -147,6 +147,96 @@ def test_batches_are_capped_so_a_large_run_is_split(tmp_path, monkeypatch):
     assert [len(batch) for batch in classifier.batches] == [2, 2, 1]
 
 
+def test_missing_verdicts_are_re_asked_rather_than_failing_the_batch(monkeypatch):
+    """A large batch occasionally comes back a listing short. Observed live at
+    batch size 100; re-ask for the gap instead of failing the whole run."""
+    import jobwatch.filters as filters
+
+    calls = []
+
+    class _Block:
+        type = "text"
+
+        def __init__(self, text):
+            self.text = text
+
+    class _Response:
+        stop_reason = "end_turn"
+
+        def __init__(self, text):
+            self.content = [_Block(text)]
+
+    def fake_create(**kwargs):
+        listed = kwargs["messages"][0]["content"].splitlines()
+        calls.append(len(listed))
+        # First call omits the last listing; the retry answers in full.
+        answered = listed[:-1] if len(calls) == 1 else listed
+        return _Response(
+            json.dumps(
+                {
+                    "verdicts": [
+                        {"index": i, "relevant": True, "reason": "ok"}
+                        for i in range(len(answered))
+                    ]
+                }
+            )
+        )
+
+    class _FakeMessages:
+        create = staticmethod(fake_create)
+
+    class _FakeClient:
+        messages = _FakeMessages()
+
+    monkeypatch.setattr("anthropic.Anthropic", lambda: _FakeClient())
+
+    jobs = [_job(str(i), f"Software Engineer {i}") for i in range(3)]
+    verdicts = filters.classify_with_claude(jobs)
+
+    assert len(verdicts) == 3
+    assert calls == [3, 1]  # full batch, then just the omitted listing
+
+
+def test_persistently_missing_verdicts_eventually_raise(monkeypatch):
+    import jobwatch.filters as filters
+
+    class _Block:
+        type = "text"
+
+        def __init__(self, text):
+            self.text = text
+
+    class _Response:
+        stop_reason = "end_turn"
+
+        def __init__(self, text):
+            self.content = [_Block(text)]
+
+    def always_short(**kwargs):
+        listed = kwargs["messages"][0]["content"].splitlines()
+        return _Response(
+            json.dumps(
+                {
+                    "verdicts": [
+                        {"index": i, "relevant": True, "reason": "ok"}
+                        for i in range(len(listed) - 1)
+                    ]
+                }
+            )
+        )
+
+    class _FakeMessages:
+        create = staticmethod(always_short)
+
+    class _FakeClient:
+        messages = _FakeMessages()
+
+    monkeypatch.setattr("anthropic.Anthropic", lambda: _FakeClient())
+
+    with pytest.raises(FilterError, match="omitted"):
+        filters.classify_with_claude([_job(str(i), f"SWE {i}") for i in range(3)])
+
+
 def test_classify_returns_a_verdict_for_every_job(tmp_path):
     jobs = [_job("1", "Software Engineer"), _job("2", "Data Engineer")]
     classifier = RecordingClassifier(["Software Engineer"])

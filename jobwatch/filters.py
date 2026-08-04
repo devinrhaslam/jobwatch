@@ -11,8 +11,11 @@ from typing import Callable, Iterable
 from jobwatch.models import Job
 
 MODEL = "claude-opus-5"
-BATCH_SIZE = 100
+BATCH_SIZE = 50
 MAX_TOKENS = 16000
+# A large batch occasionally comes back missing a listing. Re-ask for just the
+# gaps rather than failing a whole run over one omission.
+MAX_RETRIES = 2
 
 DEFAULT_CACHE_PATH = Path("state") / "filter_cache.json"
 
@@ -160,7 +163,7 @@ def _batches(items: list[Job], size: int) -> Iterable[list[Job]]:
         yield items[start : start + size]
 
 
-def classify_with_claude(jobs: list[Job]) -> list[Verdict]:
+def classify_with_claude(jobs: list[Job], _attempt: int = 0) -> list[Verdict]:
     """Classify one batch of jobs. Raises FilterError on any failure."""
     import anthropic
 
@@ -205,7 +208,14 @@ def classify_with_claude(jobs: list[Job]) -> list[Verdict]:
     }
     missing = [index for index in range(len(jobs)) if index not in by_index]
     if missing:
-        raise FilterError(f"classification omitted {len(missing)} of {len(jobs)} listings")
+        if _attempt >= MAX_RETRIES:
+            raise FilterError(
+                f"classification omitted {len(missing)} of {len(jobs)} listings "
+                f"after {_attempt + 1} attempts"
+            )
+        retried = classify_with_claude([jobs[index] for index in missing], _attempt + 1)
+        for index, verdict in zip(missing, retried):
+            by_index[index] = verdict
     return [by_index[index] for index in range(len(jobs))]
 
 
