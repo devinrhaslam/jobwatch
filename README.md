@@ -98,8 +98,8 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-29 companies are watched: 28 through four shared platform scrapers, plus
-Meta's custom portal. The remaining names in `companies.txt` (44 total) are a target
+32 companies are watched: 29 through five shared platform scrapers, plus
+three bespoke portals. The remaining names in `companies.txt` (44 total) are a target
 list — see "Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
@@ -108,7 +108,9 @@ list — see "Scaling to the rest" below.
 | Ashby posting API | Linear, Notion, OpenAI, Plaid, Ramp, Snowflake | static HTTP |
 | Workday CXS API | CrowdStrike, NVIDIA, Salesforce | JSON POST |
 | Eightfold | Netflix | static HTTP |
-| Custom portal | Meta | headless browser |
+| SmartRecruiters | Canva | static HTTP |
+| Bespoke portal | Amazon, Snap | static HTTP |
+| Bespoke portal | Meta | headless browser |
 
 **Both platforms are the upstream source, not a mirror.** Recruiters post into
 Greenhouse or Ashby and the company's careers page renders from it — Anthropic's
@@ -137,7 +139,14 @@ Two consequences worth knowing:
   showed.
 
 Meta is the only company still needing a headless browser, so a run that skips
-it needs no Playwright at all.
+it needs no Playwright at all — Amazon and Snap both answer plain JSON despite
+running bespoke portals.
+
+**Amazon narrows at source**, like Meta: its board runs to tens of thousands of
+postings across every function, so the entry URL applies its own
+`software engineer` query with `sort=recent`. That sort is what keeps the
+engine's early stop safe. **Snap exposes no posting date**, so its recency
+comes purely from snapshot diffing.
 
 ## Adding a company
 
@@ -158,18 +167,19 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-03, 28 of 44 sit on a usable platform and are all built:
+uses. As of 2026-08-04, 32 of 44 companies are built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
 | Greenhouse | 18 | done — shared scraper |
 | Workday | CrowdStrike, NVIDIA, Salesforce | done — shared scraper |
 | Eightfold | Netflix | done — shared scraper |
+| SmartRecruiters | Canva | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
-| SmartRecruiters | Canva | not built (single company) |
 | iCIMS | GitHub | not built; fingerprinted |
 | Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
-| Custom portals | Google, Amazon, Apple, Uber, Tesla, Snap, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | one scraper each, no leverage |
+| Bespoke, built | Amazon, Snap, Meta | own module each |
+| Bespoke, remaining | Google, Apple, Uber, Tesla, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | one scraper each, no leverage |
 
 LinkedIn is excluded deliberately: it matches three different boards
 (Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
@@ -189,10 +199,11 @@ jobwatch/
   models.py             Job, CompanyConfig, FetchMode
   filters.py            report-time role-fit filtering via the Claude API
   scrapers/             base.py, greenhouse.py (18), ashby.py (6),
-                        workday.py (3), eightfold.py (1), meta.py
+                        workday.py (3), eightfold.py (1),
+                        smartrecruiters.py (1), amazon.py, snap.py, meta.py
 state/                  per-company snapshots + filter cache (gitignored)
 output/                 dated JSON reports (gitignored)
-tests/                  181 tests, fixture-backed parser and unit tests
+tests/                  210 tests, fixture-backed parser and unit tests
 tests/fixtures/         saved HTML/JSON for offline parser tests
 companies.txt           full target company list (most not yet scraped)
 ```
@@ -228,7 +239,7 @@ companies.txt           full target company list (most not yet scraped)
 ## Tests
 
 ```bash
-.venv/bin/pytest          # full suite (181 tests)
+.venv/bin/pytest          # full suite (210 tests)
 .venv/bin/pytest -v       # verbose
 ```
 

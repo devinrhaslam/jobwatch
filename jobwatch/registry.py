@@ -3,11 +3,14 @@ from __future__ import annotations
 from collections.abc import Iterable
 from pathlib import Path
 
+from jobwatch.scrapers.amazon import AmazonScraper
 from jobwatch.scrapers.ashby import scrapers as ashby_scrapers
 from jobwatch.scrapers.base import Scraper
 from jobwatch.scrapers.eightfold import scrapers as eightfold_scrapers
 from jobwatch.scrapers.greenhouse import scrapers as greenhouse_scrapers
 from jobwatch.scrapers.meta import MetaScraper
+from jobwatch.scrapers.smartrecruiters import scrapers as smartrecruiters_scrapers
+from jobwatch.scrapers.snap import SnapScraper
 from jobwatch.scrapers.workday import scrapers as workday_scrapers
 from jobwatch.state import DEFAULT_STATE_DIR, snapshot_path
 
@@ -32,6 +35,10 @@ _SCRAPER_INSTANCES = (
     *ashby_scrapers(),
     *workday_scrapers(),
     *eightfold_scrapers(),
+    *smartrecruiters_scrapers(),
+    # Bespoke portals: each answers plain JSON, so none needs a browser.
+    AmazonScraper(),
+    SnapScraper(),
     MetaScraper(),  # custom portal, rejects plain HTTP — needs a headless browser
 )
 

@@ -4,10 +4,19 @@ from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scra
 from jobwatch.scrapers.ashby import BOARDS as ASHBY_BOARDS
 from jobwatch.scrapers.eightfold import BOARDS as EIGHTFOLD_BOARDS
 from jobwatch.scrapers.greenhouse import BOARDS as GREENHOUSE_BOARDS
+from jobwatch.scrapers.smartrecruiters import BOARDS as SMARTRECRUITERS_BOARDS
 from jobwatch.scrapers.workday import BOARDS as WORKDAY_BOARDS
 
 
-_PLATFORMS = (GREENHOUSE_BOARDS, ASHBY_BOARDS, WORKDAY_BOARDS, EIGHTFOLD_BOARDS)
+_PLATFORMS = (
+    GREENHOUSE_BOARDS,
+    ASHBY_BOARDS,
+    WORKDAY_BOARDS,
+    EIGHTFOLD_BOARDS,
+    SMARTRECRUITERS_BOARDS,
+)
+# Companies with a bespoke portal rather than a shared platform board.
+_CUSTOM = {"Amazon", "Snap", "Meta"}
 
 
 def test_every_platform_board_is_registered():
@@ -16,7 +25,7 @@ def test_every_platform_board_is_registered():
 
 
 def test_registry_is_exactly_the_platform_boards_plus_meta():
-    expected = {"Meta"}
+    expected = set(_CUSTOM)
     for boards in _PLATFORMS:
         expected |= set(boards)
     assert set(SCRAPERS) == expected
