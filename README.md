@@ -180,7 +180,26 @@ uses. As of 2026-08-04, 34 of 44 companies are built:
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
 | Bespoke, built | Amazon, GitHub, Google, Snap, Meta | own module each |
-| Bespoke, remaining | Apple, Uber, Tesla, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | one scraper each, no leverage |
+| Bespoke, remaining | Apple, Uber, Tesla, DoorDash, Rippling, ByteDance, Two Sigma, Hudson River Trading | see recon notes below |
+
+### Recon notes on the companies still unbuilt
+
+Recorded so the next attempt starts from here rather than repeating the search.
+Checked 2026-08-04.
+
+| Company | What was found | Why it is not built |
+|---|---|---|
+| **Apple** | `jobs.apple.com` is server-rendered and parseable: 20 cards a page, each with title, team, and an exact date. | Filtering is client-side only. `team=`, `teams[]=`, and `search=` change nothing — verified both over HTTP and fully rendered in a browser. Sorted newest-first, all 20 of page one were Apple Retail store roles posted that day, so a 20-job window would return retail and essentially never a software role. Needs UI-driven filtering in Playwright. |
+| **Rippling** | Runs its own ATS product at `ats.rippling.com`; the careers page loads roles from Algolia. | No public JSON board API found (six endpoint shapes tried, all 404). The Algolia index needs an app key. The board page itself is HTML and could be parsed. |
+| **Microsoft** | Careers site is Eightfold-backed. | Tenant answers `403 {"message": "Not authorized for PCSX"}` to the public jobs API on every host and header combination tried. Its own `gcsservices` API is reachable, but not from behind a TLS-intercepting proxy. |
+| **DoorDash** | `careersatdoordash.com` returns 403 to plain HTTP despite serving 277KB to a browser. | Needs a browser, or header work to get past the block. |
+| **Tesla**, **Uber** | Return 403 and 406 respectively to plain HTTP, with empty bodies. | Bot-blocked; need a browser. |
+| **Two Sigma**, **ByteDance** | Careers pages load but carry no platform fingerprint and no embedded job payload. | Job data is fetched client-side from an endpoint not yet identified. |
+| **Hudson River Trading** | Its page does embed Greenhouse, but the board (`hrttalentcommunity`) holds 3 postings, all "Talent Community" pipeline entries. | That board is not their real listings. Registering it would inject noise. |
+
+The pattern is consistent: every remaining company either blocks plain HTTP or
+renders its listings client-side, so each needs Playwright and its own module —
+the `meta.py` treatment. There is no shared-platform leverage left.
 
 LinkedIn is excluded deliberately: it matches three different boards
 (Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
