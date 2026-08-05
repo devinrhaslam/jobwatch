@@ -10,9 +10,33 @@ from jobwatch.engine import CompanyResult
 DEFAULT_OUTPUT_DIR = Path("output")
 
 
-def format_report(results: list[CompanyResult]) -> str:
+# Statuses worth counting in the header. Ordered worst-first so the summary
+# leads with the status that most needs acting on.
+PROBLEM_STATUSES = ("failed", "blocked", "suspicious")
+
+
+def _headline(results: list[CompanyResult]) -> str:
+    """Summarise the run in one line, naming any statuses that need attention.
+
+    Counting these up front is the difference between noticing a bad run and
+    not: the per-company lines are the only other place a failure appears, and
+    three FAILED among a hundred companies scrolls past unread. A clean run says
+    nothing extra, so the counts only ever appear when they mean something.
+    """
     total_new = sum(len(r.new_jobs) for r in results)
-    lines = [f"Job Posting Watcher — {len(results)} companies, {total_new} new jobs", ""]
+    header = f"Job Posting Watcher — {len(results)} companies, {total_new} new jobs"
+    counts = [
+        (status, sum(1 for r in results if r.status == status))
+        for status in PROBLEM_STATUSES
+    ]
+    flagged = [f"{count} {status}" for status, count in counts if count]
+    if flagged:
+        header += f" ({', '.join(flagged)})"
+    return header
+
+
+def format_report(results: list[CompanyResult]) -> str:
+    lines = [_headline(results), ""]
     for result in results:
         detail_part = f": {result.detail}" if result.detail else ""
         # A successful run can still carry a detail — most often that pagination

@@ -35,6 +35,23 @@ def test_fetch_static_returns_text_on_200():
     assert session.calls == 1
 
 
+@pytest.mark.parametrize("status", [403, 406, 429, 451])
+def test_fetch_static_treats_every_refusal_status_as_blocked(status):
+    # 406 is here because a volume throttle answered it for every path on
+    # job-boards.greenhouse.io. Reporting that as a generic failure reads as a
+    # broken parser and invites the re-run that keeps the throttle alive.
+    session = _StubSession([_StubResponse(status)])
+    with pytest.raises(FetchBlocked):
+        fetch_static("https://example.com", session=session, sleep=lambda _: None)
+
+
+def test_fetch_static_still_treats_401_as_an_error_not_a_block():
+    # Auth required is a real breakage, not a refusal to back off from.
+    session = _StubSession([_StubResponse(401)])
+    with pytest.raises(FetchError):
+        fetch_static("https://example.com", session=session, sleep=lambda _: None)
+
+
 def test_fetch_static_raises_fetch_blocked_on_403():
     session = _StubSession([_StubResponse(403)])
     with pytest.raises(FetchBlocked):

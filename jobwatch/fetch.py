@@ -25,8 +25,21 @@ USER_AGENT = (
 _SESSION = requests.Session()
 
 
+# Statuses that mean "the site is refusing me", as opposed to "the site broke".
+# 403 and 429 are the obvious refusals. 406 earns its place: a WAF throttling on
+# request volume answered it for every path on job-boards.greenhouse.io — every
+# board, every job id, even `/` — to headless Firefox as readily as to curl, and
+# it cleared on its own within the hour. Classifying that as a generic failure
+# read as "the parser is broken" and invited a re-run, which is the one response
+# that keeps the throttle alive. 451 is a refusal by definition.
+#
+# 401 is deliberately absent: it means credentials, not refusal, and a board
+# that starts requiring auth is a real breakage worth reporting as one.
+BLOCKED_STATUS_CODES = (403, 406, 429, 451)
+
+
 class FetchBlocked(Exception):
-    """Raised when a site returns 403/429, distinct from a real error."""
+    """Raised when a site refuses the request, distinct from a real error."""
 
 
 class FetchError(Exception):
@@ -54,7 +67,7 @@ def fetch_static(
             if attempt < retries - 1:
                 sleep(backoff_seconds * (2**attempt))
             continue
-        if response.status_code in (403, 429):
+        if response.status_code in BLOCKED_STATUS_CODES:
             raise FetchBlocked(f"{url} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{url} returned HTTP {response.status_code}")
@@ -137,7 +150,7 @@ def fetch_json_post(
             if attempt < retries - 1:
                 sleep(backoff_seconds * (2**attempt))
             continue
-        if response.status_code in (403, 429):
+        if response.status_code in BLOCKED_STATUS_CODES:
             raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")
@@ -183,7 +196,7 @@ def fetch_form_post(
             if attempt < retries - 1:
                 sleep(backoff_seconds * (2**attempt))
             continue
-        if response.status_code in (403, 429):
+        if response.status_code in BLOCKED_STATUS_CODES:
             raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")

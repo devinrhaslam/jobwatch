@@ -11,6 +11,39 @@ def _job(job_id):
     )
 
 
+def test_headline_counts_statuses_that_need_attention():
+    results = [
+        CompanyResult("Acme", "ok", [_job("1")], 5),
+        CompanyResult("Beta", "failed", [], 0, "boom"),
+        CompanyResult("Gamma", "blocked", [], 0, "HTTP 406"),
+        CompanyResult("Delta", "blocked", [], 0, "HTTP 429"),
+        CompanyResult("Epsilon", "suspicious", [], 30, "scheme change"),
+    ]
+    headline = format_report(results).splitlines()[0]
+    assert "5 companies, 1 new jobs" in headline
+    assert "1 failed" in headline
+    assert "2 blocked" in headline
+    assert "1 suspicious" in headline
+
+
+def test_headline_stays_quiet_when_every_company_succeeded():
+    results = [
+        CompanyResult("Acme", "ok", [_job("1")], 5),
+        CompanyResult("Beta", "seeded", [], 40),
+    ]
+    headline = format_report(results).splitlines()[0]
+    assert headline == "Job Posting Watcher — 2 companies, 1 new jobs"
+
+
+def test_headline_omits_statuses_with_no_companies():
+    # A run with only blocks must not read "0 failed, 1 blocked, 0 suspicious".
+    results = [CompanyResult("Acme", "blocked", [], 0, "HTTP 406")]
+    headline = format_report(results).splitlines()[0]
+    assert "1 blocked" in headline
+    assert "failed" not in headline
+    assert "suspicious" not in headline
+
+
 def test_format_report_lists_new_jobs_with_links():
     results = [CompanyResult("Acme", "ok", [_job("1")], 5)]
     text = format_report(results)
