@@ -60,8 +60,8 @@ The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
 `seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
 widely: SpaceX seeds ~2,100 jobs, Amazon ~2,060, NVIDIA ~2,050, Microsoft
-~1,850, Tesla ~1,350, OpenAI ~740, Stripe ~540, Linear ~24. Seeding all 43
-companies stores roughly 23,000 listings.
+~1,850, Tesla ~1,350, OpenAI ~740, Stripe ~540, LinkedIn ~46, Linear ~24.
+Seeding all 44 companies stores roughly 23,000 listings.
 
 `state/tesla.json` holds ~7,570 rather than ~1,350: its first seed predated the
 department filter and stored the whole board. Nothing prunes a snapshot, so
@@ -109,9 +109,8 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-43 companies are watched: 31 through six shared platform scrapers, plus twelve
-bespoke portals. That is every company in `companies.txt` except LinkedIn — see
-"Scaling to the rest" below.
+44 companies are watched: 31 through six shared platform scrapers, plus
+thirteen bespoke portals — every company in `companies.txt`.
 
 | Source | Companies | Fetch mode |
 |--------|-----------|------------|
@@ -121,7 +120,7 @@ bespoke portals. That is every company in `companies.txt` except LinkedIn — se
 | Eightfold | Netflix | static HTTP |
 | SmartRecruiters | Canva | static HTTP |
 | Oracle Recruiting Cloud | Uber | static HTTP |
-| Bespoke portal | Amazon, Apple, GitHub, Google, Microsoft, Snap, Two Sigma | static HTTP |
+| Bespoke portal | Amazon, Apple, GitHub, Google, LinkedIn, Microsoft, Snap, Two Sigma | static HTTP |
 | Bespoke portal | ByteDance, Rippling | JSON POST |
 | Bespoke portal | Hudson River Trading | form POST |
 | Bespoke portal | Meta | headless browser (Chromium) |
@@ -259,7 +258,7 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-04, 43 of 44 companies are built:
+uses. As of 2026-08-04, all 44 companies are built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
@@ -270,7 +269,7 @@ uses. As of 2026-08-04, 43 of 44 companies are built:
 | Oracle Recruiting Cloud | Uber | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
 | Eightfold PCSX | Microsoft | done — own module (not the shared Eightfold scraper; different host and API) |
-| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Meta, Tesla | own module each |
+| Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, LinkedIn, Rippling, Snap, Two Sigma, Meta, Tesla | own module each |
 
 ### Recon notes on the hard boards
 
@@ -293,33 +292,42 @@ circumvention, and here it was the whole answer.
 
 Microsoft made the same point a second time: its 403 was read as a wall when it
 was in fact naming the API that serves the board. Every company in
-`companies.txt` is now built except LinkedIn.
+`companies.txt` is now built.
 
-**LinkedIn is excluded, and it is the one company excluded on policy rather
-than difficulty.** Recon on 2026-08-04 settled it:
+LinkedIn hosts its own openings on its own job platform rather than a
+third-party ATS — `careers.linkedin.com` is a marketing site that links to
+`www.linkedin.com/jobs` and 404s on `/jobs`. The earlier note here, that
+LinkedIn "matches Greenhouse (53 jobs) and Lever (23), neither plausibly its
+real volume", was picking up other companies with lookalike slugs.
 
-- Its own openings are served from `www.linkedin.com/jobs/search/?f_C=1337,…`
-  — `careers.linkedin.com` is a marketing site that links there and 404s on
-  `/jobs`.
-- That host's `robots.txt` ends in `User-agent: *` / `Disallow: /`, and opens
-  with a notice that automated access without express permission is
-  prohibited, pointing at `whitelist-crawl@linkedin.com` for permission.
-- There is no third-party board to read instead: `careers.linkedin.com`
-  mentions no Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Eightfold,
-  Avature or iCIMS host. The earlier note here — that LinkedIn "matches
-  Greenhouse (53 jobs) and Lever (23), neither plausibly its real volume" —
-  was picking up other companies with lookalike slugs.
+It is read through the **guest endpoint LinkedIn serves to logged-out
+visitors** — no account, no session cookie, and nothing about bot detection
+worked around. Two properties of that endpoint shaped the scraper, and both are
+worth knowing before touching it:
 
-This is a different kind of no from the rest of this file. Tesla and Microsoft
-had bot filters but no stated prohibition, so they were read with an ordinary
-browser and a public API respectively. LinkedIn states one and publishes a
-process for asking. So the note that "anything can be scraped" holds
-technically and is not the question here.
+- **The results are not ordered by date.** `sortBy=DD` is accepted and then
+  ignored, returning the relevance ordering with dates interleaved. So the
+  engine's early stop, which assumes newest-first, is unsafe and this company
+  sets `paginate_fully`.
+- **It rate-limits hard**, answering 429 after about four pages.
 
-The supported substitute is LinkedIn's own **job alerts**: saving a search
-against LinkedIn's company IDs emails new postings as they appear, which is the
-same day-one signal this tool exists to provide, from the mechanism LinkedIn
-offers for it.
+Those two together would mean reading an unordered board in full on every run
+against a limiter that refuses it. `f_TPR` resolves it: the endpoint will
+return only recently-posted jobs, which is what this tool wants anyway. The
+window is a week rather than a day so a missed run does not lose postings — 46
+jobs over ~5 pages, about 18 seconds a run.
+
+**The cost is that LinkedIn's snapshot is a rolling window, not a record of the
+whole board.** Every other company here stores every job ever seen; this one
+only ever sees the last seven days. A gap of more than a week leaves postings
+unseen, and after a long gap the run may trip the `SUSPICIOUS` guard, since
+nearly everything in the window will look new. Jobs are still listed when that
+happens; the snapshot just is not advanced.
+
+Job links are rebuilt from the posting id rather than taken from the card's
+href, which carries per-request `refId` and `trackingId` parameters that would
+give the same posting a different URL on every run — and `Job.stable_id` hashes
+the URL.
 
 ## Project layout
 
