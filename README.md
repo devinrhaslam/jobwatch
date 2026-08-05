@@ -295,9 +295,31 @@ Microsoft made the same point a second time: its 403 was read as a wall when it
 was in fact naming the API that serves the board. Every company in
 `companies.txt` is now built except LinkedIn.
 
-LinkedIn is excluded deliberately: it matches three different boards
-(Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it
-needs individual recon rather than an assumed slug.
+**LinkedIn is excluded, and it is the one company excluded on policy rather
+than difficulty.** Recon on 2026-08-04 settled it:
+
+- Its own openings are served from `www.linkedin.com/jobs/search/?f_C=1337,…`
+  — `careers.linkedin.com` is a marketing site that links there and 404s on
+  `/jobs`.
+- That host's `robots.txt` ends in `User-agent: *` / `Disallow: /`, and opens
+  with a notice that automated access without express permission is
+  prohibited, pointing at `whitelist-crawl@linkedin.com` for permission.
+- There is no third-party board to read instead: `careers.linkedin.com`
+  mentions no Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Eightfold,
+  Avature or iCIMS host. The earlier note here — that LinkedIn "matches
+  Greenhouse (53 jobs) and Lever (23), neither plausibly its real volume" —
+  was picking up other companies with lookalike slugs.
+
+This is a different kind of no from the rest of this file. Tesla and Microsoft
+had bot filters but no stated prohibition, so they were read with an ordinary
+browser and a public API respectively. LinkedIn states one and publishes a
+process for asking. So the note that "anything can be scraped" holds
+technically and is not the question here.
+
+The supported substitute is LinkedIn's own **job alerts**: saving a search
+against LinkedIn's company IDs emails new postings as they appear, which is the
+same day-one signal this tool exists to provide, from the mechanism LinkedIn
+offers for it.
 
 ## Project layout
 
