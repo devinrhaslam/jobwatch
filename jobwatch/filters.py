@@ -266,6 +266,43 @@ def classify(
     return {cache_key(job): cache[cache_key(job)] for job in jobs}
 
 
+def apply_filters_by_group(
+    groups: list[list[Job]],
+    *,
+    cache_path: Path | None = DEFAULT_CACHE_PATH,
+    classifier: Callable[[list[Job]], list[Verdict]] | None = None,
+    on_drop: Callable[[Job, Verdict], None] | None = None,
+) -> list[list[Job]]:
+    """Filter several companies' new jobs in a single classification pass.
+
+    Filtering each company separately costs one API call per company that has
+    any new job at all, however few — 20 companies with three new jobs each is
+    20 sequential requests rather than one batch of 60. That is the difference
+    between a run that filters in seconds and one that takes a quarter of an
+    hour, and it is invisible while it happens because filtering follows all
+    the scraping.
+
+    Returns one list per input group, in the same order.
+    """
+    flat = [job for group in groups for job in group]
+    if not flat:
+        return [[] for _ in groups]
+
+    verdicts = classify(flat, cache_path=cache_path, classifier=classifier)
+
+    filtered: list[list[Job]] = []
+    for group in groups:
+        kept = []
+        for job in group:
+            verdict = verdicts[cache_key(job)]
+            if verdict.relevant:
+                kept.append(job)
+            elif on_drop is not None:
+                on_drop(job, verdict)
+        filtered.append(kept)
+    return filtered
+
+
 def apply_filters(
     jobs: list[Job],
     *,
@@ -279,16 +316,6 @@ def apply_filters(
     Raises FilterError if classification fails — the caller decides what to do
     rather than silently dropping or silently keeping everything.
     """
-    if not jobs:
-        return []
-
-    verdicts = classify(jobs, cache_path=cache_path, classifier=classifier)
-
-    kept = []
-    for job in jobs:
-        verdict = verdicts[cache_key(job)]
-        if verdict.relevant:
-            kept.append(job)
-        elif on_drop is not None:
-            on_drop(job, verdict)
-    return kept
+    return apply_filters_by_group(
+        [jobs], cache_path=cache_path, classifier=classifier, on_drop=on_drop
+    )[0]

@@ -376,6 +376,15 @@ companies.txt           full target company list (most not yet scraped)
   filtering, so a job dropped by an API failure would never be reported again.
   When classification fails the run prints every new job unfiltered and exits
   non-zero.
+- **Every company's new jobs are classified in one pass**, batched across
+  company boundaries rather than per company. Filtering each company on its own
+  cost one API call for every company with any new job at all, however few — 20
+  companies with three new jobs each meant 20 sequential requests instead of
+  one batch of 60. Since filtering runs after all the scraping and prints
+  nothing on its own, that showed up as a run that sat silent for a quarter of
+  an hour. It now prints `Classifying N new jobs...` to stderr before starting.
+  For scale: scraping all 44 companies takes about 150 seconds end to end, so a
+  run materially longer than that is the filter, not a scraper.
 - **No scheduling** — run `run.py` manually (e.g. via cron) when you want a
   check.
 - **Meta scope** — only software engineering roles, because that is what the

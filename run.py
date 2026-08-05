@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 
 from jobwatch.engine import CompanyResult, default_fetch_page, run_company
 from jobwatch.fetch import FetchError
-from jobwatch.filters import FilterError, apply_filters
+from jobwatch.filters import FilterError, apply_filters_by_group
 from jobwatch.models import FetchMode
 from jobwatch.registry import SCRAPERS
 from jobwatch.report import format_report, write_report
@@ -140,17 +140,22 @@ def main(argv: list[str] | None = None) -> int:
         def report_drop(job, verdict):
             print(f"  dropped: {job.title} — {verdict.reason}", file=sys.stderr)
 
+        pending = sum(len(r.new_jobs) for r in results)
+        if pending:
+            # Filtering runs after every company has been scraped and can take
+            # a while, so say so rather than going silent at the end of a run.
+            print(f"Classifying {pending} new jobs...", file=sys.stderr)
         try:
+            # One pass over every company's new jobs, not one call per company:
+            # batches fill across company boundaries instead of sending a
+            # separate request for each company that has three new jobs.
+            filtered = apply_filters_by_group(
+                [r.new_jobs for r in results],
+                cache_path=STATE_DIR / "filter_cache.json",
+                on_drop=report_drop if args.verbose else None,
+            )
             results = [
-                replace(
-                    r,
-                    new_jobs=apply_filters(
-                        r.new_jobs,
-                        cache_path=STATE_DIR / "filter_cache.json",
-                        on_drop=report_drop if args.verbose else None,
-                    ),
-                )
-                for r in results
+                replace(r, new_jobs=kept) for r, kept in zip(results, filtered)
             ]
         except FilterError as exc:
             # Snapshots are already written by this point, so these jobs will not

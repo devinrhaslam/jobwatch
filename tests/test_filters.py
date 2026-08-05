@@ -298,3 +298,62 @@ def test_locations_are_classified_independently(tmp_path):
         [seattle, bengaluru], cache_path=tmp_path / "c.json", classifier=ByLocation()
     )
     assert kept == [seattle]
+
+
+def test_grouped_filter_sends_one_request_across_many_companies(tmp_path):
+    # The per-company version cost one API call for every company with any new
+    # job at all, however few — which is what made a full run take a quarter of
+    # an hour, silently, after all the scraping had finished.
+    from jobwatch.filters import apply_filters_by_group
+
+    calls = []
+
+    def counting_classifier(batch):
+        calls.append(len(batch))
+        return [Verdict(relevant=True, reason="ok") for _ in batch]
+
+    groups = [
+        [Job(f"Co{i}", f"{i}-{n}", f"Engineer {n}", f"https://x/{i}/{n}") for n in range(3)]
+        for i in range(20)
+    ]
+
+    filtered = apply_filters_by_group(
+        groups, cache_path=tmp_path / "cache.json", classifier=counting_classifier
+    )
+
+    assert len(calls) == 2  # 60 jobs at BATCH_SIZE 50, not 20 company-sized calls
+    assert sum(calls) == 60
+    assert [len(g) for g in filtered] == [3] * 20
+
+
+def test_grouped_filter_keeps_each_company_verdicts_separate(tmp_path):
+    from jobwatch.filters import apply_filters_by_group
+
+    def only_backend(batch):
+        return [
+            Verdict(relevant="Backend" in job.title, reason="r") for job in batch
+        ]
+
+    groups = [
+        [Job("A", "1", "Backend Engineer", "https://x/1"),
+         Job("A", "2", "Sales Lead", "https://x/2")],
+        [Job("B", "3", "Sales Lead", "https://x/3")],
+        [],
+    ]
+
+    filtered = apply_filters_by_group(
+        groups, cache_path=tmp_path / "c.json", classifier=only_backend
+    )
+
+    assert [[j.job_id for j in g] for g in filtered] == [["1"], [], []]
+
+
+def test_grouped_filter_with_no_jobs_anywhere_makes_no_request(tmp_path):
+    from jobwatch.filters import apply_filters_by_group
+
+    def explode(batch):
+        raise AssertionError("should not classify when there is nothing new")
+
+    assert apply_filters_by_group(
+        [[], [], []], cache_path=tmp_path / "c.json", classifier=explode
+    ) == [[], [], []]
