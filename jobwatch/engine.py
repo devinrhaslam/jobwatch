@@ -111,6 +111,20 @@ def run_company(
             "parser returned zero jobs against an existing snapshot",
         )
 
+    if is_seed_run and truncation_detail:
+        # A truncated seed is as damaging as an empty one, just quieter: it
+        # records part of the board as the whole of it, so every posting the
+        # run never reached is reported as new on the next run — hundreds of
+        # weeks-old jobs presented as today's. Refuse the seed and let the next
+        # run start it over.
+        return CompanyResult(
+            config.name,
+            "failed",
+            [],
+            len(jobs),
+            f"seed run was incomplete, so it was not saved: {truncation_detail}",
+        )
+
     new_jobs = diff.find_new_jobs(jobs, snapshot)
 
     # An empty snapshot is deliberately exempt: this guard detects a site
@@ -153,9 +167,14 @@ def _fetch_all_pages(
     url = config.career_url
     truncated: str | None = None
     max_pages = config.max_pages or MAX_PAGES
+    page_delay = (
+        config.inter_page_delay_seconds
+        if config.inter_page_delay_seconds is not None
+        else INTER_PAGE_DELAY_SECONDS
+    )
     for page_number in range(max_pages):
         if page_number:
-            sleep(INTER_PAGE_DELAY_SECONDS)
+            sleep(page_delay)
         try:
             payload = fetch_page(config, url)
         except (FetchBlocked, FetchError):

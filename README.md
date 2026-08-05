@@ -59,9 +59,9 @@ On a normal (non-dry-run) run, a dated JSON report is written under
 The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
 `seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
-widely: SpaceX seeds ~2,100 jobs, Amazon ~2,060, NVIDIA ~2,050, Tesla ~1,350,
-OpenAI ~740, Stripe ~540, Linear ~24. Seeding all 42 companies stores roughly
-21,200 listings.
+widely: SpaceX seeds ~2,100 jobs, Amazon ~2,060, NVIDIA ~2,050, Microsoft
+~1,850, Tesla ~1,350, OpenAI ~740, Stripe ~540, Linear ~24. Seeding all 43
+companies stores roughly 23,000 listings.
 
 `state/tesla.json` holds ~7,570 rather than ~1,350: its first seed predated the
 department filter and stored the whole board. Nothing prunes a snapshot, so
@@ -80,6 +80,10 @@ a page at 20 results, so seeding its three companies costs ~196 requests and
 several minutes — but results come newest-first, and the engine stops
 paginating at the first page with no unseen ids, so a routine run reads one or
 two pages per company.
+
+Microsoft caps a page at 10 results and ignores every page-size parameter, so
+its seed costs ~185 requests and a few minutes. Its results are newest-first,
+so a routine run still reads a page or two.
 
 Netflix costs a further ~48 seconds because its board must be read in full
 (see above) and pages are throttled. OpenAI's board is the largest single download at ~11 MB, since
@@ -105,9 +109,9 @@ dark. Fix the scraper or retry later rather than ignoring a failed section.
 
 ## Currently tracked companies
 
-42 companies are watched: 31 through six shared platform scrapers, plus
-eleven bespoke portals. The remaining names in `companies.txt` (44 total) are a
-target list — see "Scaling to the rest" below.
+43 companies are watched: 31 through six shared platform scrapers, plus twelve
+bespoke portals. That is every company in `companies.txt` except LinkedIn — see
+"Scaling to the rest" below.
 
 | Source | Companies | Fetch mode |
 |--------|-----------|------------|
@@ -117,7 +121,7 @@ target list — see "Scaling to the rest" below.
 | Eightfold | Netflix | static HTTP |
 | SmartRecruiters | Canva | static HTTP |
 | Oracle Recruiting Cloud | Uber | static HTTP |
-| Bespoke portal | Amazon, Apple, GitHub, Google, Snap, Two Sigma | static HTTP |
+| Bespoke portal | Amazon, Apple, GitHub, Google, Microsoft, Snap, Two Sigma | static HTTP |
 | Bespoke portal | ByteDance, Rippling | JSON POST |
 | Bespoke portal | Hudson River Trading | form POST |
 | Bespoke portal | Meta | headless browser (Chromium) |
@@ -160,9 +164,21 @@ Two consequences worth knowing:
   fall back to the canonical `job-boards.greenhouse.io` URL, which shows an
   explicit error instead. Boards whose path names the job (Airbnb, Anthropic)
   keep their own link.
-- **Pages of the same company are throttled** by `INTER_PAGE_DELAY_SECONDS`.
-  Paginated boards are the only place this tool makes rapid back-to-back
-  requests, and an unlucky first page takes a whole company down for the run.
+- **Pages of the same company are throttled** by `INTER_PAGE_DELAY_SECONDS`,
+  which a company can raise via `inter_page_delay_seconds`. Paginated boards
+  are the only place this tool makes rapid back-to-back requests, and an
+  unlucky first page takes a whole company down for the run.
+- **HTTP fetches share one session**, so pages of a board reuse a connection
+  instead of repeating a TLS handshake. Microsoft forced this: it rate-limits
+  on *new connections* rather than on request rate, answering 429 after about
+  six pages fetched on fresh connections while serving 185 down a reused one.
+  Slowing the request rate did not help; reusing the connection did.
+- **A seed run that truncated is not saved.** It is as damaging as an empty
+  seed and much quieter: it records part of a board as the whole of it, so
+  every posting the run never reached is reported as new next time — hundreds
+  of weeks-old jobs presented as today's. Microsoft hit exactly this, seeding
+  436 of 1,849 before a 429. The company fails loudly and the next run starts
+  the seed over.
 
 **Meta and Tesla are the only companies needing a headless browser**, so a run
 that skips both needs no Playwright at all.
@@ -208,6 +224,16 @@ roles as software. Because `merge_snapshot` only ever adds, the full 7,574-job
 seed already stored stays on disk — so widening the departments later will not
 flood the report with old jobs.
 
+**Microsoft is read whole, not narrowed.** Unlike Tesla, its 1,849 postings
+spread across 132 departments with a long tail, so any allowlist would quietly
+drop roles rather than just noise — and at 1,849 the board is not drowning the
+report in the first place. Its default sort is already `sortBy: timestamp`, so
+the engine's early stop holds and a routine run reads a page or two; only the
+seed pays the ~185 requests. `postedTs` is a real Unix timestamp, so its dates
+are exact. Jobs are keyed on `displayJobId`, the requisition number shown on
+the posting, rather than the internal id the URL is built from, since the
+requisition survives a re-index of the portal.
+
 **Amazon narrows at source**, like Meta: its board runs to tens of thousands of
 postings across every function, so the entry URL applies its own
 `software engineer` query with `sort=recent`. That sort is what keeps the
@@ -233,7 +259,7 @@ slug first with `python tools/probe_ats.py <name>`.
 ## Scaling to the rest
 
 `tools/probe_ats.py` identifies which platform each company in `companies.txt`
-uses. As of 2026-08-04, 42 of 44 companies are built:
+uses. As of 2026-08-04, 43 of 44 companies are built:
 
 | Platform | Companies | Status |
 |----------|-----------|--------|
@@ -243,7 +269,7 @@ uses. As of 2026-08-04, 42 of 44 companies are built:
 | SmartRecruiters | Canva | done — shared scraper |
 | Oracle Recruiting Cloud | Uber | done — shared scraper |
 | Ashby | OpenAI (736 jobs), Snowflake, Ramp, Plaid, Notion, Linear | done — shared scraper |
-| Eightfold, blocked | Microsoft | tenant answers 403 `Not authorized for PCSX` to the public jobs API |
+| Eightfold PCSX | Microsoft | done — own module (not the shared Eightfold scraper; different host and API) |
 | Bespoke, built | Amazon, Apple, ByteDance, GitHub, Google, Hudson River Trading, Rippling, Snap, Two Sigma, Meta, Tesla | own module each |
 
 ### Recon notes on the hard boards
@@ -253,7 +279,7 @@ Checked 2026-08-04.
 
 | Company | What was found | Why it is not built |
 |---|---|---|
-| **Microsoft** | Careers site is Eightfold-backed. | Tenant answers `403 {"message": "Not authorized for PCSX"}` to the public jobs API on every host and header combination tried. Its own `gcsservices` API is reachable, but not from behind a TLS-intercepting proxy. |
+| **Microsoft** | *Now built.* The 403 was the right error read the wrong way: `Not authorized for PCSX` names the product that **does** serve this board, just on Microsoft's own host — `apply.careers.microsoft.com/api/pcsx/search`, which needs no key, no CSRF token and no browser. The `gcsservices` host from the earlier note is gone (it now presents an `*.azureedge.net` certificate). | — |
 | **Tesla** | *Now built.* The earlier "unscrapable" verdict was wrong. Akamai does serve "Access Denied" to plain HTTP and to headless Chromium, but that is a Chromium-specific check, not an edge-level IP block: **headless Firefox is served the page normally**. Its careers app calls one API returning the whole board. | — |
 | **Hudson River Trading** | *Now built.* Its page does embed Greenhouse, but that board (`hrttalentcommunity`) holds 3 "Talent Community" pipeline entries — the real 72 listings come from a self-hosted WordPress plugin. | — |
 
@@ -265,8 +291,9 @@ calls, which is usually cleaner than the DOM it renders. Circumventing a bot
 filter is still off the table; using a different real browser is not
 circumvention, and here it was the whole answer.
 
-Microsoft is the only target left, and its block is genuinely server-side
-(`403 Not authorized for PCSX`) rather than a matter of how the page is fetched.
+Microsoft made the same point a second time: its 403 was read as a wall when it
+was in fact naming the API that serves the board. Every company in
+`companies.txt` is now built except LinkedIn.
 
 LinkedIn is excluded deliberately: it matches three different boards
 (Greenhouse 53 jobs, Lever 23), none of them plausibly its real volume, so it

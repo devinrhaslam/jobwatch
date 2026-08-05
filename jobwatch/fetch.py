@@ -16,6 +16,15 @@ USER_AGENT = (
 )
 
 
+# One session for the process, so pages of the same board reuse a connection
+# instead of completing a TLS handshake each time. This is not only faster: at
+# least one board (Microsoft) rate-limits on new connections rather than on
+# request rate, answering 429 after ~6 pages fetched on fresh connections while
+# serving 185 pages down a single reused one. Callers can still pass their own
+# session; tests do.
+_SESSION = requests.Session()
+
+
 class FetchBlocked(Exception):
     """Raised when a site returns 403/429, distinct from a real error."""
 
@@ -34,7 +43,7 @@ def fetch_static(
     sleep: Callable[[float], None] = time.sleep,
     headers: dict[str, str] | None = None,
 ) -> str:
-    session = session or requests.Session()
+    session = session or _SESSION
     request_headers = {"User-Agent": USER_AGENT, **(headers or {})}
     last_error: Exception | None = None
     for attempt in range(retries):
@@ -111,7 +120,7 @@ def fetch_json_post(
     behaves the same as every other company from the engine's point of view.
     """
     endpoint, body = split_post_url(url)
-    session = session or requests.Session()
+    session = session or _SESSION
     request_headers = {
         "User-Agent": USER_AGENT,
         "Content-Type": "application/json",
@@ -157,7 +166,7 @@ def fetch_form_post(
     is not interchangeable.
     """
     endpoint, body = split_post_url(url)
-    session = session or requests.Session()
+    session = session or _SESSION
     request_headers = {
         "User-Agent": USER_AGENT,
         "X-Requested-With": "XMLHttpRequest",

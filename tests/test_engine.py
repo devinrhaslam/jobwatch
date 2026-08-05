@@ -236,6 +236,11 @@ def test_fetch_error_returns_failed_status(tmp_path):
 
 
 def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
+    # Against an existing snapshot a short run is safe to keep: the pages it
+    # did reach merge in, and the rest are picked up next run. (On a *seed*
+    # run the same truncation is refused — see below.)
+    save_snapshot("Acme", {"old": {"job_id": "old"}}, tmp_path)
+
     def fetch_until_second_page(config, url):
         if url == "1":
             raise FetchError("request failed on second page")
@@ -247,9 +252,9 @@ def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
         fetch_page=fetch_until_second_page,
     )
 
-    assert result.status == "seeded"
+    assert result.status == "ok"
     assert result.total_jobs == 1
-    assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+    assert set(load_snapshot("Acme", tmp_path)) == {"old", "1"}
     assert result.detail is not None
 
 
@@ -264,13 +269,14 @@ def test_first_page_parse_error_returns_failed_naming_the_parser(tmp_path):
 
 
 def test_later_page_parse_error_keeps_already_collected_jobs(tmp_path):
+    save_snapshot("Acme", {"old": {"job_id": "old"}}, tmp_path)
     scraper = RaisingScraper([[_job("1")], [_job("2")]], raise_at_index=1)
 
     result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: u)
 
-    assert result.status == "seeded"
+    assert result.status == "ok"
     assert result.total_jobs == 1
-    assert set(load_snapshot("Acme", tmp_path)) == {"1"}
+    assert set(load_snapshot("Acme", tmp_path)) == {"old", "1"}
     assert result.detail is not None
 
 
@@ -421,3 +427,39 @@ def test_default_fetch_page_routes_rendered_xhr_with_its_engine(monkeypatch):
         "engine": "firefox",
         "browser": "B",
     }
+
+
+def test_seed_run_that_truncated_is_not_saved(tmp_path):
+    # Saving it would record part of the board as all of it, so every posting
+    # the run never reached is reported as new on the next run.
+    pages = [[Job("Acme", str(i), f"Job {i}", f"https://x/{i}")] for i in range(3)]
+    scraper = FakeScraper(pages)
+
+    def failing_fetch(config, url):
+        if url == "2":
+            raise FetchError("boom")
+        return url
+
+    result = run_company(scraper, state_dir=tmp_path, fetch_page=failing_fetch)
+
+    assert result.status == "failed"
+    assert "not saved" in result.detail
+    assert not snapshot_path("Acme", state_dir=tmp_path).exists()
+
+
+def test_company_can_override_the_inter_page_delay():
+    from jobwatch.engine import _fetch_all_pages
+
+    slept = []
+    config = CompanyConfig(
+        name="Acme", career_url="0", fetch_mode=FetchMode.STATIC,
+        inter_page_delay_seconds=1.5,
+    )
+    pages = [[Job("Acme", str(i), f"Job {i}", f"https://x/{i}")] for i in range(3)]
+
+    _fetch_all_pages(
+        FakeScraper(pages, config), config,
+        known_ids=None, fetch_page=lambda c, u: u, sleep=slept.append,
+    )
+
+    assert slept and set(slept) == {1.5}

@@ -63,6 +63,10 @@ class CompanyConfig:
     # board's bot filter may reject headless Chromium specifically while serving
     # headless Firefox the same page, so the engine is per-company.
     browser_engine: str = "chromium"
+    # Overrides the engine's default pause between pages. A board that caps a
+    # page at 10 results needs hundreds of requests to seed, and some answer 429
+    # long before that many arrive at the default pace.
+    inter_page_delay_seconds: float | None = None
 
     def __post_init__(self) -> None:
         if self.fetch_mode is FetchMode.RENDERED and not self.wait_for_selector:

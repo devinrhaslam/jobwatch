@@ -368,3 +368,29 @@ def test_post_url_round_trip_preserves_an_existing_endpoint_query():
     assert got_body == body
     assert "localeCode=en" in got_endpoint
     assert "body=" not in got_endpoint
+
+
+def test_fetch_static_reuses_one_session_across_calls():
+    # Microsoft's board rate-limits on new connections rather than request
+    # rate: a fresh session per page draws a 429 after ~6 pages where a reused
+    # one serves 185. Defaulting to a shared session is what keeps a long
+    # paginated seed alive.
+    from jobwatch import fetch as fetch_module
+
+    used = []
+
+    class _RecordingSession(_StubSession):
+        def get(self, url, timeout=None, headers=None):
+            used.append(self)
+            return _StubResponse(200, "ok")
+
+    recording = _RecordingSession([])
+    original = fetch_module._SESSION
+    fetch_module._SESSION = recording
+    try:
+        fetch_static("https://example.com/1")
+        fetch_static("https://example.com/2")
+    finally:
+        fetch_module._SESSION = original
+
+    assert used == [recording, recording]
