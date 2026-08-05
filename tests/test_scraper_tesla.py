@@ -1,17 +1,33 @@
 import json
 
+import pytest
+
 from jobwatch.models import FetchMode
-from jobwatch.scrapers.tesla import TeslaScraper, _slug
+from jobwatch.scrapers.tesla import SOFTWARE_DEPARTMENTS, TeslaScraper, _slug
+
+_DEPARTMENTS = {
+    "3": "Tesla AI",
+    "8": "Vehicle Software",
+    "9": "Engineering & Information Technology",
+    "5": "Manufacturing",
+    "1": "Vehicle Service",
+}
 
 
-def _state(listings, locations=None):
+def _state(listings, locations=None, departments=None):
+    # Listings default to a watched department so that tests about parsing are
+    # not silently testing the department filter instead.
+    listings = [
+        {**row, "dp": row.get("dp", "9")} if isinstance(row, dict) else row
+        for row in listings
+    ]
     return json.dumps(
         {
             "lookup": {
                 "locations": locations
                 if locations is not None
                 else {"401022": "Palo Alto, California"},
-                "departments": {"9": "Engineering & Information Technology"},
+                "departments": _DEPARTMENTS if departments is None else departments,
                 "types": {"1": "fulltime"},
             },
             "listings": listings,
@@ -81,3 +97,54 @@ def test_slug_collapses_punctuation_the_way_tesla_does():
     assert _slug("Sr. Engineer (Powertrain) & Systems") == (
         "sr-engineer-powertrain-systems"
     )
+
+
+def test_keeps_only_software_departments():
+    payload = _state(
+        [
+            {"id": "eng", "t": "Backend Engineer", "dp": "9"},
+            {"id": "ai", "t": "AI Engineer", "dp": "3"},
+            {"id": "vehicle", "t": "Distributed Systems Engineer", "dp": "8"},
+            {"id": "factory", "t": "Production Associate", "dp": "5"},
+            {"id": "service", "t": "Service Technician", "dp": "1"},
+        ]
+    )
+
+    kept = {job.job_id for job in TeslaScraper().parse(payload)}
+
+    assert kept == {"eng", "ai", "vehicle"}
+
+
+def test_department_filter_does_not_second_guess_titles():
+    # A mechanical engineer sits in the same department as a backend engineer.
+    # Dropping it here would mean matching on title text, which is exactly the
+    # judgement the report-time LLM filter exists to make.
+    payload = _state([{"id": "1", "t": "Thermal Design Engineer", "dp": "9"}])
+
+    assert [job.job_id for job in TeslaScraper().parse(payload)] == ["1"]
+
+
+def test_raises_when_a_watched_department_id_changes_meaning():
+    # Selecting by id means a renumbering would not look like a failure — it
+    # would look like a quiet switch to reporting Finance roles as software.
+    payload = _state(
+        [{"id": "1", "t": "Financial Analyst", "dp": "9"}],
+        departments={**_DEPARTMENTS, "9": "Finance"},
+    )
+
+    with pytest.raises(ValueError, match="department ids have changed"):
+        TeslaScraper().parse(payload)
+
+
+def test_accepts_a_payload_whose_department_names_are_unchanged():
+    payload = _state([{"id": "1", "t": "Backend Engineer", "dp": "9"}])
+
+    assert len(TeslaScraper().parse(payload)) == 1
+
+
+def test_watched_departments_are_the_software_ones():
+    assert SOFTWARE_DEPARTMENTS == {
+        "3": "Tesla AI",
+        "8": "Vehicle Software",
+        "9": "Engineering & Information Technology",
+    }

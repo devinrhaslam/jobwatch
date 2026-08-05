@@ -20,6 +20,26 @@ POSTING_URL = "https://www.tesla.com/careers/search/job/{slug}-{job_id}"
 # ordinary browser rather than by disguising one.
 BROWSER_ENGINE = "firefox"
 
+# Tesla staffs factories, service centres and showrooms from the same board, so
+# ~82% of its ~7,570 postings are for work this tool is not watching for. The
+# API answers the whole board however it is asked — its page filters
+# client-side — so the narrowing happens here instead of in the entry URL the
+# way Meta's and Amazon's does.
+#
+# Departments are kept, not job titles: the department is Tesla's own structural
+# label, while titles vary too much to match on (the reason role-fit filtering
+# is left to the LLM at report time). "Engineering & Information Technology"
+# still carries mechanical, thermal and sales engineers; dropping those is the
+# report-time filter's job, not this one's.
+#
+# Mapped id -> expected name so that a renumbering is caught rather than
+# silently watching whichever department inherited the id.
+SOFTWARE_DEPARTMENTS = {
+    "3": "Tesla AI",
+    "8": "Vehicle Software",
+    "9": "Engineering & Information Technology",
+}
+
 
 def _slug(title: str) -> str:
     """Reproduce the readable prefix Tesla puts in its own job links.
@@ -31,6 +51,28 @@ def _slug(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
+def _check_department_ids(departments: dict) -> None:
+    """Fail loudly if a watched department id no longer means what it did.
+
+    The filter selects by id, so a renumbering would not break anything
+    visibly — it would quietly start watching Finance and report its postings
+    as software roles. Better to take the company down for a run than to watch
+    the wrong half of the board without saying so.
+    """
+    if not departments:
+        return  # nothing to check against; the empty-parse guard covers this
+    wrong = {
+        dept_id: departments.get(dept_id)
+        for dept_id, expected in SOFTWARE_DEPARTMENTS.items()
+        if departments.get(dept_id) != expected
+    }
+    if wrong:
+        raise ValueError(
+            f"Tesla department ids have changed: expected {SOFTWARE_DEPARTMENTS}, "
+            f"found {wrong} — re-check the ids before trusting the filter"
+        )
+
+
 class TeslaScraper(Scraper):
     """Tesla's careers board, read through the state API its own page consumes.
 
@@ -40,6 +82,8 @@ class TeslaScraper(Scraper):
 
     Postings carry no publication date (`pu`, where present, is an expiry), so
     recency comes from snapshot diffing.
+
+    Only the software-adjacent departments are kept; see SOFTWARE_DEPARTMENTS.
     """
 
     config = CompanyConfig(
@@ -53,10 +97,14 @@ class TeslaScraper(Scraper):
 
     def parse(self, payload: str) -> list[Job]:
         state = json.loads(payload)
-        locations = (state.get("lookup") or {}).get("locations") or {}
+        lookup = state.get("lookup") or {}
+        locations = lookup.get("locations") or {}
+        _check_department_ids(lookup.get("departments") or {})
         jobs: list[Job] = []
         for record in state.get("listings") or []:
             if not isinstance(record, dict):
+                continue
+            if str(record.get("dp")) not in SOFTWARE_DEPARTMENTS:
                 continue
             job_id = record.get("id")
             title = record.get("t")

@@ -59,10 +59,14 @@ On a normal (non-dry-run) run, a dated JSON report is written under
 The first run for any company is a **seed run**. It fetches every current
 listing, saves them all to `state/<company>.json`, and reports
 `seeded N jobs, no alerts` — nothing is flagged as new. Board sizes vary
-widely: Tesla seeds ~7,570 jobs, SpaceX ~2,100, Amazon ~2,060, NVIDIA ~2,050,
+widely: SpaceX seeds ~2,100 jobs, Amazon ~2,060, NVIDIA ~2,050, Tesla ~1,350,
 OpenAI ~740, Stripe ~540, Linear ~24. Seeding all 42 companies stores roughly
-27,400 listings — Tesla alone is over a quarter of that, because its board
-covers every function and factory rather than engineering only.
+21,200 listings.
+
+`state/tesla.json` holds ~7,570 rather than ~1,350: its first seed predated the
+department filter and stored the whole board. Nothing prunes a snapshot, so
+those rows simply stay, which is what makes widening the departments later a
+safe change rather than a one-off flood of stale "new" jobs.
 
 This is deliberate. Without seeding, day one would dump hundreds of "new"
 jobs that have been open for weeks. Real alerting starts on the second run:
@@ -188,6 +192,21 @@ Amazon, GitHub, and Snap answer plain JSON
 despite running bespoke portals; Google has no public API, so its scraper parses
 server-rendered HTML, keyed on the job href pattern and structural position
 rather than its build-generated class names.
+
+**Tesla narrows by department, not at source.** Its API answers the whole board
+however it is asked — the page filters client-side — so unlike Meta's and
+Amazon's entry URLs, the narrowing happens in `parse()`. Tesla staffs
+factories, service centres and showrooms from the same board, so keeping only
+Tesla AI, Vehicle Software, and Engineering & IT cuts ~7,570 postings to
+~1,350. Departments are kept rather than title keywords: the department is
+Tesla's own structural label, while titles vary too much to match on, which is
+the whole reason role-fit is left to the LLM. "Engineering & IT" still carries
+mechanical, thermal and sales engineers, and dropping those is the report-time
+filter's job. The ids are checked against their expected names on every parse,
+so a renumbering fails the company loudly instead of quietly reporting Finance
+roles as software. Because `merge_snapshot` only ever adds, the full 7,574-job
+seed already stored stays on disk — so widening the departments later will not
+flood the report with old jobs.
 
 **Amazon narrows at source**, like Meta: its board runs to tens of thousands of
 postings across every function, so the entry URL applies its own
