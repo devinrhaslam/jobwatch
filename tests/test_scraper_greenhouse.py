@@ -171,6 +171,31 @@ def test_pinterest_style_listing_url_is_also_replaced():
     assert job.url == "https://job-boards.greenhouse.io/pinterest/jobs/4813946"
 
 
+def test_retired_greenhouse_host_is_rewritten_to_the_canonical_one():
+    # Anduril's and Figma's boards still name boards.greenhouse.io and repeat
+    # the id in a gh_jid param. That host only 301s to job-boards.
+    payload = json.dumps(
+        {"jobs": [{"id": 5171114007, "title": "Software Engineer - Undersea Dominance",
+                   "absolute_url":
+                   "https://boards.greenhouse.io/andurilindustries/jobs/5171114007"
+                   "?gh_jid=5171114007"}]}
+    )
+    job = GreenhouseScraper("Anduril", "andurilindustries").parse(payload)[0]
+    assert job.url == (
+        "https://job-boards.greenhouse.io/andurilindustries/jobs/5171114007"
+    )
+
+
+def test_canonical_greenhouse_url_survives_the_rewrite_unchanged():
+    payload = json.dumps(
+        {"jobs": [{"id": 7785812003, "title": "Senior Software Engineer, Backend",
+                   "absolute_url":
+                   "https://job-boards.greenhouse.io/affirm/jobs/7785812003"}]}
+    )
+    job = GreenhouseScraper("Affirm", "affirm").parse(payload)[0]
+    assert job.url == "https://job-boards.greenhouse.io/affirm/jobs/7785812003"
+
+
 def test_missing_absolute_url_falls_back_to_the_canonical_posting():
     payload = json.dumps({"jobs": [{"id": 42, "title": "SWE"}]})
     job = GreenhouseScraper("Acme", "acme").parse(payload)[0]

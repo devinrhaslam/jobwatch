@@ -73,11 +73,20 @@ def _posting_url(record: dict, slug: str, job_id: str) -> str:
     took me to the jobs page, not the job". The canonical Greenhouse URL
     redirects to the same destination while the posting is open, and to an
     explicit error page once it is not.
+
+    An `absolute_url` already on Greenhouse is rebuilt rather than passed
+    through, because a board may name the retired `boards.greenhouse.io` host:
+    Anduril and Figma both still do, and both append a `?gh_jid=` that repeats
+    the id already in the path. That host only 301s to `job-boards`, so the
+    link works but spends a redirect getting there and depends on a redirect
+    Greenhouse has no reason to keep. Rebuilding costs nothing for the boards
+    already naming the canonical host — theirs is byte-identical.
     """
     absolute = record.get("absolute_url") or ""
-    path = urlsplit(absolute).path if absolute else ""
-    if absolute and re.search(rf"/{re.escape(job_id)}(?:/|$)", path):
-        return absolute
+    parsed = urlsplit(absolute) if absolute else None
+    if parsed and not parsed.netloc.endswith("greenhouse.io"):
+        if re.search(rf"/{re.escape(job_id)}(?:/|$)", parsed.path):
+            return absolute
     return CANONICAL_POSTING_URL.format(slug=slug, job_id=job_id)
 
 
