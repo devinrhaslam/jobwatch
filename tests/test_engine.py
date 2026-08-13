@@ -3,6 +3,7 @@ from jobwatch.fetch import FetchBlocked, FetchError
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
 from jobwatch.state import load_snapshot, save_snapshot, snapshot_path
+from jobwatch.store import JsonSnapshotStore
 
 
 class FakeScraper(Scraper):
@@ -47,7 +48,7 @@ def _job(job_id, title="Software Engineer"):
 
 def test_first_run_seeds_without_reporting_new_jobs(tmp_path):
     scraper = FakeScraper([[_job("1"), _job("2")]])
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: "0")
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0")
     assert result.status == "seeded"
     assert result.new_jobs == []
     assert result.total_jobs == 2
@@ -55,7 +56,7 @@ def test_first_run_seeds_without_reporting_new_jobs(tmp_path):
 
 def test_zero_job_seed_run_fails_loudly_and_does_not_persist(tmp_path):
     result = run_company(
-        FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
 
     assert result.status == "failed"
@@ -64,10 +65,10 @@ def test_zero_job_seed_run_fails_loudly_and_does_not_persist(tmp_path):
 
 
 def test_seed_is_retried_after_a_failed_zero_job_seed(tmp_path):
-    run_company(FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0")
+    run_company(FakeScraper([[]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0")
 
     result = run_company(
-        FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[_job("1")]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
 
     assert result.status == "seeded"
@@ -77,25 +78,25 @@ def test_seed_is_retried_after_a_failed_zero_job_seed(tmp_path):
 
 def test_unchanged_second_run_reports_no_new_jobs(tmp_path):
     scraper = FakeScraper([[_job("1"), _job("2")]])
-    run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: "0")
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: "0")
+    run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0")
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0")
     assert result.status == "ok"
     assert result.new_jobs == []
 
 
 def test_genuinely_new_job_is_reported_once(tmp_path):
     run_company(
-        FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[_job("1")]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     scraper_with_new_job = FakeScraper([[_job("1"), _job("2")]])
     result = run_company(
-        scraper_with_new_job, state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        scraper_with_new_job, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     assert result.status == "ok"
     assert [j.job_id for j in result.new_jobs] == ["2"]
 
     result_again = run_company(
-        scraper_with_new_job, state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        scraper_with_new_job, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     assert result_again.new_jobs == []
 
@@ -103,15 +104,15 @@ def test_genuinely_new_job_is_reported_once(tmp_path):
 def test_departed_job_reappearing_is_not_reported_again(tmp_path):
     run_company(
         FakeScraper([[_job("1"), _job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
     run_company(
-        FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[_job("1")]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     result = run_company(
         FakeScraper([[_job("1"), _job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
     assert result.new_jobs == []
@@ -120,11 +121,11 @@ def test_departed_job_reappearing_is_not_reported_again(tmp_path):
 def test_zero_jobs_against_nonempty_snapshot_fails_without_overwriting_state(tmp_path):
     run_company(
         FakeScraper([[_job("1"), _job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
     result = run_company(
-        FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     assert result.status == "failed"
     assert set(load_snapshot("Acme", tmp_path)) == {"1", "2"}
@@ -137,7 +138,7 @@ def test_existing_empty_snapshot_with_zero_jobs_fails_not_silently_ok(tmp_path):
     save_snapshot("Acme", {}, tmp_path)
 
     result = run_company(
-        FakeScraper([[]]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([[]]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
 
     assert result.status == "failed"
@@ -148,7 +149,7 @@ def test_existing_empty_snapshot_with_real_jobs_reports_them_as_ok(tmp_path):
 
     result = run_company(
         FakeScraper([[_job("1"), _job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
 
@@ -159,7 +160,7 @@ def test_existing_empty_snapshot_with_real_jobs_reports_them_as_ok(tmp_path):
 def test_pagination_stops_early_when_page_has_no_new_ids(tmp_path):
     run_company(
         FakeScraper([[_job("1")], [_job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
     calls = []
@@ -170,7 +171,7 @@ def test_pagination_stops_early_when_page_has_no_new_ids(tmp_path):
 
     result = run_company(
         FakeScraper([[_job("1")], [_job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=counting_fetch,
     )
     assert calls == ["0"]
@@ -192,7 +193,7 @@ def test_pagination_stops_at_page_ceiling(tmp_path):
         return url
 
     result = run_company(
-        EndlessScraper([]), state_dir=tmp_path, fetch_page=counting_fetch
+        EndlessScraper([]), store=JsonSnapshotStore(tmp_path), fetch_page=counting_fetch
     )
 
     assert len(calls) == MAX_PAGES
@@ -205,7 +206,7 @@ def test_pagination_stops_at_page_ceiling(tmp_path):
 def test_pagination_deduplicates_job_ids_across_pages(tmp_path):
     result = run_company(
         FakeScraper([[_job("1")], [_job("1")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
 
@@ -218,7 +219,7 @@ def test_fetch_blocked_returns_blocked_status(tmp_path):
         raise FetchBlocked("request blocked")
 
     result = run_company(
-        FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=blocked_fetch
+        FakeScraper([[_job("1")]]), store=JsonSnapshotStore(tmp_path), fetch_page=blocked_fetch
     )
 
     assert result.status == "blocked"
@@ -229,7 +230,7 @@ def test_fetch_error_returns_failed_status(tmp_path):
         raise FetchError("request failed")
 
     result = run_company(
-        FakeScraper([[_job("1")]]), state_dir=tmp_path, fetch_page=failed_fetch
+        FakeScraper([[_job("1")]]), store=JsonSnapshotStore(tmp_path), fetch_page=failed_fetch
     )
 
     assert result.status == "failed"
@@ -248,7 +249,7 @@ def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
 
     result = run_company(
         FakeScraper([[_job("1")], [_job("2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=fetch_until_second_page,
     )
 
@@ -261,7 +262,7 @@ def test_later_page_fetch_error_keeps_already_collected_jobs(tmp_path):
 def test_first_page_parse_error_returns_failed_naming_the_parser(tmp_path):
     scraper = RaisingScraper([[_job("1")]], raise_at_index=0)
 
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: "0")
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0")
 
     assert result.status == "failed"
     assert "parser" in result.detail.lower()
@@ -272,7 +273,7 @@ def test_later_page_parse_error_keeps_already_collected_jobs(tmp_path):
     save_snapshot("Acme", {"old": {"job_id": "old"}}, tmp_path)
     scraper = RaisingScraper([[_job("1")], [_job("2")]], raise_at_index=1)
 
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=lambda c, u: u)
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u)
 
     assert result.status == "ok"
     assert result.total_jobs == 1
@@ -283,7 +284,7 @@ def test_later_page_parse_error_keeps_already_collected_jobs(tmp_path):
 def test_dry_run_reports_results_without_persisting_snapshot(tmp_path):
     result = run_company(
         FakeScraper([[_job("1")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         dry_run=True,
         fetch_page=lambda c, u: "0",
     )
@@ -297,7 +298,7 @@ def test_suspicious_ratio_flags_likely_id_scheme_change(tmp_path):
     total = MIN_JOBS_FOR_SUSPICIOUS_CHECK
     run_company(
         FakeScraper([[_job(str(i)) for i in range(total)]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
     new_count = int(total * 0.9)
@@ -305,7 +306,7 @@ def test_suspicious_ratio_flags_likely_id_scheme_change(tmp_path):
         _job(f"new-{i}") for i in range(new_count)
     ]
     result = run_company(
-        FakeScraper([mostly_new_jobs]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([mostly_new_jobs]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     assert result.status == "suspicious"
 
@@ -316,12 +317,12 @@ def test_suspicious_ratio_does_not_fire_below_the_minimum_job_floor(tmp_path):
     # trap it in "suspicious" forever (it never advances past the guard).
     run_company(
         FakeScraper([[_job("1"), _job("2"), _job("3"), _job("4")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: "0",
     )
     all_new_jobs = [_job("new-1"), _job("new-2"), _job("new-3"), _job("new-4")]
     result = run_company(
-        FakeScraper([all_new_jobs]), state_dir=tmp_path, fetch_page=lambda c, u: "0"
+        FakeScraper([all_new_jobs]), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: "0"
     )
     assert result.status == "ok"
     assert {j.job_id for j in result.new_jobs} == {"new-1", "new-2", "new-3", "new-4"}
@@ -339,11 +340,11 @@ def test_paginate_fully_keeps_reading_past_a_page_of_known_jobs(tmp_path):
     pages = [[_job("1")], [_job("2")], [_job("late")]]
     run_company(
         FakeScraper([[_job("1")], [_job("2")]], config=config),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
     result = run_company(
-        FakeScraper(pages, config=config), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages, config=config), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
     assert [j.job_id for j in result.new_jobs] == ["late"]
 
@@ -353,11 +354,11 @@ def test_early_stop_still_applies_when_paginate_fully_is_off(tmp_path):
     pages = [[_job("1")], [_job("2")], [_job("late")]]
     run_company(
         FakeScraper([[_job("1")], [_job("2")]], config=config),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
     result = run_company(
-        FakeScraper(pages, config=config), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages, config=config), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
     assert result.new_jobs == []
 
@@ -440,7 +441,7 @@ def test_seed_run_that_truncated_is_not_saved(tmp_path):
             raise FetchError("boom")
         return url
 
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=failing_fetch)
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=failing_fetch)
 
     assert result.status == "failed"
     assert "not saved" in result.detail
@@ -505,7 +506,7 @@ def test_new_jobs_are_enriched_from_their_detail_pages(tmp_path):
     scraper = EnrichingScraper([[_job("1", title="placeholder")]])
     save_snapshot("Acme", {"0": {}}, tmp_path)
     result = run_company(
-        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+        scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper)
     )
     assert [j.title for j in result.new_jobs] == ["Real Title 1"]
     assert scraper.detail_fetches == ["detail:1"]
@@ -516,7 +517,7 @@ def test_enriched_title_is_what_gets_persisted(tmp_path):
     # stored history of the board is permanently thinner than what was reported.
     scraper = EnrichingScraper([[_job("1", title="placeholder")]])
     save_snapshot("Acme", {"0": {}}, tmp_path)
-    run_company(scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper))
+    run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper))
     assert load_snapshot("Acme", tmp_path)["1"]["title"] == "Real Title 1"
 
 
@@ -525,7 +526,7 @@ def test_already_seen_jobs_are_not_re_fetched(tmp_path):
     # detail fetch per genuinely new posting, not one per posting on the board.
     scraper = EnrichingScraper([[_job("1"), _job("2"), _job("3")]])
     save_snapshot("Acme", {"1": {}, "2": {}}, tmp_path)
-    run_company(scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper))
+    run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper))
     assert scraper.detail_fetches == ["detail:3"]
 
 
@@ -538,7 +539,7 @@ def test_a_failed_detail_fetch_keeps_the_listing_job(tmp_path):
             raise FetchError("detail page timed out")
         return url
 
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=fetch_page)
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=fetch_page)
     titles = {j.job_id: j.title for j in result.new_jobs}
     assert titles["1"] == "placeholder"  # kept, not dropped
     assert titles["2"] == "Real Title 2"
@@ -549,7 +550,7 @@ def test_a_raising_parse_detail_does_not_fail_the_company(tmp_path):
     scraper = EnrichingScraper([[_job("1", title="placeholder")]], fail_ids={"1"})
     save_snapshot("Acme", {"0": {}}, tmp_path)
     result = run_company(
-        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+        scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper)
     )
     assert result.status == "ok"
     assert [j.title for j in result.new_jobs] == ["placeholder"]
@@ -565,7 +566,7 @@ def test_scrapers_without_a_detail_url_make_no_extra_fetches(tmp_path):
         return url
 
     save_snapshot("Acme", {"0": {}}, tmp_path)
-    result = run_company(scraper, state_dir=tmp_path, fetch_page=fetch_page)
+    result = run_company(scraper, store=JsonSnapshotStore(tmp_path), fetch_page=fetch_page)
     assert fetched == ["0"]
     assert [j.job_id for j in result.new_jobs] == ["1"]
 
@@ -574,7 +575,7 @@ def test_a_job_whose_detail_url_is_none_is_skipped(tmp_path):
     scraper = EnrichingScraper([[_job("1"), _job("2")]], no_detail_ids={"1"})
     save_snapshot("Acme", {"0": {}}, tmp_path)
     result = run_company(
-        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+        scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper)
     )
     assert scraper.detail_fetches == ["detail:2"]
     assert {j.job_id: j.title for j in result.new_jobs}["1"] == "Software Engineer"
@@ -592,7 +593,7 @@ def test_enrichment_stops_at_the_configured_ceiling(tmp_path):
     scraper = EnrichingScraper([[_job(str(i)) for i in range(5)]], config=config)
     save_snapshot("Acme", {"99": {}}, tmp_path)
     result = run_company(
-        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+        scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper)
     )
     assert len(scraper.detail_fetches) == 2
     enriched = [j for j in result.new_jobs if j.title.startswith("Real Title")]
@@ -605,7 +606,7 @@ def test_a_seed_run_enriches_the_whole_board_once(tmp_path):
     # only pay for the day's postings.
     scraper = EnrichingScraper([[_job("1"), _job("2")]])
     result = run_company(
-        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+        scraper, store=JsonSnapshotStore(tmp_path), fetch_page=_enriching_fetch(scraper)
     )
     assert result.status == "seeded"
     assert sorted(scraper.detail_fetches) == ["detail:1", "detail:2"]
@@ -637,7 +638,7 @@ def test_a_board_that_repeats_a_served_page_stops_instead_of_hitting_the_ceiling
 
     pages = [[_job("1")], [_job("2")], [_job("3")]]
     result = run_company(
-        WrappingScraper(pages), state_dir=tmp_path, fetch_page=counting_fetch
+        WrappingScraper(pages), store=JsonSnapshotStore(tmp_path), fetch_page=counting_fetch
     )
 
     # Three real pages, then the wrapped page 1 that triggers the stop.
@@ -666,7 +667,7 @@ def test_the_repeat_stop_applies_even_when_paginate_fully_is_set(tmp_path):
 
     pages = [[_job("1")], [_job("2")]]
     result = run_company(
-        WrappingScraper(pages, config=config), state_dir=tmp_path, fetch_page=counting_fetch
+        WrappingScraper(pages, config=config), store=JsonSnapshotStore(tmp_path), fetch_page=counting_fetch
     )
     assert len(calls) == 3
     assert result.total_jobs == 2
@@ -677,7 +678,7 @@ def test_a_page_repeating_only_some_ids_keeps_paginating(tmp_path):
     # a page that adds nothing at all should stop the run.
     pages = [[_job("1"), _job("2")], [_job("2"), _job("3")], [_job("3"), _job("4")]]
     result = run_company(
-        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
     assert result.total_jobs == 4
 
@@ -687,7 +688,7 @@ def test_an_empty_later_page_still_ends_the_run_without_the_repeat_stop(tmp_path
     # must not be mistaken for a repeat — the jobs already collected stand.
     pages = [[_job("1")], []]
     result = run_company(
-        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
     assert result.total_jobs == 1
     assert result.status == "seeded"
@@ -704,7 +705,7 @@ def test_a_run_that_stopped_on_a_known_page_is_not_suspicious(tmp_path):
     """
     run_company(
         FakeScraper([[_job("k1"), _job("k2")]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
     pages = [
@@ -713,7 +714,7 @@ def test_a_run_that_stopped_on_a_known_page_is_not_suspicious(tmp_path):
         [_job("never-read")],                   # so the stop is a choice, not the end
     ]
     result = run_company(
-        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
 
     assert result.total_jobs == 22
@@ -729,7 +730,7 @@ def test_a_multi_page_run_that_never_meets_a_known_job_is_still_suspicious(tmp_p
     # early-stops and reads to the end of the board.
     run_company(
         FakeScraper([[_job(f"old-{i}") for i in range(20)]]),
-        state_dir=tmp_path,
+        store=JsonSnapshotStore(tmp_path),
         fetch_page=lambda c, u: u,
     )
     pages = [
@@ -737,7 +738,7 @@ def test_a_multi_page_run_that_never_meets_a_known_job_is_still_suspicious(tmp_p
         [_job(f"new-{i}") for i in range(20, 40)],
     ]
     result = run_company(
-        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+        FakeScraper(pages), store=JsonSnapshotStore(tmp_path), fetch_page=lambda c, u: u
     )
     assert result.status == "suspicious"
     assert "scheme change" in result.detail

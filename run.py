@@ -14,6 +14,7 @@ from jobwatch.filters import apply_filters_by_group
 from jobwatch.models import FetchMode
 from jobwatch.registry import SCRAPERS
 from jobwatch.report import format_report, write_report
+from jobwatch.store import JsonSnapshotStore
 
 STATE_DIR = Path("state")
 OUTPUT_DIR = Path("output")
@@ -82,7 +83,7 @@ def _outcome(result: CompanyResult) -> str:
     return f"read {result.total_jobs}"
 
 
-def _run_companies(names, args, *, fetch_page) -> list[CompanyResult]:
+def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
     """Reports progress to stderr as it goes.
 
     A full run is a few minutes and the per-company cost varies by three orders
@@ -107,7 +108,7 @@ def _run_companies(names, args, *, fetch_page) -> list[CompanyResult]:
         try:
             result = run_company(
                 scraper,
-                state_dir=STATE_DIR,
+                store=store,
                 dry_run=args.dry_run,
                 fetch_page=fetch_page,
                 on_request=on_request,
@@ -165,15 +166,23 @@ def main(argv: list[str] | None = None) -> int:
         SCRAPERS[n].config.fetch_mode in BROWSER_MODES for n in names
     )
 
+    # Built here, not at import, so test_run_cli's monkeypatch of STATE_DIR is
+    # in effect by the time the store binds to a directory.
+    store = JsonSnapshotStore(STATE_DIR)
+
     if needs_browser:
         with sync_playwright() as pw:
             pool = _BrowserPool(pw)
             try:
-                results = _run_companies(names, args, fetch_page=_build_fetch_page(pool))
+                results = _run_companies(
+                    names, args, store=store, fetch_page=_build_fetch_page(pool)
+                )
             finally:
                 pool.close()
     else:
-        results = _run_companies(names, args, fetch_page=default_fetch_page)
+        results = _run_companies(
+            names, args, store=store, fetch_page=default_fetch_page
+        )
 
     filter_failed = False
     if not args.all_roles:

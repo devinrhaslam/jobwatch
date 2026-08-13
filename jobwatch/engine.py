@@ -3,10 +3,9 @@ from __future__ import annotations
 import logging
 import time
 from dataclasses import dataclass
-from pathlib import Path
 from typing import Callable
 
-from jobwatch import diff, state
+from jobwatch import diff
 from jobwatch.fetch import (
     FetchBlocked,
     FetchError,
@@ -18,6 +17,7 @@ from jobwatch.fetch import (
 )
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
+from jobwatch.store import SnapshotStore
 
 MAX_PAGES = 20
 # Default ceiling on per-job detail fetches in one run. Only scrapers that
@@ -76,14 +76,14 @@ class CompanyResult:
 def run_company(
     scraper: Scraper,
     *,
-    state_dir: Path,
+    store: SnapshotStore,
     dry_run: bool = False,
     fetch_page: FetchPage = default_fetch_page,
     on_request: OnRequest | None = None,
 ) -> CompanyResult:
     config = scraper.config
-    is_seed_run = not state.snapshot_exists(config.name, state_dir)
-    snapshot = state.load_snapshot(config.name, state_dir)
+    is_seed_run = not store.exists(config.name)
+    snapshot = store.load(config.name)
 
     try:
         jobs, truncation_detail, stopped_on_known_page = _fetch_all_pages(
@@ -174,8 +174,7 @@ def run_company(
         )
 
     if not dry_run:
-        merged = state.merge_snapshot(snapshot, jobs)
-        state.save_snapshot(config.name, merged, state_dir)
+        store.save(config.name, jobs)
 
     status = "seeded" if is_seed_run else "ok"
     reported_new = [] if is_seed_run else new_jobs
