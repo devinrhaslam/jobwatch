@@ -1,0 +1,27 @@
+# Local Postgres for development and the store's integration tests.
+#
+# This is the "develop locally, cloud-ready" half of the plan: the app talks to
+# a DATABASE_URL and nothing else, so this container in dev and RDS in prod are
+# interchangeable. Bring it up with `docker compose up -d`.
+#
+#   DATABASE_URL=postgresql://jobwatch:jobwatch@localhost:5432/jobwatch
+#
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: jobwatch
+      POSTGRES_PASSWORD: jobwatch
+      POSTGRES_DB: jobwatch
+    ports:
+      - "5432:5432"
+    volumes:
+      - jobwatch_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jobwatch"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+volumes:
+  jobwatch_pgdata:

@@ -264,5 +264,4 @@ Google DeepMind
 TikTok
 AppLovin
 The Trade Desk
-HashiCorp
 Character.AI
