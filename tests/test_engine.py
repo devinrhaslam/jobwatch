@@ -463,3 +463,283 @@ def test_company_can_override_the_inter_page_delay():
     )
 
     assert slept and set(slept) == {1.5}
+
+
+class EnrichingScraper(FakeScraper):
+    """Listing pages carry ids only; each job's detail page carries its title.
+
+    Detail URLs are "detail:<job_id>" so the fetch stub can tell them apart from
+    the numeric page indexes FakeScraper uses.
+    """
+
+    def __init__(self, pages, config=None, fail_ids=(), no_detail_ids=()):
+        super().__init__(pages, config)
+        self.detail_fetches: list[str] = []
+        self._fail_ids = set(fail_ids)
+        self._no_detail_ids = set(no_detail_ids)
+
+    def detail_url(self, job):
+        if job.job_id in self._no_detail_ids:
+            return None
+        return f"detail:{job.job_id}"
+
+    def parse_detail(self, payload: str, job):
+        if job.job_id in self._fail_ids:
+            raise ValueError("detail page did not parse")
+        from dataclasses import replace
+
+        return replace(job, title=f"Real Title {job.job_id}")
+
+
+def _enriching_fetch(scraper):
+    def fetch_page(config, url):
+        if url.startswith("detail:"):
+            scraper.detail_fetches.append(url)
+            return url
+        return url
+
+    return fetch_page
+
+
+def test_new_jobs_are_enriched_from_their_detail_pages(tmp_path):
+    scraper = EnrichingScraper([[_job("1", title="placeholder")]])
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+    result = run_company(
+        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+    )
+    assert [j.title for j in result.new_jobs] == ["Real Title 1"]
+    assert scraper.detail_fetches == ["detail:1"]
+
+
+def test_enriched_title_is_what_gets_persisted(tmp_path):
+    # The snapshot must hold the enriched record, not the placeholder, or the
+    # stored history of the board is permanently thinner than what was reported.
+    scraper = EnrichingScraper([[_job("1", title="placeholder")]])
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+    run_company(scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper))
+    assert load_snapshot("Acme", tmp_path)["1"]["title"] == "Real Title 1"
+
+
+def test_already_seen_jobs_are_not_re_fetched(tmp_path):
+    # The whole point of enriching after the diff: a routine run costs one
+    # detail fetch per genuinely new posting, not one per posting on the board.
+    scraper = EnrichingScraper([[_job("1"), _job("2"), _job("3")]])
+    save_snapshot("Acme", {"1": {}, "2": {}}, tmp_path)
+    run_company(scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper))
+    assert scraper.detail_fetches == ["detail:3"]
+
+
+def test_a_failed_detail_fetch_keeps_the_listing_job(tmp_path):
+    scraper = EnrichingScraper([[_job("1", title="placeholder"), _job("2")]])
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+
+    def fetch_page(config, url):
+        if url == "detail:1":
+            raise FetchError("detail page timed out")
+        return url
+
+    result = run_company(scraper, state_dir=tmp_path, fetch_page=fetch_page)
+    titles = {j.job_id: j.title for j in result.new_jobs}
+    assert titles["1"] == "placeholder"  # kept, not dropped
+    assert titles["2"] == "Real Title 2"
+    assert result.status == "ok"
+
+
+def test_a_raising_parse_detail_does_not_fail_the_company(tmp_path):
+    scraper = EnrichingScraper([[_job("1", title="placeholder")]], fail_ids={"1"})
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+    result = run_company(
+        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+    )
+    assert result.status == "ok"
+    assert [j.title for j in result.new_jobs] == ["placeholder"]
+
+
+def test_scrapers_without_a_detail_url_make_no_extra_fetches(tmp_path):
+    # Every other company in the registry takes this path.
+    scraper = FakeScraper([[_job("1")]])
+    fetched: list[str] = []
+
+    def fetch_page(config, url):
+        fetched.append(url)
+        return url
+
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+    result = run_company(scraper, state_dir=tmp_path, fetch_page=fetch_page)
+    assert fetched == ["0"]
+    assert [j.job_id for j in result.new_jobs] == ["1"]
+
+
+def test_a_job_whose_detail_url_is_none_is_skipped(tmp_path):
+    scraper = EnrichingScraper([[_job("1"), _job("2")]], no_detail_ids={"1"})
+    save_snapshot("Acme", {"0": {}}, tmp_path)
+    result = run_company(
+        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+    )
+    assert scraper.detail_fetches == ["detail:2"]
+    assert {j.job_id: j.title for j in result.new_jobs}["1"] == "Software Engineer"
+
+
+def test_enrichment_stops_at_the_configured_ceiling(tmp_path):
+    # A board that suddenly reports hundreds of new jobs must not turn into
+    # hundreds of requests.
+    config = CompanyConfig(
+        name="Acme",
+        career_url="0",
+        fetch_mode=FetchMode.STATIC,
+        max_enrichment_fetches=2,
+    )
+    scraper = EnrichingScraper([[_job(str(i)) for i in range(5)]], config=config)
+    save_snapshot("Acme", {"99": {}}, tmp_path)
+    result = run_company(
+        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+    )
+    assert len(scraper.detail_fetches) == 2
+    enriched = [j for j in result.new_jobs if j.title.startswith("Real Title")]
+    assert len(enriched) == 2
+    assert len(result.new_jobs) == 5  # the rest are reported unenriched, not dropped
+
+
+def test_a_seed_run_enriches_the_whole_board_once(tmp_path):
+    # On a seed every job is new, so the seed pays for the board and later runs
+    # only pay for the day's postings.
+    scraper = EnrichingScraper([[_job("1"), _job("2")]])
+    result = run_company(
+        scraper, state_dir=tmp_path, fetch_page=_enriching_fetch(scraper)
+    )
+    assert result.status == "seeded"
+    assert sorted(scraper.detail_fetches) == ["detail:1", "detail:2"]
+    assert load_snapshot("Acme", tmp_path)["1"]["title"] == "Real Title 1"
+
+
+class WrappingScraper(FakeScraper):
+    """A board that answers any page past its end with page 1 again instead of
+    a short page — what Target's and Tempus's Workday tenants do, and what
+    leaves next_page_url with no exhaustion signal to return None on."""
+
+    def __init__(self, pages, config=None):
+        super().__init__(pages, config)
+        self._real_pages = len(pages)
+
+    def parse(self, payload: str) -> list[Job]:
+        return self._pages[int(payload) % self._real_pages]
+
+    def next_page_url(self, payload: str, current_url: str) -> str | None:
+        return str(int(payload) + 1)
+
+
+def test_a_board_that_repeats_a_served_page_stops_instead_of_hitting_the_ceiling(tmp_path):
+    calls = []
+
+    def counting_fetch(config, url):
+        calls.append(url)
+        return url
+
+    pages = [[_job("1")], [_job("2")], [_job("3")]]
+    result = run_company(
+        WrappingScraper(pages), state_dir=tmp_path, fetch_page=counting_fetch
+    )
+
+    # Three real pages, then the wrapped page 1 that triggers the stop.
+    assert len(calls) == 4
+    assert result.status == "seeded"
+    assert result.total_jobs == 3
+    # The seed is saved, not discarded: the board is exhausted, not truncated.
+    assert result.detail is None
+    assert set(load_snapshot("Acme", tmp_path)) == {"1", "2", "3"}
+
+
+def test_the_repeat_stop_applies_even_when_paginate_fully_is_set(tmp_path):
+    # paginate_fully is about jobs seen on a previous run, not about a board
+    # repeating itself inside one pass, so it must not defeat this stop.
+    config = CompanyConfig(
+        name="Unsorted",
+        career_url="0",
+        fetch_mode=FetchMode.STATIC,
+        paginate_fully=True,
+    )
+    calls = []
+
+    def counting_fetch(c, url):
+        calls.append(url)
+        return url
+
+    pages = [[_job("1")], [_job("2")]]
+    result = run_company(
+        WrappingScraper(pages, config=config), state_dir=tmp_path, fetch_page=counting_fetch
+    )
+    assert len(calls) == 3
+    assert result.total_jobs == 2
+
+
+def test_a_page_repeating_only_some_ids_keeps_paginating(tmp_path):
+    # Overlapping pages are normal on boards that shift while being read. Only
+    # a page that adds nothing at all should stop the run.
+    pages = [[_job("1"), _job("2")], [_job("2"), _job("3")], [_job("3"), _job("4")]]
+    result = run_company(
+        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+    assert result.total_jobs == 4
+
+
+def test_an_empty_later_page_still_ends_the_run_without_the_repeat_stop(tmp_path):
+    # An empty page adds no ids, but it is the ordinary end-of-board signal and
+    # must not be mistaken for a repeat — the jobs already collected stand.
+    pages = [[_job("1")], []]
+    result = run_company(
+        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+    assert result.total_jobs == 1
+    assert result.status == "seeded"
+
+
+def test_a_run_that_stopped_on_a_known_page_is_not_suspicious(tmp_path):
+    """The Microsoft case: a newest-first board where a lot is genuinely new.
+
+    The ratio is new jobs over jobs *read*, and the read stops at the first page
+    holding nothing unseen — so a company that posts heavily reads mostly-new
+    pages and the ratio approaches 1 no matter how healthy the run is. Reaching
+    a page of entirely known jobs proves the ids still line up, which is what
+    the guard is trying to establish, so it must not fire.
+    """
+    run_company(
+        FakeScraper([[_job("k1"), _job("k2")]]),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: u,
+    )
+    pages = [
+        [_job(f"new-{i}") for i in range(20)],  # all unseen
+        [_job("k1"), _job("k2")],               # nothing unseen: ends the run
+        [_job("never-read")],                   # so the stop is a choice, not the end
+    ]
+    result = run_company(
+        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+
+    assert result.total_jobs == 22
+    assert len(result.new_jobs) == 20          # 20/22 = 0.91, over the ratio
+    assert result.status == "ok"
+    # The real cost of a false positive: the snapshot must still be written, or
+    # these 20 report again on every future run.
+    assert set(load_snapshot("Acme", tmp_path)) >= {"k1", "k2", "new-0", "new-19"}
+
+
+def test_a_multi_page_run_that_never_meets_a_known_job_is_still_suspicious(tmp_path):
+    # A real scheme change: no page matches the snapshot, so the run never
+    # early-stops and reads to the end of the board.
+    run_company(
+        FakeScraper([[_job(f"old-{i}") for i in range(20)]]),
+        state_dir=tmp_path,
+        fetch_page=lambda c, u: u,
+    )
+    pages = [
+        [_job(f"new-{i}") for i in range(20)],
+        [_job(f"new-{i}") for i in range(20, 40)],
+    ]
+    result = run_company(
+        FakeScraper(pages), state_dir=tmp_path, fetch_page=lambda c, u: u
+    )
+    assert result.status == "suspicious"
+    assert "scheme change" in result.detail
+    # And the snapshot is withheld, which is the point of the guard.
+    assert set(load_snapshot("Acme", tmp_path)) == {f"old-{i}" for i in range(20)}

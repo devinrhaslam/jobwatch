@@ -9,9 +9,10 @@ from jobwatch.fetch import FetchBlocked, FetchError, fetch_rendered, fetch_stati
 
 
 class _StubResponse:
-    def __init__(self, status_code, text=""):
+    def __init__(self, status_code, text="", headers=None):
         self.status_code = status_code
         self.text = text
+        self.headers = headers or {}
 
     def raise_for_status(self):
         if self.status_code >= 400:
@@ -35,14 +36,118 @@ def test_fetch_static_returns_text_on_200():
     assert session.calls == 1
 
 
-@pytest.mark.parametrize("status", [403, 406, 429, 451])
+@pytest.mark.parametrize("status", [403, 406, 451])
 def test_fetch_static_treats_every_refusal_status_as_blocked(status):
     # 406 is here because a volume throttle answered it for every path on
     # job-boards.greenhouse.io. Reporting that as a generic failure reads as a
     # broken parser and invites the re-run that keeps the throttle alive.
+    #
+    # 429 is excluded because it is the one refusal that is retried; see below.
     session = _StubSession([_StubResponse(status)])
     with pytest.raises(FetchBlocked):
         fetch_static("https://example.com", session=session, sleep=lambda _: None)
+    assert session.calls == 1
+
+
+@pytest.mark.parametrize("status", [403, 406, 451])
+def test_a_retry_after_on_a_non_429_refusal_is_ignored(status):
+    # Only 429 means "try again later". A 403 that happens to carry the header
+    # is still a refusal, and retrying it is what keeps a WAF throttle alive.
+    session = _StubSession([_StubResponse(status, headers={"Retry-After": "1"})])
+    with pytest.raises(FetchBlocked):
+        fetch_static("https://example.com", session=session, sleep=lambda _: None)
+    assert session.calls == 1
+
+
+def test_a_transient_429_is_retried_rather_than_reported_as_blocked():
+    # What Hugging Face's Workable board hit: one 429 on an endpoint that
+    # answered 200 either side of it. Giving up on the first one costs a whole
+    # day of postings for that company.
+    session = _StubSession([_StubResponse(429), _StubResponse(200, text="ok")])
+    assert fetch_static("https://example.com", session=session, sleep=lambda _: None) == "ok"
+    assert session.calls == 2
+
+
+def test_a_persistent_429_is_still_reported_as_blocked():
+    session = _StubSession([_StubResponse(429) for _ in range(3)])
+    with pytest.raises(FetchBlocked):
+        fetch_static("https://example.com", session=session, sleep=lambda _: None)
+    assert session.calls == 3
+
+
+def test_a_429_waits_the_delay_the_server_asked_for():
+    slept = []
+    session = _StubSession(
+        [_StubResponse(429, headers={"Retry-After": "5"}), _StubResponse(200, text="ok")]
+    )
+    fetch_static("https://example.com", session=session, sleep=slept.append)
+    assert slept == [5.0]
+
+
+def test_a_429_without_retry_after_falls_back_to_exponential_backoff():
+    slept = []
+    session = _StubSession([_StubResponse(429), _StubResponse(429), _StubResponse(200, text="ok")])
+    fetch_static(
+        "https://example.com", session=session, backoff_seconds=2.0, sleep=slept.append
+    )
+    assert slept == [2.0, 4.0]
+
+
+def test_a_429_asking_for_longer_than_the_cap_is_reported_as_blocked_at_once():
+    # A run covering ~190 companies cannot stall minutes on one of them, and a
+    # server asking for that long will not relent within this run.
+    slept = []
+    session = _StubSession([_StubResponse(429, headers={"Retry-After": "600"})])
+    with pytest.raises(FetchBlocked):
+        fetch_static("https://example.com", session=session, sleep=slept.append)
+    assert session.calls == 1
+    assert slept == []
+
+
+def test_a_retry_after_http_date_is_understood():
+    from email.utils import format_datetime
+    from datetime import datetime, timedelta, timezone
+
+    when = datetime.now(timezone.utc) + timedelta(seconds=4)
+    slept = []
+    session = _StubSession(
+        [
+            _StubResponse(429, headers={"Retry-After": format_datetime(when)}),
+            _StubResponse(200, text="ok"),
+        ]
+    )
+    fetch_static("https://example.com", session=session, sleep=slept.append)
+    assert len(slept) == 1 and 0 <= slept[0] <= 5
+
+
+def test_a_retry_after_date_in_the_past_does_not_sleep_a_negative_time():
+    from email.utils import format_datetime
+    from datetime import datetime, timedelta, timezone
+
+    when = datetime.now(timezone.utc) - timedelta(seconds=30)
+    slept = []
+    session = _StubSession(
+        [
+            _StubResponse(429, headers={"Retry-After": format_datetime(when)}),
+            _StubResponse(200, text="ok"),
+        ]
+    )
+    fetch_static("https://example.com", session=session, sleep=slept.append)
+    assert slept == [0.0]
+
+
+def test_an_unparseable_retry_after_falls_back_to_backoff():
+    slept = []
+    session = _StubSession(
+        [
+            _StubResponse(429, headers={"Retry-After": "soon-ish"}),
+            _StubResponse(200, text="ok"),
+        ]
+    )
+    fetch_static(
+        "https://example.com", session=session, backoff_seconds=2.0, sleep=slept.append
+    )
+    assert slept == [2.0]
 
 
 def test_fetch_static_still_treats_401_as_an_error_not_a_block():
@@ -411,3 +516,62 @@ def test_fetch_static_reuses_one_session_across_calls():
         fetch_module._SESSION = original
 
     assert used == [recording, recording]
+
+
+def test_a_200_carrying_nothing_is_asked_again():
+    # jobs.ea.com answers 200 with a zero-length body to about half of all
+    # requests and the full board to the rest, from the same URL seconds apart.
+    session = _StubSession([_StubResponse(200, text=""), _StubResponse(200, text="board")])
+    result = fetch_static("https://example.com", session=session, sleep=lambda _: None)
+    assert result == "board"
+    assert session.calls == 2
+
+
+def test_a_body_of_only_whitespace_counts_as_nothing():
+    session = _StubSession([_StubResponse(200, text="  \n "), _StubResponse(200, text="board")])
+    assert fetch_static("https://example.com", session=session, sleep=lambda _: None) == "board"
+
+
+def test_a_burst_of_empty_bodies_is_ridden_out():
+    # The empties arrive in runs — three consecutive ones were measured — which
+    # is why this cannot share the three-attempt budget a real error gets.
+    session = _StubSession(
+        [_StubResponse(200, text="") for _ in range(3)] + [_StubResponse(200, text="board")]
+    )
+    assert fetch_static("https://example.com", session=session, sleep=lambda _: None) == "board"
+    assert session.calls == 4
+
+
+def test_an_empty_body_does_not_spend_the_budget_a_real_error_gets():
+    from jobwatch.fetch import EMPTY_BODY_RETRIES
+
+    session = _StubSession([_StubResponse(200, text="") for _ in range(EMPTY_BODY_RETRIES)])
+    with pytest.raises(FetchError, match="empty body"):
+        fetch_static(
+            "https://example.com", session=session, retries=3, sleep=lambda _: None
+        )
+    assert session.calls == EMPTY_BODY_RETRIES
+
+
+def test_an_empty_body_pauses_a_fixed_short_time_rather_than_backing_off():
+    # Nothing is recovering — the host is answering 200 throughout — so there is
+    # nothing to give exponentially more time to.
+    from jobwatch.fetch import EMPTY_BODY_DELAY_SECONDS
+
+    slept = []
+    session = _StubSession(
+        [_StubResponse(200, text=""), _StubResponse(200, text=""), _StubResponse(200, text="board")]
+    )
+    fetch_static(
+        "https://example.com", session=session, backoff_seconds=2.0, sleep=slept.append
+    )
+    assert slept == [EMPTY_BODY_DELAY_SECONDS, EMPTY_BODY_DELAY_SECONDS]
+
+
+def test_a_refusal_is_still_a_refusal_when_it_arrives_among_empty_bodies():
+    # The empty-body budget must not turn a 403 into eight requests at a host
+    # that has already said no.
+    session = _StubSession([_StubResponse(200, text=""), _StubResponse(403)])
+    with pytest.raises(FetchBlocked):
+        fetch_static("https://example.com", session=session, sleep=lambda _: None)
+    assert session.calls == 2

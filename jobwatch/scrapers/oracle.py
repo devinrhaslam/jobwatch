@@ -24,6 +24,12 @@ _FACETS = (
 
 # company -> (host, site name, siteNumber).
 BOARDS = {
+    # americanexpress.com/careers advertises an Eightfold board, but that tenant
+    # answers 0 postings on the public jobs API and 403 on PCSX. The board that
+    # actually carries Amex's 367 postings is this Oracle tenant, which the same
+    # page also links. Its site name is the bare "CX_1": every other site name
+    # tried redirects there.
+    "American Express": ("https://egug.fa.us2.oraclecloud.com", "CX_1", "CX_1"),
     "Uber": ("https://iaziqy.fa.ocs.oraclecloud.com", "UberCareers", "CX_1"),
 }
 

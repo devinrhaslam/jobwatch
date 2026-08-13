@@ -14,8 +14,16 @@ PAGE_SIZE = 100
 MAX_PAGES = 60
 
 # company -> board slug. Verified live by tools/probe_ats.py.
+#
+# American Express is deliberately absent. The only slug that answers is
+# "americanexpressglobal", and its 14 postings are Travel Counselor and Member
+# Service Desk roles — that board belongs to Amex GBT, the travel business spun
+# out as a separate public company, not to American Express. Registering it
+# would watch the wrong employer, so Amex needs individual recon.
 BOARDS = {
     "Canva": "canva",
+    "ServiceNow": "servicenow",
+    "Wise": "wise",
 }
 
 

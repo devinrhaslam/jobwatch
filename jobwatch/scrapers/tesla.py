@@ -21,7 +21,7 @@ POSTING_URL = "https://www.tesla.com/careers/search/job/{slug}-{job_id}"
 BROWSER_ENGINE = "firefox"
 
 # Tesla staffs factories, service centres and showrooms from the same board, so
-# ~82% of its ~7,570 postings are for work this tool is not watching for. The
+# ~82% of its ~7,660 postings are for work this tool is not watching for. The
 # API answers the whole board however it is asked — its page filters
 # client-side — so the narrowing happens here instead of in the entry URL the
 # way Meta's and Amazon's does.
@@ -32,13 +32,19 @@ BROWSER_ENGINE = "firefox"
 # still carries mechanical, thermal and sales engineers; dropping those is the
 # report-time filter's job, not this one's.
 #
-# Mapped id -> expected name so that a renumbering is caught rather than
-# silently watching whichever department inherited the id.
-SOFTWARE_DEPARTMENTS = {
-    "3": "Tesla AI",
-    "8": "Vehicle Software",
-    "9": "Engineering & Information Technology",
-}
+# Matched by name, resolved against each payload's own lookup table. The ids are
+# positional rather than stable: on 2026-08-05 Tesla's department list shifted
+# by one, so "Engineering & Information Technology" moved to the id "Vehicle
+# Software" had held and "Manufacturing" took its old one. Selecting by id meant
+# choosing between a run that fails on every renumbering and one that quietly
+# reports factory jobs as software; a name survives renumbering outright.
+SOFTWARE_DEPARTMENTS = frozenset(
+    {
+        "Tesla AI",
+        "Vehicle Software",
+        "Engineering & Information Technology",
+    }
+)
 
 
 def _slug(title: str) -> str:
@@ -51,26 +57,24 @@ def _slug(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
-def _check_department_ids(departments: dict) -> None:
-    """Fail loudly if a watched department id no longer means what it did.
+def _watched_department_ids(departments: dict) -> set[str]:
+    """Resolve the watched department names to the ids this payload gives them.
 
-    The filter selects by id, so a renumbering would not break anything
-    visibly — it would quietly start watching Finance and report its postings
-    as software roles. Better to take the company down for a run than to watch
-    the wrong half of the board without saying so.
+    A name that is not on the board at all is a hard failure rather than a
+    silent narrowing. Tesla renaming or retiring a department would otherwise
+    drop that whole slice of the board, and a run watching two departments out
+    of three looks exactly like a run where nobody was hiring.
     """
-    if not departments:
-        return  # nothing to check against; the empty-parse guard covers this
-    wrong = {
-        dept_id: departments.get(dept_id)
-        for dept_id, expected in SOFTWARE_DEPARTMENTS.items()
-        if departments.get(dept_id) != expected
-    }
-    if wrong:
+    missing = SOFTWARE_DEPARTMENTS - set(departments.values())
+    if missing:
         raise ValueError(
-            f"Tesla department ids have changed: expected {SOFTWARE_DEPARTMENTS}, "
-            f"found {wrong} — re-check the ids before trusting the filter"
+            f"Tesla departments {sorted(missing)} are not on the board: found "
+            f"{sorted(departments.values())} — re-check the names before "
+            f"trusting the filter"
         )
+    return {
+        dept_id for dept_id, name in departments.items() if name in SOFTWARE_DEPARTMENTS
+    }
 
 
 class TeslaScraper(Scraper):
@@ -99,12 +103,12 @@ class TeslaScraper(Scraper):
         state = json.loads(payload)
         lookup = state.get("lookup") or {}
         locations = lookup.get("locations") or {}
-        _check_department_ids(lookup.get("departments") or {})
+        watched = _watched_department_ids(lookup.get("departments") or {})
         jobs: list[Job] = []
         for record in state.get("listings") or []:
             if not isinstance(record, dict):
                 continue
-            if str(record.get("dp")) not in SOFTWARE_DEPARTMENTS:
+            if str(record.get("dp")) not in watched:
                 continue
             job_id = record.get("id")
             title = record.get("t")

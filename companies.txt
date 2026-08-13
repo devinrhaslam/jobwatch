@@ -42,3 +42,227 @@ Rippling
 Notion
 Canva
 Reddit
+Discord
+Instacart
+Robinhood
+Palantir
+Anduril
+Spotify
+xAI
+Cursor
+eBay
+Etsy
+Affirm
+Toast
+Chime
+SoFi
+StubHub
+Duolingo
+Zillow
+Epic Games
+Riot Games
+Capital One
+Adobe
+Intuit
+Atlassian
+Twilio
+Okta
+Whatnot
+ServiceNow
+Kraken
+Datadog
+Roblox
+Shopify
+Bloomberg
+PayPal
+Adyen
+Klarna
+Visa
+Mastercard
+Flexport
+Goldman Sachs
+Disney
+Walmart Global Tech
+Rivian
+Unity
+Grammarly
+HubSpot
+Asana
+Airtable
+Samsara
+Verkada
+Perplexity
+Scale AI
+Sierra
+CoreWeave
+Cognition
+ElevenLabs
+Glean
+Replit
+Zoox
+Applied Intuition
+Figure AI
+Physical Intelligence
+Booking.com
+Expedia
+Workday
+GitLab
+Palo Alto Networks
+Zscaler
+Wiz
+Confluent
+American Express
+Nike
+Target
+Valve
+Sony Interactive Entertainment
+Neuralink
+Wayfair
+Chewy
+Carvana
+Klaviyo
+Coupang
+Wise
+Revolut
+Brex
+Deel
+Nubank
+Circle
+Gusto
+Temporal
+ClickHouse
+Grafana Labs
+Sentry
+Elastic
+Redis
+Rubrik
+Fastly
+Fivetran
+Retool
+Docker
+Hugging Face
+Mistral AI
+Thinking Machines Lab
+Cerebras
+Together AI
+Harvey
+Abridge
+Boston Dynamics
+Skydio
+Nuro
+Shield AI
+Aurora
+Blue Origin
+Take-Two Interactive
+Electronic Arts
+Niantic
+Supercell
+Match Group
+Broadcom
+AMD
+Arm
+Cadence Design Systems
+Synopsys
+Autodesk
+Rocket Lab
+Cockroach Labs
+Postman
+LaunchDarkly
+Tailscale
+Chainguard
+Vanta
+Snyk
+JFrog
+Dynatrace
+Miro
+monday.com
+Gong
+Ripple
+Remitly
+Checkout.com
+Mercury
+Faire
+SHEIN
+Bumble
+Cohere
+Runway
+Suno
+Reflection AI
+World Labs
+Mercor
+Decagon
+Modal
+Fireworks AI
+Baseten
+Lambda
+Crusoe
+Pinecone
+1X Technologies
+Agility Robotics
+Apptronik
+Skild AI
+Zipline
+Saronic
+Wayve
+Motional
+Kodiak Robotics
+Rockstar Games
+Qualcomm
+Marvell Technology
+Veeva Systems
+Zoom
+SentinelOne
+Netskope
+Doximity
+Tempus AI
+Hims & Hers
+Joby Aviation
+Archer Aviation
+Relativity Space
+Planet Labs
+Scopely
+Sourcegraph
+Honeycomb
+Neo4j
+VAST Data
+Pure Storage
+Netlify
+Zed
+Warp
+Cribl
+WorkOS
+Airwallex
+Marqeta
+Modern Treasury
+Navan
+BILL
+Monzo
+Chainalysis
+Fireblocks
+Alchemy
+Synthesia
+Writer
+Cresta
+Luma AI
+Poolside
+Weaviate
+LangChain
+OpenEvidence
+Firefly Aerospace
+Varda Space Industries
+Impulse Space
+Astranis
+Vannevar Labs
+Beta Technologies
+Strava
+Whoop
+Oura
+Hinge Health
+Substack
+Vast Space
+Google DeepMind
+TikTok
+AppLovin
+The Trade Desk
+HashiCorp
+Character.AI

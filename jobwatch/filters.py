@@ -43,9 +43,11 @@ are of interest — a US office, a US-remote role, or a role explicitly open to
 US-based candidates.
 
 NOT looking for: dedicated infrastructure/platform/SRE roles, data engineering
-or data science roles, ML/research engineer roles, security engineering,
-engineering management, or anything that is not primarily an
-individual-contributor software engineering job.
+or data science roles, ML/research engineer roles, mobile app development
+(iOS, Android), dedicated frontend/UI roles, security engineering, engineering
+management, or anything that is not primarily an individual-contributor
+software engineering job. The React and Cypress experience above supports
+full-stack work; it is not an interest in frontend as a speciality.
 """
 
 INSTRUCTIONS = """\
@@ -67,10 +69,21 @@ company and the product area named in the title.
 
 Mark relevant=false for specialised tracks the candidate is not targeting
 (dedicated infrastructure/platform/SRE, data engineering, data science,
-ML/research engineering, security), for management or non-engineering roles,
-and for levels well outside the band (internships, new grad, principal and
-above). An unleveled title such as plain "Software Engineer" is fine — many
-companies do not put a level in the title.
+ML/research engineering, native mobile development for iOS or Android,
+frontend/UI, security), for management or non-engineering roles, and for levels
+well outside the band (internships, new grad, principal and above). An
+unleveled title such as plain "Software Engineer" is fine — many companies do
+not put a level in the title.
+
+When a title names an engineering discipline, that name is decisive. "Software
+Engineer - Android", "Staff Software Engineer (Frontend)", "Software Developer,
+iOS, <product>" and "SDET, Payments" are all outside the target however senior
+the level or however general the rest of the title reads. This is the limit of
+the "a team name after a comma is the product area" guidance above: a product
+area is what the code serves, a discipline is what the code is, and only the
+latter decides. Judge a discipline the list does not name — games, graphics,
+test automation, developer relations — the same way, against what the candidate
+is targeting rather than against the list.
 
 Also mark relevant=false when the role is clearly based outside the United
 States — a listing in Bengaluru, Tokyo, London, or Sydney is not workable for
@@ -83,7 +96,10 @@ location grounds — judge it on the role alone.
 
 There is no manual review step: anything you mark relevant=false disappears
 without the candidate ever seeing it. When a listing is genuinely borderline,
-prefer relevant=true.
+prefer relevant=true. That tiebreaker covers uncertainty about level, location,
+or how broad the role is. It does not cover discipline: a title naming a
+discipline outside the target is not borderline, however senior or appealing
+the rest of it reads.
 
 Give a reason of at most 10 words for every listing. Return one verdict per
 listing, using the index shown.

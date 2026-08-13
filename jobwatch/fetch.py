@@ -3,6 +3,8 @@ from __future__ import annotations
 import json
 import time
 from collections.abc import Callable
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 
 import requests
@@ -37,6 +39,101 @@ _SESSION = requests.Session()
 # that starts requiring auth is a real breakage worth reporting as one.
 BLOCKED_STATUS_CODES = (403, 406, 429, 451)
 
+# Of those, 429 is the only one that names its own remedy: it means "too many
+# requests, try again later", and a server sending it usually says when. So it
+# is retried inside the normal budget, while 403, 406 and 451 still raise on the
+# first response — those do not clear by asking again sooner, and re-asking is
+# what keeps that kind of throttle alive.
+#
+# The cost of not retrying is a whole day of postings missed for that company on
+# a once-daily run, which is what Hugging Face's Workable board hit: a single
+# transient 429 on an endpoint that answered 200 on every attempt before and
+# after.
+THROTTLED_STATUS_CODE = 429
+
+# A Retry-After longer than this is taken as a refusal rather than waited out: a
+# run covering ~190 companies cannot stall minutes on one of them, and a server
+# asking for that long is not going to relent within this run.
+MAX_RETRY_AFTER_SECONDS = 30.0
+
+# An empty body gets its own attempt budget rather than spending the one a real
+# error has, because it is a coin flip rather than a server in trouble. EA's
+# Avature sitemap is the case that forced the number: measured over 24 requests
+# a second apart, exactly half came back empty, and the empties arrive in bursts
+# of up to three consecutive responses. Three attempts — what a 5xx gets — left
+# that company failing a quarter of its runs. Eight puts it under a percent.
+#
+# Re-asking is safe here in a way retrying a 403 is not: every one of these
+# responses is a 200 from a host that is not refusing anything, so there is no
+# throttle to keep alive. A fixed short pause is used rather than exponential
+# backoff for the same reason — nothing is recovering, so there is nothing to
+# give time to.
+#
+# Only fetch_static does this. The POST fetchers are deliberately left alone:
+# no board reached over POST has ever answered an empty body here, and adding
+# an untested retry path on the strength of one static host's behaviour would be
+# guessing at a problem nobody has.
+EMPTY_BODY_RETRIES = 8
+EMPTY_BODY_DELAY_SECONDS = 1.0
+
+
+def _is_empty(text: str) -> bool:
+    """Whether a 200 carried nothing.
+
+    A body with no content is not a successful fetch of anything: no board here
+    parses to zero jobs from an empty string — the XML parsers raise on it and
+    the JSON ones do too, both with an error that reads as a broken parser
+    rather than a server that answered nothing. EA's Avature sitemap forced
+    this: `jobs.ea.com` answers 200 with a zero-length body to roughly half of
+    all requests and the full 635 KB board to the rest, from the same URL,
+    seconds apart, with identical headers. Nothing about the request changes it
+    — `Accept-Encoding: identity`, a fresh session and an explicit XML Accept
+    header all see the same coin flip — so the only remedy is to ask again.
+    """
+    return not text.strip()
+
+
+def _retry_after_seconds(response: requests.Response) -> float | None:
+    """The delay the server asked for, or None if it did not ask for one.
+
+    Retry-After is either a number of seconds or an HTTP date, and both forms
+    are in the wild, so both are read. A date already in the past yields 0
+    rather than a negative sleep.
+    """
+    raw = (response.headers.get("Retry-After") or "").strip()
+    if not raw:
+        return None
+    try:
+        return max(0.0, float(raw))
+    except ValueError:
+        pass
+    try:
+        when = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        return None
+    if when is None:
+        return None
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    return max(0.0, (when - datetime.now(timezone.utc)).total_seconds())
+
+
+def _throttle_retry_delay(
+    response: requests.Response, attempt: int, backoff_seconds: float
+) -> float | None:
+    """Seconds to wait before retrying a refusal, or None to give up now.
+
+    Only a 429 is ever retried. When it carries a usable Retry-After the
+    server's own number is used, because it knows when the window resets;
+    without one this falls back to the same exponential backoff a 5xx gets.
+    """
+    if response.status_code != THROTTLED_STATUS_CODE:
+        return None
+    stated = _retry_after_seconds(response)
+    if stated is None:
+        return backoff_seconds * (2**attempt)
+    return stated if stated <= MAX_RETRY_AFTER_SECONDS else None
+
 
 class FetchBlocked(Exception):
     """Raised when a site refuses the request, distinct from a real error."""
@@ -47,6 +144,41 @@ class FetchError(Exception):
 
 
 def fetch_static(
+    url: str,
+    *,
+    timeout: int = DEFAULT_TIMEOUT,
+    retries: int = DEFAULT_RETRIES,
+    backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
+    session: requests.Session | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+    headers: dict[str, str] | None = None,
+) -> str:
+    """GET `url`, re-asking a host that answers 200 with nothing.
+
+    Refusals and real errors are handled one layer down, on their own budget;
+    this layer only decides whether an otherwise successful response actually
+    carried anything. See EMPTY_BODY_RETRIES for why the two are separate.
+    """
+    for attempt in range(EMPTY_BODY_RETRIES):
+        text = _fetch_static_once(
+            url,
+            timeout=timeout,
+            retries=retries,
+            backoff_seconds=backoff_seconds,
+            session=session,
+            sleep=sleep,
+            headers=headers,
+        )
+        if not _is_empty(text):
+            return text
+        if attempt < EMPTY_BODY_RETRIES - 1:
+            sleep(EMPTY_BODY_DELAY_SECONDS)
+    raise FetchError(
+        f"{url} returned an empty body on {EMPTY_BODY_RETRIES} attempts"
+    )
+
+
+def _fetch_static_once(
     url: str,
     *,
     timeout: int = DEFAULT_TIMEOUT,
@@ -68,6 +200,10 @@ def fetch_static(
                 sleep(backoff_seconds * (2**attempt))
             continue
         if response.status_code in BLOCKED_STATUS_CODES:
+            delay = _throttle_retry_delay(response, attempt, backoff_seconds)
+            if delay is not None and attempt < retries - 1:
+                sleep(delay)
+                continue
             raise FetchBlocked(f"{url} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{url} returned HTTP {response.status_code}")
@@ -151,6 +287,10 @@ def fetch_json_post(
                 sleep(backoff_seconds * (2**attempt))
             continue
         if response.status_code in BLOCKED_STATUS_CODES:
+            delay = _throttle_retry_delay(response, attempt, backoff_seconds)
+            if delay is not None and attempt < retries - 1:
+                sleep(delay)
+                continue
             raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")
@@ -197,6 +337,10 @@ def fetch_form_post(
                 sleep(backoff_seconds * (2**attempt))
             continue
         if response.status_code in BLOCKED_STATUS_CODES:
+            delay = _throttle_retry_delay(response, attempt, backoff_seconds)
+            if delay is not None and attempt < retries - 1:
+                sleep(delay)
+                continue
             raise FetchBlocked(f"{endpoint} returned HTTP {response.status_code}")
         if response.status_code >= 500:
             last_error = FetchError(f"{endpoint} returned HTTP {response.status_code}")

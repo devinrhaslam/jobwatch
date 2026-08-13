@@ -23,9 +23,65 @@ MAX_PAGES = 120
 
 # company -> (tenant, cluster, site). Verified live against the CXS endpoint.
 BOARDS = {
+    "Adobe": ("adobe", "wd5", "external_experienced"),
+    "Autodesk": ("autodesk", "wd1", "Ext"),
+    # These four were found by guessing tenant and cluster and then reading the
+    # site name out of the tenant's robots.txt, which names it in the sitemap it
+    # publishes. Their careers pages give no hint of Workday at all.
+    "Blue Origin": ("blueorigin", "wd5", "BlueOrigin"),
+    "Broadcom": ("broadcom", "wd1", "External_Career"),
+    "Boston Dynamics": ("bostondynamics", "wd1", "Boston_Dynamics"),
+    "Cadence Design Systems": ("cadence", "wd1", "External_Careers"),
+    "Capital One": ("capitalone", "wd12", "Capital_One"),
+    # Chewy fronts its Workday board with a Phenom careers site, whose own API
+    # carries no posting URL at all — only an applyUrl pointing back here.
+    # Reading the tenant directly gives real posting links and a posted date,
+    # and skips a layer that can only lose data.
+    #
+    # Circle was here on the same reasoning until its tenant was retired: every
+    # site name on circle.wd1 now answers 401 and its posting pages redirect to
+    # Workday's maintenance page, so the layer that "could only lose data" is
+    # the only one left serving any. It moved to jobwatch/scrapers/phenom.py,
+    # which builds a posting URL from the careers site's own job id.
+    "Chewy": ("chewy", "wd5", "External"),
     "CrowdStrike": ("crowdstrike", "wd5", "crowdstrikecareers"),
+    "eBay": ("ebay", "wd5", "apply"),
+    "Etsy": ("etsy", "wd5", "Etsy_Careers"),
+    # Cluster is wd108, not one of the low numbers the other tenants use — a
+    # reminder that the cluster is an arbitrary shard id and not worth guessing.
+    "Expedia": ("expedia", "wd108", "search"),
+    "Marvell Technology": ("marvell", "wd1", "MarvellCareers"),
+    "Mastercard": ("mastercard", "wd1", "CorporateCareers"),
+    "Nike": ("nike", "wd1", "nke"),
     "NVIDIA": ("nvidia", "wd5", "NVIDIAExternalCareerSite"),
+    "Palo Alto Networks": ("paloaltonetworks", "wd5", "panwexternalcareers"),
+    "Remitly": ("remitly", "wd5", "Remitly_Careers"),
     "Salesforce": ("salesforce", "wd12", "External_Career_Site"),
+    # snyk.io/careers reveals this only through its own /api/next/jobs, whose
+    # records carry Workday URLs. The tenant-guessing hunt missed it because
+    # this tenant's robots.txt says `Disallow: /External/` rather than the
+    # `Allow: /<Site>/` the hunt keys on — worth knowing when a tenant that
+    # plainly exists refuses to turn up. Chewy, eBay, Nike and Palo Alto
+    # Networks say the same thing about their sites.
+    "Snyk": ("snyk", "wd103", "External"),
+    "Tempus AI": ("tempus", "wd5", "Tempus_Careers"),
+    # Target and Tempus both answer any offset past the end of the board with
+    # page 1 again rather than a short page, so next_page_url never sees the
+    # exhaustion signal every other tenant gives. Neither's `total` can
+    # substitute — Target reports 2000 at offset 0 and 0 at offset 40. They are
+    # readable because the engine stops when a page repeats ids it already
+    # collected in the same run; without that they paginate to the ceiling and
+    # their seeds are discarded as truncated.
+    "Target": ("target", "wd5", "targetcareers"),
+    # Tenant is "unitytech", not "unity" — the bare company name 422s.
+    "Unity": ("unitytech", "wd1", "Unity"),
+    # usa.visa.com/careers is a 403/404 dead end; the board is this tenant. The
+    # wrong cluster answers 500 rather than 404, which is what gave it away.
+    "Visa": ("visa", "wd5", "Visa"),
+    # Workday runs its own careers site on Workday, tenant and site both named
+    # for the company.
+    "Workday": ("workday", "wd5", "Workday"),
+    "Zillow": ("zillow", "wd5", "Zillow_Group_External"),
 }
 
 _RELATIVE_DAYS = re.compile(r"posted\s+(\d+)\+?\s+days?\s+ago", re.I)

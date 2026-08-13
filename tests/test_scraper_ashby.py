@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 
 from jobwatch.models import FetchMode
-from jobwatch.scrapers.ashby import BOARDS, AshbyScraper, scrapers
+from jobwatch.scrapers.ashby import BOARDS, GRAPHQL_BOARDS, AshbyScraper, scrapers
 
 FIXTURE = Path(__file__).parent / "fixtures" / "ashby_linear_jobs.json"
 
@@ -125,7 +125,11 @@ def test_scraper_is_static_and_targets_the_posting_api():
 
 
 def test_every_board_yields_a_distinct_registered_scraper():
+    # scrapers() covers both Ashby read paths: the public posting API, and the
+    # board's own GraphQL endpoint for companies that have the posting API
+    # switched off.
+    expected = set(BOARDS) | set(GRAPHQL_BOARDS)
     built = scrapers()
-    assert len(built) == len(BOARDS)
-    assert {s.config.name for s in built} == set(BOARDS)
-    assert len({s.config.career_url for s in built}) == len(BOARDS)
+    assert len(built) == len(expected)
+    assert {s.config.name for s in built} == expected
+    assert len({s.config.career_url for s in built}) == len(expected)

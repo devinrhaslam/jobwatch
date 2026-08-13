@@ -69,6 +69,19 @@ def format_report(results: list[CompanyResult]) -> str:
 def write_report(
     results: list[CompanyResult], output_dir: Path = DEFAULT_OUTPUT_DIR
 ) -> Path:
+    """Write the day's report, merging into one already written today.
+
+    The file is named for the date, so a later `--company X` run used to replace
+    the whole day's record with a single company. That is how a full run's 807
+    jobs were lost: the morning run wrote them, an afternoon one-company run
+    overwrote the file, and the only surviving copy of what the other 240
+    companies reported was a filtered export made by hand.
+
+    Merging keeps every company the day has seen. A company that appears in this
+    run replaces its earlier entry — the newer read is the truer one — and the
+    order of first appearance is preserved so the file still reads like the run
+    that produced it.
+    """
     output_dir.mkdir(parents=True, exist_ok=True)
     path = output_dir / f"{date.today().isoformat()}.json"
     payload = [
@@ -81,5 +94,32 @@ def write_report(
         }
         for r in results
     ]
-    path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    path.write_text(
+        json.dumps(_merged_with_existing(path, payload), indent=2), encoding="utf-8"
+    )
     return path
+
+
+def _merged_with_existing(path: Path, payload: list[dict]) -> list[dict]:
+    """`payload` laid over whatever the file already holds for today.
+
+    An unreadable or unexpected existing file is left out of the merge rather
+    than allowed to fail the write: losing the earlier half of a day's report is
+    bad, but losing the run that just finished is worse.
+    """
+    if not path.exists():
+        return payload
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return payload
+    if not isinstance(existing, list):
+        return payload
+
+    merged: dict[str, dict] = {}
+    for entry in existing:
+        if isinstance(entry, dict) and isinstance(entry.get("company"), str):
+            merged[entry["company"]] = entry
+    for entry in payload:
+        merged[entry["company"]] = entry
+    return list(merged.values())

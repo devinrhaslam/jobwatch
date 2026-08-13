@@ -2,25 +2,52 @@ import pytest
 
 from jobwatch.registry import SCRAPERS, check_snapshot_path_collisions, get_scraper
 from jobwatch.scrapers.ashby import BOARDS as ASHBY_BOARDS
+from jobwatch.scrapers.ashby import GRAPHQL_BOARDS as ASHBY_GRAPHQL_BOARDS
+from jobwatch.scrapers.avature import BOARDS as AVATURE_BOARDS
+from jobwatch.scrapers.clearcompany import BOARDS as CLEARCOMPANY_BOARDS
+from jobwatch.scrapers.comeet import BOARDS as COMEET_BOARDS
+from jobwatch.scrapers.deelboard import BOARDS as DEELBOARD_BOARDS
 from jobwatch.scrapers.eightfold import BOARDS as EIGHTFOLD_BOARDS
 from jobwatch.scrapers.greenhouse import BOARDS as GREENHOUSE_BOARDS
+from jobwatch.scrapers.icims import BOARDS as ICIMS_BOARDS
+from jobwatch.scrapers.jibe import BOARDS as JIBE_BOARDS
+from jobwatch.scrapers.lever import BOARDS as LEVER_BOARDS
 from jobwatch.scrapers.oracle import BOARDS as ORACLE_BOARDS
+from jobwatch.scrapers.pcsx import BOARDS as PCSX_BOARDS
+from jobwatch.scrapers.phenom import BOARDS as PHENOM_BOARDS
+from jobwatch.scrapers.pinpoint import BOARDS as PINPOINT_BOARDS
+from jobwatch.scrapers.radancy import BOARDS as RADANCY_BOARDS
 from jobwatch.scrapers.smartrecruiters import BOARDS as SMARTRECRUITERS_BOARDS
+from jobwatch.scrapers.workable import BOARDS as WORKABLE_BOARDS
 from jobwatch.scrapers.workday import BOARDS as WORKDAY_BOARDS
 
 
 _PLATFORMS = (
     GREENHOUSE_BOARDS,
     ASHBY_BOARDS,
+    ASHBY_GRAPHQL_BOARDS,
+    LEVER_BOARDS,
     WORKDAY_BOARDS,
     EIGHTFOLD_BOARDS,
     SMARTRECRUITERS_BOARDS,
+    RADANCY_BOARDS,
+    PCSX_BOARDS,
     ORACLE_BOARDS,
+    AVATURE_BOARDS,
+    WORKABLE_BOARDS,
+    ICIMS_BOARDS,
+    COMEET_BOARDS,
+    CLEARCOMPANY_BOARDS,
+    PINPOINT_BOARDS,
+    PHENOM_BOARDS,
+    DEELBOARD_BOARDS,
+    JIBE_BOARDS,
 )
 # Companies with a bespoke portal rather than a shared platform board.
 _CUSTOM = {
-    "Amazon", "Apple", "ByteDance", "GitHub", "Google", "Hudson River Trading",
-    "Rippling", "Snap", "Two Sigma", "Meta", "Tesla", "Microsoft", "LinkedIn",
+    "Amazon", "Apple", "Atlassian", "Bloomberg", "ByteDance", "GitHub", "Goldman Sachs", "Google",
+    "Google DeepMind", "Hudson River Trading", "Rippling", "Rivian", "Shopify", "Snap", "Two Sigma", "Meta",
+    "Tesla", "TikTok", "LinkedIn", "Walmart Global Tech", "Retool", "SentinelOne", "Dynatrace", "Wayfair", "Aurora", "Zed", "Zoom", "Valve", "Revolut",
 }
 
 

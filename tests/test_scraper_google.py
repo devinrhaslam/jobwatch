@@ -4,14 +4,25 @@ import pytest
 from bs4 import BeautifulSoup
 
 from jobwatch.models import FetchMode
-from jobwatch.scrapers.google import PAGE_SIZE, GoogleScraper, _location
+from jobwatch.scrapers.google import (
+    PAGE_SIZE,
+    GoogleDeepMindScraper,
+    GoogleScraper,
+    _location,
+)
 
 FIXTURE = Path(__file__).parent / "fixtures" / "google_jobs.html"
+DEEPMIND_FIXTURE = Path(__file__).parent / "fixtures" / "google_deepmind_jobs.html"
 
 
 @pytest.fixture(scope="module")
 def google_jobs():
     return GoogleScraper().parse(FIXTURE.read_text(encoding="utf-8"))
+
+
+@pytest.fixture(scope="module")
+def deepmind_jobs():
+    return GoogleDeepMindScraper().parse(DEEPMIND_FIXTURE.read_text(encoding="utf-8"))
 
 
 def test_parses_a_full_page(google_jobs):
@@ -114,3 +125,37 @@ def test_pagination_advances_on_a_full_page(google_jobs):
 
 def test_scraper_is_a_plain_get():
     assert GoogleScraper.config.fetch_mode is FetchMode.STATIC
+
+
+def test_deepmind_parses_a_full_page(deepmind_jobs):
+    assert len(deepmind_jobs) == PAGE_SIZE
+    assert len({j.job_id for j in deepmind_jobs}) == PAGE_SIZE
+
+
+def test_deepmind_jobs_are_attributed_to_deepmind_not_google(deepmind_jobs):
+    # The shared parse reads the company off its own config; hardcoding
+    # "Google" would file every DeepMind posting under the wrong snapshot.
+    assert {j.company for j in deepmind_jobs} == {"Google DeepMind"}
+
+
+def test_deepmind_entry_url_filters_by_company_not_a_keyword():
+    # deepmind.google/careers links to `company=DeepMind`; the board is small
+    # enough that Google's `q=software engineer` narrowing is not needed.
+    url = GoogleDeepMindScraper.config.career_url
+    assert "company=DeepMind" in url
+    assert "q=" not in url
+    assert "sort_by=date" in url  # keeps the engine's early stop safe
+
+
+def test_deepmind_and_google_are_separate_boards():
+    assert GoogleDeepMindScraper.config.name != GoogleScraper.config.name
+    assert GoogleDeepMindScraper.config.career_url != GoogleScraper.config.career_url
+
+
+def test_deepmind_pagination_keeps_the_company_filter(deepmind_jobs):
+    scraper = GoogleDeepMindScraper()
+    nxt = scraper.next_page_url(
+        DEEPMIND_FIXTURE.read_text(encoding="utf-8"), scraper.config.career_url
+    )
+    assert "page=2" in nxt
+    assert "company=DeepMind" in nxt

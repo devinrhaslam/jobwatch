@@ -152,3 +152,53 @@ def test_ok_result_with_new_jobs_surfaces_a_detail():
 def test_clean_results_have_no_trailing_detail_separator():
     results = [CompanyResult("Acme", "seeded", [], 40)]
     assert format_report(results).rstrip().endswith("no alerts")
+
+
+def _entry(company, status="ok", total=1):
+    return CompanyResult(company, status, [], total)
+
+
+def test_a_later_single_company_run_does_not_erase_the_days_report(tmp_path):
+    """The bug this exists for: a morning run writes every company, an
+    afternoon `--company X` run replaces the file with just X, and the rest of
+    the day's record is gone."""
+    write_report([_entry("Stripe"), _entry("Figma"), _entry("Ramp")], output_dir=tmp_path)
+    path = write_report([_entry("Stripe", total=99)], output_dir=tmp_path)
+
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    assert [e["company"] for e in saved] == ["Stripe", "Figma", "Ramp"]
+    # The company that ran again is updated, not duplicated.
+    assert sum(e["company"] == "Stripe" for e in saved) == 1
+    assert next(e for e in saved if e["company"] == "Stripe")["total_jobs"] == 99
+
+
+def test_a_company_seen_only_in_the_later_run_is_appended(tmp_path):
+    write_report([_entry("Stripe")], output_dir=tmp_path)
+    path = write_report([_entry("Anduril")], output_dir=tmp_path)
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    assert [e["company"] for e in saved] == ["Stripe", "Anduril"]
+
+
+def test_new_jobs_from_the_earlier_run_survive(tmp_path):
+    job = Job(company="Figma", job_id="1", title="Engineer", url="https://example.com/1")
+    write_report([CompanyResult("Figma", "ok", [job], 1)], output_dir=tmp_path)
+    path = write_report([_entry("Stripe")], output_dir=tmp_path)
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    figma = next(e for e in saved if e["company"] == "Figma")
+    assert [j["job_id"] for j in figma["new_jobs"]] == ["1"]
+
+
+def test_an_unreadable_existing_report_does_not_lose_the_finished_run(tmp_path):
+    from datetime import date
+
+    (tmp_path / f"{date.today().isoformat()}.json").write_text("{not json", encoding="utf-8")
+    path = write_report([_entry("Stripe")], output_dir=tmp_path)
+    assert [e["company"] for e in json.loads(path.read_text(encoding="utf-8"))] == ["Stripe"]
+
+
+def test_an_existing_file_that_is_not_a_list_is_replaced(tmp_path):
+    from datetime import date
+
+    (tmp_path / f"{date.today().isoformat()}.json").write_text('{"company": "x"}', encoding="utf-8")
+    path = write_report([_entry("Stripe")], output_dir=tmp_path)
+    assert [e["company"] for e in json.loads(path.read_text(encoding="utf-8"))] == ["Stripe"]

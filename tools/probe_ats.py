@@ -107,6 +107,10 @@ def slugs_for(name: str) -> list[str]:
     for base in (compact, hyphen):
         for suffix in SLUG_SUFFIXES:
             candidates.append(f"{base}{suffix}" if suffix else base)
+    # Some boards are registered under the company's domain rather than its
+    # name: Kraken's Ashby board is "kraken.com", and the bare "kraken" slug is
+    # a live but empty board that a name-only guess finds first and misreads.
+    candidates.append(f"{compact}.com")
     return list(dict.fromkeys(candidates))
 
 

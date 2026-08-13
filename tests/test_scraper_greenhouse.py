@@ -4,7 +4,12 @@ from pathlib import Path
 import pytest
 
 from jobwatch.models import FetchMode
-from jobwatch.scrapers.greenhouse import BOARDS, GreenhouseScraper, scrapers
+from jobwatch.scrapers.greenhouse import (
+    BOARDS,
+    EMBED_FALLBACK_BOARDS,
+    GreenhouseScraper,
+    scrapers,
+)
 
 FIXTURE = Path(__file__).parent / "fixtures" / "greenhouse_cloudflare_jobs.json"
 
@@ -210,3 +215,51 @@ def test_a_job_id_appearing_only_as_a_substring_does_not_count_as_identified():
     )
     job = GreenhouseScraper("Acme", "acme").parse(payload)[0]
     assert job.url == "https://job-boards.greenhouse.io/acme/jobs/1234"
+
+
+def test_a_board_on_the_embed_fallback_reports_the_embed_url():
+    # Zipline's canonical Greenhouse URL 301s to a page that renders the whole
+    # open-roles list rather than the posting. See EMBED_FALLBACK_BOARDS.
+    payload = json.dumps(
+        {
+            "jobs": [
+                {
+                    "id": 7776209003,
+                    "title": "Accounting Intern",
+                    "absolute_url": "https://www.zipline.com/open-roles?gh_jid=7776209003",
+                }
+            ]
+        }
+    )
+    (job,) = GreenhouseScraper("Zipline", "flyzipline").parse(payload)
+    assert job.url == (
+        "https://job-boards.greenhouse.io/embed/job_app"
+        "?for=flyzipline&token=7776209003"
+    )
+
+
+def test_the_embed_url_is_built_from_the_board_slug_not_the_company_name():
+    payload = json.dumps({"jobs": [{"id": 1, "title": "Engineer"}]})
+    (job,) = GreenhouseScraper("Agility Robotics", "agilityrobotics").parse(payload)
+    assert "for=agilityrobotics" in job.url
+
+
+def test_a_board_not_on_the_fallback_is_unaffected():
+    payload = json.dumps(
+        {
+            "jobs": [
+                {
+                    "id": 123,
+                    "title": "Engineer",
+                    "absolute_url": "https://example.com/jobs?gh_jid=123",
+                }
+            ]
+        }
+    )
+    (job,) = GreenhouseScraper("Stripe", "stripe").parse(payload)
+    assert job.url == "https://job-boards.greenhouse.io/stripe/jobs/123"
+
+
+def test_every_embed_fallback_board_is_a_registered_board():
+    # A name that drifts out of BOARDS would silently stop taking effect.
+    assert EMBED_FALLBACK_BOARDS <= set(BOARDS)

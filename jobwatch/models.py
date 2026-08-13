@@ -67,6 +67,12 @@ class CompanyConfig:
     # page at 10 results needs hundreds of requests to seed, and some answer 429
     # long before that many arrive at the default pace.
     inter_page_delay_seconds: float | None = None
+    # Ceiling on per-job detail fetches in one run, for scrapers that implement
+    # Scraper.detail_url. A seed run enriches the whole board and so pays this
+    # once; a routine run only has the day's new postings to enrich. The cap
+    # exists so that a board which suddenly reports hundreds of new jobs — an
+    # ID scheme change, say — cannot turn into hundreds of requests.
+    max_enrichment_fetches: int | None = None
 
     def __post_init__(self) -> None:
         if self.fetch_mode is FetchMode.RENDERED and not self.wait_for_selector:

@@ -20,6 +20,12 @@ MAX_PAGES = 60
 # stop safe, since the cards carry no date of their own.
 QUERY = {"q": "software engineer", "sort_by": "date", "page": 1}
 
+# Google DeepMind posts to the same board under its own `company` value, which
+# is what deepmind.google/careers links to — "DeepMind", not "Google DeepMind".
+# At 83 postings the whole board fits well inside the page ceiling, so unlike
+# Google's entry it needs no keyword narrowing.
+DEEPMIND_QUERY = {"company": "DeepMind", "sort_by": "date", "page": 1}
+
 _JOB_HREF = re.compile(r"jobs/results/(\d+)")
 
 
@@ -69,7 +75,7 @@ class GoogleScraper(Scraper):
             href = anchor["href"]
             jobs.append(
                 Job(
-                    company="Google",
+                    company=self.config.name,
                     job_id=job_id,
                     title=heading.get_text(strip=True),
                     url=href if href.startswith("http") else f"{BASE}/{href.lstrip('/')}",
@@ -86,6 +92,31 @@ class GoogleScraper(Scraper):
         params = {k: v[0] for k, v in parse_qs(parsed.query).items()}
         params["page"] = str(int(params.get("page", 1)) + 1)
         return urlunsplit(parsed._replace(query=urlencode(params)))
+
+
+class GoogleDeepMindScraper(GoogleScraper):
+    """Google DeepMind's postings on Google's own careers board.
+
+    deepmind.google/careers has no board of its own — its "Open positions" link
+    points here, at Google's board filtered to `company=DeepMind`. A Greenhouse
+    board does exist under the "deepmind" slug, but it carries ten postings to
+    this filter's eighty-three, so it is a remnant rather than the board.
+
+    Note this overlaps Google's own entry: 41 of the 83 also match that
+    scraper's `software engineer` query, so a new one can be reported under both
+    names. Narrowing Google to `company=Google` would partition them cleanly —
+    that query returns 1,672 postings unfiltered and 1,572 filtered, the
+    difference being exactly these 41 plus YouTube's 59 — but it would also stop
+    reporting YouTube, which that entry currently covers. So the overlap is left
+    in place deliberately.
+    """
+
+    config = CompanyConfig(
+        name="Google DeepMind",
+        career_url=f"{SEARCH_URL}?{urlencode(DEEPMIND_QUERY)}",
+        fetch_mode=FetchMode.STATIC,
+        max_pages=MAX_PAGES,
+    )
 
 
 def _location(card) -> str | None:

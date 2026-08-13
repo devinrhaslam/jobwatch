@@ -5,12 +5,15 @@ import pytest
 from jobwatch.models import FetchMode
 from jobwatch.scrapers.tesla import SOFTWARE_DEPARTMENTS, TeslaScraper, _slug
 
+# The board's own numbering as of 2026-08-05. The ids are positional, so these
+# are a snapshot of one payload rather than a fixed scheme — see
+# test_follows_a_renumbering_instead_of_watching_the_wrong_department.
 _DEPARTMENTS = {
-    "3": "Tesla AI",
-    "8": "Vehicle Software",
-    "9": "Engineering & Information Technology",
-    "5": "Manufacturing",
     "1": "Vehicle Service",
+    "3": "Tesla AI",
+    "7": "Vehicle Software",
+    "8": "Engineering & Information Technology",
+    "9": "Manufacturing",
 }
 
 
@@ -18,7 +21,7 @@ def _state(listings, locations=None, departments=None):
     # Listings default to a watched department so that tests about parsing are
     # not silently testing the department filter instead.
     listings = [
-        {**row, "dp": row.get("dp", "9")} if isinstance(row, dict) else row
+        {**row, "dp": row.get("dp", "8")} if isinstance(row, dict) else row
         for row in listings
     ]
     return json.dumps(
@@ -102,10 +105,10 @@ def test_slug_collapses_punctuation_the_way_tesla_does():
 def test_keeps_only_software_departments():
     payload = _state(
         [
-            {"id": "eng", "t": "Backend Engineer", "dp": "9"},
+            {"id": "eng", "t": "Backend Engineer", "dp": "8"},
             {"id": "ai", "t": "AI Engineer", "dp": "3"},
-            {"id": "vehicle", "t": "Distributed Systems Engineer", "dp": "8"},
-            {"id": "factory", "t": "Production Associate", "dp": "5"},
+            {"id": "vehicle", "t": "Distributed Systems Engineer", "dp": "7"},
+            {"id": "factory", "t": "Production Associate", "dp": "9"},
             {"id": "service", "t": "Service Technician", "dp": "1"},
         ]
     )
@@ -119,32 +122,59 @@ def test_department_filter_does_not_second_guess_titles():
     # A mechanical engineer sits in the same department as a backend engineer.
     # Dropping it here would mean matching on title text, which is exactly the
     # judgement the report-time LLM filter exists to make.
-    payload = _state([{"id": "1", "t": "Thermal Design Engineer", "dp": "9"}])
+    payload = _state([{"id": "1", "t": "Thermal Design Engineer", "dp": "8"}])
 
     assert [job.job_id for job in TeslaScraper().parse(payload)] == ["1"]
 
 
-def test_raises_when_a_watched_department_id_changes_meaning():
-    # Selecting by id means a renumbering would not look like a failure — it
-    # would look like a quiet switch to reporting Finance roles as software.
+def test_follows_a_renumbering_instead_of_watching_the_wrong_department():
+    # Tesla's department ids are positional: on 2026-08-05 the list shifted by
+    # one, moving "Engineering & Information Technology" onto the id "Vehicle
+    # Software" had held and "Manufacturing" onto its old one. Reading the ids
+    # out of the payload's own lookup keeps the same three departments watched
+    # across a shift that a hard-coded id could only fail on or follow blindly.
+    shifted = {
+        "1": "Vehicle Service",
+        "3": "Tesla AI",
+        "8": "Vehicle Software",
+        "9": "Engineering & Information Technology",
+        "10": "Manufacturing",
+    }
     payload = _state(
-        [{"id": "1", "t": "Financial Analyst", "dp": "9"}],
-        departments={**_DEPARTMENTS, "9": "Finance"},
+        [
+            {"id": "eng", "t": "Backend Engineer", "dp": "9"},
+            {"id": "vehicle", "t": "Distributed Systems Engineer", "dp": "8"},
+            {"id": "factory", "t": "Production Associate", "dp": "10"},
+        ],
+        departments=shifted,
     )
 
-    with pytest.raises(ValueError, match="department ids have changed"):
+    kept = {job.job_id for job in TeslaScraper().parse(payload)}
+
+    assert kept == {"eng", "vehicle"}
+
+
+def test_raises_when_a_watched_department_leaves_the_board():
+    # A rename or retirement drops a third of the watched board, which on its
+    # own is indistinguishable from a quiet week. Fail the company instead.
+    payload = _state(
+        [{"id": "1", "t": "Backend Engineer", "dp": "8"}],
+        departments={**_DEPARTMENTS, "7": "Vehicle Firmware"},
+    )
+
+    with pytest.raises(ValueError, match="Vehicle Software"):
         TeslaScraper().parse(payload)
 
 
 def test_accepts_a_payload_whose_department_names_are_unchanged():
-    payload = _state([{"id": "1", "t": "Backend Engineer", "dp": "9"}])
+    payload = _state([{"id": "1", "t": "Backend Engineer", "dp": "8"}])
 
     assert len(TeslaScraper().parse(payload)) == 1
 
 
 def test_watched_departments_are_the_software_ones():
     assert SOFTWARE_DEPARTMENTS == {
-        "3": "Tesla AI",
-        "8": "Vehicle Software",
-        "9": "Engineering & Information Technology",
+        "Tesla AI",
+        "Vehicle Software",
+        "Engineering & Information Technology",
     }

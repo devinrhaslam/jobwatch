@@ -412,3 +412,125 @@ def test_one_engine_failing_to_launch_leaves_another_engines_company_working():
         pool.get("firefox")
 
     assert pool.get("chromium").engine == "chromium"
+
+
+# --- progress reporting -----------------------------------------------------
+
+
+def test_progress_line_names_each_company_with_a_counter(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(cli, "default_fetch_page", lambda config, url: "payload")
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
+
+    cli.main(["--dry-run"])
+    err = capsys.readouterr().err
+    assert "[  1/1] TestCo" in err
+    assert "Scraped 1 companies in" in err
+
+
+def test_progress_reports_a_dot_per_request(tmp_path, monkeypatch, capsys):
+    # The point of the dots: a company making 185 requests should look busy
+    # rather than hung.
+    class _ThreePageScraper(Scraper):
+        config = CompanyConfig(
+            name="Pager", career_url="0", fetch_mode=FetchMode.STATIC
+        )
+
+        def parse(self, payload):
+            return [
+                Job(
+                    company="Pager",
+                    job_id=f"{payload}-1",
+                    title="Engineer",
+                    url="https://example.com/1",
+                )
+            ]
+
+        def next_page_url(self, payload, current_url):
+            nxt = int(payload) + 1
+            return str(nxt) if nxt < 3 else None
+
+    monkeypatch.setattr(cli, "SCRAPERS", {"Pager": _ThreePageScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(cli, "default_fetch_page", lambda config, url: url)
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
+
+    cli.main(["--dry-run", "--all-roles"])
+    line = [ln for ln in capsys.readouterr().err.splitlines() if "Pager" in ln][0]
+    assert line.count(".") >= 3
+
+
+def test_progress_goes_to_stderr_not_the_report(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(cli, "default_fetch_page", lambda config, url: "payload")
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
+
+    cli.main(["--dry-run"])
+    captured = capsys.readouterr()
+    assert "[  1/1]" not in captured.out
+    assert "Scraped" not in captured.out
+
+
+def test_outcome_wording_distinguishes_seeding_from_reading():
+    from jobwatch.engine import CompanyResult
+
+    job = Job(company="X", job_id="1", title="T", url="u")
+    assert cli._outcome(CompanyResult("X", "seeded", [], 40)) == "seeded 40"
+    assert cli._outcome(CompanyResult("X", "ok", [], 40)) == "read 40"
+    assert cli._outcome(CompanyResult("X", "ok", [job], 40)) == "read 40, 1 new"
+    assert cli._outcome(CompanyResult("X", "failed", [], 0)) == "FAILED"
+    assert cli._outcome(CompanyResult("X", "blocked", [], 0)) == "BLOCKED"
+    assert cli._outcome(CompanyResult("X", "suspicious", [job], 40)) == "SUSPICIOUS"
+
+
+def test_a_filter_crash_still_reports_the_jobs(tmp_path, monkeypatch, capsys):
+    # An unset ANTHROPIC_API_KEY raises TypeError from the SDK, not FilterError.
+    # Snapshots are written before this point, so letting it propagate would
+    # lose the day's jobs permanently.
+    def _boom(jobs):
+        raise TypeError("Could not resolve authentication method")
+
+    class _GrowingScraper(Scraper):
+        """Seeds one job, then offers a second one so the next run has something
+        for the filter to choke on."""
+
+        config = CompanyConfig(
+            name="TestCo", career_url="https://example.com", fetch_mode=FetchMode.STATIC
+        )
+
+        def __init__(self):
+            self.runs = 0
+
+        def parse(self, payload):
+            self.runs += 1
+            ids = ["1"] if self.runs == 1 else ["1", "2"]
+            return [
+                Job(
+                    company="TestCo",
+                    job_id=i,
+                    title="Software Engineer",
+                    url=f"https://example.com/{i}",
+                )
+                for i in ids
+            ]
+
+    monkeypatch.setattr(filters, "classify_with_claude", _boom)
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _GrowingScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(cli, "default_fetch_page", lambda config, url: "payload")
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
+
+    cli.main([])  # seeds and persists
+    exit_code = cli.main(["--dry-run"])
+
+    captured = capsys.readouterr()
+    assert "Role filter failed: TypeError" in captured.err
+    assert "Reporting every new job unfiltered" in captured.err
+    assert "Software Engineer" in captured.out  # the job survived
+    assert exit_code == 1
