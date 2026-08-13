@@ -10,6 +10,11 @@ venv/
 .pytest_cache/
 *.egg-info/
 
+# LaTeX build intermediates
+*.aux
+*.log
+*.out
+
 # macOS
 .DS_Store
 

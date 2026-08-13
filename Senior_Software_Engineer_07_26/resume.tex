@@ -20,6 +20,11 @@
 %%% Themes: Awesome-CV
 \documentclass[11pt, a4paper]{awesome-cv}
 
+% pdfTeX can emit real space characters into the text layer instead of leaving
+% word breaks to be inferred from kerning offsets. This is what makes the PDF
+% parseable by ATS resume readers.
+\ifxetex\else\pdfinterwordspaceon\fi
+
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
 
@@ -41,7 +46,9 @@
 %\definecolor{lighttext}{HTML}{414141}
 
 %%% Override a separator for social informations in header(default: ' | ')
-%\headersocialsep[\quad\textbar\quad]
+% Asymmetric on purpose: each entry begins with an icon whose left side bearing
+% adds visual space, so an even \quad on both sides reads as off-centre.
+\headersocialsep[\hspace{0.64em}\textbar\hspace{1.36em}]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,11 +64,27 @@
 %%% Essentials
 \name{}{Devin Haslam}
 %%% Social
-\github{github.com/devin-haslam}
-\linkedin{linkedin.com/in/devin-haslam}
+% Work account has no public repos — an empty profile behind a header link is
+% worse than no link. Restore (with a personal account) once there is something
+% to show.
+%\github{devin-haslam}
+\linkedin{devin-haslam}
 \email{devinrhaslam@gmail.com}
 %%% Optionals
-\position{Senior Software Engineer}
+\position{Staff Software Engineer}
+
+%%% Words listed here are never broken across lines. Splitting a short, common
+%%% word ("re-duced") reads as a typo rather than typesetting.
+\hyphenation{reduced design}
+
+%%% Document metadata. The class ships these empty; some ATS read /Title and
+%%% /Author off the PDF rather than out of the text layer.
+\hypersetup{
+  pdftitle={Devin Haslam - Staff Software Engineer - Resume},
+  pdfauthor={Devin Haslam},
+  pdfsubject={Resume},
+  pdfkeywords={Software Engineer, Backend, Go, TypeScript, Python, AWS, Microservices, gRPC, DynamoDB, PostgreSQL, Kubernetes, Distributed Systems},
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,11 +98,11 @@
 
 %%% Import contents
 \import{\sectiondir}{committees.tex}
-\vspace{5mm}
+\vspace{2mm}
 \import{\sectiondir}{experience.tex}
-\vspace{-.8mm}
+\vspace{3mm}
 \import{\sectiondir}{education.tex}
-\vspace{-.8mm}
+\vspace{3mm}
 \import{\sectiondir}{skills.tex}
 % \vspace{5mm}
 % \import{\sectiondir}{presentation.tex}

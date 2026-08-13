@@ -54,10 +54,15 @@
   \RequirePackage[utf8]{inputenc}
 \fi
 % Needed to manage math fonts
-\RequirePackage[math-style=TeX]{unicode-math}
+\ifxetex\RequirePackage[math-style=TeX]{unicode-math}\fi
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+\ifxetex
+  \RequirePackage{fontawesome}
+\else
+  \RequirePackage{fontawesome5}
+  \providecommand{\faLinkedinSquare}{\faLinkedin}
+\fi
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
@@ -104,6 +109,7 @@
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
 
+\ifxetex
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
@@ -172,6 +178,20 @@
   BoldFont=*-Semibold,
   BoldItalicFont=*-SemiboldIt
 ]{SourceSansPro}
+\else
+  \RequirePackage[nosfdefault]{sourcesanspro}
+  \RequirePackage{roboto}
+  \renewcommand{\familydefault}{SourceSansPro-TLF}
+  \newcommand{\headerfont}{\fontfamily{Roboto-TLF}\fontseries{m}\selectfont}
+  \newcommand{\headerfontlight}{\fontfamily{Roboto-TLF}\fontseries{thin}\selectfont}
+  \newcommand{\footerfont}{\fontfamily{SourceSansPro-TLF}\fontseries{m}\selectfont}
+  \newcommand{\regularSans}{\fontfamily{SourceSansPro-TLF}\fontseries{m}\selectfont}
+  \newcommand{\lightSans}{\fontfamily{SourceSansPro-TLF}\fontseries{l}\selectfont}
+  \newcommand{\boldSans}{\fontfamily{SourceSansPro-TLF}\fontseries{b}\selectfont}
+  \newcommand{\semiboldSans}{\fontfamily{SourceSansPro-TLF}\fontseries{sb}\selectfont}
+  \newcommand{\bodyfont}{\fontfamily{SourceSansPro-TLF}\fontseries{m}\selectfont}
+  \newcommand{\bodyfontlight}{\fontfamily{SourceSansPro-TLF}\fontseries{l}\selectfont}
+\fi
 
 
 %-------------------------------------------------------------------------------
@@ -276,7 +296,7 @@
               \setbool{isstart}{false} 
             }
             {\@headersocialsep}
-          \href{https://github.com/\@github}{\faGithubSquare\ \@github}
+          \href{https://github.com/\@github}{\faGithubSquare\ github.com/\@github}
         }
       \ifthenelse{\isundefined{\@linkedin}}
         {}
@@ -286,7 +306,7 @@
               \setbool{isstart}{false} 
             }
             {\@headersocialsep}
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ linkedin.com/in/\@linkedin}
         }
     }
   \end{center}
@@ -364,7 +384,7 @@
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
-    \renewcommand{\labelitemi}{\bullet}
+    \renewcommand{\labelitemi}{\textbullet}
 }{
   \end{itemize}
   \end{justify}

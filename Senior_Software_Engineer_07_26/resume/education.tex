@@ -5,10 +5,15 @@
     {Old Dominion University}
     {May 2013 - July 2018}
     {}
-    {
-      \begin{cvitems}
-        \item {Graduated with a \textbf{Master's} of Science in Computer Science}
-      \end{cvitems}
-    }
+    {}
+  % The description argument lands in an m{} column, which centres its content
+  % vertically and swallows any \vspace placed inside it. Keeping the bullet out
+  % here, where vertical space still works, is what lets it sit tight.
+  \vspace{-4.5mm}
+  \descriptionstylexx{
+    \begin{cvitems}
+      \item {Graduated with a \textbf{Master's} of Science in Computer Science}
+    \end{cvitems}
+  }
 \end{cventries}
 

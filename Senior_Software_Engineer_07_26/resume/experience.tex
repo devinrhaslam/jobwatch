@@ -2,25 +2,26 @@
 \begin{cventries}
     \cventryp
         {}
-        {Senior Software Engineer - HappyReturns}
+        {Staff Software Engineer - Happy Returns (PayPal, now UPS)}
         {Feb. 2022 - Present}
         {}
         {
           \begin{cvitems}
-            \item {Led 4-engineer team to build Return Vision, an AI-powered fraud detection system for 150+ retailers; reduced fraudulent returns by 85\% vs. mail, delivering \$30K+/month in savings per partner}
+            \item {Led 4 engineers to build Return Vision, an AI-powered fraud detection system for 150+ retailers; reduced fraudulent returns by 85\% vs. mail, delivering \$30K+/month in savings per partner}
             \vspace{1mm}
             \item {Drove architectural direction for the team's email service, championing an async SQS/Lambda design over a short-term scaling fix to eliminate email drops during traffic spikes}
             \vspace{1mm}
-            \item {Built new mail return flows enabling QR-code drop-offs at Staples and UPS stores nationwide, enabling onboarding of TikTok's integration with 1.2M annual returns}
+            \item {Launched nationwide QR-code drop-off returns at Staples and UPS, unlocking TikTok's integration and 1.2M annual returns}
             \vspace{1mm}
-            \item {Created a rate limiter for multiple micro services that has serviced a total of 40 million requests}
+            \item {Built the company's shared rate limiter (distributed Redis, leaky bucket); governs 200M+ requests and absorbs the partner traffic spikes that once took down production}
           \vspace{1mm}
           \item {Built SQS/Lambda data ingestion pipeline for SHEIN check-in data, processing 43K+ messages per daily run into Redshift while respecting external API rate limits}
           \vspace{1mm}
-          \item {Migrated company's core returns data model from PostgreSQL to DynamoDB behind a gRPC data access layer via phased dual-read/write rollout — zero data loss, up to 45x P90 latency reduction}
+          \item {Migrated company's core returns data model from PostgreSQL to DynamoDB behind a gRPC data access layer via phased dual-read/write rollout; zero data loss, up to 45x P90 latency reduction}
           \end{cvitems}
         }
     
+    \vspace{4mm}
     \cventryp
         {}
         {Software Engineer - Jido Maps}
@@ -28,16 +29,17 @@
         {}
         {
           \begin{cvitems}
-          \item {Employed transfer learning on an object detection model for IKEA furniture variants in an iOS app}
+          \item {Built a self-serve pipeline orchestrating distributed render jobs to train and ship object detectors from user-uploaded 3D models in under an hour}
           \vspace{1mm}
-          \item {Created a rendering pipeline of simulated data to supplement a small training dataset}
+          \item {Built inventory search and ranking for 50K+ SKUs scraped from hundreds of local retailers}
           \vspace{1mm}
-          \item {Converted an IKEA floor-plan using a weighted bidirectional graph using computer vision}
+          \item {Shipped in-store recognition of 100+ products for IKEA Harajuku, in production since launch}
           \vspace{1mm}
-          \item {Performed real time 3d reconstruction (C++) given images taken from a phone}
+          \item {Built a Three.js dashboard for editing 3D scenes, syncing to live mobile clients sub-second}
           \end{cvitems}
         }
     
+    \vspace{4mm}
     \cventryp
         {}
         {Graduate Research Assistant - Old Dominion University}
@@ -45,9 +47,9 @@
         {}
         {
           \begin{cvitems}
-            \item {Developed a custom deep convolutional neural network used to label voxels in a 3D image}
+            \item {Explored heuristic algorithms to find the shortest path in a weighted directed graph}
             \vspace{1mm}
-              \item {Explored heuristic algorithms to find the shortest path in a weighted directed graph}
+            \item {Developed a custom deep convolutional neural network to label voxels in 3D images (M.S. thesis)}
           \end{cvitems}
         }
     
