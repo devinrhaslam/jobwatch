@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from dataclasses import replace
 from pathlib import Path
@@ -14,7 +15,7 @@ from jobwatch.filters import apply_filters_by_group
 from jobwatch.models import FetchMode
 from jobwatch.registry import SCRAPERS
 from jobwatch.report import format_report, write_report
-from jobwatch.store import JsonSnapshotStore
+from jobwatch.store import JsonSnapshotStore, PostgresSnapshotStore
 
 STATE_DIR = Path("state")
 OUTPUT_DIR = Path("output")
@@ -127,6 +128,23 @@ def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
     return results
 
 
+def _build_store():
+    """Select the snapshot backend.
+
+    Postgres is strictly opt-in, keyed on JOBWATCH_DATABASE_URL rather than the
+    generic DATABASE_URL, so a routine `python run.py` cannot be silently
+    redirected into a database by an unrelated env var (the docker-compose one,
+    say). With the variable unset, this is the original JSON behaviour, byte for
+    byte. The DSN is never printed, since it carries a password.
+    """
+    dsn = os.environ.get("JOBWATCH_DATABASE_URL")
+    if dsn:
+        print("Snapshot store: Postgres (JOBWATCH_DATABASE_URL)", file=sys.stderr)
+        return PostgresSnapshotStore(dsn)
+    print(f"Snapshot store: JSON files under {STATE_DIR}/", file=sys.stderr)
+    return JsonSnapshotStore(STATE_DIR)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Check tracked companies for newly posted jobs."
@@ -166,23 +184,27 @@ def main(argv: list[str] | None = None) -> int:
         SCRAPERS[n].config.fetch_mode in BROWSER_MODES for n in names
     )
 
-    # Built here, not at import, so test_run_cli's monkeypatch of STATE_DIR is
-    # in effect by the time the store binds to a directory.
-    store = JsonSnapshotStore(STATE_DIR)
-
-    if needs_browser:
-        with sync_playwright() as pw:
-            pool = _BrowserPool(pw)
-            try:
-                results = _run_companies(
-                    names, args, store=store, fetch_page=_build_fetch_page(pool)
-                )
-            finally:
-                pool.close()
-    else:
-        results = _run_companies(
-            names, args, store=store, fetch_page=default_fetch_page
-        )
+    # Built here, not at import, so test_run_cli's monkeypatch of STATE_DIR (and
+    # of the env) is in effect by the time the store binds to a backend. The
+    # store is only used while scraping, so it is closed as soon as the run
+    # finishes, before filtering and reporting.
+    store = _build_store()
+    try:
+        if needs_browser:
+            with sync_playwright() as pw:
+                pool = _BrowserPool(pw)
+                try:
+                    results = _run_companies(
+                        names, args, store=store, fetch_page=_build_fetch_page(pool)
+                    )
+                finally:
+                    pool.close()
+        else:
+            results = _run_companies(
+                names, args, store=store, fetch_page=default_fetch_page
+            )
+    finally:
+        store.close()
 
     filter_failed = False
     if not args.all_roles:

@@ -6,6 +6,7 @@ import jobwatch.filters as filters
 from jobwatch.fetch import FetchError
 from jobwatch.models import CompanyConfig, FetchMode, Job
 from jobwatch.scrapers.base import Scraper
+from jobwatch.store import JsonSnapshotStore
 
 import run as cli
 
@@ -30,6 +31,34 @@ def never_call_claude(monkeypatch):
     hit the network. Patch the classifier itself rather than apply_filters, so
     the CLI's own filter wiring is still exercised."""
     monkeypatch.setattr(filters, "classify_with_claude", _stub_classify)
+
+
+@pytest.fixture(autouse=True)
+def _no_postgres_env(monkeypatch):
+    """Keep every CLI test on the JSON backend regardless of the developer's
+    shell. If JOBWATCH_DATABASE_URL happened to be exported, main() would try to
+    open a real database instead of writing the tmp_path snapshots these tests
+    assert on."""
+    monkeypatch.delenv("JOBWATCH_DATABASE_URL", raising=False)
+
+
+def test_build_store_defaults_to_json_when_env_is_unset():
+    assert isinstance(cli._build_store(), JsonSnapshotStore)
+
+
+def test_build_store_uses_postgres_only_when_env_is_set(monkeypatch):
+    captured = {}
+
+    class _FakePostgres:
+        def __init__(self, dsn):
+            captured["dsn"] = dsn
+
+    monkeypatch.setattr(cli, "PostgresSnapshotStore", _FakePostgres)
+    monkeypatch.setenv("JOBWATCH_DATABASE_URL", "postgresql://user:pw@host/db")
+
+    store = cli._build_store()
+    assert isinstance(store, _FakePostgres)
+    assert captured["dsn"] == "postgresql://user:pw@host/db"
 
 
 class _OneJobScraper(Scraper):

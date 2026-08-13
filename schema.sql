@@ -7,7 +7,7 @@
 -- than growing it a table at a time.
 --
 -- Apply with:
---   psql "$DATABASE_URL" -f schema.sql
+--   psql "$JOBWATCH_DATABASE_URL" -f schema.sql
 -- Every statement is idempotent, so re-applying it is safe.
 
 -- Every job ever seen, one row per (company, job_id). `first_seen_at` is the

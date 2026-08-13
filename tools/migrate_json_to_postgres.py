@@ -12,7 +12,7 @@ Re-runnable: ``ON CONFLICT DO NOTHING`` means a second run never clobbers rows a
 live ingest has since written.
 
 Usage:
-    DATABASE_URL=postgresql://jobwatch:jobwatch@localhost:5432/jobwatch \\
+    JOBWATCH_DATABASE_URL=postgresql://jobwatch:jobwatch@localhost:5432/jobwatch \\
         python tools/migrate_json_to_postgres.py [--state-dir state]
 """
 from __future__ import annotations
@@ -71,8 +71,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--state-dir", default="state", type=Path)
     parser.add_argument(
         "--dsn",
-        default=os.environ.get("DATABASE_URL"),
-        help="Postgres DSN; defaults to $DATABASE_URL.",
+        default=os.environ.get("JOBWATCH_DATABASE_URL") or os.environ.get("DATABASE_URL"),
+        help="Postgres DSN; defaults to $JOBWATCH_DATABASE_URL, then $DATABASE_URL.",
     )
     args = parser.parse_args(argv)
 

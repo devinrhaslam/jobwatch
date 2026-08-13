@@ -46,6 +46,10 @@ class SnapshotStore(Protocol):
         """
         ...
 
+    def close(self) -> None:
+        """Release any held resources; a no-op for file-backed stores."""
+        ...
+
 
 class JsonSnapshotStore:
     """SnapshotStore backed by one JSON file per company under a directory.
@@ -71,6 +75,9 @@ class JsonSnapshotStore:
         snapshot = state.load_snapshot(company, self._state_dir)
         merged = state.merge_snapshot(snapshot, jobs, now)
         state.save_snapshot(company, merged, self._state_dir)
+
+    def close(self) -> None:
+        pass
 
 
 _UPSERT_SQL = """
