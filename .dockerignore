@@ -1,0 +1,16 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+*.egg-info
+state
+output
+build.log
+texput.log
+node_modules
+frontend/node_modules
+frontend/dist
+backend
+tests
+Senior_Software_Engineer_07_26

@@ -1,0 +1,20 @@
+# The Python ingestion worker for the scheduled scrape. It needs headless
+# Chromium and Firefox (Meta and Tesla), so `playwright install --with-deps`
+# pulls the browsers matching the installed Playwright plus their system
+# libraries — keeping browser and library versions in lockstep, unlike pinning a
+# prebuilt image tag by hand.
+FROM python:3.13-slim-bookworm
+
+WORKDIR /app
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt \
+    && playwright install --with-deps chromium firefox
+
+COPY . .
+RUN pip install --no-cache-dir -e .
+
+# --all-roles skips the CLI's own role filter: the per-user fit filtering is the
+# Go digest's job, so ingestion just scrapes every current posting into Postgres.
+# JOBWATCH_DATABASE_URL (set by Render) selects the Postgres store.
+CMD ["python", "run.py", "--all-roles"]

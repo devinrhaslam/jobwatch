@@ -18,11 +18,12 @@ const (
 // Server holds the read/write store, the fit classifier, the mailer, and the
 // HTTP handlers.
 type Server struct {
-	store      *Store
-	classifier Classifier
-	mailer     Mailer
-	appBaseURL string // where the magic link points (the frontend origin)
-	devAuth    bool   // when true, /auth/request returns the link in its body
+	store         *Store
+	classifier    Classifier
+	mailer        Mailer
+	appBaseURL    string // where the magic link points (the frontend origin)
+	allowedOrigin string // CORS: the frontend origin allowed to call this API
+	devAuth       bool   // when true, /auth/request returns the link in its body
 }
 
 // New connects the store and wires the Claude-backed fit classifier and the dev
@@ -40,11 +41,12 @@ func New(ctx context.Context, dsn string) (*Server, error) {
 		appURL = "http://localhost:5173"
 	}
 	return &Server{
-		store:      store,
-		classifier: newClaudeClassifier(),
-		mailer:     logMailer{},
-		appBaseURL: appURL,
-		devAuth:    os.Getenv("JOBWATCH_DEV_AUTH") == "1",
+		store:         store,
+		classifier:    newClaudeClassifier(),
+		mailer:        logMailer{},
+		appBaseURL:    appURL,
+		allowedOrigin: os.Getenv("JOBWATCH_ALLOWED_ORIGIN"),
+		devAuth:       os.Getenv("JOBWATCH_DEV_AUTH") == "1",
 	}, nil
 }
 
@@ -68,7 +70,28 @@ func (s *Server) Routes() http.Handler {
 	mux.HandleFunc("PUT /me/watchlist", s.authed(s.handleSetWatchlist))
 	mux.HandleFunc("POST /me/match", s.authed(s.handleRunMatch))
 	mux.HandleFunc("GET /me/matches", s.authed(s.handleGetMatches))
-	return mux
+	return s.withCORS(mux)
+}
+
+// withCORS allows the configured frontend origin to call the API cross-origin,
+// which it must when the static site and the API are served from different hosts
+// (the production shape). With no JOBWATCH_ALLOWED_ORIGIN set — local dev, where
+// the Vite proxy makes calls same-origin — it adds nothing and is a pass-through.
+func (s *Server) withCORS(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if s.allowedOrigin != "" {
+			w.Header().Set("Access-Control-Allow-Origin", s.allowedOrigin)
+			w.Header().Set("Vary", "Origin")
+			w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+			w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+			w.Header().Set("Access-Control-Max-Age", "86400")
+			if r.Method == http.MethodOptions {
+				w.WriteHeader(http.StatusNoContent)
+				return
+			}
+		}
+		next.ServeHTTP(w, r)
+	})
 }
 
 func (s *Server) handleCompanies(w http.ResponseWriter, r *http.Request) {

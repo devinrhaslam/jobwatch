@@ -1,0 +1,81 @@
+# Render Blueprint: provisions the whole stack from this repo. In the Render
+# dashboard, New → Blueprint → pick this repo, and Render creates everything
+# below. Values marked `sync: false` are filled in once (see DEPLOY.md).
+#
+# Free tier is fine to validate the deploy, with two caveats: free web services
+# sleep after inactivity (cold starts), and free Postgres is deleted after 30
+# days. Upgrade the plans before relying on it.
+
+databases:
+  - name: jobwatch-db
+    plan: free
+    postgresMajorVersion: "16"
+
+services:
+  # Go API.
+  - type: web
+    name: jobwatch-backend
+    runtime: go
+    rootDir: backend
+    plan: free
+    buildCommand: go build -o app ./cmd/server
+    startCommand: ./app
+    healthCheckPath: /health
+    envVars:
+      - key: JOBWATCH_DATABASE_URL
+        fromDatabase:
+          name: jobwatch-db
+          property: connectionString
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: JOBWATCH_APP_URL # the frontend URL, for magic-link emails
+        sync: false
+      - key: JOBWATCH_ALLOWED_ORIGIN # the frontend URL, for CORS
+        sync: false
+
+  # React static site. VITE_API_BASE is baked in at build time, so a change needs
+  # a redeploy. The SPA rewrite lets deep links like /verify?token=… load.
+  - type: web
+    name: jobwatch-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE # the backend URL, e.g. https://jobwatch-backend.onrender.com
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Scheduled scrape into Postgres. Docker, because Playwright needs browsers.
+  # 22:00 UTC ≈ early evening in the US, catching the day's postings.
+  - type: cron
+    name: jobwatch-ingest
+    runtime: docker
+    dockerfilePath: ./Dockerfile.ingest
+    dockerContext: .
+    schedule: "0 22 * * *"
+    envVars:
+      - key: JOBWATCH_DATABASE_URL
+        fromDatabase:
+          name: jobwatch-db
+          property: connectionString
+
+  # Scheduled digest, 30 min after the scrape. Pure Go, so a native build.
+  # NOTE: until a real Mailer is configured it only logs — no email is sent yet.
+  - type: cron
+    name: jobwatch-digest
+    runtime: go
+    rootDir: backend
+    schedule: "30 22 * * *"
+    buildCommand: go build -o digest ./cmd/digest
+    startCommand: ./digest
+    envVars:
+      - key: JOBWATCH_DATABASE_URL
+        fromDatabase:
+          name: jobwatch-db
+          property: connectionString
+      - key: ANTHROPIC_API_KEY
+        sync: false

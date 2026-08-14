@@ -2,7 +2,10 @@
 // proxies to the backend in dev (see vite.config.ts). Authenticated calls carry
 // the session token as a bearer header.
 
-const BASE = "/api";
+// In dev this is unset and calls go to same-origin /api, which Vite proxies to
+// the backend. In production it's the backend's absolute URL (set at build time),
+// and the backend's CORS allows this origin.
+const BASE = import.meta.env.VITE_API_BASE || "/api";
 const SESSION_KEY = "jobwatch.session";
 
 export function getSession(): string | null {
