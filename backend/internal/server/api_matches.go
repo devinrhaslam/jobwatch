@@ -9,11 +9,7 @@ import (
 )
 
 func (s *Server) handleRunMatch(w http.ResponseWriter, r *http.Request) {
-	id, ok := userIDParam(w, r)
-	if !ok {
-		return
-	}
-	result, err := s.runMatch(r.Context(), id)
+	result, err := s.runMatch(r.Context(), currentUser(r))
 	switch {
 	case errors.Is(err, ErrNotFound):
 		writeError(w, http.StatusNotFound, "no such user")
@@ -28,10 +24,7 @@ func (s *Server) handleRunMatch(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *Server) handleGetMatches(w http.ResponseWriter, r *http.Request) {
-	id, ok := userIDParam(w, r)
-	if !ok {
-		return
-	}
+	id := currentUser(r)
 
 	since := time.Unix(0, 0).UTC()
 	if raw := r.URL.Query().Get("since"); raw != "" {

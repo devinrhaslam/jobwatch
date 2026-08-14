@@ -1,20 +1,21 @@
 import { useState, type FormEvent } from "react";
 import { api } from "../api";
-import PreferencesForm from "./PreferencesForm";
 
-export default function Onboarding({ onDone }: { onDone: (id: string) => void }) {
+export default function Login() {
   const [email, setEmail] = useState("");
-  const [userId, setUserId] = useState<string | null>(null);
+  const [sent, setSent] = useState(false);
+  const [devLink, setDevLink] = useState<string | null>(null);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
-  async function submitEmail(e: FormEvent) {
+  async function submit(e: FormEvent) {
     e.preventDefault();
     setBusy(true);
     setError("");
     try {
-      const user = await api.createUser(email.trim());
-      setUserId(user.id);
+      const res = await api.authRequest(email.trim());
+      setSent(true);
+      setDevLink(res.dev_link ?? null);
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -22,21 +23,20 @@ export default function Onboarding({ onDone }: { onDone: (id: string) => void })
     }
   }
 
-  if (userId) {
+  if (sent) {
     return (
-      <div className="card">
-        <h1>Tell us what you're after</h1>
+      <div className="card narrow">
+        <h1>Check your email</h1>
         <p className="muted">
-          We'll alert you the day a matching role is posted at the companies you
-          pick.
+          We sent a sign-in link to <strong>{email}</strong>. Click it to
+          continue — no password needed.
         </p>
-        <PreferencesForm
-          userId={userId}
-          initialProfile=""
-          initialWatchlist={[]}
-          submitLabel="Start watching"
-          onSaved={() => onDone(userId)}
-        />
+        {devLink && (
+          <p className="muted small">
+            Dev shortcut (email isn't wired up yet):{" "}
+            <a href={devLink}>open your sign-in link</a>
+          </p>
+        )}
       </div>
     );
   }
@@ -46,9 +46,9 @@ export default function Onboarding({ onDone }: { onDone: (id: string) => void })
       <h1>Be first in the pile</h1>
       <p className="muted">
         Day-one alerts for new roles at your target companies, filtered to your
-        resume.
+        resume. Enter your email and we'll send a sign-in link.
       </p>
-      <form onSubmit={submitEmail} className="stack">
+      <form onSubmit={submit} className="stack">
         <label>
           Email
           <input
@@ -61,7 +61,7 @@ export default function Onboarding({ onDone }: { onDone: (id: string) => void })
         </label>
         {error && <div className="error">{error}</div>}
         <button className="primary" disabled={busy}>
-          {busy ? "…" : "Continue"}
+          {busy ? "…" : "Send me a link"}
         </button>
       </form>
     </div>

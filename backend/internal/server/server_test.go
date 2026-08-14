@@ -62,7 +62,13 @@ CREATE TABLE IF NOT EXISTS matches (
 	company text NOT NULL, job_id text NOT NULL, reason text NOT NULL DEFAULT '',
 	matched_at timestamptz NOT NULL DEFAULT now(),
 	PRIMARY KEY (user_id, company, job_id));
-TRUNCATE jobs, company_runs, users, fit_verdicts, matches CASCADE;`
+CREATE TABLE IF NOT EXISTS login_tokens (
+	token_hash text PRIMARY KEY, user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+	expires_at timestamptz NOT NULL, used_at timestamptz);
+CREATE TABLE IF NOT EXISTS sessions (
+	token_hash text PRIMARY KEY, user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+	created_at timestamptz NOT NULL DEFAULT now(), expires_at timestamptz NOT NULL);
+TRUNCATE jobs, company_runs, users, fit_verdicts, matches, login_tokens, sessions CASCADE;`
 
 // setup resets the schema, seeds a fixed fixture, and returns a live Server.
 func setup(t *testing.T) *Server {
@@ -101,40 +107,54 @@ func setup(t *testing.T) *Server {
 	return srv
 }
 
-func get(t *testing.T, srv *Server, target string) *httptest.ResponseRecorder {
+// get and do send a request, optionally authenticated with a bearer token
+// (pass "" for none).
+func get(t *testing.T, srv *Server, token, target string) *httptest.ResponseRecorder {
 	t.Helper()
+	req := httptest.NewRequest(http.MethodGet, target, nil)
+	if token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
+	}
 	rec := httptest.NewRecorder()
-	srv.Routes().ServeHTTP(rec, httptest.NewRequest(http.MethodGet, target, nil))
+	srv.Routes().ServeHTTP(rec, req)
 	return rec
 }
 
-func do(t *testing.T, srv *Server, method, target, body string) *httptest.ResponseRecorder {
+func do(t *testing.T, srv *Server, token, method, target, body string) *httptest.ResponseRecorder {
 	t.Helper()
 	var r io.Reader
 	if body != "" {
 		r = strings.NewReader(body)
 	}
+	req := httptest.NewRequest(method, target, r)
+	if token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
+	}
 	rec := httptest.NewRecorder()
-	srv.Routes().ServeHTTP(rec, httptest.NewRequest(method, target, r))
+	srv.Routes().ServeHTTP(rec, req)
 	return rec
 }
 
-func createUser(t *testing.T, srv *Server, email string) User {
+// signIn creates (or finds) the account and mints a session directly through the
+// store, bypassing the email round-trip so tests set up an authenticated user in
+// one step. Returns the user id and the raw session token.
+func signIn(t *testing.T, srv *Server, email string) (userID, token string) {
 	t.Helper()
-	rec := do(t, srv, http.MethodPost, "/users", `{"email":"`+email+`"}`)
-	if rec.Code != http.StatusOK {
-		t.Fatalf("create user: status %d: %s", rec.Code, rec.Body.String())
+	ctx := context.Background()
+	user, err := srv.store.UpsertUser(ctx, email)
+	if err != nil {
+		t.Fatalf("signIn upsert: %v", err)
 	}
-	var u User
-	if err := json.Unmarshal(rec.Body.Bytes(), &u); err != nil {
-		t.Fatalf("decode user: %v", err)
+	raw, hash := newToken()
+	if err := srv.store.CreateSession(ctx, user.ID, hash, time.Now().Add(time.Hour)); err != nil {
+		t.Fatalf("signIn session: %v", err)
 	}
-	return u
+	return user.ID, raw
 }
 
 func TestCompaniesListsDistinctSorted(t *testing.T) {
 	srv := setup(t)
-	rec := get(t, srv, "/companies")
+	rec := get(t, srv, "", "/companies")
 	if rec.Code != http.StatusOK {
 		t.Fatalf("status = %d", rec.Code)
 	}
@@ -150,7 +170,7 @@ func TestCompaniesListsDistinctSorted(t *testing.T) {
 
 func TestJobsForCompanyNewestFirst(t *testing.T) {
 	srv := setup(t)
-	rec := get(t, srv, "/jobs?company=Acme")
+	rec := get(t, srv, "", "/jobs?company=Acme")
 	var jobs []Job
 	if err := json.Unmarshal(rec.Body.Bytes(), &jobs); err != nil {
 		t.Fatalf("decode: %v", err)
@@ -165,7 +185,7 @@ func TestJobsForCompanyNewestFirst(t *testing.T) {
 
 func TestJobsSinceFiltersToNewer(t *testing.T) {
 	srv := setup(t)
-	rec := get(t, srv, "/jobs?company=Acme&since=2026-06-01T00:00:00Z")
+	rec := get(t, srv, "", "/jobs?company=Acme&since=2026-06-01T00:00:00Z")
 	var jobs []Job
 	if err := json.Unmarshal(rec.Body.Bytes(), &jobs); err != nil {
 		t.Fatalf("decode: %v", err)
@@ -177,7 +197,7 @@ func TestJobsSinceFiltersToNewer(t *testing.T) {
 
 func TestJobsRejectsBadSince(t *testing.T) {
 	srv := setup(t)
-	rec := get(t, srv, "/jobs?since=not-a-date")
+	rec := get(t, srv, "", "/jobs?since=not-a-date")
 	if rec.Code != http.StatusBadRequest {
 		t.Fatalf("status = %d, want 400", rec.Code)
 	}
@@ -185,7 +205,7 @@ func TestJobsRejectsBadSince(t *testing.T) {
 
 func TestHealthReportsCorpusSize(t *testing.T) {
 	srv := setup(t)
-	rec := get(t, srv, "/health")
+	rec := get(t, srv, "", "/health")
 	if rec.Code != http.StatusOK {
 		t.Fatalf("status = %d", rec.Code)
 	}
@@ -203,8 +223,15 @@ func TestHealthReportsCorpusSize(t *testing.T) {
 
 func TestUserSignupIsIdempotentOnEmail(t *testing.T) {
 	srv := setup(t)
-	first := createUser(t, srv, "Dev@Example.com")
-	second := createUser(t, srv, "dev@example.com") // different case, same person
+	ctx := context.Background()
+	first, err := srv.store.UpsertUser(ctx, "Dev@Example.com")
+	if err != nil {
+		t.Fatalf("upsert: %v", err)
+	}
+	second, err := srv.store.UpsertUser(ctx, "dev@example.com") // same person, different case
+	if err != nil {
+		t.Fatalf("upsert: %v", err)
+	}
 	if first.ID != second.ID {
 		t.Fatalf("signup created two accounts: %s vs %s", first.ID, second.ID)
 	}
@@ -213,17 +240,82 @@ func TestUserSignupIsIdempotentOnEmail(t *testing.T) {
 	}
 }
 
-func TestSetProfileReadsBackOnUserView(t *testing.T) {
+func TestMagicLinkFlowIssuesAWorkingSession(t *testing.T) {
 	srv := setup(t)
-	user := createUser(t, srv, "a@example.com")
+	srv.devAuth = true // return the link in the body so the test can follow it
 
-	rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/profile",
-		`{"profile":"Senior backend engineer, US-remote"}`)
-	if rec.Code != http.StatusNoContent {
+	rec := do(t, srv, "", http.MethodPost, "/auth/request", `{"email":"login@example.com"}`)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("request: status %d: %s", rec.Code, rec.Body.String())
+	}
+	var reqResp struct {
+		DevLink string `json:"dev_link"`
+	}
+	json.Unmarshal(rec.Body.Bytes(), &reqResp)
+	idx := strings.Index(reqResp.DevLink, "token=")
+	if idx < 0 {
+		t.Fatalf("no token in dev link: %q", reqResp.DevLink)
+	}
+	loginToken := reqResp.DevLink[idx+len("token="):]
+
+	rec = do(t, srv, "", http.MethodPost, "/auth/verify", `{"token":"`+loginToken+`"}`)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("verify: status %d: %s", rec.Code, rec.Body.String())
+	}
+	var verifyResp struct {
+		Token string   `json:"token"`
+		User  UserView `json:"user"`
+	}
+	json.Unmarshal(rec.Body.Bytes(), &verifyResp)
+	if verifyResp.Token == "" || verifyResp.User.Email != "login@example.com" {
+		t.Fatalf("verify response = %+v", verifyResp)
+	}
+
+	// The session token authenticates /me.
+	if rec := get(t, srv, verifyResp.Token, "/me"); rec.Code != http.StatusOK {
+		t.Fatalf("GET /me with session: status %d", rec.Code)
+	}
+
+	// A login token is single-use: verifying it again fails.
+	if rec := do(t, srv, "", http.MethodPost, "/auth/verify", `{"token":"`+loginToken+`"}`); rec.Code != http.StatusUnauthorized {
+		t.Fatalf("reused login token: status %d, want 401", rec.Code)
+	}
+}
+
+func TestMeRequiresAuthentication(t *testing.T) {
+	srv := setup(t)
+	if rec := get(t, srv, "", "/me"); rec.Code != http.StatusUnauthorized {
+		t.Fatalf("no token: status %d, want 401", rec.Code)
+	}
+	if rec := get(t, srv, "bogus-token", "/me"); rec.Code != http.StatusUnauthorized {
+		t.Fatalf("bad token: status %d, want 401", rec.Code)
+	}
+}
+
+func TestLogoutRevokesTheSession(t *testing.T) {
+	srv := setup(t)
+	_, token := signIn(t, srv, "out@example.com")
+	if rec := get(t, srv, token, "/me"); rec.Code != http.StatusOK {
+		t.Fatalf("pre-logout /me: status %d", rec.Code)
+	}
+	if rec := do(t, srv, token, http.MethodPost, "/auth/logout", ""); rec.Code != http.StatusNoContent {
+		t.Fatalf("logout: status %d", rec.Code)
+	}
+	if rec := get(t, srv, token, "/me"); rec.Code != http.StatusUnauthorized {
+		t.Fatalf("post-logout /me: status %d, want 401", rec.Code)
+	}
+}
+
+func TestSetProfileReadsBackOnMe(t *testing.T) {
+	srv := setup(t)
+	_, token := signIn(t, srv, "a@example.com")
+
+	if rec := do(t, srv, token, http.MethodPut, "/me/profile",
+		`{"profile":"Senior backend engineer, US-remote"}`); rec.Code != http.StatusNoContent {
 		t.Fatalf("set profile: status %d", rec.Code)
 	}
 
-	rec = get(t, srv, "/users/"+user.ID)
+	rec := get(t, srv, token, "/me")
 	var view UserView
 	if err := json.Unmarshal(rec.Body.Bytes(), &view); err != nil {
 		t.Fatalf("decode: %v", err)
@@ -235,18 +327,18 @@ func TestSetProfileReadsBackOnUserView(t *testing.T) {
 
 func TestSetWatchlistReplacesAndValidates(t *testing.T) {
 	srv := setup(t)
-	user := createUser(t, srv, "b@example.com")
+	_, token := signIn(t, srv, "b@example.com")
 
-	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+	if rec := do(t, srv, token, http.MethodPut, "/me/watchlist",
 		`{"companies":["Acme"]}`); rec.Code != http.StatusNoContent {
 		t.Fatalf("set [Acme]: status %d: %s", rec.Code, rec.Body.String())
 	}
-	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+	if rec := do(t, srv, token, http.MethodPut, "/me/watchlist",
 		`{"companies":["Acme","Beta"]}`); rec.Code != http.StatusNoContent {
 		t.Fatalf("set [Acme,Beta]: status %d", rec.Code)
 	}
 
-	rec := get(t, srv, "/users/"+user.ID)
+	rec := get(t, srv, token, "/me")
 	var view UserView
 	json.Unmarshal(rec.Body.Bytes(), &view)
 	if len(view.Watchlist) != 2 || view.Watchlist[0] != "Acme" || view.Watchlist[1] != "Beta" {
@@ -254,7 +346,7 @@ func TestSetWatchlistReplacesAndValidates(t *testing.T) {
 	}
 
 	// An untracked company is rejected, and the watchlist is left unchanged.
-	rec = do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+	rec = do(t, srv, token, http.MethodPut, "/me/watchlist",
 		`{"companies":["Nonexistent Co"]}`)
 	if rec.Code != http.StatusBadRequest {
 		t.Fatalf("untracked company: status %d, want 400", rec.Code)
@@ -266,19 +358,19 @@ func TestSetWatchlistReplacesAndValidates(t *testing.T) {
 // back-catalogue every time they edit their list.
 func TestWatchlistResavePreservesAddedAt(t *testing.T) {
 	srv := setup(t)
-	user := createUser(t, srv, "c@example.com")
+	userID, token := signIn(t, srv, "c@example.com")
 
-	do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist", `{"companies":["Acme"]}`)
-	original := addedAt(t, user.ID, "Acme")
+	do(t, srv, token, http.MethodPut, "/me/watchlist", `{"companies":["Acme"]}`)
+	original := addedAt(t, userID, "Acme")
 
 	// Re-save with Acme still present plus a new company.
-	do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist", `{"companies":["Acme","Beta"]}`)
-	after := addedAt(t, user.ID, "Acme")
+	do(t, srv, token, http.MethodPut, "/me/watchlist", `{"companies":["Acme","Beta"]}`)
+	after := addedAt(t, userID, "Acme")
 
 	if !original.Equal(after) {
 		t.Fatalf("Acme added_at moved on resave: %s -> %s", original, after)
 	}
-	if betaAdded := addedAt(t, user.ID, "Beta"); !betaAdded.After(original) {
+	if betaAdded := addedAt(t, userID, "Beta"); !betaAdded.After(original) {
 		t.Fatalf("Beta added_at %s should be after Acme's %s", betaAdded, original)
 	}
 }

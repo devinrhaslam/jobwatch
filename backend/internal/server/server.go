@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"time"
 )
@@ -14,37 +15,58 @@ const (
 	maxJobsLimit     = 1000
 )
 
-// Server holds the read store, the fit classifier, and the HTTP handlers.
+// Server holds the read/write store, the fit classifier, the mailer, and the
+// HTTP handlers.
 type Server struct {
 	store      *Store
 	classifier Classifier
+	mailer     Mailer
+	appBaseURL string // where the magic link points (the frontend origin)
+	devAuth    bool   // when true, /auth/request returns the link in its body
 }
 
-// New connects the store and wires the Claude-backed fit classifier. The caller
-// must Close it. Tests override the classifier field with a stub so they never
-// hit the network.
+// New connects the store and wires the Claude-backed fit classifier and the dev
+// mailer. The caller must Close it. Tests override the classifier and mailer
+// fields with stubs so they never hit the network. Config from env:
+// JOBWATCH_APP_URL (magic-link base, default http://localhost:5173) and
+// JOBWATCH_DEV_AUTH (=1 to return the link in the response, for local dev).
 func New(ctx context.Context, dsn string) (*Server, error) {
 	store, err := newStore(ctx, dsn)
 	if err != nil {
 		return nil, err
 	}
-	return &Server{store: store, classifier: newClaudeClassifier()}, nil
+	appURL := os.Getenv("JOBWATCH_APP_URL")
+	if appURL == "" {
+		appURL = "http://localhost:5173"
+	}
+	return &Server{
+		store:      store,
+		classifier: newClaudeClassifier(),
+		mailer:     logMailer{},
+		appBaseURL: appURL,
+		devAuth:    os.Getenv("JOBWATCH_DEV_AUTH") == "1",
+	}, nil
 }
 
 func (s *Server) Close() { s.store.Close() }
 
-// Routes wires the read API. Method-qualified patterns need Go 1.22+.
+// Routes wires the API. Method-qualified patterns need Go 1.22+. Public routes
+// serve reference data and the login flow; /me routes require a session.
 func (s *Server) Routes() http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /companies", s.handleCompanies)
 	mux.HandleFunc("GET /jobs", s.handleJobs)
 	mux.HandleFunc("GET /health", s.handleHealth)
-	mux.HandleFunc("POST /users", s.handleCreateUser)
-	mux.HandleFunc("GET /users/{id}", s.handleGetUser)
-	mux.HandleFunc("PUT /users/{id}/profile", s.handleSetProfile)
-	mux.HandleFunc("PUT /users/{id}/watchlist", s.handleSetWatchlist)
-	mux.HandleFunc("POST /users/{id}/match", s.handleRunMatch)
-	mux.HandleFunc("GET /users/{id}/matches", s.handleGetMatches)
+
+	mux.HandleFunc("POST /auth/request", s.handleAuthRequest)
+	mux.HandleFunc("POST /auth/verify", s.handleAuthVerify)
+	mux.HandleFunc("POST /auth/logout", s.handleLogout)
+
+	mux.HandleFunc("GET /me", s.authed(s.handleGetMe))
+	mux.HandleFunc("PUT /me/profile", s.authed(s.handleSetProfile))
+	mux.HandleFunc("PUT /me/watchlist", s.authed(s.handleSetWatchlist))
+	mux.HandleFunc("POST /me/match", s.authed(s.handleRunMatch))
+	mux.HandleFunc("GET /me/matches", s.authed(s.handleGetMatches))
 	return mux
 }
 

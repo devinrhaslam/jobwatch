@@ -1,23 +1,56 @@
-import { useState } from "react";
-import Onboarding from "./components/Onboarding";
+import { useCallback, useEffect, useState } from "react";
+import {
+  api,
+  clearSession,
+  getSession,
+  setSession,
+  type UserView,
+} from "./api";
+import Login from "./components/Login";
+import Setup from "./components/Setup";
 import Dashboard from "./components/Dashboard";
 
-// No auth yet: the signed-in user is just an id held in localStorage, a dev
-// stand-in until magic-link auth lands. Signing out forgets it.
-const USER_KEY = "jobwatch.userId";
-
 export default function App() {
-  const [userId, setUserId] = useState<string | null>(() =>
-    localStorage.getItem(USER_KEY),
-  );
+  const [user, setUser] = useState<UserView | null>(null);
+  const [ready, setReady] = useState(false);
 
-  function signIn(id: string) {
-    localStorage.setItem(USER_KEY, id);
-    setUserId(id);
-  }
+  const reload = useCallback(async () => {
+    setUser(await api.me());
+  }, []);
+
+  useEffect(() => {
+    (async () => {
+      // Magic-link landing: /verify?token=… exchanges the login token for a
+      // session, then cleans the URL.
+      const params = new URLSearchParams(window.location.search);
+      const linkToken = params.get("token");
+      if (linkToken && window.location.pathname === "/verify") {
+        try {
+          const { token, user } = await api.authVerify(linkToken);
+          setSession(token);
+          setUser(user);
+        } catch {
+          clearSession();
+        }
+        window.history.replaceState({}, "", "/");
+        setReady(true);
+        return;
+      }
+      if (getSession()) {
+        try {
+          setUser(await api.me());
+        } catch {
+          clearSession();
+        }
+      }
+      setReady(true);
+    })();
+  }, []);
+
   function signOut() {
-    localStorage.removeItem(USER_KEY);
-    setUserId(null);
+    api.logout().catch(() => {});
+    clearSession();
+    setUser(null);
   }
 
   return (
@@ -26,21 +59,25 @@ export default function App() {
         <div className="brand">
           job<span>watch</span>
         </div>
-        {userId && (
+        {user && (
           <button className="link" onClick={signOut}>
             sign out
           </button>
         )}
       </header>
       <main className="container">
-        {userId ? (
-          <Dashboard userId={userId} />
+        {!ready ? (
+          <div className="card">Signing you in…</div>
+        ) : !user ? (
+          <Login />
+        ) : user.profile === null ? (
+          <Setup onSaved={reload} />
         ) : (
-          <Onboarding onDone={signIn} />
+          <Dashboard user={user} onReload={reload} />
         )}
       </main>
       <footer className="foot">
-        Dev preview · accounts are unauthenticated until magic-link auth lands
+        Dev preview · passwordless sign-in by magic link
       </footer>
     </div>
   );

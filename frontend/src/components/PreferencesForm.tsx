@@ -1,16 +1,15 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { api } from "../api";
 
-// Shared by onboarding and the dashboard's edit view: the profile textarea plus
-// a searchable company multi-select, saving both profile and watchlist.
+// The profile textarea plus a searchable company multi-select, saving both the
+// profile and watchlist for the signed-in user. Used by first-time Setup and the
+// dashboard's edit view.
 export default function PreferencesForm({
-  userId,
   initialProfile,
   initialWatchlist,
   submitLabel,
   onSaved,
 }: {
-  userId: string;
   initialProfile: string;
   initialWatchlist: string[];
   submitLabel: string;
@@ -46,8 +45,8 @@ export default function PreferencesForm({
     setBusy(true);
     setError("");
     try {
-      await api.setProfile(userId, profile.trim());
-      await api.setWatchlist(userId, [...selected]);
+      await api.setProfile(profile.trim());
+      await api.setWatchlist([...selected]);
       onSaved();
     } catch (err) {
       setError((err as Error).message);

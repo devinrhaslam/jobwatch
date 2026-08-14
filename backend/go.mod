@@ -4,7 +4,6 @@ go 1.26.1
 
 require (
 	github.com/anthropics/anthropic-sdk-go v1.63.1
-	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.10.0
 )
 

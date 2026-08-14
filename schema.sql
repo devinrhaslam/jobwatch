@@ -111,3 +111,24 @@ CREATE TABLE IF NOT EXISTS matches (
 
 CREATE INDEX IF NOT EXISTS matches_user_matched_at_idx
     ON matches (user_id, matched_at DESC);
+
+-- Magic-link login tokens. Only the SHA-256 of the emailed token is stored, so a
+-- database leak yields nothing usable. Single-use (used_at) and short-lived
+-- (expires_at); the raw token lives only in the email.
+CREATE TABLE IF NOT EXISTS login_tokens (
+    token_hash text        PRIMARY KEY,
+    user_id    uuid        NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    expires_at timestamptz NOT NULL,
+    used_at    timestamptz
+);
+
+-- Session tokens issued after a login link is verified. Same hash-only storage;
+-- a row is a bearer credential, revocable by deletion (logout).
+CREATE TABLE IF NOT EXISTS sessions (
+    token_hash text        PRIMARY KEY,
+    user_id    uuid        NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    created_at timestamptz NOT NULL DEFAULT now(),
+    expires_at timestamptz NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS sessions_user_idx ON sessions (user_id);

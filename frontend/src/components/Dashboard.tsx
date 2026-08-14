@@ -3,41 +3,41 @@ import { api, type Match, type UserView } from "../api";
 import PreferencesForm from "./PreferencesForm";
 import MatchList from "./MatchList";
 
-export default function Dashboard({ userId }: { userId: string }) {
-  const [user, setUser] = useState<UserView | null>(null);
+export default function Dashboard({
+  user,
+  onReload,
+}: {
+  user: UserView;
+  onReload: () => Promise<void>;
+}) {
   const [matches, setMatches] = useState<Match[]>([]);
   const [editing, setEditing] = useState(false);
   const [status, setStatus] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
-  const load = useCallback(async () => {
+  const loadMatches = useCallback(async () => {
     try {
-      const [u, m] = await Promise.all([
-        api.getUser(userId),
-        api.matches(userId),
-      ]);
-      setUser(u);
-      setMatches(m);
+      setMatches(await api.matches());
     } catch (e) {
       setError((e as Error).message);
     }
-  }, [userId]);
+  }, []);
 
   useEffect(() => {
-    load();
-  }, [load]);
+    loadMatches();
+  }, [loadMatches]);
 
   async function runMatch() {
     setBusy(true);
     setStatus("");
     setError("");
     try {
-      const r = await api.runMatch(userId);
+      const r = await api.runMatch();
       setStatus(
         `Checked ${r.evaluated} new posting${r.evaluated === 1 ? "" : "s"}, kept ${r.kept}.`,
       );
-      await load();
+      await loadMatches();
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -45,26 +45,17 @@ export default function Dashboard({ userId }: { userId: string }) {
     }
   }
 
-  if (!user) {
-    return (
-      <div className="card">
-        {error ? <div className="error">{error}</div> : "Loading…"}
-      </div>
-    );
-  }
-
   if (editing) {
     return (
       <div className="card">
         <h1>Edit your preferences</h1>
         <PreferencesForm
-          userId={userId}
           initialProfile={user.profile ?? ""}
           initialWatchlist={user.watchlist}
           submitLabel="Save"
-          onSaved={() => {
+          onSaved={async () => {
             setEditing(false);
-            load();
+            await onReload();
           }}
         />
       </div>

@@ -49,9 +49,9 @@ func backdateWatchlist(t *testing.T, userID, when string) {
 	}
 }
 
-func matchUser(t *testing.T, srv *Server, userID string) MatchResult {
+func matchUser(t *testing.T, srv *Server, token string) MatchResult {
 	t.Helper()
-	rec := do(t, srv, http.MethodPost, "/users/"+userID+"/match", "")
+	rec := do(t, srv, token, http.MethodPost, "/me/match", "")
 	if rec.Code != http.StatusOK {
 		t.Fatalf("match: status %d: %s", rec.Code, rec.Body.String())
 	}
@@ -63,26 +63,26 @@ func matchUser(t *testing.T, srv *Server, userID string) MatchResult {
 }
 
 // The fixture (from setup) seeds Acme "1" Backend Engineer @ 2026-01-01 and
-// Acme "2" Frontend Engineer @ 2026-08-01.
-func matchReadyUser(t *testing.T, srv *Server, stub *stubClassifier, email string) string {
+// Acme "2" Frontend Engineer @ 2026-08-01. Returns the user id and session token.
+func matchReadyUser(t *testing.T, srv *Server, stub *stubClassifier, email string) (string, string) {
 	t.Helper()
-	user := createUser(t, srv, email)
-	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/profile",
+	userID, token := signIn(t, srv, email)
+	if rec := do(t, srv, token, http.MethodPut, "/me/profile",
 		`{"profile":"Senior backend engineer, US-remote"}`); rec.Code != http.StatusNoContent {
 		t.Fatalf("set profile: %d", rec.Code)
 	}
-	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+	if rec := do(t, srv, token, http.MethodPut, "/me/watchlist",
 		`{"companies":["Acme"]}`); rec.Code != http.StatusNoContent {
 		t.Fatalf("set watchlist: %d", rec.Code)
 	}
 	srv.classifier = stub
-	return user.ID
+	return userID, token
 }
 
 func TestMatchRequiresAProfile(t *testing.T) {
 	srv := setup(t)
-	user := createUser(t, srv, "np@example.com")
-	rec := do(t, srv, http.MethodPost, "/users/"+user.ID+"/match", "")
+	_, token := signIn(t, srv, "np@example.com")
+	rec := do(t, srv, token, http.MethodPost, "/me/match", "")
 	if rec.Code != http.StatusBadRequest {
 		t.Fatalf("status %d, want 400 (no profile)", rec.Code)
 	}
@@ -91,15 +91,15 @@ func TestMatchRequiresAProfile(t *testing.T) {
 func TestMatchStagesKeepersAndFiltersDrops(t *testing.T) {
 	srv := setup(t)
 	stub := &stubClassifier{off: []string{"Frontend"}}
-	userID := matchReadyUser(t, srv, stub, "m1@example.com")
+	userID, token := matchReadyUser(t, srv, stub, "m1@example.com")
 	backdateWatchlist(t, userID, "2025-01-01T00:00:00Z")
 
-	result := matchUser(t, srv, userID)
+	result := matchUser(t, srv, token)
 	if result.Evaluated != 2 || result.Kept != 1 {
 		t.Fatalf("result = %+v, want evaluated 2 / kept 1", result)
 	}
 
-	rec := get(t, srv, "/users/"+userID+"/matches")
+	rec := get(t, srv, token, "/me/matches")
 	var matches []Match
 	json.Unmarshal(rec.Body.Bytes(), &matches)
 	if len(matches) != 1 || matches[0].JobID != "1" { // "1" is the Backend Engineer
@@ -110,11 +110,11 @@ func TestMatchStagesKeepersAndFiltersDrops(t *testing.T) {
 func TestMatchSeedingBoundaryExcludesPreAddJobs(t *testing.T) {
 	srv := setup(t)
 	stub := &stubClassifier{}
-	userID := matchReadyUser(t, srv, stub, "m2@example.com")
+	userID, token := matchReadyUser(t, srv, stub, "m2@example.com")
 	// Added between the two jobs: only the 2026-08-01 one is after this floor.
 	backdateWatchlist(t, userID, "2026-03-01T00:00:00Z")
 
-	result := matchUser(t, srv, userID)
+	result := matchUser(t, srv, token)
 	if result.Evaluated != 1 {
 		t.Fatalf("evaluated = %d, want 1 (pre-add job excluded)", result.Evaluated)
 	}
@@ -123,13 +123,13 @@ func TestMatchSeedingBoundaryExcludesPreAddJobs(t *testing.T) {
 func TestSecondMatchRunReportsNothingNew(t *testing.T) {
 	srv := setup(t)
 	stub := &stubClassifier{}
-	userID := matchReadyUser(t, srv, stub, "m3@example.com")
+	userID, token := matchReadyUser(t, srv, stub, "m3@example.com")
 	backdateWatchlist(t, userID, "2025-01-01T00:00:00Z")
 
-	if first := matchUser(t, srv, userID); first.Evaluated != 2 {
+	if first := matchUser(t, srv, token); first.Evaluated != 2 {
 		t.Fatalf("first run evaluated %d, want 2", first.Evaluated)
 	}
-	if second := matchUser(t, srv, userID); second.Evaluated != 0 {
+	if second := matchUser(t, srv, token); second.Evaluated != 0 {
 		t.Fatalf("second run evaluated %d, want 0 (cursor advanced)", second.Evaluated)
 	}
 }
@@ -137,10 +137,10 @@ func TestSecondMatchRunReportsNothingNew(t *testing.T) {
 func TestVerdictCachePreventsReclassification(t *testing.T) {
 	srv := setup(t)
 	stub := &stubClassifier{}
-	userID := matchReadyUser(t, srv, stub, "m4@example.com")
+	userID, token := matchReadyUser(t, srv, stub, "m4@example.com")
 	backdateWatchlist(t, userID, "2025-01-01T00:00:00Z")
 
-	matchUser(t, srv, userID)
+	matchUser(t, srv, token)
 	if stub.calls != 1 {
 		t.Fatalf("classifier called %d times on first run, want 1", stub.calls)
 	}
@@ -151,7 +151,7 @@ func TestVerdictCachePreventsReclassification(t *testing.T) {
 	defer pool.Close()
 	pool.Exec(context.Background(), `UPDATE users SET last_matched_at = NULL WHERE id = $1`, userID)
 
-	matchUser(t, srv, userID)
+	matchUser(t, srv, token)
 	if stub.calls != 1 {
 		t.Fatalf("classifier called %d times total, want 1 (cache should serve the rerun)", stub.calls)
 	}
