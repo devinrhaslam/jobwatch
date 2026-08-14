@@ -82,6 +82,10 @@ CREATE TABLE IF NOT EXISTS user_companies (
 -- so a routine run only looks at jobs first seen since the last one.
 ALTER TABLE users ADD COLUMN IF NOT EXISTS last_matched_at timestamptz;
 
+-- When a user was last emailed a digest. The digest run emails matches staged
+-- since this moment, then advances it, so a match is emailed exactly once.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_digest_at timestamptz;
+
 -- Cache of role-fit verdicts, keyed by a hash of the prompt+profile so two users
 -- with identical profiles share judgments and a profile edit invalidates cleanly.
 -- Location is part of the key because it is part of the verdict (a title is a keep
