@@ -306,6 +306,25 @@ func TestLogoutRevokesTheSession(t *testing.T) {
 	}
 }
 
+func TestDeleteMeWipesTheAccountAndSession(t *testing.T) {
+	srv := setup(t)
+	userID, token := signIn(t, srv, "gone@example.com")
+	do(t, srv, token, http.MethodPut, "/me/profile", `{"profile":"my resume text"}`)
+	do(t, srv, token, http.MethodPut, "/me/watchlist", `{"companies":["Acme"]}`)
+
+	if rec := do(t, srv, token, http.MethodDelete, "/me", ""); rec.Code != http.StatusNoContent {
+		t.Fatalf("delete: status %d", rec.Code)
+	}
+	// The session cascaded away, so the token no longer authenticates.
+	if rec := get(t, srv, token, "/me"); rec.Code != http.StatusUnauthorized {
+		t.Fatalf("post-delete /me: status %d, want 401", rec.Code)
+	}
+	// And the personal data is gone.
+	if wl, _ := srv.store.Watchlist(context.Background(), userID); len(wl) != 0 {
+		t.Fatalf("watchlist survived deletion: %v", wl)
+	}
+}
+
 func TestSetProfileReadsBackOnMe(t *testing.T) {
 	srv := setup(t)
 	_, token := signIn(t, srv, "a@example.com")

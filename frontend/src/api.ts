@@ -81,6 +81,7 @@ export const api = {
     }),
   logout: () => req<void>("/auth/logout", { method: "POST" }),
   me: () => req<UserView>("/me"),
+  deleteAccount: () => req<void>("/me", { method: "DELETE" }),
   setProfile: (profile: string) =>
     req<void>("/me/profile", { method: "PUT", body: { profile } }),
   setWatchlist: (companies: string[]) =>

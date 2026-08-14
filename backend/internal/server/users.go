@@ -43,6 +43,15 @@ func (s *Store) UpsertUser(ctx context.Context, email string) (User, error) {
 	return u, err
 }
 
+// DeleteUser removes the account and, by ON DELETE CASCADE, everything tied to
+// it: profile, watchlist, matches, sessions, and login tokens. fit_verdicts is
+// keyed by an anonymous profile hash, carries no personal data, and is left as
+// cache. Deleting the sessions immediately invalidates the caller's token.
+func (s *Store) DeleteUser(ctx context.Context, userID string) error {
+	_, err := s.pool.Exec(ctx, `DELETE FROM users WHERE id = $1`, userID)
+	return err
+}
+
 func (s *Store) userExists(ctx context.Context, id string) (bool, error) {
 	var exists bool
 	err := s.pool.QueryRow(ctx,

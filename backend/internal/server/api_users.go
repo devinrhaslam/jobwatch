@@ -26,6 +26,15 @@ func (s *Server) handleGetMe(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, view)
 }
 
+func (s *Server) handleDeleteMe(w http.ResponseWriter, r *http.Request) {
+	if err := s.store.DeleteUser(r.Context(), currentUser(r)); err != nil {
+		log.Printf("delete account: %v", err)
+		writeError(w, http.StatusInternalServerError, "could not delete account")
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
+}
+
 func (s *Server) handleSetProfile(w http.ResponseWriter, r *http.Request) {
 	var body struct {
 		Profile string `json:"profile"`

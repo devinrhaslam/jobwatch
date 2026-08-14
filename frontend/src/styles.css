@@ -272,6 +272,21 @@ button.link {
   white-space: nowrap;
 }
 
+.dangerzone {
+  text-align: center;
+  padding: 4px;
+}
+.danger-link {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: underline;
+}
+.danger-link:hover {
+  color: var(--danger);
+}
+
 @media (max-width: 520px) {
   .container {
     padding: 16px 12px;

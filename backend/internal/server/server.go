@@ -63,6 +63,7 @@ func (s *Server) Routes() http.Handler {
 	mux.HandleFunc("POST /auth/logout", s.handleLogout)
 
 	mux.HandleFunc("GET /me", s.authed(s.handleGetMe))
+	mux.HandleFunc("DELETE /me", s.authed(s.handleDeleteMe))
 	mux.HandleFunc("PUT /me/profile", s.authed(s.handleSetProfile))
 	mux.HandleFunc("PUT /me/watchlist", s.authed(s.handleSetWatchlist))
 	mux.HandleFunc("POST /me/match", s.authed(s.handleRunMatch))

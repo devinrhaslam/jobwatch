@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { api, type Match, type UserView } from "../api";
+import { api, clearSession, type Match, type UserView } from "../api";
 import PreferencesForm from "./PreferencesForm";
 import MatchList from "./MatchList";
 
@@ -27,6 +27,22 @@ export default function Dashboard({
   useEffect(() => {
     loadMatches();
   }, [loadMatches]);
+
+  async function deleteAccount() {
+    if (
+      !window.confirm(
+        "Delete your account and all your data? This can't be undone.",
+      )
+    )
+      return;
+    try {
+      await api.deleteAccount();
+    } catch {
+      // even if the call fails, forget the session locally
+    }
+    clearSession();
+    window.location.assign("/");
+  }
 
   async function runMatch() {
     setBusy(true);
@@ -96,6 +112,12 @@ export default function Dashboard({
         {status && <div className="note">{status}</div>}
         {error && <div className="error">{error}</div>}
         <MatchList matches={matches} />
+      </div>
+
+      <div className="dangerzone">
+        <button className="danger-link" onClick={deleteAccount}>
+          Delete account and data
+        </button>
       </div>
     </div>
   );
