@@ -3,9 +3,11 @@ package server
 import (
 	"context"
 	"encoding/json"
+	"io"
 	"net/http"
 	"net/http/httptest"
 	"os"
+	"strings"
 	"testing"
 	"time"
 
@@ -39,7 +41,17 @@ CREATE TABLE IF NOT EXISTS company_runs (
 	id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY, company text NOT NULL,
 	ran_at timestamptz NOT NULL DEFAULT now(), status text NOT NULL,
 	jobs_read integer NOT NULL DEFAULT 0, jobs_new integer NOT NULL DEFAULT 0, error text);
-TRUNCATE jobs, company_runs;`
+CREATE TABLE IF NOT EXISTS users (
+	id uuid PRIMARY KEY DEFAULT gen_random_uuid(), email text NOT NULL UNIQUE,
+	created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS user_profiles (
+	user_id uuid PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+	profile_text text NOT NULL, updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS user_companies (
+	user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+	company text NOT NULL, added_at timestamptz NOT NULL DEFAULT now(),
+	PRIMARY KEY (user_id, company));
+TRUNCATE jobs, company_runs, users CASCADE;`
 
 // setup resets the schema, seeds a fixed fixture, and returns a live Server.
 func setup(t *testing.T) *Server {
@@ -83,6 +95,30 @@ func get(t *testing.T, srv *Server, target string) *httptest.ResponseRecorder {
 	rec := httptest.NewRecorder()
 	srv.Routes().ServeHTTP(rec, httptest.NewRequest(http.MethodGet, target, nil))
 	return rec
+}
+
+func do(t *testing.T, srv *Server, method, target, body string) *httptest.ResponseRecorder {
+	t.Helper()
+	var r io.Reader
+	if body != "" {
+		r = strings.NewReader(body)
+	}
+	rec := httptest.NewRecorder()
+	srv.Routes().ServeHTTP(rec, httptest.NewRequest(method, target, r))
+	return rec
+}
+
+func createUser(t *testing.T, srv *Server, email string) User {
+	t.Helper()
+	rec := do(t, srv, http.MethodPost, "/users", `{"email":"`+email+`"}`)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("create user: status %d: %s", rec.Code, rec.Body.String())
+	}
+	var u User
+	if err := json.Unmarshal(rec.Body.Bytes(), &u); err != nil {
+		t.Fatalf("decode user: %v", err)
+	}
+	return u
 }
 
 func TestCompaniesListsDistinctSorted(t *testing.T) {
@@ -152,4 +188,103 @@ func TestHealthReportsCorpusSize(t *testing.T) {
 	if len(h.Problems) != 0 {
 		t.Fatalf("problems = %v, want none", h.Problems)
 	}
+}
+
+func TestUserSignupIsIdempotentOnEmail(t *testing.T) {
+	srv := setup(t)
+	first := createUser(t, srv, "Dev@Example.com")
+	second := createUser(t, srv, "dev@example.com") // different case, same person
+	if first.ID != second.ID {
+		t.Fatalf("signup created two accounts: %s vs %s", first.ID, second.ID)
+	}
+	if second.Email != "dev@example.com" {
+		t.Fatalf("email not normalised: %q", second.Email)
+	}
+}
+
+func TestSetProfileReadsBackOnUserView(t *testing.T) {
+	srv := setup(t)
+	user := createUser(t, srv, "a@example.com")
+
+	rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/profile",
+		`{"profile":"Senior backend engineer, US-remote"}`)
+	if rec.Code != http.StatusNoContent {
+		t.Fatalf("set profile: status %d", rec.Code)
+	}
+
+	rec = get(t, srv, "/users/"+user.ID)
+	var view UserView
+	if err := json.Unmarshal(rec.Body.Bytes(), &view); err != nil {
+		t.Fatalf("decode: %v", err)
+	}
+	if view.Profile == nil || *view.Profile != "Senior backend engineer, US-remote" {
+		t.Fatalf("profile = %v", view.Profile)
+	}
+}
+
+func TestSetWatchlistReplacesAndValidates(t *testing.T) {
+	srv := setup(t)
+	user := createUser(t, srv, "b@example.com")
+
+	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+		`{"companies":["Acme"]}`); rec.Code != http.StatusNoContent {
+		t.Fatalf("set [Acme]: status %d: %s", rec.Code, rec.Body.String())
+	}
+	if rec := do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+		`{"companies":["Acme","Beta"]}`); rec.Code != http.StatusNoContent {
+		t.Fatalf("set [Acme,Beta]: status %d", rec.Code)
+	}
+
+	rec := get(t, srv, "/users/"+user.ID)
+	var view UserView
+	json.Unmarshal(rec.Body.Bytes(), &view)
+	if len(view.Watchlist) != 2 || view.Watchlist[0] != "Acme" || view.Watchlist[1] != "Beta" {
+		t.Fatalf("watchlist = %v", view.Watchlist)
+	}
+
+	// An untracked company is rejected, and the watchlist is left unchanged.
+	rec = do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist",
+		`{"companies":["Nonexistent Co"]}`)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("untracked company: status %d, want 400", rec.Code)
+	}
+}
+
+// The seeding boundary: re-saving a watchlist that still contains a company must
+// not reset its added_at, or a user would be re-alerted about that company's
+// back-catalogue every time they edit their list.
+func TestWatchlistResavePreservesAddedAt(t *testing.T) {
+	srv := setup(t)
+	user := createUser(t, srv, "c@example.com")
+
+	do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist", `{"companies":["Acme"]}`)
+	original := addedAt(t, user.ID, "Acme")
+
+	// Re-save with Acme still present plus a new company.
+	do(t, srv, http.MethodPut, "/users/"+user.ID+"/watchlist", `{"companies":["Acme","Beta"]}`)
+	after := addedAt(t, user.ID, "Acme")
+
+	if !original.Equal(after) {
+		t.Fatalf("Acme added_at moved on resave: %s -> %s", original, after)
+	}
+	if betaAdded := addedAt(t, user.ID, "Beta"); !betaAdded.After(original) {
+		t.Fatalf("Beta added_at %s should be after Acme's %s", betaAdded, original)
+	}
+}
+
+func addedAt(t *testing.T, userID, company string) time.Time {
+	t.Helper()
+	pool, err := pgxpool.New(context.Background(), os.Getenv("JOBWATCH_TEST_DATABASE_URL"))
+	if err != nil {
+		t.Fatalf("connect: %v", err)
+	}
+	defer pool.Close()
+	var ts time.Time
+	if err := pool.QueryRow(context.Background(),
+		`SELECT added_at FROM user_companies WHERE user_id = $1 AND company = $2`,
+		userID, company,
+	).Scan(&ts); err != nil {
+		t.Fatalf("added_at(%s): %v", company, err)
+	}
+	return ts
 }

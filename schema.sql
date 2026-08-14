@@ -49,3 +49,30 @@ CREATE TABLE IF NOT EXISTS company_runs (
 
 CREATE INDEX IF NOT EXISTS company_runs_company_ran_at_idx
     ON company_runs (company, ran_at DESC);
+
+-- One account per email. gen_random_uuid() is built into Postgres 13+. Email is
+-- normalised to lowercase by the application before it reaches here, so the
+-- UNIQUE constraint is the real one-account-per-person rule.
+CREATE TABLE IF NOT EXISTS users (
+    id         uuid        PRIMARY KEY DEFAULT gen_random_uuid(),
+    email      text        NOT NULL UNIQUE,
+    created_at timestamptz NOT NULL DEFAULT now()
+);
+
+-- The free-text description the fit filter judges against — this is the per-user
+-- half of what filters.py currently holds as a single global CANDIDATE_PROFILE.
+CREATE TABLE IF NOT EXISTS user_profiles (
+    user_id      uuid        PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+    profile_text text        NOT NULL,
+    updated_at   timestamptz NOT NULL DEFAULT now()
+);
+
+-- A user's watchlist: which tracked companies they want alerts for. added_at is
+-- the per-user seeding boundary — a company added today should only ever alert
+-- on jobs first seen after this moment, never the back-catalogue.
+CREATE TABLE IF NOT EXISTS user_companies (
+    user_id  uuid        NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    company  text        NOT NULL,
+    added_at timestamptz NOT NULL DEFAULT now(),
+    PRIMARY KEY (user_id, company)
+);

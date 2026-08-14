@@ -36,6 +36,10 @@ func (s *Server) Routes() http.Handler {
 	mux.HandleFunc("GET /companies", s.handleCompanies)
 	mux.HandleFunc("GET /jobs", s.handleJobs)
 	mux.HandleFunc("GET /health", s.handleHealth)
+	mux.HandleFunc("POST /users", s.handleCreateUser)
+	mux.HandleFunc("GET /users/{id}", s.handleGetUser)
+	mux.HandleFunc("PUT /users/{id}/profile", s.handleSetProfile)
+	mux.HandleFunc("PUT /users/{id}/watchlist", s.handleSetWatchlist)
 	return mux
 }
 
