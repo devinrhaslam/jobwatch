@@ -50,6 +50,22 @@ class SnapshotStore(Protocol):
         """Release any held resources; a no-op for file-backed stores."""
         ...
 
+    def record_run(
+        self,
+        company: str,
+        status: str,
+        jobs_read: int = 0,
+        jobs_new: int = 0,
+        error: str | None = None,
+    ) -> None:
+        """Record a company's run outcome for the health view.
+
+        A no-op for the file-backed store; the Postgres store writes a
+        ``company_runs`` row so a scraper that fails or is blocked is visible to
+        the backend's ``/health`` rather than only in a terminal.
+        """
+        ...
+
 
 class JsonSnapshotStore:
     """SnapshotStore backed by one JSON file per company under a directory.
@@ -77,6 +93,18 @@ class JsonSnapshotStore:
         state.save_snapshot(company, merged, self._state_dir)
 
     def close(self) -> None:
+        pass
+
+    def record_run(
+        self,
+        company: str,
+        status: str,
+        jobs_read: int = 0,
+        jobs_new: int = 0,
+        error: str | None = None,
+    ) -> None:
+        # The JSON format has no place for run history; health tracking is a
+        # Postgres-only concern. A no-op keeps the interface uniform.
         pass
 
 
@@ -164,11 +192,11 @@ class PostgresSnapshotStore:
         jobs_new: int = 0,
         error: str | None = None,
     ) -> None:
-        """Append a company's run outcome for the health view.
+        """Append a company's run outcome to ``company_runs`` for the health view.
 
-        Not yet called by run.py — that wiring lands with the ops dashboard — but
-        it is the write side of ``company_runs`` and is tested here so the table
-        is exercised, not vestigial.
+        Called once per company per run by run.py, so the backend's ``/health``
+        can surface a scraper whose latest run failed, was blocked, or looked
+        suspicious.
         """
         with self._conn.cursor() as cur:
             cur.execute(

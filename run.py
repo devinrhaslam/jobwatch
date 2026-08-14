@@ -121,6 +121,16 @@ def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
             file=sys.stderr,
             flush=True,
         )
+        # Record the outcome for the health view. A dry run is a manual test, not
+        # a real check, so it is not logged; the JSON store no-ops regardless.
+        if not args.dry_run:
+            store.record_run(
+                result.company,
+                result.status,
+                jobs_read=result.total_jobs,
+                jobs_new=len(result.new_jobs),
+                error=result.detail,
+            )
         results.append(result)
         if index < len(names) - 1:
             sleep(INTER_COMPANY_DELAY_SECONDS)

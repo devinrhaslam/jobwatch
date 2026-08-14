@@ -200,6 +200,64 @@ def test_main_runs_registered_company_and_writes_report(tmp_path, monkeypatch):
     assert payload[0]["company"] == "TestCo"
 
 
+class _RecordingStore:
+    """Wraps a real store but captures record_run calls, so a test can assert the
+    ingestion loop reports each company's outcome for the health view."""
+
+    def __init__(self, inner):
+        self.inner = inner
+        self.runs: list[tuple] = []
+
+    def exists(self, company):
+        return self.inner.exists(company)
+
+    def load(self, company):
+        return self.inner.load(company)
+
+    def save(self, company, jobs, now=None):
+        return self.inner.save(company, jobs, now)
+
+    def close(self):
+        return self.inner.close()
+
+    def record_run(self, company, status, jobs_read=0, jobs_new=0, error=None):
+        self.runs.append((company, status, jobs_read, jobs_new, error))
+
+
+def test_main_records_a_company_run_for_the_health_view(tmp_path, monkeypatch):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    recording = _RecordingStore(JsonSnapshotStore(tmp_path / "state"))
+    monkeypatch.setattr(cli, "_build_store", lambda: recording)
+
+    cli.main(["--company", "TestCo"])
+
+    assert len(recording.runs) == 1
+    company, status, jobs_read, jobs_new, _ = recording.runs[0]
+    assert company == "TestCo"
+    assert status == "seeded"  # first run seeds the company
+    assert jobs_read == 1
+
+
+def test_dry_run_does_not_record_a_company_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    recording = _RecordingStore(JsonSnapshotStore(tmp_path / "state"))
+    monkeypatch.setattr(cli, "_build_store", lambda: recording)
+
+    cli.main(["--company", "TestCo", "--dry-run"])
+
+    assert recording.runs == []
+
+
 def test_main_returns_error_code_for_unknown_company(monkeypatch, capsys):
     monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
     exit_code = cli.main(["--company", "DoesNotExist"])
