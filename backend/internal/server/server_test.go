@@ -51,7 +51,18 @@ CREATE TABLE IF NOT EXISTS user_companies (
 	user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
 	company text NOT NULL, added_at timestamptz NOT NULL DEFAULT now(),
 	PRIMARY KEY (user_id, company));
-TRUNCATE jobs, company_runs, users CASCADE;`
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_matched_at timestamptz;
+CREATE TABLE IF NOT EXISTS fit_verdicts (
+	profile_hash text NOT NULL, company text NOT NULL, title text NOT NULL,
+	location text NOT NULL DEFAULT '', keep boolean NOT NULL, reason text NOT NULL DEFAULT '',
+	created_at timestamptz NOT NULL DEFAULT now(),
+	PRIMARY KEY (profile_hash, company, title, location));
+CREATE TABLE IF NOT EXISTS matches (
+	user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+	company text NOT NULL, job_id text NOT NULL, reason text NOT NULL DEFAULT '',
+	matched_at timestamptz NOT NULL DEFAULT now(),
+	PRIMARY KEY (user_id, company, job_id));
+TRUNCATE jobs, company_runs, users, fit_verdicts, matches CASCADE;`
 
 // setup resets the schema, seeds a fixed fixture, and returns a live Server.
 func setup(t *testing.T) *Server {

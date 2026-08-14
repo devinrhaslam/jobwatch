@@ -76,3 +76,38 @@ CREATE TABLE IF NOT EXISTS user_companies (
     added_at timestamptz NOT NULL DEFAULT now(),
     PRIMARY KEY (user_id, company)
 );
+
+-- When a user was last run through matching. NULL means never; the matcher uses
+-- it as the lower bound (with each company's added_at) on which jobs to consider,
+-- so a routine run only looks at jobs first seen since the last one.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_matched_at timestamptz;
+
+-- Cache of role-fit verdicts, keyed by a hash of the prompt+profile so two users
+-- with identical profiles share judgments and a profile edit invalidates cleanly.
+-- Location is part of the key because it is part of the verdict (a title is a keep
+-- in Seattle and a drop in Bengaluru); a null location is normalised to ''.
+CREATE TABLE IF NOT EXISTS fit_verdicts (
+    profile_hash text        NOT NULL,
+    company      text        NOT NULL,
+    title        text        NOT NULL,
+    location     text        NOT NULL DEFAULT '',
+    keep         boolean     NOT NULL,
+    reason       text        NOT NULL DEFAULT '',
+    created_at   timestamptz NOT NULL DEFAULT now(),
+    PRIMARY KEY (profile_hash, company, title, location)
+);
+
+-- Per-user staged keepers: jobs that passed the fit filter for this user, ready
+-- to be shown or delivered. One row per (user, job); re-running matching never
+-- duplicates a row.
+CREATE TABLE IF NOT EXISTS matches (
+    user_id    uuid        NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    company    text        NOT NULL,
+    job_id     text        NOT NULL,
+    reason     text        NOT NULL DEFAULT '',
+    matched_at timestamptz NOT NULL DEFAULT now(),
+    PRIMARY KEY (user_id, company, job_id)
+);
+
+CREATE INDEX IF NOT EXISTS matches_user_matched_at_idx
+    ON matches (user_id, matched_at DESC);

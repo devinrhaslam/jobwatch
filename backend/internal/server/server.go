@@ -14,18 +14,22 @@ const (
 	maxJobsLimit     = 1000
 )
 
-// Server holds the read store and turns it into HTTP handlers.
+// Server holds the read store, the fit classifier, and the HTTP handlers.
 type Server struct {
-	store *Store
+	store      *Store
+	classifier Classifier
 }
 
-// New connects the store. The caller must Close it.
+// New connects the store and defaults to the placeholder keep-all classifier.
+// The caller must Close it. Callers that want real filtering set the classifier
+// field before serving (the Claude-backed one lands in a later slice); tests
+// inject a stub.
 func New(ctx context.Context, dsn string) (*Server, error) {
 	store, err := newStore(ctx, dsn)
 	if err != nil {
 		return nil, err
 	}
-	return &Server{store: store}, nil
+	return &Server{store: store, classifier: keepAllClassifier{}}, nil
 }
 
 func (s *Server) Close() { s.store.Close() }
@@ -40,6 +44,8 @@ func (s *Server) Routes() http.Handler {
 	mux.HandleFunc("GET /users/{id}", s.handleGetUser)
 	mux.HandleFunc("PUT /users/{id}/profile", s.handleSetProfile)
 	mux.HandleFunc("PUT /users/{id}/watchlist", s.handleSetWatchlist)
+	mux.HandleFunc("POST /users/{id}/match", s.handleRunMatch)
+	mux.HandleFunc("GET /users/{id}/matches", s.handleGetMatches)
 	return mux
 }
 
