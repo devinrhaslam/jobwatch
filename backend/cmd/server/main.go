@@ -32,8 +32,6 @@ func main() {
 		log.Fatalf("startup: %v", err)
 	}
 	defer srv.Close()
-	// Until the Claude-backed classifier is wired in, matching keeps every job.
-	log.Print("WARNING: using placeholder keep-all classifier; matching does no fit filtering yet")
 
 	httpSrv := &http.Server{
 		Addr:              ":" + port,

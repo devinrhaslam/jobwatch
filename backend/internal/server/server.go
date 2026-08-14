@@ -20,16 +20,15 @@ type Server struct {
 	classifier Classifier
 }
 
-// New connects the store and defaults to the placeholder keep-all classifier.
-// The caller must Close it. Callers that want real filtering set the classifier
-// field before serving (the Claude-backed one lands in a later slice); tests
-// inject a stub.
+// New connects the store and wires the Claude-backed fit classifier. The caller
+// must Close it. Tests override the classifier field with a stub so they never
+// hit the network.
 func New(ctx context.Context, dsn string) (*Server, error) {
 	store, err := newStore(ctx, dsn)
 	if err != nil {
 		return nil, err
 	}
-	return &Server{store: store, classifier: keepAllClassifier{}}, nil
+	return &Server{store: store, classifier: newClaudeClassifier()}, nil
 }
 
 func (s *Server) Close() { s.store.Close() }
