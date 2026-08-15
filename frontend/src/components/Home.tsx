@@ -20,18 +20,19 @@ export default function Home() {
   return (
     <div className="stack">
       <div className="hero card">
-        <h1>Every new role, the day it's posted</h1>
+        <h1>Every software engineering job, the day it's posted</h1>
         <p className="muted">
-          The latest openings across the world's top companies, straight from
-          their career pages. Make an account and we'll email you just the ones
-          that fit your resume.
+          The latest engineering openings across the world's top companies,
+          straight from their career pages. Make an account and we'll email you
+          just the ones that fit your resume.
         </p>
         <SignupForm />
       </div>
 
       <div className="card">
         <h2>
-          New in the last 24 hours{jobs.length ? ` (${jobs.length})` : ""}
+          New engineering roles in the last 24 hours
+          {jobs.length ? ` (${jobs.length})` : ""}
         </h2>
         {loading ? (
           <p className="muted">Loading the latest roles…</p>

@@ -58,6 +58,7 @@ func (s *Server) Routes() http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /companies", s.handleCompanies)
 	mux.HandleFunc("GET /jobs", s.handleJobs)
+	mux.HandleFunc("GET /feed", s.handleFeed)
 	mux.HandleFunc("GET /health", s.handleHealth)
 
 	mux.HandleFunc("POST /auth/request", s.handleAuthRequest)

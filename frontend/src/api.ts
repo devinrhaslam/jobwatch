@@ -83,12 +83,13 @@ async function req<T>(
 
 export const api = {
   companies: () => req<string[]>("/companies"),
-  // The public home-page feed: every new posting across all companies in the
-  // last `sinceHours`, newest first. No auth, no role filter — the firehose.
+  // The public home-page feed: recent software-engineering roles across all
+  // companies in the last `sinceHours`, newest first. No auth. The /feed endpoint
+  // classifies "is this software engineering" and returns only the keepers.
   recentJobs: (sinceHours = 24, limit = 200) => {
     const since = new Date(Date.now() - sinceHours * 3600_000).toISOString();
     return req<Job[]>(
-      `/jobs?since=${encodeURIComponent(since)}&limit=${limit}`,
+      `/feed?since=${encodeURIComponent(since)}&limit=${limit}`,
     );
   },
   authRequest: (email: string) =>

@@ -221,6 +221,31 @@ func TestHealthReportsCorpusSize(t *testing.T) {
 	}
 }
 
+func TestSoftwareFeedKeepsOnlyEngineeringRoles(t *testing.T) {
+	srv := setup(t)
+	srv.classifier = &stubClassifier{}
+
+	rec := get(t, srv, "", "/feed?since=2020-01-01T00:00:00Z")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("status = %d", rec.Code)
+	}
+	var jobs []Job
+	if err := json.Unmarshal(rec.Body.Bytes(), &jobs); err != nil {
+		t.Fatalf("decode: %v", err)
+	}
+	titles := map[string]bool{}
+	for _, j := range jobs {
+		titles[j.Title] = true
+	}
+	// Fixture: Acme Backend/Frontend Engineer (kept), Beta "Site Reliability" (dropped).
+	if !titles["Backend Engineer"] || !titles["Frontend Engineer"] {
+		t.Fatalf("engineering roles missing from feed: %v", jobs)
+	}
+	if titles["Site Reliability"] {
+		t.Fatalf("non-engineering role leaked into the feed: %v", jobs)
+	}
+}
+
 func TestUserSignupIsIdempotentOnEmail(t *testing.T) {
 	srv := setup(t)
 	ctx := context.Background()

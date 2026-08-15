@@ -80,6 +80,9 @@ type Verdict struct {
 // uses in Python.
 type Classifier interface {
 	Classify(ctx context.Context, profile string, jobs []Job) ([]Verdict, error)
+	// ClassifySoftware judges whether each job is a software engineering role,
+	// for the public feed (no personal profile).
+	ClassifySoftware(ctx context.Context, jobs []Job) ([]Verdict, error)
 }
 
 // profileHash identifies the prompt that produced a cached verdict. It folds in

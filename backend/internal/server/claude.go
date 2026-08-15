@@ -15,10 +15,39 @@ const (
 	fitMaxRetries = 2
 )
 
-// claudeClassifier is the real fit filter: it asks Claude to judge each listing
-// against the profile, a faithful port of jobwatch/filters.py. Batches of 50
-// keep any single request bounded; a batch that comes back missing a listing is
-// re-asked for just the gaps rather than failing the run.
+// feedModel is a cheaper, faster model for the coarse "is this software
+// engineering" question behind the public feed — simpler than the personal fit,
+// over more jobs, so it does not need the top model. feedMaxTokens is modest
+// because the output is just a short verdict per listing.
+const feedModel = "claude-haiku-4-5-20251001"
+const feedMaxTokens = 8192
+
+const feedInstructions = `You are classifying job listings for a software-engineering job board. For each
+listing, decide whether it is a software engineering role — a job whose core work
+is building software.
+
+Return relevant=true for software engineering roles of any specialty and any
+level: backend, frontend, full-stack, mobile (iOS/Android), machine learning,
+data, platform, infrastructure/SRE, security, embedded, systems, and similar,
+including internships, new grad, and staff/principal levels, anywhere in the
+world.
+
+Return relevant=false for roles that are not software engineering: sales,
+marketing, recruiting and HR, finance, legal, design (UX/UI/graphic), product
+management, program/project management, customer success, support, operations,
+and non-software engineering such as mechanical, electrical, hardware,
+manufacturing, or civil engineering. When a title names an engineering discipline
+that is not software ("Mechanical Engineer", "Hardware Engineer", "Sales
+Engineer"), return false even though it contains "Engineer".
+
+Judge the actual role from the title and company, not keywords alone. Give a
+reason of at most 8 words. Return one verdict per listing using the index shown,
+as JSON: {"verdicts":[{"index":<int>,"relevant":<bool>,"reason":<string>}]} and
+nothing else.`
+
+// claudeClassifier asks Claude to judge listings. Batches of 50 keep any single
+// request bounded; a batch that comes back missing a listing is re-asked for
+// just the gaps rather than failing.
 type claudeClassifier struct {
 	client anthropic.Client
 }
@@ -27,14 +56,27 @@ func newClaudeClassifier() *claudeClassifier {
 	return &claudeClassifier{client: anthropic.NewClient()}
 }
 
+// Classify judges each job against a candidate profile — the personal fit filter,
+// a faithful port of jobwatch/filters.py.
 func (c *claudeClassifier) Classify(ctx context.Context, profile string, jobs []Job) ([]Verdict, error) {
+	system := strings.ReplaceAll(fitInstructions, "{profile}", profile)
+	return c.classifyAll(ctx, fitModel, fitMaxTokens, system, jobs)
+}
+
+// ClassifySoftware judges whether each job is a software engineering role, for
+// the public feed. No profile, no location or personal preferences.
+func (c *claudeClassifier) ClassifySoftware(ctx context.Context, jobs []Job) ([]Verdict, error) {
+	return c.classifyAll(ctx, feedModel, feedMaxTokens, feedInstructions, jobs)
+}
+
+func (c *claudeClassifier) classifyAll(ctx context.Context, model string, maxTokens int, system string, jobs []Job) ([]Verdict, error) {
 	out := make([]Verdict, 0, len(jobs))
 	for start := 0; start < len(jobs); start += fitBatchSize {
 		end := start + fitBatchSize
 		if end > len(jobs) {
 			end = len(jobs)
 		}
-		verdicts, err := c.classifyBatch(ctx, profile, jobs[start:end], 0)
+		verdicts, err := c.classifyBatch(ctx, model, maxTokens, system, jobs[start:end], 0)
 		if err != nil {
 			return nil, err
 		}
@@ -43,7 +85,7 @@ func (c *claudeClassifier) Classify(ctx context.Context, profile string, jobs []
 	return out, nil
 }
 
-func (c *claudeClassifier) classifyBatch(ctx context.Context, profile string, jobs []Job, attempt int) ([]Verdict, error) {
+func (c *claudeClassifier) classifyBatch(ctx context.Context, model string, maxTokens int, system string, jobs []Job, attempt int) ([]Verdict, error) {
 	var listings strings.Builder
 	for i, j := range jobs {
 		loc := ""
@@ -53,10 +95,9 @@ func (c *claudeClassifier) classifyBatch(ctx context.Context, profile string, jo
 		fmt.Fprintf(&listings, "%d. %s — %s%s\n", i, j.Title, j.Company, loc)
 	}
 
-	system := strings.ReplaceAll(fitInstructions, "{profile}", profile)
 	msg, err := c.client.Messages.New(ctx, anthropic.MessageNewParams{
-		Model:     anthropic.Model(fitModel),
-		MaxTokens: fitMaxTokens,
+		Model:     anthropic.Model(model),
+		MaxTokens: int64(maxTokens),
 		System:    []anthropic.TextBlockParam{{Text: system}},
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock(listings.String())),
@@ -104,7 +145,7 @@ func (c *claudeClassifier) classifyBatch(ctx context.Context, profile string, jo
 		for k, i := range missing {
 			gaps[k] = jobs[i]
 		}
-		retried, err := c.classifyBatch(ctx, profile, gaps, attempt+1)
+		retried, err := c.classifyBatch(ctx, model, maxTokens, system, gaps, attempt+1)
 		if err != nil {
 			return nil, err
 		}

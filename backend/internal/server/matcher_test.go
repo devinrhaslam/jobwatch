@@ -34,6 +34,20 @@ func (c *stubClassifier) Classify(_ context.Context, _ string, jobs []Job) ([]Ve
 	return out, nil
 }
 
+// ClassifySoftware keeps titles that look like software engineering — enough for
+// the feed test to exercise filtering without the network.
+func (c *stubClassifier) ClassifySoftware(_ context.Context, jobs []Job) ([]Verdict, error) {
+	c.calls++
+	out := make([]Verdict, len(jobs))
+	for i, j := range jobs {
+		swe := strings.Contains(j.Title, "Engineer") ||
+			strings.Contains(j.Title, "Software") ||
+			strings.Contains(j.Title, "Developer")
+		out[i] = Verdict{Keep: swe, Reason: "stub swe"}
+	}
+	return out, nil
+}
+
 // backdateWatchlist moves a user's added_at into the past so the fixture's
 // 2026 jobs (all first-seen before test time) qualify as candidates.
 func backdateWatchlist(t *testing.T, userID, when string) {
