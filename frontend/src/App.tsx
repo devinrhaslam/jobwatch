@@ -6,7 +6,7 @@ import {
   setSession,
   type UserView,
 } from "./api";
-import Login from "./components/Login";
+import Home from "./components/Home";
 import Setup from "./components/Setup";
 import Dashboard from "./components/Dashboard";
 
@@ -69,7 +69,7 @@ export default function App() {
         {!ready ? (
           <div className="card">Signing you in…</div>
         ) : !user ? (
-          <Login />
+          <Home />
         ) : user.profile === null ? (
           <Setup onSaved={reload} />
         ) : (

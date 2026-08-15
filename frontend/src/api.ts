@@ -42,6 +42,17 @@ export interface Match {
   first_seen_at: string;
 }
 
+export interface Job {
+  company: string;
+  job_id: string;
+  title: string;
+  url: string;
+  location: string | null;
+  posted_date: string | null;
+  first_seen_at: string;
+  last_seen_at: string;
+}
+
 async function req<T>(
   path: string,
   opts: { method?: string; body?: unknown } = {},
@@ -72,6 +83,14 @@ async function req<T>(
 
 export const api = {
   companies: () => req<string[]>("/companies"),
+  // The public home-page feed: every new posting across all companies in the
+  // last `sinceHours`, newest first. No auth, no role filter — the firehose.
+  recentJobs: (sinceHours = 24, limit = 200) => {
+    const since = new Date(Date.now() - sinceHours * 3600_000).toISOString();
+    return req<Job[]>(
+      `/jobs?since=${encodeURIComponent(since)}&limit=${limit}`,
+    );
+  },
   authRequest: (email: string) =>
     req<{ ok: boolean; dev_link?: string }>("/auth/request", {
       method: "POST",

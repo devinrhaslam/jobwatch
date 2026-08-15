@@ -287,6 +287,40 @@ button.link {
   color: var(--danger);
 }
 
+.hero {
+  background: #eef0fe;
+  border-color: #c9cdfb;
+}
+.hero h1 {
+  font-size: 28px;
+}
+.hero .muted {
+  max-width: 46ch;
+}
+
+.signup-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 16px;
+}
+.signup-row input {
+  flex: 1 1 220px;
+  width: auto;
+}
+.signup-row button {
+  white-space: nowrap;
+}
+.signup-row .error {
+  flex-basis: 100%;
+}
+.signup-sent {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
 @media (max-width: 520px) {
   .container {
     padding: 16px 12px;
