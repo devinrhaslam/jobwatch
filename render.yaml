@@ -67,6 +67,10 @@ services:
       # residential proxy if those companies become important.
       - key: JOBWATCH_SKIP_BROWSER
         value: "1"
+      # A few flaky sites among hundreds shouldn't mark the whole cron as failed;
+      # per-company failures are visible in the backend's /health instead.
+      - key: JOBWATCH_TOLERATE_FAILURES
+        value: "1"
 
   # Scheduled digest, 30 min after the scrape. Pure Go, so a native build.
   # NOTE: until a real Mailer is configured it only logs — no email is sent yet.

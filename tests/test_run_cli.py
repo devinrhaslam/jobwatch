@@ -317,6 +317,21 @@ def test_skip_browser_excludes_rendered_companies_without_launching_a_browser(
     assert exit_code == 0
 
 
+def test_tolerant_mode_exits_zero_despite_company_failures(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"BrokenCo": _CrashingScraper(), "TestCo": _OneJobScraper()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    # Strict (default): a failed company makes the whole run exit non-zero.
+    assert cli.main(["--company", "BrokenCo", "--company", "TestCo"]) != 0
+    # Tolerant: the same failure exits 0, because the run itself completed.
+    assert cli.main(["--company", "BrokenCo", "--company", "TestCo", "--tolerant"]) == 0
+
+
 def test_main_returns_error_code_for_unknown_company(monkeypatch, capsys):
     monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
     exit_code = cli.main(["--company", "DoesNotExist"])

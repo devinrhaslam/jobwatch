@@ -228,6 +228,14 @@ def main(argv: list[str] | None = None) -> int:
         "Also enabled by JOBWATCH_SKIP_BROWSER=1. Use where those sites bot-block "
         "or a browser can hang uninterruptibly — e.g. a datacenter IP.",
     )
+    parser.add_argument(
+        "--tolerant",
+        action="store_true",
+        help="Exit 0 even if some companies FAILED or BLOCKED, as long as the run "
+        "completed. Also enabled by JOBWATCH_TOLERATE_FAILURES=1. For scheduled "
+        "runs, where a few flaky sites among hundreds should not fail the whole "
+        "job — per-company outcomes are recorded for the health view regardless.",
+    )
     args = parser.parse_args(argv)
 
     names = args.companies or sorted(SCRAPERS)
@@ -340,6 +348,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if filter_failed:
         return 1
+    if args.tolerant or os.environ.get("JOBWATCH_TOLERATE_FAILURES") == "1":
+        # The run completed; a few FAILED/BLOCKED companies among hundreds are
+        # operational noise, recorded for the health view rather than failing the
+        # scheduled job.
+        return 0
     return 1 if any(r.status in ("failed", "blocked", "suspicious") for r in results) else 0
 
 
