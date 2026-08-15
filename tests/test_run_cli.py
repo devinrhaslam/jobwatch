@@ -258,6 +258,40 @@ def test_dry_run_does_not_record_a_company_run(tmp_path, monkeypatch):
     assert recording.runs == []
 
 
+class _HangingScraper(Scraper):
+    config = CompanyConfig(
+        name="HangCo", career_url="https://example.com/jobs", fetch_mode=FetchMode.STATIC
+    )
+
+    def parse(self, payload: str) -> list[Job]:
+        import time as _time
+
+        _time.sleep(10)  # longer than the patched per-company timeout
+        return []
+
+
+def test_company_exceeding_timeout_is_failed_without_aborting_the_run(
+    tmp_path, monkeypatch, capsys
+):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"HangCo": _HangingScraper(), "TestCo": _OneJobScraper()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    monkeypatch.setattr(cli, "COMPANY_TIMEOUT_SECONDS", 1)
+
+    exit_code = cli.main(["--company", "HangCo", "--company", "TestCo"])
+
+    # The hung company failed (non-zero exit), but the next company still ran.
+    assert exit_code != 0
+    err = capsys.readouterr().err
+    assert "HangCo" in err and "FAILED" in err
+    assert "seeded 1" in err  # TestCo was reached and seeded
+
+
 def test_main_returns_error_code_for_unknown_company(monkeypatch, capsys):
     monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
     exit_code = cli.main(["--company", "DoesNotExist"])

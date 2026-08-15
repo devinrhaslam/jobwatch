@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import argparse
 import os
+import signal
 import sys
+import threading
+from contextlib import contextmanager
 from dataclasses import replace
 from pathlib import Path
 from time import monotonic, sleep
@@ -20,6 +23,41 @@ from jobwatch.store import JsonSnapshotStore, PostgresSnapshotStore
 STATE_DIR = Path("state")
 OUTPUT_DIR = Path("output")
 INTER_COMPANY_DELAY_SECONDS = 1.0
+# A hard per-company backstop so one wedged scraper cannot hang the whole run —
+# a browser launch or a bot-challenged render that never returns, say. Set above
+# the slowest healthy company observed (Deel seeds in ~365s). Overridable for
+# tuning and tests via JOBWATCH_COMPANY_TIMEOUT.
+COMPANY_TIMEOUT_SECONDS = int(os.environ.get("JOBWATCH_COMPANY_TIMEOUT", "600"))
+
+
+class _CompanyTimeout(Exception):
+    """A company's scrape exceeded COMPANY_TIMEOUT_SECONDS and was abandoned."""
+
+
+@contextmanager
+def _time_limit(seconds: int):
+    """Abort the enclosed block after `seconds` via SIGALRM.
+
+    Signals reach only the main thread, so this is a no-op off it (e.g. under a
+    test runner that isolates work in threads) and when disabled with a
+    non-positive limit. Interrupting a hung Playwright call can leave the browser
+    connection unusable, so a later browser-rendered company may fail in turn —
+    an acceptable trade for a run that always finishes.
+    """
+    if seconds <= 0 or threading.current_thread() is not threading.main_thread():
+        yield
+        return
+
+    def _fire(_signum, _frame):
+        raise _CompanyTimeout(f"exceeded {seconds}s")
+
+    previous = signal.signal(signal.SIGALRM, _fire)
+    signal.setitimer(signal.ITIMER_REAL, seconds)
+    try:
+        yield
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous)
 
 
 BROWSER_MODES = (FetchMode.RENDERED, FetchMode.RENDERED_XHR)
@@ -107,12 +145,17 @@ def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
             print(".", end="", flush=True, file=sys.stderr)
 
         try:
-            result = run_company(
-                scraper,
-                store=store,
-                dry_run=args.dry_run,
-                fetch_page=fetch_page,
-                on_request=on_request,
+            with _time_limit(COMPANY_TIMEOUT_SECONDS):
+                result = run_company(
+                    scraper,
+                    store=store,
+                    dry_run=args.dry_run,
+                    fetch_page=fetch_page,
+                    on_request=on_request,
+                )
+        except _CompanyTimeout:
+            result = CompanyResult(
+                name, "failed", [], 0, f"timed out after {COMPANY_TIMEOUT_SECONDS}s"
             )
         except Exception as exc:  # isolate one company's crash from the rest
             result = CompanyResult(name, "failed", [], 0, f"unexpected error: {exc}")
