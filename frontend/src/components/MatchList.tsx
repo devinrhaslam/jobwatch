@@ -1,4 +1,5 @@
 import { type Match } from "../api";
+import CompanyIcon from "./CompanyIcon";
 
 export default function MatchList({ matches }: { matches: Match[] }) {
   if (matches.length === 0) {
@@ -13,6 +14,7 @@ export default function MatchList({ matches }: { matches: Match[] }) {
     <ul className="matches">
       {matches.map((m) => (
         <li key={m.company + m.job_id} className="match">
+          <CompanyIcon company={m.company} />
           <div className="match-main">
             <a
               href={m.url}

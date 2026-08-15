@@ -241,10 +241,32 @@ button.link {
 }
 .match {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
+  align-items: flex-start;
+  gap: 12px;
   padding: 14px 0;
   border-top: 1px solid var(--line);
+}
+.match-main {
+  flex: 1;
+  min-width: 0;
+}
+.company-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.company-icon.monogram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
 }
 .match-title {
   font-weight: 600;

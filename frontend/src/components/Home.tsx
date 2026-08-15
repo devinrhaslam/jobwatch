@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { api, type Job } from "../api";
 import SignupForm from "./SignupForm";
+import CompanyIcon from "./CompanyIcon";
 
 // The public landing page: a signup call-to-action over the firehose of every
 // new posting in the last day. No login required.
@@ -46,6 +47,7 @@ export default function Home() {
           <ul className="matches">
             {jobs.map((j) => (
               <li key={j.company + j.job_id} className="match">
+                <CompanyIcon company={j.company} />
                 <div className="match-main">
                   <a
                     href={j.url}
