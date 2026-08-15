@@ -221,6 +221,13 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Report every new job, skipping the role-fit filter.",
     )
+    parser.add_argument(
+        "--skip-browser",
+        action="store_true",
+        help="Skip companies needing a headless browser (Meta, Tesla, Revolut). "
+        "Also enabled by JOBWATCH_SKIP_BROWSER=1. Use where those sites bot-block "
+        "or a browser can hang uninterruptibly — e.g. a datacenter IP.",
+    )
     args = parser.parse_args(argv)
 
     names = args.companies or sorted(SCRAPERS)
@@ -232,6 +239,21 @@ def main(argv: list[str] | None = None) -> int:
             file=sys.stderr,
         )
         return 2
+
+    # A hung headless browser cannot be reliably interrupted from inside the
+    # process (the per-company SIGALRM cannot preempt a parked Playwright call),
+    # and these sites bot-block datacenter IPs anyway — so on the server they are
+    # skipped outright rather than risked. This must precede the browser check so
+    # Playwright is never launched.
+    if args.skip_browser or os.environ.get("JOBWATCH_SKIP_BROWSER") == "1":
+        skipped = [n for n in names if SCRAPERS[n].config.fetch_mode in BROWSER_MODES]
+        names = [n for n in names if n not in skipped]
+        if skipped:
+            noun = "company" if len(skipped) == 1 else "companies"
+            print(
+                f"Skipping {len(skipped)} browser-rendered {noun}: {', '.join(skipped)}",
+                file=sys.stderr,
+            )
 
     needs_browser = any(
         SCRAPERS[n].config.fetch_mode in BROWSER_MODES for n in names

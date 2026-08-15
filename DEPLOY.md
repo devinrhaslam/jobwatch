@@ -66,6 +66,11 @@ login link currently use a dev mailer that only logs), so to get your magic link
   has only a dev logger. Add an SMTP/Resend implementation so login links and
   digests actually send. Until then the `jobwatch-digest` cron runs but emails
   nothing.
+- **Browser scrapers are skipped on the server** (`JOBWATCH_SKIP_BROWSER=1` on the
+  ingest cron). Meta, Tesla, and Revolut need a headless browser and bot-block
+  datacenter IPs, and a hung browser can't be interrupted mid-run — so they're
+  left out rather than risked. To cover them, run the scrape behind a residential
+  proxy and drop the flag.
 - **Upgrade the free plans.** Free web services sleep after inactivity, and free
   Postgres is deleted after 30 days.
 - **Session hardening** (httpOnly cookies) and a **privacy policy** before real

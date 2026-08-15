@@ -62,6 +62,11 @@ services:
         fromDatabase:
           name: jobwatch-db
           property: connectionString
+      # Meta/Tesla/Revolut need a headless browser and bot-block datacenter IPs;
+      # skip them here so a browser can't hang the nightly run. Revisit with a
+      # residential proxy if those companies become important.
+      - key: JOBWATCH_SKIP_BROWSER
+        value: "1"
 
   # Scheduled digest, 30 min after the scrape. Pure Go, so a native build.
   # NOTE: until a real Mailer is configured it only logs — no email is sent yet.

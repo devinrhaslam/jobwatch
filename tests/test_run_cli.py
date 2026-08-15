@@ -292,6 +292,31 @@ def test_company_exceeding_timeout_is_failed_without_aborting_the_run(
     assert "seeded 1" in err  # TestCo was reached and seeded
 
 
+def test_skip_browser_excludes_rendered_companies_without_launching_a_browser(
+    tmp_path, monkeypatch, capsys
+):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"RenderCo": _RenderedScraper(), "TestCo": _OneJobScraper()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+
+    def _no_browser():
+        raise AssertionError("browser must not be launched when skipping")
+
+    monkeypatch.setattr(cli, "sync_playwright", _no_browser)
+
+    exit_code = cli.main(["--skip-browser"])
+
+    err = capsys.readouterr().err
+    assert "Skipping" in err and "RenderCo" in err
+    assert "seeded 1" in err  # the static company still ran
+    assert exit_code == 0
+
+
 def test_main_returns_error_code_for_unknown_company(monkeypatch, capsys):
     monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
     exit_code = cli.main(["--company", "DoesNotExist"])
