@@ -72,8 +72,9 @@ services:
       - key: JOBWATCH_TOLERATE_FAILURES
         value: "1"
 
-  # Scheduled digest, 30 min after the scrape. Pure Go, so a native build.
-  # NOTE: until a real Mailer is configured it only logs — no email is sent yet.
+  # Scheduled job, 30 min after the scrape. Pure Go, native build. Warms the
+  # public feed's SWE classification cache, then runs the per-user digests.
+  # NOTE: until a real Mailer is configured the digests only log — no email yet.
   - type: cron
     name: jobwatch-digest
     runtime: go

@@ -246,6 +246,31 @@ func TestSoftwareFeedKeepsOnlyEngineeringRoles(t *testing.T) {
 	}
 }
 
+func TestClassifyFeedWarmsTheCacheSoTheFeedDoesNotReclassify(t *testing.T) {
+	srv := setup(t)
+	stub := &stubClassifier{}
+	srv.classifier = stub
+
+	n, err := srv.ClassifyFeed(context.Background(), time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC))
+	if err != nil {
+		t.Fatalf("classify feed: %v", err)
+	}
+	if n == 0 {
+		t.Fatal("precompute classified nothing")
+	}
+	if stub.calls != 1 {
+		t.Fatalf("precompute made %d classify calls, want 1", stub.calls)
+	}
+
+	// The feed now serves from cache — the request path classifies nothing more.
+	if rec := get(t, srv, "", "/feed?since=2020-01-01T00:00:00Z"); rec.Code != http.StatusOK {
+		t.Fatalf("feed status = %d", rec.Code)
+	}
+	if stub.calls != 1 {
+		t.Fatalf("feed reclassified in the request path: calls = %d, want 1", stub.calls)
+	}
+}
+
 func TestUserSignupIsIdempotentOnEmail(t *testing.T) {
 	srv := setup(t)
 	ctx := context.Background()

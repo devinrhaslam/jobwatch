@@ -28,6 +28,14 @@ func main() {
 	}
 	defer srv.Close()
 
+	// Warm the public feed's cache so /feed never classifies in the request path.
+	// A failure here should not block the digests, so it is logged, not fatal.
+	if n, err := srv.ClassifyFeed(ctx, time.Now().Add(-7*24*time.Hour)); err != nil {
+		log.Printf("feed classification: %v", err)
+	} else {
+		log.Printf("feed: classified %d new jobs", n)
+	}
+
 	summary, err := srv.RunDigests(ctx)
 	if err != nil {
 		log.Fatalf("digest run: %v", err)

@@ -36,17 +36,11 @@ func (s *Server) softwareFeed(ctx context.Context, since time.Time, limit int) (
 		return nil, err
 	}
 
-	var pending []Job
-	seen := map[verdictKey]bool{}
-	for _, j := range recent {
-		k := keyFor(j)
-		if _, ok := cached[k]; ok || seen[k] {
-			continue
-		}
-		seen[k] = true
-		pending = append(pending, j)
-	}
-
+	// In steady state ClassifyFeed (run by the cron) has already warmed the
+	// cache, so pending is empty and nothing is classified in this request path.
+	// This on-demand classification is only a fallback — before the first cron,
+	// or for jobs newer than the last one.
+	pending := pendingFeedJobs(recent, cached)
 	if len(pending) > 0 {
 		verdicts, err := s.classifier.ClassifySoftware(ctx, pending)
 		if err != nil {
@@ -78,6 +72,49 @@ func capJobs(jobs []Job, limit int) []Job {
 		return jobs[:limit]
 	}
 	return jobs
+}
+
+// pendingFeedJobs is the subset of recent jobs with no cached feed verdict yet,
+// deduplicated by verdict key.
+func pendingFeedJobs(recent []Job, cached map[verdictKey]Verdict) []Job {
+	var pending []Job
+	seen := map[verdictKey]bool{}
+	for _, j := range recent {
+		k := keyFor(j)
+		if _, ok := cached[k]; ok || seen[k] {
+			continue
+		}
+		seen[k] = true
+		pending = append(pending, j)
+	}
+	return pending
+}
+
+// ClassifyFeed pre-classifies recent jobs against the SWE prompt and caches the
+// verdicts, so /feed serves from cache instead of classifying in the request
+// path. Meant to run on a schedule after ingestion; returns how many it newly
+// classified.
+func (s *Server) ClassifyFeed(ctx context.Context, since time.Time) (int, error) {
+	recent, err := s.store.Jobs(ctx, "", since, feedClassifyCap)
+	if err != nil {
+		return 0, err
+	}
+	cached, err := s.store.FitVerdicts(ctx, softwareFeedHash, recent)
+	if err != nil {
+		return 0, err
+	}
+	pending := pendingFeedJobs(recent, cached)
+	if len(pending) == 0 {
+		return 0, nil
+	}
+	verdicts, err := s.classifier.ClassifySoftware(ctx, pending)
+	if err != nil {
+		return 0, err
+	}
+	if err := s.store.SaveFitVerdicts(ctx, softwareFeedHash, pending, verdicts); err != nil {
+		return 0, err
+	}
+	return len(pending), nil
 }
 
 func (s *Server) handleFeed(w http.ResponseWriter, r *http.Request) {
