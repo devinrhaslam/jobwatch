@@ -32,6 +32,10 @@ services:
         sync: false
       - key: JOBWATCH_ALLOWED_ORIGIN # the frontend URL, for CORS
         sync: false
+      - key: RESEND_API_KEY # send real email; unset falls back to the dev logger
+        sync: false
+      - key: RESEND_FROM # verified sender, e.g. "jobwatch <alerts@yourdomain.com>"
+        sync: false
 
   # React static site. VITE_API_BASE is baked in at build time, so a change needs
   # a redeploy. The SPA rewrite lets deep links like /verify?token=… load.
@@ -88,4 +92,10 @@ services:
           name: jobwatch-db
           property: connectionString
       - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: RESEND_FROM
+        sync: false
+      - key: JOBWATCH_APP_URL # for the digest email's manage-account footer
         sync: false

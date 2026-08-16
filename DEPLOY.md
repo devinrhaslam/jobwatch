@@ -62,10 +62,16 @@ login link currently use a dev mailer that only logs), so to get your magic link
 
 ## Before this is real
 
-- **A mail provider.** The `Mailer` interface (`backend/internal/server/mailer.go`)
-  has only a dev logger. Add an SMTP/Resend implementation so login links and
-  digests actually send. Until then the `jobwatch-digest` cron runs but emails
-  nothing.
+- **Turn on real email (Resend).** Without it, login links and digests only log.
+  To send for real: create a [Resend](https://resend.com) account, make an API
+  key, and set `RESEND_API_KEY` on both **jobwatch-backend** (login links) and
+  **jobwatch-digest** (digests). Set `RESEND_FROM` to your sender, e.g.
+  `jobwatch <alerts@yourdomain.com>`. Note: to email *anyone*, verify a domain in
+  Resend; the default test sender (`onboarding@resend.dev`, used when `RESEND_FROM`
+  is unset) only delivers to your own account email — fine for testing sign-in.
+  Before sending at scale, add a one-click unsubscribe and a physical mailing
+  address to the digest footer (CAN-SPAM); today the only opt-out is deleting the
+  account.
 - **Browser scrapers are skipped on the server** (`JOBWATCH_SKIP_BROWSER=1` on the
   ingest cron). Meta, Tesla, and Revolut need a headless browser and bot-block
   datacenter IPs, and a hung browser can't be interrupted mid-run — so they're

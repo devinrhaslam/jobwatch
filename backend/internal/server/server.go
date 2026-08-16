@@ -40,10 +40,21 @@ func New(ctx context.Context, dsn string) (*Server, error) {
 	if appURL == "" {
 		appURL = "http://localhost:5173"
 	}
+
+	// Send real email through Resend when configured; otherwise log (dev).
+	var mailer Mailer = logMailer{}
+	if key := os.Getenv("RESEND_API_KEY"); key != "" {
+		from := os.Getenv("RESEND_FROM")
+		if from == "" {
+			from = "jobwatch <onboarding@resend.dev>" // Resend's test sender
+		}
+		mailer = newResendMailer(key, from, appURL)
+	}
+
 	return &Server{
 		store:         store,
 		classifier:    newClaudeClassifier(),
-		mailer:        logMailer{},
+		mailer:        mailer,
 		appBaseURL:    appURL,
 		allowedOrigin: os.Getenv("JOBWATCH_ALLOWED_ORIGIN"),
 		devAuth:       os.Getenv("JOBWATCH_DEV_AUTH") == "1",
