@@ -93,6 +93,43 @@ func (s *Store) Jobs(ctx context.Context, company string, since time.Time, limit
 	return jobs, rows.Err()
 }
 
+// RecentPostings returns jobs first seen since `since` that are NOT part of a
+// company's initial seed — only postings that appeared after the company was
+// first tracked. A seed writes a company's whole board at one timestamp, which
+// is that company's earliest first_seen; "first_seen later than that earliest"
+// is exactly the genuinely-new set. Newest first.
+func (s *Store) RecentPostings(ctx context.Context, since time.Time, limit int) ([]Job, error) {
+	rows, err := s.pool.Query(ctx, `
+		WITH seeds AS (
+			SELECT company, min(first_seen_at) AS seeded_at FROM jobs GROUP BY company
+		)
+		SELECT j.company, j.job_id, j.title, j.url, j.location, j.posted_date,
+		       j.first_seen_at, j.last_seen_at
+		FROM jobs j
+		JOIN seeds s ON s.company = j.company
+		WHERE j.first_seen_at > $1
+		  AND j.first_seen_at > s.seeded_at
+		ORDER BY j.first_seen_at DESC, j.job_id
+		LIMIT $2`, since, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	jobs := []Job{}
+	for rows.Next() {
+		var j Job
+		if err := rows.Scan(
+			&j.Company, &j.JobID, &j.Title, &j.URL, &j.Location,
+			&j.PostedDate, &j.FirstSeenAt, &j.LastSeenAt,
+		); err != nil {
+			return nil, err
+		}
+		jobs = append(jobs, j)
+	}
+	return jobs, rows.Err()
+}
+
 // Health is the payload of /health: a DB liveness signal plus corpus size and
 // the companies whose most recent run ended badly. Problems is empty until
 // run.py records into company_runs (a later slice), but the query is wired now.

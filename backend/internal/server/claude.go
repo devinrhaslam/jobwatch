@@ -24,26 +24,29 @@ const feedMaxTokens = 8192
 
 const feedInstructions = `You are classifying job listings for a software-engineering job board. For each
 listing, decide whether it is a software engineering role — a job whose core work
-is building software.
+is writing and building software.
 
-Return relevant=true for software engineering roles of any specialty and any
-level: backend, frontend, full-stack, mobile (iOS/Android), machine learning,
-data, platform, infrastructure/SRE, security, embedded, systems, and similar,
-including internships, new grad, and staff/principal levels, anywhere in the
-world.
+Return relevant=true for software engineering roles of any specialty and level:
+software engineer, backend, frontend, full-stack, mobile (iOS/Android), embedded
+or firmware, systems, platform, infrastructure, SRE, DevOps, security engineer,
+and machine-learning or data ENGINEERS. Include internships, new grad, and
+staff/principal, anywhere in the world.
 
-Return relevant=false for roles that are not software engineering: sales,
-marketing, recruiting and HR, finance, legal, design (UX/UI/graphic), product
-management, program/project management, customer success, support, operations,
-and non-software engineering such as mechanical, electrical, hardware,
-manufacturing, or civil engineering. When a title names an engineering discipline
-that is not software ("Mechanical Engineer", "Hardware Engineer", "Sales
-Engineer"), return false even though it contains "Engineer".
+Return relevant=false for everything else, including roles that are technical or
+adjacent but are not software engineering:
+- data scientists, machine-learning / AI / applied / research SCIENTISTS,
+  quantitative researchers, data analysts, analytics roles
+- product, program, or project management, and engineering management
+- design (UX/UI/graphic), sales, marketing, recruiting, HR, finance, legal,
+  customer success, IT support, operations, warehouse and retail roles
+- non-software engineering: mechanical, electrical, hardware, manufacturing,
+  civil, and ERP/SAP functional roles
 
-Judge the actual role from the title and company, not keywords alone. Give a
-reason of at most 8 words. Return one verdict per listing using the index shown,
-as JSON: {"verdicts":[{"index":<int>,"relevant":<bool>,"reason":<string>}]} and
-nothing else.`
+The distinction that matters: an engineer who builds software is in; a scientist,
+researcher, analyst, manager, or non-software engineer is out — even if the title
+contains "Engineer" or the role is technical. Give a reason of at most 8 words.
+Return one verdict per listing using the index shown, as JSON:
+{"verdicts":[{"index":<int>,"relevant":<bool>,"reason":<string>}]} and nothing else.`
 
 // claudeClassifier asks Claude to judge listings. Batches of 50 keep any single
 // request bounded; a batch that comes back missing a listing is re-asked for

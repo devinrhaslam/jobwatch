@@ -10,28 +10,54 @@ import (
 
 // softwareFeedHash namespaces the "is this software engineering" verdicts inside
 // fit_verdicts, separate from any user's personal-fit verdicts. Bump the suffix
-// if feedInstructions changes.
-const softwareFeedHash = "software-feed-v1"
+// whenever feedInstructions changes so old verdicts are re-judged.
+const softwareFeedHash = "software-feed-v2"
 
-// feedClassifyCap bounds how many recent jobs the public feed classifies on a
-// cache miss, keeping the first uncached load's latency in check.
-const feedClassifyCap = 250
+const (
+	// feedFetchLimit is the recent window pulled before diversifying — wide
+	// enough that capping per company still leaves plenty of jobs.
+	feedFetchLimit = 1000
+	// feedPerCompany caps how many of one company appear, so a freshly-seeded
+	// company (hundreds of jobs all first-seen "now") can't flood the feed.
+	feedPerCompany = 6
+	// feedClassifyCap bounds how many diverse jobs the feed classifies/shows.
+	feedClassifyCap = 300
+)
+
+// diverseRecent caps each company to perCompany jobs (keeping newest-first order)
+// and returns at most max jobs, so no single company dominates the feed.
+func diverseRecent(jobs []Job, perCompany, max int) []Job {
+	counts := map[string]int{}
+	out := make([]Job, 0, max)
+	for _, j := range jobs {
+		if counts[j.Company] >= perCompany {
+			continue
+		}
+		counts[j.Company]++
+		out = append(out, j)
+		if len(out) >= max {
+			break
+		}
+	}
+	return out
+}
 
 // softwareFeed returns recent software-engineering roles for the public home
-// page: the newest jobs first seen since `since`, classified once against the
-// generic SWE prompt (cached in fit_verdicts) and filtered to keeps. On a
-// classification error it degrades to the unfiltered recent jobs rather than
-// breaking the page.
+// page: genuinely-new postings (seeds excluded) since `since`, diversified so no
+// one company dominates, classified against the SWE prompt (cached), and filtered
+// to keeps. On a classification error it degrades to the diverse unfiltered set
+// rather than breaking the page.
 func (s *Server) softwareFeed(ctx context.Context, since time.Time, limit int) ([]Job, error) {
-	recent, err := s.store.Jobs(ctx, "", since, feedClassifyCap)
+	recent, err := s.store.RecentPostings(ctx, since, feedFetchLimit)
 	if err != nil {
 		return nil, err
 	}
-	if len(recent) == 0 {
+	candidates := diverseRecent(recent, feedPerCompany, feedClassifyCap)
+	if len(candidates) == 0 {
 		return []Job{}, nil
 	}
 
-	cached, err := s.store.FitVerdicts(ctx, softwareFeedHash, recent)
+	cached, err := s.store.FitVerdicts(ctx, softwareFeedHash, candidates)
 	if err != nil {
 		return nil, err
 	}
@@ -40,12 +66,12 @@ func (s *Server) softwareFeed(ctx context.Context, since time.Time, limit int) (
 	// cache, so pending is empty and nothing is classified in this request path.
 	// This on-demand classification is only a fallback — before the first cron,
 	// or for jobs newer than the last one.
-	pending := pendingFeedJobs(recent, cached)
+	pending := pendingFeedJobs(candidates, cached)
 	if len(pending) > 0 {
 		verdicts, err := s.classifier.ClassifySoftware(ctx, pending)
 		if err != nil {
 			log.Printf("feed classification failed, showing unfiltered: %v", err)
-			return capJobs(recent, limit), nil
+			return capJobs(candidates, limit), nil
 		}
 		if err := s.store.SaveFitVerdicts(ctx, softwareFeedHash, pending, verdicts); err != nil {
 			log.Printf("feed: caching verdicts failed: %v", err)
@@ -56,7 +82,7 @@ func (s *Server) softwareFeed(ctx context.Context, since time.Time, limit int) (
 	}
 
 	keeps := make([]Job, 0, limit)
-	for _, j := range recent {
+	for _, j := range candidates {
 		if cached[keyFor(j)].Keep {
 			keeps = append(keeps, j)
 			if len(keeps) >= limit {
@@ -95,15 +121,16 @@ func pendingFeedJobs(recent []Job, cached map[verdictKey]Verdict) []Job {
 // path. Meant to run on a schedule after ingestion; returns how many it newly
 // classified.
 func (s *Server) ClassifyFeed(ctx context.Context, since time.Time) (int, error) {
-	recent, err := s.store.Jobs(ctx, "", since, feedClassifyCap)
+	recent, err := s.store.RecentPostings(ctx, since, feedFetchLimit)
 	if err != nil {
 		return 0, err
 	}
-	cached, err := s.store.FitVerdicts(ctx, softwareFeedHash, recent)
+	candidates := diverseRecent(recent, feedPerCompany, feedClassifyCap)
+	cached, err := s.store.FitVerdicts(ctx, softwareFeedHash, candidates)
 	if err != nil {
 		return 0, err
 	}
-	pending := pendingFeedJobs(recent, cached)
+	pending := pendingFeedJobs(candidates, cached)
 	if len(pending) == 0 {
 		return 0, nil
 	}

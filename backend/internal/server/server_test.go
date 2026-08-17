@@ -221,9 +221,24 @@ func TestHealthReportsCorpusSize(t *testing.T) {
 	}
 }
 
-func TestSoftwareFeedKeepsOnlyEngineeringRoles(t *testing.T) {
+func TestSoftwareFeedExcludesSeedsAndNonEngineering(t *testing.T) {
 	srv := setup(t)
 	srv.classifier = &stubClassifier{}
+
+	// Add post-seed jobs to Acme (whose seed is the 2026-01-01 Backend Engineer):
+	// a later engineering role (kept) and a later non-engineering role (dropped).
+	pool, err := pgxpool.New(context.Background(), os.Getenv("JOBWATCH_TEST_DATABASE_URL"))
+	if err != nil {
+		t.Fatalf("connect: %v", err)
+	}
+	defer pool.Close()
+	later := time.Date(2026, 8, 2, 0, 0, 0, 0, time.UTC)
+	if _, err := pool.Exec(context.Background(), `
+		INSERT INTO jobs (company, job_id, title, url, first_seen_at, last_seen_at) VALUES
+			('Acme','3','Platform Engineer','https://acme.example/3',$1,$1),
+			('Acme','4','Sales Manager','https://acme.example/4',$1,$1)`, later); err != nil {
+		t.Fatalf("seed extra jobs: %v", err)
+	}
 
 	rec := get(t, srv, "", "/feed?since=2020-01-01T00:00:00Z")
 	if rec.Code != http.StatusOK {
@@ -237,11 +252,17 @@ func TestSoftwareFeedKeepsOnlyEngineeringRoles(t *testing.T) {
 	for _, j := range jobs {
 		titles[j.Title] = true
 	}
-	// Fixture: Acme Backend/Frontend Engineer (kept), Beta "Site Reliability" (dropped).
-	if !titles["Backend Engineer"] || !titles["Frontend Engineer"] {
-		t.Fatalf("engineering roles missing from feed: %v", jobs)
+
+	// Post-seed engineering roles are kept.
+	if !titles["Frontend Engineer"] || !titles["Platform Engineer"] {
+		t.Fatalf("post-seed engineering roles missing: %v", jobs)
 	}
-	if titles["Site Reliability"] {
+	// Each company's seed (its earliest first_seen) is excluded.
+	if titles["Backend Engineer"] || titles["Site Reliability"] {
+		t.Fatalf("a seed job leaked into the feed: %v", jobs)
+	}
+	// Non-engineering is filtered out.
+	if titles["Sales Manager"] {
 		t.Fatalf("non-engineering role leaked into the feed: %v", jobs)
 	}
 }
