@@ -1,0 +1,28 @@
+# The nightly job as one image, so ingestion and the digest/feed pass run
+# sequentially in a single Render cron instead of two crons coupled by a timer.
+# Ingestion is Python (Playwright); the digest is Go — so a multi-stage build
+# compiles the Go binary and drops it into the Python image.
+
+# Stage 1: build the Go digest binary.
+FROM golang:1.26 AS digest-build
+WORKDIR /src
+COPY backend/go.mod backend/go.sum ./
+RUN go mod download
+COPY backend/ ./
+RUN CGO_ENABLED=0 go build -o /digest ./cmd/digest
+
+# Stage 2: the Python ingest with Playwright browsers, plus the digest binary.
+FROM python:3.13-slim-bookworm
+WORKDIR /app
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt \
+    && playwright install --with-deps chromium firefox
+COPY . .
+RUN pip install --no-cache-dir -e .
+COPY --from=digest-build /digest /usr/local/bin/digest
+
+# Scrape into Postgres, then warm the feed's SWE cache and send the digests. The
+# digest runs even if the scrape had a rough night (`;`), since it operates on
+# whatever is already in the database. Skip-browser and tolerate-failures come
+# from the environment (see render.yaml).
+CMD ["sh", "-c", "python run.py --all-roles; digest"]

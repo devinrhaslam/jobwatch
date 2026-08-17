@@ -27,7 +27,7 @@ Once the services exist, Render shows each one's URL, e.g.:
 | jobwatch-backend | `JOBWATCH_APP_URL` | the **web** URL |
 | jobwatch-backend | `JOBWATCH_ALLOWED_ORIGIN` | the **web** URL |
 | jobwatch-web | `VITE_API_BASE` | the **backend** URL |
-| jobwatch-digest | `ANTHROPIC_API_KEY` | your Anthropic key |
+| jobwatch-nightly | `ANTHROPIC_API_KEY` | your Anthropic key |
 
 `VITE_API_BASE` is baked in at build time, so after setting it, **redeploy the
 web service** (Manual Deploy → Deploy latest commit) so the build picks it up.
@@ -45,10 +45,10 @@ Every statement is `IF NOT EXISTS`, so re-running is safe.
 
 ## 5. Seed the jobs
 
-Trigger the scrape once by hand so the jobs table isn't empty: Render dashboard →
-**jobwatch-ingest → Run now**. The first run seeds every company (tens of
-thousands of postings) and takes several minutes. After that it runs nightly on
-the schedule in `render.yaml`.
+Trigger the nightly job once by hand so the jobs table isn't empty: Render
+dashboard → **jobwatch-nightly → Run now**. The first run seeds every company
+(tens of thousands of postings) and takes several minutes; it then warms the feed
+and sends any digests. After that it runs nightly on the schedule in `render.yaml`.
 
 ## 6. Try it
 
@@ -65,7 +65,7 @@ login link currently use a dev mailer that only logs), so to get your magic link
 - **Turn on real email (Resend).** Without it, login links and digests only log.
   To send for real: create a [Resend](https://resend.com) account, make an API
   key, and set `RESEND_API_KEY` on both **jobwatch-backend** (login links) and
-  **jobwatch-digest** (digests). Set `RESEND_FROM` to your sender, e.g.
+  **jobwatch-nightly** (digests). Set `RESEND_FROM` to your sender, e.g.
   `jobwatch <alerts@yourdomain.com>`. Note: to email *anyone*, verify a domain in
   Resend; the default test sender (`onboarding@resend.dev`, used when `RESEND_FROM`
   is unset) only delivers to your own account email — fine for testing sign-in.

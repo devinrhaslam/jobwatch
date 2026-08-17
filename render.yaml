@@ -53,12 +53,14 @@ services:
         source: /*
         destination: /index.html
 
-  # Scheduled scrape into Postgres. Docker, because Playwright needs browsers.
-  # 22:00 UTC ≈ early evening in the US, catching the day's postings.
+  # One nightly job (22:00 UTC ≈ early evening US): scrape into Postgres, then
+  # warm the feed's SWE cache and send the digests — sequentially in one run, so
+  # there is no timing gap between two crons. Docker, because Playwright needs
+  # browsers and the image also carries the Go digest binary (see Dockerfile.cron).
   - type: cron
-    name: jobwatch-ingest
+    name: jobwatch-nightly
     runtime: docker
-    dockerfilePath: ./Dockerfile.ingest
+    dockerfilePath: ./Dockerfile.cron
     dockerContext: .
     schedule: "0 22 * * *"
     envVars:
@@ -67,33 +69,16 @@ services:
           name: jobwatch-db
           property: connectionString
       # Meta/Tesla/Revolut need a headless browser and bot-block datacenter IPs;
-      # skip them here so a browser can't hang the nightly run. Revisit with a
-      # residential proxy if those companies become important.
+      # skip them here so a browser can't hang the run.
       - key: JOBWATCH_SKIP_BROWSER
         value: "1"
-      # A few flaky sites among hundreds shouldn't mark the whole cron as failed;
-      # per-company failures are visible in the backend's /health instead.
+      # A few flaky sites among hundreds shouldn't fail the whole run; per-company
+      # failures are visible in the backend's /health instead.
       - key: JOBWATCH_TOLERATE_FAILURES
         value: "1"
-
-  # Scheduled job, 30 min after the scrape. Pure Go, native build. Warms the
-  # public feed's SWE classification cache, then runs the per-user digests.
-  # NOTE: until a real Mailer is configured the digests only log — no email yet.
-  - type: cron
-    name: jobwatch-digest
-    runtime: go
-    rootDir: backend
-    schedule: "30 22 * * *"
-    buildCommand: go build -o digest ./cmd/digest
-    startCommand: ./digest
-    envVars:
-      - key: JOBWATCH_DATABASE_URL
-        fromDatabase:
-          name: jobwatch-db
-          property: connectionString
-      - key: ANTHROPIC_API_KEY
+      - key: ANTHROPIC_API_KEY # feed classification + per-user matching
         sync: false
-      - key: RESEND_API_KEY
+      - key: RESEND_API_KEY # send digests; unset falls back to the dev logger
         sync: false
       - key: RESEND_FROM
         sync: false
