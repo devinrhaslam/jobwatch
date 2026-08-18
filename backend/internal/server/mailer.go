@@ -10,7 +10,10 @@ import (
 // implementation just logs, so the auth flow is exercisable without an inbox.
 type Mailer interface {
 	SendLoginLink(ctx context.Context, email, link string) error
-	SendDigest(ctx context.Context, email string, matches []Match) error
+	// SendDigest delivers one subscriber's digest. The content is fully rendered
+	// by the caller — grouped, link-wrapped, and with the opt-out resolved — so
+	// a mailer only formats and transmits.
+	SendDigest(ctx context.Context, sub Subscriber, content DigestContent) error
 }
 
 // logMailer is the development mailer: it writes the message to the server log
@@ -23,10 +26,15 @@ func (logMailer) SendLoginLink(_ context.Context, email, link string) error {
 	return nil
 }
 
-func (logMailer) SendDigest(_ context.Context, email string, matches []Match) error {
-	log.Printf("[dev mailer] digest to %s: %d new match(es)", email, len(matches))
-	for _, m := range matches {
-		log.Printf("[dev mailer]   • %s — %s (%s)", m.Title, m.Company, m.Reason)
+func (logMailer) SendDigest(_ context.Context, sub Subscriber, c DigestContent) error {
+	log.Printf("[dev mailer] digest to %s: %q", sub.Email, digestSubject(c))
+	for _, company := range c.Companies {
+		for _, j := range company.Jobs {
+			log.Printf("[dev mailer]   • %s — %s (%s)", j.Title, company.Company, j.Age)
+		}
+	}
+	if c.Overflow > 0 {
+		log.Printf("[dev mailer]   … and %d more", c.Overflow)
 	}
 	return nil
 }

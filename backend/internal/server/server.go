@@ -3,6 +3,7 @@ package server
 import (
 	"context"
 	"encoding/json"
+	"html"
 	"log"
 	"net/http"
 	"os"
@@ -20,10 +21,13 @@ const (
 type Server struct {
 	store         *Store
 	classifier    Classifier
+	enricher      Enricher
 	mailer        Mailer
 	appBaseURL    string // where the magic link points (the frontend origin)
+	apiBaseURL    string // this API's own public origin, for links inside email
 	allowedOrigin string // CORS: the frontend origin allowed to call this API
 	devAuth       bool   // when true, /auth/request returns the link in its body
+	postalAddress string // CAN-SPAM: the physical address in every digest footer
 }
 
 // New connects the store and wires the Claude-backed fit classifier and the dev
@@ -40,6 +44,13 @@ func New(ctx context.Context, dsn string) (*Server, error) {
 	if appURL == "" {
 		appURL = "http://localhost:5173"
 	}
+	// Links inside an email cannot be relative, and they point at this API (the
+	// click redirector, the pixel, the unsubscribe endpoint) rather than at the
+	// frontend. In dev the two differ; in production this is the backend's URL.
+	apiURL := os.Getenv("JOBWATCH_API_URL")
+	if apiURL == "" {
+		apiURL = "http://localhost:8080"
+	}
 
 	// Send real email through Resend when configured; otherwise log (dev).
 	var mailer Mailer = logMailer{}
@@ -51,13 +62,17 @@ func New(ctx context.Context, dsn string) (*Server, error) {
 		mailer = newResendMailer(key, from, appURL)
 	}
 
+	classifier := newClaudeClassifier()
 	return &Server{
 		store:         store,
-		classifier:    newClaudeClassifier(),
+		classifier:    classifier,
+		enricher:      classifier,
 		mailer:        mailer,
 		appBaseURL:    appURL,
+		apiBaseURL:    apiURL,
 		allowedOrigin: os.Getenv("JOBWATCH_ALLOWED_ORIGIN"),
 		devAuth:       os.Getenv("JOBWATCH_DEV_AUTH") == "1",
+		postalAddress: os.Getenv("JOBWATCH_POSTAL_ADDRESS"),
 	}, nil
 }
 
@@ -70,7 +85,15 @@ func (s *Server) Routes() http.Handler {
 	mux.HandleFunc("GET /companies", s.handleCompanies)
 	mux.HandleFunc("GET /jobs", s.handleJobs)
 	mux.HandleFunc("GET /feed", s.handleFeed)
+	mux.HandleFunc("GET /stats", s.handleStats)
 	mux.HandleFunc("GET /health", s.handleHealth)
+
+	// Email-borne endpoints. These are hit by mail clients and by people who are
+	// not signed in, so none of them require a session.
+	mux.HandleFunc("GET /e/c", s.handleClick)
+	mux.HandleFunc("GET /e/o.gif", s.handleOpen)
+	mux.HandleFunc("GET /u", s.handleUnsubscribe)
+	mux.HandleFunc("POST /u", s.handleUnsubscribe)
 
 	mux.HandleFunc("POST /auth/request", s.handleAuthRequest)
 	mux.HandleFunc("POST /auth/verify", s.handleAuthVerify)
@@ -78,6 +101,7 @@ func (s *Server) Routes() http.Handler {
 
 	mux.HandleFunc("GET /me", s.authed(s.handleGetMe))
 	mux.HandleFunc("DELETE /me", s.authed(s.handleDeleteMe))
+	mux.HandleFunc("PUT /me/preferences", s.authed(s.handleSetPreferences))
 	mux.HandleFunc("PUT /me/profile", s.authed(s.handleSetProfile))
 	mux.HandleFunc("PUT /me/watchlist", s.authed(s.handleSetWatchlist))
 	mux.HandleFunc("POST /me/match", s.authed(s.handleRunMatch))
@@ -169,6 +193,11 @@ func writeJSON(w http.ResponseWriter, status int, v any) {
 		log.Printf("encode: %v", err)
 	}
 }
+
+// htmlAttr escapes a value for interpolation into an HTML attribute or body.
+// Used by the handful of places that emit HTML directly (the unsubscribe page,
+// the digest email) rather than JSON.
+func htmlAttr(s string) string { return html.EscapeString(s) }
 
 func writeError(w http.ResponseWriter, status int, msg string) {
 	writeJSON(w, status, map[string]string{"error": msg})

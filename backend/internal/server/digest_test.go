@@ -2,13 +2,19 @@ package server
 
 import (
 	"context"
+	"net/http"
+	"strconv"
+	"strings"
 	"testing"
+	"time"
 )
+
+func epoch() time.Time { return time.Unix(0, 0).UTC() }
 
 // captureMailer records the digests it is asked to send instead of mailing them.
 type capturedDigest struct {
 	email   string
-	matches []Match
+	content DigestContent
 }
 
 type captureMailer struct {
@@ -17,16 +23,26 @@ type captureMailer struct {
 
 func (m *captureMailer) SendLoginLink(_ context.Context, _, _ string) error { return nil }
 
-func (m *captureMailer) SendDigest(_ context.Context, email string, matches []Match) error {
-	m.digests = append(m.digests, capturedDigest{email: email, matches: matches})
+func (m *captureMailer) SendDigest(_ context.Context, sub Subscriber, c DigestContent) error {
+	m.digests = append(m.digests, capturedDigest{email: sub.Email, content: c})
 	return nil
 }
 
-func TestDigestEmailsNewMatchesExactlyOnce(t *testing.T) {
+// jobIDs flattens a digest back to the postings it carried.
+func (c capturedDigest) jobIDs() []string {
+	var ids []string
+	for _, company := range c.content.Companies {
+		for _, j := range company.Jobs {
+			ids = append(ids, j.JobID)
+		}
+	}
+	return ids
+}
+
+func TestDigestSendsNewPostingsExactlyOnce(t *testing.T) {
 	srv := setup(t)
-	stub := &stubClassifier{off: []string{"Frontend"}}
-	userID, _ := matchReadyUser(t, srv, stub, "digest@example.com")
-	backdateWatchlist(t, userID, "2025-01-01T00:00:00Z")
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "digest@example.com")
 
 	mail := &captureMailer{}
 	srv.mailer = mail
@@ -35,35 +51,32 @@ func TestDigestEmailsNewMatchesExactlyOnce(t *testing.T) {
 	if err != nil {
 		t.Fatalf("run digests: %v", err)
 	}
-	if sum.Users != 1 || sum.EmailsSent != 1 || sum.MatchesSent != 1 {
-		t.Fatalf("summary = %+v, want 1 user / 1 email / 1 match", sum)
+	if sum.Subscribers != 1 || sum.EmailsSent != 1 || sum.JobsSent != 1 {
+		t.Fatalf("summary = %+v, want 1 subscriber / 1 email / 1 role", sum)
 	}
 	if len(mail.digests) != 1 || mail.digests[0].email != "digest@example.com" {
 		t.Fatalf("captured = %+v", mail.digests)
 	}
-	if got := mail.digests[0].matches; len(got) != 1 || got[0].JobID != "1" {
-		t.Fatalf("digest matches = %+v, want only the backend role", got)
+	// Only Acme "2" is a non-seed software posting; the seeds are back-catalogue.
+	if ids := mail.digests[0].jobIDs(); len(ids) != 1 || ids[0] != "2" {
+		t.Fatalf("digest carried %v, want only job 2", ids)
 	}
 
-	// A second run finds nothing new: the cursor advanced past the sent matches.
+	// A second run finds nothing new: the cursor advanced past what was sent.
 	sum2, err := srv.RunDigests(context.Background())
 	if err != nil {
 		t.Fatalf("run digests again: %v", err)
 	}
-	if sum2.EmailsSent != 0 {
-		t.Fatalf("second run sent %d emails, want 0", sum2.EmailsSent)
-	}
-	if len(mail.digests) != 1 {
-		t.Fatalf("second run captured another digest: %+v", mail.digests)
+	if sum2.EmailsSent != 0 || len(mail.digests) != 1 {
+		t.Fatalf("second run re-sent: summary %+v, captured %d", sum2, len(mail.digests))
 	}
 }
 
-func TestDigestSkipsUsersWithNoMatches(t *testing.T) {
+func TestDigestSkipsUnconfirmedAccounts(t *testing.T) {
 	srv := setup(t)
-	stub := &stubClassifier{}
-	// No backdate: added_at is now, so the fixture's older jobs are below the
-	// seeding floor and nothing matches.
-	matchReadyUser(t, srv, stub, "empty@example.com")
+	enrichAll(t, srv)
+	// Signed in but never clicked a confirmation link.
+	signIn(t, srv, "unconfirmed@example.com")
 
 	mail := &captureMailer{}
 	srv.mailer = mail
@@ -72,10 +85,198 @@ func TestDigestSkipsUsersWithNoMatches(t *testing.T) {
 	if err != nil {
 		t.Fatalf("run digests: %v", err)
 	}
-	if sum.Users != 1 || sum.EmailsSent != 0 {
-		t.Fatalf("summary = %+v, want 1 user / 0 emails", sum)
+	if sum.Subscribers != 0 || len(mail.digests) != 0 {
+		t.Fatalf("emailed an unconfirmed address: summary %+v, captured %+v", sum, mail.digests)
+	}
+}
+
+func TestDigestSkipsUnsubscribed(t *testing.T) {
+	srv := setup(t)
+	enrichAll(t, srv)
+	userID, _ := confirmSubscriber(t, srv, "gone@example.com")
+	if err := srv.store.Unsubscribe(context.Background(), userID); err != nil {
+		t.Fatalf("unsubscribe: %v", err)
+	}
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	sum, err := srv.RunDigests(context.Background())
+	if err != nil {
+		t.Fatalf("run digests: %v", err)
+	}
+	if sum.Subscribers != 0 || len(mail.digests) != 0 {
+		t.Fatalf("emailed an unsubscribed address: %+v", mail.digests)
+	}
+}
+
+func TestDigestSendsNothingRatherThanAnEmptyEmail(t *testing.T) {
+	srv := setup(t)
+	enrichAll(t, srv)
+	// Confirmed now, so the cursor starts after every fixture posting.
+	signIn(t, srv, "quiet@example.com")
+	if _, err := srv.store.pool.Exec(context.Background(),
+		`UPDATE users SET confirmed_at = now() WHERE email = 'quiet@example.com'`); err != nil {
+		t.Fatalf("confirm: %v", err)
+	}
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	sum, err := srv.RunDigests(context.Background())
+	if err != nil {
+		t.Fatalf("run digests: %v", err)
+	}
+	if sum.Subscribers != 1 || sum.EmailsSent != 0 || sum.Skipped != 1 {
+		t.Fatalf("summary = %+v, want 1 subscriber / 0 emails / 1 skipped", sum)
+	}
+}
+
+// A failed send must not advance the cursor, or the postings it covered are
+// never told to anyone.
+func TestDigestKeepsCursorWhenSendFails(t *testing.T) {
+	srv := setup(t)
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "bounce@example.com")
+	srv.mailer = failingMailer{}
+
+	if _, err := srv.RunDigests(context.Background()); err != nil {
+		t.Fatalf("run digests: %v", err)
+	}
+
+	// The provider recovers; the same postings must still be pending.
+	mail := &captureMailer{}
+	srv.mailer = mail
+	sum, err := srv.RunDigests(context.Background())
+	if err != nil {
+		t.Fatalf("retry: %v", err)
+	}
+	if sum.EmailsSent != 1 || len(mail.digests) != 1 {
+		t.Fatalf("postings were lost after a failed send: %+v", sum)
+	}
+}
+
+type failingMailer struct{}
+
+func (failingMailer) SendLoginLink(context.Context, string, string) error { return nil }
+func (failingMailer) SendDigest(context.Context, Subscriber, DigestContent) error {
+	return context.DeadlineExceeded
+}
+
+func TestDigestGroupsByCompanyAndRendersBothParts(t *testing.T) {
+	srv := setup(t)
+	ctx := context.Background()
+	if _, err := srv.store.pool.Exec(ctx, `
+		INSERT INTO jobs (company, job_id, title, url, first_seen_at, last_seen_at, is_seed) VALUES
+			('Acme','7','Staff Software Engineer','https://acme.example/7','2026-08-03',now(),false),
+			('Beta','8','Software Developer','https://beta.example/8','2026-08-03',now(),false)`,
+	); err != nil {
+		t.Fatalf("insert: %v", err)
+	}
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "grouped@example.com")
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("run digests: %v", err)
+	}
+	if len(mail.digests) != 1 {
+		t.Fatalf("captured %d digests, want 1", len(mail.digests))
+	}
+	c := mail.digests[0].content
+
+	seen := map[string]int{}
+	for _, company := range c.Companies {
+		seen[company.Company] = len(company.Jobs)
+	}
+	if seen["Acme"] != 2 || seen["Beta"] != 1 {
+		t.Fatalf("grouping = %v, want Acme:2 Beta:1", seen)
+	}
+
+	html, text := digestHTML(c), digestText(c)
+	for _, want := range []string{"Staff Software Engineer", "Software Developer", "Unsubscribe"} {
+		if !strings.Contains(html, want) {
+			t.Errorf("html missing %q", want)
+		}
+	}
+	if !strings.Contains(text, "Unsubscribe:") {
+		t.Error("text part missing the opt-out")
+	}
+	// The subject names companies rather than counting anonymous "matches".
+	if subj := digestSubject(c); !strings.Contains(subj, "Acme") {
+		t.Errorf("subject = %q, want it to name a company", subj)
+	}
+}
+
+func TestUnsubscribeLinkStopsDigestsAndIsIdempotent(t *testing.T) {
+	srv := setup(t)
+	t.Setenv("JOBWATCH_LINK_SECRET", "test-secret")
+	enrichAll(t, srv)
+	userID, _ := confirmSubscriber(t, srv, "optout@example.com")
+
+	link := srv.UnsubscribeURL(userID)
+	target := link[strings.Index(link, "/u?"):]
+
+	// The mail provider's automated one-click POST must work without a session.
+	if rec := do(t, srv, "", http.MethodPost, target, ""); rec.Code != http.StatusOK {
+		t.Fatalf("one-click POST: status %d: %s", rec.Code, rec.Body.String())
+	}
+	if rec := get(t, srv, "", target); rec.Code != http.StatusOK {
+		t.Fatalf("repeat unsubscribe: status %d", rec.Code)
+	}
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	if _, err := srv.RunDigests(context.Background()); err != nil {
+		t.Fatalf("run digests: %v", err)
 	}
 	if len(mail.digests) != 0 {
-		t.Fatalf("emailed a user with no matches: %+v", mail.digests)
+		t.Fatalf("still emailing after unsubscribe: %+v", mail.digests)
+	}
+
+	// A tampered signature is refused.
+	if rec := get(t, srv, "", "/u?i="+userID+"&s=deadbeef"); rec.Code != http.StatusBadRequest {
+		t.Fatalf("forged unsubscribe accepted: status %d", rec.Code)
+	}
+}
+
+// The "and N more" line must be the real remainder. Inferring it from an
+// over-fetch of limit+1 can only ever say "and 1 more", which for a subscriber
+// with no level filter understates the truth by orders of magnitude.
+func TestDigestOverflowCountsTheRealRemainder(t *testing.T) {
+	srv := setup(t)
+	ctx := context.Background()
+
+	// Comfortably more than one email holds.
+	for i := range digestMaxJobs + 25 {
+		if _, err := srv.store.pool.Exec(ctx, `
+			INSERT INTO jobs (company, job_id, title, url, first_seen_at, last_seen_at, is_seed)
+			VALUES ('Acme', $1, 'Software Engineer', 'https://acme.example/x', '2026-08-03', now(), false)`,
+			"bulk-"+strconv.Itoa(i),
+		); err != nil {
+			t.Fatalf("insert: %v", err)
+		}
+	}
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "bulk@example.com")
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("run digests: %v", err)
+	}
+	if len(mail.digests) != 1 {
+		t.Fatalf("captured %d digests, want 1", len(mail.digests))
+	}
+
+	c := mail.digests[0].content
+	if c.Total != digestMaxJobs {
+		t.Fatalf("carried %d roles, want the cap of %d", c.Total, digestMaxJobs)
+	}
+	// 25 bulk rows beyond the cap, plus the fixture's own Frontend Engineer.
+	if c.Overflow != 26 {
+		t.Fatalf("overflow = %d, want 26 — the real remainder, not an over-fetch of 1", c.Overflow)
+	}
+	if !strings.Contains(digestHTML(c), "and 26 more") {
+		t.Error("email does not state the real remainder")
 	}
 }

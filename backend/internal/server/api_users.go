@@ -27,7 +27,11 @@ func (s *Server) handleGetMe(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *Server) handleDeleteMe(w http.ResponseWriter, r *http.Request) {
-	if err := s.store.DeleteUser(r.Context(), currentUser(r)); err != nil {
+	userID := currentUser(r)
+	// Recorded before the delete: the events row's user_id is nulled by the
+	// cascade, so afterwards there is no id left to attribute it to.
+	s.store.RecordEvent(r.Context(), EventAccountDeleted, &userID, nil)
+	if err := s.store.DeleteUser(r.Context(), userID); err != nil {
 		log.Printf("delete account: %v", err)
 		writeError(w, http.StatusInternalServerError, "could not delete account")
 		return

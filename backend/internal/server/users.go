@@ -19,9 +19,15 @@ type User struct {
 }
 
 // UserView is the composite "everything about this account" payload: identity,
-// the fit-filter profile (null until set), and the watchlist.
+// subscription state, the digest filters, and — for the personal-fit matcher
+// that is not part of the MVP signup flow — the profile and watchlist.
 type UserView struct {
 	User
+	Confirmed bool `json:"confirmed"`
+	// Subscribed is false once someone has opted out. The app shows this so a
+	// former subscriber can turn digests back on without creating a new account.
+	Subscribed bool `json:"subscribed"`
+	Preferences
 	Profile   *string  `json:"profile"`
 	Watchlist []string `json:"watchlist"`
 }
@@ -63,18 +69,23 @@ func (s *Store) userExists(ctx context.Context, id string) (bool, error) {
 // UserView returns the account with its profile and watchlist, or ErrNotFound.
 func (s *Store) UserView(ctx context.Context, id string) (UserView, error) {
 	var v UserView
+	var confirmedAt, unsubscribedAt *time.Time
 	err := s.pool.QueryRow(ctx, `
-		SELECT u.id, u.email, u.created_at, p.profile_text
+		SELECT u.id, u.email, u.created_at, u.confirmed_at, u.unsubscribed_at,
+		       u.levels, u.us_only, u.remote_only, p.profile_text
 		FROM users u
 		LEFT JOIN user_profiles p ON p.user_id = u.id
 		WHERE u.id = $1`, id,
-	).Scan(&v.ID, &v.Email, &v.CreatedAt, &v.Profile)
+	).Scan(&v.ID, &v.Email, &v.CreatedAt, &confirmedAt, &unsubscribedAt,
+		&v.Levels, &v.USOnly, &v.RemoteOnly, &v.Profile)
 	if errors.Is(err, pgx.ErrNoRows) {
 		return v, ErrNotFound
 	}
 	if err != nil {
 		return v, err
 	}
+	v.Confirmed = confirmedAt != nil
+	v.Subscribed = unsubscribedAt == nil
 	watchlist, err := s.Watchlist(ctx, id)
 	if err != nil {
 		return v, err

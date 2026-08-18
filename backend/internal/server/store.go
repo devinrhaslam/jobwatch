@@ -4,6 +4,7 @@ import (
 	"context"
 	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
@@ -43,6 +44,23 @@ type Job struct {
 	LastSeenAt  time.Time `json:"last_seen_at"`
 }
 
+// scanJobs drains a query whose columns are the Job SELECT list below. Every job
+// query shares it so the column order lives in one place.
+func scanJobs(rows pgx.Rows) ([]Job, error) {
+	jobs := []Job{}
+	for rows.Next() {
+		var j Job
+		if err := rows.Scan(
+			&j.Company, &j.JobID, &j.Title, &j.URL, &j.Location,
+			&j.PostedDate, &j.FirstSeenAt, &j.LastSeenAt,
+		); err != nil {
+			return nil, err
+		}
+		jobs = append(jobs, j)
+	}
+	return jobs, rows.Err()
+}
+
 // Companies lists every company with at least one stored job, alphabetically.
 func (s *Store) Companies(ctx context.Context) ([]string, error) {
 	rows, err := s.pool.Query(ctx, `SELECT DISTINCT company FROM jobs ORDER BY company`)
@@ -79,18 +97,7 @@ func (s *Store) Jobs(ctx context.Context, company string, since time.Time, limit
 	}
 	defer rows.Close()
 
-	jobs := []Job{}
-	for rows.Next() {
-		var j Job
-		if err := rows.Scan(
-			&j.Company, &j.JobID, &j.Title, &j.URL, &j.Location,
-			&j.PostedDate, &j.FirstSeenAt, &j.LastSeenAt,
-		); err != nil {
-			return nil, err
-		}
-		jobs = append(jobs, j)
-	}
-	return jobs, rows.Err()
+	return scanJobs(rows)
 }
 
 // RecentPostings returns jobs first seen since `since` that are NOT part of a
@@ -116,18 +123,7 @@ func (s *Store) RecentPostings(ctx context.Context, since time.Time, limit int) 
 	}
 	defer rows.Close()
 
-	jobs := []Job{}
-	for rows.Next() {
-		var j Job
-		if err := rows.Scan(
-			&j.Company, &j.JobID, &j.Title, &j.URL, &j.Location,
-			&j.PostedDate, &j.FirstSeenAt, &j.LastSeenAt,
-		); err != nil {
-			return nil, err
-		}
-		jobs = append(jobs, j)
-	}
-	return jobs, rows.Err()
+	return scanJobs(rows)
 }
 
 // Health is the payload of /health: a DB liveness signal plus corpus size and
@@ -168,4 +164,61 @@ func (s *Store) Health(ctx context.Context) (Health, error) {
 		}
 	}
 	return h, rows.Err()
+}
+
+// SoftwareFeed is the public home page's query: genuinely-new US software roles
+// since `since`, capped at perCompany per company so a busy employer cannot
+// flood the page, newest first.
+//
+// This used to fetch a wide window and classify in the request path. Enrichment
+// now happens once in the cron, so the feed is pure SQL — no model call, no
+// cache lookup, and the per-company cap is a window function rather than a
+// second pass in Go.
+func (s *Store) SoftwareFeed(ctx context.Context, since time.Time, perCompany, limit int) ([]Job, error) {
+	rows, err := s.pool.Query(ctx, `
+		SELECT company, job_id, title, url, location, posted_date,
+		       first_seen_at, last_seen_at
+		FROM (
+			SELECT j.company, j.job_id, j.title, j.url, j.location, j.posted_date,
+			       j.first_seen_at, j.last_seen_at,
+			       row_number() OVER (PARTITION BY j.company
+			                          ORDER BY j.first_seen_at DESC, j.job_id) AS rn
+			FROM jobs j
+			JOIN job_enrichment e ON e.company = j.company AND e.job_id = j.job_id
+			WHERE NOT j.is_seed
+			  AND j.first_seen_at > $1
+			  AND e.is_swe
+			  AND e.is_us
+		) ranked
+		WHERE rn <= $2
+		ORDER BY first_seen_at DESC, job_id
+		LIMIT $3`, since, perCompany, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	return scanJobs(rows)
+}
+
+// Stats is the public proof-of-life on the landing page: how much is tracked and
+// how much arrived today. These are the numbers that make the pitch credible, so
+// they are served from the same table the feed reads rather than hardcoded.
+type Stats struct {
+	Companies int64 `json:"companies"`
+	Jobs      int64 `json:"jobs"`
+	NewToday  int64 `json:"new_today"`
+}
+
+func (s *Store) Stats(ctx context.Context, since time.Time) (Stats, error) {
+	var st Stats
+	err := s.pool.QueryRow(ctx, `
+		SELECT (SELECT count(DISTINCT company) FROM jobs),
+		       (SELECT count(*) FROM jobs),
+		       (SELECT count(*)
+		          FROM jobs j
+		          JOIN job_enrichment e ON e.company = j.company AND e.job_id = j.job_id
+		         WHERE NOT j.is_seed AND j.first_seen_at > $1 AND e.is_swe AND e.is_us)`,
+		since,
+	).Scan(&st.Companies, &st.Jobs, &st.NewToday)
+	return st, err
 }

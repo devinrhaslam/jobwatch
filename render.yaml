@@ -30,7 +30,16 @@ services:
         sync: false
       - key: JOBWATCH_APP_URL # the frontend URL, for magic-link emails
         sync: false
+      - key: JOBWATCH_API_URL # this service's own URL, for links inside email
+        sync: false
       - key: JOBWATCH_ALLOWED_ORIGIN # the frontend URL, for CORS
+        sync: false
+      # Signs the click/open/unsubscribe links. MUST match jobwatch-nightly's
+      # value: the cron mints these links and this service verifies them. Unset
+      # disables click tracking rather than shipping an unsigned open redirect.
+      - key: JOBWATCH_LINK_SECRET
+        sync: false
+      - key: JOBWATCH_POSTAL_ADDRESS # CAN-SPAM: printed in every digest footer
         sync: false
       - key: RESEND_API_KEY # send real email; unset falls back to the dev logger
         sync: false
@@ -54,8 +63,8 @@ services:
         destination: /index.html
 
   # One nightly job (22:00 UTC ≈ early evening US): scrape into Postgres, then
-  # warm the feed's SWE cache and send the digests — sequentially in one run, so
-  # there is no timing gap between two crons. Docker, because Playwright needs
+  # enrich the new postings (role, level, location) and send the digests —
+  # sequentially in one run, so there is no timing gap between two crons. Docker, because Playwright needs
   # browsers and the image also carries the Go digest binary (see Dockerfile.cron).
   - type: cron
     name: jobwatch-nightly
@@ -76,11 +85,19 @@ services:
       # failures are visible in the backend's /health instead.
       - key: JOBWATCH_TOLERATE_FAILURES
         value: "1"
-      - key: ANTHROPIC_API_KEY # feed classification + per-user matching
+      - key: ANTHROPIC_API_KEY # enrichment: role, level, and location per posting
         sync: false
       - key: RESEND_API_KEY # send digests; unset falls back to the dev logger
         sync: false
       - key: RESEND_FROM
         sync: false
-      - key: JOBWATCH_APP_URL # for the digest email's manage-account footer
+      - key: JOBWATCH_APP_URL # for the digest's preferences link
+        sync: false
+      - key: JOBWATCH_API_URL # for the digest's tracked and unsubscribe links
+        sync: false
+      # Must be byte-identical to jobwatch-backend's, or every link this cron
+      # puts in an email fails signature verification when someone clicks it.
+      - key: JOBWATCH_LINK_SECRET
+        sync: false
+      - key: JOBWATCH_POSTAL_ADDRESS # CAN-SPAM: printed in every digest footer
         sync: false

@@ -47,6 +47,7 @@ func (s *Server) handleAuthRequest(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusInternalServerError, "could not send login email")
 		return
 	}
+	s.store.RecordEvent(r.Context(), EventSignupStarted, &user.ID, nil)
 
 	resp := map[string]any{"ok": true}
 	if s.devAuth {
@@ -73,6 +74,19 @@ func (s *Server) handleAuthVerify(w http.ResponseWriter, r *http.Request) {
 		log.Printf("auth verify (consume): %v", err)
 		writeError(w, http.StatusInternalServerError, "could not verify login")
 		return
+	}
+
+	// Clicking the emailed link is the confirming half of double opt-in: it
+	// proves the address is real and reachable by whoever asked for it. Nothing
+	// is ever mailed to an account that has not been through here.
+	firstTime, err := s.store.Confirm(r.Context(), userID)
+	if err != nil {
+		log.Printf("auth verify (confirm): %v", err)
+		writeError(w, http.StatusInternalServerError, "could not confirm your subscription")
+		return
+	}
+	if firstTime {
+		s.store.RecordEvent(r.Context(), EventSignupConfirmed, &userID, nil)
 	}
 
 	raw, hash := newToken()

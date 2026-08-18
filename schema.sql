@@ -34,6 +34,38 @@ CREATE TABLE IF NOT EXISTS jobs (
 CREATE INDEX IF NOT EXISTS jobs_company_first_seen_idx
     ON jobs (company, first_seen_at);
 
+-- Whether this row came from a company's initial seed — the run that records a
+-- whole pre-existing board at once. The public feed wants genuinely-new
+-- postings, so it excludes these.
+--
+-- Recorded at write time rather than derived at read time. The feed used to ask
+-- "is first_seen_at later than this company's earliest?", which meant a
+-- min()-per-company aggregate over the entire table on every request, on top of
+-- a sequential scan the indexes above could not serve. Both are gone now.
+--
+-- Like first_seen_at, it is set once on insert and never updated: a routine
+-- run's upsert leaves an existing row's flag alone (see _UPSERT_SQL in
+-- jobwatch/store.py).
+ALTER TABLE jobs ADD COLUMN IF NOT EXISTS is_seed boolean NOT NULL DEFAULT false;
+
+-- One-time backfill for rows written before the column existed, applying
+-- exactly the rule the old query derived: a company's seed is everything at its
+-- earliest first_seen_at (a seed writes the whole board at one timestamp). The
+-- `NOT is_seed` guard makes re-applying this file a no-op rather than redundant
+-- work, and leaves rows the ingester has already flagged untouched.
+UPDATE jobs j SET is_seed = true
+FROM (SELECT company, min(first_seen_at) AS seeded_at FROM jobs GROUP BY company) s
+WHERE j.company = s.company
+  AND j.first_seen_at = s.seeded_at
+  AND NOT j.is_seed;
+
+-- Serves the feed's query outright: the partial predicate keeps the seeded
+-- back-catalogue (the bulk of the table) out of the index, and the column order
+-- matches RecentPostings' ORDER BY exactly, so the top N rows are read straight
+-- off the index with no sort.
+CREATE INDEX IF NOT EXISTS jobs_recent_idx
+    ON jobs (first_seen_at DESC, job_id) WHERE NOT is_seed;
+
 -- One row per company per run: the health signal that turns a FAILED/BLOCKED
 -- scraper from a line skimmed in a terminal into something a dashboard can
 -- surface, now that a broken scraper is customer-facing.
@@ -136,3 +168,89 @@ CREATE TABLE IF NOT EXISTS sessions (
 );
 
 CREATE INDEX IF NOT EXISTS sessions_user_idx ON sessions (user_id);
+
+-- ---------------------------------------------------------------------------
+-- Enrichment: the structured facts a subscriber filters on.
+--
+-- Kept in its own table rather than as columns on `jobs` to preserve the
+-- ingestion contract: Python owns every column of `jobs`, Go owns this. It also
+-- means a routine re-scrape can never clobber a verdict as a side effect of the
+-- upsert.
+--
+-- Only title-and-location-derived facts live here. We deliberately do not open
+-- the posting to enrich it — a filter is only offered when the listing itself
+-- carries the signal (see `level`'s 'unknown').
+CREATE TABLE IF NOT EXISTS job_enrichment (
+    company    text        NOT NULL,
+    job_id     text        NOT NULL,
+    -- The title this verdict was judged from. A board that re-titles a req in
+    -- place keeps its job_id, and the old verdict would then describe a title
+    -- that no longer exists — so the enricher re-judges when this stops
+    -- matching, rather than serving a stale level.
+    title_hash text        NOT NULL,
+    is_swe     boolean     NOT NULL,
+    -- intern | new_grad | junior | mid | senior | staff | unknown
+    --
+    -- 'unknown' is a first-class value, not a failure: roughly a third of real
+    -- software titles carry no level at all ("Software Engineer, Ads"). Those
+    -- rows are always delivered regardless of a subscriber's level filter,
+    -- because hiding a role on absent evidence is a worse error than showing
+    -- one extra.
+    level      text        NOT NULL,
+    is_us      boolean     NOT NULL,
+    is_remote  boolean     NOT NULL,
+    reason     text        NOT NULL DEFAULT '',
+    judged_at  timestamptz NOT NULL DEFAULT now(),
+    PRIMARY KEY (company, job_id)
+);
+
+-- Serves the digest and the feed: both ask for recent, non-seed, US software
+-- roles and then narrow by level.
+CREATE INDEX IF NOT EXISTS job_enrichment_keep_idx
+    ON job_enrichment (company, job_id) WHERE is_swe;
+
+-- ---------------------------------------------------------------------------
+-- Subscriber preferences.
+--
+-- A subscriber is just a `users` row that has confirmed. The profile/watchlist
+-- tables stay for the personal-fit matcher, but nothing in the digest path
+-- requires them any more: the MVP sends every confirmed subscriber the same
+-- query, narrowed only by these columns.
+
+-- Double opt-in. NULL means the address was entered but the link was never
+-- clicked; those accounts are never emailed a digest.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS confirmed_at    timestamptz;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS unsubscribed_at timestamptz;
+
+-- Empty array means "every level", which is the default and the recommended
+-- setting. A non-empty array is an opt-in narrowing; 'unknown' rows bypass it.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS levels      text[]  NOT NULL DEFAULT '{}';
+ALTER TABLE users ADD COLUMN IF NOT EXISTS us_only     boolean NOT NULL DEFAULT true;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS remote_only boolean NOT NULL DEFAULT false;
+
+-- Accounts created before double opt-in existed had no way to confirm, and they
+-- did opt in — they clicked a magic link to create the account. Treat them as
+-- confirmed rather than silently dropping them from every future digest.
+UPDATE users SET confirmed_at = created_at WHERE confirmed_at IS NULL;
+
+-- ---------------------------------------------------------------------------
+-- Product analytics.
+--
+-- One append-only row per tracked action. `props` is jsonb so a new event can
+-- carry new fields without a migration — this table exists to answer the launch
+-- gates (reach, activation, click-through, retention), and those questions will
+-- change shape faster than a schema should.
+--
+-- user_id is nullable and ON DELETE SET NULL: deleting an account must not
+-- delete the history that a signup and a click happened, but must stop the row
+-- pointing at a person.
+CREATE TABLE IF NOT EXISTS events (
+    id         bigint      GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name       text        NOT NULL,
+    user_id    uuid        REFERENCES users(id) ON DELETE SET NULL,
+    props      jsonb       NOT NULL DEFAULT '{}',
+    created_at timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS events_name_created_idx ON events (name, created_at DESC);
+CREATE INDEX IF NOT EXISTS events_user_idx ON events (user_id, created_at DESC);

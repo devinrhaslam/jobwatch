@@ -34,14 +34,18 @@ func newResendMailer(apiKey, from, appURL string) *resendMailer {
 	}
 }
 
-func (m *resendMailer) send(ctx context.Context, to, subject, htmlBody, textBody string) error {
-	payload, err := json.Marshal(map[string]any{
+func (m *resendMailer) send(ctx context.Context, to, subject, htmlBody, textBody string, headers map[string]string) error {
+	body := map[string]any{
 		"from":    m.from,
 		"to":      []string{to},
 		"subject": subject,
 		"html":    htmlBody,
 		"text":    textBody,
-	})
+	}
+	if len(headers) > 0 {
+		body["headers"] = headers
+	}
+	payload, err := json.Marshal(body)
 	if err != nil {
 		return err
 	}
@@ -76,37 +80,21 @@ func (m *resendMailer) SendLoginLink(ctx context.Context, email, link string) er
 			`If you didn't request it, you can ignore this email.</p>`,
 		html.EscapeString(link),
 	)
-	return m.send(ctx, email, "Your jobwatch sign-in link", body, text)
+	return m.send(ctx, email, "Your jobwatch sign-in link", body, text, nil)
 }
 
-func (m *resendMailer) SendDigest(ctx context.Context, email string, matches []Match) error {
-	noun := "match"
-	if len(matches) != 1 {
-		noun = "matches"
+// SendDigest transmits a rendered digest.
+//
+// The List-Unsubscribe headers are not optional decoration. Gmail and Yahoo's
+// bulk sender rules expect a one-click opt-out, and mail clients surface it as a
+// native "Unsubscribe" button next to the sender — which is the difference
+// between a bored reader unsubscribing (free) and reporting spam (expensive, and
+// charged against the sending domain forever).
+func (m *resendMailer) SendDigest(ctx context.Context, sub Subscriber, c DigestContent) error {
+	headers := map[string]string{}
+	if c.UnsubURL != "" {
+		headers["List-Unsubscribe"] = "<" + c.UnsubURL + ">"
+		headers["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
 	}
-	subject := fmt.Sprintf("%d new %s at your companies", len(matches), noun)
-
-	var text, body strings.Builder
-	text.WriteString("New roles matching your profile:\n\n")
-	body.WriteString(`<p>New roles matching your profile:</p><ul>`)
-	for _, mt := range matches {
-		loc := ""
-		if mt.Location != nil && *mt.Location != "" {
-			loc = " · " + *mt.Location
-		}
-		fmt.Fprintf(&text, "- %s — %s%s\n  %s\n\n", mt.Title, mt.Company, loc, mt.URL)
-		fmt.Fprintf(&body, `<li><a href="%s">%s</a> — %s%s</li>`,
-			html.EscapeString(mt.URL), html.EscapeString(mt.Title),
-			html.EscapeString(mt.Company), html.EscapeString(loc))
-	}
-	body.WriteString(`</ul>`)
-
-	// A minimal opt-out: deleting the account stops all email. A one-click
-	// unsubscribe and a physical mailing address are still needed for CAN-SPAM
-	// before sending at scale (see DEPLOY.md).
-	fmt.Fprintf(&text, "\nYou're receiving this because you signed up for jobwatch. Manage or delete your account: %s\n", m.appURL)
-	fmt.Fprintf(&body, `<p style="color:#6b7280;font-size:12px">You're receiving this because you signed up for jobwatch. `+
-		`<a href="%s">Manage or delete your account</a>.</p>`, html.EscapeString(m.appURL))
-
-	return m.send(ctx, email, subject, body.String(), text.String())
+	return m.send(ctx, sub.Email, digestSubject(c), digestHTML(c), digestText(c), headers)
 }

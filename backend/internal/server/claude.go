@@ -15,39 +15,6 @@ const (
 	fitMaxRetries = 2
 )
 
-// feedModel is a cheaper, faster model for the coarse "is this software
-// engineering" question behind the public feed — simpler than the personal fit,
-// over more jobs, so it does not need the top model. feedMaxTokens is modest
-// because the output is just a short verdict per listing.
-const feedModel = "claude-haiku-4-5-20251001"
-const feedMaxTokens = 8192
-
-const feedInstructions = `You are classifying job listings for a software-engineering job board. For each
-listing, decide whether it is a software engineering role — a job whose core work
-is writing and building software.
-
-Return relevant=true for software engineering roles of any specialty and level:
-software engineer, backend, frontend, full-stack, mobile (iOS/Android), embedded
-or firmware, systems, platform, infrastructure, SRE, DevOps, security engineer,
-and machine-learning or data ENGINEERS. Include internships, new grad, and
-staff/principal, anywhere in the world.
-
-Return relevant=false for everything else, including roles that are technical or
-adjacent but are not software engineering:
-- data scientists, machine-learning / AI / applied / research SCIENTISTS,
-  quantitative researchers, data analysts, analytics roles
-- product, program, or project management, and engineering management
-- design (UX/UI/graphic), sales, marketing, recruiting, HR, finance, legal,
-  customer success, IT support, operations, warehouse and retail roles
-- non-software engineering: mechanical, electrical, hardware, manufacturing,
-  civil, and ERP/SAP functional roles
-
-The distinction that matters: an engineer who builds software is in; a scientist,
-researcher, analyst, manager, or non-software engineer is out — even if the title
-contains "Engineer" or the role is technical. Give a reason of at most 8 words.
-Return one verdict per listing using the index shown, as JSON:
-{"verdicts":[{"index":<int>,"relevant":<bool>,"reason":<string>}]} and nothing else.`
-
 // claudeClassifier asks Claude to judge listings. Batches of 50 keep any single
 // request bounded; a batch that comes back missing a listing is re-asked for
 // just the gaps rather than failing.
@@ -64,12 +31,6 @@ func newClaudeClassifier() *claudeClassifier {
 func (c *claudeClassifier) Classify(ctx context.Context, profile string, jobs []Job) ([]Verdict, error) {
 	system := strings.ReplaceAll(fitInstructions, "{profile}", profile)
 	return c.classifyAll(ctx, fitModel, fitMaxTokens, system, jobs)
-}
-
-// ClassifySoftware judges whether each job is a software engineering role, for
-// the public feed. No profile, no location or personal preferences.
-func (c *claudeClassifier) ClassifySoftware(ctx context.Context, jobs []Job) ([]Verdict, error) {
-	return c.classifyAll(ctx, feedModel, feedMaxTokens, feedInstructions, jobs)
 }
 
 func (c *claudeClassifier) classifyAll(ctx context.Context, model string, maxTokens int, system string, jobs []Job) ([]Verdict, error) {
