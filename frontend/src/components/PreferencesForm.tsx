@@ -1,41 +1,34 @@
-import { useEffect, useState, type FormEvent } from "react";
-import { api } from "../api";
+import { useState, type FormEvent } from "react";
+import { api, LEVELS, type Level, type Preferences } from "../api";
 
-// The profile textarea plus a searchable company multi-select, saving both the
-// profile and watchlist for the signed-in user. Used by first-time Setup and the
-// dashboard's edit view.
+// The whole of onboarding: three questions, all optional, all defaulted to
+// "send me everything".
+//
+// This replaced a free-text profile plus a 267-item company multi-select. Two
+// reasons. Filters here are answerable from the job title alone, which is all
+// the pipeline reads — it never opens a posting, so it can only offer a filter
+// the listing itself carries. And every question asked before the first email is
+// a chance to lose someone who has not yet seen the product work.
 export default function PreferencesForm({
-  initialProfile,
-  initialWatchlist,
+  initial,
   submitLabel,
   onSaved,
 }: {
-  initialProfile: string;
-  initialWatchlist: string[];
+  initial: Preferences;
   submitLabel: string;
   onSaved: () => void;
 }) {
-  const [profile, setProfile] = useState(initialProfile);
-  const [companies, setCompanies] = useState<string[]>([]);
-  const [selected, setSelected] = useState<Set<string>>(
-    () => new Set(initialWatchlist),
-  );
-  const [filter, setFilter] = useState("");
+  const [levels, setLevels] = useState<Set<Level>>(new Set(initial.levels));
+  const [usOnly, setUsOnly] = useState(initial.us_only);
+  const [remoteOnly, setRemoteOnly] = useState(initial.remote_only);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
-  useEffect(() => {
-    api
-      .companies()
-      .then(setCompanies)
-      .catch((e) => setError((e as Error).message));
-  }, []);
-
-  function toggle(company: string) {
-    setSelected((prev) => {
+  function toggle(level: Level) {
+    setLevels((prev) => {
       const next = new Set(prev);
-      if (next.has(company)) next.delete(company);
-      else next.add(company);
+      if (next.has(level)) next.delete(level);
+      else next.add(level);
       return next;
     });
   }
@@ -45,8 +38,11 @@ export default function PreferencesForm({
     setBusy(true);
     setError("");
     try {
-      await api.setProfile(profile.trim());
-      await api.setWatchlist([...selected]);
+      await api.setPreferences({
+        levels: [...levels],
+        us_only: usOnly,
+        remote_only: remoteOnly,
+      });
       onSaved();
     } catch (err) {
       setError((err as Error).message);
@@ -55,58 +51,58 @@ export default function PreferencesForm({
     }
   }
 
-  const shown = companies.filter((c) =>
-    c.toLowerCase().includes(filter.toLowerCase()),
-  );
-
   return (
     <form onSubmit={save} className="stack">
-      <label>
-        Your target role
-        <textarea
-          rows={5}
-          required
-          value={profile}
-          onChange={(e) => setProfile(e.target.value)}
-          placeholder="e.g. Senior backend engineer, ~8 years, Go / TypeScript / Python. US-remote. Not interested in data, ML, mobile, frontend-only, security, infra/SRE, or management roles."
-        />
-      </label>
-
-      <div>
-        <div className="row between center">
-          <label className="tight">
-            Companies to watch{" "}
-            <span className="muted">({selected.size} selected)</span>
-          </label>
-          <input
-            className="search"
-            placeholder="filter…"
-            value={filter}
-            onChange={(e) => setFilter(e.target.value)}
-          />
-        </div>
+      <fieldset className="field">
+        <legend>Levels</legend>
+        <p className="hint">
+          Pick none to get every level — that's the recommended setting. Roles
+          whose title doesn't state a level always come through either way.
+        </p>
         <div className="picker">
-          {companies.length === 0 && (
-            <span className="muted">loading companies…</span>
-          )}
-          {shown.map((company) => (
+          {LEVELS.map(({ id, label }) => (
             <label
-              key={company}
-              className={"chip" + (selected.has(company) ? " on" : "")}
+              key={id}
+              className={"chip" + (levels.has(id) ? " on" : "")}
             >
               <input
                 type="checkbox"
-                checked={selected.has(company)}
-                onChange={() => toggle(company)}
+                checked={levels.has(id)}
+                onChange={() => toggle(id)}
               />
-              {company}
+              {label}
             </label>
           ))}
         </div>
-      </div>
+      </fieldset>
+
+      <fieldset className="field">
+        <legend>Location</legend>
+        <label className="check">
+          <input
+            type="checkbox"
+            checked={usOnly}
+            onChange={(e) => setUsOnly(e.target.checked)}
+          />
+          <span>United States only</span>
+        </label>
+        <label className="check">
+          <input
+            type="checkbox"
+            checked={remoteOnly}
+            onChange={(e) => setRemoteOnly(e.target.checked)}
+          />
+          <span>
+            Remote only
+            <span className="hint inline">
+              only roles whose listing says remote
+            </span>
+          </span>
+        </label>
+      </fieldset>
 
       {error && <div className="error">{error}</div>}
-      <button className="primary" disabled={busy || selected.size === 0}>
+      <button className="primary" disabled={busy}>
         {busy ? "saving…" : submitLabel}
       </button>
     </form>

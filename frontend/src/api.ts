@@ -18,28 +18,41 @@ export function clearSession() {
   localStorage.removeItem(SESSION_KEY);
 }
 
-export interface UserView {
+// The levels a subscriber can filter on. `unknown` is deliberately absent: it
+// is not something you opt into, it is what always comes through — about a third
+// of real software titles name no level, and those reach everyone.
+export const LEVELS = [
+  { id: "intern", label: "Internship" },
+  { id: "new_grad", label: "New grad" },
+  { id: "junior", label: "Junior" },
+  { id: "mid", label: "Mid-level" },
+  { id: "senior", label: "Senior" },
+  { id: "staff", label: "Staff+" },
+] as const;
+
+export type Level = (typeof LEVELS)[number]["id"];
+
+export interface Preferences {
+  levels: Level[];
+  us_only: boolean;
+  remote_only: boolean;
+}
+
+export interface UserView extends Preferences {
   id: string;
   email: string;
   created_at: string;
+  confirmed: boolean;
+  subscribed: boolean;
+  // Unused by the MVP; see the note at the bottom of this file.
   profile: string | null;
   watchlist: string[];
 }
 
-export interface MatchResult {
-  evaluated: number;
-  kept: number;
-}
-
-export interface Match {
-  company: string;
-  job_id: string;
-  title: string;
-  url: string;
-  location: string | null;
-  reason: string;
-  matched_at: string;
-  first_seen_at: string;
+export interface Stats {
+  companies: number;
+  jobs: number;
+  new_today: number;
 }
 
 export interface Job {
@@ -51,6 +64,8 @@ export interface Job {
   posted_date: string | null;
   first_seen_at: string;
   last_seen_at: string;
+  // Resolved server-side so the web app and the digest email show the same icon.
+  logo_url: string;
 }
 
 async function req<T>(
@@ -82,7 +97,7 @@ async function req<T>(
 }
 
 export const api = {
-  companies: () => req<string[]>("/companies"),
+  stats: () => req<Stats>("/stats"),
   // The public home-page feed: recent software-engineering roles across all
   // companies in the last `sinceHours`, newest first. No auth. The /feed endpoint
   // classifies "is this software engineering" and returns only the keepers.
@@ -91,6 +106,18 @@ export const api = {
     return req<Job[]>(
       `/feed?since=${encodeURIComponent(since)}&limit=${limit}`,
     );
+  },
+  // Recent roles, widening the window if it comes back empty.
+  //
+  // A quiet night — or a cron that missed — must never render an empty list to
+  // someone who just arrived from a launch post, so this falls back to the most
+  // recent 30 days and reports that it did, letting the caller relabel.
+  recentJobsOrLatest: async (
+    hours: number,
+  ): Promise<{ jobs: Job[]; stale: boolean }> => {
+    const fresh = await api.recentJobs(hours, 200);
+    if (fresh.length > 0) return { jobs: fresh, stale: false };
+    return { jobs: await api.recentJobs(24 * 30, 200), stale: true };
   },
   authRequest: (email: string) =>
     req<{ ok: boolean; dev_link?: string }>("/auth/request", {
@@ -105,10 +132,12 @@ export const api = {
   logout: () => req<void>("/auth/logout", { method: "POST" }),
   me: () => req<UserView>("/me"),
   deleteAccount: () => req<void>("/me", { method: "DELETE" }),
-  setProfile: (profile: string) =>
-    req<void>("/me/profile", { method: "PUT", body: { profile } }),
-  setWatchlist: (companies: string[]) =>
-    req<void>("/me/watchlist", { method: "PUT", body: { companies } }),
-  runMatch: () => req<MatchResult>("/me/match", { method: "POST" }),
-  matches: () => req<Match[]>("/me/matches?limit=200"),
+  setPreferences: (prefs: Preferences) =>
+    req<void>("/me/preferences", { method: "PUT", body: prefs }),
 };
+
+// Not bound here: /companies, /me/profile, /me/watchlist, /me/match and
+// /me/matches. Those back the resume-based personal-fit matcher, which is built
+// and tested server-side but is not part of the MVP — the free product filters
+// on level and location, which are answerable from a job title. Re-add the
+// client methods when there is a paid tier to put behind them.

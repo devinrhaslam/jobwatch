@@ -29,7 +29,8 @@ export default function SignupForm() {
   if (sent) {
     return (
       <div className="signup-sent">
-        <strong>Check your email</strong> — we sent a sign-in link to {email}.
+        <strong>Check your email</strong> — we sent a confirmation link to{" "}
+        {email}. Click it and your first digest arrives tomorrow morning.
         {devLink && (
           <>
             {" "}
@@ -51,7 +52,7 @@ export default function SignupForm() {
         aria-label="Email"
       />
       <button className="primary" disabled={busy}>
-        {busy ? "…" : "Get personalized alerts"}
+        {busy ? "…" : "Get daily alerts"}
       </button>
       {error && <div className="error">{error}</div>}
     </form>

@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
-import { api, clearSession, type Match, type UserView } from "../api";
+import { api, clearSession, type Job, type UserView } from "../api";
 import PreferencesForm from "./PreferencesForm";
-import MatchList from "./MatchList";
+import CompanyIcon from "./CompanyIcon";
+import { relativeTime } from "../time";
+import { LEVELS } from "../api";
 
 export default function Dashboard({
   user,
@@ -10,23 +12,26 @@ export default function Dashboard({
   user: UserView;
   onReload: () => Promise<void>;
 }) {
-  const [matches, setMatches] = useState<Match[]>([]);
+  const [jobs, setJobs] = useState<Job[]>([]);
+  const [stale, setStale] = useState(false);
   const [editing, setEditing] = useState(false);
-  const [status, setStatus] = useState("");
   const [error, setError] = useState("");
-  const [busy, setBusy] = useState(false);
 
-  const loadMatches = useCallback(async () => {
+  // The signed-in view shows the same feed a digest would carry, so someone can
+  // see what they're subscribed to without waiting for tomorrow's email.
+  const load = useCallback(async () => {
     try {
-      setMatches(await api.matches());
+      const { jobs, stale } = await api.recentJobsOrLatest(48);
+      setJobs(jobs);
+      setStale(stale);
     } catch (e) {
       setError((e as Error).message);
     }
   }, []);
 
   useEffect(() => {
-    loadMatches();
-  }, [loadMatches]);
+    load();
+  }, [load]);
 
   async function deleteAccount() {
     if (
@@ -44,30 +49,16 @@ export default function Dashboard({
     window.location.assign("/");
   }
 
-  async function runMatch() {
-    setBusy(true);
-    setStatus("");
-    setError("");
-    try {
-      const r = await api.runMatch();
-      setStatus(
-        `Checked ${r.evaluated} new posting${r.evaluated === 1 ? "" : "s"}, kept ${r.kept}.`,
-      );
-      await loadMatches();
-    } catch (e) {
-      setError((e as Error).message);
-    } finally {
-      setBusy(false);
-    }
-  }
-
   if (editing) {
     return (
       <div className="card">
-        <h1>Edit your preferences</h1>
+        <h1>What you get</h1>
         <PreferencesForm
-          initialProfile={user.profile ?? ""}
-          initialWatchlist={user.watchlist}
+          initial={{
+            levels: user.levels,
+            us_only: user.us_only,
+            remote_only: user.remote_only,
+          }}
           submitLabel="Save"
           onSaved={async () => {
             setEditing(false);
@@ -78,6 +69,10 @@ export default function Dashboard({
     );
   }
 
+  const levelLabels = user.levels.length
+    ? LEVELS.filter((l) => user.levels.includes(l.id)).map((l) => l.label)
+    : ["Every level"];
+
   return (
     <div className="stack">
       <div className="card">
@@ -87,31 +82,57 @@ export default function Dashboard({
             <div className="email">{user.email}</div>
           </div>
           <button className="ghost" onClick={() => setEditing(true)}>
-            Edit preferences
+            Edit what you get
           </button>
         </div>
+        {!user.subscribed && (
+          <div className="note warn">
+            You're unsubscribed — no digests are being sent. Save your
+            preferences to start them again.
+          </div>
+        )}
         <div className="watchrow">
-          {user.watchlist.map((c) => (
-            <span key={c} className="chip on static">
-              {c}
+          {levelLabels.map((l) => (
+            <span key={l} className="chip on static">
+              {l}
             </span>
           ))}
-          {user.watchlist.length === 0 && (
-            <span className="muted">No companies yet — add some.</span>
-          )}
+          <span className="chip on static">
+            {user.us_only ? "US only" : "Anywhere"}
+          </span>
+          {user.remote_only && <span className="chip on static">Remote only</span>}
         </div>
       </div>
 
       <div className="card">
-        <div className="row between center">
-          <h2>Your matches</h2>
-          <button className="primary" onClick={runMatch} disabled={busy}>
-            {busy ? "checking…" : "Find matches now"}
-          </button>
-        </div>
-        {status && <div className="note">{status}</div>}
+        <h2>{stale ? "Most recent roles" : "New in the last 48 hours"}</h2>
         {error && <div className="error">{error}</div>}
-        <MatchList matches={matches} />
+        {jobs.length === 0 ? (
+          <p className="muted">Nothing to show yet — check back tomorrow.</p>
+        ) : (
+          <ul className="matches">
+            {jobs.map((j) => (
+              <li key={j.company + j.job_id} className="match">
+                <CompanyIcon company={j.company} src={j.logo_url} />
+                <div className="match-main">
+                  <a
+                    href={j.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="match-title"
+                  >
+                    {j.title}
+                  </a>
+                  <div className="match-meta">
+                    {j.company}
+                    {j.location ? ` · ${j.location}` : ""}
+                  </div>
+                </div>
+                <div className="match-when">{relativeTime(j.first_seen_at)}</div>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
 
       <div className="dangerzone">

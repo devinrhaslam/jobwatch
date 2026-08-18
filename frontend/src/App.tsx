@@ -13,6 +13,9 @@ import Dashboard from "./components/Dashboard";
 export default function App() {
   const [user, setUser] = useState<UserView | null>(null);
   const [ready, setReady] = useState(false);
+  // Setup is shown once, immediately after following a confirmation link — not
+  // gated on an empty profile, since the MVP never asks for one.
+  const [justConfirmed, setJustConfirmed] = useState(false);
 
   const reload = useCallback(async () => {
     setUser(await api.me());
@@ -29,6 +32,7 @@ export default function App() {
           const { token, user } = await api.authVerify(linkToken);
           setSession(token);
           setUser(user);
+          setJustConfirmed(true);
         } catch {
           clearSession();
         }
@@ -70,14 +74,27 @@ export default function App() {
           <div className="card">Signing you in…</div>
         ) : !user ? (
           <Home />
-        ) : user.profile === null ? (
-          <Setup onSaved={reload} />
+        ) : justConfirmed ? (
+          <Setup
+            initial={{
+              levels: user.levels,
+              us_only: user.us_only,
+              remote_only: user.remote_only,
+            }}
+            onSaved={async () => {
+              // Reload before leaving Setup: the account in state predates the
+              // save, so the dashboard would otherwise show the old filters.
+              await reload();
+              setJustConfirmed(false);
+            }}
+          />
         ) : (
           <Dashboard user={user} onReload={reload} />
         )}
       </main>
       <footer className="foot">
-        Dev preview · passwordless sign-in by magic link
+        Job listings are read from each company's own careers page. Links go
+        straight to the employer.
       </footer>
     </div>
   );

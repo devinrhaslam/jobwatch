@@ -1,33 +1,13 @@
 import { useState } from "react";
 
-// Company names where "lowercase, strip non-alphanumeric, + .com" guesses the
-// wrong domain. Everything else uses the guess, then falls back to a monogram if
-// no logo loads — so a miss is a tidy initial, never a broken image.
-const DOMAIN_OVERRIDES: Record<string, string> = {
-  "Google DeepMind": "deepmind.com",
-  "Hims & Hers": "hims.com",
-  "monday.com": "monday.com",
-  "Character.AI": "character.ai",
-  "Checkout.com": "checkout.com",
-  "1X Technologies": "1x.tech",
-  X: "x.com",
-  "Two Sigma": "twosigma.com",
-  "Match Group": "mtch.com",
-  "Rocket Lab": "rocketlabusa.com",
-  "Electronic Arts": "ea.com",
-  "Take-Two Interactive": "take2games.com",
-  "Sony Interactive Entertainment": "sony.com",
-  "Walmart Global Tech": "walmart.com",
-  "Hudson River Trading": "hudsonrivertrading.com",
-};
-
-function domainFor(company: string): string {
-  return (
-    DOMAIN_OVERRIDES[company] ??
-    company.toLowerCase().replace(/[^a-z0-9]/g, "") + ".com"
-  );
-}
-
+// The company logo, falling back to a coloured monogram when no icon loads.
+//
+// The URL is resolved by the API (see backend/internal/server/logo.go) rather
+// than guessed here, so the web app and the digest email always show the same
+// icon and the domain overrides live in one place. The previous version built
+// Clearbit URLs in this file; when that service was withdrawn every icon
+// silently became a monogram, which is precisely the failure this fallback is
+// designed to survive — and precisely why the source is now configurable.
 function colorFor(company: string): string {
   let hash = 0;
   for (let i = 0; i < company.length; i++) {
@@ -36,10 +16,16 @@ function colorFor(company: string): string {
   return `hsl(${Math.abs(hash) % 360}, 45%, 45%)`;
 }
 
-export default function CompanyIcon({ company }: { company: string }) {
+export default function CompanyIcon({
+  company,
+  src,
+}: {
+  company: string;
+  src?: string;
+}) {
   const [failed, setFailed] = useState(false);
 
-  if (failed) {
+  if (!src || failed) {
     return (
       <span
         className="company-icon monogram"
@@ -54,7 +40,7 @@ export default function CompanyIcon({ company }: { company: string }) {
   return (
     <img
       className="company-icon"
-      src={`https://logo.clearbit.com/${domainFor(company)}`}
+      src={src}
       alt=""
       loading="lazy"
       onError={() => setFailed(true)}

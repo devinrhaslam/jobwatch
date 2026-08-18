@@ -1,13 +1,66 @@
 :root {
-  --bg: #f6f7f9;
+  --bg: #fbfaf9;
   --card: #ffffff;
-  --ink: #1b1f27;
+  --ink: #16161a;
   --muted: #6b7280;
-  --line: #e5e7eb;
-  --accent: #4f46e5;
+  --line: #e7e5e2;
+  --field: #ffffff;
+  --sunken: #f7f6f4;
+  --accent: #1f5e46;
+  --accent-soft: #e8f0ec;
   --accent-ink: #ffffff;
-  --danger: #dc2626;
-  --ok: #047857;
+  --hero-bg: #f2f4f1;
+  --hero-line: #dfe4de;
+  --danger: #b4342b;
+  --ok: #1f5e46;
+  --warn-bg: #fdf5e6;
+  --warn-ink: #8a5a12;
+  --shadow: 0 1px 2px rgba(22, 22, 26, 0.05);
+}
+
+/* Dark is a full re-definition of the same tokens, guarded so an explicit
+   light choice still wins, with the same palette applied again under an
+   explicit dark choice. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121316;
+    --card: #1a1c20;
+    --ink: #eceef1;
+    --muted: #9aa1ab;
+    --line: #2c2f35;
+    --field: #212429;
+    --sunken: #16181b;
+    --accent: #6ec49e;
+    --accent-soft: #1d2a24;
+    --accent-ink: #10221a;
+    --hero-bg: #181b1a;
+    --hero-line: #2a302c;
+    --danger: #f0837a;
+    --ok: #6ec49e;
+    --warn-bg: #2a2317;
+    --warn-ink: #e2b569;
+    --shadow: none;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #121316;
+  --card: #1a1c20;
+  --ink: #eceef1;
+  --muted: #9aa1ab;
+  --line: #2c2f35;
+  --field: #212429;
+  --sunken: #16181b;
+  --accent: #6ec49e;
+  --accent-soft: #1d2a24;
+  --accent-ink: #10221a;
+  --hero-bg: #181b1a;
+  --hero-line: #2a302c;
+  --danger: #f0837a;
+  --ok: #6ec49e;
+  --warn-bg: #2a2317;
+  --warn-ink: #e2b569;
+  --shadow: none;
 }
 
 * {
@@ -67,6 +120,7 @@ body {
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 24px;
+  box-shadow: var(--shadow);
 }
 .card.narrow {
   max-width: 440px;
@@ -110,7 +164,7 @@ textarea {
   padding: 10px 12px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: #fff;
+  background: var(--field);
   color: var(--ink);
   width: 100%;
 }
@@ -141,7 +195,7 @@ button.primary:disabled {
   cursor: default;
 }
 button.ghost {
-  background: #fff;
+  background: var(--card);
   border-color: var(--line);
   color: var(--ink);
 }
@@ -187,12 +241,10 @@ button.link {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  max-height: 260px;
-  overflow: auto;
   padding: 12px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: #fafafa;
+  background: var(--sunken);
   margin-top: 6px;
 }
 
@@ -205,7 +257,7 @@ button.link {
   padding: 6px 10px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: #fff;
+  background: var(--card);
   cursor: pointer;
   user-select: none;
 }
@@ -214,7 +266,7 @@ button.link {
 }
 .chip.on {
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-ink);
   border-color: var(--accent);
 }
 .chip.static {
@@ -255,7 +307,7 @@ button.link {
   height: 34px;
   border-radius: 8px;
   object-fit: contain;
-  background: #fff;
+  background: var(--card);
   border: 1px solid var(--line);
   flex-shrink: 0;
 }
@@ -263,7 +315,7 @@ button.link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-size: 15px;
   border: none;
@@ -310,14 +362,112 @@ button.link {
 }
 
 .hero {
-  background: #eef0fe;
-  border-color: #c9cdfb;
+  background: var(--hero-bg);
+  border: 1px solid var(--hero-line);
+  border-radius: 14px;
+  padding: 44px 32px 36px;
+  text-align: center;
 }
 .hero h1 {
-  font-size: 28px;
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  margin: 0;
+  font-weight: 700;
 }
-.hero .muted {
-  max-width: 46ch;
+.hero h1 em {
+  font-style: normal;
+  color: var(--accent);
+}
+.lede {
+  color: var(--muted);
+  max-width: 52ch;
+  margin: 16px auto 0;
+  font-size: 15px;
+}
+.hero .signup-row {
+  max-width: 460px;
+  margin: 24px auto 0;
+}
+
+/* The numbers are the credibility: they come from the same table the feed
+   reads, so they cannot drift from what the page shows underneath them. */
+.proof {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 40px;
+  margin: 32px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--hero-line);
+}
+.proof div {
+  min-width: 90px;
+}
+.proof dt {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.proof dd {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+
+.field {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.field legend {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+}
+.hint {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 4px 0 0;
+  font-weight: 400;
+}
+.hint.inline {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+}
+.check {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.check input {
+  width: auto;
+  margin-top: 3px;
+  accent-color: var(--accent);
+}
+.note.warn {
+  color: var(--warn-ink);
+  background: var(--warn-bg);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 14px;
 }
 
 .signup-row {
@@ -349,5 +499,15 @@ button.link {
   }
   .card {
     padding: 18px;
+  }
+  .hero {
+    padding: 32px 20px 28px;
+  }
+  .proof {
+    gap: 12px 24px;
+  }
+  /* The age column would otherwise squeeze the title to a couple of words. */
+  .match-when {
+    display: none;
   }
 }

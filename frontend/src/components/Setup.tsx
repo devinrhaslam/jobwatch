@@ -1,18 +1,27 @@
 import PreferencesForm from "./PreferencesForm";
+import { type Preferences } from "../api";
 
-// Shown once, right after a new account's first sign-in (no profile yet).
-export default function Setup({ onSaved }: { onSaved: () => void }) {
+// Shown once, right after a new subscriber's first sign-in. Everything here is
+// optional — they are already subscribed by this point, and the defaults send
+// every US software role — so this is a chance to narrow, never a gate.
+export default function Setup({
+  initial,
+  onSaved,
+}: {
+  initial: Preferences;
+  onSaved: () => void;
+}) {
   return (
     <div className="card">
-      <h1>Tell us what you're after</h1>
+      <h1>You're subscribed</h1>
       <p className="muted">
-        We'll alert you the day a matching role is posted at the companies you
-        pick.
+        Every new software engineering role at the companies we track, the day
+        it's posted. Narrow it down if you like — or skip this and change your
+        mind later from any email.
       </p>
       <PreferencesForm
-        initialProfile=""
-        initialWatchlist={[]}
-        submitLabel="Start watching"
+        initial={initial}
+        submitLabel="Save and finish"
         onSaved={onSaved}
       />
     </div>
