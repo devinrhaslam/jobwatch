@@ -168,11 +168,21 @@ textarea {
   color: var(--ink);
   width: 100%;
 }
-input:focus,
+/* Scoped to text-like fields on purpose. Applied to every input, this ring sat
+   directly on the edge of a checkbox and merged with the box, which read as a
+   broken border rather than as focus. Checkboxes and radios get their own ring
+   below, offset so it sits clear of the control. */
+input:not([type="checkbox"]):not([type="radio"]):focus,
 textarea:focus {
   outline: 2px solid var(--accent);
   outline-offset: 0;
   border-color: transparent;
+}
+
+input[type="checkbox"]:focus-visible,
+input[type="radio"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 textarea {
   resize: vertical;
@@ -449,18 +459,59 @@ button.link {
   margin: 0;
   font-size: 12px;
 }
-.check {
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+}
+.choice {
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   font-weight: 500;
-  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
   cursor: pointer;
 }
-.check input {
+.choice:hover {
+  background: var(--sunken);
+}
+.choice input {
   width: auto;
-  margin-top: 3px;
   accent-color: var(--accent);
+  flex-shrink: 0;
+}
+
+/* Levels and location are different questions, so they must not render as one
+   undifferentiated row of identical pills — a subscriber who picked a single
+   level saw three chips and concluded their choice had not been saved. */
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 40px;
+  margin: 18px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.summary dt {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.summary dd {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.summary dd.plain {
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 3px;
 }
 .note.warn {
   color: var(--warn-ink);

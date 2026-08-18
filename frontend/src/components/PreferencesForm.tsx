@@ -1,7 +1,15 @@
 import { useState, type FormEvent } from "react";
-import { api, LEVELS, type Level, type Preferences } from "../api";
+import {
+  api,
+  LEVELS,
+  LOCATIONS,
+  locationFor,
+  type Level,
+  type LocationId,
+  type Preferences,
+} from "../api";
 
-// The whole of onboarding: three questions, all optional, all defaulted to
+// The whole of onboarding: two questions, both optional, both defaulted to
 // "send me everything".
 //
 // This replaced a free-text profile plus a 267-item company multi-select. Two
@@ -19,8 +27,7 @@ export default function PreferencesForm({
   onSaved: () => void;
 }) {
   const [levels, setLevels] = useState<Set<Level>>(new Set(initial.levels));
-  const [usOnly, setUsOnly] = useState(initial.us_only);
-  const [remoteOnly, setRemoteOnly] = useState(initial.remote_only);
+  const [location, setLocation] = useState<LocationId>(locationFor(initial));
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -38,10 +45,11 @@ export default function PreferencesForm({
     setBusy(true);
     setError("");
     try {
+      const choice = LOCATIONS.find((l) => l.id === location)!;
       await api.setPreferences({
         levels: [...levels],
-        us_only: usOnly,
-        remote_only: remoteOnly,
+        us_only: choice.us,
+        remote_only: choice.remote,
       });
       onSaved();
     } catch (err) {
@@ -61,10 +69,7 @@ export default function PreferencesForm({
         </p>
         <div className="picker">
           {LEVELS.map(({ id, label }) => (
-            <label
-              key={id}
-              className={"chip" + (levels.has(id) ? " on" : "")}
-            >
+            <label key={id} className={"chip" + (levels.has(id) ? " on" : "")}>
               <input
                 type="checkbox"
                 checked={levels.has(id)}
@@ -78,27 +83,21 @@ export default function PreferencesForm({
 
       <fieldset className="field">
         <legend>Location</legend>
-        <label className="check">
-          <input
-            type="checkbox"
-            checked={usOnly}
-            onChange={(e) => setUsOnly(e.target.checked)}
-          />
-          <span>United States only</span>
-        </label>
-        <label className="check">
-          <input
-            type="checkbox"
-            checked={remoteOnly}
-            onChange={(e) => setRemoteOnly(e.target.checked)}
-          />
-          <span>
-            Remote only
-            <span className="hint inline">
-              only roles whose listing says remote
-            </span>
-          </span>
-        </label>
+        <p className="hint">Anything outside this is left out of your email.</p>
+        <div className="choices">
+          {LOCATIONS.map(({ id, label }) => (
+            <label key={id} className="choice">
+              <input
+                type="radio"
+                name="location"
+                value={id}
+                checked={location === id}
+                onChange={() => setLocation(id)}
+              />
+              <span>{label}</span>
+            </label>
+          ))}
+        </div>
       </fieldset>
 
       {error && <div className="error">{error}</div>}

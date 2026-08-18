@@ -38,6 +38,40 @@ export interface Preferences {
   remote_only: boolean;
 }
 
+// Location is stored as two independent booleans but presented as one choice.
+//
+// As two checkboxes it read as additive — "United States only" plus "Remote
+// only" looks like it should return US roles *and* remote roles, when the
+// filters actually intersect. A radio group cannot be misread that way: exactly
+// one applies. All four combinations are still representable, so a preference
+// set through the API is never silently rewritten by opening this form.
+export const LOCATIONS = [
+  { id: "anywhere", label: "Anywhere", us: false, remote: false },
+  { id: "us", label: "United States", us: true, remote: false },
+  { id: "us_remote", label: "Remote, in the US", us: true, remote: true },
+  { id: "remote", label: "Remote, anywhere", us: false, remote: true },
+] as const;
+
+export type LocationId = (typeof LOCATIONS)[number]["id"];
+
+export function locationFor(p: {
+  us_only: boolean;
+  remote_only: boolean;
+}): LocationId {
+  const match = LOCATIONS.find(
+    (l) => l.us === p.us_only && l.remote === p.remote_only,
+  );
+  return match ? match.id : "us";
+}
+
+export function locationLabel(p: {
+  us_only: boolean;
+  remote_only: boolean;
+}): string {
+  const id = locationFor(p);
+  return LOCATIONS.find((l) => l.id === id)!.label;
+}
+
 export interface UserView extends Preferences {
   id: string;
   email: string;

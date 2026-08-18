@@ -1,9 +1,15 @@
 import { useCallback, useEffect, useState } from "react";
-import { api, clearSession, type Job, type UserView } from "../api";
+import {
+  api,
+  clearSession,
+  locationLabel,
+  LEVELS,
+  type Job,
+  type UserView,
+} from "../api";
 import PreferencesForm from "./PreferencesForm";
 import CompanyIcon from "./CompanyIcon";
 import { relativeTime } from "../time";
-import { LEVELS } from "../api";
 
 export default function Dashboard({
   user,
@@ -91,17 +97,22 @@ export default function Dashboard({
             preferences to start them again.
           </div>
         )}
-        <div className="watchrow">
-          {levelLabels.map((l) => (
-            <span key={l} className="chip on static">
-              {l}
-            </span>
-          ))}
-          <span className="chip on static">
-            {user.us_only ? "US only" : "Anywhere"}
-          </span>
-          {user.remote_only && <span className="chip on static">Remote only</span>}
-        </div>
+        <dl className="summary">
+          <div>
+            <dt>Levels</dt>
+            <dd>
+              {levelLabels.map((l) => (
+                <span key={l} className="chip on static">
+                  {l}
+                </span>
+              ))}
+            </dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd className="plain">{locationLabel(user)}</dd>
+          </div>
+        </dl>
       </div>
 
       <div className="card">
