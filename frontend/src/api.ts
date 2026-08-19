@@ -38,38 +38,47 @@ export interface Preferences {
   remote_only: boolean;
 }
 
-// Location is stored as two independent booleans but presented as one choice.
+// Location and work arrangement are two independent questions, and the UI has
+// to say so.
 //
-// As two checkboxes it read as additive — "United States only" plus "Remote
-// only" looks like it should return US roles *and* remote roles, when the
-// filters actually intersect. A radio group cannot be misread that way: exactly
-// one applies. All four combinations are still representable, so a preference
-// set through the API is never silently rewritten by opening this form.
-export const LOCATIONS = [
-  { id: "anywhere", label: "Anywhere", us: false, remote: false },
-  { id: "us", label: "United States", us: true, remote: false },
-  { id: "us_remote", label: "Remote, in the US", us: true, remote: true },
-  { id: "remote", label: "Remote, anywhere", us: false, remote: true },
+// They were one radio group of four — Anywhere / United States / Remote, in the
+// US / Remote, anywhere — which was wrong twice over. It implied the options
+// were mutually exclusive categories when they are actually a hierarchy:
+// `us_only` keeps every US role, remote ones included, and `remote_only`
+// narrows *within* that. So "United States" already meant "US, remote or not",
+// and the list gave no way to say that out loud — someone wanting US roles
+// including remote had no option that read as theirs, even though it was the
+// default.
+//
+// Two groups, each with an explicit permissive default, map exactly onto the
+// two stored booleans and leave every combination reachable.
+export const PLACES = [
+  { id: "anywhere", label: "Anywhere in the world", us: false },
+  { id: "us", label: "United States", us: true, hint: "includes remote roles open to the US" },
 ] as const;
 
-export type LocationId = (typeof LOCATIONS)[number]["id"];
+export const ARRANGEMENTS = [
+  { id: "any", label: "Any", remote: false, hint: "on-site, hybrid, or remote" },
+  { id: "remote", label: "Remote only", remote: true, hint: "only roles whose listing says remote" },
+] as const;
 
-export function locationFor(p: {
-  us_only: boolean;
-  remote_only: boolean;
-}): LocationId {
-  const match = LOCATIONS.find(
-    (l) => l.us === p.us_only && l.remote === p.remote_only,
-  );
-  return match ? match.id : "us";
+export type PlaceId = (typeof PLACES)[number]["id"];
+export type ArrangementId = (typeof ARRANGEMENTS)[number]["id"];
+
+type LocationPrefs = { us_only: boolean; remote_only: boolean };
+
+export function placeFor(p: LocationPrefs): PlaceId {
+  return p.us_only ? "us" : "anywhere";
 }
 
-export function locationLabel(p: {
-  us_only: boolean;
-  remote_only: boolean;
-}): string {
-  const id = locationFor(p);
-  return LOCATIONS.find((l) => l.id === id)!.label;
+export function arrangementFor(p: LocationPrefs): ArrangementId {
+  return p.remote_only ? "remote" : "any";
+}
+
+// A one-line summary of both answers, for the dashboard.
+export function locationLabel(p: LocationPrefs): string {
+  const place = p.us_only ? "United States" : "Anywhere";
+  return p.remote_only ? `${place} · Remote only` : place;
 }
 
 export interface UserView extends Preferences {

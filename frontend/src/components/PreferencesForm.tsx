@@ -2,14 +2,17 @@ import { useState, type FormEvent } from "react";
 import {
   api,
   LEVELS,
-  LOCATIONS,
-  locationFor,
+  PLACES,
+  ARRANGEMENTS,
+  placeFor,
+  arrangementFor,
   type Level,
-  type LocationId,
+  type PlaceId,
+  type ArrangementId,
   type Preferences,
 } from "../api";
 
-// The whole of onboarding: two questions, both optional, both defaulted to
+// The whole of onboarding: three questions, all optional, all defaulted to
 // "send me everything".
 //
 // This replaced a free-text profile plus a 267-item company multi-select. Two
@@ -27,7 +30,10 @@ export default function PreferencesForm({
   onSaved: () => void;
 }) {
   const [levels, setLevels] = useState<Set<Level>>(new Set(initial.levels));
-  const [location, setLocation] = useState<LocationId>(locationFor(initial));
+  const [place, setPlace] = useState<PlaceId>(placeFor(initial));
+  const [arrangement, setArrangement] = useState<ArrangementId>(
+    arrangementFor(initial),
+  );
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -45,11 +51,10 @@ export default function PreferencesForm({
     setBusy(true);
     setError("");
     try {
-      const choice = LOCATIONS.find((l) => l.id === location)!;
       await api.setPreferences({
         levels: [...levels],
-        us_only: choice.us,
-        remote_only: choice.remote,
+        us_only: PLACES.find((p) => p.id === place)!.us,
+        remote_only: ARRANGEMENTS.find((a) => a.id === arrangement)!.remote,
       });
       onSaved();
     } catch (err) {
@@ -82,19 +87,42 @@ export default function PreferencesForm({
       </fieldset>
 
       <fieldset className="field">
-        <legend>Location</legend>
-        <p className="hint">Anything outside this is left out of your email.</p>
+        <legend>Where</legend>
         <div className="choices">
-          {LOCATIONS.map(({ id, label }) => (
-            <label key={id} className="choice">
+          {PLACES.map((p) => (
+            <label key={p.id} className="choice">
               <input
                 type="radio"
-                name="location"
-                value={id}
-                checked={location === id}
-                onChange={() => setLocation(id)}
+                name="place"
+                value={p.id}
+                checked={place === p.id}
+                onChange={() => setPlace(p.id)}
               />
-              <span>{label}</span>
+              <span>
+                {p.label}
+                {"hint" in p && <span className="hint inline">{p.hint}</span>}
+              </span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset className="field">
+        <legend>Work arrangement</legend>
+        <div className="choices">
+          {ARRANGEMENTS.map((a) => (
+            <label key={a.id} className="choice">
+              <input
+                type="radio"
+                name="arrangement"
+                value={a.id}
+                checked={arrangement === a.id}
+                onChange={() => setArrangement(a.id)}
+              />
+              <span>
+                {a.label}
+                <span className="hint inline">{a.hint}</span>
+              </span>
             </label>
           ))}
         </div>

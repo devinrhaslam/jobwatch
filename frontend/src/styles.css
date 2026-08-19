@@ -467,12 +467,21 @@ button.link {
 }
 .choice {
   flex-direction: row;
-  align-items: center;
+  /* Top-aligned, not centred: each option carries a hint line underneath, and
+     centring would float the control against the middle of a two-line block. */
+  align-items: flex-start;
   gap: 10px;
   font-weight: 500;
   padding: 8px 10px;
   border-radius: 8px;
   cursor: pointer;
+}
+.choice > span {
+  display: flex;
+  flex-direction: column;
+}
+.choice input {
+  margin-top: 2px;
 }
 .choice:hover {
   background: var(--sunken);
