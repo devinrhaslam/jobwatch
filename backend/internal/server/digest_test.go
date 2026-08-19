@@ -280,3 +280,90 @@ func TestDigestOverflowCountsTheRealRemainder(t *testing.T) {
 		t.Error("email does not state the real remainder")
 	}
 }
+
+// Ingestion runs every couple of hours; a person must still be emailed about
+// once a day. Without this gate a two-hourly pipeline is a two-hourly
+// newsletter, which burns the sending domain and the subscriber list with it.
+func TestDigestRunsOftenButEmailsOncePerInterval(t *testing.T) {
+	srv := setup(t)
+	ctx := context.Background()
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "cadence@example.com")
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("first run: %v", err)
+	}
+	if len(mail.digests) != 1 {
+		t.Fatalf("first run sent %d digests, want 1", len(mail.digests))
+	}
+
+	// A posting arrives, and the pipeline runs again two hours later. There is
+	// something new to say, but it is not yet this subscriber's turn.
+	if _, err := srv.store.pool.Exec(ctx, `
+		INSERT INTO jobs (company, job_id, title, url, first_seen_at, last_seen_at, is_seed)
+		VALUES ('Acme','later','Senior Software Engineer','https://acme.example/later',now(),now(),false)`,
+	); err != nil {
+		t.Fatalf("insert: %v", err)
+	}
+	enrichAll(t, srv)
+
+	for range 11 { // the rest of a day's two-hourly runs
+		if _, err := srv.RunDigests(ctx); err != nil {
+			t.Fatalf("subsequent run: %v", err)
+		}
+	}
+	if len(mail.digests) != 1 {
+		t.Fatalf("sent %d digests across a day of two-hourly runs, want 1", len(mail.digests))
+	}
+
+	// Once the interval has elapsed, the accumulated posting goes out — skipping
+	// a run must defer a digest, never drop the postings it would have carried.
+	if _, err := srv.store.pool.Exec(ctx,
+		`UPDATE users SET last_digest_at = now() - interval '24 hours'
+		 WHERE email = 'cadence@example.com'`); err != nil {
+		t.Fatalf("age the cursor: %v", err)
+	}
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("run after interval: %v", err)
+	}
+	if len(mail.digests) != 2 {
+		t.Fatalf("sent %d digests, want 2 once the interval elapsed", len(mail.digests))
+	}
+	if ids := mail.digests[1].jobIDs(); len(ids) != 1 || ids[0] != "later" {
+		t.Fatalf("second digest carried %v, want the posting that accumulated", ids)
+	}
+}
+
+// A zero interval means "every run", which is what a future per-subscriber
+// faster tier would set. It must not be read as "never".
+func TestZeroDigestIntervalSendsEveryRun(t *testing.T) {
+	srv := setup(t)
+	ctx := context.Background()
+	srv.digestInterval = 0
+	enrichAll(t, srv)
+	confirmSubscriber(t, srv, "instant@example.com")
+
+	mail := &captureMailer{}
+	srv.mailer = mail
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("first run: %v", err)
+	}
+
+	if _, err := srv.store.pool.Exec(ctx, `
+		INSERT INTO jobs (company, job_id, title, url, first_seen_at, last_seen_at, is_seed)
+		VALUES ('Acme','fast','Software Engineer','https://acme.example/fast',now(),now(),false)`,
+	); err != nil {
+		t.Fatalf("insert: %v", err)
+	}
+	enrichAll(t, srv)
+
+	if _, err := srv.RunDigests(ctx); err != nil {
+		t.Fatalf("second run: %v", err)
+	}
+	if len(mail.digests) != 2 {
+		t.Fatalf("sent %d digests with a zero interval, want 2", len(mail.digests))
+	}
+}

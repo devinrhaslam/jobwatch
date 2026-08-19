@@ -16,6 +16,16 @@ import (
 // The overflow is counted and linked, never silently dropped.
 const digestMaxJobs = 60
 
+// defaultDigestInterval is the minimum gap between one subscriber's digests.
+//
+// 23 hours rather than 24 because ingestion runs every two hours. At exactly 24
+// the eligible moment lands a hair after the run that last sent, so the send
+// slips to the next slot and walks two hours later every day until it is
+// arriving at 4am. Shaving an hour keeps the same daily slot eligible run after
+// run, and lets a missed run recover at the next slot instead of shifting
+// everyone's delivery time permanently.
+const defaultDigestInterval = 23 * time.Hour
+
 // DigestSummary reports what a digest run did.
 type DigestSummary struct {
 	Subscribers int `json:"subscribers"`
@@ -32,7 +42,7 @@ type DigestSummary struct {
 // A failure for one subscriber is logged and skipped rather than aborting the
 // run: one bad address must not stop everyone else's digest.
 func (s *Server) RunDigests(ctx context.Context) (DigestSummary, error) {
-	subs, err := s.store.Subscribers(ctx)
+	subs, err := s.store.Subscribers(ctx, s.digestInterval)
 	if err != nil {
 		return DigestSummary{}, err
 	}

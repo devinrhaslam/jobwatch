@@ -3,6 +3,7 @@ package server
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"html"
 	"log"
 	"net/http"
@@ -28,6 +29,10 @@ type Server struct {
 	allowedOrigin string // CORS: the frontend origin allowed to call this API
 	devAuth       bool   // when true, /auth/request returns the link in its body
 	postalAddress string // CAN-SPAM: the physical address in every digest footer
+	// Minimum gap between one subscriber's digests. Ingestion runs far more
+	// often than anyone should be emailed, so this is what keeps a two-hourly
+	// pipeline from becoming a two-hourly newsletter.
+	digestInterval time.Duration
 }
 
 // New connects the store and wires the Claude-backed fit classifier and the dev
@@ -62,17 +67,31 @@ func New(ctx context.Context, dsn string) (*Server, error) {
 		mailer = newResendMailer(key, from, appURL)
 	}
 
+	// JOBWATCH_DIGEST_INTERVAL_HOURS overrides how often one subscriber can be
+	// emailed. This is the knob a paid "faster alerts" tier would turn, so it is
+	// a value rather than a constant even though every account shares it today.
+	digestInterval := defaultDigestInterval
+	if raw := os.Getenv("JOBWATCH_DIGEST_INTERVAL_HOURS"); raw != "" {
+		hours, err := strconv.ParseFloat(raw, 64)
+		if err != nil || hours < 0 {
+			return nil, fmt.Errorf(
+				"JOBWATCH_DIGEST_INTERVAL_HOURS must be a non-negative number of hours, got %q", raw)
+		}
+		digestInterval = time.Duration(hours * float64(time.Hour))
+	}
+
 	classifier := newClaudeClassifier()
 	return &Server{
-		store:         store,
-		classifier:    classifier,
-		enricher:      classifier,
-		mailer:        mailer,
-		appBaseURL:    appURL,
-		apiBaseURL:    apiURL,
-		allowedOrigin: os.Getenv("JOBWATCH_ALLOWED_ORIGIN"),
-		devAuth:       os.Getenv("JOBWATCH_DEV_AUTH") == "1",
-		postalAddress: os.Getenv("JOBWATCH_POSTAL_ADDRESS"),
+		store:          store,
+		classifier:     classifier,
+		enricher:       classifier,
+		mailer:         mailer,
+		appBaseURL:     appURL,
+		apiBaseURL:     apiURL,
+		allowedOrigin:  os.Getenv("JOBWATCH_ALLOWED_ORIGIN"),
+		devAuth:        os.Getenv("JOBWATCH_DEV_AUTH") == "1",
+		postalAddress:  os.Getenv("JOBWATCH_POSTAL_ADDRESS"),
+		digestInterval: digestInterval,
 	}, nil
 }
 

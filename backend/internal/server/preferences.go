@@ -121,15 +121,28 @@ func (s *Store) CountNewPostingsFor(ctx context.Context, sub Subscriber, since t
 	return n, err
 }
 
-// Subscribers lists accounts eligible for a digest: confirmed and not
-// unsubscribed. Deliberately no longer requires a profile or a watchlist — the
-// MVP sends every subscriber the same query narrowed only by Preferences.
-func (s *Store) Subscribers(ctx context.Context) ([]Subscriber, error) {
+// Subscribers lists accounts due a digest: confirmed, not unsubscribed, and not
+// emailed within minInterval. Deliberately does not require a profile or a
+// watchlist — the MVP sends every subscriber the same query narrowed only by
+// Preferences.
+//
+// minInterval is what separates how often the pipeline *looks* from how often a
+// person is *emailed*. Ingestion runs every couple of hours so the public feed
+// and the corpus stay fresh; without this gate that cadence would put a dozen
+// digests a day in every inbox, which is the fastest way to burn a sending
+// domain and the subscriber list with it.
+//
+// A subscriber skipped by this gate keeps their cursor, so nothing is lost —
+// the postings simply accumulate into the next digest they are due.
+func (s *Store) Subscribers(ctx context.Context, minInterval time.Duration) ([]Subscriber, error) {
 	rows, err := s.pool.Query(ctx, `
 		SELECT id, email, levels, us_only, remote_only
 		FROM users
-		WHERE confirmed_at IS NOT NULL AND unsubscribed_at IS NULL
-		ORDER BY created_at`)
+		WHERE confirmed_at IS NOT NULL
+		  AND unsubscribed_at IS NULL
+		  AND (last_digest_at IS NULL
+		       OR last_digest_at <= now() - make_interval(secs => $1))
+		ORDER BY created_at`, int(minInterval.Seconds()))
 	if err != nil {
 		return nil, err
 	}

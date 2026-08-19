@@ -35,6 +35,7 @@ Once the services exist, Render shows each one's URL, e.g.:
 | jobwatch-nightly | `JOBWATCH_APP_URL` | the **web** URL |
 | jobwatch-nightly | `JOBWATCH_LINK_SECRET` | **the same** random string |
 | jobwatch-nightly | `JOBWATCH_POSTAL_ADDRESS` | your mailing address |
+| jobwatch-nightly | `JOBWATCH_DIGEST_INTERVAL_HOURS` | optional; defaults to 23 |
 
 Three of these are new and worth explaining:
 
@@ -49,6 +50,9 @@ Three of these are new and worth explaining:
   redirect. Changing it later invalidates links in already-delivered email.
 - **`JOBWATCH_POSTAL_ADDRESS`** is printed in every digest footer. CAN-SPAM
   requires a physical mailing address on commercial email; a PO box is fine.
+- **`JOBWATCH_DIGEST_INTERVAL_HOURS`** is the minimum gap between one
+  subscriber's digests. See below — you almost certainly do not want to lower
+  it.
 
 `VITE_API_BASE` is baked in at build time, so after setting it, **redeploy the
 web service** (Manual Deploy → Deploy latest commit) so the build picks it up.
@@ -103,6 +107,31 @@ login link currently use a dev mailer that only logs), so to get your magic link
   Postgres is deleted after 30 days.
 - **Session hardening** (httpOnly cookies) and a **privacy policy** before real
   users.
+
+## Ingestion cadence vs. email cadence
+
+The cron runs **every two hours** (`0 */2 * * *`), and each run does three
+things in order: scrape, enrich, send digests.
+
+Only the first two actually want that frequency. Scraping every two hours is
+what makes the freshness claim true and keeps the public feed live. Emailing
+every two hours would put a dozen digests a day in every inbox.
+
+So they are decoupled: the pipeline runs on the cron schedule, and a given
+subscriber is emailed at most once per `JOBWATCH_DIGEST_INTERVAL_HOURS`
+(default 23). A run that skips someone leaves their cursor alone, so the
+postings accumulate into the next digest they are due — nothing is dropped.
+
+The default is 23 rather than 24 on purpose. At exactly 24 the eligible moment
+lands just after the run that last sent, so delivery slips to the next slot and
+walks two hours later every day until digests are arriving at 4am. Shaving an
+hour keeps the same daily slot eligible.
+
+**Before raising the frequency further, watch for scraper blocking.** Every two
+hours is already 12x the request volume each careers site used to see from us.
+Some will rate-limit or start returning bot checks. `/health` surfaces any
+company whose latest run ended `failed` or `blocked`, and `company_runs` holds
+the history — check it after the first full day on the new schedule.
 
 ## Reading the launch gates
 

@@ -62,16 +62,22 @@ services:
         source: /*
         destination: /index.html
 
-  # One nightly job (22:00 UTC ≈ early evening US): scrape into Postgres, then
-  # enrich the new postings (role, level, location) and send the digests —
-  # sequentially in one run, so there is no timing gap between two crons. Docker, because Playwright needs
+  # One job on a two-hourly cycle: scrape into Postgres, enrich the new postings
+  # (role, level, location), then send digests — sequentially in one run, so
+  # there is no timing gap between two crons. Docker, because Playwright needs
   # browsers and the image also carries the Go digest binary (see Dockerfile.cron).
+  #
+  # Two hours is the *ingestion* cadence, not the email cadence. Scraping this
+  # often is the point — it is what makes "the day it's posted" true and keeps
+  # the public feed live — but the digest is separately gated so one subscriber
+  # is still emailed about once a day (JOBWATCH_DIGEST_INTERVAL_HOURS, default
+  # 23). Running the two on one schedule would mean a dozen emails a day.
   - type: cron
     name: jobwatch-nightly
     runtime: docker
     dockerfilePath: ./Dockerfile.cron
     dockerContext: .
-    schedule: "0 22 * * *"
+    schedule: "0 */2 * * *"
     envVars:
       - key: JOBWATCH_DATABASE_URL
         fromDatabase:
