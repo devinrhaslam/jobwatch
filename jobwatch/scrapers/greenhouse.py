@@ -44,10 +44,6 @@ BOARDS = {
     "Carvana": "carvana",
     "Chainguard": "chainguard",
     "Chime": "chime",
-    # ClickHouse serves the same 167 postings on Ashby under the same slug, down
-    # to identical publish timestamps, so either board is correct and this one is
-    # picked only for consistency with the rest of the list.
-    "ClickHouse": "clickhouse",
     "Cloudflare": "cloudflare",
     "Cockroach Labs": "cockroachlabs",
     "Coinbase": "coinbase",
@@ -91,7 +87,6 @@ BOARDS = {
     "Kodiak Robotics": "kodiak",
     "LaunchDarkly": "launchdarkly",
     "Lyft": "lyft",
-    "Marqeta": "marqeta",
     "Mercury": "mercury",
     "MongoDB": "mongodb",
     "Monzo": "monzo",
@@ -110,7 +105,6 @@ BOARDS = {
     "Oura": "oura",
     "Pinterest": "pinterest",
     "Planet Labs": "planetlabs",
-    "Postman": "postman",
     "Pure Storage": "purestorage",
     "Reddit": "reddit",
     "Relativity Space": "relativity",
@@ -170,7 +164,6 @@ BOARDS = {
     # Wiz's board is registered under the legal entity, not the brand: the bare
     # "wiz" slug is not its board.
     "Wiz": "wizinc",
-    "World Labs": "worldlabs",
     "xAI": "xai",
     "Zipline": "flyzipline",
     "Zscaler": "zscaler",

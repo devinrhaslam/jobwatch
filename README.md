@@ -38,12 +38,34 @@ export ANTHROPIC_API_KEY=...
 ```bash
 .venv/bin/python run.py                         # all registered companies
 .venv/bin/python run.py --company Stripe        # one company (repeatable)
+.venv/bin/python run.py --exclude Datadog       # all companies but this one (repeatable)
 .venv/bin/python run.py --dry-run               # scrape and report, no state write
 .venv/bin/python run.py --verbose               # progress + filtered-out jobs on stderr
 .venv/bin/python run.py --all-roles             # skip the role-fit filter
 ```
 
 Combine flags as needed, e.g. `--company Meta --dry-run --verbose`.
+
+### Skipping companies you're on a cooldown with
+
+`--exclude NAME` drops a company from a single run. For a company you've
+interviewed with and won't reapply to for months, put one name per line in
+`state/skip_companies.txt` instead — every run without an explicit `--company`
+leaves those out until you delete the line. A blank line is ignored and
+everything from a `#` onward is a comment, so a line can carry the reason and
+when to revisit:
+
+```
+# interview cooldown — delete the line when it lifts
+Datadog        # onsite 2026-09-05, revisit in December
+Stripe         # recruiter said reapply after 12 months
+```
+
+An explicit `--company Datadog` still runs it — naming a company overrides the
+file — so a one-off check needs no edit. A stale name in the file (a company
+later dropped from the registry) only prints a warning; a typo in `--exclude`
+is rejected like an unknown `--company`. The file lives under `state/`, so it
+is local to the machine and never committed.
 
 Every run prints progress to stderr as it goes, so a multi-minute run is
 legible rather than silent — the report itself goes to stdout, so piping is

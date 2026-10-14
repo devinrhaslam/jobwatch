@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import re
 import xml.etree.ElementTree as ET
 
@@ -8,7 +9,9 @@ from jobwatch.scrapers.base import Scraper
 
 # Retool runs no third-party ATS: its careers pages are its own, server-rendered,
 # and the only complete list of them is the site sitemap. robots.txt allows it.
-SITEMAP_URL = "https://retool.com/sitemap.xml"
+# Since September 2026 /sitemap.xml is an index of per-section sitemaps, and the
+# careers pages are listed in the core one.
+SITEMAP_URL = "https://retool.com/sitemap-core.xml"
 
 SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
@@ -88,7 +91,9 @@ class RetoolScraper(Scraper):
         match = re.search(r"<title>([^<]*)</title>", payload, re.I)
         if not match:
             return job
-        title = TITLE_SUFFIX.sub("", match.group(1)).strip()
+        # `<title>` text is HTML, so "Sandbox & Agent Executor" arrives as
+        # "Sandbox &amp; Agent Executor" and is decoded before it is stored.
+        title = TITLE_SUFFIX.sub("", html.unescape(match.group(1))).strip()
         if not title:
             return job
         return Job(

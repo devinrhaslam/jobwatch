@@ -122,6 +122,24 @@ def _outcome(result: CompanyResult) -> str:
     return f"read {result.total_jobs}"
 
 
+def _read_skip_file(path: Path) -> list[str]:
+    """Company names from the standing skip-list file, in file order.
+
+    One name per line. A blank line is ignored and everything from a `#` to the
+    end of the line is a comment, so a line can carry why the company is skipped
+    and when to revisit. The file is the place for an interview-cooldown list
+    that should outlast a single run; --exclude is the one-off equivalent.
+    """
+    if not path.exists():
+        return []
+    names = []
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        name = raw_line.split("#", 1)[0].strip()
+        if name:
+            names.append(name)
+    return names
+
+
 def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
     """Reports progress to stderr as it goes.
 
@@ -209,6 +227,15 @@ def main(argv: list[str] | None = None) -> int:
         help="Limit the run to this company (repeatable). Defaults to all registered companies.",
     )
     parser.add_argument(
+        "--exclude",
+        action="append",
+        dest="exclude",
+        metavar="COMPANY",
+        help="Skip this company for this run (repeatable). For a standing list — "
+        "companies you're on an interview cooldown with, say — put one name per "
+        "line in state/skip_companies.txt instead.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Scrape and report without writing snapshot state.",
@@ -247,6 +274,47 @@ def main(argv: list[str] | None = None) -> int:
             file=sys.stderr,
         )
         return 2
+
+    # Exclusions. --exclude drops a company from this run; state/skip_companies.txt
+    # is the standing list, for companies on an interview cooldown. A --exclude
+    # typo means the company you meant to skip still runs, so it is rejected like
+    # an unknown --company; a stale name in the file (a company later dropped
+    # from the registry, say) only warns, so the standing list can never block a
+    # run. An explicit --company overrides the file — naming a company is a
+    # deliberate "run this one now" — but --exclude on the same line still wins.
+    excluded = set(args.exclude or [])
+    unknown_excluded = sorted(n for n in excluded if n not in SCRAPERS)
+    if unknown_excluded:
+        print(
+            f"Unknown companies in --exclude: {', '.join(unknown_excluded)}. "
+            f"Available: {', '.join(sorted(SCRAPERS))}",
+            file=sys.stderr,
+        )
+        return 2
+    if not args.companies:
+        skip_file = STATE_DIR / "skip_companies.txt"
+        listed = _read_skip_file(skip_file)
+        stale = [n for n in listed if n not in SCRAPERS]
+        if stale:
+            noun = "name" if len(stale) == 1 else "names"
+            print(
+                f"Ignoring {len(stale)} unknown {noun} in {skip_file}: "
+                f"{', '.join(stale)}",
+                file=sys.stderr,
+            )
+        excluded.update(n for n in listed if n in SCRAPERS)
+
+    dropped = [n for n in names if n in excluded]
+    if dropped:
+        names = [n for n in names if n not in excluded]
+        noun = "company" if len(dropped) == 1 else "companies"
+        print(
+            f"Skipping {len(dropped)} excluded {noun}: {', '.join(dropped)}",
+            file=sys.stderr,
+        )
+    if not names:
+        print("No companies left to run after exclusions.", file=sys.stderr)
+        return 0
 
     # A hung headless browser cannot be reliably interrupted from inside the
     # process (the per-company SIGALRM cannot preempt a parked Playwright call),

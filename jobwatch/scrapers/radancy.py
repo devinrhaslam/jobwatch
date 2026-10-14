@@ -30,7 +30,10 @@ RSS_PATH = "/rss"
 # than the board and answer "Your IP address is not on a trusted network".
 BOARDS = {
     "Arm": "https://careers.arm.com",
-    "Disney": "https://jobs.disneycareers.com",
+    # Disney's portal moved from jobs.disneycareers.com in September 2026; the
+    # old host now 301s every path to the new home page, which is HTML and not
+    # a feed. /rss here redirects on to /en/rss.
+    "Disney": "https://www.disneycareers.com",
     "Intuit": "https://jobs.intuit.com",
 }
 

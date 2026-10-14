@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import json
 
 from bs4 import BeautifulSoup
@@ -87,7 +88,10 @@ class HudsonRiverTradingScraper(Scraper):
                 Job(
                     company="Hudson River Trading",
                     job_id=str(job_id),
-                    title=str(title).strip(),
+                    # WordPress hands the title over entity-encoded — "Data
+                    # Scientist Intern &#8211; 2027", "Quant Research &amp;
+                    # Trading" — so it is decoded before anyone reads it.
+                    title=html.unescape(str(title)).strip(),
                     url=anchor["href"],
                     location=_location(card),
                 )

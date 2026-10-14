@@ -55,6 +55,10 @@ BOARDS = {
     "Nike": ("nike", "wd1", "nke"),
     "NVIDIA": ("nvidia", "wd5", "NVIDIAExternalCareerSite"),
     "Palo Alto Networks": ("paloaltonetworks", "wd5", "panwexternalcareers"),
+    # Moved off Greenhouse in September 2026. postman.com/company/careers reads
+    # its listing from /_mk-www-next/api-cache/careers-jobs.json, whose records
+    # carry these Workday URLs; like Expedia's, the cluster is wd108.
+    "Postman": ("postman", "wd108", "careers"),
     "Remitly": ("remitly", "wd5", "Remitly_Careers"),
     "Salesforce": ("salesforce", "wd12", "External_Career_Site"),
     # snyk.io/careers reveals this only through its own /api/next/jobs, whose

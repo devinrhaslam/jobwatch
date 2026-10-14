@@ -66,6 +66,10 @@ BOARDS = {
     # the description and sit in Redwood City, its headquarters.
     "Character.AI": "character",
     "Checkout.com": "checkout.com",
+    # ClickHouse closed its Greenhouse board in September 2026 (the API answers
+    # 404); this Ashby board, which had long carried the same postings, is now
+    # the only one.
+    "ClickHouse": "clickhouse",
     "Cognition": "cognition",
     "Cohere": "cohere",
     "Confluent": "confluent",
@@ -100,6 +104,10 @@ BOARDS = {
     "LangChain": "langchain",
     "Linear": "linear",
     "Luma AI": "lumaai",
+    # Moved off Greenhouse in September 2026. The slug is the legal entity, not
+    # the brand — bare "marqeta" is not a board — and only the apply link on a
+    # marqeta.com/careers posting names it.
+    "Marqeta": "marqeta-inc",
     "Mercor": "mercor",
     "Miro": "miro",
     # Two more boards whose slug is not the lowercased company name: Mistral's
@@ -147,6 +155,8 @@ BOARDS = {
     "Weaviate": "weaviate",
     "Whoop": "whoop",
     "WorkOS": "workos",
+    # Moved off Greenhouse in September 2026, keeping its slug.
+    "World Labs": "worldlabs",
     "Writer": "writer",
 }
 

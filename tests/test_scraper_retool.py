@@ -112,6 +112,14 @@ def test_enrichment_strips_only_the_site_suffix():
     assert enriched.title == "Retool Engineer"
 
 
+def test_enrichment_decodes_entities_in_the_title():
+    job = Job(company="Retool", job_id="a--b--c", title="x", url="https://retool.com/careers/a--b--c")
+    enriched = RetoolScraper().parse_detail(
+        "<title>Software Engineer, Sandbox &amp; Agent Executor | Retool</title>", job
+    )
+    assert enriched.title == "Software Engineer, Sandbox & Agent Executor"
+
+
 def test_a_page_without_a_title_leaves_the_job_untouched():
     job = Job(company="Retool", job_id="a--b--c", title="x", url="https://retool.com/careers/a--b--c")
     assert RetoolScraper().parse_detail("<html><body>nothing</body></html>", job) is job
@@ -126,4 +134,4 @@ def test_config_is_the_sitemap_over_plain_http():
     config = RetoolScraper().config
     assert config.name == "Retool"
     assert config.fetch_mode is FetchMode.STATIC
-    assert config.career_url.endswith("sitemap.xml")
+    assert config.career_url == "https://retool.com/sitemap-core.xml"

@@ -317,6 +317,122 @@ def test_skip_browser_excludes_rendered_companies_without_launching_a_browser(
     assert exit_code == 0
 
 
+# --- company exclusions ----------------------------------------------------
+
+
+def _two_company_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        cli, "SCRAPERS", {"TestCo": _OneJobScraper(), "TestCo2": _OneJobScraper2()}
+    )
+    monkeypatch.setattr(cli, "STATE_DIR", tmp_path / "state")
+    monkeypatch.setattr(cli, "OUTPUT_DIR", tmp_path / "output")
+    monkeypatch.setattr(
+        cli, "default_fetch_page", lambda config, url, browser=None: "<html></html>"
+    )
+    monkeypatch.setattr(cli, "sleep", lambda seconds: None)
+
+
+def _write_skip_file(tmp_path, contents):
+    state_dir = tmp_path / "state"
+    state_dir.mkdir(parents=True, exist_ok=True)
+    (state_dir / "skip_companies.txt").write_text(contents, encoding="utf-8")
+
+
+def _reported_companies(tmp_path):
+    payload = json.loads(next((tmp_path / "output").glob("*.json")).read_text())
+    return [entry["company"] for entry in payload]
+
+
+def test_skip_companies_file_excludes_a_company_from_a_full_run(
+    tmp_path, monkeypatch, capsys
+):
+    _two_company_run(tmp_path, monkeypatch)
+    _write_skip_file(tmp_path, "TestCo2\n")
+
+    exit_code = cli.main([])
+
+    assert exit_code == 0
+    assert "Skipping 1 excluded company: TestCo2" in capsys.readouterr().err
+    assert _reported_companies(tmp_path) == ["TestCo"]
+
+
+def test_skip_companies_file_ignores_comments_and_blank_lines(tmp_path, monkeypatch):
+    _two_company_run(tmp_path, monkeypatch)
+    _write_skip_file(
+        tmp_path, "# on cooldown\n\nTestCo2  # phone screen 2026-09-08\n"
+    )
+
+    cli.main([])
+
+    assert _reported_companies(tmp_path) == ["TestCo"]
+
+
+def test_exclude_flag_drops_a_company_for_one_run(tmp_path, monkeypatch, capsys):
+    _two_company_run(tmp_path, monkeypatch)
+
+    exit_code = cli.main(["--exclude", "TestCo2"])
+
+    assert exit_code == 0
+    assert "Skipping 1 excluded company: TestCo2" in capsys.readouterr().err
+    assert _reported_companies(tmp_path) == ["TestCo"]
+
+
+def test_explicit_company_overrides_the_skip_file(tmp_path, monkeypatch, capsys):
+    _two_company_run(tmp_path, monkeypatch)
+    _write_skip_file(tmp_path, "TestCo\n")
+
+    exit_code = cli.main(["--company", "TestCo"])
+
+    err = capsys.readouterr().err
+    assert exit_code == 0
+    assert "Skipping" not in err  # named explicitly, so the file does not apply
+    assert _reported_companies(tmp_path) == ["TestCo"]
+
+
+def test_exclude_flag_rejects_an_unknown_company(monkeypatch, capsys):
+    monkeypatch.setattr(cli, "SCRAPERS", {"TestCo": _OneJobScraper()})
+
+    exit_code = cli.main(["--exclude", "DoesNotExist"])
+
+    assert exit_code == 2
+    assert "Unknown companies in --exclude" in capsys.readouterr().err
+
+
+def test_unknown_name_in_skip_file_warns_but_still_runs(tmp_path, monkeypatch, capsys):
+    _two_company_run(tmp_path, monkeypatch)
+    _write_skip_file(tmp_path, "DoesNotExist\nTestCo2\n")
+
+    exit_code = cli.main([])
+
+    err = capsys.readouterr().err
+    assert exit_code == 0
+    assert "Ignoring 1 unknown name" in err and "DoesNotExist" in err
+    assert _reported_companies(tmp_path) == ["TestCo"]  # the valid entry still applied
+
+
+def test_excluding_every_company_exits_cleanly_without_a_report(
+    tmp_path, monkeypatch, capsys
+):
+    _two_company_run(tmp_path, monkeypatch)
+
+    exit_code = cli.main(["--company", "TestCo", "--exclude", "TestCo"])
+
+    assert exit_code == 0
+    assert "No companies left to run after exclusions." in capsys.readouterr().err
+    assert not list((tmp_path / "output").glob("*.json"))
+
+
+def test_read_skip_file_parses_names_and_is_empty_when_absent(tmp_path):
+    assert cli._read_skip_file(tmp_path / "absent.txt") == []
+
+    path = tmp_path / "skip_companies.txt"
+    path.write_text(
+        "# cooldown list\n\nDatadog\nCapital One  # revisit December\n   \n",
+        encoding="utf-8",
+    )
+    assert cli._read_skip_file(path) == ["Datadog", "Capital One"]
+
+
 def test_tolerant_mode_exits_zero_despite_company_failures(tmp_path, monkeypatch):
     monkeypatch.setattr(
         cli, "SCRAPERS", {"BrokenCo": _CrashingScraper(), "TestCo": _OneJobScraper()}

@@ -75,6 +75,15 @@ def test_records_missing_required_fields_are_skipped():
     assert [j.job_id for j in HudsonRiverTradingScraper().parse(payload)] == ["1"]
 
 
+def test_titles_arrive_entity_encoded_and_are_decoded():
+    payload = json.dumps([
+        {"ID": 1, "title": "Algorithm Development (Quant Research &amp; Trading) Intern &#8211; 2027",
+         "content": '<div class="hrt-card-item"><a class="hrt-card-title" href="https://x/1">x</a></div>'},
+    ])
+    [job] = HudsonRiverTradingScraper().parse(payload)
+    assert job.title == "Algorithm Development (Quant Research & Trading) Intern \u2013 2027"
+
+
 def test_empty_board_parses_to_no_jobs():
     assert HudsonRiverTradingScraper().parse("[]") == []
 
