@@ -1,0 +1,482 @@
+{
+  "2578081": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "2578081",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Global",
+    "posted_date": "2021-01-12",
+    "title": "Join our Talent Community!",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=2578081"
+  },
+  "7372521": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7372521",
+    "last_seen": "2026-10-04T23:01:49.068234+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-07-16",
+    "title": "Staff Product Marketing Manager, AI Operations & Ecosystem",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7372521"
+  },
+  "7422578": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7422578",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2025-11-27",
+    "title": "Member of Technical Staff (Senior - Specialized Indexing)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7422578"
+  },
+  "7663160": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7663160",
+    "last_seen": "2026-10-12T23:09:19.480052+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-02-27",
+    "title": "Member of Technical Staff (Storage)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7663160"
+  },
+  "7758561": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7758561",
+    "last_seen": "2026-08-31T21:58:44.482043+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-04-02",
+    "title": "Senior Partner Sales Manager, ISVs - EMEA",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7758561"
+  },
+  "7774966": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7774966",
+    "last_seen": "2026-09-21T21:56:50.544786+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-05-26",
+    "title": "Member of Technical Staff (Test Engineering)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7774966"
+  },
+  "7775008": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7775008",
+    "last_seen": "2026-09-08T14:25:55.205636+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-06-11",
+    "title": "Member of Technical Staff (Disaster Recovery)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7775008"
+  },
+  "7846573": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7846573",
+    "last_seen": "2026-08-16T23:43:12.784725+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-04-23",
+    "title": "Sr. Corporate Accountant",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7846573"
+  },
+  "7852365": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7852365",
+    "last_seen": "2026-09-08T14:25:55.205636+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-04-24",
+    "title": "Staff Product Manager (Data Onboarding)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7852365"
+  },
+  "7852398": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7852398",
+    "last_seen": "2026-08-26T00:14:41.399295+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-04-24",
+    "title": "Staff Product Manager (Efficient & Always-on Transactions)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7852398"
+  },
+  "7918100": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7918100",
+    "last_seen": "2026-08-20T00:20:03.580646+00:00",
+    "location": "New York, NY; San Mateo, CA",
+    "posted_date": "2026-05-15",
+    "title": "Director, Product Management",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7918100"
+  },
+  "7926298": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7926298",
+    "last_seen": "2026-08-18T00:37:12.909025+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-18",
+    "title": "Manager, Revenue Systems",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7926298"
+  },
+  "7939409": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7939409",
+    "last_seen": "2026-08-18T00:37:12.909025+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-05-29",
+    "title": "Account Executive, Singapore",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7939409"
+  },
+  "7950551": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7950551",
+    "last_seen": "2026-08-12T16:45:54.930003+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-28",
+    "title": "Sr. Engineering Manager, Key Value (KV)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7950551"
+  },
+  "7950598": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7950598",
+    "last_seen": "2026-09-08T14:25:55.205636+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-28",
+    "title": "Manager, Engineering (Production Orchestration)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7950598"
+  },
+  "7950651": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7950651",
+    "last_seen": "2026-09-10T20:50:41.063802+00:00",
+    "location": "New York, NY; Toronto, Canada",
+    "posted_date": "2026-06-18",
+    "title": "Member of Technical Staff (Production Services)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7950651"
+  },
+  "7950669": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7950669",
+    "last_seen": "2026-09-08T14:25:55.205636+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-28",
+    "title": "Member of Technical Staff (Performance Engineering)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7950669"
+  },
+  "7951392": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7951392",
+    "last_seen": "2026-08-26T20:35:55.672522+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-06",
+    "title": "Sr. Program Manager, R&D Operations",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7951392"
+  },
+  "7963247": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7963247",
+    "last_seen": "2026-08-24T20:54:26.193938+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-28",
+    "title": "Sr. Technical Partner Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7963247"
+  },
+  "7973917": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7973917",
+    "last_seen": "2026-08-12T14:09:34.003563+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-06-02",
+    "title": "Field Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7973917"
+  },
+  "7982583": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7982583",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "London, UK; New York, NY",
+    "posted_date": "2026-06-05",
+    "title": "Value Engineer, Solutions Engineering",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7982583"
+  },
+  "7982696": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "7982696",
+    "last_seen": "2026-08-30T19:59:32.723011+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-06-05",
+    "title": "Senior Partner Sales Manager, ISV & GSIs",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=7982696"
+  },
+  "8054229": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "8054229",
+    "last_seen": "2026-08-13T18:19:27.707714+00:00",
+    "location": "Austin, TX",
+    "posted_date": "2026-07-13",
+    "title": "GTM Recruiter, Austin (Contract to Hire)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8054229"
+  },
+  "8055385": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-31T21:58:44.482043+00:00",
+    "job_id": "8055385",
+    "last_seen": "2026-09-15T20:59:01.594529+00:00",
+    "location": "New York, NY; San Mateo, CA; Toronto, Canada",
+    "posted_date": "2026-08-31",
+    "title": "Member of Technical Staff (Developer Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8055385"
+  },
+  "8055417": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-10T12:21:12.480800+00:00",
+    "job_id": "8055417",
+    "last_seen": "2026-09-03T20:04:39.037160+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-23",
+    "title": "Member of Technical Staff (Codesys)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8055417"
+  },
+  "8055505": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "8055505",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Austin, TX; New York, NY",
+    "posted_date": "2026-07-15",
+    "title": "Marketing Operations Manager",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8055505"
+  },
+  "8070069": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-18T20:50:47.662757+00:00",
+    "job_id": "8070069",
+    "last_seen": "2026-09-08T14:25:55.205636+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-18",
+    "title": "Sr. Financial Analyst, GTM",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8070069"
+  },
+  "8071815": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "8071815",
+    "last_seen": "2026-08-07T14:32:50.695180+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-20",
+    "title": "Sr. Staff Sales Engineer - Central US",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8071815"
+  },
+  "8072038": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-11T18:00:30.013647+00:00",
+    "job_id": "8072038",
+    "last_seen": "2026-08-24T20:54:26.193938+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-11",
+    "title": "Regional Sales Director, Central AMER",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8072038"
+  },
+  "8079608": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "8079608",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-07-28",
+    "title": "Deal Desk Manager, AMER",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8079608"
+  },
+  "8088528": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-11T18:00:30.013647+00:00",
+    "job_id": "8088528",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-11",
+    "title": "Sr. HR Business Partner, GTM",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8088528"
+  },
+  "8097403": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-06T15:58:05.901113+00:00",
+    "job_id": "8097403",
+    "last_seen": "2026-08-24T20:54:26.193938+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-05",
+    "title": "Revenue Operations Specialist, EMEA",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8097403"
+  },
+  "8106750": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-10T12:21:12.480800+00:00",
+    "job_id": "8106750",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-08-10",
+    "title": "Senior Staff Sales Engineer, Australia",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8106750"
+  },
+  "8108678": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-11T15:04:26.017747+00:00",
+    "job_id": "8108678",
+    "last_seen": "2026-09-23T22:04:36.255256+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-08-11",
+    "title": "Sr. Manager, Sales Engineering - APAC",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8108678"
+  },
+  "8119500": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-11T13:01:40.132346+00:00",
+    "job_id": "8119500",
+    "last_seen": "2026-10-06T00:18:35.506171+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-08-11",
+    "title": "Senior Staff Sales Engineer, Singapore",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8119500"
+  },
+  "8139676": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-19T19:54:56.838144+00:00",
+    "job_id": "8139676",
+    "last_seen": "2026-09-22T22:29:10.367428+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-08-19",
+    "title": "Sales Development Representative, Australia",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8139676"
+  },
+  "8139700": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-20T20:30:05.095880+00:00",
+    "job_id": "8139700",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-08-20",
+    "title": "Sales Development Representative, Singapore",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8139700"
+  },
+  "8156554": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-26T00:14:41.399295+00:00",
+    "job_id": "8156554",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-25",
+    "title": "Strategy and Operations Manager, GTM - EMEA",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8156554"
+  },
+  "8156737": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-10-05T22:07:06.210208+00:00",
+    "job_id": "8156737",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Corporate Security Engineer",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8156737"
+  },
+  "8157130": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-26T00:14:41.399295+00:00",
+    "job_id": "8157130",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-25",
+    "title": "Sr. Partner Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8157130"
+  },
+  "8159674": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-08-26T20:35:55.672522+00:00",
+    "job_id": "8159674",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-26",
+    "title": "Staff Product Marketing Manager, Developer Experience",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8159674"
+  },
+  "8168460": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-01T19:10:47.032812+00:00",
+    "job_id": "8168460",
+    "last_seen": "2026-09-03T20:04:39.037160+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-31",
+    "title": "Executive Administrative Partner to the CEO",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8168460"
+  },
+  "8178474": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-08T14:25:55.205636+00:00",
+    "job_id": "8178474",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-09-03",
+    "title": "Executive Administrative Partner to the CEO",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8178474"
+  },
+  "8191652": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-10T20:50:41.063802+00:00",
+    "job_id": "8191652",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY; San Mateo, CA",
+    "posted_date": "2026-09-10",
+    "title": "Principal Partner Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8191652"
+  },
+  "8193470": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-14T01:41:51.782869+00:00",
+    "job_id": "8193470",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Austin, TX",
+    "posted_date": "2026-09-12",
+    "title": "Sales Development Representative",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8193470"
+  },
+  "8209735": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-18T19:49:13.818027+00:00",
+    "job_id": "8209735",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY; San Mateo, CA",
+    "posted_date": "2026-09-17",
+    "title": "Director, FP&A",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8209735"
+  },
+  "8230572": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-09-24T23:47:54.459476+00:00",
+    "job_id": "8230572",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-09-24",
+    "title": "Account Executive, Northeast",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8230572"
+  },
+  "8233337": {
+    "company": "Cockroach Labs",
+    "first_seen": "2026-10-12T23:09:19.480052+00:00",
+    "job_id": "8233337",
+    "last_seen": "2026-10-13T21:20:46.932184+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-10-11",
+    "title": "Manager, Technical Support (APAC)",
+    "url": "https://job-boards.greenhouse.io/embed/job_app?for=cockroachlabs&token=8233337"
+  }
+}

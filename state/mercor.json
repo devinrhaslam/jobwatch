@@ -1,0 +1,1462 @@
+{
+  "00061949-e19a-4d79-aaa4-c0010e6d1d36": {
+    "company": "Mercor",
+    "first_seen": "2026-08-19T19:57:15.299172+00:00",
+    "job_id": "00061949-e19a-4d79-aaa4-c0010e6d1d36",
+    "last_seen": "2026-08-26T20:38:26.767408+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-19",
+    "title": "Creative Director (IC)",
+    "url": "https://jobs.ashbyhq.com/mercor/00061949-e19a-4d79-aaa4-c0010e6d1d36"
+  },
+  "0187618d-90f6-43fc-95a8-2e63c8c4e79a": {
+    "company": "Mercor",
+    "first_seen": "2026-09-09T21:34:55.494002+00:00",
+    "job_id": "0187618d-90f6-43fc-95a8-2e63c8c4e79a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mexico | Mexico City",
+    "posted_date": "2026-09-09",
+    "title": "Strategic Project Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/0187618d-90f6-43fc-95a8-2e63c8c4e79a"
+  },
+  "03662092-4f6b-4c82-8d6d-5e7e839c31d7": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-31",
+    "title": "Product Engineer, Talent Experience",
+    "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7"
+  },
+  "036c112d-ea5c-4706-97d0-350546635a0f": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "036c112d-ea5c-4706-97d0-350546635a0f",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "New York City",
+    "posted_date": "2026-07-07",
+    "title": "Technical Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/036c112d-ea5c-4706-97d0-350546635a0f"
+  },
+  "05765640-394b-48b0-9dd0-cbcc201dffb1": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "05765640-394b-48b0-9dd0-cbcc201dffb1",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-05",
+    "title": "Ops Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/05765640-394b-48b0-9dd0-cbcc201dffb1"
+  },
+  "0843acbc-3614-48a0-957d-1f8ed0497bf0": {
+    "company": "Mercor",
+    "first_seen": "2026-08-11T13:03:43.725130+00:00",
+    "job_id": "0843acbc-3614-48a0-957d-1f8ed0497bf0",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-11",
+    "title": "Program Manager, Quality",
+    "url": "https://jobs.ashbyhq.com/mercor/0843acbc-3614-48a0-957d-1f8ed0497bf0"
+  },
+  "0dd928d6-794d-4e7e-b456-be6ac3b6947c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "0dd928d6-794d-4e7e-b456-be6ac3b6947c",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-02-13",
+    "title": "Technology Operations Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/0dd928d6-794d-4e7e-b456-be6ac3b6947c"
+  },
+  "11516609-e54b-4087-87c2-e84a8bafbb5a": {
+    "company": "Mercor",
+    "first_seen": "2026-09-16T20:43:14.646527+00:00",
+    "job_id": "11516609-e54b-4087-87c2-e84a8bafbb5a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-19",
+    "title": "Data Science Intern",
+    "url": "https://jobs.ashbyhq.com/mercor/11516609-e54b-4087-87c2-e84a8bafbb5a"
+  },
+  "11f302a2-9aa0-4be8-8370-e74d04bd2680": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "11f302a2-9aa0-4be8-8370-e74d04bd2680",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-08",
+    "title": "Senior Growth Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/11f302a2-9aa0-4be8-8370-e74d04bd2680"
+  },
+  "1207581a-0df5-4814-a5e1-459ac34c95ac": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "1207581a-0df5-4814-a5e1-459ac34c95ac",
+    "last_seen": "2026-08-26T20:38:26.767408+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-16",
+    "title": "Product Operations Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/1207581a-0df5-4814-a5e1-459ac34c95ac"
+  },
+  "12ef2db7-5a92-417b-b101-8779b6fc71d0": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "12ef2db7-5a92-417b-b101-8779b6fc71d0",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-15",
+    "title": "Healthcare GTM Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/12ef2db7-5a92-417b-b101-8779b6fc71d0"
+  },
+  "135b30d6-9dec-4c29-acaf-077938929962": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "135b30d6-9dec-4c29-acaf-077938929962",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-14",
+    "title": "Event Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/135b30d6-9dec-4c29-acaf-077938929962"
+  },
+  "139250ca-2162-483f-bc66-a0b7e407283b": {
+    "company": "Mercor",
+    "first_seen": "2026-08-26T00:17:23.149077+00:00",
+    "job_id": "139250ca-2162-483f-bc66-a0b7e407283b",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-25",
+    "title": "Senior Product Manager, Payments",
+    "url": "https://jobs.ashbyhq.com/mercor/139250ca-2162-483f-bc66-a0b7e407283b"
+  },
+  "15dc993f-87fd-496a-9b12-144aab4c02ce": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "15dc993f-87fd-496a-9b12-144aab4c02ce",
+    "last_seen": "2026-08-21T16:30:00.154451+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-07",
+    "title": "Engagement Manager, Human Data Staffing",
+    "url": "https://jobs.ashbyhq.com/mercor/15dc993f-87fd-496a-9b12-144aab4c02ce"
+  },
+  "160c8177-765b-4bdc-a5be-5f646dccc98a": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "160c8177-765b-4bdc-a5be-5f646dccc98a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer, Marketplace",
+    "url": "https://jobs.ashbyhq.com/mercor/160c8177-765b-4bdc-a5be-5f646dccc98a"
+  },
+  "1a8f45a2-1ff6-412f-b7b7-715ebb4e3c84": {
+    "company": "Mercor",
+    "first_seen": "2026-08-10T18:47:20.537655+00:00",
+    "job_id": "1a8f45a2-1ff6-412f-b7b7-715ebb4e3c84",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-10",
+    "title": "Technical Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/1a8f45a2-1ff6-412f-b7b7-715ebb4e3c84"
+  },
+  "1d59ce50-4207-4d95-b7fd-5a01e90b0897": {
+    "company": "Mercor",
+    "first_seen": "2026-09-15T21:01:32.102632+00:00",
+    "job_id": "1d59ce50-4207-4d95-b7fd-5a01e90b0897",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, Mexico | Mexico City, New York City, London",
+    "posted_date": "2026-09-15",
+    "title": "Mercor AI Safety Fund Grants",
+    "url": "https://jobs.ashbyhq.com/mercor/1d59ce50-4207-4d95-b7fd-5a01e90b0897"
+  },
+  "1dcab154-b92d-4a5f-aed5-b1b8c049cdbc": {
+    "company": "Mercor",
+    "first_seen": "2026-09-21T21:59:03.257546+00:00",
+    "job_id": "1dcab154-b92d-4a5f-aed5-b1b8c049cdbc",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-18",
+    "title": "Research Scientist - Environments, Data and Post-Training",
+    "url": "https://jobs.ashbyhq.com/mercor/1dcab154-b92d-4a5f-aed5-b1b8c049cdbc"
+  },
+  "296c4031-5e98-4772-95f5-a9eb5bd7746d": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "296c4031-5e98-4772-95f5-a9eb5bd7746d",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-05",
+    "title": "Infrastructure Software Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d"
+  },
+  "2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702": {
+    "company": "Mercor",
+    "first_seen": "2026-08-27T20:27:25.430456+00:00",
+    "job_id": "2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-27",
+    "title": "Software Engineer, Frontier Data Products",
+    "url": "https://jobs.ashbyhq.com/mercor/2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702"
+  },
+  "2d252cf2-649b-4cbd-a943-baf6a042dde1": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "2d252cf2-649b-4cbd-a943-baf6a042dde1",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-20",
+    "title": "GTM Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/2d252cf2-649b-4cbd-a943-baf6a042dde1"
+  },
+  "2ea7900f-8b99-471a-b296-494b2aecbaec": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "2ea7900f-8b99-471a-b296-494b2aecbaec",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-07",
+    "title": "Engagement Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/2ea7900f-8b99-471a-b296-494b2aecbaec"
+  },
+  "323c2a6f-6242-4624-9fab-52f92407dda3": {
+    "company": "Mercor",
+    "first_seen": "2026-10-07T21:55:10.443859+00:00",
+    "job_id": "323c2a6f-6242-4624-9fab-52f92407dda3",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-07",
+    "title": "Senior PMM, Evals",
+    "url": "https://jobs.ashbyhq.com/mercor/323c2a6f-6242-4624-9fab-52f92407dda3"
+  },
+  "3248265b-821b-48d0-9ab7-0d07205f7176": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "3248265b-821b-48d0-9ab7-0d07205f7176",
+    "last_seen": "2026-08-24T20:56:40.104103+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-25",
+    "title": "Product Manager, Model Gateway",
+    "url": "https://jobs.ashbyhq.com/mercor/3248265b-821b-48d0-9ab7-0d07205f7176"
+  },
+  "35e1923b-3c1c-4bb4-94d6-ef3a529ef871": {
+    "company": "Mercor",
+    "first_seen": "2026-08-15T21:48:38.037671+00:00",
+    "job_id": "35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-15",
+    "title": "Member of Technical Staff, Enterprise Evals Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871"
+  },
+  "374cd009-516f-4a1f-abbf-bcca5287daae": {
+    "company": "Mercor",
+    "first_seen": "2026-09-24T23:50:08.199149+00:00",
+    "job_id": "374cd009-516f-4a1f-abbf-bcca5287daae",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-24",
+    "title": "Software Engineer, Systems & Platform Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae"
+  },
+  "3750ee8a-64d1-46ac-b4f9-6a823f949034": {
+    "company": "Mercor",
+    "first_seen": "2026-08-12T00:12:57.951844+00:00",
+    "job_id": "3750ee8a-64d1-46ac-b4f9-6a823f949034",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-11",
+    "title": "Fullstack Software Engineer, Agent Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/3750ee8a-64d1-46ac-b4f9-6a823f949034"
+  },
+  "3980cf73-8af5-4bf7-a192-19d9aeb7e8bb": {
+    "company": "Mercor",
+    "first_seen": "2026-08-26T00:17:23.149077+00:00",
+    "job_id": "3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-25",
+    "title": "Business Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/3980cf73-8af5-4bf7-a192-19d9aeb7e8bb"
+  },
+  "39a17b9c-60e6-4b22-a53d-3c17a93299cc": {
+    "company": "Mercor",
+    "first_seen": "2026-10-07T21:55:10.443859+00:00",
+    "job_id": "39a17b9c-60e6-4b22-a53d-3c17a93299cc",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-07",
+    "title": "Corporate Finance Senior / Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/39a17b9c-60e6-4b22-a53d-3c17a93299cc"
+  },
+  "3c02ed8c-3807-4aef-91cc-ccca5ab578bd": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "3c02ed8c-3807-4aef-91cc-ccca5ab578bd",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-19",
+    "title": "Payments Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/3c02ed8c-3807-4aef-91cc-ccca5ab578bd"
+  },
+  "3e6e588a-c615-4653-96ce-b1236030271c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "3e6e588a-c615-4653-96ce-b1236030271c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-03",
+    "title": "Technical Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/3e6e588a-c615-4653-96ce-b1236030271c"
+  },
+  "3ecb8ca3-2145-4f52-88ea-17d64817a03a": {
+    "company": "Mercor",
+    "first_seen": "2026-09-09T21:34:55.494002+00:00",
+    "job_id": "3ecb8ca3-2145-4f52-88ea-17d64817a03a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-09",
+    "title": "Security GRC Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/3ecb8ca3-2145-4f52-88ea-17d64817a03a"
+  },
+  "40cc6334-3a6c-42f8-a4ec-d490486d00e8": {
+    "company": "Mercor",
+    "first_seen": "2026-08-18T20:53:16.424354+00:00",
+    "job_id": "40cc6334-3a6c-42f8-a4ec-d490486d00e8",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-18",
+    "title": "Research Engineer \u2013 Benchmarking",
+    "url": "https://jobs.ashbyhq.com/mercor/40cc6334-3a6c-42f8-a4ec-d490486d00e8"
+  },
+  "415d2ee3-44b9-40e5-ab4b-04340faa3872": {
+    "company": "Mercor",
+    "first_seen": "2026-09-10T20:53:04.494568+00:00",
+    "job_id": "415d2ee3-44b9-40e5-ab4b-04340faa3872",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-10",
+    "title": "Data Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/415d2ee3-44b9-40e5-ab4b-04340faa3872"
+  },
+  "426a1c6b-e285-4b88-9f94-9048b1d6dc8c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "426a1c6b-e285-4b88-9f94-9048b1d6dc8c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-07-13",
+    "title": "Strategic Project Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/426a1c6b-e285-4b88-9f94-9048b1d6dc8c"
+  },
+  "4302efe7-9396-4bdd-9a3b-ecd045ba3d3c": {
+    "company": "Mercor",
+    "first_seen": "2026-09-01T19:13:17.120153+00:00",
+    "job_id": "4302efe7-9396-4bdd-9a3b-ecd045ba3d3c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-01",
+    "title": "Member of Technical Staff, Agentic Systems",
+    "url": "https://jobs.ashbyhq.com/mercor/4302efe7-9396-4bdd-9a3b-ecd045ba3d3c"
+  },
+  "442cbd86-bda1-4b03-a5a9-6dd2000caae9": {
+    "company": "Mercor",
+    "first_seen": "2026-09-18T19:51:26.663253+00:00",
+    "job_id": "442cbd86-bda1-4b03-a5a9-6dd2000caae9",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-17",
+    "title": "Chief of Staff to Head of Engagement Management",
+    "url": "https://jobs.ashbyhq.com/mercor/442cbd86-bda1-4b03-a5a9-6dd2000caae9"
+  },
+  "44cf5f07-342d-4f64-9062-3617beb88b31": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "44cf5f07-342d-4f64-9062-3617beb88b31",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-24",
+    "title": "Research Engineer, Real Environments",
+    "url": "https://jobs.ashbyhq.com/mercor/44cf5f07-342d-4f64-9062-3617beb88b31"
+  },
+  "476294e6-7aa2-4231-b3d0-5f1abe512922": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "476294e6-7aa2-4231-b3d0-5f1abe512922",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Executive Operations, Growth",
+    "url": "https://jobs.ashbyhq.com/mercor/476294e6-7aa2-4231-b3d0-5f1abe512922"
+  },
+  "4b96e7ba-8d93-42a8-80e6-d724c6ad6758": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "4b96e7ba-8d93-42a8-80e6-d724c6ad6758",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-27",
+    "title": "Founding Account Executive, Talent Solutions - Enterprise",
+    "url": "https://jobs.ashbyhq.com/mercor/4b96e7ba-8d93-42a8-80e6-d724c6ad6758"
+  },
+  "4bb1232c-3f1e-4fd7-8894-fcd68f96e3db": {
+    "company": "Mercor",
+    "first_seen": "2026-09-08T14:29:18.280386+00:00",
+    "job_id": "4bb1232c-3f1e-4fd7-8894-fcd68f96e3db",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-09-04",
+    "title": "Software Engineer, Applied AI - Frontier Engineering (NYC)",
+    "url": "https://jobs.ashbyhq.com/mercor/4bb1232c-3f1e-4fd7-8894-fcd68f96e3db"
+  },
+  "4f4fc8c3-4056-47bb-9e00-1db6e5dd958f": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2025-09-18",
+    "title": "Software Engineer, Agents",
+    "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f"
+  },
+  "50a2bf8f-eb8d-4dca-8142-79ac85ae33b7": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "50a2bf8f-eb8d-4dca-8142-79ac85ae33b7",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-08-05",
+    "title": "Talent Intelligence & Analytics Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/50a2bf8f-eb8d-4dca-8142-79ac85ae33b7"
+  },
+  "50a58426-2e97-43a5-99b1-d0d9cdc88100": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "50a58426-2e97-43a5-99b1-d0d9cdc88100",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-05-05",
+    "title": "Enterprise AI Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/50a58426-2e97-43a5-99b1-d0d9cdc88100"
+  },
+  "51bd1cb4-b48c-4bef-978a-1ec34cc4ac54": {
+    "company": "Mercor",
+    "first_seen": "2026-10-07T21:55:10.443859+00:00",
+    "job_id": "51bd1cb4-b48c-4bef-978a-1ec34cc4ac54",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-07",
+    "title": "Chief of Staff, Product",
+    "url": "https://jobs.ashbyhq.com/mercor/51bd1cb4-b48c-4bef-978a-1ec34cc4ac54"
+  },
+  "56f8c926-0435-4e11-941b-6b168da1e2f1": {
+    "company": "Mercor",
+    "first_seen": "2026-09-09T21:34:55.494002+00:00",
+    "job_id": "56f8c926-0435-4e11-941b-6b168da1e2f1",
+    "last_seen": "2026-09-09T21:34:55.494002+00:00",
+    "location": "India Remote",
+    "posted_date": "2026-09-08",
+    "title": "Member of Technical Staff",
+    "url": "https://jobs.ashbyhq.com/mercor/56f8c926-0435-4e11-941b-6b168da1e2f1"
+  },
+  "589c1474-0e16-4292-a823-3a2412632eed": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "589c1474-0e16-4292-a823-3a2412632eed",
+    "last_seen": "2026-09-15T21:01:32.102632+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-30",
+    "title": "Applied Machine Learning Engineer, Economist",
+    "url": "https://jobs.ashbyhq.com/mercor/589c1474-0e16-4292-a823-3a2412632eed"
+  },
+  "59c997bf-7ec3-4631-bc4a-3dc5dbe30f28": {
+    "company": "Mercor",
+    "first_seen": "2026-08-27T20:27:25.430456+00:00",
+    "job_id": "59c997bf-7ec3-4631-bc4a-3dc5dbe30f28",
+    "last_seen": "2026-09-03T20:07:28.508093+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-27",
+    "title": "Software Engineer, Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/59c997bf-7ec3-4631-bc4a-3dc5dbe30f28"
+  },
+  "5bef09c2-fc72-4f20-8bd3-1b221cfa89d0": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "5bef09c2-fc72-4f20-8bd3-1b221cfa89d0",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-18",
+    "title": "Administrative Generalist",
+    "url": "https://jobs.ashbyhq.com/mercor/5bef09c2-fc72-4f20-8bd3-1b221cfa89d0"
+  },
+  "60552b99-bf5a-4ccd-ad64-99fd51a83732": {
+    "company": "Mercor",
+    "first_seen": "2026-09-12T18:14:55.398080+00:00",
+    "job_id": "60552b99-bf5a-4ccd-ad64-99fd51a83732",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-03-03",
+    "title": "Recruiting Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/60552b99-bf5a-4ccd-ad64-99fd51a83732"
+  },
+  "60ae9c1e-9e92-4c2d-a208-44fe8cf9c869": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "60ae9c1e-9e92-4c2d-a208-44fe8cf9c869",
+    "last_seen": "2026-10-06T22:57:28.343313+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-07-22",
+    "title": "Marketing Lead, Evals",
+    "url": "https://jobs.ashbyhq.com/mercor/60ae9c1e-9e92-4c2d-a208-44fe8cf9c869"
+  },
+  "6299fe0b-9275-4bd2-b6e8-0de1d8b77f08": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "6299fe0b-9275-4bd2-b6e8-0de1d8b77f08",
+    "last_seen": "2026-08-26T20:38:26.767408+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-06-30",
+    "title": "Assessment Designer & Learning Analyst",
+    "url": "https://jobs.ashbyhq.com/mercor/6299fe0b-9275-4bd2-b6e8-0de1d8b77f08"
+  },
+  "63c60be0-6b52-4037-910f-dae8d21aa41d": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "63c60be0-6b52-4037-910f-dae8d21aa41d",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-08",
+    "title": "Growth Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/63c60be0-6b52-4037-910f-dae8d21aa41d"
+  },
+  "692e04b2-231f-46c5-abd5-135cf7726ccc": {
+    "company": "Mercor",
+    "first_seen": "2026-10-07T21:55:10.443859+00:00",
+    "job_id": "692e04b2-231f-46c5-abd5-135cf7726ccc",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-07",
+    "title": "People Programs Specialist",
+    "url": "https://jobs.ashbyhq.com/mercor/692e04b2-231f-46c5-abd5-135cf7726ccc"
+  },
+  "6c48e08c-1ad4-4c1a-9eb3-5b72f38df2a8": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "6c48e08c-1ad4-4c1a-9eb3-5b72f38df2a8",
+    "last_seen": "2026-09-03T20:07:28.508093+00:00",
+    "location": "New York City",
+    "posted_date": "2026-05-30",
+    "title": "Technology Operations Specialist (L3)",
+    "url": "https://jobs.ashbyhq.com/mercor/6c48e08c-1ad4-4c1a-9eb3-5b72f38df2a8"
+  },
+  "6de56f0d-46a2-4103-abca-97332824b02d": {
+    "company": "Mercor",
+    "first_seen": "2026-08-11T20:12:47.195462+00:00",
+    "job_id": "6de56f0d-46a2-4103-abca-97332824b02d",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-11",
+    "title": "Strategic Finance Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/6de56f0d-46a2-4103-abca-97332824b02d"
+  },
+  "70c15d49-619d-4cda-ade7-a7d4b7223cdb": {
+    "company": "Mercor",
+    "first_seen": "2026-09-02T18:37:09.677255+00:00",
+    "job_id": "70c15d49-619d-4cda-ade7-a7d4b7223cdb",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "London",
+    "posted_date": "2026-03-30",
+    "title": "Strategic Project Lead (UK)",
+    "url": "https://jobs.ashbyhq.com/mercor/70c15d49-619d-4cda-ade7-a7d4b7223cdb"
+  },
+  "73a9f1c6-3c62-4c49-b65d-e5f6a3549d95": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "73a9f1c6-3c62-4c49-b65d-e5f6a3549d95",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-05-29",
+    "title": "Machine Learning Engineer, Frontier Data Products",
+    "url": "https://jobs.ashbyhq.com/mercor/73a9f1c6-3c62-4c49-b65d-e5f6a3549d95"
+  },
+  "746c6df1-cc93-46ed-8f68-b8b8515398f4": {
+    "company": "Mercor",
+    "first_seen": "2026-08-07T19:23:15.655733+00:00",
+    "job_id": "746c6df1-cc93-46ed-8f68-b8b8515398f4",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-07",
+    "title": "GTM Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/746c6df1-cc93-46ed-8f68-b8b8515398f4"
+  },
+  "74a31ec8-6b98-45fc-819e-ca482347fc24": {
+    "company": "Mercor",
+    "first_seen": "2026-08-21T18:45:05.013592+00:00",
+    "job_id": "74a31ec8-6b98-45fc-819e-ca482347fc24",
+    "last_seen": "2026-08-26T00:17:23.149077+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-08-21",
+    "title": "Enterprise Marketing Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/74a31ec8-6b98-45fc-819e-ca482347fc24"
+  },
+  "7581deeb-ffee-463c-a2cd-e86181655ff3": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "7581deeb-ffee-463c-a2cd-e86181655ff3",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-25",
+    "title": "Product Manager, Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/7581deeb-ffee-463c-a2cd-e86181655ff3"
+  },
+  "76f19dab-be4a-4e1b-9971-3b3372666a05": {
+    "company": "Mercor",
+    "first_seen": "2026-09-24T23:50:08.199149+00:00",
+    "job_id": "76f19dab-be4a-4e1b-9971-3b3372666a05",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-24",
+    "title": "Tech Lead, Systems & Platform Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/76f19dab-be4a-4e1b-9971-3b3372666a05"
+  },
+  "77f0d653-2d0f-4115-9c5b-4faa27f702a9": {
+    "company": "Mercor",
+    "first_seen": "2026-09-09T21:34:55.494002+00:00",
+    "job_id": "77f0d653-2d0f-4115-9c5b-4faa27f702a9",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mexico | Mexico City",
+    "posted_date": "2026-09-09",
+    "title": "Strategic Project Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/77f0d653-2d0f-4115-9c5b-4faa27f702a9"
+  },
+  "7906121d-67b7-481b-bde4-1cd0f4325916": {
+    "company": "Mercor",
+    "first_seen": "2026-09-01T19:13:17.120153+00:00",
+    "job_id": "7906121d-67b7-481b-bde4-1cd0f4325916",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-01",
+    "title": "Revenue Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/7906121d-67b7-481b-bde4-1cd0f4325916"
+  },
+  "79fc13c6-5c2a-4b08-bd31-24c091524354": {
+    "company": "Mercor",
+    "first_seen": "2026-08-14T15:12:37.457054+00:00",
+    "job_id": "79fc13c6-5c2a-4b08-bd31-24c091524354",
+    "last_seen": "2026-08-18T22:44:38.807011+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-13",
+    "title": "Web/Brand/Visual Designer",
+    "url": "https://jobs.ashbyhq.com/mercor/79fc13c6-5c2a-4b08-bd31-24c091524354"
+  },
+  "7cee578f-799c-46ad-8951-cb0b724d619a": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "7cee578f-799c-46ad-8951-cb0b724d619a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-30",
+    "title": "Software Engineer, Machine Learning",
+    "url": "https://jobs.ashbyhq.com/mercor/7cee578f-799c-46ad-8951-cb0b724d619a"
+  },
+  "7d9d9439-848b-4fb4-b276-9efc71bb7148": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "7d9d9439-848b-4fb4-b276-9efc71bb7148",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-05-07",
+    "title": "Data Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/7d9d9439-848b-4fb4-b276-9efc71bb7148"
+  },
+  "7df910e9-9f22-4479-8945-83ca7660ab18": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "7df910e9-9f22-4479-8945-83ca7660ab18",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-25",
+    "title": "Product Manager, Mobile",
+    "url": "https://jobs.ashbyhq.com/mercor/7df910e9-9f22-4479-8945-83ca7660ab18"
+  },
+  "7e9a0929-5d64-40d1-b350-e17eebcfe32a": {
+    "company": "Mercor",
+    "first_seen": "2026-08-10T15:53:51.258055+00:00",
+    "job_id": "7e9a0929-5d64-40d1-b350-e17eebcfe32a",
+    "last_seen": "2026-09-01T19:13:17.120153+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-10",
+    "title": "Product Operations Manager, Talent Experience",
+    "url": "https://jobs.ashbyhq.com/mercor/7e9a0929-5d64-40d1-b350-e17eebcfe32a"
+  },
+  "81674390-a5b3-4c37-b828-e4459ce250d5": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "81674390-a5b3-4c37-b828-e4459ce250d5",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-27",
+    "title": "Founding Account Executive, Talent Solutions - Mid-Market",
+    "url": "https://jobs.ashbyhq.com/mercor/81674390-a5b3-4c37-b828-e4459ce250d5"
+  },
+  "836ed386-70a6-4cd1-809a-4b2fa662961c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-11T13:03:43.725130+00:00",
+    "job_id": "836ed386-70a6-4cd1-809a-4b2fa662961c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-11",
+    "title": "Product Manager, Trust & Safety",
+    "url": "https://jobs.ashbyhq.com/mercor/836ed386-70a6-4cd1-809a-4b2fa662961c"
+  },
+  "8492ebff-ed8e-4472-b729-3a49f4b52fc0": {
+    "company": "Mercor",
+    "first_seen": "2026-09-08T14:29:18.280386+00:00",
+    "job_id": "8492ebff-ed8e-4472-b729-3a49f4b52fc0",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-09-04",
+    "title": "Software Engineer, Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/8492ebff-ed8e-4472-b729-3a49f4b52fc0"
+  },
+  "8723bb7f-c0af-43cd-8c5a-a06eeb89bdde": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "8723bb7f-c0af-43cd-8c5a-a06eeb89bdde",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-13",
+    "title": "Head of Operations Planning",
+    "url": "https://jobs.ashbyhq.com/mercor/8723bb7f-c0af-43cd-8c5a-a06eeb89bdde"
+  },
+  "88e8c31f-8197-4948-8d8c-ff3ceee367ce": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "88e8c31f-8197-4948-8d8c-ff3ceee367ce",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-05-26",
+    "title": "Enterprise AI Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/88e8c31f-8197-4948-8d8c-ff3ceee367ce"
+  },
+  "8b040903-f37d-4bdb-86d3-049227f12669": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "8b040903-f37d-4bdb-86d3-049227f12669",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-08",
+    "title": "Healthcare Sales Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/8b040903-f37d-4bdb-86d3-049227f12669"
+  },
+  "9022be86-9c4c-40d3-ab03-85dbfe7db560": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "9022be86-9c4c-40d3-ab03-85dbfe7db560",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-17",
+    "title": "Member of Technical Staff, iOS",
+    "url": "https://jobs.ashbyhq.com/mercor/9022be86-9c4c-40d3-ab03-85dbfe7db560"
+  },
+  "9084be40-8c55-43f3-ae64-59524de8ad11": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "9084be40-8c55-43f3-ae64-59524de8ad11",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-05-07",
+    "title": "Executive Assistant",
+    "url": "https://jobs.ashbyhq.com/mercor/9084be40-8c55-43f3-ae64-59524de8ad11"
+  },
+  "9094e4f1-7432-4f4d-b78b-749425f86fbc": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "9094e4f1-7432-4f4d-b78b-749425f86fbc",
+    "last_seen": "2026-08-14T16:54:15.057746+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-14",
+    "title": "Fullstack Engineer, Assesment",
+    "url": "https://jobs.ashbyhq.com/mercor/9094e4f1-7432-4f4d-b78b-749425f86fbc"
+  },
+  "927e0440-7035-489a-a1f0-9ad461874e9b": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "927e0440-7035-489a-a1f0-9ad461874e9b",
+    "last_seen": "2026-10-05T22:09:09.053473+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-17",
+    "title": "Member of Technical Staff, Android",
+    "url": "https://jobs.ashbyhq.com/mercor/927e0440-7035-489a-a1f0-9ad461874e9b"
+  },
+  "94e0047f-60a9-478f-8882-dc09b9e2cbab": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "94e0047f-60a9-478f-8882-dc09b9e2cbab",
+    "last_seen": "2026-09-29T20:23:23.546893+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-07-14",
+    "title": "Procurement Operations Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/94e0047f-60a9-478f-8882-dc09b9e2cbab"
+  },
+  "959c73af-08c0-47f1-9c29-6c551149f79d": {
+    "company": "Mercor",
+    "first_seen": "2026-09-23T22:06:47.657524+00:00",
+    "job_id": "959c73af-08c0-47f1-9c29-6c551149f79d",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-23",
+    "title": "Client Services Lead, Healthcare",
+    "url": "https://jobs.ashbyhq.com/mercor/959c73af-08c0-47f1-9c29-6c551149f79d"
+  },
+  "9617d47a-9e6f-404f-b1fe-2fa4b7ff8471": {
+    "company": "Mercor",
+    "first_seen": "2026-09-08T14:29:18.280386+00:00",
+    "job_id": "9617d47a-9e6f-404f-b1fe-2fa4b7ff8471",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-04",
+    "title": "Cloud Platform Engineer (SF)",
+    "url": "https://jobs.ashbyhq.com/mercor/9617d47a-9e6f-404f-b1fe-2fa4b7ff8471"
+  },
+  "97b8c17e-e438-4b61-bab1-9ae18e2c3f34": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "97b8c17e-e438-4b61-bab1-9ae18e2c3f34",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-03-25",
+    "title": "Research Engineer - Environments, Data and Post-Training",
+    "url": "https://jobs.ashbyhq.com/mercor/97b8c17e-e438-4b61-bab1-9ae18e2c3f34"
+  },
+  "982a0751-e9eb-4b96-ac93-a1fd1d2f9152": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "982a0751-e9eb-4b96-ac93-a1fd1d2f9152",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2025-08-30",
+    "title": "Data Scientist",
+    "url": "https://jobs.ashbyhq.com/mercor/982a0751-e9eb-4b96-ac93-a1fd1d2f9152"
+  },
+  "99d667bf-90de-4bc7-88f1-5fca1a3ec01b": {
+    "company": "Mercor",
+    "first_seen": "2026-08-27T20:27:25.430456+00:00",
+    "job_id": "99d667bf-90de-4bc7-88f1-5fca1a3ec01b",
+    "last_seen": "2026-09-03T20:07:28.508093+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-27",
+    "title": "Software Engineer, Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/99d667bf-90de-4bc7-88f1-5fca1a3ec01b"
+  },
+  "9a012d72-f296-48fa-a9b9-f77ea3ea14b0": {
+    "company": "Mercor",
+    "first_seen": "2026-08-27T20:27:25.430456+00:00",
+    "job_id": "9a012d72-f296-48fa-a9b9-f77ea3ea14b0",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-31",
+    "title": "Lead Brand Designer",
+    "url": "https://jobs.ashbyhq.com/mercor/9a012d72-f296-48fa-a9b9-f77ea3ea14b0"
+  },
+  "9c546843-035f-4400-9d0d-d5de5f7205ff": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "9c546843-035f-4400-9d0d-d5de5f7205ff",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-03-07",
+    "title": "Research Program Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/9c546843-035f-4400-9d0d-d5de5f7205ff"
+  },
+  "9fa2cf80-a130-4a7e-95dc-915bf339413a": {
+    "company": "Mercor",
+    "first_seen": "2026-10-07T21:55:10.443859+00:00",
+    "job_id": "9fa2cf80-a130-4a7e-95dc-915bf339413a",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-07",
+    "title": "Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/9fa2cf80-a130-4a7e-95dc-915bf339413a"
+  },
+  "a0a98be0-d856-4129-b500-c0a3e412ef01": {
+    "company": "Mercor",
+    "first_seen": "2026-08-22T16:05:29.780593+00:00",
+    "job_id": "a0a98be0-d856-4129-b500-c0a3e412ef01",
+    "last_seen": "2026-09-25T19:37:18.013075+00:00",
+    "location": "San Francisco, New York City, London",
+    "posted_date": "2026-08-22",
+    "title": "Mercor Research Fellowship \u2014 APEX",
+    "url": "https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01"
+  },
+  "a0afa08a-5448-4432-bc61-a5fe3a73b4de": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "a0afa08a-5448-4432-bc61-a5fe3a73b4de",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-14",
+    "title": "Software Engineer, Backend",
+    "url": "https://jobs.ashbyhq.com/mercor/a0afa08a-5448-4432-bc61-a5fe3a73b4de"
+  },
+  "a217f1a6-c63c-4dfb-81c3-ecc0c5d44f98": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "a217f1a6-c63c-4dfb-81c3-ecc0c5d44f98",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-22",
+    "title": "Software Engineer, Robotics",
+    "url": "https://jobs.ashbyhq.com/mercor/a217f1a6-c63c-4dfb-81c3-ecc0c5d44f98"
+  },
+  "a24b4495-e8b8-475c-9946-7b7a35403bc2": {
+    "company": "Mercor",
+    "first_seen": "2026-08-10T18:47:20.537655+00:00",
+    "job_id": "a24b4495-e8b8-475c-9946-7b7a35403bc2",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-10",
+    "title": "Member of Technical Staff, Deeptune Environments",
+    "url": "https://jobs.ashbyhq.com/mercor/a24b4495-e8b8-475c-9946-7b7a35403bc2"
+  },
+  "a5f822ed-3f1e-4d2b-bd7d-eecbb81d6e03": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "a5f822ed-3f1e-4d2b-bd7d-eecbb81d6e03",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-05",
+    "title": "GTM Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/a5f822ed-3f1e-4d2b-bd7d-eecbb81d6e03"
+  },
+  "a73e093f-fad8-4f24-91fa-8f61cf45acb1": {
+    "company": "Mercor",
+    "first_seen": "2026-08-19T19:57:15.299172+00:00",
+    "job_id": "a73e093f-fad8-4f24-91fa-8f61cf45acb1",
+    "last_seen": "2026-09-15T00:54:20.211832+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-19",
+    "title": "Product Operations Manager, Research Services",
+    "url": "https://jobs.ashbyhq.com/mercor/a73e093f-fad8-4f24-91fa-8f61cf45acb1"
+  },
+  "a778f283-d596-4fa9-a81e-93161eb5399c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "a778f283-d596-4fa9-a81e-93161eb5399c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-01",
+    "title": "Software Engineer, Identity",
+    "url": "https://jobs.ashbyhq.com/mercor/a778f283-d596-4fa9-a81e-93161eb5399c"
+  },
+  "a855437d-639f-4a45-97c6-c1ba72b7884b": {
+    "company": "Mercor",
+    "first_seen": "2026-08-22T16:05:29.780593+00:00",
+    "job_id": "a855437d-639f-4a45-97c6-c1ba72b7884b",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-21",
+    "title": "Senior HR Business Partner, Engineering & Product",
+    "url": "https://jobs.ashbyhq.com/mercor/a855437d-639f-4a45-97c6-c1ba72b7884b"
+  },
+  "a9235479-37c4-42c6-8eff-7d94bb00c755": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "a9235479-37c4-42c6-8eff-7d94bb00c755",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-08-07",
+    "title": "Senior Sourcing Manager, Technology",
+    "url": "https://jobs.ashbyhq.com/mercor/a9235479-37c4-42c6-8eff-7d94bb00c755"
+  },
+  "aac13ab1-a746-437a-8c56-daf6e8b6c542": {
+    "company": "Mercor",
+    "first_seen": "2026-08-14T15:12:37.457054+00:00",
+    "job_id": "aac13ab1-a746-437a-8c56-daf6e8b6c542",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-14",
+    "title": "Software Engineer, Search Systems - Code Data",
+    "url": "https://jobs.ashbyhq.com/mercor/aac13ab1-a746-437a-8c56-daf6e8b6c542"
+  },
+  "ab558822-b18d-431c-b6dd-21cc877cee19": {
+    "company": "Mercor",
+    "first_seen": "2026-08-10T18:47:20.537655+00:00",
+    "job_id": "ab558822-b18d-431c-b6dd-21cc877cee19",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-28",
+    "title": "Recruiting Operations Specialist",
+    "url": "https://jobs.ashbyhq.com/mercor/ab558822-b18d-431c-b6dd-21cc877cee19"
+  },
+  "acd9b1aa-90d6-4182-a70c-f08df5090bfd": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "acd9b1aa-90d6-4182-a70c-f08df5090bfd",
+    "last_seen": "2026-08-11T00:12:19.241996+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-07-17",
+    "title": "Strategy & Operations Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/acd9b1aa-90d6-4182-a70c-f08df5090bfd"
+  },
+  "ae344099-3fde-4027-bfde-f953db8b4728": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "ae344099-3fde-4027-bfde-f953db8b4728",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-07",
+    "title": "Software Engineer, Frontier Data Products",
+    "url": "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728"
+  },
+  "b0f22275-9ec5-4725-93f9-ea0104cc1272": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "b0f22275-9ec5-4725-93f9-ea0104cc1272",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-29",
+    "title": "Product Manager",
+    "url": "https://jobs.ashbyhq.com/mercor/b0f22275-9ec5-4725-93f9-ea0104cc1272"
+  },
+  "b1cb822f-9a71-436b-aba4-d5ef75378291": {
+    "company": "Mercor",
+    "first_seen": "2026-09-23T22:06:47.657524+00:00",
+    "job_id": "b1cb822f-9a71-436b-aba4-d5ef75378291",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-23",
+    "title": "Client Services Lead, Finance",
+    "url": "https://jobs.ashbyhq.com/mercor/b1cb822f-9a71-436b-aba4-d5ef75378291"
+  },
+  "b1f4f69b-efd2-407b-bc86-f8a111104cf3": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "b1f4f69b-efd2-407b-bc86-f8a111104cf3",
+    "last_seen": "2026-08-13T21:18:40.916305+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Visual/Brand Design Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/b1f4f69b-efd2-407b-bc86-f8a111104cf3"
+  },
+  "b39b38ad-6b71-40da-854f-4a5de2657b50": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "b39b38ad-6b71-40da-854f-4a5de2657b50",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-06-19",
+    "title": "Engineering Manager, Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/b39b38ad-6b71-40da-854f-4a5de2657b50"
+  },
+  "b560990b-6743-4db3-8953-98d5f55e4af1": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "b560990b-6743-4db3-8953-98d5f55e4af1",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-14",
+    "title": "Strategic Project Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/b560990b-6743-4db3-8953-98d5f55e4af1"
+  },
+  "b89b87e5-0102-4d4d-8251-3c873e1bf6e4": {
+    "company": "Mercor",
+    "first_seen": "2026-08-07T19:23:15.655733+00:00",
+    "job_id": "b89b87e5-0102-4d4d-8251-3c873e1bf6e4",
+    "last_seen": "2026-08-11T18:02:37.516585+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-07",
+    "title": "Software Engineer, Backend",
+    "url": "https://jobs.ashbyhq.com/mercor/b89b87e5-0102-4d4d-8251-3c873e1bf6e4"
+  },
+  "bccf17a5-5bd8-4086-ae09-05eb08f37c54": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "bccf17a5-5bd8-4086-ae09-05eb08f37c54",
+    "last_seen": "2026-08-18T00:39:28.005131+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-07-27",
+    "title": "Strategic Project Lead, Enterprise Human Data",
+    "url": "https://jobs.ashbyhq.com/mercor/bccf17a5-5bd8-4086-ae09-05eb08f37c54"
+  },
+  "bebd78ce-5f12-46e9-a285-674e33838211": {
+    "company": "Mercor",
+    "first_seen": "2026-08-30T20:03:55.724011+00:00",
+    "job_id": "bebd78ce-5f12-46e9-a285-674e33838211",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-27",
+    "title": "Research Scientist, APEX Benchmarks",
+    "url": "https://jobs.ashbyhq.com/mercor/bebd78ce-5f12-46e9-a285-674e33838211"
+  },
+  "bedec64a-ece8-498a-8f67-7b84acd32c75": {
+    "company": "Mercor",
+    "first_seen": "2026-08-19T19:57:15.299172+00:00",
+    "job_id": "bedec64a-ece8-498a-8f67-7b84acd32c75",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-19",
+    "title": "Product Manager, APEX",
+    "url": "https://jobs.ashbyhq.com/mercor/bedec64a-ece8-498a-8f67-7b84acd32c75"
+  },
+  "c019b11f-4fbb-46a2-bbad-338ba8f4bedb": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "c019b11f-4fbb-46a2-bbad-338ba8f4bedb",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-18",
+    "title": "Agentic Finance Engineer",
+    "url": "https://jobs.ashbyhq.com/mercor/c019b11f-4fbb-46a2-bbad-338ba8f4bedb"
+  },
+  "c6f9c6bd-68b8-49c5-aecb-b586616d7102": {
+    "company": "Mercor",
+    "first_seen": "2026-08-21T16:30:00.154451+00:00",
+    "job_id": "c6f9c6bd-68b8-49c5-aecb-b586616d7102",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-21",
+    "title": "Member of Technical Staff, Mercor Enterprise Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/c6f9c6bd-68b8-49c5-aecb-b586616d7102"
+  },
+  "cae88190-a2fd-4d04-9352-9f48fedb56a7": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "cae88190-a2fd-4d04-9352-9f48fedb56a7",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-21",
+    "title": "Software Engineer, Applied AI - Frontier Engineering",
+    "url": "https://jobs.ashbyhq.com/mercor/cae88190-a2fd-4d04-9352-9f48fedb56a7"
+  },
+  "cb67851b-0269-4cf5-996c-34c3a88a19c8": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "cb67851b-0269-4cf5-996c-34c3a88a19c8",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-23",
+    "title": "Software Engineer, Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/cb67851b-0269-4cf5-996c-34c3a88a19c8"
+  },
+  "cbff2229-0bf0-4ca4-a794-fb3ff358e8e6": {
+    "company": "Mercor",
+    "first_seen": "2026-09-09T21:34:55.494002+00:00",
+    "job_id": "cbff2229-0bf0-4ca4-a794-fb3ff358e8e6",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-09-08",
+    "title": "Tech Lead Manager, Frontier Data Products",
+    "url": "https://jobs.ashbyhq.com/mercor/cbff2229-0bf0-4ca4-a794-fb3ff358e8e6"
+  },
+  "cdc3dbec-046e-4397-b28b-b10839df7b91": {
+    "company": "Mercor",
+    "first_seen": "2026-09-08T14:29:18.280386+00:00",
+    "job_id": "cdc3dbec-046e-4397-b28b-b10839df7b91",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-21",
+    "title": "Technology Operations Specialist (L3)",
+    "url": "https://jobs.ashbyhq.com/mercor/cdc3dbec-046e-4397-b28b-b10839df7b91"
+  },
+  "cdfe72db-873f-4440-9a00-2f1a5e90377c": {
+    "company": "Mercor",
+    "first_seen": "2026-09-16T20:43:14.646527+00:00",
+    "job_id": "cdfe72db-873f-4440-9a00-2f1a5e90377c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Senior HR Business Partner, Delivery",
+    "url": "https://jobs.ashbyhq.com/mercor/cdfe72db-873f-4440-9a00-2f1a5e90377c"
+  },
+  "ce84b612-89fb-4fac-976e-ac7dbcdb7da1": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "ce84b612-89fb-4fac-976e-ac7dbcdb7da1",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-25",
+    "title": "Member of Technical Staff, Backend",
+    "url": "https://jobs.ashbyhq.com/mercor/ce84b612-89fb-4fac-976e-ac7dbcdb7da1"
+  },
+  "cf6fcf5a-6348-4d60-beb3-43333a2c2bb9": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "cf6fcf5a-6348-4d60-beb3-43333a2c2bb9",
+    "last_seen": "2026-10-06T00:20:25.737113+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-09-04",
+    "title": "Security Engineer, Application Security",
+    "url": "https://jobs.ashbyhq.com/mercor/cf6fcf5a-6348-4d60-beb3-43333a2c2bb9"
+  },
+  "d1bd8741-0e5e-494a-befc-da13f7aff58c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "d1bd8741-0e5e-494a-befc-da13f7aff58c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-05-26",
+    "title": "Enterprise AI Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/d1bd8741-0e5e-494a-befc-da13f7aff58c"
+  },
+  "d23ac44f-ae98-47cc-975d-9d09e1cf54d2": {
+    "company": "Mercor",
+    "first_seen": "2026-08-15T21:48:38.037671+00:00",
+    "job_id": "d23ac44f-ae98-47cc-975d-9d09e1cf54d2",
+    "last_seen": "2026-08-20T20:32:30.297154+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-14",
+    "title": "Member of Technical Staff, Mercor Enterprise Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/d23ac44f-ae98-47cc-975d-9d09e1cf54d2"
+  },
+  "d2c5061f-79d3-46bf-a2f5-44827d0772ac": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "d2c5061f-79d3-46bf-a2f5-44827d0772ac",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-07-18",
+    "title": "Enterprise Applied AI Leader",
+    "url": "https://jobs.ashbyhq.com/mercor/d2c5061f-79d3-46bf-a2f5-44827d0772ac"
+  },
+  "d6594f4c-53e4-4a91-9b7b-f7b8fd4d8fc2": {
+    "company": "Mercor",
+    "first_seen": "2026-09-15T21:01:32.102632+00:00",
+    "job_id": "d6594f4c-53e4-4a91-9b7b-f7b8fd4d8fc2",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-15",
+    "title": "Delivery Engineer, Frontier Data Products",
+    "url": "https://jobs.ashbyhq.com/mercor/d6594f4c-53e4-4a91-9b7b-f7b8fd4d8fc2"
+  },
+  "d6645639-4e9b-43c4-ba39-bef296af150e": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "d6645639-4e9b-43c4-ba39-bef296af150e",
+    "last_seen": "2026-08-11T16:16:24.490668+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-15",
+    "title": "Recruiter - Enterprise Human Data",
+    "url": "https://jobs.ashbyhq.com/mercor/d6645639-4e9b-43c4-ba39-bef296af150e"
+  },
+  "d8b64d80-3fe0-49e8-97e9-9eefc3b64652": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "d8b64d80-3fe0-49e8-97e9-9eefc3b64652",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "London",
+    "posted_date": "2026-08-05",
+    "title": "Growth Associate",
+    "url": "https://jobs.ashbyhq.com/mercor/d8b64d80-3fe0-49e8-97e9-9eefc3b64652"
+  },
+  "dbf687c6-4d7e-4c56-a82e-a8b304e2a4e3": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "dbf687c6-4d7e-4c56-a82e-a8b304e2a4e3",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-13",
+    "title": "Sales Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/dbf687c6-4d7e-4c56-a82e-a8b304e2a4e3"
+  },
+  "dd4f59a1-d077-4c20-8333-9a7706210e99": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "dd4f59a1-d077-4c20-8333-9a7706210e99",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-03-12",
+    "title": "Software Engineer, Automation",
+    "url": "https://jobs.ashbyhq.com/mercor/dd4f59a1-d077-4c20-8333-9a7706210e99"
+  },
+  "de3025e5-10ca-4d55-b688-eff0e647ac8d": {
+    "company": "Mercor",
+    "first_seen": "2026-09-16T20:43:14.646527+00:00",
+    "job_id": "de3025e5-10ca-4d55-b688-eff0e647ac8d",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer Intern",
+    "url": "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d"
+  },
+  "e106399e-d85e-4af2-9bc8-6a0e144f318f": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "e106399e-d85e-4af2-9bc8-6a0e144f318f",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-06-10",
+    "title": "Software Engineer, Enterprise Applied AI",
+    "url": "https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f"
+  },
+  "e1c5fdb1-eaca-47e0-9abd-0d60b432746b": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "e1c5fdb1-eaca-47e0-9abd-0d60b432746b",
+    "last_seen": "2026-10-12T02:11:08.570041+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-03-21",
+    "title": "Recruiting Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/e1c5fdb1-eaca-47e0-9abd-0d60b432746b"
+  },
+  "e1f6792d-1aae-4c2e-8edb-e2b91343dbb5": {
+    "company": "Mercor",
+    "first_seen": "2026-09-22T22:31:52.915614+00:00",
+    "job_id": "e1f6792d-1aae-4c2e-8edb-e2b91343dbb5",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, Mexico | Mexico City, New York City, London",
+    "posted_date": "2026-09-22",
+    "title": "Mercor AI Research Fund Grants",
+    "url": "https://jobs.ashbyhq.com/mercor/e1f6792d-1aae-4c2e-8edb-e2b91343dbb5"
+  },
+  "e2c6a4a0-87d2-425d-bf2c-322e6128d8dc": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "e2c6a4a0-87d2-425d-bf2c-322e6128d8dc",
+    "last_seen": "2026-08-17T20:45:57.238687+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-08",
+    "title": "Research Engineer \u2013 Benchmarking, Evals & Failure Analysis",
+    "url": "https://jobs.ashbyhq.com/mercor/e2c6a4a0-87d2-425d-bf2c-322e6128d8dc"
+  },
+  "e6502490-37c6-471a-9ffb-cf397764c518": {
+    "company": "Mercor",
+    "first_seen": "2026-10-05T22:09:09.053473+00:00",
+    "job_id": "e6502490-37c6-471a-9ffb-cf397764c518",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-05",
+    "title": "Research Intern",
+    "url": "https://jobs.ashbyhq.com/mercor/e6502490-37c6-471a-9ffb-cf397764c518"
+  },
+  "e6ce3017-7ed8-48b7-883f-216997348fae": {
+    "company": "Mercor",
+    "first_seen": "2026-09-16T20:43:14.646527+00:00",
+    "job_id": "e6ce3017-7ed8-48b7-883f-216997348fae",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Chief of Staff, Delivery Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/e6ce3017-7ed8-48b7-883f-216997348fae"
+  },
+  "e79473b9-d661-4f7b-8a4c-27a3834afabb": {
+    "company": "Mercor",
+    "first_seen": "2026-08-10T18:47:20.537655+00:00",
+    "job_id": "e79473b9-d661-4f7b-8a4c-27a3834afabb",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-10",
+    "title": "Strategic Projects Lead, Deeptune",
+    "url": "https://jobs.ashbyhq.com/mercor/e79473b9-d661-4f7b-8a4c-27a3834afabb"
+  },
+  "ea2c3bcc-5ebd-4061-9444-87d6bb27e38c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "ea2c3bcc-5ebd-4061-9444-87d6bb27e38c",
+    "last_seen": "2026-08-27T20:27:25.430456+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-26",
+    "title": "Learning Designer",
+    "url": "https://jobs.ashbyhq.com/mercor/ea2c3bcc-5ebd-4061-9444-87d6bb27e38c"
+  },
+  "ecab827a-f5d7-4a7f-a1b5-898768fee04c": {
+    "company": "Mercor",
+    "first_seen": "2026-09-12T18:14:55.398080+00:00",
+    "job_id": "ecab827a-f5d7-4a7f-a1b5-898768fee04c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-12",
+    "title": "Senior Product Designer",
+    "url": "https://jobs.ashbyhq.com/mercor/ecab827a-f5d7-4a7f-a1b5-898768fee04c"
+  },
+  "ed1e0124-d0db-4824-8f94-27106b20815e": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "ed1e0124-d0db-4824-8f94-27106b20815e",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-11",
+    "title": "Project Manager, Delivery Team",
+    "url": "https://jobs.ashbyhq.com/mercor/ed1e0124-d0db-4824-8f94-27106b20815e"
+  },
+  "f2eb5180-a618-44ba-a548-7510d0c88cc8": {
+    "company": "Mercor",
+    "first_seen": "2026-10-01T12:40:43.839493+00:00",
+    "job_id": "f2eb5180-a618-44ba-a548-7510d0c88cc8",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "Mercor HQ, 181 Fremont Street",
+    "posted_date": "2026-10-05",
+    "title": "G&A Recruiter",
+    "url": "https://jobs.ashbyhq.com/mercor/f2eb5180-a618-44ba-a548-7510d0c88cc8"
+  },
+  "f455b12b-7982-46d4-a46a-df018203b559": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "f455b12b-7982-46d4-a46a-df018203b559",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-06-19",
+    "title": "Engineering Manager, Fraud & Compliance",
+    "url": "https://jobs.ashbyhq.com/mercor/f455b12b-7982-46d4-a46a-df018203b559"
+  },
+  "f6035e89-f820-482c-9500-efb70226b134": {
+    "company": "Mercor",
+    "first_seen": "2026-08-27T20:27:25.430456+00:00",
+    "job_id": "f6035e89-f820-482c-9500-efb70226b134",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "New York City",
+    "posted_date": "2026-08-27",
+    "title": "Software Engineer, Agents",
+    "url": "https://jobs.ashbyhq.com/mercor/f6035e89-f820-482c-9500-efb70226b134"
+  },
+  "f6ef82f1-c711-4a19-a9be-6bc04a2b776c": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "f6ef82f1-c711-4a19-a9be-6bc04a2b776c",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco or NYC",
+    "posted_date": "2026-04-15",
+    "title": "Security Engineer, Cloud Infrastructure",
+    "url": "https://jobs.ashbyhq.com/mercor/f6ef82f1-c711-4a19-a9be-6bc04a2b776c"
+  },
+  "f87ea934-5550-48d0-aea6-eb24daf8ed4f": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "f87ea934-5550-48d0-aea6-eb24daf8ed4f",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-22",
+    "title": "Research Operations, Code",
+    "url": "https://jobs.ashbyhq.com/mercor/f87ea934-5550-48d0-aea6-eb24daf8ed4f"
+  },
+  "fa580f7f-8752-428c-bb6b-439fa72c76e7": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "fa580f7f-8752-428c-bb6b-439fa72c76e7",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-08-18",
+    "title": "Product Engineer, Studio Platform",
+    "url": "https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7"
+  },
+  "faabb06e-5d95-4872-9655-1f18d9f91aac": {
+    "company": "Mercor",
+    "first_seen": "2026-08-31T22:01:28.018704+00:00",
+    "job_id": "faabb06e-5d95-4872-9655-1f18d9f91aac",
+    "last_seen": "2026-10-13T21:23:19.095304+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-31",
+    "title": "Visual Design Lead",
+    "url": "https://jobs.ashbyhq.com/mercor/faabb06e-5d95-4872-9655-1f18d9f91aac"
+  },
+  "fd2eaae3-887a-4933-9f2f-fc70008d8199": {
+    "company": "Mercor",
+    "first_seen": "2026-08-06T02:03:55.504017+00:00",
+    "job_id": "fd2eaae3-887a-4933-9f2f-fc70008d8199",
+    "last_seen": "2026-08-19T19:57:15.299172+00:00",
+    "location": "New York City",
+    "posted_date": "2026-07-29",
+    "title": "Recruiter, GTM & Operations",
+    "url": "https://jobs.ashbyhq.com/mercor/fd2eaae3-887a-4933-9f2f-fc70008d8199"
+  }
+}

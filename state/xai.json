@@ -1,0 +1,4392 @@
+{
+  "4533894007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4533894007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Seattle, WA",
+    "posted_date": "2024-10-04",
+    "title": "Software Engineer - Training/Inference (C++)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4533894007"
+  },
+  "4538639007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4538639007",
+    "last_seen": "2026-10-12T23:18:38.242862+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2024-10-22",
+    "title": "Facilities Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4538639007"
+  },
+  "4559147007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4559147007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2024-11-14",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4559147007"
+  },
+  "4611087007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T20:38:05.931828+00:00",
+    "job_id": "4611087007",
+    "last_seen": "2026-09-02T20:57:36.344340+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2024-12-23",
+    "title": "Controls Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4611087007"
+  },
+  "4703144007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4703144007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-04-10",
+    "title": "Machine Learning Engineer - Recommendation Systems",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4703144007"
+  },
+  "4741579007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4741579007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2025-05-21",
+    "title": "Data Center Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4741579007"
+  },
+  "4744227007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4744227007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-05-26",
+    "title": "Barista",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4744227007"
+  },
+  "4760806007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4760806007",
+    "last_seen": "2026-08-31T22:07:38.709810+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-06-10",
+    "title": "Finance Expert",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4760806007"
+  },
+  "4800712007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4800712007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2025-07-27",
+    "title": "Network Security Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4800712007"
+  },
+  "4803862007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4803862007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-07-29",
+    "title": "Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4803862007"
+  },
+  "4803905007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4803905007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-07-29",
+    "title": "Software Engineer, Observability",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4803905007"
+  },
+  "4805874007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4805874007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Seattle, WA",
+    "posted_date": "2025-07-30",
+    "title": "Software Engineer, Media",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4805874007"
+  },
+  "4805886007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4805886007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-07-30",
+    "title": "Software Engineer - Real-Time Storage",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4805886007"
+  },
+  "4821683007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4821683007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2025-08-06",
+    "title": "Supervisor, Facility Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4821683007"
+  },
+  "4835611007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4835611007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-08-21",
+    "title": "Software Engineer - Platform Security",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4835611007"
+  },
+  "4869805007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4869805007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2025-09-09",
+    "title": "Power Generation Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4869805007"
+  },
+  "4870731007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4870731007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2025-09-10",
+    "title": "Network Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4870731007"
+  },
+  "4871633007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4871633007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-09-11",
+    "title": "IT Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4871633007"
+  },
+  "4892323007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4892323007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2025-09-15",
+    "title": "Mobile Android Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4892323007"
+  },
+  "4925832007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4925832007",
+    "last_seen": "2026-08-31T22:07:38.709810+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-09-30",
+    "title": "Physics Tutor",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4925832007"
+  },
+  "4925835007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4925835007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-09-30",
+    "title": "Data Science Tutor",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4925835007"
+  },
+  "4925859007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4925859007",
+    "last_seen": "2026-08-31T22:07:38.709810+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-09-30",
+    "title": "Pure Math Tutor",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4925859007"
+  },
+  "4925866007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4925866007",
+    "last_seen": "2026-08-31T22:07:38.709810+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-09-30",
+    "title": "Statistics Tutor",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4925866007"
+  },
+  "4931315007": {
+    "company": "xAI",
+    "first_seen": "2026-09-01T19:18:52.644464+00:00",
+    "job_id": "4931315007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2025-10-03",
+    "title": "AI Tutor - Legal & Compliance",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4931315007"
+  },
+  "4939298007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4939298007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2025-11-03",
+    "title": "Facilities Maintenance Assistant - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4939298007"
+  },
+  "4940364007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4940364007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Bastrop, TX",
+    "posted_date": "2025-10-16",
+    "title": "Support Agent, X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4940364007"
+  },
+  "4940376007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4940376007",
+    "last_seen": "2026-08-06T12:51:18.046426+00:00",
+    "location": "Los Angeles, California, United States; New York, New York, United States",
+    "posted_date": "2025-10-16",
+    "title": "Client Partner",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4940376007"
+  },
+  "4940377007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4940377007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Austin, TX; Los Angeles, CA; New York, NY",
+    "posted_date": "2025-10-16",
+    "title": "Client Account Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4940377007"
+  },
+  "4946696007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4946696007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-10-15",
+    "title": "Software Engineer - Networking Software and Services",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4946696007"
+  },
+  "4956028007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4956028007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-10-23",
+    "title": "Exceptional Software Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4956028007"
+  },
+  "4959599007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4959599007",
+    "last_seen": "2026-08-20T20:38:05.931828+00:00",
+    "location": "Bastrop, Texas",
+    "posted_date": "2025-10-27",
+    "title": "Dispute Analyst, X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4959599007"
+  },
+  "4965893007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4965893007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-10-31",
+    "title": "Member of Technical Staff - Mid-training",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4965893007"
+  },
+  "4985386007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4985386007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2025-11-18",
+    "title": "Mobile iOS Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4985386007"
+  },
+  "4990853007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4990853007",
+    "last_seen": "2026-08-11T00:16:26.413501+00:00",
+    "location": "Singapore",
+    "posted_date": "2025-11-24",
+    "title": "Client Partner - Ecommerce & Digital Native",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4990853007"
+  },
+  "4991448007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4991448007",
+    "last_seen": "2026-08-07T14:39:57.418947+00:00",
+    "location": "London, UK",
+    "posted_date": "2025-11-25",
+    "title": "Backend Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4991448007"
+  },
+  "4992581007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4992581007",
+    "last_seen": "2026-08-26T20:44:00.815284+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2025-11-26",
+    "title": "Operations & Maintenance Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4992581007"
+  },
+  "4996796007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "4996796007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2025-12-03",
+    "title": "Machine Learning Engineer - Ads",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4996796007"
+  },
+  "5006477007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5006477007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2025-12-17",
+    "title": "Backend Engineer - Enterprise",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5006477007"
+  },
+  "5007261007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5007261007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY; Washington, DC",
+    "posted_date": "2026-01-13",
+    "title": "Sr. Security Engineer - GRC Frameworks & AI Governance",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5007261007"
+  },
+  "5007310007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5007310007",
+    "last_seen": "2026-09-22T22:37:05.601956+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2025-12-17",
+    "title": "Software Engineer, X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5007310007"
+  },
+  "5007872007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5007872007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2025-12-18",
+    "title": "Member of Technical Staff - Sandbox Service",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5007872007"
+  },
+  "5010419007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5010419007",
+    "last_seen": "2026-10-06T00:27:05.446752+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2025-12-22",
+    "title": "Supervisor, Site Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5010419007"
+  },
+  "5012694007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5012694007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2025-12-29",
+    "title": "Structural Engineer, Data Centers - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5012694007"
+  },
+  "5017529007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5017529007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-01-07",
+    "title": "AI Tutor - Writing",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5017529007"
+  },
+  "5032210007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5032210007",
+    "last_seen": "2026-08-07T14:39:57.418947+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-01-22",
+    "title": "U.K. Legal Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5032210007"
+  },
+  "5033593007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5033593007",
+    "last_seen": "2026-08-06T01:18:08.647584+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-01-23",
+    "title": "IT Services Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5033593007"
+  },
+  "5041977007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5041977007",
+    "last_seen": "2026-08-07T00:47:04.254092+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-02-03",
+    "title": "Exceptional Designer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5041977007"
+  },
+  "5043570007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5043570007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-02-04",
+    "title": "Network Engineer - ML Infrastructure (High-Speed Interconnects)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5043570007"
+  },
+  "5047564007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5047564007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-02-10",
+    "title": "AI Tutor - Video",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5047564007"
+  },
+  "5051745007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051745007",
+    "last_seen": "2026-10-12T23:18:38.242862+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-02-18",
+    "title": "Senior Facilities Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051745007"
+  },
+  "5051763007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051763007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-02-18",
+    "title": "Senior Data Center Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051763007"
+  },
+  "5051966007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051966007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-16",
+    "title": "Software Engineer - Voice Model",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051966007"
+  },
+  "5051970007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051970007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-17",
+    "title": "Member of Technical Staff - Voice Product",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051970007"
+  },
+  "5051984007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051984007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-05",
+    "title": "Member of Technical Staff - Grok Product",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051984007"
+  },
+  "5051985007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5051985007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-05",
+    "title": "Member of Technical Staff - Imagine Model",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051985007"
+  },
+  "5052027007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5052027007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-06",
+    "title": "Member of Technical Staff - Imagine Product",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5052027007"
+  },
+  "5052038007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5052038007",
+    "last_seen": "2026-08-06T12:51:18.046426+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-03-06",
+    "title": "Software Engineer - Internal Tools",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5052038007"
+  },
+  "5052040007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5052040007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Seattle, WA",
+    "posted_date": "2026-03-06",
+    "title": "Software Engineer - Kernels/CUDA (C++)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5052040007"
+  },
+  "5057008007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5057008007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-02-19",
+    "title": "Mobile Android Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5057008007"
+  },
+  "5057013007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5057013007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-02-19",
+    "title": "Mobile iOS Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5057013007"
+  },
+  "5063490007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5063490007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-02-26",
+    "title": "AI Tutor - Software Engineering",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5063490007"
+  },
+  "5063929007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5063929007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-03-19",
+    "title": "Software Engineer\u2013 X Core Product",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5063929007"
+  },
+  "5063930007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5063930007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-19",
+    "title": "Web Engineer, X",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5063930007"
+  },
+  "5064636007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5064636007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-02-26",
+    "title": "Critical Facilities Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5064636007"
+  },
+  "5071895007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5071895007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-03-10",
+    "title": "Senior IT Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5071895007"
+  },
+  "5077471007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5077471007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2026-03-12",
+    "title": "Recruiting Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5077471007"
+  },
+  "5085890007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5085890007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Hillsboro, OR",
+    "posted_date": "2026-03-20",
+    "title": "Data Center Operations Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5085890007"
+  },
+  "5086324007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5086324007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Seattle, WA",
+    "posted_date": "2026-03-21",
+    "title": "Member of Technical Staff - Model Training",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5086324007"
+  },
+  "5090120007": {
+    "company": "xAI",
+    "first_seen": "2026-10-08T23:33:55.459767+00:00",
+    "job_id": "5090120007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - German",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090120007"
+  },
+  "5090171007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090171007",
+    "last_seen": "2026-10-07T22:00:16.987054+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-03-27",
+    "title": "AI Tutor - Arabic",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090171007"
+  },
+  "5090180007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090180007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote US",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Chinese",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090180007"
+  },
+  "5090189007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090189007",
+    "last_seen": "2026-10-06T00:27:05.446752+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-03-27",
+    "title": "AI Tutor - Danish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090189007"
+  },
+  "5090197007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090197007",
+    "last_seen": "2026-10-08T23:33:55.459767+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-03-27",
+    "title": "AI Tutor - Dutch",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090197007"
+  },
+  "5090199007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090199007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Finnish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090199007"
+  },
+  "5090202007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090202007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - French",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090202007"
+  },
+  "5090206007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090206007",
+    "last_seen": "2026-09-22T22:37:05.601956+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Hebrew",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090206007"
+  },
+  "5090207007": {
+    "company": "xAI",
+    "first_seen": "2026-08-21T16:35:45.461257+00:00",
+    "job_id": "5090207007",
+    "last_seen": "2026-09-21T22:06:41.432679+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Hindi",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090207007"
+  },
+  "5090209007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T20:38:05.931828+00:00",
+    "job_id": "5090209007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Italian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090209007"
+  },
+  "5090210007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090210007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Korean",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090210007"
+  },
+  "5090215007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090215007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Norwegian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090215007"
+  },
+  "5090218007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090218007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote US",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Polish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090218007"
+  },
+  "5090221007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090221007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Portuguese",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090221007"
+  },
+  "5090246007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090246007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Punjabi",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090246007"
+  },
+  "5090264007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090264007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Spanish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090264007"
+  },
+  "5090265007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090265007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Swedish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090265007"
+  },
+  "5090272007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090272007",
+    "last_seen": "2026-10-07T22:00:16.987054+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Thai",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090272007"
+  },
+  "5090273007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T00:27:09.519954+00:00",
+    "job_id": "5090273007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Urdu",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090273007"
+  },
+  "5090998007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5090998007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2026-03-26",
+    "title": "Infrastructure Security Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5090998007"
+  },
+  "5095657007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5095657007",
+    "last_seen": "2026-10-05T22:16:10.279576+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-04-01",
+    "title": "AI Tutor - Indonesian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5095657007"
+  },
+  "5097904007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5097904007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-02",
+    "title": "Senior Analyst, Safety Operations (Child Safety)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5097904007"
+  },
+  "5097907007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5097907007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Austin, TX; Bastrop, TX",
+    "posted_date": "2026-04-02",
+    "title": "Senior Analyst, Safety Operations (Child Safety)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5097907007"
+  },
+  "5098930007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5098930007",
+    "last_seen": "2026-08-13T21:23:48.718721+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-04-06",
+    "title": "AI Tutor - Audio Editing",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5098930007"
+  },
+  "5107958007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5107958007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-14",
+    "title": "Software Engineer, X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5107958007"
+  },
+  "5108231007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5108231007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-04-14",
+    "title": "Software Engineer - X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5108231007"
+  },
+  "5109691007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5109691007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-16",
+    "title": "Software Engineer - Consumer Subscriptions",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5109691007"
+  },
+  "5109703007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5109703007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "New York, NY; Palo Alto, CA",
+    "posted_date": "2026-06-26",
+    "title": "Senior Data Engineer - Consumer Subscriptions",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5109703007"
+  },
+  "5111374007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5111374007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-17",
+    "title": "Member of Technical Staff - Multimodal Understanding",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5111374007"
+  },
+  "5112514007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5112514007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-04-20",
+    "title": "Data Analyst - Physical Infrastructure",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5112514007"
+  },
+  "5114737007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5114737007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-28",
+    "title": "Member of Technical Staff - Post-Training and RL",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5114737007"
+  },
+  "5116056007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5116056007",
+    "last_seen": "2026-08-11T13:08:15.570222+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-04-21",
+    "title": "Controls Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5116056007"
+  },
+  "5119679007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5119679007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-24",
+    "title": "Construction Manager, Mechanical - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5119679007"
+  },
+  "5120536007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5120536007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-04-24",
+    "title": "Backend Engineer - API",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5120536007"
+  },
+  "5120884007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5120884007",
+    "last_seen": "2026-08-06T12:51:18.046426+00:00",
+    "location": "Palo Alto, California, United States",
+    "posted_date": "2026-04-24",
+    "title": "Software Engineer - Data",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5120884007"
+  },
+  "5121244007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5121244007",
+    "last_seen": "2026-08-18T00:46:51.743085+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-04-28",
+    "title": "Inventory Specialist",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5121244007"
+  },
+  "5121253007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5121253007",
+    "last_seen": "2026-08-18T00:46:51.743085+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-04-28",
+    "title": "Supervisor, Logistics (Data Center Operations)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5121253007"
+  },
+  "5123051007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123051007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-28",
+    "title": "Construction Manager, Structural - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123051007"
+  },
+  "5123063007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123063007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-28",
+    "title": "Construction Manager, Electrical - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123063007"
+  },
+  "5123360007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123360007",
+    "last_seen": "2026-08-18T00:46:51.743085+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-04-28",
+    "title": "Material Flow Engineer (Data Center Operations)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123360007"
+  },
+  "5123528007": {
+    "company": "xAI",
+    "first_seen": "2026-10-08T23:33:55.459767+00:00",
+    "job_id": "5123528007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-28",
+    "title": "AI Tutor - Russian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123528007"
+  },
+  "5123837007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123837007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Electrical - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123837007"
+  },
+  "5123845007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123845007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Mechanical - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123845007"
+  },
+  "5123852007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5123852007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Structural - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5123852007"
+  },
+  "5124647007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5124647007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Electrical (Night Shift) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5124647007"
+  },
+  "5124669007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5124669007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Mechanical (Night Shift) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5124669007"
+  },
+  "5124681007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5124681007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-04-29",
+    "title": "Construction Superintendent, Structural (Night Shift) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5124681007"
+  },
+  "5125589007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5125589007",
+    "last_seen": "2026-09-28T21:52:29.603617+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-04-30",
+    "title": "Manager, Facilities Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5125589007"
+  },
+  "5125621007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5125621007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-04-30",
+    "title": "Software Engineer - Search Ranking",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5125621007"
+  },
+  "5127510007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5127510007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-04",
+    "title": "Sr. Electrical Commissioning Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5127510007"
+  },
+  "5127519007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5127519007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-04",
+    "title": "Mechanical Commissioning Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5127519007"
+  },
+  "5128169007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5128169007",
+    "last_seen": "2026-09-22T22:37:05.601956+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-05-04",
+    "title": "Corporate Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5128169007"
+  },
+  "5128245007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5128245007",
+    "last_seen": "2026-08-05T18:18:27.273600+00:00",
+    "location": "Bastrop, Texas, United States",
+    "posted_date": "2026-05-04",
+    "title": "Safety Trainer, Monetization",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5128245007"
+  },
+  "5129296007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5129296007",
+    "last_seen": "2026-08-06T12:51:18.046426+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-05",
+    "title": "Electrical Commissioning Lead",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5129296007"
+  },
+  "5129306007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5129306007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-05",
+    "title": "Mechanical Commissioning Lead - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5129306007"
+  },
+  "5133071007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5133071007",
+    "last_seen": "2026-10-04T23:10:50.752287+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-05-08",
+    "title": "Member Of Technical Staff - Cloud Infrastructure",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5133071007"
+  },
+  "5134220007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5134220007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-11",
+    "title": "Electrical Commissioning Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5134220007"
+  },
+  "5135086007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5135086007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-12",
+    "title": "Technical Recruiter - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5135086007"
+  },
+  "5135090007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5135090007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-12",
+    "title": "Recruiting Coordinator - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5135090007"
+  },
+  "5135731007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5135731007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-05-12",
+    "title": "Mechanical Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5135731007"
+  },
+  "5136043007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5136043007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-12",
+    "title": "Electrical Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5136043007"
+  },
+  "5136064007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5136064007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-05-12",
+    "title": "Gas Pipeline Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5136064007"
+  },
+  "5136156007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5136156007",
+    "last_seen": "2026-08-09T03:06:40.329034+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-05-12",
+    "title": "Permitting Specialist (Data Centers)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5136156007"
+  },
+  "5136158007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5136158007",
+    "last_seen": "2026-08-18T22:49:42.346217+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-05-12",
+    "title": "Fire Protection Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5136158007"
+  },
+  "5136287007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5136287007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "New York, NY; Palo Alto, CA",
+    "posted_date": "2026-05-22",
+    "title": "X Developer Platform \u2013 Forward Deployed Engineer, X API",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5136287007"
+  },
+  "5142936007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5142936007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-20",
+    "title": "Civil Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5142936007"
+  },
+  "5142979007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5142979007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-05-20",
+    "title": "Electrician (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5142979007"
+  },
+  "5143756007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5143756007",
+    "last_seen": "2026-09-22T22:37:05.601956+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2026-05-21",
+    "title": "Security Engineer - Detection & Response (Japan, X Money)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5143756007"
+  },
+  "5144826007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5144826007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Palo Alto, California",
+    "posted_date": "2026-05-21",
+    "title": "Senior Employment Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5144826007"
+  },
+  "5146610007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5146610007",
+    "last_seen": "2026-09-21T22:06:41.432679+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-26",
+    "title": "HR Business Partner",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5146610007"
+  },
+  "5148882007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5148882007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-28",
+    "title": "Fiber Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5148882007"
+  },
+  "5149101007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5149101007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-10",
+    "title": "Product Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5149101007"
+  },
+  "5149405007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5149405007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-05-28",
+    "title": "Porter - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5149405007"
+  },
+  "5150780007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150780007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-05-29",
+    "title": "CAD Designer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150780007"
+  },
+  "5150787007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150787007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Austin, TX; Memphis, TN",
+    "posted_date": "2026-05-29",
+    "title": "Documentation Control Specialist - Infrastructure (Datacenters & Power Plants)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150787007"
+  },
+  "5150802007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150802007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Southaven, Mississippi",
+    "posted_date": "2026-05-29",
+    "title": "Project Manager (Power Generation)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150802007"
+  },
+  "5150828007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150828007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Southaven, Mississippi",
+    "posted_date": "2026-05-29",
+    "title": "Manager, Engineering (Power Generation)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150828007"
+  },
+  "5150932007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150932007",
+    "last_seen": "2026-09-08T14:35:46.977279+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-01",
+    "title": "Controls Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150932007"
+  },
+  "5150934007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5150934007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Southaven, Mississippi",
+    "posted_date": "2026-06-01",
+    "title": "Lead, Operations & Maintenance (O&M)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5150934007"
+  },
+  "5151022007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5151022007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-05-31",
+    "title": "Member of Technical Staff - Imagine Safety",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5151022007"
+  },
+  "5151485007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5151485007",
+    "last_seen": "2026-10-06T23:04:11.503336+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-06-02",
+    "title": "HR Business Partner - Engineering",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5151485007"
+  },
+  "5152408007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5152408007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-06-01",
+    "title": "Software Engineer, Ads Product",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5152408007"
+  },
+  "5159174007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5159174007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-08",
+    "title": "Project Manager, Construction - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5159174007"
+  },
+  "5159251007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5159251007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-08",
+    "title": "Operations Engineer (Construction & Site Efficiency)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5159251007"
+  },
+  "5161437007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5161437007",
+    "last_seen": "2026-08-26T20:44:00.815284+00:00",
+    "location": "Conroe, Texas; Jacksonville, Florida",
+    "posted_date": "2026-06-10",
+    "title": "Logistics Specialist (Temporary)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5161437007"
+  },
+  "5161447007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5161447007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Conroe, Texas; Jacksonville, Florida",
+    "posted_date": "2026-06-10",
+    "title": "Warehouse Supervisor (Temporary)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5161447007"
+  },
+  "5161485007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5161485007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Jacksonville, Florida",
+    "posted_date": "2026-06-10",
+    "title": "Warehouse Manager (Temporary)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5161485007"
+  },
+  "5166240007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5166240007",
+    "last_seen": "2026-09-21T22:06:41.432679+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-06-16",
+    "title": "Manager, Site Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5166240007"
+  },
+  "5167318007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5167318007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-06-23",
+    "title": "Sr. IT Data Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5167318007"
+  },
+  "5168434007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5168434007",
+    "last_seen": "2026-09-08T14:35:46.977279+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-23",
+    "title": "Associate Data Center Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5168434007"
+  },
+  "5169674007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5169674007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-19",
+    "title": "Fiber Technician III - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5169674007"
+  },
+  "5169675007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5169675007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-06-19",
+    "title": "Network Operations Technician (SpaceXAI / Starlink)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5169675007"
+  },
+  "5169683007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5169683007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-23",
+    "title": "Manager, Fiber - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5169683007"
+  },
+  "5170639007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5170639007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; Washington, DC",
+    "posted_date": "2026-06-22",
+    "title": "Corporate Paralegal",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5170639007"
+  },
+  "5173147007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5173147007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-06-24",
+    "title": "Member of Technical Staff",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5173147007"
+  },
+  "5173208007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5173208007",
+    "last_seen": "2026-08-05T20:00:35.327725+00:00",
+    "location": "Palo Alto, CA",
+    "posted_date": "2026-06-24",
+    "title": "Member of Technical Staff",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5173208007"
+  },
+  "5174576007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5174576007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS",
+    "posted_date": "2026-09-19",
+    "title": "Material Handler - Southaven, MS",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5174576007"
+  },
+  "5174591007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5174591007",
+    "last_seen": "2026-08-18T00:46:51.743085+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-06-25",
+    "title": "Material Handler",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5174591007"
+  },
+  "5175094007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5175094007",
+    "last_seen": "2026-08-07T23:51:51.887094+00:00",
+    "location": "Palo Alto, California",
+    "posted_date": "2026-06-26",
+    "title": "Human Resources Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5175094007"
+  },
+  "5175158007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5175158007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-06-26",
+    "title": "Lead Fiber Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5175158007"
+  },
+  "5177443007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5177443007",
+    "last_seen": "2026-08-27T20:33:06.597076+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-06-30",
+    "title": "Lead, Controls Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5177443007"
+  },
+  "5178416007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5178416007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-01",
+    "title": "Program Manager, Data Center Construction - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5178416007"
+  },
+  "5179367007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5179367007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Seattle, WA",
+    "posted_date": "2026-07-02",
+    "title": "Software Engineer - Network (C++)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5179367007"
+  },
+  "5180223007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5180223007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-06",
+    "title": "Member of Technical Staff - RL Inference",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5180223007"
+  },
+  "5180778007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5180778007",
+    "last_seen": "2026-08-16T23:49:57.315464+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-07-06",
+    "title": "Technical Program Manager (Energy Storage)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5180778007"
+  },
+  "5180827007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5180827007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2026-07-06",
+    "title": "IAM Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5180827007"
+  },
+  "5182046007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5182046007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-08",
+    "title": "Mechanical Engineer (Data Center Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5182046007"
+  },
+  "5182183007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5182183007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-12",
+    "title": "Software Engineer - X Data Engineering",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5182183007"
+  },
+  "5182357007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5182357007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-08",
+    "title": "Electrical Engineer, Data Center Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5182357007"
+  },
+  "5182374007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5182374007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-08",
+    "title": "Facilities Infrastructure Engineer, Data Center Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5182374007"
+  },
+  "5182478007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5182478007",
+    "last_seen": "2026-09-09T21:41:18.961864+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-07-08",
+    "title": "Technical Solutions Specialist- FTC",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5182478007"
+  },
+  "5184586007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5184586007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-10",
+    "title": "Reliability Engineer (Data Center Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5184586007"
+  },
+  "5186992007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5186992007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-14",
+    "title": "Member of Technical Staff - RL Training Framework",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5186992007"
+  },
+  "5187964007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5187964007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-07-15",
+    "title": "Software Engineer - Network Software and Services",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5187964007"
+  },
+  "5188230007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188230007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-22",
+    "title": "Software Engineer - Evals",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188230007"
+  },
+  "5188280007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188280007",
+    "last_seen": "2026-08-12T16:52:59.973185+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-07-15",
+    "title": "AI Tutor - Kyrgyz",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188280007"
+  },
+  "5188302007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188302007",
+    "last_seen": "2026-08-11T16:20:44.213809+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-07-15",
+    "title": "AI Tutor - Kazakh",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188302007"
+  },
+  "5188307007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188307007",
+    "last_seen": "2026-08-21T18:50:01.145241+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-07-15",
+    "title": "AI Tutor - Mongolian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188307007"
+  },
+  "5188309007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188309007",
+    "last_seen": "2026-08-12T16:52:59.973185+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-07-15",
+    "title": "AI Tutor - Tajik",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188309007"
+  },
+  "5188312007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5188312007",
+    "last_seen": "2026-10-08T23:33:55.459767+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-07-15",
+    "title": "AI Tutor - Sinhala",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5188312007"
+  },
+  "5189147007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189147007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-16",
+    "title": "Power Systems Engineer, Data Center Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189147007"
+  },
+  "5189148007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189148007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-16",
+    "title": "Electrical Reliability Engineer, Data Center Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189148007"
+  },
+  "5189279007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189279007",
+    "last_seen": "2026-08-07T19:27:21.908143+00:00",
+    "location": "Memphis, Tennessee, United States",
+    "posted_date": "2026-07-16",
+    "title": "HR Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189279007"
+  },
+  "5189308007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189308007",
+    "last_seen": "2026-10-02T01:54:19.051225+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-07-16",
+    "title": "HR Business Partner, Employee Relations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189308007"
+  },
+  "5189321007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189321007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Bastrop, Texas",
+    "posted_date": "2026-07-17",
+    "title": "HR Business Partner (Employee Relations)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189321007"
+  },
+  "5189363007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5189363007",
+    "last_seen": "2026-09-16T20:51:10.796857+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-07-19",
+    "title": "Senior Legal Counsel, Safety, Content & Law Enforcement (JAPAC)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5189363007"
+  },
+  "5190139007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5190139007",
+    "last_seen": "2026-10-06T23:04:11.503336+00:00",
+    "location": " Palo Alto, CA; Austin, TX; Seattle, WA",
+    "posted_date": "2026-07-17",
+    "title": "Energy & Infrastructure Counsel - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5190139007"
+  },
+  "5191142007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5191142007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-20",
+    "title": "Software Engineer - Platform Infrastructure (Rust, C++)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5191142007"
+  },
+  "5191183007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5191183007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Austin, TX; Bastrop, TX",
+    "posted_date": "2026-07-20",
+    "title": "Technical Account Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5191183007"
+  },
+  "5192318007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5192318007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-07-21",
+    "title": "Supervisor, Fiber - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5192318007"
+  },
+  "5192594007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5192594007",
+    "last_seen": "2026-08-13T21:23:48.718721+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-08-01",
+    "title": "Director, Data Center Facilities Operations",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5192594007"
+  },
+  "5193037007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5193037007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-07-21",
+    "title": "ML Infrastructure Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5193037007"
+  },
+  "5193476007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5193476007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Bastrop, Texas",
+    "posted_date": "2026-07-22",
+    "title": "Senior Employment Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5193476007"
+  },
+  "5194440007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5194440007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Bastrop, Texas",
+    "posted_date": "2026-07-23",
+    "title": "Quality Program Lead, X Safety",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5194440007"
+  },
+  "5194492007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5194492007",
+    "last_seen": "2026-08-26T20:44:00.815284+00:00",
+    "location": "Bastrop, Texas",
+    "posted_date": "2026-07-24",
+    "title": "Safety Trainer, X Money",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5194492007"
+  },
+  "5198030007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5198030007",
+    "last_seen": "2026-09-01T19:18:52.644464+00:00",
+    "location": "Memphis, Tennessee; Remote International",
+    "posted_date": "2026-07-28",
+    "title": "Lead, Hardware Deployment Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5198030007"
+  },
+  "5198194007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5198194007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY; Washington, DC",
+    "posted_date": "2026-07-28",
+    "title": "Sr. Security Engineer - GRC Fintech & Financial Services",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5198194007"
+  },
+  "5198561007": {
+    "company": "xAI",
+    "first_seen": "2026-08-10T18:51:31.791814+00:00",
+    "job_id": "5198561007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-10",
+    "title": "Director, Yield Management",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5198561007"
+  },
+  "5200214007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5200214007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-07-30",
+    "title": "Manager, Facilities Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5200214007"
+  },
+  "5201130007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5201130007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-04",
+    "title": "Facilities Maintenance Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5201130007"
+  },
+  "5201135007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5201135007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-04",
+    "title": "Supervisor, Facilities - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5201135007"
+  },
+  "5201304007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5201304007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-03",
+    "title": "Fire Protection Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5201304007"
+  },
+  "5202125007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5202125007",
+    "last_seen": "2026-10-01T12:49:02.577293+00:00",
+    "location": "Austin, TX; Bastrop, TX",
+    "posted_date": "2026-08-03",
+    "title": "Analyst II, Law Enforcement Response Team",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5202125007"
+  },
+  "5202187007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5202187007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Seattle, WA",
+    "posted_date": "2026-08-03",
+    "title": "Software Engineer - Linux Kernel (C++, C)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5202187007"
+  },
+  "5202550007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5202550007",
+    "last_seen": "2026-09-16T20:51:10.796857+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-08-04",
+    "title": "Analyst, Law Enforcement Response Team",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5202550007"
+  },
+  "5202605007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T12:20:59.060576+00:00",
+    "job_id": "5202605007",
+    "last_seen": "2026-08-07T00:47:04.254092+00:00",
+    "location": "Remote",
+    "posted_date": "2026-08-04",
+    "title": "Exceptional Designer [Spain]",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5202605007"
+  },
+  "5204393007": {
+    "company": "xAI",
+    "first_seen": "2026-08-05T20:00:35.327725+00:00",
+    "job_id": "5204393007",
+    "last_seen": "2026-09-02T20:57:36.344340+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-08-05",
+    "title": "Operational Technology Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5204393007"
+  },
+  "5204788007": {
+    "company": "xAI",
+    "first_seen": "2026-08-06T00:34:15.588044+00:00",
+    "job_id": "5204788007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-05",
+    "title": "Software Engineer - X Developer Platform",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5204788007"
+  },
+  "5204819007": {
+    "company": "xAI",
+    "first_seen": "2026-08-06T00:34:15.588044+00:00",
+    "job_id": "5204819007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-05",
+    "title": "Human Data - Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5204819007"
+  },
+  "5205148007": {
+    "company": "xAI",
+    "first_seen": "2026-08-06T01:18:08.647584+00:00",
+    "job_id": "5205148007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Seattle, WA",
+    "posted_date": "2026-08-05",
+    "title": "IT Services Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205148007"
+  },
+  "5205158007": {
+    "company": "xAI",
+    "first_seen": "2026-08-06T01:18:08.647584+00:00",
+    "job_id": "5205158007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-05",
+    "title": "IT Services Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205158007"
+  },
+  "5205179007": {
+    "company": "xAI",
+    "first_seen": "2026-08-06T01:18:08.647584+00:00",
+    "job_id": "5205179007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-05",
+    "title": "Software Engineer - Search Infrastructure",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205179007"
+  },
+  "5205499007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T00:47:04.254092+00:00",
+    "job_id": "5205499007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Austin, TX; Bastrop, TX",
+    "posted_date": "2026-08-06",
+    "title": "Threat Intelligence Analyst, Threat Disruption",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205499007"
+  },
+  "5205550007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T19:27:21.908143+00:00",
+    "job_id": "5205550007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-07",
+    "title": "Operations Engineer (Facilities & Physical Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205550007"
+  },
+  "5205848007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T19:27:21.908143+00:00",
+    "job_id": "5205848007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Los Angeles, CA; New York, NY",
+    "posted_date": "2026-08-07",
+    "title": "Client Partner",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5205848007"
+  },
+  "5206541007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T14:39:57.418947+00:00",
+    "job_id": "5206541007",
+    "last_seen": "2026-08-14T16:59:05.371213+00:00",
+    "location": "Seattle, Washington",
+    "posted_date": "2026-08-06",
+    "title": "Office Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5206541007"
+  },
+  "5206597007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T14:39:57.418947+00:00",
+    "job_id": "5206597007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-06",
+    "title": "Supervisor, Data Center Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5206597007"
+  },
+  "5206598007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T14:39:57.418947+00:00",
+    "job_id": "5206598007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-06",
+    "title": "Manager, Data Center Operations",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5206598007"
+  },
+  "5206940007": {
+    "company": "xAI",
+    "first_seen": "2026-08-10T18:51:31.791814+00:00",
+    "job_id": "5206940007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-10",
+    "title": "Mechanical Engineer (Macrohard/Colossus) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5206940007"
+  },
+  "5207031007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T19:27:21.908143+00:00",
+    "job_id": "5207031007",
+    "last_seen": "2026-09-15T00:59:26.993922+00:00",
+    "location": " Palo Alto, CA; Bastrop, TX; New York, NY",
+    "posted_date": "2026-08-07",
+    "title": "Senior BSA/AML Investigator (Sat - Wed)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207031007"
+  },
+  "5207057007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T19:27:21.908143+00:00",
+    "job_id": "5207057007",
+    "last_seen": "2026-09-21T22:06:41.432679+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2026-08-07",
+    "title": "Fraud Analyst",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207057007"
+  },
+  "5207067007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T19:27:21.908143+00:00",
+    "job_id": "5207067007",
+    "last_seen": "2026-09-02T20:57:36.344340+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-08-07",
+    "title": "Network Engineer - Data Center",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207067007"
+  },
+  "5207340007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207340007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Croatian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207340007"
+  },
+  "5207373007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207373007",
+    "last_seen": "2026-10-08T23:33:55.459767+00:00",
+    "location": "Remote US",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Ukrainian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207373007"
+  },
+  "5207418007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207418007",
+    "last_seen": "2026-09-15T00:59:26.993922+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Czech",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207418007"
+  },
+  "5207427007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207427007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Hausa",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207427007"
+  },
+  "5207484007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207484007",
+    "last_seen": "2026-09-03T20:13:43.219772+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Farsi",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207484007"
+  },
+  "5207529007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207529007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Kannada",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207529007"
+  },
+  "5207579007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207579007",
+    "last_seen": "2026-10-08T23:33:55.459767+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Bulgarian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207579007"
+  },
+  "5207581007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207581007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Yoruba",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207581007"
+  },
+  "5207583007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207583007",
+    "last_seen": "2026-10-06T00:27:05.446752+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Catalan",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207583007"
+  },
+  "5207584007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207584007",
+    "last_seen": "2026-10-07T22:00:16.987054+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Igbo",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207584007"
+  },
+  "5207586007": {
+    "company": "xAI",
+    "first_seen": "2026-08-07T23:51:51.887094+00:00",
+    "job_id": "5207586007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Serbian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207586007"
+  },
+  "5207587007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207587007",
+    "last_seen": "2026-10-05T22:16:10.279576+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Malay",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207587007"
+  },
+  "5207588007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207588007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Lithuanian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207588007"
+  },
+  "5207591007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207591007",
+    "last_seen": "2026-09-28T21:52:29.603617+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Slovenian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207591007"
+  },
+  "5207592007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207592007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "Remote United States",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Azerbaijani",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207592007"
+  },
+  "5207593007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207593007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Khmer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207593007"
+  },
+  "5207597007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207597007",
+    "last_seen": "2026-10-06T00:27:05.446752+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Sorani Kurdish",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207597007"
+  },
+  "5207598007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207598007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote US",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Romanian",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207598007"
+  },
+  "5207599007": {
+    "company": "xAI",
+    "first_seen": "2026-08-09T03:06:40.329034+00:00",
+    "job_id": "5207599007",
+    "last_seen": "2026-09-17T20:57:49.904457+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-08-07",
+    "title": "AI Tutor - Slovak",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207599007"
+  },
+  "5207615007": {
+    "company": "xAI",
+    "first_seen": "2026-08-10T18:51:31.791814+00:00",
+    "job_id": "5207615007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-08-10",
+    "title": "Head of Financial Crime",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5207615007"
+  },
+  "5208808007": {
+    "company": "xAI",
+    "first_seen": "2026-08-11T13:08:15.570222+00:00",
+    "job_id": "5208808007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-10",
+    "title": "Research Analyst",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5208808007"
+  },
+  "5209858007": {
+    "company": "xAI",
+    "first_seen": "2026-08-12T00:17:12.440382+00:00",
+    "job_id": "5209858007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-11",
+    "title": "Software Engineer, Data Center - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5209858007"
+  },
+  "5209967007": {
+    "company": "xAI",
+    "first_seen": "2026-08-13T18:26:59.874996+00:00",
+    "job_id": "5209967007",
+    "last_seen": "2026-08-21T18:50:01.145241+00:00",
+    "location": "Memphis, Tennessee",
+    "posted_date": "2026-08-13",
+    "title": "NOC Technician (Data Center and Site Ops)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5209967007"
+  },
+  "5209985007": {
+    "company": "xAI",
+    "first_seen": "2026-08-12T19:35:21.779430+00:00",
+    "job_id": "5209985007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland; London, England, United Kingdom",
+    "posted_date": "2026-08-12",
+    "title": "Sr. Security Engineer - GRC Fintech & Financial Services EU/UK",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5209985007"
+  },
+  "5210378007": {
+    "company": "xAI",
+    "first_seen": "2026-08-17T20:53:58.100219+00:00",
+    "job_id": "5210378007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; Bastrop, TX; New York, NY",
+    "posted_date": "2026-08-17",
+    "title": "Program Manager, Prohibited & Regulated Content",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5210378007"
+  },
+  "5210564007": {
+    "company": "xAI",
+    "first_seen": "2026-08-12T19:35:21.779430+00:00",
+    "job_id": "5210564007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-12",
+    "title": "Analytics Engineer - X",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5210564007"
+  },
+  "5210802007": {
+    "company": "xAI",
+    "first_seen": "2026-08-13T00:19:02.353786+00:00",
+    "job_id": "5210802007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-12",
+    "title": "Human Data Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5210802007"
+  },
+  "5211587007": {
+    "company": "xAI",
+    "first_seen": "2026-08-13T18:26:59.874996+00:00",
+    "job_id": "5211587007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-13",
+    "title": "Site Reliability Engineer, Data Center - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5211587007"
+  },
+  "5212039007": {
+    "company": "xAI",
+    "first_seen": "2026-08-14T15:17:47.704107+00:00",
+    "job_id": "5212039007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Manager, Data Center Facilities - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212039007"
+  },
+  "5212192007": {
+    "company": "xAI",
+    "first_seen": "2026-08-14T16:59:05.371213+00:00",
+    "job_id": "5212192007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Sr. Manager, Data Center Facilities - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212192007"
+  },
+  "5212216007": {
+    "company": "xAI",
+    "first_seen": "2026-08-14T16:59:05.371213+00:00",
+    "job_id": "5212216007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Supervisor, Data Center Facilities - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212216007"
+  },
+  "5212253007": {
+    "company": "xAI",
+    "first_seen": "2026-08-14T16:59:05.371213+00:00",
+    "job_id": "5212253007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Facilities Specialist - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212253007"
+  },
+  "5212286007": {
+    "company": "xAI",
+    "first_seen": "2026-08-14T16:59:05.371213+00:00",
+    "job_id": "5212286007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Facilities Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212286007"
+  },
+  "5212968007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5212968007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Barista - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212968007"
+  },
+  "5212987007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5212987007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Cook - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5212987007"
+  },
+  "5213016007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5213016007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Executive Chef - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5213016007"
+  },
+  "5213022007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5213022007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Executive Sous Chef - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5213022007"
+  },
+  "5213025007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5213025007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Porter Supervisor - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5213025007"
+  },
+  "5213027007": {
+    "company": "xAI",
+    "first_seen": "2026-08-15T21:53:31.610811+00:00",
+    "job_id": "5213027007",
+    "last_seen": "2026-09-25T19:44:55.926574+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-14",
+    "title": "Hospitality Supervisor - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5213027007"
+  },
+  "5213773007": {
+    "company": "xAI",
+    "first_seen": "2026-08-17T20:53:58.100219+00:00",
+    "job_id": "5213773007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; Bastrop, TX; New York, NY",
+    "posted_date": "2026-08-17",
+    "title": "Program Manager, Harmful Activity",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5213773007"
+  },
+  "5214210007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T00:46:51.743085+00:00",
+    "job_id": "5214210007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-17",
+    "title": "Supervisor, Logistics  - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214210007"
+  },
+  "5214262007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T00:46:51.743085+00:00",
+    "job_id": "5214262007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-17",
+    "title": "Lead, Inventory Specialist - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214262007"
+  },
+  "5214268007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T00:46:51.743085+00:00",
+    "job_id": "5214268007",
+    "last_seen": "2026-09-23T22:11:47.325585+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-17",
+    "title": "Lead, Driver - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214268007"
+  },
+  "5214273007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T00:46:51.743085+00:00",
+    "job_id": "5214273007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-17",
+    "title": "Lead, Receiving Specialist - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214273007"
+  },
+  "5214280007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214280007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Protection & Controls Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214280007"
+  },
+  "5214336007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214336007",
+    "last_seen": "2026-09-18T19:58:58.299585+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "BIM Designer, Data Center - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214336007"
+  },
+  "5214350007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214350007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Design Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214350007"
+  },
+  "5214352007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214352007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Ops/Build Engineer (Transmission & Distribution) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214352007"
+  },
+  "5214363007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214363007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Power System Engineer (Transmission & Distribution) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214363007"
+  },
+  "5214366007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214366007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Network Engineer (Battery Storage) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214366007"
+  },
+  "5214368007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214368007",
+    "last_seen": "2026-09-23T22:11:47.325585+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-18",
+    "title": "Executive Sous Chef",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214368007"
+  },
+  "5214370007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214370007",
+    "last_seen": "2026-09-23T22:11:47.325585+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-18",
+    "title": "Cook",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214370007"
+  },
+  "5214372007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214372007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-17",
+    "title": "Electrician, Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214372007"
+  },
+  "5214918007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214918007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Lead Engineer, Data Center - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214918007"
+  },
+  "5214945007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214945007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Lead Engineer, Transmission & Distribution - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214945007"
+  },
+  "5214959007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5214959007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Lead Engineer, Battery Storage - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5214959007"
+  },
+  "5215007007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215007007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Shipping Specialist, Supercomputer  Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215007007"
+  },
+  "5215034007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215034007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Receiving Specialist, Supercomputer  Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215034007"
+  },
+  "5215038007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215038007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Electrician (Construction)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215038007"
+  },
+  "5215043007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215043007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Inventory Specialist, Supercomputer  Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215043007"
+  },
+  "5215355007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T22:49:42.346217+00:00",
+    "job_id": "5215355007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Civil Engineer, SpaceXAI Battery Storage - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215355007"
+  },
+  "5215371007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215371007",
+    "last_seen": "2026-08-24T21:02:09.568441+00:00",
+    "location": "New York, New York",
+    "posted_date": "2026-08-18",
+    "title": "Senior Employment Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215371007"
+  },
+  "5215490007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T20:58:57.004553+00:00",
+    "job_id": "5215490007",
+    "last_seen": "2026-09-23T22:11:47.325585+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-18",
+    "title": "Executive Chef",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215490007"
+  },
+  "5215570007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T22:49:42.346217+00:00",
+    "job_id": "5215570007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "OSP Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215570007"
+  },
+  "5215585007": {
+    "company": "xAI",
+    "first_seen": "2026-08-18T22:49:42.346217+00:00",
+    "job_id": "5215585007",
+    "last_seen": "2026-09-10T20:59:40.092675+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-18",
+    "title": "Data Center Operations Technician, MMR/MDF & Fiber Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5215585007"
+  },
+  "5216075007": {
+    "company": "xAI",
+    "first_seen": "2026-08-19T20:03:03.654104+00:00",
+    "job_id": "5216075007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-08-19",
+    "title": "Threat Intelligence Analyst, Threat Disruption",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5216075007"
+  },
+  "5216112007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T20:38:05.931828+00:00",
+    "job_id": "5216112007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS",
+    "posted_date": "2026-08-20",
+    "title": "Director, Memphis Power Plant Operations",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5216112007"
+  },
+  "5216248007": {
+    "company": "xAI",
+    "first_seen": "2026-08-19T20:03:03.654104+00:00",
+    "job_id": "5216248007",
+    "last_seen": "2026-08-27T20:33:06.597076+00:00",
+    "location": "Atlanta, Georgia",
+    "posted_date": "2026-08-19",
+    "title": "Data Center Operations Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5216248007"
+  },
+  "5216822007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T00:27:09.519954+00:00",
+    "job_id": "5216822007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-19",
+    "title": "Inventory Analyst, Supercomputer Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5216822007"
+  },
+  "5216863007": {
+    "company": "xAI",
+    "first_seen": "2026-08-20T00:27:09.519954+00:00",
+    "job_id": "5216863007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-08-19",
+    "title": "Human Data - Business Operations Analyst",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5216863007"
+  },
+  "5218144007": {
+    "company": "xAI",
+    "first_seen": "2026-08-21T16:35:45.461257+00:00",
+    "job_id": "5218144007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-20",
+    "title": "Construction Manager - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5218144007"
+  },
+  "5218218007": {
+    "company": "xAI",
+    "first_seen": "2026-08-21T18:50:01.145241+00:00",
+    "job_id": "5218218007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Electrical Construction Project Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5218218007"
+  },
+  "5218222007": {
+    "company": "xAI",
+    "first_seen": "2026-08-21T18:50:01.145241+00:00",
+    "job_id": "5218222007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Construction Project Manager, Electrical Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5218222007"
+  },
+  "5218801007": {
+    "company": "xAI",
+    "first_seen": "2026-08-21T18:50:01.145241+00:00",
+    "job_id": "5218801007",
+    "last_seen": "2026-10-06T23:04:11.503336+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-21",
+    "title": "Energy & Infrastructure Counsel - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5218801007"
+  },
+  "5219540007": {
+    "company": "xAI",
+    "first_seen": "2026-08-24T13:30:32.405737+00:00",
+    "job_id": "5219540007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-23",
+    "title": "High Voltage Electrician (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5219540007"
+  },
+  "5219541007": {
+    "company": "xAI",
+    "first_seen": "2026-08-24T13:30:32.405737+00:00",
+    "job_id": "5219541007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-23",
+    "title": "Medium Voltage Electrician (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5219541007"
+  },
+  "5219754007": {
+    "company": "xAI",
+    "first_seen": "2026-08-24T21:02:09.568441+00:00",
+    "job_id": "5219754007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-24",
+    "title": "Mechanical Commissioning Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5219754007"
+  },
+  "5220531007": {
+    "company": "xAI",
+    "first_seen": "2026-08-26T20:44:00.815284+00:00",
+    "job_id": "5220531007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-25",
+    "title": "Food Services Specialist  (All Shifts) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5220531007"
+  },
+  "5221126007": {
+    "company": "xAI",
+    "first_seen": "2026-08-26T20:44:00.815284+00:00",
+    "job_id": "5221126007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-26",
+    "title": "Client Account Manager- SMB",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5221126007"
+  },
+  "5222092007": {
+    "company": "xAI",
+    "first_seen": "2026-08-27T20:33:06.597076+00:00",
+    "job_id": "5222092007",
+    "last_seen": "2026-09-22T22:37:05.601956+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-26",
+    "title": "AV Administrator, Events & Experiences",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5222092007"
+  },
+  "5222697007": {
+    "company": "xAI",
+    "first_seen": "2026-08-26T20:44:00.815284+00:00",
+    "job_id": "5222697007",
+    "last_seen": "2026-09-28T21:52:29.603617+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-26",
+    "title": "Construction Superintendent - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5222697007"
+  },
+  "5224551007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5224551007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-27",
+    "title": "Network Connectivity Engineer (Fiber Optic Layout)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5224551007"
+  },
+  "5224709007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5224709007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-27",
+    "title": "Supervisor, IT Support - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5224709007"
+  },
+  "5224723007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5224723007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-28",
+    "title": "Fire Protection Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5224723007"
+  },
+  "5224741007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5224741007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-28",
+    "title": "Plumbing Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5224741007"
+  },
+  "5224784007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5224784007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-28",
+    "title": "Sous Chef - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5224784007"
+  },
+  "5225280007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5225280007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-28",
+    "title": "Controls Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5225280007"
+  },
+  "5225387007": {
+    "company": "xAI",
+    "first_seen": "2026-08-31T22:07:38.709810+00:00",
+    "job_id": "5225387007",
+    "last_seen": "2026-10-06T23:04:11.503336+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-30",
+    "title": "AV Administrator, Events & Experiences - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5225387007"
+  },
+  "5225824007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5225824007",
+    "last_seen": "2026-09-02T20:57:36.344340+00:00",
+    "location": "Memphis, Tennessee; Southaven, Mississippi",
+    "posted_date": "2026-08-28",
+    "title": "Controls Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5225824007"
+  },
+  "5225839007": {
+    "company": "xAI",
+    "first_seen": "2026-08-31T22:07:38.709810+00:00",
+    "job_id": "5225839007",
+    "last_seen": "2026-10-04T23:10:50.752287+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-31",
+    "title": "Mechanical Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5225839007"
+  },
+  "5225844007": {
+    "company": "xAI",
+    "first_seen": "2026-08-30T20:28:18.379493+00:00",
+    "job_id": "5225844007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-28",
+    "title": "Journeyman Electrician (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5225844007"
+  },
+  "5226371007": {
+    "company": "xAI",
+    "first_seen": "2026-08-31T22:07:38.709810+00:00",
+    "job_id": "5226371007",
+    "last_seen": "2026-09-18T19:58:58.299585+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-31",
+    "title": "Mechanical Commissioning Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5226371007"
+  },
+  "5226686007": {
+    "company": "xAI",
+    "first_seen": "2026-08-31T22:07:38.709810+00:00",
+    "job_id": "5226686007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-08-31",
+    "title": "Lead Electrical Engineer, Facilities Engineering",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5226686007"
+  },
+  "5226701007": {
+    "company": "xAI",
+    "first_seen": "2026-08-31T22:07:38.709810+00:00",
+    "job_id": "5226701007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-08-31",
+    "title": "Lead Electrical Reliability Engineer, Data Center Infrastructure",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5226701007"
+  },
+  "5227684007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5227684007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-01",
+    "title": "Chiller Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227684007"
+  },
+  "5227699007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5227699007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-01",
+    "title": "Facilities Operations Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227699007"
+  },
+  "5227905007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5227905007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-01",
+    "title": "Facilities Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227905007"
+  },
+  "5227940007": {
+    "company": "xAI",
+    "first_seen": "2026-09-08T14:35:46.977279+00:00",
+    "job_id": "5227940007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-09-03",
+    "title": "AI Tutor - Design",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227940007"
+  },
+  "5227951007": {
+    "company": "xAI",
+    "first_seen": "2026-09-08T14:35:46.977279+00:00",
+    "job_id": "5227951007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-09-03",
+    "title": "AI Tutor - Humanities",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227951007"
+  },
+  "5227977007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5227977007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-01",
+    "title": "Facilities Engineer, Mechanical (HVAC) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227977007"
+  },
+  "5227980007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5227980007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-01",
+    "title": "Facilities Engineer, Electrical - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5227980007"
+  },
+  "5228819007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5228819007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-02",
+    "title": "HVAC Supervisor (Chilled Water Systems) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5228819007"
+  },
+  "5228822007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T18:43:21.195182+00:00",
+    "job_id": "5228822007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-02",
+    "title": "Supervisor, Electrical Maintenance (Medium Voltage) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5228822007"
+  },
+  "5229153007": {
+    "company": "xAI",
+    "first_seen": "2026-09-02T20:57:36.344340+00:00",
+    "job_id": "5229153007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-02",
+    "title": "Site Reliability Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229153007"
+  },
+  "5229355007": {
+    "company": "xAI",
+    "first_seen": "2026-09-03T20:13:43.219772+00:00",
+    "job_id": "5229355007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-02",
+    "title": "OT Network Engineer (Physical Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229355007"
+  },
+  "5229363007": {
+    "company": "xAI",
+    "first_seen": "2026-09-03T20:13:43.219772+00:00",
+    "job_id": "5229363007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-02",
+    "title": "OT Systems Engineer (Physical Infrastructure)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229363007"
+  },
+  "5229550007": {
+    "company": "xAI",
+    "first_seen": "2026-09-03T20:13:43.219772+00:00",
+    "job_id": "5229550007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-03",
+    "title": "Controls Engineer, Supercomputer Infrastructure - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229550007"
+  },
+  "5229552007": {
+    "company": "xAI",
+    "first_seen": "2026-09-09T21:41:18.961864+00:00",
+    "job_id": "5229552007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-08",
+    "title": "Controls Technician (Physical Infrastructure) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229552007"
+  },
+  "5229783007": {
+    "company": "xAI",
+    "first_seen": "2026-09-03T20:13:43.219772+00:00",
+    "job_id": "5229783007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-03",
+    "title": "Hardware Failure Analysis Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229783007"
+  },
+  "5229807007": {
+    "company": "xAI",
+    "first_seen": "2026-09-03T20:13:43.219772+00:00",
+    "job_id": "5229807007",
+    "last_seen": "2026-10-12T02:15:47.811936+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-03",
+    "title": "Network Operations Center Specialist - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5229807007"
+  },
+  "5231352007": {
+    "company": "xAI",
+    "first_seen": "2026-09-08T14:35:46.977279+00:00",
+    "job_id": "5231352007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Austin, TX; New York, NY",
+    "posted_date": "2026-09-04",
+    "title": "Agency Development Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5231352007"
+  },
+  "5231516007": {
+    "company": "xAI",
+    "first_seen": "2026-09-08T14:35:46.977279+00:00",
+    "job_id": "5231516007",
+    "last_seen": "2026-09-12T18:21:20.621180+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-04",
+    "title": "Legal Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5231516007"
+  },
+  "5231579007": {
+    "company": "xAI",
+    "first_seen": "2026-09-08T14:35:46.977279+00:00",
+    "job_id": "5231579007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2026-09-04",
+    "title": "Fraud Analyst (Sat-Weds)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5231579007"
+  },
+  "5234209007": {
+    "company": "xAI",
+    "first_seen": "2026-09-12T18:21:20.621180+00:00",
+    "job_id": "5234209007",
+    "last_seen": "2026-09-17T20:57:49.904457+00:00",
+    "location": "Asia; Europe; Remote International; Remote US; US",
+    "posted_date": "2026-09-11",
+    "title": "Expert Team Lead, Human Data Operations",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5234209007"
+  },
+  "5234211007": {
+    "company": "xAI",
+    "first_seen": "2026-09-12T18:21:20.621180+00:00",
+    "job_id": "5234211007",
+    "last_seen": "2026-09-17T20:57:49.904457+00:00",
+    "location": "Asia; Europe; Remote International; Remote US",
+    "posted_date": "2026-09-11",
+    "title": "Team Lead, Human Data Operations - Post Training",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5234211007"
+  },
+  "5235761007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5235761007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-14",
+    "title": "Network Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5235761007"
+  },
+  "5235772007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5235772007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-09-14",
+    "title": "Network Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5235772007"
+  },
+  "5236653007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5236653007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Remote International",
+    "posted_date": "2026-09-14",
+    "title": "AI Tutor - Video (Weekend)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5236653007"
+  },
+  "5237890007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5237890007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-14",
+    "title": "Production Coordinator (Logistics)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5237890007"
+  },
+  "5237965007": {
+    "company": "xAI",
+    "first_seen": "2026-09-14T22:25:08.365253+00:00",
+    "job_id": "5237965007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; Los Angeles, CA; New York, NY",
+    "posted_date": "2026-09-14",
+    "title": "Enterprise Commercial Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5237965007"
+  },
+  "5238756007": {
+    "company": "xAI",
+    "first_seen": "2026-09-15T21:07:05.365985+00:00",
+    "job_id": "5238756007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2026-09-15",
+    "title": "Growth Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5238756007"
+  },
+  "5238779007": {
+    "company": "xAI",
+    "first_seen": "2026-09-16T20:51:10.796857+00:00",
+    "job_id": "5238779007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-09-15",
+    "title": "Director, Site Operations",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5238779007"
+  },
+  "5239300007": {
+    "company": "xAI",
+    "first_seen": "2026-09-16T20:51:10.796857+00:00",
+    "job_id": "5239300007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-15",
+    "title": "Manager, Materials Management - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5239300007"
+  },
+  "5239616007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5239616007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-16",
+    "title": "Client Partner \u2013 Global Brands APAC",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5239616007"
+  },
+  "5239623007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5239623007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-16",
+    "title": "Senior Agency Development Manager \u2013 Global Brands APAC",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5239623007"
+  },
+  "5239924007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5239924007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-09-17",
+    "title": "Director of Global Growth Marketing and Sales Enablement",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5239924007"
+  },
+  "5240554007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5240554007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-17",
+    "title": "GCR Agency Development Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5240554007"
+  },
+  "5240631007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5240631007",
+    "last_seen": "2026-10-12T02:15:47.811936+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-17",
+    "title": "Manager, Spaceport Events",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5240631007"
+  },
+  "5241152007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5241152007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-17",
+    "title": "Supervisor, Production Coordination (Logistics) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5241152007"
+  },
+  "5241280007": {
+    "company": "xAI",
+    "first_seen": "2026-09-28T21:52:29.603617+00:00",
+    "job_id": "5241280007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland; London, England, United Kingdom",
+    "posted_date": "2026-09-28",
+    "title": "Infrastructure Security Engineer - London",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5241280007"
+  },
+  "5241381007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5241381007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-17",
+    "title": "Plumber - Memphis (Service and Repair)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5241381007"
+  },
+  "5241407007": {
+    "company": "xAI",
+    "first_seen": "2026-09-17T20:57:49.904457+00:00",
+    "job_id": "5241407007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-17",
+    "title": "HVAC Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5241407007"
+  },
+  "5242350007": {
+    "company": "xAI",
+    "first_seen": "2026-09-18T19:58:58.299585+00:00",
+    "job_id": "5242350007",
+    "last_seen": "2026-09-24T23:57:22.546842+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-18",
+    "title": "Iron Worker (Construction)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5242350007"
+  },
+  "5242789007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5242789007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-18",
+    "title": "Construction Scheduler - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5242789007"
+  },
+  "5243278007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243278007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Operations Analyst (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243278007"
+  },
+  "5243280007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243280007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Manager, Engineering (Power Generation & Utilities) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243280007"
+  },
+  "5243282007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243282007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Lead Engineer (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243282007"
+  },
+  "5243284007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243284007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Fluids Engineer (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243284007"
+  },
+  "5243286007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243286007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Controls Engineer (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243286007"
+  },
+  "5243290007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243290007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Plant Technician (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243290007"
+  },
+  "5243301007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5243301007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-20",
+    "title": "Driver (CDL) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243301007"
+  },
+  "5243479007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5243479007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-22",
+    "title": "Client Account Manager, Digital Native & E-commerce",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5243479007"
+  },
+  "5244069007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5244069007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Electrical Engineer (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5244069007"
+  },
+  "5244119007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5244119007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Turbine Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5244119007"
+  },
+  "5244173007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5244173007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-21",
+    "title": "Creator & Community Program Lead \u2014 Grok Imagine",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5244173007"
+  },
+  "5244205007": {
+    "company": "xAI",
+    "first_seen": "2026-09-21T22:06:41.432679+00:00",
+    "job_id": "5244205007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-21",
+    "title": "Process Technician (Fluids) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5244205007"
+  },
+  "5245777007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5245777007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Senior Medium-Voltage Electrician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5245777007"
+  },
+  "5245782007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5245782007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Medium Voltage Electrician (Service & Repair)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5245782007"
+  },
+  "5246016007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5246016007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Electrical Technician (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246016007"
+  },
+  "5246247007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5246247007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Asset Manager (Energy Storage) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246247007"
+  },
+  "5246600007": {
+    "company": "xAI",
+    "first_seen": "2026-09-22T22:37:05.601956+00:00",
+    "job_id": "5246600007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Construction Rigger - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246600007"
+  },
+  "5246657007": {
+    "company": "xAI",
+    "first_seen": "2026-09-23T22:11:47.325585+00:00",
+    "job_id": "5246657007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Industrial Welder - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246657007"
+  },
+  "5246678007": {
+    "company": "xAI",
+    "first_seen": "2026-09-23T22:11:47.325585+00:00",
+    "job_id": "5246678007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-22",
+    "title": "Industrial Pipefitter - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246678007"
+  },
+  "5246700007": {
+    "company": "xAI",
+    "first_seen": "2026-09-23T22:11:47.325585+00:00",
+    "job_id": "5246700007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS",
+    "posted_date": "2026-09-22",
+    "title": "Material Handler - Southaven, MS (2nd Shift)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5246700007"
+  },
+  "5247101007": {
+    "company": "xAI",
+    "first_seen": "2026-09-23T22:11:47.325585+00:00",
+    "job_id": "5247101007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-23",
+    "title": "Supervisor, Transportation & Logistics - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5247101007"
+  },
+  "5247536007": {
+    "company": "xAI",
+    "first_seen": "2026-09-23T22:11:47.325585+00:00",
+    "job_id": "5247536007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2026-09-23",
+    "title": "Corporate Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5247536007"
+  },
+  "5247729007": {
+    "company": "xAI",
+    "first_seen": "2026-10-06T23:04:11.503336+00:00",
+    "job_id": "5247729007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Madrid, Spain",
+    "posted_date": "2026-10-06",
+    "title": "Sr. Manager, Commercial Sales (Starlink Mobile)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5247729007"
+  },
+  "5247774007": {
+    "company": "xAI",
+    "first_seen": "2026-09-25T19:44:55.926574+00:00",
+    "job_id": "5247774007",
+    "last_seen": "2026-10-02T01:54:19.051225+00:00",
+    "location": " Palo Alto, CA; Asia; Canada; Europe; Remote International; Remote US",
+    "posted_date": "2026-09-24",
+    "title": "Growth Recruiting Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5247774007"
+  },
+  "5248703007": {
+    "company": "xAI",
+    "first_seen": "2026-09-24T23:57:22.546842+00:00",
+    "job_id": "5248703007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2026-09-24",
+    "title": "Vulnerabilty Analyst",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5248703007"
+  },
+  "5248757007": {
+    "company": "xAI",
+    "first_seen": "2026-09-25T19:44:55.926574+00:00",
+    "job_id": "5248757007",
+    "last_seen": "2026-10-06T00:27:05.446752+00:00",
+    "location": " Palo Alto, CA; Asia; Canada; Europe; Remote International; Remote US",
+    "posted_date": "2026-09-24",
+    "title": "Growth Recruiter",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5248757007"
+  },
+  "5248787007": {
+    "company": "xAI",
+    "first_seen": "2026-09-24T23:57:22.546842+00:00",
+    "job_id": "5248787007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-24",
+    "title": "Supervisor, Power Generation - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5248787007"
+  },
+  "5248831007": {
+    "company": "xAI",
+    "first_seen": "2026-09-24T23:57:22.546842+00:00",
+    "job_id": "5248831007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-24",
+    "title": "Facilities Maintenance Technician - 3rd Shift - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5248831007"
+  },
+  "5248860007": {
+    "company": "xAI",
+    "first_seen": "2026-09-25T19:44:55.926574+00:00",
+    "job_id": "5248860007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-25",
+    "title": "Iron Worker (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5248860007"
+  },
+  "5249680007": {
+    "company": "xAI",
+    "first_seen": "2026-09-28T21:52:29.603617+00:00",
+    "job_id": "5249680007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2026-09-28",
+    "title": "Senior BSA/AML Investigator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5249680007"
+  },
+  "5249791007": {
+    "company": "xAI",
+    "first_seen": "2026-09-27T15:49:18.277435+00:00",
+    "job_id": "5249791007",
+    "last_seen": "2026-10-02T01:54:19.051225+00:00",
+    "location": " Palo Alto, CA; Asia; Australia; Canada; Europe; Remote International; Remote US; US",
+    "posted_date": "2026-09-25",
+    "title": "Expert Team Lead, Medicine",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5249791007"
+  },
+  "5249795007": {
+    "company": "xAI",
+    "first_seen": "2026-09-27T15:49:18.277435+00:00",
+    "job_id": "5249795007",
+    "last_seen": "2026-10-08T23:33:55.459767+00:00",
+    "location": " Palo Alto, CA; Asia; Australia; Canada; Europe; Remote International; Remote US; US",
+    "posted_date": "2026-09-25",
+    "title": "Expert Team Lead, Engineering",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5249795007"
+  },
+  "5249882007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5249882007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-09-30",
+    "title": "Project Manager, Facilities Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5249882007"
+  },
+  "5250443007": {
+    "company": "xAI",
+    "first_seen": "2026-09-28T21:52:29.603617+00:00",
+    "job_id": "5250443007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-28",
+    "title": "Lead Technician (Power Generation) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5250443007"
+  },
+  "5251158007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T23:18:38.242862+00:00",
+    "job_id": "5251158007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-12",
+    "title": "Events Lead",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5251158007"
+  },
+  "5251253007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5251253007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-29",
+    "title": "Recruiting Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5251253007"
+  },
+  "5251860007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5251860007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-29",
+    "title": "Manager, Critical Facilities Operations - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5251860007"
+  },
+  "5252108007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5252108007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-10-02",
+    "title": "Spring 2027 Software Engineering Internship/Co-op",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5252108007"
+  },
+  "5252402007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5252402007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-29",
+    "title": "Critical Facilities Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5252402007"
+  },
+  "5252678007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5252678007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-09-29",
+    "title": "Carpenter (Construction) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5252678007"
+  },
+  "5252714007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5252714007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-30",
+    "title": "Member of Technical Staff - Evaluation Infrastructure",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5252714007"
+  },
+  "5253475007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5253475007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-09-30",
+    "title": "Cook (Sushi)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5253475007"
+  },
+  "5253534007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5253534007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Washington, DC",
+    "posted_date": "2026-09-30",
+    "title": "Application Security Engineer (X Money)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5253534007"
+  },
+  "5253566007": {
+    "company": "xAI",
+    "first_seen": "2026-10-01T12:49:02.577293+00:00",
+    "job_id": "5253566007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Toronto, Canada",
+    "posted_date": "2026-09-30",
+    "title": "Sr. Sales Manager, Canada - Starlink Enterprise Sales",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5253566007"
+  },
+  "5254365007": {
+    "company": "xAI",
+    "first_seen": "2026-10-02T01:54:19.051225+00:00",
+    "job_id": "5254365007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-10-01",
+    "title": "Counsel, Telecommunications (Starlink)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5254365007"
+  },
+  "5255111007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255111007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-10-02",
+    "title": "Summer 2027 Software Engineering Internship/Co-op",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255111007"
+  },
+  "5255113007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255113007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA",
+    "posted_date": "2026-10-02",
+    "title": "Spring 2027 Business Operations Internship/Co-op",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255113007"
+  },
+  "5255116007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255116007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; New York, NY",
+    "posted_date": "2026-10-02",
+    "title": "Summer 2027 Business Operations Internship/Co-op",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255116007"
+  },
+  "5255505007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255505007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-02",
+    "title": "Power Generation Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255505007"
+  },
+  "5255793007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5255793007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Supervisor, OSP Fiber - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255793007"
+  },
+  "5255811007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255811007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-02",
+    "title": "Optical Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255811007"
+  },
+  "5255858007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5255858007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-02",
+    "title": "Rack Design Engineer (Data Center)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5255858007"
+  },
+  "5256001007": {
+    "company": "xAI",
+    "first_seen": "2026-10-04T23:10:50.752287+00:00",
+    "job_id": "5256001007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-10-02",
+    "title": "Commissioning Engineer (Electrical) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5256001007"
+  },
+  "5256538007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5256538007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Asia; Australia; Europe; Remote International; Remote US; Toronto, Canada; US",
+    "posted_date": "2026-10-05",
+    "title": "Expert Team Lead, SWE",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5256538007"
+  },
+  "5257297007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257297007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Data Center Fiber Technician",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257297007"
+  },
+  "5257355007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257355007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Supervisor, Fiber - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257355007"
+  },
+  "5257411007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257411007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2026-10-05",
+    "title": "Infrastructure Security Engineer - Tokyo",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257411007"
+  },
+  "5257417007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257417007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Senior Critical Facilities Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257417007"
+  },
+  "5257430007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257430007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Critical Facilities Engineer - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257430007"
+  },
+  "5257435007": {
+    "company": "xAI",
+    "first_seen": "2026-10-05T22:16:10.279576+00:00",
+    "job_id": "5257435007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-05",
+    "title": "Lead Critical Facilities Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5257435007"
+  },
+  "5259060007": {
+    "company": "xAI",
+    "first_seen": "2026-10-06T23:04:11.503336+00:00",
+    "job_id": "5259060007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-06",
+    "title": "Driver (CDL) - Memphis (Night Shift)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5259060007"
+  },
+  "5259529007": {
+    "company": "xAI",
+    "first_seen": "2026-10-06T23:04:11.503336+00:00",
+    "job_id": "5259529007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Memphis, TN",
+    "posted_date": "2026-10-06",
+    "title": "Data Center Operations Supervisor",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5259529007"
+  },
+  "5259600007": {
+    "company": "xAI",
+    "first_seen": "2026-10-07T22:00:16.987054+00:00",
+    "job_id": "5259600007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Asia; Australia; Europe; Remote International; Remote US; Toronto, Canada; US",
+    "posted_date": "2026-10-07",
+    "title": "Team Lead, Human Data Operations - Vision, Image & Video",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5259600007"
+  },
+  "5259659007": {
+    "company": "xAI",
+    "first_seen": "2026-10-06T23:04:11.503336+00:00",
+    "job_id": "5259659007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-06",
+    "title": "Data Center Manager",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5259659007"
+  },
+  "5259885007": {
+    "company": "xAI",
+    "first_seen": "2026-10-07T22:00:16.987054+00:00",
+    "job_id": "5259885007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-07",
+    "title": "HR Coordinator",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5259885007"
+  },
+  "5260545007": {
+    "company": "xAI",
+    "first_seen": "2026-10-07T22:00:16.987054+00:00",
+    "job_id": "5260545007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-07",
+    "title": "Architect (Data Centers & Workplace) - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5260545007"
+  },
+  "5261595007": {
+    "company": "xAI",
+    "first_seen": "2026-10-08T23:33:55.459767+00:00",
+    "job_id": "5261595007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-08",
+    "title": "Construction Manager, Power Generation - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5261595007"
+  },
+  "5261602007": {
+    "company": "xAI",
+    "first_seen": "2026-10-08T23:33:55.459767+00:00",
+    "job_id": "5261602007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-08",
+    "title": "Construction Superintendent, Power Generation - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5261602007"
+  },
+  "5261818007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T02:15:47.811936+00:00",
+    "job_id": "5261818007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2026-10-08",
+    "title": "Sr. Security Engineer - GRC APAC Fintech & Financial Services",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5261818007"
+  },
+  "5262880007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T02:15:47.811936+00:00",
+    "job_id": "5262880007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Palo Alto, CA; Austin, TX; New York, NY; Seattle, WA",
+    "posted_date": "2026-10-09",
+    "title": "Infrastructure Security Engineer (Bare Metal & Platform)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5262880007"
+  },
+  "5263296007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T23:18:38.242862+00:00",
+    "job_id": "5263296007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-10-12",
+    "title": "Regulatory Legal Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5263296007"
+  },
+  "5263377007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T23:18:38.242862+00:00",
+    "job_id": "5263377007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-10-12",
+    "title": "Regulatory Legal Counsel",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5263377007"
+  },
+  "5263495007": {
+    "company": "xAI",
+    "first_seen": "2026-10-12T23:18:38.242862+00:00",
+    "job_id": "5263495007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-10-12",
+    "title": "Events Lead",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5263495007"
+  },
+  "5264616007": {
+    "company": "xAI",
+    "first_seen": "2026-10-13T21:28:21.081548+00:00",
+    "job_id": "5264616007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-13",
+    "title": "Senior Facilities Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5264616007"
+  },
+  "5264627007": {
+    "company": "xAI",
+    "first_seen": "2026-10-13T21:28:21.081548+00:00",
+    "job_id": "5264627007",
+    "last_seen": "2026-10-13T21:28:21.081548+00:00",
+    "location": " Southaven, MS; Memphis, TN",
+    "posted_date": "2026-10-13",
+    "title": "Facilities Operations Technician - Memphis",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5264627007"
+  }
+}

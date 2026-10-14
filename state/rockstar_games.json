@@ -1,0 +1,882 @@
+{
+  "6502182003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6502182003",
+    "last_seen": "2026-10-06T23:01:16.780367+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2025-03-07",
+    "title": "UI Tools Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6502182003"
+  },
+  "6566288003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6566288003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2025-05-30",
+    "title": "Senior Network Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6566288003"
+  },
+  "6589243003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6589243003",
+    "last_seen": "2026-09-22T22:34:32.523484+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2025-06-25",
+    "title": "Senior Web Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6589243003"
+  },
+  "6593343003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6593343003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2025-05-30",
+    "title": "Senior Network Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6593343003"
+  },
+  "6620891003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6620891003",
+    "last_seen": "2026-09-22T22:34:32.523484+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2025-06-25",
+    "title": "Senior Web Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003"
+  },
+  "6623438003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6623438003",
+    "last_seen": "2026-09-22T22:34:32.523484+00:00",
+    "location": "Oakville, Ontario, Canada",
+    "posted_date": "2025-06-27",
+    "title": "Senior Web Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6623438003"
+  },
+  "6653468003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "6653468003",
+    "last_seen": "2026-10-06T23:01:16.780367+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2025-07-18",
+    "title": "Lead Full Stack Engineer (.NET)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6653468003"
+  },
+  "7552892003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7552892003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2025-12-10",
+    "title": "Senior Software Engineer, Java",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7552892003"
+  },
+  "7575962003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7575962003",
+    "last_seen": "2026-10-02T01:25:56.697650+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-01-05",
+    "title": "Senior Software Engineer, Data Engineering",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7575962003"
+  },
+  "7578196003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7578196003",
+    "last_seen": "2026-10-02T01:25:56.697650+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-01-05",
+    "title": "Senior Software Engineer, Data Engineering",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578196003"
+  },
+  "7578722003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7578722003",
+    "last_seen": "2026-10-02T01:25:56.697650+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-01-05",
+    "title": "Senior Software Engineer, Data Engineering",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578722003"
+  },
+  "7585824003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7585824003",
+    "last_seen": "2026-09-14T01:45:53.830160+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-01-27",
+    "title": "Associate Principal Product Manager, Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7585824003"
+  },
+  "7617658003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7617658003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Sydney, New South Wales, Australia",
+    "posted_date": "2026-02-03",
+    "title": "Senior Graphics Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7617658003"
+  },
+  "7618407003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7618407003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-02-05",
+    "title": "Animation Tools Programmer (All Levels)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7618407003"
+  },
+  "7627554003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7627554003",
+    "last_seen": "2026-09-14T01:45:53.830160+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-07-08",
+    "title": "Senior Workplace Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7627554003"
+  },
+  "7632962003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7632962003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Oakville, Ontario, Canada",
+    "posted_date": "2026-02-16",
+    "title": "Animation Tools Programmer (All Levels)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7632962003"
+  },
+  "7634972003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-11T00:14:17.252537+00:00",
+    "job_id": "7634972003",
+    "last_seen": "2026-09-02T18:40:14.737514+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-03-16",
+    "title": "Senior Linux Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7634972003"
+  },
+  "7636555003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7636555003",
+    "last_seen": "2026-08-27T20:29:47.793940+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-03-06",
+    "title": "Associate Principal Product Manager, Commerce",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7636555003"
+  },
+  "7644896003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7644896003",
+    "last_seen": "2026-09-03T20:10:19.028854+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-06-24",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7644896003"
+  },
+  "7644897003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7644897003",
+    "last_seen": "2026-08-18T00:41:35.883500+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-02-25",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7644897003"
+  },
+  "7662406003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7662406003",
+    "last_seen": "2026-09-24T23:52:27.238786+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-03-13",
+    "title": "Senior Manager, Product - Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7662406003"
+  },
+  "7673247003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7673247003",
+    "last_seen": "2026-09-23T22:09:17.150503+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-04-01",
+    "title": "Associate Lead Database Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7673247003"
+  },
+  "7675057003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7675057003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-03-31",
+    "title": "Director: Workplace Services North America",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7675057003"
+  },
+  "7680265003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7680265003",
+    "last_seen": "2026-08-16T23:47:15.817236+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-04-02",
+    "title": "Data Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7680265003"
+  },
+  "7683473003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7683473003",
+    "last_seen": "2026-10-06T23:01:16.780367+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-03-30",
+    "title": "Tools Programmer: Audio",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7683473003"
+  },
+  "7693094003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7693094003",
+    "last_seen": "2026-10-12T23:15:52.871273+00:00",
+    "location": "Oakville, Ontario, Canada",
+    "posted_date": "2026-04-08",
+    "title": "Senior Technical Artist: Procedural Art",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7693094003"
+  },
+  "7694184003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7694184003",
+    "last_seen": "2026-10-12T23:15:52.871273+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-04-08",
+    "title": "Senior Technical Artist: Procedural Art",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7694184003"
+  },
+  "7695704003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7695704003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Sydney, New South Wales, Australia",
+    "posted_date": "2026-04-29",
+    "title": "Senior Gameplay Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7695704003"
+  },
+  "7700435003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7700435003",
+    "last_seen": "2026-10-12T23:15:52.871273+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-04-14",
+    "title": "Senior Technical Artist: Procedural Art",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7700435003"
+  },
+  "7703536003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7703536003",
+    "last_seen": "2026-09-24T23:52:27.238786+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-04-16",
+    "title": "Senior Manager, Product - Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7703536003"
+  },
+  "7709290003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7709290003",
+    "last_seen": "2026-09-08T14:32:23.767799+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-04-23",
+    "title": "Visual Product Designer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7709290003"
+  },
+  "7711020003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7711020003",
+    "last_seen": "2026-10-06T00:22:15.787633+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-04-22",
+    "title": "Senior Build & Release Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7711020003"
+  },
+  "7711702003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7711702003",
+    "last_seen": "2026-10-06T00:22:15.787633+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-05-14",
+    "title": "Software Engineer (C#/.NET)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7711702003"
+  },
+  "7711703003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7711703003",
+    "last_seen": "2026-10-06T00:22:15.787633+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-05-13",
+    "title": "Full Stack Engineer (C#/React)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7711703003"
+  },
+  "7724315003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7724315003",
+    "last_seen": "2026-08-11T20:14:45.607825+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-05-08",
+    "title": "Senior Developer Advocate, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7724315003"
+  },
+  "7725619003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7725619003",
+    "last_seen": "2026-08-11T20:14:45.607825+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-05-12",
+    "title": "Senior Developer Relations Manager, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7725619003"
+  },
+  "7728956003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7728956003",
+    "last_seen": "2026-08-11T20:14:45.607825+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-05-08",
+    "title": "Senior Developer Advocate, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7728956003"
+  },
+  "7732187003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7732187003",
+    "last_seen": "2026-08-11T20:14:45.607825+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-05-12",
+    "title": "Senior Developer Relations Manager, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7732187003"
+  },
+  "7734376003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7734376003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-05-14",
+    "title": "Software Engineer, Java",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7734376003"
+  },
+  "7734497003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7734497003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-05-14",
+    "title": "Senior Software Engineer, Java",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7734497003"
+  },
+  "7734679003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7734679003",
+    "last_seen": "2026-10-06T00:22:15.787633+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-05-14",
+    "title": "Software Engineer (C#/.NET)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7734679003"
+  },
+  "7738027003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7738027003",
+    "last_seen": "2026-09-15T00:56:20.262716+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-05-18",
+    "title": "Project Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7738027003"
+  },
+  "7739156003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7739156003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-05-20",
+    "title": "Senior Web Developer - Tools",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7739156003"
+  },
+  "7741310003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7741310003",
+    "last_seen": "2026-09-28T21:47:29.745072+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-05-20",
+    "title": "Senior Web Developer - Tools",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7741310003"
+  },
+  "7748469003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7748469003",
+    "last_seen": "2026-09-15T21:03:54.752485+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-05-29",
+    "title": "Senior Analytics Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7748469003"
+  },
+  "7751501003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7751501003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Sydney, New South Wales, Australia",
+    "posted_date": "2026-05-28",
+    "title": "Graphics Programmer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7751501003"
+  },
+  "7767935003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7767935003",
+    "last_seen": "2026-09-09T21:38:05.008070+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-06-30",
+    "title": "Design Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7767935003"
+  },
+  "7771374003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7771374003",
+    "last_seen": "2026-09-29T20:26:17.016709+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-06-12",
+    "title": "Senior Network Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771374003"
+  },
+  "7771376003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7771376003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-06-26",
+    "title": "Senior Threat Intelligence Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771376003"
+  },
+  "7771377003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7771377003",
+    "last_seen": "2026-10-06T00:22:15.787633+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-06-15",
+    "title": "Senior Full Stack Developer (C#/React)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771377003"
+  },
+  "7773278003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7773278003",
+    "last_seen": "2026-09-03T20:10:19.028854+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-06-16",
+    "title": "Zendesk Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7773278003"
+  },
+  "7776241003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7776241003",
+    "last_seen": "2026-09-21T22:01:58.327808+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-06-17",
+    "title": "Senior Software Engineer, FiveM",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7776241003"
+  },
+  "7782765003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7782765003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-07-01",
+    "title": "Senior Application Security Platform Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7782765003"
+  },
+  "7782767003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7782767003",
+    "last_seen": "2026-08-26T20:40:47.468614+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-07-06",
+    "title": "Product Manager, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7782767003"
+  },
+  "7787463003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7787463003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-06-26",
+    "title": "Senior Threat Intelligence Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787463003"
+  },
+  "7787467003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7787467003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-06-26",
+    "title": "Senior Threat Intelligence Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787467003"
+  },
+  "7787472003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7787472003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Oakville, Ontario, Canada",
+    "posted_date": "2026-06-26",
+    "title": "Senior Threat Intelligence Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787472003"
+  },
+  "7787477003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7787477003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-06-26",
+    "title": "Senior Threat Intelligence Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787477003"
+  },
+  "7791033003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7791033003",
+    "last_seen": "2026-08-12T14:14:48.244872+00:00",
+    "location": "Carlsbad, California, United States",
+    "posted_date": "2026-07-01",
+    "title": "Workplace Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7791033003"
+  },
+  "7791617003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7791617003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-07-10",
+    "title": "Senior Software Engineer (C++)",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7791617003"
+  },
+  "7792316003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7792316003",
+    "last_seen": "2026-09-21T22:01:58.327808+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-07-06",
+    "title": "Senior Production Coordinator: Tools",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7792316003"
+  },
+  "7792318003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7792318003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "posted_date": "2026-07-14",
+    "title": "Senior Cheat Software Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7792318003"
+  },
+  "7793838003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7793838003",
+    "last_seen": "2026-09-08T14:32:23.767799+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-07-03",
+    "title": "Senior Data Design Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7793838003"
+  },
+  "7794203003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7794203003",
+    "last_seen": "2026-09-08T14:32:23.767799+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-07-03",
+    "title": "Senior Data Design Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7794203003"
+  },
+  "7796158003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7796158003",
+    "last_seen": "2026-08-26T20:40:47.468614+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-07-06",
+    "title": "Product Manager, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7796158003"
+  },
+  "7797779003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7797779003",
+    "last_seen": "2026-09-29T20:26:17.016709+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-07-07",
+    "title": "Game Security Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7797779003"
+  },
+  "7799532003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7799532003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-07-21",
+    "title": "Senior Game Security Operations Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7799532003"
+  },
+  "7800927003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7800927003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-07-20",
+    "title": "Cloud Platform Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7800927003"
+  },
+  "7800929003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7800929003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Oakville, Ontario, Canada",
+    "posted_date": "2026-07-15",
+    "title": "Technical Research Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7800929003"
+  },
+  "7804421003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7804421003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-07-14",
+    "title": "Senior Cheat Software Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7804421003"
+  },
+  "7806700003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7806700003",
+    "last_seen": "2026-09-21T22:01:58.327808+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-07-16",
+    "title": "Senior Software Engineer, FiveM",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7806700003"
+  },
+  "7806748003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-09-10T20:55:51.810018+00:00",
+    "job_id": "7806748003",
+    "last_seen": "2026-10-06T23:01:16.780367+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-07-17",
+    "title": "Senior Trust & Safety Analyst, Creator Platform",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7806748003"
+  },
+  "7811462003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7811462003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-07-21",
+    "title": "Senior Game Security Operations Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7811462003"
+  },
+  "7812685003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7812685003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-07-22",
+    "title": "Senior Game Security Operations Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7812685003"
+  },
+  "7827676003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7827676003",
+    "last_seen": "2026-08-09T03:04:11.205621+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-05",
+    "title": "Senior Security Vulnerability Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7827676003"
+  },
+  "7827686003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-06T12:52:40.548642+00:00",
+    "job_id": "7827686003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-05",
+    "title": "Security GRC Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7827686003"
+  },
+  "7831522003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-07T14:37:11.190109+00:00",
+    "job_id": "7831522003",
+    "last_seen": "2026-09-10T20:55:51.810018+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-07",
+    "title": "Game Security Operations  Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7831522003"
+  },
+  "7852933003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-11T13:05:53.888717+00:00",
+    "job_id": "7852933003",
+    "last_seen": "2026-10-06T23:01:16.780367+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-11",
+    "title": "Online Systems Administrator",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7852933003"
+  },
+  "7862721003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-13T14:24:09.296394+00:00",
+    "job_id": "7862721003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-13",
+    "title": "Security Compliance Operations Lead",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7862721003"
+  },
+  "7864691003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-13T21:20:38.907430+00:00",
+    "job_id": "7864691003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-08-13",
+    "title": "Senior Project Coordinator",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7864691003"
+  },
+  "7864697003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-15T21:50:41.148190+00:00",
+    "job_id": "7864697003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Manhattan, New York, United States",
+    "posted_date": "2026-08-14",
+    "title": "Senior Data Scientist, Web/Marketing Analytics",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7864697003"
+  },
+  "7893386003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-18T20:55:43.636056+00:00",
+    "job_id": "7893386003",
+    "last_seen": "2026-09-03T20:10:19.028854+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-08-18",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7893386003"
+  },
+  "7962134003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-24T20:58:49.776486+00:00",
+    "job_id": "7962134003",
+    "last_seen": "2026-10-07T21:57:27.215303+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-24",
+    "title": "Associate Live Operations Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7962134003"
+  },
+  "7977980003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-08-26T20:40:47.468614+00:00",
+    "job_id": "7977980003",
+    "last_seen": "2026-08-31T22:04:18.702640+00:00",
+    "location": "Bengaluru, Karnataka, India",
+    "posted_date": "2026-08-26",
+    "title": "Live Agent Operations Manager",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7977980003"
+  },
+  "8002205003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-09-24T23:52:27.238786+00:00",
+    "job_id": "8002205003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Leeds, England, United Kingdom",
+    "posted_date": "2026-09-24",
+    "title": "Workplace Coordinator",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/8002205003"
+  },
+  "8009072003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-10-01T12:43:34.003536+00:00",
+    "job_id": "8009072003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Dundee, Scotland, United Kingdom",
+    "posted_date": "2026-09-30",
+    "title": "Game Security Analyst",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/8009072003"
+  },
+  "8014479003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-10-06T23:01:16.780367+00:00",
+    "job_id": "8014479003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-10-06",
+    "title": "Admin Coordinator",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/8014479003"
+  },
+  "8015982003": {
+    "company": "Rockstar Games",
+    "first_seen": "2026-10-07T21:57:27.215303+00:00",
+    "job_id": "8015982003",
+    "last_seen": "2026-10-13T21:25:29.194550+00:00",
+    "location": "Andover, Massachusetts, United States",
+    "posted_date": "2026-10-07",
+    "title": "Workplace Coordinator",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/8015982003"
+  }
+}

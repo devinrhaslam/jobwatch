@@ -1,0 +1,3542 @@
+{
+  "6372770": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "6372770",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2025-01-20",
+    "title": "New Business Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/6372770"
+  },
+  "6849268": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "6849268",
+    "last_seen": "2026-08-20T00:25:47.535058+00:00",
+    "location": "Remote - India",
+    "posted_date": "2025-04-30",
+    "title": "Manager, Software Engineering (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/6849268"
+  },
+  "7394811": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7394811",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2025-11-14",
+    "title": "Senior Software Engineer- Video Signalling",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7394811"
+  },
+  "7434770": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7434770",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2025-12-02",
+    "title": "Software Engineer L2 - Cloud Infrastructure",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7434770"
+  },
+  "7481689": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7481689",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2025-12-17",
+    "title": "Sales Development Representative",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7481689"
+  },
+  "7515753": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7515753",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - Japan",
+    "posted_date": "2026-01-13",
+    "title": "New Business Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7515753"
+  },
+  "7520866": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7520866",
+    "last_seen": "2026-08-09T03:05:32.793500+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-01-09",
+    "title": "Supportability Engineer 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7520866"
+  },
+  "7595407": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7595407",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-02-19",
+    "title": "Staff Software Engineer, Fraud",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7595407"
+  },
+  "7599044": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7599044",
+    "last_seen": "2026-08-13T19:50:34.149156+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-02-11",
+    "title": "Security Compliance & Regulatory Affairs Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7599044"
+  },
+  "7605743": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7605743",
+    "last_seen": "2026-09-08T14:34:13.935106+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-02-11",
+    "title": "Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7605743"
+  },
+  "7616763": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T20:42:35.486158+00:00",
+    "job_id": "7616763",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-03-04",
+    "title": "Senior Accountant",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7616763"
+  },
+  "7644471": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7644471",
+    "last_seen": "2026-08-22T16:09:22.514107+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-03-17",
+    "title": "Principal Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7644471"
+  },
+  "7647708": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7647708",
+    "last_seen": "2026-09-23T22:10:59.502380+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-03-13",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7647708"
+  },
+  "7657993": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7657993",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-03-13",
+    "title": "Senior Network Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7657993"
+  },
+  "7661919": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7661919",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-02-27",
+    "title": "Software Engineer - Video",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7661919"
+  },
+  "7689461": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7689461",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-23",
+    "title": "Software Engineer (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7689461"
+  },
+  "7697439": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7697439",
+    "last_seen": "2026-08-20T00:25:47.535058+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-03-10",
+    "title": "Social Media Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7697439"
+  },
+  "7699243": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7699243",
+    "last_seen": "2026-08-09T03:05:32.793500+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-06",
+    "title": "Staff, Machine Learning Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7699243"
+  },
+  "7702644": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7702644",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-03-20",
+    "title": "Machine Learning Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7702644"
+  },
+  "7707977": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7707977",
+    "last_seen": "2026-09-08T14:34:13.935106+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-04-06",
+    "title": "Senior Principal, Technical Program Management (Research & Development)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7707977"
+  },
+  "7716279": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7716279",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-03-13",
+    "title": "Staff Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7716279"
+  },
+  "7724877": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7724877",
+    "last_seen": "2026-08-11T16:19:25.167386+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-03-26",
+    "title": "Software Engineer L3 Phone Numbers",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7724877"
+  },
+  "7767220": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "7767220",
+    "last_seen": "2026-09-17T20:56:37.961123+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-10",
+    "title": "Fast Track Onboarding Specialist 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7767220"
+  },
+  "7772685": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7772685",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-04-01",
+    "title": "Transfer Pricing Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7772685"
+  },
+  "7781659": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T20:36:34.134420+00:00",
+    "job_id": "7781659",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-30",
+    "title": "Applications Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7781659"
+  },
+  "7782805": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7782805",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-04-06",
+    "title": "Staff Software Engineer (L4) Data Platform",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7782805"
+  },
+  "7785025": {
+    "company": "Twilio",
+    "first_seen": "2026-08-31T22:06:07.934804+00:00",
+    "job_id": "7785025",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-04-09",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7785025"
+  },
+  "7785202": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7785202",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-04-17",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7785202"
+  },
+  "7808464": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7808464",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-04-17",
+    "title": "Global Security Operations Center Operator",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7808464"
+  },
+  "7816159": {
+    "company": "Twilio",
+    "first_seen": "2026-08-22T16:09:22.514107+00:00",
+    "job_id": "7816159",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-21",
+    "title": "Software Engineer L2-Messaging API",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7816159"
+  },
+  "7818575": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7818575",
+    "last_seen": "2026-08-26T00:21:58.541164+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-24",
+    "title": "Project Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7818575"
+  },
+  "7825089": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7825089",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-05-04",
+    "title": "Software Architect (L6)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7825089"
+  },
+  "7834118": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7834118",
+    "last_seen": "2026-08-14T15:16:30.468398+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-04-21",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7834118"
+  },
+  "7837165": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7837165",
+    "last_seen": "2026-08-07T14:38:26.803894+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-03",
+    "title": "Systems Ops Administrator",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7837165"
+  },
+  "7842952": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7842952",
+    "last_seen": "2026-08-13T19:50:34.149156+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-18",
+    "title": "Strategic Account Executive 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7842952"
+  },
+  "7845781": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7845781",
+    "last_seen": "2026-08-13T21:22:29.543078+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-04-27",
+    "title": "Strategic Account Executive (German Speaking)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7845781"
+  },
+  "7861935": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7861935",
+    "last_seen": "2026-09-22T22:36:06.064746+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-05-08",
+    "title": "Compliance Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7861935"
+  },
+  "7865849": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7865849",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Spain",
+    "posted_date": "2026-04-29",
+    "title": "Strategic Account Executive (German Speaking)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7865849"
+  },
+  "7895241": {
+    "company": "Twilio",
+    "first_seen": "2026-08-11T20:15:44.796397+00:00",
+    "job_id": "7895241",
+    "last_seen": "2026-09-22T22:36:06.064746+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-11",
+    "title": "Program Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7895241"
+  },
+  "7903417": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7903417",
+    "last_seen": "2026-08-11T00:15:18.395763+00:00",
+    "location": "Remote - Australia",
+    "posted_date": "2026-05-12",
+    "title": "Counsel, Policy Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7903417"
+  },
+  "7904291": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7904291",
+    "last_seen": "2026-08-18T00:45:37.335384+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-05-08",
+    "title": "Staff Enterprise Security Engineer, AI Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7904291"
+  },
+  "7904293": {
+    "company": "Twilio",
+    "first_seen": "2026-08-11T20:15:44.796397+00:00",
+    "job_id": "7904293",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-06-12",
+    "title": "Staff Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7904293"
+  },
+  "7906141": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7906141",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-05-11",
+    "title": "Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7906141"
+  },
+  "7917304": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7917304",
+    "last_seen": "2026-08-05T19:59:55.298128+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-05-12",
+    "title": "Strategic Account Executive 4 - ISV",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7917304"
+  },
+  "7917665": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7917665",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-03",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7917665"
+  },
+  "7918885": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7918885",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-05-13",
+    "title": "Staff Product Manager - Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7918885"
+  },
+  "7919148": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7919148",
+    "last_seen": "2026-09-28T21:51:22.202701+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-05-14",
+    "title": "Senior Manager, Machine Learning",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7919148"
+  },
+  "7926887": {
+    "company": "Twilio",
+    "first_seen": "2026-08-18T20:57:38.231456+00:00",
+    "job_id": "7926887",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-18",
+    "title": "Senior Engineering Manager Twilio\u2019s Conversational Agents",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7926887"
+  },
+  "7926889": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7926889",
+    "last_seen": "2026-08-06T12:50:26.309525+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-05-18",
+    "title": "Software Engineer (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7926889"
+  },
+  "7926891": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7926891",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-24",
+    "title": "Sr AI Architect - Conversational AI",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7926891"
+  },
+  "7938645": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7938645",
+    "last_seen": "2026-08-05T18:17:06.932930+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-05-20",
+    "title": "Senior Manager Software Engineering",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7938645"
+  },
+  "7938968": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7938968",
+    "last_seen": "2026-08-10T18:50:21.305458+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-05-19",
+    "title": "Principal Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7938968"
+  },
+  "7944264": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7944264",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-18",
+    "title": "Principal Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7944264"
+  },
+  "7944328": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7944328",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-06-18",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7944328"
+  },
+  "7946608": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7946608",
+    "last_seen": "2026-08-06T12:50:26.309525+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-05-25",
+    "title": "Frontend Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7946608"
+  },
+  "7946610": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7946610",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-24",
+    "title": "Software Engineer (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7946610"
+  },
+  "7954715": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7954715",
+    "last_seen": "2026-09-28T21:51:22.202701+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-01",
+    "title": "Software Engineer (L3) Data Substrate",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7954715"
+  },
+  "7957637": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7957637",
+    "last_seen": "2026-08-27T20:31:42.976374+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-05-26",
+    "title": "Director, Strategic Accounts",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7957637"
+  },
+  "7960343": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7960343",
+    "last_seen": "2026-08-05T16:46:41.738102+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-06-01",
+    "title": "Senior Manager, GTMA Analysis and Compliance",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7960343"
+  },
+  "7960476": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7960476",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-24",
+    "title": "Sr Architect - Emerging Technologies",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7960476"
+  },
+  "7962686": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7962686",
+    "last_seen": "2026-08-18T00:45:37.335384+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-05-28",
+    "title": "Staff Enterprise Security Engineer, AI Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7962686"
+  },
+  "7966810": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7966810",
+    "last_seen": "2026-09-15T21:05:47.174175+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-05",
+    "title": "Technical Support Expert 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7966810"
+  },
+  "7966926": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7966926",
+    "last_seen": "2026-08-16T23:48:45.038937+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-10",
+    "title": "Director, Product Management",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7966926"
+  },
+  "7966928": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7966928",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-16",
+    "title": "Tech Lead /Sr. Principal Engineer (L6)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7966928"
+  },
+  "7967685": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7967685",
+    "last_seen": "2026-08-14T18:38:47.230259+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-01",
+    "title": "Staff, Software Engineer (L4) - Email",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7967685"
+  },
+  "7967998": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7967998",
+    "last_seen": "2026-08-14T18:38:47.230259+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-06-03",
+    "title": "Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7967998"
+  },
+  "7968269": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7968269",
+    "last_seen": "2026-08-07T14:38:26.803894+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-05",
+    "title": "Principal, Marketing Architecture & Strategy",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7968269"
+  },
+  "7972644": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7972644",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-06-03",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7972644"
+  },
+  "7979240": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7979240",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-05",
+    "title": "Staff Solutions Architect, Opportunity LifeCycle Management",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7979240"
+  },
+  "7979245": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7979245",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-03",
+    "title": "Staff Solutions Architect, Contract LifeCycle Management",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7979245"
+  },
+  "7979654": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7979654",
+    "last_seen": "2026-08-10T12:26:25.193091+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-03",
+    "title": "Workforce Scheduling Analyst 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7979654"
+  },
+  "7980740": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7980740",
+    "last_seen": "2026-08-06T12:50:26.309525+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-06-04",
+    "title": "Product Manager L3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7980740"
+  },
+  "7982861": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7982861",
+    "last_seen": "2026-08-31T22:06:07.934804+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-25",
+    "title": "IT Internal Auditor",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7982861"
+  },
+  "7983662": {
+    "company": "Twilio",
+    "first_seen": "2026-08-13T18:25:43.060187+00:00",
+    "job_id": "7983662",
+    "last_seen": "2026-10-06T00:26:08.239227+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-22",
+    "title": "Compensation Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7983662"
+  },
+  "7984917": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7984917",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - Australia",
+    "posted_date": "2026-06-12",
+    "title": "Account Executive New Business",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7984917"
+  },
+  "7985610": {
+    "company": "Twilio",
+    "first_seen": "2026-08-12T16:51:41.917445+00:00",
+    "job_id": "7985610",
+    "last_seen": "2026-08-24T13:29:07.557979+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-12",
+    "title": "Lead Product Designer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7985610"
+  },
+  "7985808": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7985808",
+    "last_seen": "2026-08-06T01:17:33.142056+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-12",
+    "title": "Lead Product Designer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7985808"
+  },
+  "7987837": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7987837",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-16",
+    "title": "Principal Price Realization Strategy Manager - Digital & PLG Pricing",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7987837"
+  },
+  "7987840": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7987840",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-16",
+    "title": "Principal Price Realization Strategy Manager - Enterprise & Account-Led Pricing",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7987840"
+  },
+  "7987846": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7987846",
+    "last_seen": "2026-08-21T18:48:37.179873+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-06-09",
+    "title": "IT Internal Auditor",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7987846"
+  },
+  "7988973": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7988973",
+    "last_seen": "2026-08-13T21:22:29.543078+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-06-10",
+    "title": "Senior Manager, Presales Engineering",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7988973"
+  },
+  "7990647": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7990647",
+    "last_seen": "2026-08-10T12:26:25.193091+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-17",
+    "title": "Strategic Account Executive 3 - ISV",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7990647"
+  },
+  "7993530": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7993530",
+    "last_seen": "2026-08-10T18:50:21.305458+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-06-17",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530"
+  },
+  "7993860": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7993860",
+    "last_seen": "2026-08-11T21:17:36.209464+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-12",
+    "title": "Technical Support Expert 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7993860"
+  },
+  "7993959": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7993959",
+    "last_seen": "2026-08-30T20:14:59.103679+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-16",
+    "title": "Senior / Staff Applied Research Software Engineer - Emerging Tech",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7993959"
+  },
+  "7996770": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7996770",
+    "last_seen": "2026-08-26T00:21:58.541164+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-15",
+    "title": "Staff Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7996770"
+  },
+  "7996774": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7996774",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-06-18",
+    "title": "Machine Learning Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7996774"
+  },
+  "7996776": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "7996776",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-15",
+    "title": "Principal Engineer (L5)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7996776"
+  },
+  "7996779": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "7996779",
+    "last_seen": "2026-09-09T21:39:50.651580+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-12",
+    "title": "Software Engineer (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7996779"
+  },
+  "8000178": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8000178",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-06-12",
+    "title": "Presales Engineer (German Speaking)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8000178"
+  },
+  "8001200": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8001200",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-15",
+    "title": "Senior Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8001200"
+  },
+  "8001804": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8001804",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-16",
+    "title": "Senior Engineering Manager (L5)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8001804"
+  },
+  "8003867": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8003867",
+    "last_seen": "2026-08-16T23:48:45.038937+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-12",
+    "title": "Senior Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8003867"
+  },
+  "8007449": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8007449",
+    "last_seen": "2026-10-06T00:26:08.239227+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-16",
+    "title": "Senior/Staff Applied Research Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8007449"
+  },
+  "8007455": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8007455",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Spain",
+    "posted_date": "2026-06-18",
+    "title": "Machine Learning Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8007455"
+  },
+  "8008030": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8008030",
+    "last_seen": "2026-08-20T20:36:34.134420+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-15",
+    "title": "Senior Environmental Sustainability & ESG Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8008030"
+  },
+  "8008538": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8008538",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-17",
+    "title": "Staff, Analytics Engineer, GTM Data Science & Analytics",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8008538"
+  },
+  "8009057": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8009057",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-22",
+    "title": "Software Engineer L3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8009057"
+  },
+  "8011576": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8011576",
+    "last_seen": "2026-08-18T00:45:37.335384+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-23",
+    "title": "Tech Lead, Applied Research - Emerging Tech",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8011576"
+  },
+  "8015567": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8015567",
+    "last_seen": "2026-08-13T21:22:29.543078+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-06-18",
+    "title": "Director, EMEA Strategic Sales North",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8015567"
+  },
+  "8015738": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8015738",
+    "last_seen": "2026-09-10T20:57:49.371972+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-22",
+    "title": "Staff, Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8015738"
+  },
+  "8015771": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8015771",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-16",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8015771"
+  },
+  "8016226": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8016226",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-06-25",
+    "title": "Manager, Technical Support",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8016226"
+  },
+  "8016229": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8016229",
+    "last_seen": "2026-08-30T20:14:59.103679+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-09",
+    "title": "Technical Support Engineer 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8016229"
+  },
+  "8021265": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8021265",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-23",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8021265"
+  },
+  "8023557": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8023557",
+    "last_seen": "2026-08-12T00:15:58.352616+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-07-06",
+    "title": "Compliance Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8023557"
+  },
+  "8023560": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8023560",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-10",
+    "title": "Security Engineer, Incident Response",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8023560"
+  },
+  "8024918": {
+    "company": "Twilio",
+    "first_seen": "2026-08-06T00:33:36.944595+00:00",
+    "job_id": "8024918",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-06-24",
+    "title": "Manager, Personalized Support",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8024918"
+  },
+  "8025913": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8025913",
+    "last_seen": "2026-08-13T19:50:34.149156+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-26",
+    "title": "Partner Program Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8025913"
+  },
+  "8026203": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8026203",
+    "last_seen": "2026-09-22T22:36:06.064746+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer-Platform Engineering (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026203"
+  },
+  "8026207": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8026207",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Platform Engineering (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026207"
+  },
+  "8026211": {
+    "company": "Twilio",
+    "first_seen": "2026-10-06T23:02:51.708716+00:00",
+    "job_id": "8026211",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-06",
+    "title": "Software Engineer, Platform Access (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026211"
+  },
+  "8026406": {
+    "company": "Twilio",
+    "first_seen": "2026-08-14T15:16:30.468398+00:00",
+    "job_id": "8026406",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-13",
+    "title": "Staff, Escalation Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026406"
+  },
+  "8026615": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8026615",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-29",
+    "title": "Senior Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026615"
+  },
+  "8026617": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8026617",
+    "last_seen": "2026-08-05T19:59:55.298128+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-26",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026617"
+  },
+  "8026619": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8026619",
+    "last_seen": "2026-09-22T22:36:06.064746+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-06-24",
+    "title": "Enterprise Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8026619"
+  },
+  "8028956": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8028956",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-06",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8028956"
+  },
+  "8028958": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8028958",
+    "last_seen": "2026-08-26T00:21:58.541164+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-06",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8028958"
+  },
+  "8029164": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8029164",
+    "last_seen": "2026-09-10T20:57:49.371972+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-26",
+    "title": "Senior Director, Analyst Relations",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8029164"
+  },
+  "8031643": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8031643",
+    "last_seen": "2026-09-03T20:12:21.140114+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-06-30",
+    "title": "Deal Desk Senior Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8031643"
+  },
+  "8036582": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8036582",
+    "last_seen": "2026-08-26T20:42:35.486158+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-06-29",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8036582"
+  },
+  "8039186": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8039186",
+    "last_seen": "2026-09-02T20:56:10.702071+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-25",
+    "title": "Senior Principal Field Architect - AI Agents",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8039186"
+  },
+  "8039842": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8039842",
+    "last_seen": "2026-08-26T00:21:58.541164+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-02",
+    "title": "Staff Product Designer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8039842"
+  },
+  "8041943": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8041943",
+    "last_seen": "2026-08-05T15:50:55.424981+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-06",
+    "title": "Senior GTM Business Architecture Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8041943"
+  },
+  "8042052": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8042052",
+    "last_seen": "2026-08-13T00:17:47.196037+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-08-05",
+    "title": "Deal Desk Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8042052"
+  },
+  "8042071": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8042071",
+    "last_seen": "2026-08-31T22:06:07.934804+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-07-03",
+    "title": "Staff Engineer, Security Engineering Partners",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8042071"
+  },
+  "8044650": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8044650",
+    "last_seen": "2026-08-24T13:29:07.557979+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-28",
+    "title": "Senior Analytics Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8044650"
+  },
+  "8045297": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8045297",
+    "last_seen": "2026-09-28T21:51:22.202701+00:00",
+    "location": "Remote - Japan",
+    "posted_date": "2026-07-07",
+    "title": "Field Marketing Manager, Japan",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8045297"
+  },
+  "8045978": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8045978",
+    "last_seen": "2026-09-22T22:36:06.064746+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-21",
+    "title": "Senior Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8045978"
+  },
+  "8048657": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8048657",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-08",
+    "title": "Staff Engineer - Offensive Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8048657"
+  },
+  "8048659": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8048659",
+    "last_seen": "2026-08-20T00:25:47.535058+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-13",
+    "title": "Associate Application Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8048659"
+  },
+  "8048661": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8048661",
+    "last_seen": "2026-10-02T01:29:44.264862+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-17",
+    "title": "Senior Application Engineer, Zuora Billing",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8048661"
+  },
+  "8051051": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8051051",
+    "last_seen": "2026-08-12T16:51:41.917445+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-10",
+    "title": "Fast Track Operations Specialist 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8051051"
+  },
+  "8051057": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8051057",
+    "last_seen": "2026-08-05T13:05:27.893677+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-14",
+    "title": "Fast Track Onboarding Specialist 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8051057"
+  },
+  "8051477": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8051477",
+    "last_seen": "2026-08-20T00:25:47.535058+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-10",
+    "title": "Senior Partner Enablement Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8051477"
+  },
+  "8052068": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8052068",
+    "last_seen": "2026-10-02T01:29:44.264862+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-09",
+    "title": "Software Engineer (L2), Identity",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8052068"
+  },
+  "8052668": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8052668",
+    "last_seen": "2026-08-21T18:48:37.179873+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-15",
+    "title": "Technical Support Expert 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8052668"
+  },
+  "8052885": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8052885",
+    "last_seen": "2026-09-01T19:17:29.078285+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-14",
+    "title": "Presales Architect",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8052885"
+  },
+  "8054408": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8054408",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-29",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8054408"
+  },
+  "8054764": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8054764",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-16",
+    "title": "Marketing Strategy & Planning Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8054764"
+  },
+  "8055481": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8055481",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-07-10",
+    "title": "Security Engineer, Incident Response",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481"
+  },
+  "8055895": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8055895",
+    "last_seen": "2026-08-21T16:34:23.479746+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-16",
+    "title": "Technical Support Expert 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8055895"
+  },
+  "8056267": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8056267",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-03",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8056267"
+  },
+  "8056276": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8056276",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-17",
+    "title": "Senior Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8056276"
+  },
+  "8056278": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8056278",
+    "last_seen": "2026-08-27T20:31:42.976374+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-17",
+    "title": "Global Events Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8056278"
+  },
+  "8056321": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8056321",
+    "last_seen": "2026-09-08T14:34:13.935106+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-15",
+    "title": "Manager, Technical Support",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8056321"
+  },
+  "8059910": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8059910",
+    "last_seen": "2026-09-01T19:17:29.078285+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-22",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8059910"
+  },
+  "8064090": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8064090",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-07-20",
+    "title": "Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8064090"
+  },
+  "8064093": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8064093",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-07-14",
+    "title": "Sales Director, Strategic Accounts DACH & Benelux",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8064093"
+  },
+  "8065028": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8065028",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8065028"
+  },
+  "8065038": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8065038",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-14",
+    "title": "Senior Program Manager, Disaster Recovery",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8065038"
+  },
+  "8065040": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8065040",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-17",
+    "title": "Senior Security Engineer, Incident Response",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8065040"
+  },
+  "8065043": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8065043",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8065043"
+  },
+  "8065930": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8065930",
+    "last_seen": "2026-08-14T18:38:47.230259+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-20",
+    "title": "Manager, Sales Development-LATAM / NAMER Hybrid",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8065930"
+  },
+  "8067027": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8067027",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-05",
+    "title": "Staff Mobile Software Engineer (P4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067027"
+  },
+  "8067147": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067147",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-07-15",
+    "title": "Senior Engineering Manager V&V Media",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067147"
+  },
+  "8067270": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067270",
+    "last_seen": "2026-09-21T22:05:43.879239+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-17",
+    "title": "Principal Software Engineer - Identity Graph",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067270"
+  },
+  "8067440": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067440",
+    "last_seen": "2026-09-28T21:51:22.202701+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-17",
+    "title": "Senior Technical Program Manager, Services Tools & Diagnostics",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067440"
+  },
+  "8067500": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067500",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - Alberta, Canada (DNU)",
+    "posted_date": "2026-07-15",
+    "title": "Senior Engineering Manager V&V Media",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067500"
+  },
+  "8067501": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067501",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - Ontario, Canada (DNU)",
+    "posted_date": "2026-07-15",
+    "title": "Senior Engineering Manager V&V Media",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067501"
+  },
+  "8067678": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067678",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-15",
+    "title": "Senior Engineering Manager V&V Media",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067678"
+  },
+  "8067909": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067909",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-22",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067909"
+  },
+  "8067913": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8067913",
+    "last_seen": "2026-09-08T14:34:13.935106+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-07-22",
+    "title": "Technical Account Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067913"
+  },
+  "8069243": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8069243",
+    "last_seen": "2026-08-26T00:21:58.541164+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "Principal Product Manager, Enterprise Commerce Platform",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8069243"
+  },
+  "8069245": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8069245",
+    "last_seen": "2026-08-20T00:25:47.535058+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "Principal Product Manager - Product Catalog",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8069245"
+  },
+  "8071710": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8071710",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-17",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8071710"
+  },
+  "8072907": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8072907",
+    "last_seen": "2026-08-18T00:45:37.335384+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-21",
+    "title": "Incident Commander",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8072907"
+  },
+  "8073683": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8073683",
+    "last_seen": "2026-10-06T23:02:51.708716+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-19",
+    "title": "Senior Engineering Manager, Voice and Video",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8073683"
+  },
+  "8074762": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8074762",
+    "last_seen": "2026-10-04T23:09:53.798327+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-22",
+    "title": "Senior, Business Intelligence Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8074762"
+  },
+  "8076800": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8076800",
+    "last_seen": "2026-08-30T20:14:59.103679+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-22",
+    "title": "Staff, Data Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8076800"
+  },
+  "8076802": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8076802",
+    "last_seen": "2026-09-23T22:10:59.502380+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-22",
+    "title": "Senior, Business Intelligence Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8076802"
+  },
+  "8076981": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8076981",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-09-30",
+    "title": "Strategic Account Excecutive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8076981"
+  },
+  "8077538": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8077538",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "CEO Communications Director",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8077538"
+  },
+  "8077540": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8077540",
+    "last_seen": "2026-08-13T21:22:29.543078+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-28",
+    "title": "Director of Demand Generation",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8077540"
+  },
+  "8078099": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8078099",
+    "last_seen": "2026-10-06T00:26:08.239227+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-21",
+    "title": "Director, Revenue & CoGS Accounting",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8078099"
+  },
+  "8079323": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8079323",
+    "last_seen": "2026-08-06T01:17:33.142056+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-07-29",
+    "title": "Sales Support Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8079323"
+  },
+  "8079708": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8079708",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-30",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8079708"
+  },
+  "8079801": {
+    "company": "Twilio",
+    "first_seen": "2026-10-06T23:02:51.708716+00:00",
+    "job_id": "8079801",
+    "last_seen": "2026-10-12T02:14:43.946226+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-07-29",
+    "title": "Software Engineer L3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8079801"
+  },
+  "8081530": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8081530",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-27",
+    "title": "Principal Software Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8081530"
+  },
+  "8081664": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8081664",
+    "last_seen": "2026-08-18T00:45:37.335384+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-07-27",
+    "title": "Staff, Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8081664"
+  },
+  "8081781": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8081781",
+    "last_seen": "2026-08-19T20:01:38.765196+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-24",
+    "title": "Senior Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8081781"
+  },
+  "8083821": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8083821",
+    "last_seen": "2026-09-15T21:05:47.174175+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-24",
+    "title": "Principal Product Manager: Talent Acquisition & Management Applications",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8083821"
+  },
+  "8084593": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8084593",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-07-24",
+    "title": "Senior Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8084593"
+  },
+  "8088055": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088055",
+    "last_seen": "2026-09-24T23:56:22.295066+00:00",
+    "location": "Remote - Japan",
+    "posted_date": "2026-07-29",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088055"
+  },
+  "8088440": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088440",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-07-27",
+    "title": "Senior Analyst, Security Risk",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088440"
+  },
+  "8088442": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088442",
+    "last_seen": "2026-09-16T20:49:57.628727+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-07-29",
+    "title": "Staff Impartner Product Owner, PRM",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088442"
+  },
+  "8088451": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088451",
+    "last_seen": "2026-09-16T20:49:57.628727+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-07-29",
+    "title": "Senior Impartner Admin, PRM",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088451"
+  },
+  "8088729": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088729",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-07-28",
+    "title": "Manager, Fraud Operations",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088729"
+  },
+  "8088775": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088775",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-27",
+    "title": "Strategic Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088775"
+  },
+  "8088950": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8088950",
+    "last_seen": "2026-09-02T20:56:10.702071+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-07-29",
+    "title": "Sr Digital Customer Success Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088950"
+  },
+  "8089122": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8089122",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-29",
+    "title": "Incident Commander",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8089122"
+  },
+  "8092234": {
+    "company": "Twilio",
+    "first_seen": "2026-08-07T00:46:00.511003+00:00",
+    "job_id": "8092234",
+    "last_seen": "2026-08-11T21:17:36.209464+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-30",
+    "title": "Senior Customer Success Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8092234"
+  },
+  "8096642": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8096642",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-07-30",
+    "title": "Senior Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8096642"
+  },
+  "8097520": {
+    "company": "Twilio",
+    "first_seen": "2026-08-19T20:01:38.765196+00:00",
+    "job_id": "8097520",
+    "last_seen": "2026-09-21T22:05:43.879239+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-19",
+    "title": "Fast Track Operations Specialist 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8097520"
+  },
+  "8097524": {
+    "company": "Twilio",
+    "first_seen": "2026-09-22T22:36:06.064746+00:00",
+    "job_id": "8097524",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-22",
+    "title": "Fast Track Operations Specialist 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8097524"
+  },
+  "8097672": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8097672",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-30",
+    "title": "Software Engineer (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8097672"
+  },
+  "8098732": {
+    "company": "Twilio",
+    "first_seen": "2026-08-06T00:33:36.944595+00:00",
+    "job_id": "8098732",
+    "last_seen": "2026-09-09T21:39:50.651580+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-08-05",
+    "title": "Senior Field Enablement Business Partner",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8098732"
+  },
+  "8098945": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8098945",
+    "last_seen": "2026-09-15T00:58:02.036566+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-03",
+    "title": "Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8098945"
+  },
+  "8099162": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8099162",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada; Remote - US",
+    "posted_date": "2026-08-04",
+    "title": "Senior Software Engineer (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8099162"
+  },
+  "8100236": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8100236",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-07-31",
+    "title": "Software Engineer (L2)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8100236"
+  },
+  "8102918": {
+    "company": "Twilio",
+    "first_seen": "2026-08-10T18:50:21.305458+00:00",
+    "job_id": "8102918",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-08-10",
+    "title": "Senior Manager, Strategic Sourcing",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8102918"
+  },
+  "8102920": {
+    "company": "Twilio",
+    "first_seen": "2026-08-13T14:26:04.707186+00:00",
+    "job_id": "8102920",
+    "last_seen": "2026-08-20T20:36:34.134420+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-08-13",
+    "title": "Senior Accountant, International Accounting",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8102920"
+  },
+  "8102948": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8102948",
+    "last_seen": "2026-09-10T20:57:49.371972+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-03",
+    "title": "Manager, Deal Desk",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8102948"
+  },
+  "8102950": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8102950",
+    "last_seen": "2026-10-07T21:58:53.304988+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-03",
+    "title": "Software Development Engineer (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8102950"
+  },
+  "8103253": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8103253",
+    "last_seen": "2026-09-15T00:58:02.036566+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-03",
+    "title": "Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8103253"
+  },
+  "8104436": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8104436",
+    "last_seen": "2026-08-31T22:06:07.934804+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-08-05",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8104436"
+  },
+  "8104438": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T15:50:55.424981+00:00",
+    "job_id": "8104438",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-08-05",
+    "title": "Marketing Strategy and Analytics Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8104438"
+  },
+  "8108404": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T12:20:38.752648+00:00",
+    "job_id": "8108404",
+    "last_seen": "2026-08-09T03:05:32.793500+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-05",
+    "title": "Incident Commander",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8108404"
+  },
+  "8108654": {
+    "company": "Twilio",
+    "first_seen": "2026-08-06T00:33:36.944595+00:00",
+    "job_id": "8108654",
+    "last_seen": "2026-08-24T13:29:07.557979+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-05",
+    "title": "Principal Internal Communications Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8108654"
+  },
+  "8108771": {
+    "company": "Twilio",
+    "first_seen": "2026-08-05T15:50:55.424981+00:00",
+    "job_id": "8108771",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-08-05",
+    "title": "DevOps Engineer (Observability)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771"
+  },
+  "8108776": {
+    "company": "Twilio",
+    "first_seen": "2026-08-07T19:26:14.408577+00:00",
+    "job_id": "8108776",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-07",
+    "title": "Sr. Principal Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8108776"
+  },
+  "8109975": {
+    "company": "Twilio",
+    "first_seen": "2026-08-06T00:33:36.944595+00:00",
+    "job_id": "8109975",
+    "last_seen": "2026-08-18T22:48:26.858740+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-05",
+    "title": "Manager, Personalized Support",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8109975"
+  },
+  "8112239": {
+    "company": "Twilio",
+    "first_seen": "2026-08-18T20:57:38.231456+00:00",
+    "job_id": "8112239",
+    "last_seen": "2026-09-21T22:05:43.879239+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-18",
+    "title": "Sales Development Representative 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8112239"
+  },
+  "8112725": {
+    "company": "Twilio",
+    "first_seen": "2026-08-11T13:07:01.032261+00:00",
+    "job_id": "8112725",
+    "last_seen": "2026-08-24T21:00:42.463122+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-11",
+    "title": "Senior HRBP Manager, GTM",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8112725"
+  },
+  "8114393": {
+    "company": "Twilio",
+    "first_seen": "2026-09-28T21:51:22.202701+00:00",
+    "job_id": "8114393",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-09-28",
+    "title": "Solution Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8114393"
+  },
+  "8115128": {
+    "company": "Twilio",
+    "first_seen": "2026-08-10T21:51:23.869694+00:00",
+    "job_id": "8115128",
+    "last_seen": "2026-10-05T22:15:08.609945+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-10",
+    "title": "Principal Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8115128"
+  },
+  "8119052": {
+    "company": "Twilio",
+    "first_seen": "2026-08-13T18:25:43.060187+00:00",
+    "job_id": "8119052",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-13",
+    "title": "Senior Telecom Billing Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8119052"
+  },
+  "8120421": {
+    "company": "Twilio",
+    "first_seen": "2026-08-19T20:01:38.765196+00:00",
+    "job_id": "8120421",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-19",
+    "title": "Phone Numbers Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8120421"
+  },
+  "8121976": {
+    "company": "Twilio",
+    "first_seen": "2026-08-12T14:15:54.049988+00:00",
+    "job_id": "8121976",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-12",
+    "title": "Senior Manager, Strategic Sales South",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8121976"
+  },
+  "8122899": {
+    "company": "Twilio",
+    "first_seen": "2026-08-18T20:57:38.231456+00:00",
+    "job_id": "8122899",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-18",
+    "title": "Digital Sales Representative 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8122899"
+  },
+  "8125581": {
+    "company": "Twilio",
+    "first_seen": "2026-08-13T18:25:43.060187+00:00",
+    "job_id": "8125581",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Japan",
+    "posted_date": "2026-08-13",
+    "title": "New Business Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8125581"
+  },
+  "8128863": {
+    "company": "Twilio",
+    "first_seen": "2026-08-13T21:22:29.543078+00:00",
+    "job_id": "8128863",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-13",
+    "title": "Sr. Strategy & Operations Analyst, Deal Desk",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8128863"
+  },
+  "8131091": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T20:42:35.486158+00:00",
+    "job_id": "8131091",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-26",
+    "title": "Staff Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8131091"
+  },
+  "8131314": {
+    "company": "Twilio",
+    "first_seen": "2026-08-30T20:14:59.103679+00:00",
+    "job_id": "8131314",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-27",
+    "title": "Global Sales Business Partners Sr. Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8131314"
+  },
+  "8132266": {
+    "company": "Twilio",
+    "first_seen": "2026-08-17T20:52:40.339136+00:00",
+    "job_id": "8132266",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-08-17",
+    "title": "Fraud Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8132266"
+  },
+  "8136763": {
+    "company": "Twilio",
+    "first_seen": "2026-08-17T20:52:40.339136+00:00",
+    "job_id": "8136763",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-08-17",
+    "title": "Product Manager L2 (mid-level)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8136763"
+  },
+  "8138860": {
+    "company": "Twilio",
+    "first_seen": "2026-08-19T20:01:38.765196+00:00",
+    "job_id": "8138860",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-19",
+    "title": "Director, Global Campaigns",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8138860"
+  },
+  "8138870": {
+    "company": "Twilio",
+    "first_seen": "2026-08-19T20:01:38.765196+00:00",
+    "job_id": "8138870",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-08-19",
+    "title": "Senior Marketing Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8138870"
+  },
+  "8139748": {
+    "company": "Twilio",
+    "first_seen": "2026-08-21T16:34:23.479746+00:00",
+    "job_id": "8139748",
+    "last_seen": "2026-10-08T23:32:33.722120+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-21",
+    "title": "Principal Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8139748"
+  },
+  "8140436": {
+    "company": "Twilio",
+    "first_seen": "2026-08-22T16:09:22.514107+00:00",
+    "job_id": "8140436",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-21",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8140436"
+  },
+  "8141644": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T00:25:47.535058+00:00",
+    "job_id": "8141644",
+    "last_seen": "2026-09-23T22:10:59.502380+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-19",
+    "title": "Senior Data and AI Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8141644"
+  },
+  "8141692": {
+    "company": "Twilio",
+    "first_seen": "2026-08-19T20:01:38.765196+00:00",
+    "job_id": "8141692",
+    "last_seen": "2026-10-08T23:32:33.722120+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-19",
+    "title": "Deal Desk Senior Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8141692"
+  },
+  "8141694": {
+    "company": "Twilio",
+    "first_seen": "2026-08-21T16:34:23.479746+00:00",
+    "job_id": "8141694",
+    "last_seen": "2026-10-01T12:47:31.238246+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-08-20",
+    "title": "Deal Desk Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8141694"
+  },
+  "8141746": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T20:36:34.134420+00:00",
+    "job_id": "8141746",
+    "last_seen": "2026-10-06T00:26:08.239227+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-20",
+    "title": "Senior Tax and Compliance Analyst (Payroll)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8141746"
+  },
+  "8142281": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T00:25:47.535058+00:00",
+    "job_id": "8142281",
+    "last_seen": "2026-09-21T22:05:43.879239+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-19",
+    "title": "Onboarding Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8142281"
+  },
+  "8143099": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T00:25:47.535058+00:00",
+    "job_id": "8143099",
+    "last_seen": "2026-08-24T21:00:42.463122+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-19",
+    "title": "Senior Executive Business Partner",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8143099"
+  },
+  "8143120": {
+    "company": "Twilio",
+    "first_seen": "2026-08-20T00:25:47.535058+00:00",
+    "job_id": "8143120",
+    "last_seen": "2026-09-23T22:10:59.502380+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-08-19",
+    "title": "Senior Data and AI Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8143120"
+  },
+  "8143768": {
+    "company": "Twilio",
+    "first_seen": "2026-08-24T13:29:07.557979+00:00",
+    "job_id": "8143768",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-24",
+    "title": "New Business Account Executive (German speaker)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8143768"
+  },
+  "8145984": {
+    "company": "Twilio",
+    "first_seen": "2026-08-24T21:00:42.463122+00:00",
+    "job_id": "8145984",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-24",
+    "title": "Principal Presales Engineer - ISV",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8145984"
+  },
+  "8153169": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T00:21:58.541164+00:00",
+    "job_id": "8153169",
+    "last_seen": "2026-09-16T20:49:57.628727+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-08-24",
+    "title": "Onboarding Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8153169"
+  },
+  "8155298": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T00:21:58.541164+00:00",
+    "job_id": "8155298",
+    "last_seen": "2026-08-30T20:14:59.103679+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-25",
+    "title": "Senior Field Enablement Business Partner",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8155298"
+  },
+  "8156362": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T20:42:35.486158+00:00",
+    "job_id": "8156362",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - Australia",
+    "posted_date": "2026-08-26",
+    "title": "Senior Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8156362"
+  },
+  "8157162": {
+    "company": "Twilio",
+    "first_seen": "2026-09-01T19:17:29.078285+00:00",
+    "job_id": "8157162",
+    "last_seen": "2026-09-15T00:58:02.036566+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-01",
+    "title": "Senior Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157162"
+  },
+  "8157164": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8157164",
+    "last_seen": "2026-09-14T01:47:27.879172+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-08",
+    "title": "Senior Manager, Accounts Payable",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157164"
+  },
+  "8157166": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T20:42:35.486158+00:00",
+    "job_id": "8157166",
+    "last_seen": "2026-08-30T20:14:59.103679+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-26",
+    "title": "Sales Support Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157166"
+  },
+  "8157344": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8157344",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-04",
+    "title": "Staff Security Engineer, Threat Hunting",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157344"
+  },
+  "8157507": {
+    "company": "Twilio",
+    "first_seen": "2026-08-27T20:31:42.976374+00:00",
+    "job_id": "8157507",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-08-27",
+    "title": "Senior Strategic Account Executive (French Speaker)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157507"
+  },
+  "8157509": {
+    "company": "Twilio",
+    "first_seen": "2026-08-30T20:14:59.103679+00:00",
+    "job_id": "8157509",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-08-28",
+    "title": "Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157509"
+  },
+  "8157707": {
+    "company": "Twilio",
+    "first_seen": "2026-08-27T20:31:42.976374+00:00",
+    "job_id": "8157707",
+    "last_seen": "2026-09-02T20:56:10.702071+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-27",
+    "title": "Senior Principal, Technical Program Management - Regulatory Compliance",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157707"
+  },
+  "8157995": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8157995",
+    "last_seen": "2026-10-06T00:26:08.239227+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-08",
+    "title": "Sales Business Partner Senior Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8157995"
+  },
+  "8160279": {
+    "company": "Twilio",
+    "first_seen": "2026-08-26T20:42:35.486158+00:00",
+    "job_id": "8160279",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-08-26",
+    "title": "Staff Enterprise Security Engineer, AI Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8160279"
+  },
+  "8160532": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T20:56:10.702071+00:00",
+    "job_id": "8160532",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-09-02",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8160532"
+  },
+  "8162071": {
+    "company": "Twilio",
+    "first_seen": "2026-09-03T20:12:21.140114+00:00",
+    "job_id": "8162071",
+    "last_seen": "2026-09-23T22:10:59.502380+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-03",
+    "title": "Customer Success Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8162071"
+  },
+  "8164465": {
+    "company": "Twilio",
+    "first_seen": "2026-09-03T20:12:21.140114+00:00",
+    "job_id": "8164465",
+    "last_seen": "2026-10-12T23:17:26.426177+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-03",
+    "title": "Account Executive 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8164465"
+  },
+  "8164891": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T18:41:54.980614+00:00",
+    "job_id": "8164891",
+    "last_seen": "2026-10-04T23:09:53.798327+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-02",
+    "title": "Senior Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8164891"
+  },
+  "8167201": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T18:41:54.980614+00:00",
+    "job_id": "8167201",
+    "last_seen": "2026-09-15T21:05:47.174175+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-09-02",
+    "title": "Financial Manager, EMEA GTM",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8167201"
+  },
+  "8168599": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8168599",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-09-05",
+    "title": "Digital Sales Representative",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8168599"
+  },
+  "8170555": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T20:56:10.702071+00:00",
+    "job_id": "8170555",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-02",
+    "title": "Partner Marketing Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8170555"
+  },
+  "8170597": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T18:41:54.980614+00:00",
+    "job_id": "8170597",
+    "last_seen": "2026-09-15T00:58:02.036566+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-09-02",
+    "title": "Software Development Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8170597"
+  },
+  "8170599": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T20:56:10.702071+00:00",
+    "job_id": "8170599",
+    "last_seen": "2026-10-02T01:29:44.264862+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-02",
+    "title": "Partner Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8170599"
+  },
+  "8170601": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8170601",
+    "last_seen": "2026-09-08T14:34:13.935106+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-07",
+    "title": "Product Data Analyst (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8170601"
+  },
+  "8171110": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T18:41:54.980614+00:00",
+    "job_id": "8171110",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-01",
+    "title": "Senior Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8171110"
+  },
+  "8171112": {
+    "company": "Twilio",
+    "first_seen": "2026-09-03T20:12:21.140114+00:00",
+    "job_id": "8171112",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-03",
+    "title": "Principal Presales Engineer, ISV HLS",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8171112"
+  },
+  "8171566": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8171566",
+    "last_seen": "2026-09-16T20:49:57.628727+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-03",
+    "title": "Product Operations Specialist L3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8171566"
+  },
+  "8172311": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8172311",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-03",
+    "title": "Senior Manager, Escalation Management",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8172311"
+  },
+  "8172315": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8172315",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-07",
+    "title": "Staff, Technical Account Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8172315"
+  },
+  "8172319": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8172319",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-07",
+    "title": "Business Intelligence Analyst 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8172319"
+  },
+  "8173554": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8173554",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-04",
+    "title": "Marketing Financial Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8173554"
+  },
+  "8173786": {
+    "company": "Twilio",
+    "first_seen": "2026-09-02T20:56:10.702071+00:00",
+    "job_id": "8173786",
+    "last_seen": "2026-09-16T20:49:57.628727+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-02",
+    "title": "Senior Manager, Sales - Twilio.org",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8173786"
+  },
+  "8175075": {
+    "company": "Twilio",
+    "first_seen": "2026-09-12T18:19:53.651602+00:00",
+    "job_id": "8175075",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Brazil; Remote - Colombia",
+    "posted_date": "2026-09-11",
+    "title": "Director, LATAM Carrier Relations",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8175075"
+  },
+  "8176810": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8176810",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-07",
+    "title": "Digital Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8176810"
+  },
+  "8177722": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8177722",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-04",
+    "title": "Account Executive 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8177722"
+  },
+  "8178588": {
+    "company": "Twilio",
+    "first_seen": "2026-09-16T20:49:57.628727+00:00",
+    "job_id": "8178588",
+    "last_seen": "2026-09-21T22:05:43.879239+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-15",
+    "title": "Machine Learning Engineer L2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8178588"
+  },
+  "8178812": {
+    "company": "Twilio",
+    "first_seen": "2026-09-08T14:34:13.935106+00:00",
+    "job_id": "8178812",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-09-08",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8178812"
+  },
+  "8180238": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8180238",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-08",
+    "title": "Principal Presales Product Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8180238"
+  },
+  "8185629": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8185629",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-09-09",
+    "title": "Senior Strategic Account Executive - SEA",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8185629"
+  },
+  "8185918": {
+    "company": "Twilio",
+    "first_seen": "2026-09-09T21:39:50.651580+00:00",
+    "job_id": "8185918",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-09-09",
+    "title": "Compliance Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8185918"
+  },
+  "8185920": {
+    "company": "Twilio",
+    "first_seen": "2026-09-10T20:57:49.371972+00:00",
+    "job_id": "8185920",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-09",
+    "title": "Vendor Operations & Governance Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8185920"
+  },
+  "8189769": {
+    "company": "Twilio",
+    "first_seen": "2026-09-15T21:05:47.174175+00:00",
+    "job_id": "8189769",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-15",
+    "title": "Sr. Marketing Strategy and Analytics Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8189769"
+  },
+  "8190719": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8190719",
+    "last_seen": "2026-10-08T23:32:33.722120+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Manager, Carrier Operations & Governance",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8190719"
+  },
+  "8190721": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8190721",
+    "last_seen": "2026-10-07T21:58:53.304988+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-05",
+    "title": "Program Manager, Carrier Operations & Governance",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8190721"
+  },
+  "8190889": {
+    "company": "Twilio",
+    "first_seen": "2026-09-16T20:49:57.628727+00:00",
+    "job_id": "8190889",
+    "last_seen": "2026-09-18T19:57:54.821712+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-16",
+    "title": "Software Engineer Intern (January 12th start, 23 weeks)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8190889"
+  },
+  "8195222": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8195222",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Australia; Remote - Japan",
+    "posted_date": "2026-09-29",
+    "title": "Director, Supplier Relations APAC",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8195222"
+  },
+  "8196096": {
+    "company": "Twilio",
+    "first_seen": "2026-09-14T22:23:52.115632+00:00",
+    "job_id": "8196096",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-09-14",
+    "title": "Financial Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8196096"
+  },
+  "8197328": {
+    "company": "Twilio",
+    "first_seen": "2026-09-27T15:48:19.394356+00:00",
+    "job_id": "8197328",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-25",
+    "title": "Compliance Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8197328"
+  },
+  "8197775": {
+    "company": "Twilio",
+    "first_seen": "2026-09-12T18:19:53.651602+00:00",
+    "job_id": "8197775",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-11",
+    "title": "Principal PR Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8197775"
+  },
+  "8201128": {
+    "company": "Twilio",
+    "first_seen": "2026-09-15T21:05:47.174175+00:00",
+    "job_id": "8201128",
+    "last_seen": "2026-09-24T23:56:22.295066+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-15",
+    "title": "Marketing Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8201128"
+  },
+  "8201498": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8201498",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-30",
+    "title": "Technical Account Manager 3",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8201498"
+  },
+  "8201630": {
+    "company": "Twilio",
+    "first_seen": "2026-09-28T21:51:22.202701+00:00",
+    "job_id": "8201630",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-28",
+    "title": "Technical Account Manager 4",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8201630"
+  },
+  "8201677": {
+    "company": "Twilio",
+    "first_seen": "2026-09-14T22:23:52.115632+00:00",
+    "job_id": "8201677",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-09-14",
+    "title": "Senior Manager, New Business DACH & Benelux",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8201677"
+  },
+  "8202189": {
+    "company": "Twilio",
+    "first_seen": "2026-09-15T21:05:47.174175+00:00",
+    "job_id": "8202189",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-15",
+    "title": "Senior People Technology Analyst - Talent Acquisition",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8202189"
+  },
+  "8204150": {
+    "company": "Twilio",
+    "first_seen": "2026-09-16T20:49:57.628727+00:00",
+    "job_id": "8204150",
+    "last_seen": "2026-10-06T23:02:51.708716+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-16",
+    "title": "Senior Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8204150"
+  },
+  "8204152": {
+    "company": "Twilio",
+    "first_seen": "2026-09-16T20:49:57.628727+00:00",
+    "job_id": "8204152",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-16",
+    "title": "Emerging Fraud Researcher",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8204152"
+  },
+  "8204351": {
+    "company": "Twilio",
+    "first_seen": "2026-09-15T21:05:47.174175+00:00",
+    "job_id": "8204351",
+    "last_seen": "2026-09-27T15:48:19.394356+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-15",
+    "title": "Senior Engineering Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8204351"
+  },
+  "8204407": {
+    "company": "Twilio",
+    "first_seen": "2026-09-22T22:36:06.064746+00:00",
+    "job_id": "8204407",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-09-22",
+    "title": "Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8204407"
+  },
+  "8205254": {
+    "company": "Twilio",
+    "first_seen": "2026-09-16T20:49:57.628727+00:00",
+    "job_id": "8205254",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-16",
+    "title": "Digital Sales Representative - Activate",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8205254"
+  },
+  "8206834": {
+    "company": "Twilio",
+    "first_seen": "2026-09-17T20:56:37.961123+00:00",
+    "job_id": "8206834",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-17",
+    "title": "Technical Support Expert 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8206834"
+  },
+  "8207696": {
+    "company": "Twilio",
+    "first_seen": "2026-09-25T19:43:54.503892+00:00",
+    "job_id": "8207696",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-09-25",
+    "title": "Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8207696"
+  },
+  "8207721": {
+    "company": "Twilio",
+    "first_seen": "2026-09-22T22:36:06.064746+00:00",
+    "job_id": "8207721",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Spain",
+    "posted_date": "2026-09-22",
+    "title": "Staff, Escalations Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8207721"
+  },
+  "8208126": {
+    "company": "Twilio",
+    "first_seen": "2026-09-17T20:56:37.961123+00:00",
+    "job_id": "8208126",
+    "last_seen": "2026-10-07T21:58:53.304988+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-09-17",
+    "title": "Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8208126"
+  },
+  "8208337": {
+    "company": "Twilio",
+    "first_seen": "2026-09-17T20:56:37.961123+00:00",
+    "job_id": "8208337",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-16",
+    "title": "Executive Communications Director, Chief Product & Technology Officer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8208337"
+  },
+  "8209103": {
+    "company": "Twilio",
+    "first_seen": "2026-09-17T20:56:37.961123+00:00",
+    "job_id": "8209103",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-17",
+    "title": "GTM Innovation Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8209103"
+  },
+  "8213541": {
+    "company": "Twilio",
+    "first_seen": "2026-09-21T22:05:43.879239+00:00",
+    "job_id": "8213541",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-18",
+    "title": "Onboarding Operations Tech Lead",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8213541"
+  },
+  "8213730": {
+    "company": "Twilio",
+    "first_seen": "2026-09-23T22:10:59.502380+00:00",
+    "job_id": "8213730",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-23",
+    "title": "Personalized Support Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8213730"
+  },
+  "8213826": {
+    "company": "Twilio",
+    "first_seen": "2026-09-21T22:05:43.879239+00:00",
+    "job_id": "8213826",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Australia",
+    "posted_date": "2026-09-21",
+    "title": "Senior Manager, Customer Success",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8213826"
+  },
+  "8213861": {
+    "company": "Twilio",
+    "first_seen": "2026-09-18T19:57:54.821712+00:00",
+    "job_id": "8213861",
+    "last_seen": "2026-09-28T21:51:22.202701+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-09-18",
+    "title": "Software Architect - Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8213861"
+  },
+  "8223581": {
+    "company": "Twilio",
+    "first_seen": "2026-09-25T19:43:54.503892+00:00",
+    "job_id": "8223581",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-23",
+    "title": "Manager, Personalized Support",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8223581"
+  },
+  "8226528": {
+    "company": "Twilio",
+    "first_seen": "2026-09-24T23:56:22.295066+00:00",
+    "job_id": "8226528",
+    "last_seen": "2026-09-29T20:27:59.316774+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-24",
+    "title": "Executive Business Partner",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8226528"
+  },
+  "8226571": {
+    "company": "Twilio",
+    "first_seen": "2026-09-27T15:48:19.394356+00:00",
+    "job_id": "8226571",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Colombia",
+    "posted_date": "2026-09-25",
+    "title": "Technical Support Expert 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8226571"
+  },
+  "8227365": {
+    "company": "Twilio",
+    "first_seen": "2026-09-23T22:10:59.502380+00:00",
+    "job_id": "8227365",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-23",
+    "title": "Senior Manager, Developer Evangelism Americas",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8227365"
+  },
+  "8231571": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8231571",
+    "last_seen": "2026-10-06T23:02:51.708716+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-09-30",
+    "title": "Phone Numbers Operations Specialist L2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8231571"
+  },
+  "8235979": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8235979",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Estonia",
+    "posted_date": "2026-09-30",
+    "title": "Phone Number Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8235979"
+  },
+  "8236862": {
+    "company": "Twilio",
+    "first_seen": "2026-10-04T23:09:53.798327+00:00",
+    "job_id": "8236862",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-02",
+    "title": "Principal Product Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8236862"
+  },
+  "8236865": {
+    "company": "Twilio",
+    "first_seen": "2026-10-06T23:02:51.708716+00:00",
+    "job_id": "8236865",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-06",
+    "title": "Staff Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8236865"
+  },
+  "8237699": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8237699",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-30",
+    "title": "Principal Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8237699"
+  },
+  "8239751": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8239751",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-05",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8239751"
+  },
+  "8240288": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8240288",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-09-29",
+    "title": "Staff Software Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8240288"
+  },
+  "8240491": {
+    "company": "Twilio",
+    "first_seen": "2026-10-02T01:29:44.264862+00:00",
+    "job_id": "8240491",
+    "last_seen": "2026-10-12T02:14:43.946226+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-01",
+    "title": "Principal, R&D Strategy & Operations",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8240491"
+  },
+  "8240694": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8240694",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-29",
+    "title": "Carrier Deal Desk Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8240694"
+  },
+  "8241250": {
+    "company": "Twilio",
+    "first_seen": "2026-10-01T12:47:31.238246+00:00",
+    "job_id": "8241250",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-09-29",
+    "title": "Strategic Account Executive 5",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8241250"
+  },
+  "8243069": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8243069",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-10-09",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8243069"
+  },
+  "8243073": {
+    "company": "Twilio",
+    "first_seen": "2026-10-04T23:09:53.798327+00:00",
+    "job_id": "8243073",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-10-02",
+    "title": "Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8243073"
+  },
+  "8244723": {
+    "company": "Twilio",
+    "first_seen": "2026-10-02T01:29:44.264862+00:00",
+    "job_id": "8244723",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-01",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8244723"
+  },
+  "8245812": {
+    "company": "Twilio",
+    "first_seen": "2026-10-02T01:29:44.264862+00:00",
+    "job_id": "8245812",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-01",
+    "title": "Senior Partner Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8245812"
+  },
+  "8247182": {
+    "company": "Twilio",
+    "first_seen": "2026-10-13T21:26:55.822495+00:00",
+    "job_id": "8247182",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-13",
+    "title": "Software Engineer (L2) Messaging Channels Team",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8247182"
+  },
+  "8247286": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8247286",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-08",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8247286"
+  },
+  "8249194": {
+    "company": "Twilio",
+    "first_seen": "2026-10-04T23:09:53.798327+00:00",
+    "job_id": "8249194",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-02",
+    "title": "Senior Presales Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8249194"
+  },
+  "8249285": {
+    "company": "Twilio",
+    "first_seen": "2026-10-04T23:09:53.798327+00:00",
+    "job_id": "8249285",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-02",
+    "title": "Senior International Payroll Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8249285"
+  },
+  "8249569": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8249569",
+    "last_seen": "2026-10-07T21:58:53.304988+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-05",
+    "title": "Senior Executive Business Partner",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8249569"
+  },
+  "8256114": {
+    "company": "Twilio",
+    "first_seen": "2026-10-05T22:15:08.609945+00:00",
+    "job_id": "8256114",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-05",
+    "title": "Senior Financial Manager, Partnerships",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256114"
+  },
+  "8256373": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8256373",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "Inside Sales - Representative (Active) 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256373"
+  },
+  "8256423": {
+    "company": "Twilio",
+    "first_seen": "2026-10-06T23:02:51.708716+00:00",
+    "job_id": "8256423",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-10-06",
+    "title": "People Generalist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256423"
+  },
+  "8256427": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8256427",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-09",
+    "title": "Senior Internal Auditor",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256427"
+  },
+  "8256431": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8256431",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-09",
+    "title": "People Generalist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256431"
+  },
+  "8256912": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8256912",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-10-09",
+    "title": "Senior Internal Auditor",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256912"
+  },
+  "8258587": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8258587",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-08",
+    "title": "Machine Learning Engineer (L3)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8258587"
+  },
+  "8258593": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8258593",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-08",
+    "title": "Staff Machine Learning Engineer (L4)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8258593"
+  },
+  "8258597": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8258597",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-08",
+    "title": "Principal, Machine Learning Engineer (L5)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8258597"
+  },
+  "8258962": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8258962",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-08",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8258962"
+  },
+  "8261245": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8261245",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-10-07",
+    "title": "Billing Operations Analyst 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261245"
+  },
+  "8261247": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T23:17:26.426177+00:00",
+    "job_id": "8261247",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Mexico",
+    "posted_date": "2026-10-12",
+    "title": "Senior Manager, Accounting",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261247"
+  },
+  "8261279": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8261279",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-08",
+    "title": "Onboarding Operations Specialist 1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261279"
+  },
+  "8261442": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8261442",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-08",
+    "title": "Senior Learning Experience Designer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261442"
+  },
+  "8261528": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8261528",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-09",
+    "title": "Sales Development Representative",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261528"
+  },
+  "8261705": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T23:17:26.426177+00:00",
+    "job_id": "8261705",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-12",
+    "title": "Strategic Account Executive 4 - Regverts",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261705"
+  },
+  "8261710": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T23:17:26.426177+00:00",
+    "job_id": "8261710",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Ireland",
+    "posted_date": "2026-10-12",
+    "title": "Technical Support Engineer 2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8261710"
+  },
+  "8262150": {
+    "company": "Twilio",
+    "first_seen": "2026-10-07T21:58:53.304988+00:00",
+    "job_id": "8262150",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-07",
+    "title": "Sr. Program Manager, Talent Development",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8262150"
+  },
+  "8262189": {
+    "company": "Twilio",
+    "first_seen": "2026-10-13T21:26:55.822495+00:00",
+    "job_id": "8262189",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-10-13",
+    "title": "Presales Architect",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8262189"
+  },
+  "8262955": {
+    "company": "Twilio",
+    "first_seen": "2026-10-13T21:26:55.822495+00:00",
+    "job_id": "8262955",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Singapore",
+    "posted_date": "2026-10-12",
+    "title": "Senior Global Campaigns Strategist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8262955"
+  },
+  "8263280": {
+    "company": "Twilio",
+    "first_seen": "2026-10-08T23:32:33.722120+00:00",
+    "job_id": "8263280",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Canada",
+    "posted_date": "2026-10-07",
+    "title": "Program Manager, Carrier Operations & Governance",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8263280"
+  },
+  "8266068": {
+    "company": "Twilio",
+    "first_seen": "2026-10-13T21:26:55.822495+00:00",
+    "job_id": "8266068",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-13",
+    "title": "Sales Operations Planning Analyst",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8266068"
+  },
+  "8266975": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8266975",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - US",
+    "posted_date": "2026-10-09",
+    "title": "Developer Success Engineer",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8266975"
+  },
+  "8267554": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8267554",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - India",
+    "posted_date": "2026-10-09",
+    "title": "Senior Manager, Software Engineering (L5)",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8267554"
+  },
+  "8267928": {
+    "company": "Twilio",
+    "first_seen": "2026-10-12T02:14:43.946226+00:00",
+    "job_id": "8267928",
+    "last_seen": "2026-10-13T21:26:55.822495+00:00",
+    "location": "Remote - Brazil",
+    "posted_date": "2026-10-09",
+    "title": "Principal Presales Engineer, Product Specialist",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8267928"
+  }
+}

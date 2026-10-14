@@ -1,0 +1,532 @@
+{
+  "account-executive-enterprise-west--sales--united-states-remote": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "account-executive-enterprise-west--sales--united-states-remote",
+    "last_seen": "2026-08-26T00:19:38.879902+00:00",
+    "location": "united states remote",
+    "posted_date": null,
+    "title": "account executive enterprise west",
+    "url": "https://retool.com/careers/account-executive-enterprise-west--sales--united-states-remote"
+  },
+  "application-security-engineer--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "application-security-engineer--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-02T01:25:43.092186+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "application security engineer",
+    "url": "https://retool.com/careers/application-security-engineer--engineering--san-francisco-united-states"
+  },
+  "business-development-representative--sales-development--salt-lake-city-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "business-development-representative--sales-development--salt-lake-city-united-states",
+    "last_seen": "2026-09-14T01:45:41.854289+00:00",
+    "location": "salt lake city united states",
+    "posted_date": null,
+    "title": "business development representative",
+    "url": "https://retool.com/careers/business-development-representative--sales-development--salt-lake-city-united-states"
+  },
+  "business-operations-manager--business-operations--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "business-operations-manager--business-operations--san-francisco-united-states",
+    "last_seen": "2026-08-26T20:40:31.196777+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "business operations manager",
+    "url": "https://retool.com/careers/business-operations-manager--business-operations--san-francisco-united-states"
+  },
+  "data-scientist--data-science-analytics--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "data-scientist--data-science-analytics--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "data scientist",
+    "url": "https://retool.com/careers/data-scientist--data-science-analytics--san-francisco-united-states"
+  },
+  "director-business-operations--business-operations--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-20T00:23:57.782792+00:00",
+    "job_id": "director-business-operations--business-operations--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "director business operations",
+    "url": "https://retool.com/careers/director-business-operations--business-operations--san-francisco-united-states"
+  },
+  "director-professional-services-gfs--success--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "director-professional-services-gfs--success--london-united-kingdom",
+    "last_seen": "2026-08-27T20:29:33.138484+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "director professional services gfs",
+    "url": "https://retool.com/careers/director-professional-services-gfs--success--london-united-kingdom"
+  },
+  "director-strategic-alliances--sales--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "director-strategic-alliances--sales--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "director strategic alliances",
+    "url": "https://retool.com/careers/director-strategic-alliances--sales--san-francisco-united-states"
+  },
+  "engineering-manager-enterprise-platform---engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-10-07T21:57:17.187494+00:00",
+    "job_id": "engineering-manager-enterprise-platform---engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "engineering manager enterprise platform",
+    "url": "https://retool.com/careers/engineering-manager-enterprise-platform---engineering--san-francisco-united-states"
+  },
+  "enterprise-account-executive-emea--sales--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "enterprise-account-executive-emea--sales--london-united-kingdom",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "enterprise account executive emea",
+    "url": "https://retool.com/careers/enterprise-account-executive-emea--sales--london-united-kingdom"
+  },
+  "hr-business-partner-emea--people--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-10-04T23:05:48.729136+00:00",
+    "job_id": "hr-business-partner-emea--people--london-united-kingdom",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "hr business partner emea",
+    "url": "https://retool.com/careers/hr-business-partner-emea--people--london-united-kingdom"
+  },
+  "it-engineer--it---san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "it-engineer--it---san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "it engineer",
+    "url": "https://retool.com/careers/it-engineer--it---san-francisco-united-states"
+  },
+  "manager-solutions-architecture--professional-services--new-york-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "manager-solutions-architecture--professional-services--new-york-united-states",
+    "last_seen": "2026-08-18T00:41:22.493707+00:00",
+    "location": "new york united states",
+    "posted_date": null,
+    "title": "manager solutions architecture",
+    "url": "https://retool.com/careers/manager-solutions-architecture--professional-services--new-york-united-states"
+  },
+  "principal-solutions-architect---professional-services--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "principal-solutions-architect---professional-services--london-united-kingdom",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "principal solutions architect",
+    "url": "https://retool.com/careers/principal-solutions-architect---professional-services--london-united-kingdom"
+  },
+  "principal-solutions-architect--professional-services--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "principal-solutions-architect--professional-services--san-francisco-united-states",
+    "last_seen": "2026-08-26T20:40:31.196777+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "principal solutions architect",
+    "url": "https://retool.com/careers/principal-solutions-architect--professional-services--san-francisco-united-states"
+  },
+  "product-manager-ai-monetization-expansion--product--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-24T23:52:15.026958+00:00",
+    "job_id": "product-manager-ai-monetization-expansion--product--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "product manager ai monetization expansion",
+    "url": "https://retool.com/careers/product-manager-ai-monetization-expansion--product--san-francisco-united-states"
+  },
+  "product-manager-ai-platform-infrastructure--product--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-09T21:37:42.836981+00:00",
+    "job_id": "product-manager-ai-platform-infrastructure--product--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "product manager ai platform infrastructure",
+    "url": "https://retool.com/careers/product-manager-ai-platform-infrastructure--product--san-francisco-united-states"
+  },
+  "product-manager-integration-platform-partnerships--product--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-14T22:21:53.001913+00:00",
+    "job_id": "product-manager-integration-platform-partnerships--product--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "product manager integration platform partnerships",
+    "url": "https://retool.com/careers/product-manager-integration-platform-partnerships--product--san-francisco-united-states"
+  },
+  "product-security-engineer--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-10-04T23:05:48.729136+00:00",
+    "job_id": "product-security-engineer--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "product security engineer",
+    "url": "https://retool.com/careers/product-security-engineer--engineering--san-francisco-united-states"
+  },
+  "scaled-customer-programs-engineer--success--united-states-remote": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "scaled-customer-programs-engineer--success--united-states-remote",
+    "last_seen": "2026-08-24T20:58:35.964852+00:00",
+    "location": "united states remote",
+    "posted_date": null,
+    "title": "scaled customer programs engineer",
+    "url": "https://retool.com/careers/scaled-customer-programs-engineer--success--united-states-remote"
+  },
+  "scaled-customer-programs-engineer-copy--success--united-states-remote": {
+    "company": "Retool",
+    "first_seen": "2026-08-13T00:16:24.714757+00:00",
+    "job_id": "scaled-customer-programs-engineer-copy--success--united-states-remote",
+    "last_seen": "2026-08-13T18:23:26.800937+00:00",
+    "location": "united states remote",
+    "posted_date": null,
+    "title": "scaled customer programs engineer copy",
+    "url": "https://retool.com/careers/scaled-customer-programs-engineer-copy--success--united-states-remote"
+  },
+  "senior-accountant--finance--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-accountant--finance--san-francisco-united-states",
+    "last_seen": "2026-08-24T20:58:35.964852+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "senior accountant",
+    "url": "https://retool.com/careers/senior-accountant--finance--san-francisco-united-states"
+  },
+  "senior-business-development-representative--sales-development--salt-lake-city-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-business-development-representative--sales-development--salt-lake-city-united-states",
+    "last_seen": "2026-09-14T01:45:41.854289+00:00",
+    "location": "salt lake city united states",
+    "posted_date": null,
+    "title": "senior business development representative",
+    "url": "https://retool.com/careers/senior-business-development-representative--sales-development--salt-lake-city-united-states"
+  },
+  "senior-community-support-engineer--support--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-community-support-engineer--support--san-francisco-united-states",
+    "last_seen": "2026-08-16T23:47:02.522385+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "senior community support engineer",
+    "url": "https://retool.com/careers/senior-community-support-engineer--support--san-francisco-united-states"
+  },
+  "senior-enterprise-sales-engineer---success--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-enterprise-sales-engineer---success--london-united-kingdom",
+    "last_seen": "2026-09-14T01:45:41.854289+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "senior enterprise sales engineer",
+    "url": "https://retool.com/careers/senior-enterprise-sales-engineer---success--london-united-kingdom"
+  },
+  "senior-manager-events-field-marketing--marketing--united-states-remote": {
+    "company": "Retool",
+    "first_seen": "2026-08-11T20:14:32.373948+00:00",
+    "job_id": "senior-manager-events-field-marketing--marketing--united-states-remote",
+    "last_seen": "2026-10-08T23:30:57.554342+00:00",
+    "location": "united states remote",
+    "posted_date": null,
+    "title": "senior manager events field marketing",
+    "url": "https://retool.com/careers/senior-manager-events-field-marketing--marketing--united-states-remote"
+  },
+  "senior-product-manager-enterprise-platform--product--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-product-manager-enterprise-platform--product--san-francisco-united-states",
+    "last_seen": "2026-09-08T14:32:08.319425+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "senior product manager enterprise platform",
+    "url": "https://retool.com/careers/senior-product-manager-enterprise-platform--product--san-francisco-united-states"
+  },
+  "senior-ux-researcher--design--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "senior-ux-researcher--design--san-francisco-united-states",
+    "last_seen": "2026-08-13T14:23:55.235496+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "senior ux researcher",
+    "url": "https://retool.com/careers/senior-ux-researcher--design--san-francisco-united-states"
+  },
+  "service-delivery-manager--professional-services--new-york-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "service-delivery-manager--professional-services--new-york-united-states",
+    "last_seen": "2026-08-24T13:27:11.141461+00:00",
+    "location": "new york united states",
+    "posted_date": null,
+    "title": "service delivery manager",
+    "url": "https://retool.com/careers/service-delivery-manager--professional-services--new-york-united-states"
+  },
+  "site-reliability-engineer-sre--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "site-reliability-engineer-sre--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "site reliability engineer sre",
+    "url": "https://retool.com/careers/site-reliability-engineer-sre--engineering--san-francisco-united-states"
+  },
+  "software-engineer--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer",
+    "url": "https://retool.com/careers/software-engineer--engineering--san-francisco-united-states"
+  },
+  "software-engineer-agent-platform--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-23T22:36:52.795564+00:00",
+    "job_id": "software-engineer-agent-platform--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer agent platform",
+    "url": "https://retool.com/careers/software-engineer-agent-platform--engineering--san-francisco-united-states"
+  },
+  "software-engineer-ai-governance--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-10-08T23:30:57.554342+00:00",
+    "job_id": "software-engineer-ai-governance--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer ai governance",
+    "url": "https://retool.com/careers/software-engineer-ai-governance--engineering--san-francisco-united-states"
+  },
+  "software-engineer-ai-product-engineer---engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-ai-product-engineer---engineering--san-francisco-united-states",
+    "last_seen": "2026-08-20T20:34:32.268740+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer ai product engineer",
+    "url": "https://retool.com/careers/software-engineer-ai-product-engineer---engineering--san-francisco-united-states"
+  },
+  "software-engineer-apps--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-08T14:32:08.319425+00:00",
+    "job_id": "software-engineer-apps--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer apps",
+    "url": "https://retool.com/careers/software-engineer-apps--engineering--san-francisco-united-states"
+  },
+  "software-engineer-apps-builder-experience--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-apps-builder-experience--engineering--san-francisco-united-states",
+    "last_seen": "2026-09-03T20:10:04.305595+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer apps builder experience",
+    "url": "https://retool.com/careers/software-engineer-apps-builder-experience--engineering--san-francisco-united-states"
+  },
+  "software-engineer-automations--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-23T22:36:52.795564+00:00",
+    "job_id": "software-engineer-automations--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer automations",
+    "url": "https://retool.com/careers/software-engineer-automations--engineering--san-francisco-united-states"
+  },
+  "software-engineer-cloud-platform--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-cloud-platform--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer cloud platform",
+    "url": "https://retool.com/careers/software-engineer-cloud-platform--engineering--san-francisco-united-states"
+  },
+  "software-engineer-core-services--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-core-services--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer core services",
+    "url": "https://retool.com/careers/software-engineer-core-services--engineering--san-francisco-united-states"
+  },
+  "software-engineer-enterprise-expansion--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-enterprise-expansion--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer enterprise expansion",
+    "url": "https://retool.com/careers/software-engineer-enterprise-expansion--engineering--san-francisco-united-states"
+  },
+  "software-engineer-governance--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-governance--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-07T21:57:17.187494+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer governance",
+    "url": "https://retool.com/careers/software-engineer-governance--engineering--san-francisco-united-states"
+  },
+  "software-engineer-observability--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-observability--engineering--san-francisco-united-states",
+    "last_seen": "2026-08-20T20:34:32.268740+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer observability",
+    "url": "https://retool.com/careers/software-engineer-observability--engineering--san-francisco-united-states"
+  },
+  "software-engineer-resources--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "software-engineer-resources--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer resources",
+    "url": "https://retool.com/careers/software-engineer-resources--engineering--san-francisco-united-states"
+  },
+  "software-engineer-sandbox-agent-executor--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-09-23T22:36:52.795564+00:00",
+    "job_id": "software-engineer-sandbox-agent-executor--engineering--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "software engineer sandbox agent executor",
+    "url": "https://retool.com/careers/software-engineer-sandbox-agent-executor--engineering--san-francisco-united-states"
+  },
+  "solutions-architect--professional-services--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "solutions-architect--professional-services--san-francisco-united-states",
+    "last_seen": "2026-08-26T00:19:38.879902+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "solutions architect",
+    "url": "https://retool.com/careers/solutions-architect--professional-services--san-francisco-united-states"
+  },
+  "staff-copywriter--design--united-states-remote": {
+    "company": "Retool",
+    "first_seen": "2026-08-26T00:19:38.879902+00:00",
+    "job_id": "staff-copywriter--design--united-states-remote",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "united states remote",
+    "posted_date": null,
+    "title": "staff copywriter",
+    "url": "https://retool.com/careers/staff-copywriter--design--united-states-remote"
+  },
+  "staff-product-manager-automation--product--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "staff-product-manager-automation--product--san-francisco-united-states",
+    "last_seen": "2026-08-31T22:04:05.346505+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "staff product manager automation",
+    "url": "https://retool.com/careers/staff-product-manager-automation--product--san-francisco-united-states"
+  },
+  "strategic-customer-success-manager--success--london-united-kingdom": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "strategic-customer-success-manager--success--london-united-kingdom",
+    "last_seen": "2026-09-03T20:10:04.305595+00:00",
+    "location": "london united kingdom",
+    "posted_date": null,
+    "title": "strategic customer success manager",
+    "url": "https://retool.com/careers/strategic-customer-success-manager--success--london-united-kingdom"
+  },
+  "strategic-customer-success-manager--success--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "strategic-customer-success-manager--success--san-francisco-united-states",
+    "last_seen": "2026-09-03T20:10:04.305595+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "strategic customer success manager",
+    "url": "https://retool.com/careers/strategic-customer-success-manager--success--san-francisco-united-states"
+  },
+  "support-engineer--support--new-york-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "support-engineer--support--new-york-united-states",
+    "last_seen": "2026-09-14T01:45:41.854289+00:00",
+    "location": "new york united states",
+    "posted_date": null,
+    "title": "support engineer",
+    "url": "https://retool.com/careers/support-engineer--support--new-york-united-states"
+  },
+  "technical-program-management-lead--engineering--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "technical-program-management-lead--engineering--san-francisco-united-states",
+    "last_seen": "2026-08-21T18:46:46.488217+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "technical program management lead",
+    "url": "https://retool.com/careers/technical-program-management-lead--engineering--san-francisco-united-states"
+  },
+  "technical-recruiter--recruiting--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-07T01:43:09.913284+00:00",
+    "job_id": "technical-recruiter--recruiting--san-francisco-united-states",
+    "last_seen": "2026-08-26T20:40:31.196777+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "technical recruiter",
+    "url": "https://retool.com/careers/technical-recruiter--recruiting--san-francisco-united-states"
+  },
+  "ux-research-manager--design--san-francisco-united-states": {
+    "company": "Retool",
+    "first_seen": "2026-08-13T18:23:26.800937+00:00",
+    "job_id": "ux-research-manager--design--san-francisco-united-states",
+    "last_seen": "2026-10-13T21:25:18.363371+00:00",
+    "location": "san francisco united states",
+    "posted_date": null,
+    "title": "ux research manager",
+    "url": "https://retool.com/careers/ux-research-manager--design--san-francisco-united-states"
+  }
+}

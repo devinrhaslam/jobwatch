@@ -1,0 +1,302 @@
+{
+  "0b2a4106-7f01-4205-813d-81e4fa1abdb4": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "0b2a4106-7f01-4205-813d-81e4fa1abdb4",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "IN Remote India",
+    "posted_date": "2026-02-16",
+    "title": "Staff Software Engineer I - SRE",
+    "url": "https://jobs.ashbyhq.com/confluent/0b2a4106-7f01-4205-813d-81e4fa1abdb4"
+  },
+  "0b65c19f-c804-4f79-b1e3-c3ea035c3d76": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "0b65c19f-c804-4f79-b1e3-c3ea035c3d76",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Boston, Massachusetts, Chicago, Illinois, Remote, North Carolina, Dallas, Texas, Portland, Oregon",
+    "posted_date": "2026-05-07",
+    "title": "Senior Software Engineer II",
+    "url": "https://jobs.ashbyhq.com/confluent/0b65c19f-c804-4f79-b1e3-c3ea035c3d76"
+  },
+  "1946b144-eaa5-482f-b235-63cc06104ecc": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "1946b144-eaa5-482f-b235-63cc06104ecc",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States, Remote, California, Remote, New York",
+    "posted_date": "2026-02-27",
+    "title": "Senior Product Manager, Cloud Networking",
+    "url": "https://jobs.ashbyhq.com/confluent/1946b144-eaa5-482f-b235-63cc06104ecc"
+  },
+  "21082b9f-440a-4ba6-a469-c70d339d1aa9": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "21082b9f-440a-4ba6-a469-c70d339d1aa9",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States, Remote, California, Remote, New York",
+    "posted_date": "2026-02-24",
+    "title": "Senior Product Manager, Kafka Connect",
+    "url": "https://jobs.ashbyhq.com/confluent/21082b9f-440a-4ba6-a469-c70d339d1aa9"
+  },
+  "39143513-ad4c-41fb-86ed-b939a66e53d2": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "39143513-ad4c-41fb-86ed-b939a66e53d2",
+    "last_seen": "2026-09-27T15:40:13.017761+00:00",
+    "location": "Remote, United States, Remote, Texas",
+    "posted_date": "2026-07-10",
+    "title": "Staff Security Risk & Compliance Program Manager - Access Management",
+    "url": "https://jobs.ashbyhq.com/confluent/39143513-ad4c-41fb-86ed-b939a66e53d2"
+  },
+  "4218f1c2-3679-4aff-a458-20ef09817fc4": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "4218f1c2-3679-4aff-a458-20ef09817fc4",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "CA Remote Ontario, Remote, British Columbia, Canada",
+    "posted_date": "2026-06-03",
+    "title": "Senior Software Engineer - Infrastructure",
+    "url": "https://jobs.ashbyhq.com/confluent/4218f1c2-3679-4aff-a458-20ef09817fc4"
+  },
+  "46f3f467-8728-47b4-8fad-06e18ffbe552": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "46f3f467-8728-47b4-8fad-06e18ffbe552",
+    "last_seen": "2026-09-27T15:40:13.017761+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Senior Manager, Detection & Response (Security Engineering)",
+    "url": "https://jobs.ashbyhq.com/confluent/46f3f467-8728-47b4-8fad-06e18ffbe552"
+  },
+  "47920ccd-db54-4ed4-a865-70857e865fff": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "47920ccd-db54-4ed4-a865-70857e865fff",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States, Remote, Texas, Remote, North Carolina, Remote, Massachusetts, Remote, New York",
+    "posted_date": "2026-07-21",
+    "title": "Distributed Systems Software Engineer - WarpStream",
+    "url": "https://jobs.ashbyhq.com/confluent/47920ccd-db54-4ed4-a865-70857e865fff"
+  },
+  "5b5790ab-8603-4613-b493-be21ea975f3d": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "5b5790ab-8603-4613-b493-be21ea975f3d",
+    "last_seen": "2026-09-03T20:04:43.321657+00:00",
+    "location": "*Job Posting Only: USA1",
+    "posted_date": "2026-05-04",
+    "title": "Senior Software Engineer II, Kora Compute",
+    "url": "https://jobs.ashbyhq.com/confluent/5b5790ab-8603-4613-b493-be21ea975f3d"
+  },
+  "69b37f70-0978-472e-86a9-2d19ba70820f": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "69b37f70-0978-472e-86a9-2d19ba70820f",
+    "last_seen": "2026-09-22T22:29:14.681652+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-05-28",
+    "title": "Senior Product Manager, Developer Experience",
+    "url": "https://jobs.ashbyhq.com/confluent/69b37f70-0978-472e-86a9-2d19ba70820f"
+  },
+  "70c593c1-96db-4f99-8e72-39d454ffec6c": {
+    "company": "Confluent",
+    "first_seen": "2026-08-12T16:45:59.221229+00:00",
+    "job_id": "70c593c1-96db-4f99-8e72-39d454ffec6c",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-02-18",
+    "title": "Principal Engineer I, Governance",
+    "url": "https://jobs.ashbyhq.com/confluent/70c593c1-96db-4f99-8e72-39d454ffec6c"
+  },
+  "7ea0f7ad-2445-4fac-a33c-fbfc164d5181": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "7ea0f7ad-2445-4fac-a33c-fbfc164d5181",
+    "last_seen": "2026-08-27T20:24:46.024646+00:00",
+    "location": "IN Remote India",
+    "posted_date": "2026-02-09",
+    "title": "Staff Security Engineer II",
+    "url": "https://jobs.ashbyhq.com/confluent/7ea0f7ad-2445-4fac-a33c-fbfc164d5181"
+  },
+  "80a47c3e-a160-4277-a452-1eef9c689167": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "80a47c3e-a160-4277-a452-1eef9c689167",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Mountain View, California, New York, New York",
+    "posted_date": "2026-07-22",
+    "title": "Staff Software Engineer",
+    "url": "https://jobs.ashbyhq.com/confluent/80a47c3e-a160-4277-a452-1eef9c689167"
+  },
+  "81b94a4e-53d3-40d5-9c04-af57bd01961c": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "81b94a4e-53d3-40d5-9c04-af57bd01961c",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States, Remote, Washington",
+    "posted_date": "2026-04-30",
+    "title": "Staff Product Manager, Real Time Data Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/confluent/81b94a4e-53d3-40d5-9c04-af57bd01961c"
+  },
+  "85107937-8f12-4336-abb8-e88f344c6bcc": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "85107937-8f12-4336-abb8-e88f344c6bcc",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-05-13",
+    "title": "Principal Engineer, Engineering AI Productivity",
+    "url": "https://jobs.ashbyhq.com/confluent/85107937-8f12-4336-abb8-e88f344c6bcc"
+  },
+  "856698ca-f3cc-4ccd-986a-c57e7ef9e574": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "856698ca-f3cc-4ccd-986a-c57e7ef9e574",
+    "last_seen": "2026-08-24T20:54:30.486059+00:00",
+    "location": "Seattle, Washington, Remote, California, Remote, United States",
+    "posted_date": "2026-03-19",
+    "title": "Senior Software Engineer II",
+    "url": "https://jobs.ashbyhq.com/confluent/856698ca-f3cc-4ccd-986a-c57e7ef9e574"
+  },
+  "8606dc2b-3ad7-4423-9cbb-c7e6df0a1ae5": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "8606dc2b-3ad7-4423-9cbb-c7e6df0a1ae5",
+    "last_seen": "2026-08-24T20:54:30.486059+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-05-15",
+    "title": "Staff Software Engineer",
+    "url": "https://jobs.ashbyhq.com/confluent/8606dc2b-3ad7-4423-9cbb-c7e6df0a1ae5"
+  },
+  "8b41454a-1025-418b-b7eb-642dd8408219": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "8b41454a-1025-418b-b7eb-642dd8408219",
+    "last_seen": "2026-08-27T20:24:46.024646+00:00",
+    "location": "GB Remote United Kingdom",
+    "posted_date": "2026-03-04",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.ashbyhq.com/confluent/8b41454a-1025-418b-b7eb-642dd8408219"
+  },
+  "905efbaa-d814-4b16-a377-d417c7d3d772": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "905efbaa-d814-4b16-a377-d417c7d3d772",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "*Job Posting Only: USA1",
+    "posted_date": "2026-06-23",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.ashbyhq.com/confluent/905efbaa-d814-4b16-a377-d417c7d3d772"
+  },
+  "90949913-fc2b-47aa-8015-fcd264b352ae": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "90949913-fc2b-47aa-8015-fcd264b352ae",
+    "last_seen": "2026-08-27T20:24:46.024646+00:00",
+    "location": "PL Remote Poland",
+    "posted_date": "2026-03-23",
+    "title": "Staff Software Engineer - Apache Kafka",
+    "url": "https://jobs.ashbyhq.com/confluent/90949913-fc2b-47aa-8015-fcd264b352ae"
+  },
+  "a24f234c-08a3-4184-a357-763ce5e69454": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "a24f234c-08a3-4184-a357-763ce5e69454",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "CA Remote Ontario",
+    "posted_date": "2026-05-11",
+    "title": "Senior Software Engineer II, Kora Compute",
+    "url": "https://jobs.ashbyhq.com/confluent/a24f234c-08a3-4184-a357-763ce5e69454"
+  },
+  "a93ac05b-0ba3-41a9-aa42-a6258c5c5584": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "a93ac05b-0ba3-41a9-aa42-a6258c5c5584",
+    "last_seen": "2026-08-27T20:24:46.024646+00:00",
+    "location": "IN Remote India",
+    "posted_date": "2026-06-08",
+    "title": "Staff Software Engineer I - Confluent Platform",
+    "url": "https://jobs.ashbyhq.com/confluent/a93ac05b-0ba3-41a9-aa42-a6258c5c5584"
+  },
+  "bef7f6a5-2481-4eb6-a760-86e3746600bb": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "bef7f6a5-2481-4eb6-a760-86e3746600bb",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "*Job Posting Only: USA1",
+    "posted_date": "2026-06-23",
+    "title": "Staff Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/confluent/bef7f6a5-2481-4eb6-a760-86e3746600bb"
+  },
+  "ce64fe49-184c-44b1-9abf-dc5ce0dc9381": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "ce64fe49-184c-44b1-9abf-dc5ce0dc9381",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, Ontario, Canada, Remote, British Columbia, Canada",
+    "posted_date": "2026-07-14",
+    "title": "Senior Software Engineer - Streaming AI (Remote - Ontario / British Columbia)",
+    "url": "https://jobs.ashbyhq.com/confluent/ce64fe49-184c-44b1-9abf-dc5ce0dc9381"
+  },
+  "dc52dfa1-1649-442c-9344-609b8f01ed4b": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "dc52dfa1-1649-442c-9344-609b8f01ed4b",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States, Remote, California",
+    "posted_date": "2026-04-17",
+    "title": "Senior Product Manager, Cloud Networking",
+    "url": "https://jobs.ashbyhq.com/confluent/dc52dfa1-1649-442c-9344-609b8f01ed4b"
+  },
+  "ded86e3c-8dbe-498b-861c-1fe5dfcd1ce3": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "ded86e3c-8dbe-498b-861c-1fe5dfcd1ce3",
+    "last_seen": "2026-09-29T20:20:59.888932+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-04-07",
+    "title": "Head of Product Led Growth Marketing",
+    "url": "https://jobs.ashbyhq.com/confluent/ded86e3c-8dbe-498b-861c-1fe5dfcd1ce3"
+  },
+  "e70deb8a-3308-49dd-b9c7-b537333c5645": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "e70deb8a-3308-49dd-b9c7-b537333c5645",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-05-15",
+    "title": "Staff Product Manager, Cloud Networking",
+    "url": "https://jobs.ashbyhq.com/confluent/e70deb8a-3308-49dd-b9c7-b537333c5645"
+  },
+  "f60bba87-9470-4238-bf6f-dce1b4da8006": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "f60bba87-9470-4238-bf6f-dce1b4da8006",
+    "last_seen": "2026-10-12T02:08:52.805955+00:00",
+    "location": "Remote, Ontario, Canada, Remote, British Columbia, Canada",
+    "posted_date": "2026-02-17",
+    "title": "Senior Product Manager, Cluster Linking",
+    "url": "https://jobs.ashbyhq.com/confluent/f60bba87-9470-4238-bf6f-dce1b4da8006"
+  },
+  "f6b05632-b694-49bf-9464-0af5430c8c6c": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "f6b05632-b694-49bf-9464-0af5430c8c6c",
+    "last_seen": "2026-08-26T00:14:45.690052+00:00",
+    "location": "Remote, California",
+    "posted_date": "2026-05-13",
+    "title": "Senior Engineering Manager, Flink Control Plane",
+    "url": "https://jobs.ashbyhq.com/confluent/f6b05632-b694-49bf-9464-0af5430c8c6c"
+  },
+  "f7356433-e9cd-437b-9048-587b11333bb1": {
+    "company": "Confluent",
+    "first_seen": "2026-08-06T01:27:30.429379+00:00",
+    "job_id": "f7356433-e9cd-437b-9048-587b11333bb1",
+    "last_seen": "2026-09-10T20:50:45.577185+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-01",
+    "title": "Principal, Product Manager",
+    "url": "https://jobs.ashbyhq.com/confluent/f7356433-e9cd-437b-9048-587b11333bb1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "open-source-engineer": {
+    "company": "Zed",
+    "first_seen": "2026-08-11T00:12:22.453856+00:00",
+    "job_id": "open-source-engineer",
+    "last_seen": "2026-10-13T21:27:52.140166+00:00",
+    "location": null,
+    "posted_date": null,
+    "title": "Open Source Engineer",
+    "url": "https://zed.dev/jobs/open-source-engineer"
+  },
+  "product-designer": {
+    "company": "Zed",
+    "first_seen": "2026-08-11T00:12:22.453856+00:00",
+    "job_id": "product-designer",
+    "last_seen": "2026-10-13T21:27:52.140166+00:00",
+    "location": null,
+    "posted_date": null,
+    "title": "Product Design Engineer",
+    "url": "https://zed.dev/jobs/product-designer"
+  }
+}

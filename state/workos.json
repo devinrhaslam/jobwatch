@@ -1,0 +1,332 @@
+{
+  "011ad0a0-33dd-45df-a676-adfddafbd6b1": {
+    "company": "WorkOS",
+    "first_seen": "2026-09-28T21:52:08.372563+00:00",
+    "job_id": "011ad0a0-33dd-45df-a676-adfddafbd6b1",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-28",
+    "title": "Growth Marketing Generalist",
+    "url": "https://jobs.ashbyhq.com/workos/011ad0a0-33dd-45df-a676-adfddafbd6b1"
+  },
+  "07a7d732-ac5d-4aab-b4bf-ee89951660c2": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "07a7d732-ac5d-4aab-b4bf-ee89951660c2",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Software Engineer - Platform & Productivity",
+    "url": "https://jobs.ashbyhq.com/workos/07a7d732-ac5d-4aab-b4bf-ee89951660c2"
+  },
+  "0b8ebc20-37a2-484a-9220-ce1679764b08": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "0b8ebc20-37a2-484a-9220-ce1679764b08",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-01-14",
+    "title": "Business Development Representative",
+    "url": "https://jobs.ashbyhq.com/workos/0b8ebc20-37a2-484a-9220-ce1679764b08"
+  },
+  "10d184bd-7b94-4205-8dc5-d3e3ede9bdc2": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "10d184bd-7b94-4205-8dc5-d3e3ede9bdc2",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Product Engineer - Radar",
+    "url": "https://jobs.ashbyhq.com/workos/10d184bd-7b94-4205-8dc5-d3e3ede9bdc2"
+  },
+  "1269a212-2b49-4e99-a379-fc47f1d76e46": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "1269a212-2b49-4e99-a379-fc47f1d76e46",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Product Engineer - Pipes & Vault",
+    "url": "https://jobs.ashbyhq.com/workos/1269a212-2b49-4e99-a379-fc47f1d76e46"
+  },
+  "257e30d0-eaa3-4ce1-a47d-2b2c4f65cf1a": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "257e30d0-eaa3-4ce1-a47d-2b2c4f65cf1a",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-07-17",
+    "title": "Product Manager - Growth",
+    "url": "https://jobs.ashbyhq.com/workos/257e30d0-eaa3-4ce1-a47d-2b2c4f65cf1a"
+  },
+  "26377b4d-b392-4fd7-b813-10c2920299f9": {
+    "company": "WorkOS",
+    "first_seen": "2026-09-22T22:36:52.008470+00:00",
+    "job_id": "26377b4d-b392-4fd7-b813-10c2920299f9",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-10-06",
+    "title": "Data Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/26377b4d-b392-4fd7-b813-10c2920299f9"
+  },
+  "26a54ffa-9465-4d13-bc5f-db41a2bbe505": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "26a54ffa-9465-4d13-bc5f-db41a2bbe505",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Infrastructure Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/26a54ffa-9465-4d13-bc5f-db41a2bbe505"
+  },
+  "31b8c9a3-149c-491f-8bec-cbb5f18d575b": {
+    "company": "WorkOS",
+    "first_seen": "2026-09-23T22:11:36.124889+00:00",
+    "job_id": "31b8c9a3-149c-491f-8bec-cbb5f18d575b",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-09-23",
+    "title": "Product Security Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/31b8c9a3-149c-491f-8bec-cbb5f18d575b"
+  },
+  "3e8fb2cb-de91-4221-bfdc-37d81057cc0f": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "3e8fb2cb-de91-4221-bfdc-37d81057cc0f",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-07-23",
+    "title": "Systems Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/3e8fb2cb-de91-4221-bfdc-37d81057cc0f"
+  },
+  "40b1102c-4bc2-4aa0-a558-d64bab7e0b6d": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-18T20:58:34.234575+00:00",
+    "job_id": "40b1102c-4bc2-4aa0-a558-d64bab7e0b6d",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-18",
+    "title": "Employee Programs",
+    "url": "https://jobs.ashbyhq.com/workos/40b1102c-4bc2-4aa0-a558-d64bab7e0b6d"
+  },
+  "5550ddd5-c3eb-459a-aa4d-8b1216346d88": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "5550ddd5-c3eb-459a-aa4d-8b1216346d88",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-04-13",
+    "title": "Product Manager",
+    "url": "https://jobs.ashbyhq.com/workos/5550ddd5-c3eb-459a-aa4d-8b1216346d88"
+  },
+  "5e650527-d8dd-413a-9cfb-d7d68143274b": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "5e650527-d8dd-413a-9cfb-d7d68143274b",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-02-27",
+    "title": "Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/5e650527-d8dd-413a-9cfb-d7d68143274b"
+  },
+  "639bcb50-f1dd-4756-aa45-ce176494b4b1": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "639bcb50-f1dd-4756-aa45-ce176494b4b1",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-22",
+    "title": "Product Engineer - Feature Flags",
+    "url": "https://jobs.ashbyhq.com/workos/639bcb50-f1dd-4756-aa45-ce176494b4b1"
+  },
+  "6b10b885-395d-458f-9739-ff04f7a0d15e": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "6b10b885-395d-458f-9739-ff04f7a0d15e",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada, San Francisco, New York City",
+    "posted_date": "2026-04-28",
+    "title": "Recruiter",
+    "url": "https://jobs.ashbyhq.com/workos/6b10b885-395d-458f-9739-ff04f7a0d15e"
+  },
+  "70cedfd9-1ed8-4e4e-bc6a-9f0bbcc4756d": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "70cedfd9-1ed8-4e4e-bc6a-9f0bbcc4756d",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-01-14",
+    "title": "Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/workos/70cedfd9-1ed8-4e4e-bc6a-9f0bbcc4756d"
+  },
+  "821bcec6-7149-47fb-93a4-49cee4aaae74": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "821bcec6-7149-47fb-93a4-49cee4aaae74",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-08-27",
+    "title": "Account Manager",
+    "url": "https://jobs.ashbyhq.com/workos/821bcec6-7149-47fb-93a4-49cee4aaae74"
+  },
+  "8317f6f4-3d85-4a9f-bec3-753e4b646fc2": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "8317f6f4-3d85-4a9f-bec3-753e4b646fc2",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Product Engineer - Identity and Auth",
+    "url": "https://jobs.ashbyhq.com/workos/8317f6f4-3d85-4a9f-bec3-753e4b646fc2"
+  },
+  "96a03aa5-c2da-4f10-a0d1-951160188f9b": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "96a03aa5-c2da-4f10-a0d1-951160188f9b",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-14",
+    "title": "Engineering Leadership",
+    "url": "https://jobs.ashbyhq.com/workos/96a03aa5-c2da-4f10-a0d1-951160188f9b"
+  },
+  "990c41b1-e3c3-4a75-83c2-ca916899c110": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "990c41b1-e3c3-4a75-83c2-ca916899c110",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-04-10",
+    "title": "GTM Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/990c41b1-e3c3-4a75-83c2-ca916899c110"
+  },
+  "afdd651f-c97a-4ba2-88af-c790eb9e1a1d": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "afdd651f-c97a-4ba2-88af-c790eb9e1a1d",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-01-14",
+    "title": "Account Executive - AI Native",
+    "url": "https://jobs.ashbyhq.com/workos/afdd651f-c97a-4ba2-88af-c790eb9e1a1d"
+  },
+  "aff2e0f3-c5e7-47ff-b7c6-50baa9c822aa": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "aff2e0f3-c5e7-47ff-b7c6-50baa9c822aa",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-05-07",
+    "title": "Brand Design | Web",
+    "url": "https://jobs.ashbyhq.com/workos/aff2e0f3-c5e7-47ff-b7c6-50baa9c822aa"
+  },
+  "b6c03b24-b4ee-4ee3-ac62-5e5718c502d4": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "b6c03b24-b4ee-4ee3-ac62-5e5718c502d4",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-22",
+    "title": "Developer & Agent Experience Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/b6c03b24-b4ee-4ee3-ac62-5e5718c502d4"
+  },
+  "bb4e927b-5bbd-4704-954d-5b716c3ff1f3": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "bb4e927b-5bbd-4704-954d-5b716c3ff1f3",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco, United States & Canada",
+    "posted_date": "2026-01-13",
+    "title": "Developer Relations",
+    "url": "https://jobs.ashbyhq.com/workos/bb4e927b-5bbd-4704-954d-5b716c3ff1f3"
+  },
+  "bd5dab2b-fa93-4441-9ca0-558593f02b9a": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "bd5dab2b-fa93-4441-9ca0-558593f02b9a",
+    "last_seen": "2026-10-04T23:10:38.385183+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-04-01",
+    "title": "Product Design",
+    "url": "https://jobs.ashbyhq.com/workos/bd5dab2b-fa93-4441-9ca0-558593f02b9a"
+  },
+  "cff5a16f-fd1c-4b64-9b66-8a8321122375": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "cff5a16f-fd1c-4b64-9b66-8a8321122375",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Site Reliability Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/cff5a16f-fd1c-4b64-9b66-8a8321122375"
+  },
+  "d76843a8-2a45-444a-b187-3336b45a7934": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "d76843a8-2a45-444a-b187-3336b45a7934",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-01-14",
+    "title": "Product Engineer - Enterprise",
+    "url": "https://jobs.ashbyhq.com/workos/d76843a8-2a45-444a-b187-3336b45a7934"
+  },
+  "dbc4f497-fbb5-415e-b2b0-69321150424e": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-14T15:17:25.258830+00:00",
+    "job_id": "dbc4f497-fbb5-415e-b2b0-69321150424e",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-08-13",
+    "title": "Design Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/dbc4f497-fbb5-415e-b2b0-69321150424e"
+  },
+  "dc23fd7b-ee4c-4e6a-959a-209b2eab8b17": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "dc23fd7b-ee4c-4e6a-959a-209b2eab8b17",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-14",
+    "title": "Solutions Engineer",
+    "url": "https://jobs.ashbyhq.com/workos/dc23fd7b-ee4c-4e6a-959a-209b2eab8b17"
+  },
+  "e3e9f8a1-cf9f-4a14-b8ad-10a8d448a663": {
+    "company": "WorkOS",
+    "first_seen": "2026-10-04T23:10:38.385183+00:00",
+    "job_id": "e3e9f8a1-cf9f-4a14-b8ad-10a8d448a663",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-02",
+    "title": "Engineering Manager - Dashboard",
+    "url": "https://jobs.ashbyhq.com/workos/e3e9f8a1-cf9f-4a14-b8ad-10a8d448a663"
+  },
+  "f4f6c7d8-4d5b-4a58-89c8-4a84ce0c5fb5": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-18T20:58:34.234575+00:00",
+    "job_id": "f4f6c7d8-4d5b-4a58-89c8-4a84ce0c5fb5",
+    "last_seen": "2026-09-16T20:50:51.853638+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-18",
+    "title": "People Ops",
+    "url": "https://jobs.ashbyhq.com/workos/f4f6c7d8-4d5b-4a58-89c8-4a84ce0c5fb5"
+  },
+  "f87390b8-199c-4d1d-8c0c-bc87572c8636": {
+    "company": "WorkOS",
+    "first_seen": "2026-08-06T13:15:46.139168+00:00",
+    "job_id": "f87390b8-199c-4d1d-8c0c-bc87572c8636",
+    "last_seen": "2026-10-04T23:10:38.385183+00:00",
+    "location": "San Francisco, New York City",
+    "posted_date": "2026-08-05",
+    "title": "Sales Manager",
+    "url": "https://jobs.ashbyhq.com/workos/f87390b8-199c-4d1d-8c0c-bc87572c8636"
+  },
+  "ffba59a1-cead-4231-bd2d-a24649c6a3b9": {
+    "company": "WorkOS",
+    "first_seen": "2026-09-23T22:11:36.124889+00:00",
+    "job_id": "ffba59a1-cead-4231-bd2d-a24649c6a3b9",
+    "last_seen": "2026-10-13T21:27:48.758988+00:00",
+    "location": "United States & Canada",
+    "posted_date": "2026-09-23",
+    "title": "Software Engineer - Infrastructure Security",
+    "url": "https://jobs.ashbyhq.com/workos/ffba59a1-cead-4231-bd2d-a24649c6a3b9"
+  }
+}

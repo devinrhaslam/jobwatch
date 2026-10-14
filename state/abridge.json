@@ -1,0 +1,742 @@
+{
+  "03a3231f-8361-405e-87a6-192d710ca912": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "03a3231f-8361-405e-87a6-192d710ca912",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-03-03",
+    "title": "Member of Technical Staff, Research Science",
+    "url": "https://jobs.ashbyhq.com/abridge/03a3231f-8361-405e-87a6-192d710ca912"
+  },
+  "076d288f-4636-4a05-8520-d5c257f39b51": {
+    "company": "Abridge",
+    "first_seen": "2026-09-17T20:46:09.402915+00:00",
+    "job_id": "076d288f-4636-4a05-8520-d5c257f39b51",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-17",
+    "title": "Finance & Strategy Lead",
+    "url": "https://jobs.ashbyhq.com/abridge/076d288f-4636-4a05-8520-d5c257f39b51"
+  },
+  "097490e8-48c6-46e3-a0ce-882151fb4fa2": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "097490e8-48c6-46e3-a0ce-882151fb4fa2",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2025-07-11",
+    "title": "Member of Technical Staff, Machine Learning",
+    "url": "https://jobs.ashbyhq.com/abridge/097490e8-48c6-46e3-a0ce-882151fb4fa2"
+  },
+  "09a4a28b-30b2-4dd0-be2f-390f6a034a90": {
+    "company": "Abridge",
+    "first_seen": "2026-10-04T23:00:37.564778+00:00",
+    "job_id": "09a4a28b-30b2-4dd0-be2f-390f6a034a90",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-10-02",
+    "title": "Senior Early Career Recruiter",
+    "url": "https://jobs.ashbyhq.com/abridge/09a4a28b-30b2-4dd0-be2f-390f6a034a90"
+  },
+  "0c29a63c-53e7-4b51-afd3-2123354eda7e": {
+    "company": "Abridge",
+    "first_seen": "2026-10-01T12:36:45.153193+00:00",
+    "job_id": "0c29a63c-53e7-4b51-afd3-2123354eda7e",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-30",
+    "title": "Senior Technical Recruiter",
+    "url": "https://jobs.ashbyhq.com/abridge/0c29a63c-53e7-4b51-afd3-2123354eda7e"
+  },
+  "1a61daf7-45cf-46a0-b030-cf9617741e23": {
+    "company": "Abridge",
+    "first_seen": "2026-09-23T22:03:18.383977+00:00",
+    "job_id": "1a61daf7-45cf-46a0-b030-cf9617741e23",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-23",
+    "title": "Head of Workplace",
+    "url": "https://jobs.ashbyhq.com/abridge/1a61daf7-45cf-46a0-b030-cf9617741e23"
+  },
+  "1bff8d14-d779-4e7b-9e11-01a57e0979c4": {
+    "company": "Abridge",
+    "first_seen": "2026-09-14T22:15:52.899085+00:00",
+    "job_id": "1bff8d14-d779-4e7b-9e11-01a57e0979c4",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "CHI Office, United States - Remote",
+    "posted_date": "2026-09-14",
+    "title": "Revenue Operations Manager",
+    "url": "https://jobs.ashbyhq.com/abridge/1bff8d14-d779-4e7b-9e11-01a57e0979c4"
+  },
+  "228d2bfe-cada-406a-a4c0-99c4ec13a242": {
+    "company": "Abridge",
+    "first_seen": "2026-09-08T14:23:59.879827+00:00",
+    "job_id": "228d2bfe-cada-406a-a4c0-99c4ec13a242",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-05",
+    "title": "Staff IT Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/228d2bfe-cada-406a-a4c0-99c4ec13a242"
+  },
+  "23264e1f-0988-475d-8330-ea2960f3a6a4": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "23264e1f-0988-475d-8330-ea2960f3a6a4",
+    "last_seen": "2026-08-27T20:22:21.336004+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-03-19",
+    "title": "Senior Research Data Scientist",
+    "url": "https://jobs.ashbyhq.com/abridge/23264e1f-0988-475d-8330-ea2960f3a6a4"
+  },
+  "237d7464-e331-4a2c-8465-9df3d339c3ee": {
+    "company": "Abridge",
+    "first_seen": "2026-09-14T22:15:52.899085+00:00",
+    "job_id": "237d7464-e331-4a2c-8465-9df3d339c3ee",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "CHI Office, United States - Remote",
+    "posted_date": "2026-09-14",
+    "title": "Director, Value Attainment & Analysis",
+    "url": "https://jobs.ashbyhq.com/abridge/237d7464-e331-4a2c-8465-9df3d339c3ee"
+  },
+  "2f52cea3-24c3-4f61-960b-9f29b8169d7c": {
+    "company": "Abridge",
+    "first_seen": "2026-10-08T23:25:55.992946+00:00",
+    "job_id": "2f52cea3-24c3-4f61-960b-9f29b8169d7c",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-10-08",
+    "title": "Senior Corporate Counsel, Product",
+    "url": "https://jobs.ashbyhq.com/abridge/2f52cea3-24c3-4f61-960b-9f29b8169d7c"
+  },
+  "2fc833c4-8764-486d-a15f-4eaffed0bdf5": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "2fc833c4-8764-486d-a15f-4eaffed0bdf5",
+    "last_seen": "2026-09-03T20:02:08.199717+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-07-23",
+    "title": "Senior People Programs Manager",
+    "url": "https://jobs.ashbyhq.com/abridge/2fc833c4-8764-486d-a15f-4eaffed0bdf5"
+  },
+  "3150f377-a19f-4547-afbe-719551bf63a7": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "3150f377-a19f-4547-afbe-719551bf63a7",
+    "last_seen": "2026-08-26T20:33:40.896521+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-29",
+    "title": "Manager, Enterprise Security",
+    "url": "https://jobs.ashbyhq.com/abridge/3150f377-a19f-4547-afbe-719551bf63a7"
+  },
+  "32610a0f-60b3-4ec5-b97c-91118e2639de": {
+    "company": "Abridge",
+    "first_seen": "2026-10-02T01:20:37.619653+00:00",
+    "job_id": "32610a0f-60b3-4ec5-b97c-91118e2639de",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-10-01",
+    "title": "Implementation Director, Federal",
+    "url": "https://jobs.ashbyhq.com/abridge/32610a0f-60b3-4ec5-b97c-91118e2639de"
+  },
+  "33020695-50ca-451f-93c1-893a4985b3a4": {
+    "company": "Abridge",
+    "first_seen": "2026-08-21T16:25:35.682872+00:00",
+    "job_id": "33020695-50ca-451f-93c1-893a4985b3a4",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-09-16",
+    "title": "Associate General Counsel - Privacy",
+    "url": "https://jobs.ashbyhq.com/abridge/33020695-50ca-451f-93c1-893a4985b3a4"
+  },
+  "3897d978-77c0-4132-ae33-1bf9356be630": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "3897d978-77c0-4132-ae33-1bf9356be630",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "United States - Remote",
+    "posted_date": "2026-04-09",
+    "title": "Member of Technical Staff, Cerner Integrations",
+    "url": "https://jobs.ashbyhq.com/abridge/3897d978-77c0-4132-ae33-1bf9356be630"
+  },
+  "3c7662fb-6b41-4652-96da-282461e21f1f": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "3c7662fb-6b41-4652-96da-282461e21f1f",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-05-29",
+    "title": "Senior Social Media Marketer, Growth",
+    "url": "https://jobs.ashbyhq.com/abridge/3c7662fb-6b41-4652-96da-282461e21f1f"
+  },
+  "3d7591c6-7f06-41e5-8aeb-c0035d39b5f4": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "3d7591c6-7f06-41e5-8aeb-c0035d39b5f4",
+    "last_seen": "2026-08-30T19:56:27.810760+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-07-28",
+    "title": "Head of Privacy",
+    "url": "https://jobs.ashbyhq.com/abridge/3d7591c6-7f06-41e5-8aeb-c0035d39b5f4"
+  },
+  "3f07a457-dc14-4238-bf4e-5c33b5c1f883": {
+    "company": "Abridge",
+    "first_seen": "2026-08-15T21:44:58.470010+00:00",
+    "job_id": "3f07a457-dc14-4238-bf4e-5c33b5c1f883",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-10-01",
+    "title": "Member of Technical Staff, Intern (Fall 2026)",
+    "url": "https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883"
+  },
+  "44814e98-7791-45c6-a474-f841d969fa08": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "44814e98-7791-45c6-a474-f841d969fa08",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "California",
+    "posted_date": "2026-04-09",
+    "title": "Member of Technical Staff, Epic Integrations",
+    "url": "https://jobs.ashbyhq.com/abridge/44814e98-7791-45c6-a474-f841d969fa08"
+  },
+  "480c4c99-2ca8-4dc7-ba6b-29a9ee28ed95": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "480c4c99-2ca8-4dc7-ba6b-29a9ee28ed95",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-01",
+    "title": "Member of Technical Staff, Data",
+    "url": "https://jobs.ashbyhq.com/abridge/480c4c99-2ca8-4dc7-ba6b-29a9ee28ed95"
+  },
+  "4e2ed1d1-5421-4bb0-b57a-9614fba2d7b4": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "4e2ed1d1-5421-4bb0-b57a-9614fba2d7b4",
+    "last_seen": "2026-09-02T20:48:22.561403+00:00",
+    "location": "Remote - Tier 2, CHI Office",
+    "posted_date": "2026-06-03",
+    "title": "Partner Success Director - Midwest",
+    "url": "https://jobs.ashbyhq.com/abridge/4e2ed1d1-5421-4bb0-b57a-9614fba2d7b4"
+  },
+  "4e9042bc-b15b-4338-bc7e-b1b358e1cf4f": {
+    "company": "Abridge",
+    "first_seen": "2026-09-25T19:33:17.762137+00:00",
+    "job_id": "4e9042bc-b15b-4338-bc7e-b1b358e1cf4f",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-25",
+    "title": "IT Operations Specialist",
+    "url": "https://jobs.ashbyhq.com/abridge/4e9042bc-b15b-4338-bc7e-b1b358e1cf4f"
+  },
+  "5413b10b-532f-46a7-b1f3-d5490d78120e": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "5413b10b-532f-46a7-b1f3-d5490d78120e",
+    "last_seen": "2026-09-15T20:57:32.812259+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-13",
+    "title": "Senior/Staff Software Engineer, Developer Experience",
+    "url": "https://jobs.ashbyhq.com/abridge/5413b10b-532f-46a7-b1f3-d5490d78120e"
+  },
+  "5697e743-b697-4c1e-a9cc-88a942533b79": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "5697e743-b697-4c1e-a9cc-88a942533b79",
+    "last_seen": "2026-10-01T12:36:45.153193+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-07-21",
+    "title": "Member of Design Staff, Design Operations",
+    "url": "https://jobs.ashbyhq.com/abridge/5697e743-b697-4c1e-a9cc-88a942533b79"
+  },
+  "57967034-08cb-4cfe-8243-4e9564acc32e": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "57967034-08cb-4cfe-8243-4e9564acc32e",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2025-04-14",
+    "title": "Senior Application Security Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/57967034-08cb-4cfe-8243-4e9564acc32e"
+  },
+  "5acb269b-6ca0-4890-ae3f-ffb46e99d2ba": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "5acb269b-6ca0-4890-ae3f-ffb46e99d2ba",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-07-22",
+    "title": "Member of Product Staff, Clinical Decision Support",
+    "url": "https://jobs.ashbyhq.com/abridge/5acb269b-6ca0-4890-ae3f-ffb46e99d2ba"
+  },
+  "5b66aac3-cb7a-4bbc-a28c-9fb38cf16656": {
+    "company": "Abridge",
+    "first_seen": "2026-08-27T20:22:21.336004+00:00",
+    "job_id": "5b66aac3-cb7a-4bbc-a28c-9fb38cf16656",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-08-26",
+    "title": "Member of Product Staff, Foundation Models & Post-Training",
+    "url": "https://jobs.ashbyhq.com/abridge/5b66aac3-cb7a-4bbc-a28c-9fb38cf16656"
+  },
+  "62a5fc12-55b4-4d66-a4b1-ba491137e011": {
+    "company": "Abridge",
+    "first_seen": "2026-10-02T01:20:37.619653+00:00",
+    "job_id": "62a5fc12-55b4-4d66-a4b1-ba491137e011",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-10-01",
+    "title": "Revenue & Technical Accounting Manager",
+    "url": "https://jobs.ashbyhq.com/abridge/62a5fc12-55b4-4d66-a4b1-ba491137e011"
+  },
+  "6569d8f7-bd0b-4bb0-a3af-37f83e19ec5e": {
+    "company": "Abridge",
+    "first_seen": "2026-09-18T19:47:51.806828+00:00",
+    "job_id": "6569d8f7-bd0b-4bb0-a3af-37f83e19ec5e",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-30",
+    "title": "Member of Technical Staff, Intern (Spring 2027)",
+    "url": "https://jobs.ashbyhq.com/abridge/6569d8f7-bd0b-4bb0-a3af-37f83e19ec5e"
+  },
+  "6aab826b-a60a-434e-889d-e4648f289305": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "6aab826b-a60a-434e-889d-e4648f289305",
+    "last_seen": "2026-09-25T19:33:17.762137+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2025-08-20",
+    "title": "Senior Product Designer",
+    "url": "https://jobs.ashbyhq.com/abridge/6aab826b-a60a-434e-889d-e4648f289305"
+  },
+  "6cc498cb-7235-4300-a3a9-4b2f178678cb": {
+    "company": "Abridge",
+    "first_seen": "2026-09-21T21:55:34.564833+00:00",
+    "job_id": "6cc498cb-7235-4300-a3a9-4b2f178678cb",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-09-18",
+    "title": "Engineering Leadership, NY Site Lead",
+    "url": "https://jobs.ashbyhq.com/abridge/6cc498cb-7235-4300-a3a9-4b2f178678cb"
+  },
+  "6cc4eee0-cf33-493b-8d83-5cece0baf976": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "6cc4eee0-cf33-493b-8d83-5cece0baf976",
+    "last_seen": "2026-09-16T20:39:14.358890+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-07-15",
+    "title": "Staff Mixed Methods Researcher",
+    "url": "https://jobs.ashbyhq.com/abridge/6cc4eee0-cf33-493b-8d83-5cece0baf976"
+  },
+  "789a6426-0256-4f42-9382-5267733ddf14": {
+    "company": "Abridge",
+    "first_seen": "2026-08-21T16:25:35.682872+00:00",
+    "job_id": "789a6426-0256-4f42-9382-5267733ddf14",
+    "last_seen": "2026-10-07T21:51:53.887519+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-08-20",
+    "title": "Senior Product Counsel - Data Products, Machine Learning & Artificial Intelligence",
+    "url": "https://jobs.ashbyhq.com/abridge/789a6426-0256-4f42-9382-5267733ddf14"
+  },
+  "79cf5ff2-a07f-43a9-8096-6abeb1117e74": {
+    "company": "Abridge",
+    "first_seen": "2026-10-05T22:05:56.870358+00:00",
+    "job_id": "79cf5ff2-a07f-43a9-8096-6abeb1117e74",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, CHI Office",
+    "posted_date": "2026-10-05",
+    "title": "Implementation Director, Federal",
+    "url": "https://jobs.ashbyhq.com/abridge/79cf5ff2-a07f-43a9-8096-6abeb1117e74"
+  },
+  "7a28a84b-6756-4fe6-8af9-501fc8772a62": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "7a28a84b-6756-4fe6-8af9-501fc8772a62",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "United States - Remote",
+    "posted_date": "2025-10-15",
+    "title": "Member of Technical Staff, VistA Integrations",
+    "url": "https://jobs.ashbyhq.com/abridge/7a28a84b-6756-4fe6-8af9-501fc8772a62"
+  },
+  "7cc34b49-b9e9-4639-a0e3-326ea32898e4": {
+    "company": "Abridge",
+    "first_seen": "2026-10-07T21:51:53.887519+00:00",
+    "job_id": "7cc34b49-b9e9-4639-a0e3-326ea32898e4",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "Remote - Tier 1",
+    "posted_date": "2026-10-07",
+    "title": "Senior Commercial Counsel - Government Contracting",
+    "url": "https://jobs.ashbyhq.com/abridge/7cc34b49-b9e9-4639-a0e3-326ea32898e4"
+  },
+  "7d6ae2be-cd53-466c-8151-2dae2e87aace": {
+    "company": "Abridge",
+    "first_seen": "2026-08-07T19:19:53.297120+00:00",
+    "job_id": "7d6ae2be-cd53-466c-8151-2dae2e87aace",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-15",
+    "title": "Member of Technical Staff, Early Career",
+    "url": "https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace"
+  },
+  "800ca14f-0ba9-4841-be65-f4435992b893": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "800ca14f-0ba9-4841-be65-f4435992b893",
+    "last_seen": "2026-08-26T20:33:40.896521+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-29",
+    "title": "Senior Manager, Enterprise Security",
+    "url": "https://jobs.ashbyhq.com/abridge/800ca14f-0ba9-4841-be65-f4435992b893"
+  },
+  "897709b2-e03d-4574-8611-5cfd669adde9": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "897709b2-e03d-4574-8611-5cfd669adde9",
+    "last_seen": "2026-10-07T21:51:53.887519+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-10-02",
+    "title": "Member of Technical Staff, Generative AI",
+    "url": "https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9"
+  },
+  "89db9a1b-a590-4f17-be65-ac21507945c0": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "89db9a1b-a590-4f17-be65-ac21507945c0",
+    "last_seen": "2026-10-06T22:54:16.697600+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-04-22",
+    "title": "Member of Clinical Staff",
+    "url": "https://jobs.ashbyhq.com/abridge/89db9a1b-a590-4f17-be65-ac21507945c0"
+  },
+  "90b90681-9bcf-4808-b58a-9c582d85ecac": {
+    "company": "Abridge",
+    "first_seen": "2026-10-01T12:36:45.153193+00:00",
+    "job_id": "90b90681-9bcf-4808-b58a-9c582d85ecac",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-30",
+    "title": "Senior University Recruiter",
+    "url": "https://jobs.ashbyhq.com/abridge/90b90681-9bcf-4808-b58a-9c582d85ecac"
+  },
+  "921ab403-86d3-4b44-8042-376a3b13efc3": {
+    "company": "Abridge",
+    "first_seen": "2026-09-22T22:27:52.385369+00:00",
+    "job_id": "921ab403-86d3-4b44-8042-376a3b13efc3",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "Remote - Tier 1, Remote - Tier 3, Remote - Tier 2",
+    "posted_date": "2026-09-22",
+    "title": "Senior Nursing Executive",
+    "url": "https://jobs.ashbyhq.com/abridge/921ab403-86d3-4b44-8042-376a3b13efc3"
+  },
+  "983ea248-e6c9-43bc-a27d-914091173337": {
+    "company": "Abridge",
+    "first_seen": "2026-08-17T20:41:23.841782+00:00",
+    "job_id": "983ea248-e6c9-43bc-a27d-914091173337",
+    "last_seen": "2026-10-06T00:17:32.538280+00:00",
+    "location": "California",
+    "posted_date": "2026-08-17",
+    "title": "Member of Technical Staff, Front End",
+    "url": "https://jobs.ashbyhq.com/abridge/983ea248-e6c9-43bc-a27d-914091173337"
+  },
+  "991c2527-c2f9-41bb-a68f-282581b78794": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "991c2527-c2f9-41bb-a68f-282581b78794",
+    "last_seen": "2026-08-24T13:21:15.725324+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-03-03",
+    "title": "Product Lead, Revenue Cycle Management (New Bets)",
+    "url": "https://jobs.ashbyhq.com/abridge/991c2527-c2f9-41bb-a68f-282581b78794"
+  },
+  "99db1c40-ace4-4f39-a9a6-7da985fa91b5": {
+    "company": "Abridge",
+    "first_seen": "2026-09-23T22:03:18.383977+00:00",
+    "job_id": "99db1c40-ace4-4f39-a9a6-7da985fa91b5",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "NYC Office, SF Office",
+    "posted_date": "2026-09-23",
+    "title": "Member of Product Staff, Nursing",
+    "url": "https://jobs.ashbyhq.com/abridge/99db1c40-ace4-4f39-a9a6-7da985fa91b5"
+  },
+  "9c7ba6c3-7744-48b8-a5b3-dab55c22e4b3": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "9c7ba6c3-7744-48b8-a5b3-dab55c22e4b3",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-22",
+    "title": "Member of Product Staff, AI/ML (Evals)",
+    "url": "https://jobs.ashbyhq.com/abridge/9c7ba6c3-7744-48b8-a5b3-dab55c22e4b3"
+  },
+  "9e4579cb-90a6-475d-9293-598791debca3": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "9e4579cb-90a6-475d-9293-598791debca3",
+    "last_seen": "2026-10-04T23:00:37.564778+00:00",
+    "location": "California, SF Office, NYC Office",
+    "posted_date": "2026-08-05",
+    "title": "Member of Technical Staff, Mobile",
+    "url": "https://jobs.ashbyhq.com/abridge/9e4579cb-90a6-475d-9293-598791debca3"
+  },
+  "9f8b30d1-e88a-4b44-9b45-3ceced4d39a7": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "9f8b30d1-e88a-4b44-9b45-3ceced4d39a7",
+    "last_seen": "2026-08-31T20:56:23.869205+00:00",
+    "location": "Remote - Tier 1, Texas, California",
+    "posted_date": "2026-06-24",
+    "title": "Director of Strategic Sales",
+    "url": "https://jobs.ashbyhq.com/abridge/9f8b30d1-e88a-4b44-9b45-3ceced4d39a7"
+  },
+  "a07ba724-2044-482e-b817-eecde7ef85ae": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "a07ba724-2044-482e-b817-eecde7ef85ae",
+    "last_seen": "2026-09-29T20:19:24.771219+00:00",
+    "location": "Remote - Tier 1",
+    "posted_date": "2026-07-22",
+    "title": "Sales Director, Payers",
+    "url": "https://jobs.ashbyhq.com/abridge/a07ba724-2044-482e-b817-eecde7ef85ae"
+  },
+  "a107c6ea-3af4-46ea-b26d-61dd9dcdc13a": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "a107c6ea-3af4-46ea-b26d-61dd9dcdc13a",
+    "last_seen": "2026-08-27T20:22:21.336004+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-07-16",
+    "title": "Partner Success Manager - East",
+    "url": "https://jobs.ashbyhq.com/abridge/a107c6ea-3af4-46ea-b26d-61dd9dcdc13a"
+  },
+  "aa9b28ba-0cda-4f48-8fd4-dedf53e776db": {
+    "company": "Abridge",
+    "first_seen": "2026-09-22T22:27:52.385369+00:00",
+    "job_id": "aa9b28ba-0cda-4f48-8fd4-dedf53e776db",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "Remote - Tier 1",
+    "posted_date": "2026-09-22",
+    "title": "Program Director, Federal",
+    "url": "https://jobs.ashbyhq.com/abridge/aa9b28ba-0cda-4f48-8fd4-dedf53e776db"
+  },
+  "ae42350e-242a-4ed2-817d-ac0059956ca9": {
+    "company": "Abridge",
+    "first_seen": "2026-09-02T18:32:10.187952+00:00",
+    "job_id": "ae42350e-242a-4ed2-817d-ac0059956ca9",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "NYC Office",
+    "posted_date": "2026-09-02",
+    "title": "Partner Success Director",
+    "url": "https://jobs.ashbyhq.com/abridge/ae42350e-242a-4ed2-817d-ac0059956ca9"
+  },
+  "aef83f6a-0bc8-4d6a-b310-24415918ee3c": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "aef83f6a-0bc8-4d6a-b310-24415918ee3c",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-06-22",
+    "title": "Member of Product Staff, Forward Deployed",
+    "url": "https://jobs.ashbyhq.com/abridge/aef83f6a-0bc8-4d6a-b310-24415918ee3c"
+  },
+  "af0c155f-d2da-4a0d-a63a-196937028dc4": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "af0c155f-d2da-4a0d-a63a-196937028dc4",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "Remote - Tier 1",
+    "posted_date": "2026-08-03",
+    "title": "Senior Physician Executive",
+    "url": "https://jobs.ashbyhq.com/abridge/af0c155f-d2da-4a0d-a63a-196937028dc4"
+  },
+  "b55901ff-e42e-44bc-b2ec-c2c40410b6e7": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "b55901ff-e42e-44bc-b2ec-c2c40410b6e7",
+    "last_seen": "2026-08-18T22:40:56.807529+00:00",
+    "location": "SF Office, United States - Remote, NYC Office",
+    "posted_date": "2026-07-09",
+    "title": "Senior/Staff Infrastructure Security Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/b55901ff-e42e-44bc-b2ec-c2c40410b6e7"
+  },
+  "b64d7beb-3f9b-4a65-bb76-ceec5f3c8b11": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "b64d7beb-3f9b-4a65-bb76-ceec5f3c8b11",
+    "last_seen": "2026-09-18T19:47:51.806828+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-05-22",
+    "title": "Staff Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/b64d7beb-3f9b-4a65-bb76-ceec5f3c8b11"
+  },
+  "b8206fdb-4d85-472c-bd8f-7c7a2dcbfa69": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "b8206fdb-4d85-472c-bd8f-7c7a2dcbfa69",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-10",
+    "title": "Staff Application Security Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/b8206fdb-4d85-472c-bd8f-7c7a2dcbfa69"
+  },
+  "b9caefcc-8482-4059-b959-d3d6694f8721": {
+    "company": "Abridge",
+    "first_seen": "2026-08-13T21:15:03.797305+00:00",
+    "job_id": "b9caefcc-8482-4059-b959-d3d6694f8721",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-08-13",
+    "title": "Compensation Lead",
+    "url": "https://jobs.ashbyhq.com/abridge/b9caefcc-8482-4059-b959-d3d6694f8721"
+  },
+  "bdbe64c1-cb3e-4ba6-a0fe-0bf76372a673": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "bdbe64c1-cb3e-4ba6-a0fe-0bf76372a673",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-03",
+    "title": "Member of Product Operations & Strategy Staff",
+    "url": "https://jobs.ashbyhq.com/abridge/bdbe64c1-cb3e-4ba6-a0fe-0bf76372a673"
+  },
+  "c0903c7c-f505-4e30-82c2-47d80736d05d": {
+    "company": "Abridge",
+    "first_seen": "2026-09-17T20:46:09.402915+00:00",
+    "job_id": "c0903c7c-f505-4e30-82c2-47d80736d05d",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-09-17",
+    "title": "Senior Privacy Counsel",
+    "url": "https://jobs.ashbyhq.com/abridge/c0903c7c-f505-4e30-82c2-47d80736d05d"
+  },
+  "c1bfc262-9232-49b8-96ea-a5d7de260775": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "c1bfc262-9232-49b8-96ea-a5d7de260775",
+    "last_seen": "2026-09-17T20:46:09.402915+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-04-16",
+    "title": "Head of Data Science",
+    "url": "https://jobs.ashbyhq.com/abridge/c1bfc262-9232-49b8-96ea-a5d7de260775"
+  },
+  "c3837e7e-2d59-49b6-95dc-0f670494fb31": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "c3837e7e-2d59-49b6-95dc-0f670494fb31",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2025-10-08",
+    "title": "Member of Data Science Staff",
+    "url": "https://jobs.ashbyhq.com/abridge/c3837e7e-2d59-49b6-95dc-0f670494fb31"
+  },
+  "c45524b6-96b2-49f0-9cd5-176b998d6ba7": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "c45524b6-96b2-49f0-9cd5-176b998d6ba7",
+    "last_seen": "2026-09-28T21:40:57.352854+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-03-10",
+    "title": "Member of Product Staff, Core Product Experiences",
+    "url": "https://jobs.ashbyhq.com/abridge/c45524b6-96b2-49f0-9cd5-176b998d6ba7"
+  },
+  "c709786d-5d36-4c8a-b973-e4cd0c2a16cd": {
+    "company": "Abridge",
+    "first_seen": "2026-08-21T16:25:35.682872+00:00",
+    "job_id": "c709786d-5d36-4c8a-b973-e4cd0c2a16cd",
+    "last_seen": "2026-10-07T21:51:53.887519+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-08-21",
+    "title": "Associate General Counsel, Product  (Data Products, Machine Learning & Artificial Intelligence)",
+    "url": "https://jobs.ashbyhq.com/abridge/c709786d-5d36-4c8a-b973-e4cd0c2a16cd"
+  },
+  "c7f09dee-07ca-444f-803d-961e7f88056b": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "c7f09dee-07ca-444f-803d-961e7f88056b",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2025-08-25",
+    "title": "Member of Technical Staff, Machine Learning Infrastructure",
+    "url": "https://jobs.ashbyhq.com/abridge/c7f09dee-07ca-444f-803d-961e7f88056b"
+  },
+  "d48553c1-a360-4509-a1e0-9df6d8b480f6": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "d48553c1-a360-4509-a1e0-9df6d8b480f6",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2025-09-02",
+    "title": "Member of Design Staff, Product Design",
+    "url": "https://jobs.ashbyhq.com/abridge/d48553c1-a360-4509-a1e0-9df6d8b480f6"
+  },
+  "d948060a-3321-4f81-84a7-e8d3840886ec": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "d948060a-3321-4f81-84a7-e8d3840886ec",
+    "last_seen": "2026-08-12T19:26:40.764262+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-05-20",
+    "title": "Engineering Manager, Model Inference",
+    "url": "https://jobs.ashbyhq.com/abridge/d948060a-3321-4f81-84a7-e8d3840886ec"
+  },
+  "d980a314-1c5f-422e-99f9-d36bda21f49d": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "d980a314-1c5f-422e-99f9-d36bda21f49d",
+    "last_seen": "2026-09-18T19:47:51.806828+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2025-05-21",
+    "title": "Senior Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/d980a314-1c5f-422e-99f9-d36bda21f49d"
+  },
+  "e531a0d4-3d0b-444c-86d0-2c41a0bd0285": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "e531a0d4-3d0b-444c-86d0-2c41a0bd0285",
+    "last_seen": "2026-09-15T20:57:32.812259+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-07-28",
+    "title": "Associate General Counsel, Life Sciences",
+    "url": "https://jobs.ashbyhq.com/abridge/e531a0d4-3d0b-444c-86d0-2c41a0bd0285"
+  },
+  "ebb03b3f-e870-4cb0-ba23-43197118d492": {
+    "company": "Abridge",
+    "first_seen": "2026-09-15T20:57:32.812259+00:00",
+    "job_id": "ebb03b3f-e870-4cb0-ba23-43197118d492",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "United States - Remote, SF Office, NYC Office",
+    "posted_date": "2026-09-15",
+    "title": "Art Director, Part Time (Temporary)",
+    "url": "https://jobs.ashbyhq.com/abridge/ebb03b3f-e870-4cb0-ba23-43197118d492"
+  },
+  "ef57eeb3-de5a-497d-9b96-2ecd414fffec": {
+    "company": "Abridge",
+    "first_seen": "2026-09-18T19:47:51.806828+00:00",
+    "job_id": "ef57eeb3-de5a-497d-9b96-2ecd414fffec",
+    "last_seen": "2026-10-08T23:25:55.992946+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-09-17",
+    "title": "Recruiting Coordinator",
+    "url": "https://jobs.ashbyhq.com/abridge/ef57eeb3-de5a-497d-9b96-2ecd414fffec"
+  },
+  "f180b849-6ccd-48e7-921e-eaec5556b196": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "f180b849-6ccd-48e7-921e-eaec5556b196",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office, NYC Office",
+    "posted_date": "2026-06-17",
+    "title": "Senior Event Marketer",
+    "url": "https://jobs.ashbyhq.com/abridge/f180b849-6ccd-48e7-921e-eaec5556b196"
+  },
+  "fe4bb4c9-9834-48a6-8f02-8f0ce03db78c": {
+    "company": "Abridge",
+    "first_seen": "2026-08-06T01:27:28.295710+00:00",
+    "job_id": "fe4bb4c9-9834-48a6-8f02-8f0ce03db78c",
+    "last_seen": "2026-10-13T21:18:45.350682+00:00",
+    "location": "SF Office",
+    "posted_date": "2026-06-03",
+    "title": "Senior Enterprise Security Engineer",
+    "url": "https://jobs.ashbyhq.com/abridge/fe4bb4c9-9834-48a6-8f02-8f0ce03db78c"
+  }
+}

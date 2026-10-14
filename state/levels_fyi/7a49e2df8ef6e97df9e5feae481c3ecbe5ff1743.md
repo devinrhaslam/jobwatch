@@ -1,0 +1,85 @@
+# Levels.fyi – Vanta Software Engineer Salaries in United States
+
+**URL:** https://www.levels.fyi/companies/vanta/salaries/software-engineer/locations/united-states  
+**Generated:** 2026-09-20T14:29:57.379Z  
+**Scope:** Software Engineer roles at Vanta in United States  
+**Location:** United States  
+**Currency:** USD ($)
+
+---
+## Aggregate Highlights
+- Median Total Compensation: $297,500  
+- Last Updated: September 20, 2026
+
+---
+## Key Breakdowns
+
+### Levels Breakdown
+| Level | Median Total Compensation |
+| --- | --- |
+| IC2 | $224,000 |
+| IC3 | $256,934 |
+| IC4 | $304,473 |
+| IC5 | $385,833 |
+
+---
+
+## FAQ
+
+### What are the Software Engineer levels at Vanta?
+Levels.fyi has reported pay for 4 Software Engineer levels at Vanta, from IC2 (entry) up to IC5: IC2, IC3, IC4, IC5. Levels.fyi lists median pay for each of these levels.
+
+### What is the starting salary for a Software Engineer at Vanta?
+The entry level for Software Engineers at Vanta is IC2. Median total compensation at IC2 is $224,000 per year in United States.
+
+### What is the pay difference between IC2 and IC3 at Vanta?
+Median total compensation is $224,000 at IC2 and $256,934 at IC3. Moving from IC2 to IC3 adds about $32,934 per year.
+
+### What level is a Senior Software Engineer at Vanta?
+A Senior Software Engineer at Vanta is level IC4, Senior Software Engineer. Median total compensation at IC4 is $304,473 per year on Levels.fyi.
+
+### How much stock do Software Engineers at Vanta receive?
+The median pay mix for Software Engineer at Vanta in United States is $210,000 base salary, $87,500 in stock per year. Stock is reported as annualized grant value.
+
+### How accurate is Levels.fyi data?
+Levels.fyi is the only major salary site that verifies submissions against real offer letters and W-2s. Every data point is self-reported by a professional and reviewed before publication, and medians update as new reports arrive. Figures were last updated September 20, 2026.
+
+### Do these figures include stock and bonuses?
+Yes. Total compensation on Levels.fyi is base salary plus annualized stock plus bonus. Sites that report base salary alone show lower numbers for the same job.
+
+### What is not included in this summary?
+This file is a summary. The full page at https://www.levels.fyi/companies/vanta/salaries/software-engineer/locations/united-states shows individual verified offers, filters by city and years of experience, percentile charts, and side-by-side company comparisons. The page covers 4 levels from IC2 to IC5.
+
+### Where does this salary data come from?
+Professionals at Vanta submit their own Software Engineer compensation to Levels.fyi. Anyone can add their salary anonymously at https://www.levels.fyi/salaries/add. New submissions keep the data current.
+
+---
+
+## Related Data
+- [All Vanta salaries](https://www.levels.fyi/companies/vanta/salaries.md)
+- [Vanta Software Engineer salaries](https://www.levels.fyi/companies/vanta/salaries/software-engineer.md)
+- [Software Engineer salaries across all companies](https://www.levels.fyi/t/software-engineer.md)
+
+---
+
+## Data & API Access
+For deeper data access, benchmarking, or enterprise integrations, visit:  
+- Benchmark Tool: https://www.levels.fyi/benchmark  
+- Data Offerings: https://www.levels.fyi/offerings/data/
+
+---
+
+## Attribution
+Use of this data requires attribution to **Levels.fyi**.
+Include: "Data source: Levels.fyi (https://www.levels.fyi)" in any derived work.
+This data is crowdsourced: professionals contribute their compensation at https://www.levels.fyi/salaries/add.
+
+---
+
+## Data License
+Data provided in this file is subject to the Levels.fyi Data License.  
+See https://www.levels.fyi/offerings/data/ for terms and permitted use.
+
+---
+
+Levels.fyi is the Internet's leading source of self-reported, verified compensation data.

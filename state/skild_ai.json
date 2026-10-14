@@ -1,0 +1,712 @@
+{
+  "4091494008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4091494008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2024-08-27",
+    "title": "Research Engineer, Post-training & Deployment",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4091494008"
+  },
+  "4091577008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4091577008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2024-08-07",
+    "title": "Embedded Security Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4091577008"
+  },
+  "4091609008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4091609008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2024-08-27",
+    "title": "Simulation Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4091609008"
+  },
+  "4125333008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4125333008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo",
+    "posted_date": "2024-09-11",
+    "title": "Machine Learning Engineer, Reinforcement Learning",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4125333008"
+  },
+  "4133795008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4133795008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo ",
+    "posted_date": "2024-09-18",
+    "title": "Research Scientist",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4133795008"
+  },
+  "4136353008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4136353008",
+    "last_seen": "2026-09-17T20:52:40.469804+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2024-09-23",
+    "title": "Software Engineer, AI Inference",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136353008"
+  },
+  "4136356008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4136356008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2024-09-23",
+    "title": "Software Engineer, AI Training and Infrastructure",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136356008"
+  },
+  "4136357008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4136357008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2024-09-23",
+    "title": "Senior Software Engineer, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136357008"
+  },
+  "4136372008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4136372008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2024-09-23",
+    "title": "Robotics Engineer, Manipulation",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136372008"
+  },
+  "4136373008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4136373008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo, Bengaluru",
+    "posted_date": "2024-09-23",
+    "title": "Robotics Software Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4136373008"
+  },
+  "4407015008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4407015008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo ",
+    "posted_date": "2024-11-13",
+    "title": "Research Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4407015008"
+  },
+  "4408092008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4408092008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo",
+    "posted_date": "2024-11-13",
+    "title": "Deep Learning Manipulation Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4408092008"
+  },
+  "4450191008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4450191008",
+    "last_seen": "2026-09-08T14:32:55.446576+00:00",
+    "location": "Pittsburgh, San Francisco",
+    "posted_date": "2024-12-11",
+    "title": "Electrical Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4450191008"
+  },
+  "4483820008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4483820008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": " Bengaluru",
+    "posted_date": "2025-01-06",
+    "title": "UI/UX Designer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4483820008"
+  },
+  "4483863008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4483863008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": " Bengaluru",
+    "posted_date": "2025-01-06",
+    "title": "React Native Developer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4483863008"
+  },
+  "4483871008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4483871008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2025-01-06",
+    "title": "Full Stack Developer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4483871008"
+  },
+  "4483954008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4483954008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2025-01-06",
+    "title": "Robotics Engineer, Deployment & Testing - Bengaluru",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4483954008"
+  },
+  "4483966008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4483966008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2025-01-06",
+    "title": "Hardware Engineer - Bengaluru",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4483966008"
+  },
+  "4511983008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4511983008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2025-01-28",
+    "title": "Firmware/ Embedded Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4511983008"
+  },
+  "4552462008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4552462008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Francisco",
+    "posted_date": "2025-02-20",
+    "title": "Lead Industrial Designer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4552462008"
+  },
+  "4782103008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4782103008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2025-06-25",
+    "title": "Robot Operator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4782103008"
+  },
+  "4910792008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4910792008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2025-09-06",
+    "title": "Robot Operator - India",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4910792008"
+  },
+  "4910803008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4910803008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2025-09-08",
+    "title": "Mechanical Design Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4910803008"
+  },
+  "4919028008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4919028008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, Pittsburgh ",
+    "posted_date": "2025-09-11",
+    "title": "Machine Learning Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4919028008"
+  },
+  "4944196008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "4944196008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2025-10-04",
+    "title": "Robotics Manipulation & Controls Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/4944196008"
+  },
+  "5028697008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5028697008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2025-12-10",
+    "title": "Physics Simulation Scientist",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5028697008"
+  },
+  "5031015008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5031015008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2025-12-11",
+    "title": "Technical Animator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5031015008"
+  },
+  "5031480008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5031480008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2025-12-11",
+    "title": "Computer Vision AI & ML Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5031480008"
+  },
+  "5118313008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5118313008",
+    "last_seen": "2026-09-22T22:34:59.546958+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-02-11",
+    "title": "Social Media Intern",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5118313008"
+  },
+  "5123735008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5123735008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-02-17",
+    "title": "Technical Product Manager - Data Annotation & Labelling",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5123735008"
+  },
+  "5128595008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5128595008",
+    "last_seen": "2026-09-08T14:32:55.446576+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-02-21",
+    "title": "Technical Program Manager - Data Operations",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5128595008"
+  },
+  "5135058008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5135058008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-02-27",
+    "title": "UX/UI Designer \u2013 Fleet Command & Robot Management",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5135058008"
+  },
+  "5135207008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5135207008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2026-02-26",
+    "title": "Senior Master Annotator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5135207008"
+  },
+  "5135221008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5135221008",
+    "last_seen": "2026-08-19T20:00:17.232764+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2026-02-27",
+    "title": "Senior Accountant",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5135221008"
+  },
+  "5162584008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5162584008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-03-23",
+    "title": "Robotics Engineer, Deployment & Testing - San Mateo",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5162584008"
+  },
+  "5162957008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5162957008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, Pennsylvania ",
+    "posted_date": "2026-03-23",
+    "title": "Robot Operator - Pittsburgh",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5162957008"
+  },
+  "5162961008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5162961008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-03-23",
+    "title": "Technical Recruiting Coordinator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5162961008"
+  },
+  "5181757008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5181757008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-04-08",
+    "title": "Senior DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5181757008"
+  },
+  "5202355008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5202355008",
+    "last_seen": "2026-09-15T21:04:20.144849+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-04-27",
+    "title": "Manufacturing Design Engineer (NPI & Robotics)",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5202355008"
+  },
+  "5204350008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5204350008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-04-28",
+    "title": "Principal Sales Engineer \u2013 Warehouse Robotics Systems",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5204350008"
+  },
+  "5218361008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5218361008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-05-12",
+    "title": "Mechatronics Technician",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5218361008"
+  },
+  "5218368008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5218368008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-05-12",
+    "title": "Robotics Technician",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5218368008"
+  },
+  "5218371008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5218371008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-05-12",
+    "title": "Strategic Sourcing Lead, Warehouse Robotics",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5218371008"
+  },
+  "5222931008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5222931008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-05-15",
+    "title": "Senior Robot Infrastructure Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5222931008"
+  },
+  "5228751008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5228751008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "Remote",
+    "posted_date": "2026-05-22",
+    "title": "Senior Designer, Brand Identity (Contract)",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5228751008"
+  },
+  "5228757008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5228757008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, California ",
+    "posted_date": "2026-05-22",
+    "title": "Software Engineer, Manufacturing Test Systems",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5228757008"
+  },
+  "5228768008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5228768008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Pittsburgh, San Mateo ",
+    "posted_date": "2026-05-22",
+    "title": "Robotics Application Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5228768008"
+  },
+  "5233633008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5233633008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, California ",
+    "posted_date": "2026-05-27",
+    "title": "Hardware Validation - Electrical Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5233633008"
+  },
+  "5235631008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5235631008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-05-29",
+    "title": "Camera Systems Software Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5235631008"
+  },
+  "5235765008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5235765008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bangalore, India ",
+    "posted_date": "2026-05-29",
+    "title": "Operations Program Manager \u2013 Data Infrastructure - India",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5235765008"
+  },
+  "5239930008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5239930008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-06-02",
+    "title": "Computer Vision AI & ML Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5239930008"
+  },
+  "5239937008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5239937008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-06-02",
+    "title": "System Identification & Controls Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5239937008"
+  },
+  "5248733008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5248733008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-06-05",
+    "title": "Research Robotics/Computer Vision Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5248733008"
+  },
+  "5254601008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5254601008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bangalore, India ",
+    "posted_date": "2026-06-10",
+    "title": "Program Manager - Data Collection & Annotation - India",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5254601008"
+  },
+  "5263541008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5263541008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2026-06-15",
+    "title": "Camera Systems Software Engineer - India",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5263541008"
+  },
+  "5266172008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5266172008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-06-16",
+    "title": "R&D Assembly Technician",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5266172008"
+  },
+  "5345700008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-14T18:37:36.699911+00:00",
+    "job_id": "5345700008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-07-13",
+    "title": "Workplace Manager",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5345700008"
+  },
+  "5365131008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5365131008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-07-20",
+    "title": "Full Stack Engineer (Frontend & Android Focus)",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5365131008"
+  },
+  "5366545008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5366545008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-07-21",
+    "title": "Global Supply Manager (GSM) \u2013 Robotics Hardware",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5366545008"
+  },
+  "5368160008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5368160008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-07-22",
+    "title": "Technical Writer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5368160008"
+  },
+  "5375708008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-11T20:29:42.944085+00:00",
+    "job_id": "5375708008",
+    "last_seen": "2026-09-16T20:46:30.378085+00:00",
+    "location": "Bengaluru, India",
+    "posted_date": "2026-07-30",
+    "title": "Technical Recruiter, India",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5375708008"
+  },
+  "5397677008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-21T16:33:00.738159+00:00",
+    "job_id": "5397677008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-08-21",
+    "title": "Senior Accountant",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5397677008"
+  },
+  "5406247008": {
+    "company": "Skild AI",
+    "first_seen": "2026-08-26T00:20:27.343668+00:00",
+    "job_id": "5406247008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-08-25",
+    "title": "Senior Robot Animator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5406247008"
+  },
+  "5420082008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-09T21:38:42.174167+00:00",
+    "job_id": "5420082008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-09-09",
+    "title": "Senior Electrical Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5420082008"
+  },
+  "5421496008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-12T18:18:32.342009+00:00",
+    "job_id": "5421496008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo",
+    "posted_date": "2026-09-10",
+    "title": "Manufacturing Engineering Manager",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5421496008"
+  },
+  "5432541008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-23T22:09:45.060669+00:00",
+    "job_id": "5432541008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-09-22",
+    "title": "Content Creator (Intern)",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5432541008"
+  },
+  "5433787008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-24T23:52:53.511351+00:00",
+    "job_id": "5433787008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo ",
+    "posted_date": "2026-09-23",
+    "title": "Deployment & Support Engineer",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5433787008"
+  },
+  "5434806008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-25T19:40:19.826237+00:00",
+    "job_id": "5434806008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-09-24",
+    "title": "Business Development Lead, Enterprise Warehouse Robotics",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5434806008"
+  },
+  "5435617008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-27T15:44:50.274229+00:00",
+    "job_id": "5435617008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-09-25",
+    "title": "Marketing Lead \u2013 Enterprise Warehouse Robotics",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5435617008"
+  },
+  "5435633008": {
+    "company": "Skild AI",
+    "first_seen": "2026-09-27T15:44:50.274229+00:00",
+    "job_id": "5435633008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "Remote (United States)",
+    "posted_date": "2026-09-25",
+    "title": "Enterprise Account Executive \u2013 Warehouse Robotics (North America)",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5435633008"
+  },
+  "5442963008": {
+    "company": "Skild AI",
+    "first_seen": "2026-10-05T22:11:48.090672+00:00",
+    "job_id": "5442963008",
+    "last_seen": "2026-10-13T21:25:54.617819+00:00",
+    "location": "San Mateo, CA",
+    "posted_date": "2026-10-05",
+    "title": "Payroll & People Ops Coordinator",
+    "url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5442963008"
+  }
+}

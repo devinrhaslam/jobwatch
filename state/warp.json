@@ -1,0 +1,82 @@
+{
+  "4324888004": {
+    "company": "Warp",
+    "first_seen": "2026-08-06T13:15:30.778188+00:00",
+    "job_id": "4324888004",
+    "last_seen": "2026-10-13T21:27:31.259946+00:00",
+    "location": "New York, New York",
+    "posted_date": "2022-02-01",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/4324888004"
+  },
+  "5749183004": {
+    "company": "Warp",
+    "first_seen": "2026-08-06T13:15:30.778188+00:00",
+    "job_id": "5749183004",
+    "last_seen": "2026-10-04T23:10:25.558060+00:00",
+    "location": "New York, New York",
+    "posted_date": "2026-01-05",
+    "title": "Forward Deployed Engineer",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/5749183004"
+  },
+  "5828901004": {
+    "company": "Warp",
+    "first_seen": "2026-09-28T21:51:55.359961+00:00",
+    "job_id": "5828901004",
+    "last_seen": "2026-10-13T21:27:31.259946+00:00",
+    "location": "Remote - New York",
+    "posted_date": "2026-03-16",
+    "title": "Analytics Engineer",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/5828901004"
+  },
+  "5995721004": {
+    "company": "Warp",
+    "first_seen": "2026-08-06T13:15:30.778188+00:00",
+    "job_id": "5995721004",
+    "last_seen": "2026-10-07T21:59:31.179167+00:00",
+    "location": "New York, New York",
+    "posted_date": "2026-05-14",
+    "title": "Expansion Account Manager",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/5995721004"
+  },
+  "6133091004": {
+    "company": "Warp",
+    "first_seen": "2026-08-06T13:15:30.778188+00:00",
+    "job_id": "6133091004",
+    "last_seen": "2026-08-24T21:01:33.766196+00:00",
+    "location": "Remote within US and Canada",
+    "posted_date": "2026-08-03",
+    "title": "Senior Product Marketing Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/6133091004"
+  },
+  "6143012004": {
+    "company": "Warp",
+    "first_seen": "2026-08-20T20:37:27.735025+00:00",
+    "job_id": "6143012004",
+    "last_seen": "2026-10-06T23:03:26.016192+00:00",
+    "location": "New York, New York",
+    "posted_date": "2026-08-20",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/6143012004"
+  },
+  "6163780004": {
+    "company": "Warp",
+    "first_seen": "2026-08-26T20:43:18.557868+00:00",
+    "job_id": "6163780004",
+    "last_seen": "2026-10-13T21:27:31.259946+00:00",
+    "location": "Remote",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer, Enterprise Security",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/6163780004"
+  },
+  "6222619004": {
+    "company": "Warp",
+    "first_seen": "2026-10-12T23:18:05.028876+00:00",
+    "job_id": "6222619004",
+    "last_seen": "2026-10-13T21:27:31.259946+00:00",
+    "location": "Remote within US and Canada",
+    "posted_date": "2026-10-12",
+    "title": "Sales Engineer",
+    "url": "https://job-boards.greenhouse.io/warp/jobs/6222619004"
+  }
+}

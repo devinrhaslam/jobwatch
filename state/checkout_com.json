@@ -1,0 +1,3472 @@
+{
+  "0021f0a9-6197-4b8c-8261-5fae5098cd75": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T02:08:41.214506+00:00",
+    "job_id": "0021f0a9-6197-4b8c-8261-5fae5098cd75",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-09",
+    "title": "Director, Data Science - Payment Performance",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0021f0a9-6197-4b8c-8261-5fae5098cd75"
+  },
+  "00626df7-b248-4da0-803c-96e6e2708c0f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "00626df7-b248-4da0-803c-96e6e2708c0f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-10-09",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/00626df7-b248-4da0-803c-96e6e2708c0f"
+  },
+  "0085bc88-885d-4095-a469-964d738d42c2": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0085bc88-885d-4095-a469-964d738d42c2",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-07-29",
+    "title": "Senior Specialist/Manager, Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0085bc88-885d-4095-a469-964d738d42c2"
+  },
+  "00e0856b-7518-4861-be03-65f4be9f791b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "00e0856b-7518-4861-be03-65f4be9f791b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-08-27",
+    "title": "Communications Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/00e0856b-7518-4861-be03-65f4be9f791b"
+  },
+  "012b5fbe-b230-4ee4-84b1-72b35daa92e9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "012b5fbe-b230-4ee4-84b1-72b35daa92e9",
+    "last_seen": "2026-09-27T15:40:02.756403+00:00",
+    "location": "London",
+    "posted_date": "2026-09-03",
+    "title": "Strategic Bid Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/012b5fbe-b230-4ee4-84b1-72b35daa92e9"
+  },
+  "03db9f09-2b00-428b-accc-1bdb74f2fb62": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "03db9f09-2b00-428b-accc-1bdb74f2fb62",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "London",
+    "posted_date": "2026-06-04",
+    "title": "Senior Network Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/03db9f09-2b00-428b-accc-1bdb74f2fb62"
+  },
+  "046e79e9-fb09-4352-9c99-902fea9596d6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-11T18:00:04.463937+00:00",
+    "job_id": "046e79e9-fb09-4352-9c99-902fea9596d6",
+    "last_seen": "2026-08-18T22:42:18.163644+00:00",
+    "location": "London",
+    "posted_date": "2026-08-11",
+    "title": "Manager, Customer Support",
+    "url": "https://jobs.ashbyhq.com/checkout.com/046e79e9-fb09-4352-9c99-902fea9596d6"
+  },
+  "04739560-ba62-4c17-9c48-12444f0b40e7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "04739560-ba62-4c17-9c48-12444f0b40e7",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-14",
+    "title": "Data Scientist - Payment Success",
+    "url": "https://jobs.ashbyhq.com/checkout.com/04739560-ba62-4c17-9c48-12444f0b40e7"
+  },
+  "09098669-668f-4aba-b886-749ad3adb5ff": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "09098669-668f-4aba-b886-749ad3adb5ff",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-08-14",
+    "title": "Manager, Technical Account Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/09098669-668f-4aba-b886-749ad3adb5ff"
+  },
+  "09cd705c-d219-4237-9923-657814eaa0c1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "09cd705c-d219-4237-9923-657814eaa0c1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-05",
+    "title": "Engineer II, IT Engineering - Google Workspace",
+    "url": "https://jobs.ashbyhq.com/checkout.com/09cd705c-d219-4237-9923-657814eaa0c1"
+  },
+  "0ab036b7-2b4d-4f86-b192-4d66be586116": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0ab036b7-2b4d-4f86-b192-4d66be586116",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-29",
+    "title": "Sales Manager - Paris",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0ab036b7-2b4d-4f86-b192-4d66be586116"
+  },
+  "0b1b7462-8cf3-4d67-a24f-fd8a902797da": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-09T21:31:43.784358+00:00",
+    "job_id": "0b1b7462-8cf3-4d67-a24f-fd8a902797da",
+    "last_seen": "2026-09-16T20:40:26.402065+00:00",
+    "location": "London",
+    "posted_date": "2026-09-09",
+    "title": "Manager, Operations and Strategy (CEO Office)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0b1b7462-8cf3-4d67-a24f-fd8a902797da"
+  },
+  "0b48d78e-317b-4cd8-a791-65c6a96d5e00": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "0b48d78e-317b-4cd8-a791-65c6a96d5e00",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Program (New York)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0b48d78e-317b-4cd8-a791-65c6a96d5e00"
+  },
+  "0b7503d4-79ea-4d4e-9c12-775c2d3bf40d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-15T20:58:54.461317+00:00",
+    "job_id": "0b7503d4-79ea-4d4e-9c12-775c2d3bf40d",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-15",
+    "title": "Manager, Regional Treasury",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0b7503d4-79ea-4d4e-9c12-775c2d3bf40d"
+  },
+  "0c456156-ce99-46e9-8e72-984dd256d604": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "0c456156-ce99-46e9-8e72-984dd256d604",
+    "last_seen": "2026-10-02T01:21:37.260693+00:00",
+    "location": "Tallinn",
+    "posted_date": "2026-09-29",
+    "title": "Senior Engineer I, Payments Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0c456156-ce99-46e9-8e72-984dd256d604"
+  },
+  "0c8f4477-379d-478d-b2b5-781fec44a308": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0c8f4477-379d-478d-b2b5-781fec44a308",
+    "last_seen": "2026-08-18T00:37:04.648520+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-07-17",
+    "title": "Senior Specialist, Regional People Partnering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0c8f4477-379d-478d-b2b5-781fec44a308"
+  },
+  "0d05bcc9-b5ed-42d2-977c-30731d60a086": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0d05bcc9-b5ed-42d2-977c-30731d60a086",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Sydney",
+    "posted_date": "2026-08-06",
+    "title": "Manager, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0d05bcc9-b5ed-42d2-977c-30731d60a086"
+  },
+  "0d2870a0-2e7d-4674-8f55-39f63ff9f845": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "0d2870a0-2e7d-4674-8f55-39f63ff9f845",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-23",
+    "title": "Manager Partner Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0d2870a0-2e7d-4674-8f55-39f63ff9f845"
+  },
+  "0eb59131-b482-4900-a1a1-97b33678e653": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0eb59131-b482-4900-a1a1-97b33678e653",
+    "last_seen": "2026-08-12T14:09:25.841449+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-08",
+    "title": "Manager Partner Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0eb59131-b482-4900-a1a1-97b33678e653"
+  },
+  "0f32370e-2c15-4780-828a-d051045147e3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "0f32370e-2c15-4780-828a-d051045147e3",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "London",
+    "posted_date": "2026-05-26",
+    "title": "Cyber Security Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0f32370e-2c15-4780-828a-d051045147e3"
+  },
+  "0f8781a1-05cc-45c9-85d3-debee156e36d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "0f8781a1-05cc-45c9-85d3-debee156e36d",
+    "last_seen": "2026-09-16T20:40:26.402065+00:00",
+    "location": "London",
+    "posted_date": "2026-09-09",
+    "title": "Specialist, Deal Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/0f8781a1-05cc-45c9-85d3-debee156e36d"
+  },
+  "105cca3d-9d30-4db7-8e4f-3a546ec8a056": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T15:10:13.128584+00:00",
+    "job_id": "105cca3d-9d30-4db7-8e4f-3a546ec8a056",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-08-14",
+    "title": "Payment Specialist - Compliance Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/105cca3d-9d30-4db7-8e4f-3a546ec8a056"
+  },
+  "106793ae-620c-4679-8987-7f60f22b2287": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "106793ae-620c-4679-8987-7f60f22b2287",
+    "last_seen": "2026-10-04T23:01:41.193558+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-06-16",
+    "title": "Senior Analyst, Revenue & Billing Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/106793ae-620c-4679-8987-7f60f22b2287"
+  },
+  "10ea8030-c7f6-49a5-a4dc-d0b312183e5a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-12T16:45:47.310206+00:00",
+    "job_id": "10ea8030-c7f6-49a5-a4dc-d0b312183e5a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-09-22",
+    "title": "Senior Talent Partner",
+    "url": "https://jobs.ashbyhq.com/checkout.com/10ea8030-c7f6-49a5-a4dc-d0b312183e5a"
+  },
+  "112d2823-f9c4-419b-82b4-6020962f3be3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "112d2823-f9c4-419b-82b4-6020962f3be3",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-05-19",
+    "title": "Associate, Cost of Sales Operations - Investigations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/112d2823-f9c4-419b-82b4-6020962f3be3"
+  },
+  "113e43bc-1063-48bb-bf5f-2a58564c0df8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "113e43bc-1063-48bb-bf5f-2a58564c0df8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Programme (Amsterdam)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/113e43bc-1063-48bb-bf5f-2a58564c0df8"
+  },
+  "12a9bf2b-6386-4e96-8536-384aad12eb18": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "12a9bf2b-6386-4e96-8536-384aad12eb18",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-04-28",
+    "title": "Senior Manager, Product Data Science & Analytics",
+    "url": "https://jobs.ashbyhq.com/checkout.com/12a9bf2b-6386-4e96-8536-384aad12eb18"
+  },
+  "13750cd4-577b-410a-956d-b6a591f598ce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "13750cd4-577b-410a-956d-b6a591f598ce",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-08-06",
+    "title": "Senior Specialist, Implementation Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/13750cd4-577b-410a-956d-b6a591f598ce"
+  },
+  "14b25f3b-7b90-4628-9bb4-ae41fed78031": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-24T23:47:48.215045+00:00",
+    "job_id": "14b25f3b-7b90-4628-9bb4-ae41fed78031",
+    "last_seen": "2026-10-04T23:01:41.193558+00:00",
+    "location": "London",
+    "posted_date": "2026-09-24",
+    "title": "Talent Acquisition Sourcer, Strategic and Leadership Hiring",
+    "url": "https://jobs.ashbyhq.com/checkout.com/14b25f3b-7b90-4628-9bb4-ae41fed78031"
+  },
+  "15c1193c-635f-40aa-bfd2-959e13431232": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T14:19:07.831826+00:00",
+    "job_id": "15c1193c-635f-40aa-bfd2-959e13431232",
+    "last_seen": "2026-09-16T20:40:26.402065+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Engineer I,  People Technology, Integrations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/15c1193c-635f-40aa-bfd2-959e13431232"
+  },
+  "1645e786-693f-4622-a970-3445cf3417f2": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-22T22:29:04.354012+00:00",
+    "job_id": "1645e786-693f-4622-a970-3445cf3417f2",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-22",
+    "title": "Legal Counsel, Regulatory and Product",
+    "url": "https://jobs.ashbyhq.com/checkout.com/1645e786-693f-4622-a970-3445cf3417f2"
+  },
+  "16deaac2-9163-4c4c-bb93-15041b4e46ad": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "16deaac2-9163-4c4c-bb93-15041b4e46ad",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "London",
+    "posted_date": "2026-07-15",
+    "title": "Senior Salesforce Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/16deaac2-9163-4c4c-bb93-15041b4e46ad"
+  },
+  "17976cd5-3830-4be1-8add-fdb29d43b05a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T16:52:02.935852+00:00",
+    "job_id": "17976cd5-3830-4be1-8add-fdb29d43b05a",
+    "last_seen": "2026-10-01T12:38:14.694208+00:00",
+    "location": "London",
+    "posted_date": "2026-08-14",
+    "title": "Manager, Communications",
+    "url": "https://jobs.ashbyhq.com/checkout.com/17976cd5-3830-4be1-8add-fdb29d43b05a"
+  },
+  "18b6737d-5a8d-419d-a978-3c9092170298": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "18b6737d-5a8d-419d-a978-3c9092170298",
+    "last_seen": "2026-09-15T20:58:54.461317+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-08-18",
+    "title": "Associate, Financial Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/18b6737d-5a8d-419d-a978-3c9092170298"
+  },
+  "19615c6a-f769-4af6-80aa-ff90bd92c34b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "19615c6a-f769-4af6-80aa-ff90bd92c34b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-02",
+    "title": "Senior Machine Learning Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/19615c6a-f769-4af6-80aa-ff90bd92c34b"
+  },
+  "1bf75f8d-8352-4d8c-a4bd-66a02fe65313": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "1bf75f8d-8352-4d8c-a4bd-66a02fe65313",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-23",
+    "title": "Senior Product Manager, Orchestration",
+    "url": "https://jobs.ashbyhq.com/checkout.com/1bf75f8d-8352-4d8c-a4bd-66a02fe65313"
+  },
+  "1efedc20-2422-479b-9c82-7ad45ddb9953": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "1efedc20-2422-479b-9c82-7ad45ddb9953",
+    "last_seen": "2026-08-06T12:52:42.862819+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-07-24",
+    "title": "Senior MLOps Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/1efedc20-2422-479b-9c82-7ad45ddb9953"
+  },
+  "1fd8071b-5fe8-4b1a-83e7-a011a901ee2c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "1fd8071b-5fe8-4b1a-83e7-a011a901ee2c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-02",
+    "title": "Senior Cloud Security Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/1fd8071b-5fe8-4b1a-83e7-a011a901ee2c"
+  },
+  "20905115-1461-46db-9662-9fc84abefbde": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "20905115-1461-46db-9662-9fc84abefbde",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-01",
+    "title": "Chief of Staff",
+    "url": "https://jobs.ashbyhq.com/checkout.com/20905115-1461-46db-9662-9fc84abefbde"
+  },
+  "20d3d79c-3810-4847-8a36-f92f92f71c55": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-12T18:12:32.293090+00:00",
+    "job_id": "20d3d79c-3810-4847-8a36-f92f92f71c55",
+    "last_seen": "2026-10-01T12:38:14.694208+00:00",
+    "location": "London",
+    "posted_date": "2026-09-11",
+    "title": "Product Support Analyst I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/20d3d79c-3810-4847-8a36-f92f92f71c55"
+  },
+  "215f7e5e-1b7e-4a82-9e22-da0805bc639c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T20:54:18.097594+00:00",
+    "job_id": "215f7e5e-1b7e-4a82-9e22-da0805bc639c",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "New York",
+    "posted_date": "2026-08-24",
+    "title": "Senior Specialist, Technical Account Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/215f7e5e-1b7e-4a82-9e22-da0805bc639c"
+  },
+  "23f8284a-22aa-400f-afa3-87093a15ab36": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "23f8284a-22aa-400f-afa3-87093a15ab36",
+    "last_seen": "2026-10-12T02:08:41.214506+00:00",
+    "location": "London",
+    "posted_date": "2026-07-30",
+    "title": "Commercial Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/23f8284a-22aa-400f-afa3-87093a15ab36"
+  },
+  "24128247-9ed5-4679-95d5-7e51b85aecb9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "24128247-9ed5-4679-95d5-7e51b85aecb9",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Programme (Dubai)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/24128247-9ed5-4679-95d5-7e51b85aecb9"
+  },
+  "253cb737-f950-450e-b60f-fd3220c2eca8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "253cb737-f950-450e-b60f-fd3220c2eca8",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Senior Sales Manager - Card Issuing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/253cb737-f950-450e-b60f-fd3220c2eca8"
+  },
+  "2725c4d2-8f3c-49fc-b2d0-2af4618fae24": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-09T21:31:43.784358+00:00",
+    "job_id": "2725c4d2-8f3c-49fc-b2d0-2af4618fae24",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-08",
+    "title": "Senior Analyst, Process Architect",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2725c4d2-8f3c-49fc-b2d0-2af4618fae24"
+  },
+  "28697dc0-b12d-44d1-be85-a78f18023f02": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "28697dc0-b12d-44d1-be85-a78f18023f02",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Analytics Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/28697dc0-b12d-44d1-be85-a78f18023f02"
+  },
+  "28cbc360-6f78-4c26-8b53-7cb334a0b21a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-27T15:40:02.756403+00:00",
+    "job_id": "28cbc360-6f78-4c26-8b53-7cb334a0b21a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-09-26",
+    "title": "Senior Fraud Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/28cbc360-6f78-4c26-8b53-7cb334a0b21a"
+  },
+  "28f47f7b-328f-464e-bee2-030ad6e76f2c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-30T19:59:16.585887+00:00",
+    "job_id": "28f47f7b-328f-464e-bee2-030ad6e76f2c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-28",
+    "title": "Senior Sales Manager - Issuing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/28f47f7b-328f-464e-bee2-030ad6e76f2c"
+  },
+  "29b8378c-3cb6-430e-9a4f-1ec0615c65cd": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "29b8378c-3cb6-430e-9a4f-1ec0615c65cd",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-21",
+    "title": "Senior Software Engineer, AI Centre of Excellence",
+    "url": "https://jobs.ashbyhq.com/checkout.com/29b8378c-3cb6-430e-9a4f-1ec0615c65cd"
+  },
+  "2a3630d8-7462-442a-8c05-75f595b240c4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2a3630d8-7462-442a-8c05-75f595b240c4",
+    "last_seen": "2026-09-09T21:31:43.784358+00:00",
+    "location": "London",
+    "posted_date": "2026-06-22",
+    "title": "Information Security Analyst II (GRC)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2a3630d8-7462-442a-8c05-75f595b240c4"
+  },
+  "2c00736e-d948-4697-86f4-f15aa7fa4dba": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T14:19:07.831826+00:00",
+    "job_id": "2c00736e-d948-4697-86f4-f15aa7fa4dba",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Engineer I, People Technology, HCM",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2c00736e-d948-4697-86f4-f15aa7fa4dba"
+  },
+  "2d6dbdba-52e1-4c88-a403-b854df0465b8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T02:08:41.214506+00:00",
+    "job_id": "2d6dbdba-52e1-4c88-a403-b854df0465b8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-09",
+    "title": "Associate, Talent Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2d6dbdba-52e1-4c88-a403-b854df0465b8"
+  },
+  "2d903016-0c0e-4243-b73b-de7de8fadb8c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2d903016-0c0e-4243-b73b-de7de8fadb8c",
+    "last_seen": "2026-09-14T01:41:45.262032+00:00",
+    "location": "Tallinn",
+    "posted_date": "2026-08-04",
+    "title": "Senior Analyst, Financial Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2d903016-0c0e-4243-b73b-de7de8fadb8c"
+  },
+  "2dc6e7d8-6d42-4058-a2c9-311a973d2f0a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-07T14:32:42.818976+00:00",
+    "job_id": "2dc6e7d8-6d42-4058-a2c9-311a973d2f0a",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-08-07",
+    "title": "Risk & Compliance Analyst |\u00a0 Analista de Riesgos y Cumplimiento",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2dc6e7d8-6d42-4058-a2c9-311a973d2f0a"
+  },
+  "2e44a24f-3e49-4e24-b02d-28e1d02f5692": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-02T01:21:37.260693+00:00",
+    "job_id": "2e44a24f-3e49-4e24-b02d-28e1d02f5692",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-10-01",
+    "title": "EEA Senior Specialist , Account Managenent",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2e44a24f-3e49-4e24-b02d-28e1d02f5692"
+  },
+  "2e8a5c8c-35d4-437f-9e78-dfeb1fadbec2": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2e8a5c8c-35d4-437f-9e78-dfeb1fadbec2",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "London",
+    "posted_date": "2026-09-11",
+    "title": "Specialist, Marketing Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2e8a5c8c-35d4-437f-9e78-dfeb1fadbec2"
+  },
+  "2e92eb23-4f1e-4b82-988b-ad29caf4bdf0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2e92eb23-4f1e-4b82-988b-ad29caf4bdf0",
+    "last_seen": "2026-08-12T00:10:35.487032+00:00",
+    "location": "London",
+    "posted_date": "2026-04-22",
+    "title": "Manager, Treasury Markets (FX)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2e92eb23-4f1e-4b82-988b-ad29caf4bdf0"
+  },
+  "2ea119a0-49c8-489b-9c18-86cb31ed3708": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2ea119a0-49c8-489b-9c18-86cb31ed3708",
+    "last_seen": "2026-09-24T23:47:48.215045+00:00",
+    "location": "London",
+    "posted_date": "2026-06-05",
+    "title": "AI & Automation Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2ea119a0-49c8-489b-9c18-86cb31ed3708"
+  },
+  "2ee73f96-8c5c-4ffd-a723-21521c2dad4a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-20T20:29:56.515825+00:00",
+    "job_id": "2ee73f96-8c5c-4ffd-a723-21521c2dad4a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-20",
+    "title": "Analyst I, Payouts Onboarding",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2ee73f96-8c5c-4ffd-a723-21521c2dad4a"
+  },
+  "2fcb5327-577d-4929-bb2a-6bef43262178": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "2fcb5327-577d-4929-bb2a-6bef43262178",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-04",
+    "title": "Senior Manager, Pricing Strategy",
+    "url": "https://jobs.ashbyhq.com/checkout.com/2fcb5327-577d-4929-bb2a-6bef43262178"
+  },
+  "3096709e-2076-4d04-98cd-eebdbcb3d4ac": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "3096709e-2076-4d04-98cd-eebdbcb3d4ac",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-06",
+    "title": "Senior Product Designer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3096709e-2076-4d04-98cd-eebdbcb3d4ac"
+  },
+  "31043330-96b2-4c9b-91f7-0d53e12afa11": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-30T19:59:16.585887+00:00",
+    "job_id": "31043330-96b2-4c9b-91f7-0d53e12afa11",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-08-28",
+    "title": "Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/31043330-96b2-4c9b-91f7-0d53e12afa11"
+  },
+  "310eec35-05b1-41c6-888e-e2a2371bd742": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "310eec35-05b1-41c6-888e-e2a2371bd742",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Barcelona, Paris",
+    "posted_date": "2026-09-10",
+    "title": "Sales Engineering, Senior Specialist (Spanish Speaking)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/310eec35-05b1-41c6-888e-e2a2371bd742"
+  },
+  "31f6e382-3b92-49d5-88b5-1e6bd874fd65": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-12T18:12:32.293090+00:00",
+    "job_id": "31f6e382-3b92-49d5-88b5-1e6bd874fd65",
+    "last_seen": "2026-10-08T23:26:56.314458+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-09-11",
+    "title": "Operations Analyst I (Merchant Configuration)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/31f6e382-3b92-49d5-88b5-1e6bd874fd65"
+  },
+  "32018de5-9c5f-41e7-9653-c65482e1d1d8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "32018de5-9c5f-41e7-9653-c65482e1d1d8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-30",
+    "title": "Legal Counsel, Regulatory & Product",
+    "url": "https://jobs.ashbyhq.com/checkout.com/32018de5-9c5f-41e7-9653-c65482e1d1d8"
+  },
+  "325250db-9381-4c34-9be7-1f668e013e52": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "325250db-9381-4c34-9be7-1f668e013e52",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-07",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/325250db-9381-4c34-9be7-1f668e013e52"
+  },
+  "32942216-76bc-41bf-9766-b4989ec83ad5": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-04T23:01:41.193558+00:00",
+    "job_id": "32942216-76bc-41bf-9766-b4989ec83ad5",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-02",
+    "title": "Global Equity Tax Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/32942216-76bc-41bf-9766-b4989ec83ad5"
+  },
+  "334546e2-ce63-4a00-8045-128a0c048337": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "334546e2-ce63-4a00-8045-128a0c048337",
+    "last_seen": "2026-09-09T21:31:43.784358+00:00",
+    "location": "London",
+    "posted_date": "2026-06-16",
+    "title": "Manager, Procurement",
+    "url": "https://jobs.ashbyhq.com/checkout.com/334546e2-ce63-4a00-8045-128a0c048337"
+  },
+  "341d50f9-933d-45c2-b251-7a4de201c992": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "341d50f9-933d-45c2-b251-7a4de201c992",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-22",
+    "title": "Analyst II, Risk Operations (Japanese speaker)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/341d50f9-933d-45c2-b251-7a4de201c992"
+  },
+  "3445cb9a-2137-47a9-8c0f-88d09e1e6516": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3445cb9a-2137-47a9-8c0f-88d09e1e6516",
+    "last_seen": "2026-08-16T23:43:04.584498+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-04-22",
+    "title": "Senior Manager, Internal Audit (US)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3445cb9a-2137-47a9-8c0f-88d09e1e6516"
+  },
+  "34999aa6-4772-42b9-8008-2faf458b9689": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-21T21:56:44.523316+00:00",
+    "job_id": "34999aa6-4772-42b9-8008-2faf458b9689",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-21",
+    "title": "Product Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/34999aa6-4772-42b9-8008-2faf458b9689"
+  },
+  "35615a95-06c9-4be2-9da4-8fa578ce5a35": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-15T20:58:54.461317+00:00",
+    "job_id": "35615a95-06c9-4be2-9da4-8fa578ce5a35",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-15",
+    "title": "Enterprise Sales Executive- Atlanta",
+    "url": "https://jobs.ashbyhq.com/checkout.com/35615a95-06c9-4be2-9da4-8fa578ce5a35"
+  },
+  "364fa1d9-1b0f-4497-8e35-bb3d0343805b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "364fa1d9-1b0f-4497-8e35-bb3d0343805b",
+    "last_seen": "2026-10-06T00:18:28.498226+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-05",
+    "title": "Specialist, Due Diligence",
+    "url": "https://jobs.ashbyhq.com/checkout.com/364fa1d9-1b0f-4497-8e35-bb3d0343805b"
+  },
+  "371b8b90-6f10-4664-b5c7-e98c1b0a0f3e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "371b8b90-6f10-4664-b5c7-e98c1b0a0f3e",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore, Hong Kong, Shanghai",
+    "posted_date": "2026-08-06",
+    "title": "Regional Marketing Manager, APAC",
+    "url": "https://jobs.ashbyhq.com/checkout.com/371b8b90-6f10-4664-b5c7-e98c1b0a0f3e"
+  },
+  "3724529e-1324-40bf-8fb0-f116e3eae12f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "3724529e-1324-40bf-8fb0-f116e3eae12f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-10-02",
+    "title": "Mobile Engineer II",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3724529e-1324-40bf-8fb0-f116e3eae12f"
+  },
+  "3931e3f9-7dbf-48a6-9a19-eb2167337e3e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3931e3f9-7dbf-48a6-9a19-eb2167337e3e",
+    "last_seen": "2026-09-24T23:47:48.215045+00:00",
+    "location": "London",
+    "posted_date": "2026-08-04",
+    "title": "Account Manager, Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3931e3f9-7dbf-48a6-9a19-eb2167337e3e"
+  },
+  "395d8b61-3232-47b1-b930-e0f292b80ea7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-21T18:42:50.488758+00:00",
+    "job_id": "395d8b61-3232-47b1-b930-e0f292b80ea7",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-09-22",
+    "title": "Senior Director, Regional Marketing, Americas",
+    "url": "https://jobs.ashbyhq.com/checkout.com/395d8b61-3232-47b1-b930-e0f292b80ea7"
+  },
+  "3afd3b1d-5082-4af5-a6c7-9b294921ba41": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3afd3b1d-5082-4af5-a6c7-9b294921ba41",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-07-15",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3afd3b1d-5082-4af5-a6c7-9b294921ba41"
+  },
+  "3b221ecf-3764-4b85-82d0-09bb4792179a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T20:35:47.453650+00:00",
+    "job_id": "3b221ecf-3764-4b85-82d0-09bb4792179a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-26",
+    "title": "Manager, APM Relationships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3b221ecf-3764-4b85-82d0-09bb4792179a"
+  },
+  "3bf972cc-259d-4ac2-a2b7-8972b3c9b59e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3bf972cc-259d-4ac2-a2b7-8972b3c9b59e",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Senior Manager, Licence Applications",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3bf972cc-259d-4ac2-a2b7-8972b3c9b59e"
+  },
+  "3c434660-bd24-45b4-9d2d-3fdcb3663c47": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3c434660-bd24-45b4-9d2d-3fdcb3663c47",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "London",
+    "posted_date": "2026-07-07",
+    "title": "Senior Sales Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3c434660-bd24-45b4-9d2d-3fdcb3663c47"
+  },
+  "3c4bdc18-3fd3-4556-bdc5-51e9e7aaef3a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3c4bdc18-3fd3-4556-bdc5-51e9e7aaef3a",
+    "last_seen": "2026-09-01T19:10:38.688225+00:00",
+    "location": "London",
+    "posted_date": "2026-07-12",
+    "title": "Brand Designer (15m FTC)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3c4bdc18-3fd3-4556-bdc5-51e9e7aaef3a"
+  },
+  "3d8a6a49-b070-4187-848a-55a461d93bae": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3d8a6a49-b070-4187-848a-55a461d93bae",
+    "last_seen": "2026-08-18T00:37:04.648520+00:00",
+    "location": "Sao Paulo",
+    "posted_date": "2026-08-12",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3d8a6a49-b070-4187-848a-55a461d93bae"
+  },
+  "3e413d1c-7c61-43ef-9c64-87d2c11c51a3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "3e413d1c-7c61-43ef-9c64-87d2c11c51a3",
+    "last_seen": "2026-09-14T01:41:45.262032+00:00",
+    "location": "London",
+    "posted_date": "2026-05-22",
+    "title": "Engineer I, Workplace Technology",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3e413d1c-7c61-43ef-9c64-87d2c11c51a3"
+  },
+  "3f22fb97-edf0-4435-b90e-924ae03f92ef": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "3f22fb97-edf0-4435-b90e-924ae03f92ef",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-30",
+    "title": "Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3f22fb97-edf0-4435-b90e-924ae03f92ef"
+  },
+  "3fa7c84c-712f-45a2-b865-4094d519de41": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-02T01:21:37.260693+00:00",
+    "job_id": "3fa7c84c-712f-45a2-b865-4094d519de41",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-10-01",
+    "title": "Analyst - Merchant Care Level 1",
+    "url": "https://jobs.ashbyhq.com/checkout.com/3fa7c84c-712f-45a2-b865-4094d519de41"
+  },
+  "41a07851-0494-45f4-983e-dabdcb7589fd": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "41a07851-0494-45f4-983e-dabdcb7589fd",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "New York",
+    "posted_date": "2026-07-01",
+    "title": "Senior Specialist, Field Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/41a07851-0494-45f4-983e-dabdcb7589fd"
+  },
+  "4244eb96-13ba-45f3-83b0-1e90a6ca7aa9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-17T20:47:21.390140+00:00",
+    "job_id": "4244eb96-13ba-45f3-83b0-1e90a6ca7aa9",
+    "last_seen": "2026-09-23T22:04:31.014722+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-17",
+    "title": "Business Development Representative (Paris) - French speaking",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4244eb96-13ba-45f3-83b0-1e90a6ca7aa9"
+  },
+  "428aad7f-9be4-4d89-a42e-f0bcd9ac6003": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-05T22:06:58.861977+00:00",
+    "job_id": "428aad7f-9be4-4d89-a42e-f0bcd9ac6003",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-05",
+    "title": "Manager, Treasury New Products (Crypto & Digital Assets Lead)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/428aad7f-9be4-4d89-a42e-f0bcd9ac6003"
+  },
+  "4294a779-69e4-4da5-93b5-a7f979d25d4c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4294a779-69e4-4da5-93b5-a7f979d25d4c",
+    "last_seen": "2026-09-08T14:25:46.792872+00:00",
+    "location": "London",
+    "posted_date": "2026-06-12",
+    "title": "Manager, Bank Relationships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4294a779-69e4-4da5-93b5-a7f979d25d4c"
+  },
+  "4404d6a6-3ad1-4e0f-b8c2-8a88175c1f1c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-05T22:06:58.861977+00:00",
+    "job_id": "4404d6a6-3ad1-4e0f-b8c2-8a88175c1f1c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-05",
+    "title": "Manager, Product Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4404d6a6-3ad1-4e0f-b8c2-8a88175c1f1c"
+  },
+  "4505aa3f-2a77-42c9-a5d1-e5e9cbe405ab": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-24T23:47:48.215045+00:00",
+    "job_id": "4505aa3f-2a77-42c9-a5d1-e5e9cbe405ab",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-24",
+    "title": "Group Product Manager, Acceptance Rates",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4505aa3f-2a77-42c9-a5d1-e5e9cbe405ab"
+  },
+  "45cc2244-e4c2-44ef-9fd0-d48f6fad26a8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "45cc2244-e4c2-44ef-9fd0-d48f6fad26a8",
+    "last_seen": "2026-08-13T21:16:23.905558+00:00",
+    "location": "London",
+    "posted_date": "2026-04-27",
+    "title": "Senior Associate, Strategic Pricing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/45cc2244-e4c2-44ef-9fd0-d48f6fad26a8"
+  },
+  "46041f01-7e41-4c33-8c15-f8f6445120ce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "46041f01-7e41-4c33-8c15-f8f6445120ce",
+    "last_seen": "2026-08-18T00:37:04.648520+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-07-21",
+    "title": "Senior Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/46041f01-7e41-4c33-8c15-f8f6445120ce"
+  },
+  "4691e14b-0bd8-4c4e-949c-588b137f0d5a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4691e14b-0bd8-4c4e-949c-588b137f0d5a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-07-22",
+    "title": "Analyst I, Acquiring Risk Monitoring",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4691e14b-0bd8-4c4e-949c-588b137f0d5a"
+  },
+  "475b751d-1cff-452c-8251-4f301bd2250b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "475b751d-1cff-452c-8251-4f301bd2250b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-10-13",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/475b751d-1cff-452c-8251-4f301bd2250b"
+  },
+  "47a5660d-7f22-42d9-9eb3-308e09f56d5b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-03T20:04:30.885835+00:00",
+    "job_id": "47a5660d-7f22-42d9-9eb3-308e09f56d5b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-09",
+    "title": "Senior Specialist, Technical Account Management - UAE",
+    "url": "https://jobs.ashbyhq.com/checkout.com/47a5660d-7f22-42d9-9eb3-308e09f56d5b"
+  },
+  "49024391-36cd-426f-b625-1a94a7fc2b2b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "49024391-36cd-426f-b625-1a94a7fc2b2b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-10-01",
+    "title": "Manager, Accounts Payable",
+    "url": "https://jobs.ashbyhq.com/checkout.com/49024391-36cd-426f-b625-1a94a7fc2b2b"
+  },
+  "495d1958-dd2b-43b9-b08d-57f123af7fa7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "495d1958-dd2b-43b9-b08d-57f123af7fa7",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-14",
+    "title": "Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/495d1958-dd2b-43b9-b08d-57f123af7fa7"
+  },
+  "4a02cf98-675c-4725-827c-137e7494ddfb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4a02cf98-675c-4725-827c-137e7494ddfb",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-07",
+    "title": "Manager, Process Architect",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4a02cf98-675c-4725-827c-137e7494ddfb"
+  },
+  "4aa8eb9e-787f-42be-9854-d4eb0d4c38d8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4aa8eb9e-787f-42be-9854-d4eb0d4c38d8",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "Singapore, Hong Kong",
+    "posted_date": "2026-09-02",
+    "title": "Manager, Sales Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4aa8eb9e-787f-42be-9854-d4eb0d4c38d8"
+  },
+  "4ba42482-91ac-41c3-99eb-f4d085d1c152": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4ba42482-91ac-41c3-99eb-f4d085d1c152",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Senior Analytics Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4ba42482-91ac-41c3-99eb-f4d085d1c152"
+  },
+  "4de660c2-a2a4-4601-9def-09658ebb1f11": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-18T19:49:07.507632+00:00",
+    "job_id": "4de660c2-a2a4-4601-9def-09658ebb1f11",
+    "last_seen": "2026-09-22T22:29:04.354012+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-18",
+    "title": "Senior Manager, Regional Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4de660c2-a2a4-4601-9def-09658ebb1f11"
+  },
+  "4e1c0b7b-230e-469d-bffd-a0e8cefcb554": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4e1c0b7b-230e-469d-bffd-a0e8cefcb554",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-31",
+    "title": "Communications Manager, Merchant Announcements",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4e1c0b7b-230e-469d-bffd-a0e8cefcb554"
+  },
+  "4ef4c78f-e913-403d-acca-c190fb1e8759": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-09T21:31:43.784358+00:00",
+    "job_id": "4ef4c78f-e913-403d-acca-c190fb1e8759",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Mexico City",
+    "posted_date": "2026-09-08",
+    "title": "Analyst I, Merchant Configuration",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4ef4c78f-e913-403d-acca-c190fb1e8759"
+  },
+  "4f14dacb-af15-4e3d-84d3-ddd72e8ed06a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-05T22:06:58.861977+00:00",
+    "job_id": "4f14dacb-af15-4e3d-84d3-ddd72e8ed06a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-05",
+    "title": "Senior Specialist, Product Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4f14dacb-af15-4e3d-84d3-ddd72e8ed06a"
+  },
+  "4fd5a118-48a3-42b7-a29e-b0c14814cbdb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "4fd5a118-48a3-42b7-a29e-b0c14814cbdb",
+    "last_seen": "2026-08-16T23:43:04.584498+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-05-19",
+    "title": "Senior Specialist, Talent Acquisition",
+    "url": "https://jobs.ashbyhq.com/checkout.com/4fd5a118-48a3-42b7-a29e-b0c14814cbdb"
+  },
+  "5067c0a0-9115-4e30-b1ab-eaf5812d1a62": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5067c0a0-9115-4e30-b1ab-eaf5812d1a62",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-10-01",
+    "title": "Senior Specialist, Sales Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5067c0a0-9115-4e30-b1ab-eaf5812d1a62"
+  },
+  "51bae3b4-1b3b-4c3a-a058-b8d2b42ab2f4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "51bae3b4-1b3b-4c3a-a058-b8d2b42ab2f4",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-05-12",
+    "title": "Senior Data Scientist I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/51bae3b4-1b3b-4c3a-a058-b8d2b42ab2f4"
+  },
+  "52155ca0-ad5d-4373-b64d-a49eed6af1cd": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-07T00:40:35.193724+00:00",
+    "job_id": "52155ca0-ad5d-4373-b64d-a49eed6af1cd",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-06",
+    "title": "Staff Product Designer, Acquiring & Design System",
+    "url": "https://jobs.ashbyhq.com/checkout.com/52155ca0-ad5d-4373-b64d-a49eed6af1cd"
+  },
+  "5298220c-68b8-4063-a2b9-107e3aa61c69": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5298220c-68b8-4063-a2b9-107e3aa61c69",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "London",
+    "posted_date": "2026-07-23",
+    "title": "Senior Engineer I, Workday Prism & Accounting Center (Financial Infrastructure)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5298220c-68b8-4063-a2b9-107e3aa61c69"
+  },
+  "53220832-8d8e-49a5-be10-89bb81402d8f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "53220832-8d8e-49a5-be10-89bb81402d8f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Mexico City",
+    "posted_date": "2026-09-23",
+    "title": "Analyst 1, Customer Due Diligence",
+    "url": "https://jobs.ashbyhq.com/checkout.com/53220832-8d8e-49a5-be10-89bb81402d8f"
+  },
+  "54ea89ff-fe90-48d6-b195-520c300ba6a9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-08T23:26:56.314458+00:00",
+    "job_id": "54ea89ff-fe90-48d6-b195-520c300ba6a9",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-08",
+    "title": "Commercial Legal Counsel",
+    "url": "https://jobs.ashbyhq.com/checkout.com/54ea89ff-fe90-48d6-b195-520c300ba6a9"
+  },
+  "54ef9fb6-4972-46d5-92bd-d45e9b5d5b60": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-10T20:50:33.796283+00:00",
+    "job_id": "54ef9fb6-4972-46d5-92bd-d45e9b5d5b60",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "New York",
+    "posted_date": "2026-09-10",
+    "title": "Enterprise Sales Executive- New York",
+    "url": "https://jobs.ashbyhq.com/checkout.com/54ef9fb6-4972-46d5-92bd-d45e9b5d5b60"
+  },
+  "54f97ffc-5ade-4767-ac48-d247a3977adf": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "54f97ffc-5ade-4767-ac48-d247a3977adf",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-29",
+    "title": "Enterprise Sales Executive",
+    "url": "https://jobs.ashbyhq.com/checkout.com/54f97ffc-5ade-4767-ac48-d247a3977adf"
+  },
+  "55ca5ffe-a9ac-4e88-8513-0a07bfcb5eb4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "55ca5ffe-a9ac-4e88-8513-0a07bfcb5eb4",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-05",
+    "title": "Analyst, Cost of Sales Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/55ca5ffe-a9ac-4e88-8513-0a07bfcb5eb4"
+  },
+  "55caf5d6-91a9-46af-be12-237dd47d11df": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "55caf5d6-91a9-46af-be12-237dd47d11df",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-08-10",
+    "title": "Product Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/55caf5d6-91a9-46af-be12-237dd47d11df"
+  },
+  "561d57d1-e3ce-408a-b7ee-b53520454b59": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "561d57d1-e3ce-408a-b7ee-b53520454b59",
+    "last_seen": "2026-08-07T14:32:42.818976+00:00",
+    "location": "London",
+    "posted_date": "2026-07-27",
+    "title": "Early Career, Programme Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/561d57d1-e3ce-408a-b7ee-b53520454b59"
+  },
+  "562a5f31-e3b7-43aa-a3de-cdd7706d8b0d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "562a5f31-e3b7-43aa-a3de-cdd7706d8b0d",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-07-24",
+    "title": "Paralegal, Commercial Team",
+    "url": "https://jobs.ashbyhq.com/checkout.com/562a5f31-e3b7-43aa-a3de-cdd7706d8b0d"
+  },
+  "58484932-406f-4fab-9e3f-b648d2f487ca": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-27T20:24:16.778017+00:00",
+    "job_id": "58484932-406f-4fab-9e3f-b648d2f487ca",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-27",
+    "title": "Analyst I, Fraud & Disputes Monitoring",
+    "url": "https://jobs.ashbyhq.com/checkout.com/58484932-406f-4fab-9e3f-b648d2f487ca"
+  },
+  "5893908b-16f9-4edf-b9ee-be93f9ce1580": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5893908b-16f9-4edf-b9ee-be93f9ce1580",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-21",
+    "title": "Staff Software Engineer - Streaming",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5893908b-16f9-4edf-b9ee-be93f9ce1580"
+  },
+  "58eab258-ce5b-4f8f-b4fb-182574cf137a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "58eab258-ce5b-4f8f-b4fb-182574cf137a",
+    "last_seen": "2026-08-12T14:09:25.841449+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-08",
+    "title": "Manager Partner Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/58eab258-ce5b-4f8f-b4fb-182574cf137a"
+  },
+  "597f6514-0b71-4f75-92fe-f698373dde2f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-03T20:04:30.885835+00:00",
+    "job_id": "597f6514-0b71-4f75-92fe-f698373dde2f",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-03",
+    "title": "Senior Specialist, Technical Account Management - UAE",
+    "url": "https://jobs.ashbyhq.com/checkout.com/597f6514-0b71-4f75-92fe-f698373dde2f"
+  },
+  "5a40e1e3-c6b7-4494-a7f9-d689d77795d8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T00:14:33.311647+00:00",
+    "job_id": "5a40e1e3-c6b7-4494-a7f9-d689d77795d8",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-08-25",
+    "title": "Senior Specialist, Talent Acquisition (Corporate)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5a40e1e3-c6b7-4494-a7f9-d689d77795d8"
+  },
+  "5b234d2d-e98b-4c9e-ae88-8e98a4e61fe9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5b234d2d-e98b-4c9e-ae88-8e98a4e61fe9",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-04",
+    "title": "Product Manager, Vault & Forward API",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5b234d2d-e98b-4c9e-ae88-8e98a4e61fe9"
+  },
+  "5b285826-0c69-4bc0-9f20-c1bc8e43a876": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-03T20:04:30.885835+00:00",
+    "job_id": "5b285826-0c69-4bc0-9f20-c1bc8e43a876",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-03",
+    "title": "Enterprise Sales Executive - San Francisco",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5b285826-0c69-4bc0-9f20-c1bc8e43a876"
+  },
+  "5caeb27d-5a41-4909-a70f-158896ef6009": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5caeb27d-5a41-4909-a70f-158896ef6009",
+    "last_seen": "2026-09-16T20:40:26.402065+00:00",
+    "location": "London",
+    "posted_date": "2026-07-28",
+    "title": "Business Partner, Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5caeb27d-5a41-4909-a70f-158896ef6009"
+  },
+  "5e8504f7-ec67-4ff2-b3ce-88b90156d72e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "5e8504f7-ec67-4ff2-b3ce-88b90156d72e",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-28",
+    "title": "Senior Manager, Financial Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5e8504f7-ec67-4ff2-b3ce-88b90156d72e"
+  },
+  "5e8d13b6-632c-41b0-bd5a-ce55143dd493": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5e8d13b6-632c-41b0-bd5a-ce55143dd493",
+    "last_seen": "2026-08-14T15:10:13.128584+00:00",
+    "location": "London",
+    "posted_date": "2026-04-16",
+    "title": "Cloud Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5e8d13b6-632c-41b0-bd5a-ce55143dd493"
+  },
+  "5e8f2cbc-5aa4-4cb0-8b35-9d5f141644b9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5e8f2cbc-5aa4-4cb0-8b35-9d5f141644b9",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "London",
+    "posted_date": "2026-07-07",
+    "title": "Manager, Policy & Governance (FinCrime Compliance)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5e8f2cbc-5aa4-4cb0-8b35-9d5f141644b9"
+  },
+  "5ee22456-ed47-4a13-b881-90c3b23c4510": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5ee22456-ed47-4a13-b881-90c3b23c4510",
+    "last_seen": "2026-08-30T19:59:16.585887+00:00",
+    "location": "New York",
+    "posted_date": "2026-04-29",
+    "title": "Enterprise Sales Executive",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5ee22456-ed47-4a13-b881-90c3b23c4510"
+  },
+  "5f54ba43-5762-4402-a698-10a5598906d1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "5f54ba43-5762-4402-a698-10a5598906d1",
+    "last_seen": "2026-09-15T20:58:54.461317+00:00",
+    "location": "London",
+    "posted_date": "2026-07-28",
+    "title": "Senior Product Manager, Disputes",
+    "url": "https://jobs.ashbyhq.com/checkout.com/5f54ba43-5762-4402-a698-10a5598906d1"
+  },
+  "61147568-5721-480b-8929-746f9070e19d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "61147568-5721-480b-8929-746f9070e19d",
+    "last_seen": "2026-09-24T23:47:48.215045+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-06-15",
+    "title": "Treasury Data Analytics Associate",
+    "url": "https://jobs.ashbyhq.com/checkout.com/61147568-5721-480b-8929-746f9070e19d"
+  },
+  "611afa2b-41bb-4897-ba6b-def8364eccf8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "611afa2b-41bb-4897-ba6b-def8364eccf8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-28",
+    "title": "Strategic Accounts, Business Developer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/611afa2b-41bb-4897-ba6b-def8364eccf8"
+  },
+  "61ed6dfb-780e-4ec1-86cc-2398ed0671ab": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "61ed6dfb-780e-4ec1-86cc-2398ed0671ab",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-15",
+    "title": "Product Manager, Alternative Payment Methods",
+    "url": "https://jobs.ashbyhq.com/checkout.com/61ed6dfb-780e-4ec1-86cc-2398ed0671ab"
+  },
+  "62246814-691c-49c9-b574-2cb03f6e7f38": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "62246814-691c-49c9-b574-2cb03f6e7f38",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-06-26",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/62246814-691c-49c9-b574-2cb03f6e7f38"
+  },
+  "62bd89a4-9556-4350-b75c-d8c2f6058fd6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "62bd89a4-9556-4350-b75c-d8c2f6058fd6",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "London",
+    "posted_date": "2026-09-07",
+    "title": "Senior Manager, Technical Accounting",
+    "url": "https://jobs.ashbyhq.com/checkout.com/62bd89a4-9556-4350-b75c-d8c2f6058fd6"
+  },
+  "645dab59-3983-4aba-8368-9c61b85e4450": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-21T18:42:50.488758+00:00",
+    "job_id": "645dab59-3983-4aba-8368-9c61b85e4450",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-09-16",
+    "title": "Talent Operations Associate, Americas",
+    "url": "https://jobs.ashbyhq.com/checkout.com/645dab59-3983-4aba-8368-9c61b85e4450"
+  },
+  "6479a8b6-99fe-42b1-ae24-9ba2603cbf11": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6479a8b6-99fe-42b1-ae24-9ba2603cbf11",
+    "last_seen": "2026-10-06T00:18:28.498226+00:00",
+    "location": "New York",
+    "posted_date": "2026-07-22",
+    "title": "Manager, Demand Generation",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6479a8b6-99fe-42b1-ae24-9ba2603cbf11"
+  },
+  "65abc1c0-8401-4576-84a2-d1ceb1ad613b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-10T21:45:43.286289+00:00",
+    "job_id": "65abc1c0-8401-4576-84a2-d1ceb1ad613b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta, San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Middle Market Sales Leader",
+    "url": "https://jobs.ashbyhq.com/checkout.com/65abc1c0-8401-4576-84a2-d1ceb1ad613b"
+  },
+  "65f61d0f-3eba-4cce-b764-54146d1c0079": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "65f61d0f-3eba-4cce-b764-54146d1c0079",
+    "last_seen": "2026-10-12T23:09:11.924902+00:00",
+    "location": "London",
+    "posted_date": "2026-10-02",
+    "title": "Coordinator, Front of House & Workplace Experience",
+    "url": "https://jobs.ashbyhq.com/checkout.com/65f61d0f-3eba-4cce-b764-54146d1c0079"
+  },
+  "68277152-a89a-4b2e-a678-a45d81a09667": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T02:08:41.214506+00:00",
+    "job_id": "68277152-a89a-4b2e-a678-a45d81a09667",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-10-09",
+    "title": "Analyst II, Transaction Monitoring and Screening",
+    "url": "https://jobs.ashbyhq.com/checkout.com/68277152-a89a-4b2e-a678-a45d81a09667"
+  },
+  "682acafb-57fe-4efe-a5ee-168dbe034330": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "682acafb-57fe-4efe-a5ee-168dbe034330",
+    "last_seen": "2026-08-18T22:42:18.163644+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-04-21",
+    "title": "Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/682acafb-57fe-4efe-a5ee-168dbe034330"
+  },
+  "6924650f-daba-44b6-9276-00c4afa996b8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6924650f-daba-44b6-9276-00c4afa996b8",
+    "last_seen": "2026-09-14T01:41:45.262032+00:00",
+    "location": "Paris",
+    "posted_date": "2026-05-26",
+    "title": "Integration Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6924650f-daba-44b6-9276-00c4afa996b8"
+  },
+  "6986e498-10b9-4d89-963b-ed5d06c27fcc": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6986e498-10b9-4d89-963b-ed5d06c27fcc",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-21",
+    "title": "Senior Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6986e498-10b9-4d89-963b-ed5d06c27fcc"
+  },
+  "69e77801-efff-411c-889e-900d8b3b3ab5": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-20T20:29:56.515825+00:00",
+    "job_id": "69e77801-efff-411c-889e-900d8b3b3ab5",
+    "last_seen": "2026-10-06T00:18:28.498226+00:00",
+    "location": "London",
+    "posted_date": "2026-08-20",
+    "title": "Manager, Marketing AI Transformation",
+    "url": "https://jobs.ashbyhq.com/checkout.com/69e77801-efff-411c-889e-900d8b3b3ab5"
+  },
+  "6a049267-af7b-41d3-b93e-cf928a569985": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6a049267-af7b-41d3-b93e-cf928a569985",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Senior Process Architect",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6a049267-af7b-41d3-b93e-cf928a569985"
+  },
+  "6adc898c-9b6d-4b0a-833b-9c9b77006c05": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-07T00:40:35.193724+00:00",
+    "job_id": "6adc898c-9b6d-4b0a-833b-9c9b77006c05",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-22",
+    "title": "Senior Mobile Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6adc898c-9b6d-4b0a-833b-9c9b77006c05"
+  },
+  "6ba64d05-0b2e-43f9-9665-c597f06149b1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6ba64d05-0b2e-43f9-9665-c597f06149b1",
+    "last_seen": "2026-08-18T00:37:04.648520+00:00",
+    "location": "Paris",
+    "posted_date": "2026-06-08",
+    "title": "Sales Manager - Paris",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6ba64d05-0b2e-43f9-9665-c597f06149b1"
+  },
+  "6bc07172-614d-4d5f-af16-a2cd205015a9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6bc07172-614d-4d5f-af16-a2cd205015a9",
+    "last_seen": "2026-08-11T00:10:09.930652+00:00",
+    "location": "London",
+    "posted_date": "2026-05-12",
+    "title": "Data Analytics Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6bc07172-614d-4d5f-af16-a2cd205015a9"
+  },
+  "6beb0972-d958-4418-80fb-a7afe5a05fd0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6beb0972-d958-4418-80fb-a7afe5a05fd0",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-15",
+    "title": "Senior Cloud Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6beb0972-d958-4418-80fb-a7afe5a05fd0"
+  },
+  "6c51f290-1414-4520-b4c2-cfa4aa919c82": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6c51f290-1414-4520-b4c2-cfa4aa919c82",
+    "last_seen": "2026-08-12T00:10:35.487032+00:00",
+    "location": "London",
+    "posted_date": "2026-04-22",
+    "title": "Manager, Treasury Markets",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6c51f290-1414-4520-b4c2-cfa4aa919c82"
+  },
+  "6d6f54ee-200e-40ec-9040-1d5ad691e230": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6d6f54ee-200e-40ec-9040-1d5ad691e230",
+    "last_seen": "2026-09-09T21:31:43.784358+00:00",
+    "location": "London",
+    "posted_date": "2026-05-30",
+    "title": "Senior Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6d6f54ee-200e-40ec-9040-1d5ad691e230"
+  },
+  "6ef5e0cf-1908-4d52-9999-43a05b8022a6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6ef5e0cf-1908-4d52-9999-43a05b8022a6",
+    "last_seen": "2026-10-02T01:21:37.260693+00:00",
+    "location": "London",
+    "posted_date": "2026-07-09",
+    "title": "Specialist, Events & Experiential Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6ef5e0cf-1908-4d52-9999-43a05b8022a6"
+  },
+  "6fb27731-f702-440e-ad23-5cd7ed5ed7fa": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "6fb27731-f702-440e-ad23-5cd7ed5ed7fa",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-06-03",
+    "title": "Senior Specialist, Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/6fb27731-f702-440e-ad23-5cd7ed5ed7fa"
+  },
+  "71b275a7-5a99-4a01-8b6c-b6e239220c5b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-12T14:09:25.841449+00:00",
+    "job_id": "71b275a7-5a99-4a01-8b6c-b6e239220c5b",
+    "last_seen": "2026-09-02T20:49:43.326799+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-08-24",
+    "title": "Head of NORAM Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/71b275a7-5a99-4a01-8b6c-b6e239220c5b"
+  },
+  "7333709f-b144-4231-bf6c-835b5c509bce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7333709f-b144-4231-bf6c-835b5c509bce",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-03",
+    "title": "Senior Engineering Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7333709f-b144-4231-bf6c-835b5c509bce"
+  },
+  "7371dbe0-4bf5-446a-b2da-f7fdbd5c7817": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7371dbe0-4bf5-446a-b2da-f7fdbd5c7817",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-05-20",
+    "title": "Senior Associate, Cost of Sales Operations - Reconciliations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7371dbe0-4bf5-446a-b2da-f7fdbd5c7817"
+  },
+  "73c31382-2247-408e-9846-2aedbf099275": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-10T12:21:04.751699+00:00",
+    "job_id": "73c31382-2247-408e-9846-2aedbf099275",
+    "last_seen": "2026-08-22T16:03:15.447799+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-08-10",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/73c31382-2247-408e-9846-2aedbf099275"
+  },
+  "7419c004-6966-4337-91ad-044e119052b4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-11T13:01:31.349135+00:00",
+    "job_id": "7419c004-6966-4337-91ad-044e119052b4",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "London",
+    "posted_date": "2026-08-11",
+    "title": "Associate, Product Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7419c004-6966-4337-91ad-044e119052b4"
+  },
+  "74fca80f-7ff4-4baa-aaae-e3e42f7ba09d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-07T14:32:42.818976+00:00",
+    "job_id": "74fca80f-7ff4-4baa-aaae-e3e42f7ba09d",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-08-18",
+    "title": "Principal, CEO Office",
+    "url": "https://jobs.ashbyhq.com/checkout.com/74fca80f-7ff4-4baa-aaae-e3e42f7ba09d"
+  },
+  "7506caac-a8f9-4844-9d64-facf8f6e015b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7506caac-a8f9-4844-9d64-facf8f6e015b",
+    "last_seen": "2026-08-12T00:10:35.487032+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-04-15",
+    "title": "Senior Specialist,  Data Analytics",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7506caac-a8f9-4844-9d64-facf8f6e015b"
+  },
+  "7595a4c3-bb2d-4a61-a106-39338549f6da": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-08T23:26:56.314458+00:00",
+    "job_id": "7595a4c3-bb2d-4a61-a106-39338549f6da",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-10-08",
+    "title": "Specialist,Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7595a4c3-bb2d-4a61-a106-39338549f6da"
+  },
+  "76517825-1e0b-47fd-b091-4542eac73f33": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-20T20:29:56.515825+00:00",
+    "job_id": "76517825-1e0b-47fd-b091-4542eac73f33",
+    "last_seen": "2026-10-12T02:08:41.214506+00:00",
+    "location": "London",
+    "posted_date": "2026-09-17",
+    "title": "Senior Associate, Finance Transformation",
+    "url": "https://jobs.ashbyhq.com/checkout.com/76517825-1e0b-47fd-b091-4542eac73f33"
+  },
+  "7656aa30-6c16-40d8-9699-3cf9cebbf779": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-17T20:47:21.390140+00:00",
+    "job_id": "7656aa30-6c16-40d8-9699-3cf9cebbf779",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-17",
+    "title": "Implementation Engineer - Process Out",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7656aa30-6c16-40d8-9699-3cf9cebbf779"
+  },
+  "76bf0013-3822-4b84-9b4d-354838fa7b79": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "76bf0013-3822-4b84-9b4d-354838fa7b79",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-09",
+    "title": "Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/76bf0013-3822-4b84-9b4d-354838fa7b79"
+  },
+  "76f20de7-a016-42cf-9c93-1e216449d6f4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-27T15:40:02.756403+00:00",
+    "job_id": "76f20de7-a016-42cf-9c93-1e216449d6f4",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "London",
+    "posted_date": "2026-09-26",
+    "title": "Specialist, Workplace Experience",
+    "url": "https://jobs.ashbyhq.com/checkout.com/76f20de7-a016-42cf-9c93-1e216449d6f4"
+  },
+  "77919ed7-3f71-4457-a4e0-f8ad30cc40a8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "77919ed7-3f71-4457-a4e0-f8ad30cc40a8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-23",
+    "title": "Senior Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/77919ed7-3f71-4457-a4e0-f8ad30cc40a8"
+  },
+  "7a4b245f-6e11-4fd2-ab5e-5984a1e9d473": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-20T20:29:56.515825+00:00",
+    "job_id": "7a4b245f-6e11-4fd2-ab5e-5984a1e9d473",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-08-20",
+    "title": "Senior Analyst, Platform Underwriting",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7a4b245f-6e11-4fd2-ab5e-5984a1e9d473"
+  },
+  "7b00e437-d078-47e3-ae04-d6ce1aa6f96a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T13:22:38.239199+00:00",
+    "job_id": "7b00e437-d078-47e3-ae04-d6ce1aa6f96a",
+    "last_seen": "2026-09-25T19:34:47.393314+00:00",
+    "location": "London",
+    "posted_date": "2026-08-24",
+    "title": "Senior Product Engineer, Issuer Partnerships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7b00e437-d078-47e3-ae04-d6ce1aa6f96a"
+  },
+  "7c092997-acb3-4a6b-be0c-44c5ccd6f7b4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7c092997-acb3-4a6b-be0c-44c5ccd6f7b4",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-04-15",
+    "title": "Process Architect Lead",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7c092997-acb3-4a6b-be0c-44c5ccd6f7b4"
+  },
+  "7c1b7f39-71e5-4782-8060-00c105088ac1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-27T20:24:16.778017+00:00",
+    "job_id": "7c1b7f39-71e5-4782-8060-00c105088ac1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Riyadh",
+    "posted_date": "2026-08-27",
+    "title": "Senior Specialist, Financial Partnerships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7c1b7f39-71e5-4782-8060-00c105088ac1"
+  },
+  "7c2ac755-7c70-4768-921a-9e8a7821f047": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7c2ac755-7c70-4768-921a-9e8a7821f047",
+    "last_seen": "2026-09-15T00:52:08.977082+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-08",
+    "title": "Account Management Associate",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7c2ac755-7c70-4768-921a-9e8a7821f047"
+  },
+  "7d5e4cf1-0532-4f5b-a389-3d50ca857089": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7d5e4cf1-0532-4f5b-a389-3d50ca857089",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Paris",
+    "posted_date": "2026-08-18",
+    "title": "Senior Specialist, Benefits",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7d5e4cf1-0532-4f5b-a389-3d50ca857089"
+  },
+  "7e5a174a-e478-4472-b666-6ab749dc7e28": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-19T19:54:48.411456+00:00",
+    "job_id": "7e5a174a-e478-4472-b666-6ab749dc7e28",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-08-19",
+    "title": "Senior Analyst, Payments",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7e5a174a-e478-4472-b666-6ab749dc7e28"
+  },
+  "7f05e133-17cd-495b-843a-ff152fb47677": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "7f05e133-17cd-495b-843a-ff152fb47677",
+    "last_seen": "2026-10-04T23:01:41.193558+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-07-20",
+    "title": "Data Scientist I, Risk Analytics",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7f05e133-17cd-495b-843a-ff152fb47677"
+  },
+  "7fcdd08a-659e-404b-954b-2c887ad9ed90": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T15:10:13.128584+00:00",
+    "job_id": "7fcdd08a-659e-404b-954b-2c887ad9ed90",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "London",
+    "posted_date": "2026-08-14",
+    "title": "Associate, Strategic Planning (FP&A)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/7fcdd08a-659e-404b-954b-2c887ad9ed90"
+  },
+  "8060e471-4c02-456d-b2c0-fdde61cbe5ba": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-18T20:50:39.529482+00:00",
+    "job_id": "8060e471-4c02-456d-b2c0-fdde61cbe5ba",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Sao Paulo",
+    "posted_date": "2026-08-18",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8060e471-4c02-456d-b2c0-fdde61cbe5ba"
+  },
+  "814887ed-c43b-47c5-9578-a6a1dfb48c03": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "814887ed-c43b-47c5-9578-a6a1dfb48c03",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-14",
+    "title": "Manager, Payroll",
+    "url": "https://jobs.ashbyhq.com/checkout.com/814887ed-c43b-47c5-9578-a6a1dfb48c03"
+  },
+  "82ec732c-ffb1-4c60-825e-a2c6203ad1a8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "82ec732c-ffb1-4c60-825e-a2c6203ad1a8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-18",
+    "title": "Senior Manager, Strategic Planning",
+    "url": "https://jobs.ashbyhq.com/checkout.com/82ec732c-ffb1-4c60-825e-a2c6203ad1a8"
+  },
+  "845b4d3e-fbe9-482c-b610-a265ac9649c8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "845b4d3e-fbe9-482c-b610-a265ac9649c8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-30",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/845b4d3e-fbe9-482c-b610-a265ac9649c8"
+  },
+  "84c7658b-a02b-43b0-bdde-a05e77b1deb6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T18:33:02.986401+00:00",
+    "job_id": "84c7658b-a02b-43b0-bdde-a05e77b1deb6",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-09",
+    "title": "Team Leader, Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/84c7658b-a02b-43b0-bdde-a05e77b1deb6"
+  },
+  "85a40c97-53be-4cac-819b-2da60fab316b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "85a40c97-53be-4cac-819b-2da60fab316b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-23",
+    "title": "Senior Sales Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/85a40c97-53be-4cac-819b-2da60fab316b"
+  },
+  "85dd3c8d-bbce-4c76-a19b-b4e808975acf": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "85dd3c8d-bbce-4c76-a19b-b4e808975acf",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "Tallinn",
+    "posted_date": "2026-06-24",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/85dd3c8d-bbce-4c76-a19b-b4e808975acf"
+  },
+  "86033957-4272-4665-bb87-3209cab0cfd6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "86033957-4272-4665-bb87-3209cab0cfd6",
+    "last_seen": "2026-08-24T20:54:18.097594+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-04-21",
+    "title": "Regional APAC Treasurer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/86033957-4272-4665-bb87-3209cab0cfd6"
+  },
+  "8817f876-2204-4d0f-bdd1-687af13b05e0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-09T21:31:43.784358+00:00",
+    "job_id": "8817f876-2204-4d0f-bdd1-687af13b05e0",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-09",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8817f876-2204-4d0f-bdd1-687af13b05e0"
+  },
+  "88789153-ce23-4f57-ac3f-b1d192fe4ebb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T15:10:13.128584+00:00",
+    "job_id": "88789153-ce23-4f57-ac3f-b1d192fe4ebb",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Sydney",
+    "posted_date": "2026-08-27",
+    "title": "Manager/Senior Specialist, Sales Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/88789153-ce23-4f57-ac3f-b1d192fe4ebb"
+  },
+  "88b8b0d7-d76f-414b-9203-2765ecaf3eb3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T14:19:07.831826+00:00",
+    "job_id": "88b8b0d7-d76f-414b-9203-2765ecaf3eb3",
+    "last_seen": "2026-10-04T23:01:41.193558+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Senior Content Designer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/88b8b0d7-d76f-414b-9203-2765ecaf3eb3"
+  },
+  "88e32a36-36a3-41d1-a985-dd382642e726": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "88e32a36-36a3-41d1-a985-dd382642e726",
+    "last_seen": "2026-08-12T19:28:05.592448+00:00",
+    "location": "London",
+    "posted_date": "2026-06-22",
+    "title": "Information Security Analyst II",
+    "url": "https://jobs.ashbyhq.com/checkout.com/88e32a36-36a3-41d1-a985-dd382642e726"
+  },
+  "894ca773-641f-4df7-ac58-58af4202074a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T23:09:11.924902+00:00",
+    "job_id": "894ca773-641f-4df7-ac58-58af4202074a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-12",
+    "title": "Manager, Solutions Engineering - Issuing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/894ca773-641f-4df7-ac58-58af4202074a"
+  },
+  "895e8b68-51ad-404b-a35b-c93276e2fa27": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-09T21:31:43.784358+00:00",
+    "job_id": "895e8b68-51ad-404b-a35b-c93276e2fa27",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "Tallinn",
+    "posted_date": "2026-09-09",
+    "title": "Office Manager - Workplace Experience",
+    "url": "https://jobs.ashbyhq.com/checkout.com/895e8b68-51ad-404b-a35b-c93276e2fa27"
+  },
+  "89d8260f-cffa-4292-9dbe-9322e0c8d443": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "89d8260f-cffa-4292-9dbe-9322e0c8d443",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "London",
+    "posted_date": "2026-07-29",
+    "title": "Senior Specialist, Product Partnerships - Merchant Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/89d8260f-cffa-4292-9dbe-9322e0c8d443"
+  },
+  "8a659517-e4b3-479c-9ed5-8a1161448e7d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "8a659517-e4b3-479c-9ed5-8a1161448e7d",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-06",
+    "title": "Senior Associate, Liquidity Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8a659517-e4b3-479c-9ed5-8a1161448e7d"
+  },
+  "8c9bd2fa-6f20-4c4e-afb8-622a4d1f9adb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "8c9bd2fa-6f20-4c4e-afb8-622a4d1f9adb",
+    "last_seen": "2026-09-27T15:40:02.756403+00:00",
+    "location": "London",
+    "posted_date": "2026-09-16",
+    "title": "Principal, CEO Office",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8c9bd2fa-6f20-4c4e-afb8-622a4d1f9adb"
+  },
+  "8caf16d6-4d1b-4e82-ad46-d75e06d64e1e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "8caf16d6-4d1b-4e82-ad46-d75e06d64e1e",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "London",
+    "posted_date": "2026-09-28",
+    "title": "Senior Front end Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8caf16d6-4d1b-4e82-ad46-d75e06d64e1e"
+  },
+  "8e46771d-e364-4e5c-adcb-2552594e3941": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T02:08:41.214506+00:00",
+    "job_id": "8e46771d-e364-4e5c-adcb-2552594e3941",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-10-09",
+    "title": "Engineer I, Operations Centre",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8e46771d-e364-4e5c-adcb-2552594e3941"
+  },
+  "8e6547b1-811d-45cc-9f78-a7666708fbed": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T20:54:18.097594+00:00",
+    "job_id": "8e6547b1-811d-45cc-9f78-a7666708fbed",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-10",
+    "title": "Underwriting Analyst II - Enterprise Payments",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8e6547b1-811d-45cc-9f78-a7666708fbed"
+  },
+  "8e87f225-59e4-4ab1-befd-0f574c6b97c5": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "8e87f225-59e4-4ab1-befd-0f574c6b97c5",
+    "last_seen": "2026-10-08T23:26:56.314458+00:00",
+    "location": "London",
+    "posted_date": "2026-08-03",
+    "title": "Senior BigQuery Data Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8e87f225-59e4-4ab1-befd-0f574c6b97c5"
+  },
+  "8f2a00f8-4468-4f5b-a4ba-ef6d786f0181": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-24T23:47:48.215045+00:00",
+    "job_id": "8f2a00f8-4468-4f5b-a4ba-ef6d786f0181",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-24",
+    "title": "Senior Analyst, Compliance Advisory",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8f2a00f8-4468-4f5b-a4ba-ef6d786f0181"
+  },
+  "8f7f8aa5-6f56-4dfa-aff9-c6176048095e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "8f7f8aa5-6f56-4dfa-aff9-c6176048095e",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "London",
+    "posted_date": "2026-07-15",
+    "title": "Enterprise Business Development Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/8f7f8aa5-6f56-4dfa-aff9-c6176048095e"
+  },
+  "907ad921-9284-42de-ab6a-1a27ecf98b61": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T15:10:13.128584+00:00",
+    "job_id": "907ad921-9284-42de-ab6a-1a27ecf98b61",
+    "last_seen": "2026-09-14T01:41:45.262032+00:00",
+    "location": "London",
+    "posted_date": "2026-09-09",
+    "title": "Payment Specialist - Compliance Data Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/907ad921-9284-42de-ab6a-1a27ecf98b61"
+  },
+  "90db0061-651e-4262-8c77-5664393fc960": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "90db0061-651e-4262-8c77-5664393fc960",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-05",
+    "title": "Manager, Transaction Monitoring (AML Compliance)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/90db0061-651e-4262-8c77-5664393fc960"
+  },
+  "90fbc76a-47f1-457b-a86d-586663f6f1fc": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "90fbc76a-47f1-457b-a86d-586663f6f1fc",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-01",
+    "title": "Senior Specialist -  Partner Growth & Development, Payments",
+    "url": "https://jobs.ashbyhq.com/checkout.com/90fbc76a-47f1-457b-a86d-586663f6f1fc"
+  },
+  "9139a73c-4958-4dfc-89b2-27019386739a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9139a73c-4958-4dfc-89b2-27019386739a",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "London",
+    "posted_date": "2026-05-26",
+    "title": "Senior Security Incident Response Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9139a73c-4958-4dfc-89b2-27019386739a"
+  },
+  "91979e41-9b40-412d-b5f5-d1c2e1f5ef1a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T13:22:38.239199+00:00",
+    "job_id": "91979e41-9b40-412d-b5f5-d1c2e1f5ef1a",
+    "last_seen": "2026-09-18T19:49:07.507632+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-08-24",
+    "title": "Manager, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/91979e41-9b40-412d-b5f5-d1c2e1f5ef1a"
+  },
+  "91c07b6b-ebc0-4658-b494-d41abd1c065f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "91c07b6b-ebc0-4658-b494-d41abd1c065f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-09-23",
+    "title": "Crypto Account Management, Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/91c07b6b-ebc0-4658-b494-d41abd1c065f"
+  },
+  "93224ea4-50b2-45b6-b4dc-d878e3f15452": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "93224ea4-50b2-45b6-b4dc-d878e3f15452",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-13",
+    "title": "Front end Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/93224ea4-50b2-45b6-b4dc-d878e3f15452"
+  },
+  "94034683-2cdc-4730-b1b9-5d96ce82014b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T13:22:38.239199+00:00",
+    "job_id": "94034683-2cdc-4730-b1b9-5d96ce82014b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-02",
+    "title": "Senior Manager, Regulatory Inspections and Strategic Response",
+    "url": "https://jobs.ashbyhq.com/checkout.com/94034683-2cdc-4730-b1b9-5d96ce82014b"
+  },
+  "9427fe4d-b2c6-4854-9e82-758bb75b6607": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "9427fe4d-b2c6-4854-9e82-758bb75b6607",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-28",
+    "title": "Staff Software Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9427fe4d-b2c6-4854-9e82-758bb75b6607"
+  },
+  "946474ab-a422-4585-b72a-b300ca4c404c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "946474ab-a422-4585-b72a-b300ca4c404c",
+    "last_seen": "2026-10-12T23:09:11.924902+00:00",
+    "location": "Paris",
+    "posted_date": "2026-08-27",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/946474ab-a422-4585-b72a-b300ca4c404c"
+  },
+  "953ae4d2-4ce7-4e5d-8dcf-7cf693f88d12": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-21T18:42:50.488758+00:00",
+    "job_id": "953ae4d2-4ce7-4e5d-8dcf-7cf693f88d12",
+    "last_seen": "2026-09-10T20:50:33.796283+00:00",
+    "location": "London",
+    "posted_date": "2026-08-21",
+    "title": "Manager, People Operations - global",
+    "url": "https://jobs.ashbyhq.com/checkout.com/953ae4d2-4ce7-4e5d-8dcf-7cf693f88d12"
+  },
+  "95bb8a4c-dfc9-4ef5-8230-142e76c4e6c1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "95bb8a4c-dfc9-4ef5-8230-142e76c4e6c1",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-07-01",
+    "title": "Senior Analyst , Financial Crime Investigations Unit",
+    "url": "https://jobs.ashbyhq.com/checkout.com/95bb8a4c-dfc9-4ef5-8230-142e76c4e6c1"
+  },
+  "987e902a-d05d-4aa7-8c5e-daef560690e7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "987e902a-d05d-4aa7-8c5e-daef560690e7",
+    "last_seen": "2026-09-01T19:10:38.688225+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-07-17",
+    "title": "Manager, Sales Engineering - Saudi Arabia",
+    "url": "https://jobs.ashbyhq.com/checkout.com/987e902a-d05d-4aa7-8c5e-daef560690e7"
+  },
+  "98fc8204-bbaa-400b-a4f8-24b0a3fb9c09": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "98fc8204-bbaa-400b-a4f8-24b0a3fb9c09",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "London",
+    "posted_date": "2026-08-04",
+    "title": "Associate, Deal Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/98fc8204-bbaa-400b-a4f8-24b0a3fb9c09"
+  },
+  "9943b680-ee7f-4892-9447-bd2d3126a3ad": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9943b680-ee7f-4892-9447-bd2d3126a3ad",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-10-06",
+    "title": "Senior Manager, Financial Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9943b680-ee7f-4892-9447-bd2d3126a3ad"
+  },
+  "99a7095a-a27a-421d-b421-a02b0aa4ada9": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-05T22:06:58.861977+00:00",
+    "job_id": "99a7095a-a27a-421d-b421-a02b0aa4ada9",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-08",
+    "title": "Commercial Product Partner",
+    "url": "https://jobs.ashbyhq.com/checkout.com/99a7095a-a27a-421d-b421-a02b0aa4ada9"
+  },
+  "9a2bf464-c2c5-4aab-b35c-563531bdba30": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "9a2bf464-c2c5-4aab-b35c-563531bdba30",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-09-30",
+    "title": "Manager, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9a2bf464-c2c5-4aab-b35c-563531bdba30"
+  },
+  "9ad0a14f-7e17-4d61-9ea5-2bf7c4a1bde8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9ad0a14f-7e17-4d61-9ea5-2bf7c4a1bde8",
+    "last_seen": "2026-09-15T00:52:08.977082+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-07-29",
+    "title": "Specialist, Regional Marketing (Northern Europe)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9ad0a14f-7e17-4d61-9ea5-2bf7c4a1bde8"
+  },
+  "9b0c8785-6c02-4388-aa65-a2a45ab44969": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9b0c8785-6c02-4388-aa65-a2a45ab44969",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "London",
+    "posted_date": "2026-06-11",
+    "title": "Forward Deployed AI Accelerator, Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9b0c8785-6c02-4388-aa65-a2a45ab44969"
+  },
+  "9bf673a0-8e9e-41f2-87c2-00494b72e915": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T20:35:47.453650+00:00",
+    "job_id": "9bf673a0-8e9e-41f2-87c2-00494b72e915",
+    "last_seen": "2026-10-08T23:26:56.314458+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-08-26",
+    "title": "Fraud Data Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9bf673a0-8e9e-41f2-87c2-00494b72e915"
+  },
+  "9cd1cfbd-fa89-44b9-b5aa-a828ea6c692e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9cd1cfbd-fa89-44b9-b5aa-a828ea6c692e",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-05-19",
+    "title": "Associate, Cost of Sales Operations - Interchange",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9cd1cfbd-fa89-44b9-b5aa-a828ea6c692e"
+  },
+  "9d95fe98-aa50-40ca-9700-7bbcd97cf3b1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9d95fe98-aa50-40ca-9700-7bbcd97cf3b1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Riyadh",
+    "posted_date": "2026-09-28",
+    "title": "Enterprise Account Manager - Saudi Arabia",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9d95fe98-aa50-40ca-9700-7bbcd97cf3b1"
+  },
+  "9e07199b-8d52-4502-9c98-97a5150834db": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9e07199b-8d52-4502-9c98-97a5150834db",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-07-31",
+    "title": "Legal Counsel, Commercial",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9e07199b-8d52-4502-9c98-97a5150834db"
+  },
+  "9e47404d-ae39-4080-b054-4b5bdd35cec7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T18:19:19.494434+00:00",
+    "job_id": "9e47404d-ae39-4080-b054-4b5bdd35cec7",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Staff Product Designer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9e47404d-ae39-4080-b054-4b5bdd35cec7"
+  },
+  "9e7c9cb3-bb89-48fa-942b-048eaa7ded5c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9e7c9cb3-bb89-48fa-942b-048eaa7ded5c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-22",
+    "title": "Manager, Sales Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9e7c9cb3-bb89-48fa-942b-048eaa7ded5c"
+  },
+  "9f20e7d3-9ef7-4387-9013-70a14b5dc2a3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9f20e7d3-9ef7-4387-9013-70a14b5dc2a3",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-06-24",
+    "title": "AI & Process Automation Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9f20e7d3-9ef7-4387-9013-70a14b5dc2a3"
+  },
+  "9fe9d14b-4938-48cd-932a-4c0d5a6344cf": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "9fe9d14b-4938-48cd-932a-4c0d5a6344cf",
+    "last_seen": "2026-09-14T01:41:45.262032+00:00",
+    "location": "London",
+    "posted_date": "2026-07-02",
+    "title": "Senior Legal Counsel (Product & Regulatory)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/9fe9d14b-4938-48cd-932a-4c0d5a6344cf"
+  },
+  "a098736f-3b1b-4772-8f5a-b108d04c16b1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "a098736f-3b1b-4772-8f5a-b108d04c16b1",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-23",
+    "title": "Senior Specialist,Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a098736f-3b1b-4772-8f5a-b108d04c16b1"
+  },
+  "a110cdf7-754d-4f9b-bb23-27e819a0cd4e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-12T16:45:47.310206+00:00",
+    "job_id": "a110cdf7-754d-4f9b-bb23-27e819a0cd4e",
+    "last_seen": "2026-08-12T16:45:47.310206+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-08-12",
+    "title": "Senior Talent Partner",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a110cdf7-754d-4f9b-bb23-27e819a0cd4e"
+  },
+  "a3362d69-9a95-423b-85d7-475f7d00b5cd": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "a3362d69-9a95-423b-85d7-475f7d00b5cd",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-30",
+    "title": "Senior Analyst, Permanent Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a3362d69-9a95-423b-85d7-475f7d00b5cd"
+  },
+  "a37c98ef-a100-46b4-a12c-d8f878c000e7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-12T02:08:41.214506+00:00",
+    "job_id": "a37c98ef-a100-46b4-a12c-d8f878c000e7",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-09",
+    "title": "Group Product Manager, Fraud",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a37c98ef-a100-46b4-a12c-d8f878c000e7"
+  },
+  "a3d04fed-9463-4111-90a3-784863d6e719": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "a3d04fed-9463-4111-90a3-784863d6e719",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Programme (London)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a3d04fed-9463-4111-90a3-784863d6e719"
+  },
+  "a41db937-affe-4a4d-803a-a0377f54ae9a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a41db937-affe-4a4d-803a-a0377f54ae9a",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-05-14",
+    "title": "Fraud Data Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a41db937-affe-4a4d-803a-a0377f54ae9a"
+  },
+  "a50731d8-8f68-44f9-8d67-0c2aa6fd12ca": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a50731d8-8f68-44f9-8d67-0c2aa6fd12ca",
+    "last_seen": "2026-10-12T23:09:11.924902+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-04",
+    "title": "Senior Manager, External Affairs - UAE",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a50731d8-8f68-44f9-8d67-0c2aa6fd12ca"
+  },
+  "a511d2ae-ce21-4483-9119-6517a11ab52a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a511d2ae-ce21-4483-9119-6517a11ab52a",
+    "last_seen": "2026-08-22T16:03:15.447799+00:00",
+    "location": "London",
+    "posted_date": "2026-04-27",
+    "title": "Senior Associate, Strategic Pricing - Modelling",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a511d2ae-ce21-4483-9119-6517a11ab52a"
+  },
+  "a6c3835b-20b0-4235-8298-512952cdbe99": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a6c3835b-20b0-4235-8298-512952cdbe99",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Berlin",
+    "posted_date": "2026-08-18",
+    "title": "Sales Manager - Berlin",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a6c3835b-20b0-4235-8298-512952cdbe99"
+  },
+  "a8289e4b-3372-4fe5-be67-bf81904c051a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a8289e4b-3372-4fe5-be67-bf81904c051a",
+    "last_seen": "2026-08-12T19:28:05.592448+00:00",
+    "location": "London",
+    "posted_date": "2026-06-15",
+    "title": "Senior Analyst, Financial Crime Product Compliance",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a8289e4b-3372-4fe5-be67-bf81904c051a"
+  },
+  "a8bb5a45-0565-4c13-84e2-020f4e9207e1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "a8bb5a45-0565-4c13-84e2-020f4e9207e1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-23",
+    "title": "Manager Partner Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a8bb5a45-0565-4c13-84e2-020f4e9207e1"
+  },
+  "a8c7999d-3ebc-48cd-93c3-8570e5c0389f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a8c7999d-3ebc-48cd-93c3-8570e5c0389f",
+    "last_seen": "2026-08-11T00:10:09.930652+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Manager, Product Marketing, Credential Lifecyle",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a8c7999d-3ebc-48cd-93c3-8570e5c0389f"
+  },
+  "a96d985c-fbc8-46c1-90c5-96a0486fd585": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "a96d985c-fbc8-46c1-90c5-96a0486fd585",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Barcelona",
+    "posted_date": "2026-09-08",
+    "title": "Senior Specialist, Implementation Engineer - Spain",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a96d985c-fbc8-46c1-90c5-96a0486fd585"
+  },
+  "a9c7f587-abf2-4675-a721-37cd7e1048fe": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-14T15:10:13.128584+00:00",
+    "job_id": "a9c7f587-abf2-4675-a721-37cd7e1048fe",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-08-17",
+    "title": "Specialist, Scheme Relationships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/a9c7f587-abf2-4675-a721-37cd7e1048fe"
+  },
+  "abfcb336-2285-40bd-a030-afa8fd665b77": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-24T23:47:48.215045+00:00",
+    "job_id": "abfcb336-2285-40bd-a030-afa8fd665b77",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "London",
+    "posted_date": "2026-09-24",
+    "title": "Senior Analyst, Business Partnership - Merchant Ops",
+    "url": "https://jobs.ashbyhq.com/checkout.com/abfcb336-2285-40bd-a030-afa8fd665b77"
+  },
+  "ad8721ba-3e57-4d67-aed5-3e722b7294f7": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ad8721ba-3e57-4d67-aed5-3e722b7294f7",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-29",
+    "title": "Enterprise Sales Executive",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ad8721ba-3e57-4d67-aed5-3e722b7294f7"
+  },
+  "adb755ae-ed68-452c-a38b-71e3b5b6077a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "adb755ae-ed68-452c-a38b-71e3b5b6077a",
+    "last_seen": "2026-08-13T14:19:07.831826+00:00",
+    "location": "London",
+    "posted_date": "2026-07-07",
+    "title": "Information Security Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/adb755ae-ed68-452c-a38b-71e3b5b6077a"
+  },
+  "aec1a258-3ad2-4c08-bafe-0fa3bb6dd75e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "aec1a258-3ad2-4c08-bafe-0fa3bb6dd75e",
+    "last_seen": "2026-08-26T00:14:33.311647+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-06-08",
+    "title": "People Partner Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/aec1a258-3ad2-4c08-bafe-0fa3bb6dd75e"
+  },
+  "b00cc793-f4c8-4859-935c-d5eb0c4d0a07": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-10T15:51:31.645073+00:00",
+    "job_id": "b00cc793-f4c8-4859-935c-d5eb0c4d0a07",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-10",
+    "title": "Senior Specialist, Issuing Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b00cc793-f4c8-4859-935c-d5eb0c4d0a07"
+  },
+  "b208c83c-26aa-4734-8d70-93d235abe762": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "b208c83c-26aa-4734-8d70-93d235abe762",
+    "last_seen": "2026-08-13T00:12:14.789097+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-06-23",
+    "title": "Business Development Representative - Dutch or German speaking (Amsterdam)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b208c83c-26aa-4734-8d70-93d235abe762"
+  },
+  "b232645c-ed71-4c7a-8274-8a0e03220300": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T20:35:47.453650+00:00",
+    "job_id": "b232645c-ed71-4c7a-8274-8a0e03220300",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Amsterdam, London",
+    "posted_date": "2026-08-26",
+    "title": "Staff Software Engineer - Experimentation & Decisioning Platform",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b232645c-ed71-4c7a-8274-8a0e03220300"
+  },
+  "b29ad925-14a1-43e9-9281-14e87f13b1b8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-25T19:34:47.393314+00:00",
+    "job_id": "b29ad925-14a1-43e9-9281-14e87f13b1b8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-25",
+    "title": "Senior Manager, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b29ad925-14a1-43e9-9281-14e87f13b1b8"
+  },
+  "b2ad8cbb-4522-4607-8d69-2b4438a815d1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-05T22:06:58.861977+00:00",
+    "job_id": "b2ad8cbb-4522-4607-8d69-2b4438a815d1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-10-05",
+    "title": "Business Development Representative - German or Polish speaking",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b2ad8cbb-4522-4607-8d69-2b4438a815d1"
+  },
+  "b3ef77a1-1631-4a22-8724-6ba5cb712484": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "b3ef77a1-1631-4a22-8724-6ba5cb712484",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-08-18",
+    "title": "Sales Manager, Amsterdam",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b3ef77a1-1631-4a22-8724-6ba5cb712484"
+  },
+  "b43ecbcd-97d0-4ff0-81d1-101abb18a5fb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "b43ecbcd-97d0-4ff0-81d1-101abb18a5fb",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-09-23",
+    "title": "Analyst 2, Customer Due Diligence",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b43ecbcd-97d0-4ff0-81d1-101abb18a5fb"
+  },
+  "b4a00471-a923-4a91-9e5a-5f3eee68ab4f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "b4a00471-a923-4a91-9e5a-5f3eee68ab4f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-10-05",
+    "title": "Analyst I, Scheme Registrations and Reporting",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b4a00471-a923-4a91-9e5a-5f3eee68ab4f"
+  },
+  "b563a46e-e4b9-4fd1-a7bb-6211f1564523": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "b563a46e-e4b9-4fd1-a7bb-6211f1564523",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-23",
+    "title": "Senior Manager, Regional Marketing - MENA",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b563a46e-e4b9-4fd1-a7bb-6211f1564523"
+  },
+  "b5fb3c66-d4cb-4f8f-a363-d59c7f4264fb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-03T20:04:30.885835+00:00",
+    "job_id": "b5fb3c66-d4cb-4f8f-a363-d59c7f4264fb",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-02",
+    "title": "Senior Cyber Security Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b5fb3c66-d4cb-4f8f-a363-d59c7f4264fb"
+  },
+  "b7e2f605-08f3-4b39-a0c0-c4432b672493": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "b7e2f605-08f3-4b39-a0c0-c4432b672493",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-13",
+    "title": "Commercial AI Solutions Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b7e2f605-08f3-4b39-a0c0-c4432b672493"
+  },
+  "b83df826-4622-4c99-b781-f21f84d783f3": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-10T15:51:31.645073+00:00",
+    "job_id": "b83df826-4622-4c99-b781-f21f84d783f3",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Atlanta, San Francisco, New York",
+    "posted_date": "2026-09-01",
+    "title": "Technical Enterprise Account Manager, Payments",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b83df826-4622-4c99-b781-f21f84d783f3"
+  },
+  "b8fd9bcf-c58c-47fe-8399-c8bf7edd79d5": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-27T20:24:16.778017+00:00",
+    "job_id": "b8fd9bcf-c58c-47fe-8399-c8bf7edd79d5",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-27",
+    "title": "Legal Operations Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b8fd9bcf-c58c-47fe-8399-c8bf7edd79d5"
+  },
+  "b9c4cc99-507e-41eb-b837-57107a1644de": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "b9c4cc99-507e-41eb-b837-57107a1644de",
+    "last_seen": "2026-08-12T19:28:05.592448+00:00",
+    "location": "London",
+    "posted_date": "2026-07-07",
+    "title": "Senior Information Security Analyst (GRC)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/b9c4cc99-507e-41eb-b837-57107a1644de"
+  },
+  "ba16c213-6297-4139-9246-6937c32f1328": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T00:14:33.311647+00:00",
+    "job_id": "ba16c213-6297-4139-9246-6937c32f1328",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-25",
+    "title": "Senior Manager, Head of Transaction Monitoring",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ba16c213-6297-4139-9246-6937c32f1328"
+  },
+  "bac04840-ae0e-414e-9115-46fc8ea296f1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "bac04840-ae0e-414e-9115-46fc8ea296f1",
+    "last_seen": "2026-08-06T12:52:42.862819+00:00",
+    "location": "Amsterdam",
+    "posted_date": "2026-07-30",
+    "title": "MLOps Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bac04840-ae0e-414e-9115-46fc8ea296f1"
+  },
+  "bb9a635a-b40d-4ba5-80ee-524746cf6aa6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "bb9a635a-b40d-4ba5-80ee-524746cf6aa6",
+    "last_seen": "2026-09-22T22:29:04.354012+00:00",
+    "location": "London",
+    "posted_date": "2026-09-11",
+    "title": "Senior Specialist, Communications (12m FTC)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bb9a635a-b40d-4ba5-80ee-524746cf6aa6"
+  },
+  "bc51cb25-cc81-497c-9016-1aad4ce86711": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-25T19:34:47.393314+00:00",
+    "job_id": "bc51cb25-cc81-497c-9016-1aad4ce86711",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-09-25",
+    "title": "Senior Specialist, Revenue Enablement - MENA",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bc51cb25-cc81-497c-9016-1aad4ce86711"
+  },
+  "bc6b0fab-c281-4eb4-b15b-be934287a3f0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "bc6b0fab-c281-4eb4-b15b-be934287a3f0",
+    "last_seen": "2026-10-12T02:08:41.214506+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-09-18",
+    "title": "Junior Salesforce Support Agent",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bc6b0fab-c281-4eb4-b15b-be934287a3f0"
+  },
+  "bd7ec45b-e540-49b6-8486-47e774983c5c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "bd7ec45b-e540-49b6-8486-47e774983c5c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-28",
+    "title": "Specialist, Workplace Events",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bd7ec45b-e540-49b6-8486-47e774983c5c"
+  },
+  "be34d54b-7a0e-4586-a6a5-9420adc007d0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-12T16:45:47.310206+00:00",
+    "job_id": "be34d54b-7a0e-4586-a6a5-9420adc007d0",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-09-22",
+    "title": "Senior Talent Partner",
+    "url": "https://jobs.ashbyhq.com/checkout.com/be34d54b-7a0e-4586-a6a5-9420adc007d0"
+  },
+  "beab36da-0622-4c62-87bf-9ea046e4e895": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "beab36da-0622-4c62-87bf-9ea046e4e895",
+    "last_seen": "2026-09-27T15:40:02.756403+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Senior Specialist, Strategic Partnerships",
+    "url": "https://jobs.ashbyhq.com/checkout.com/beab36da-0622-4c62-87bf-9ea046e4e895"
+  },
+  "bef34bec-3630-47f4-ac05-9c1e25729a1a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "bef34bec-3630-47f4-ac05-9c1e25729a1a",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "London",
+    "posted_date": "2026-04-23",
+    "title": "Senior Engineering Manager - Data Platform",
+    "url": "https://jobs.ashbyhq.com/checkout.com/bef34bec-3630-47f4-ac05-9c1e25729a1a"
+  },
+  "c016372d-f5cc-4f15-8c45-cc4a7067ea15": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c016372d-f5cc-4f15-8c45-cc4a7067ea15",
+    "last_seen": "2026-09-03T20:04:30.885835+00:00",
+    "location": "London",
+    "posted_date": "2026-07-09",
+    "title": "Senior Account Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c016372d-f5cc-4f15-8c45-cc4a7067ea15"
+  },
+  "c08d543a-96f6-4062-b750-08aa653ba0b1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "c08d543a-96f6-4062-b750-08aa653ba0b1",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "Paris",
+    "posted_date": "2026-09-04",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c08d543a-96f6-4062-b750-08aa653ba0b1"
+  },
+  "c0f1a326-2924-4a6f-b649-0ed05cccab8e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c0f1a326-2924-4a6f-b649-0ed05cccab8e",
+    "last_seen": "2026-08-20T00:19:55.332920+00:00",
+    "location": "Paris",
+    "posted_date": "2026-07-22",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c0f1a326-2924-4a6f-b649-0ed05cccab8e"
+  },
+  "c11b7013-6f9e-4741-9fee-3cc2468e13ed": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c11b7013-6f9e-4741-9fee-3cc2468e13ed",
+    "last_seen": "2026-10-06T00:18:28.498226+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-08-19",
+    "title": "Senior Manager, Internal Audit",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c11b7013-6f9e-4741-9fee-3cc2468e13ed"
+  },
+  "c24c7a1c-22fb-4d80-8992-524feb50025f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c24c7a1c-22fb-4d80-8992-524feb50025f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-07-08",
+    "title": "Fraud Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c24c7a1c-22fb-4d80-8992-524feb50025f"
+  },
+  "c2b8ca53-98d0-4fb9-a9f4-4bcf27380949": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c2b8ca53-98d0-4fb9-a9f4-4bcf27380949",
+    "last_seen": "2026-09-01T19:10:38.688225+00:00",
+    "location": "London",
+    "posted_date": "2026-07-09",
+    "title": "Manager, Merchant Insights (12m FTC)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c2b8ca53-98d0-4fb9-a9f4-4bcf27380949"
+  },
+  "c37d4aba-998a-4266-8525-2b5fad1bfb56": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c37d4aba-998a-4266-8525-2b5fad1bfb56",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-06-10",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c37d4aba-998a-4266-8525-2b5fad1bfb56"
+  },
+  "c4a126a0-6231-4042-b3fb-a0f55114b260": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c4a126a0-6231-4042-b3fb-a0f55114b260",
+    "last_seen": "2026-09-02T20:49:43.326799+00:00",
+    "location": "New York, San Francisco",
+    "posted_date": "2026-08-24",
+    "title": "Head of NORAM Technical Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c4a126a0-6231-4042-b3fb-a0f55114b260"
+  },
+  "c4b4b6e2-c535-4051-9e78-02e0627a0f9f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c4b4b6e2-c535-4051-9e78-02e0627a0f9f",
+    "last_seen": "2026-08-13T00:12:14.789097+00:00",
+    "location": "Barcelona",
+    "posted_date": "2026-06-30",
+    "title": "Business Development Representative (Barcelona) - Spanish speaking",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c4b4b6e2-c535-4051-9e78-02e0627a0f9f"
+  },
+  "c4b6485e-ec79-4939-9b32-291742bf8fb6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-12T18:12:32.293090+00:00",
+    "job_id": "c4b6485e-ec79-4939-9b32-291742bf8fb6",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-11",
+    "title": "Workplace Experience Coordinator",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c4b6485e-ec79-4939-9b32-291742bf8fb6"
+  },
+  "c7d6b2af-b6e1-434f-ba40-d6e7fbd60b75": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c7d6b2af-b6e1-434f-ba40-d6e7fbd60b75",
+    "last_seen": "2026-08-06T12:52:42.862819+00:00",
+    "location": "New York",
+    "posted_date": "2026-07-02",
+    "title": "Manager, Revenue Enablement",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c7d6b2af-b6e1-434f-ba40-d6e7fbd60b75"
+  },
+  "c7f5797e-5410-4e99-b822-c2efcb9fe543": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c7f5797e-5410-4e99-b822-c2efcb9fe543",
+    "last_seen": "2026-10-12T02:08:41.214506+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-06-08",
+    "title": "Associate, Revenue and Billing Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c7f5797e-5410-4e99-b822-c2efcb9fe543"
+  },
+  "c828b33c-1489-4706-9841-d52d5e36530f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c828b33c-1489-4706-9841-d52d5e36530f",
+    "last_seen": "2026-08-15T21:46:15.370440+00:00",
+    "location": "London",
+    "posted_date": "2026-06-02",
+    "title": "Company Secretarial Associate",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c828b33c-1489-4706-9841-d52d5e36530f"
+  },
+  "c8608c45-617c-4950-b356-d962a77bd365": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "c8608c45-617c-4950-b356-d962a77bd365",
+    "last_seen": "2026-09-16T20:40:26.402065+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-09-14",
+    "title": "Specialist, Early Careers",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c8608c45-617c-4950-b356-d962a77bd365"
+  },
+  "c8bd9e1e-7b15-47bd-b1db-4bc794f383aa": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-17T20:43:29.998575+00:00",
+    "job_id": "c8bd9e1e-7b15-47bd-b1db-4bc794f383aa",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-08-17",
+    "title": "Senior Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c8bd9e1e-7b15-47bd-b1db-4bc794f383aa"
+  },
+  "c8e7d028-66b0-49ce-97a9-87b707f045ce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-07T14:32:42.818976+00:00",
+    "job_id": "c8e7d028-66b0-49ce-97a9-87b707f045ce",
+    "last_seen": "2026-08-16T23:43:04.584498+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-08-07",
+    "title": "Customer Onboarding & Due Diligence Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c8e7d028-66b0-49ce-97a9-87b707f045ce"
+  },
+  "c9ec909d-d710-4f88-98a5-c50924e6b2ef": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "c9ec909d-d710-4f88-98a5-c50924e6b2ef",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Riyadh",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Program (Riyadh)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/c9ec909d-d710-4f88-98a5-c50924e6b2ef"
+  },
+  "ca40cc26-d934-4caa-bd4a-f497b0890ab0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ca40cc26-d934-4caa-bd4a-f497b0890ab0",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-15",
+    "title": "Senior Data Analyst, People Analytics",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ca40cc26-d934-4caa-bd4a-f497b0890ab0"
+  },
+  "cb55c3a8-0975-4d2a-9d48-a6517ae787dd": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "cb55c3a8-0975-4d2a-9d48-a6517ae787dd",
+    "last_seen": "2026-08-14T15:10:13.128584+00:00",
+    "location": "London",
+    "posted_date": "2026-04-15",
+    "title": "Manager, Communications",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cb55c3a8-0975-4d2a-9d48-a6517ae787dd"
+  },
+  "cc0a084c-2d4a-4577-8309-dda3d8ec18b8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-26T20:35:47.453650+00:00",
+    "job_id": "cc0a084c-2d4a-4577-8309-dda3d8ec18b8",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-12",
+    "title": "AI Product & Transformation Lead - Legal & Enterprise Risk",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cc0a084c-2d4a-4577-8309-dda3d8ec18b8"
+  },
+  "ccc34bd6-f2ea-4edb-a187-be9a61283b42": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ccc34bd6-f2ea-4edb-a187-be9a61283b42",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Hong Kong",
+    "posted_date": "2026-06-23",
+    "title": "Specialist, Implementation Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ccc34bd6-f2ea-4edb-a187-be9a61283b42"
+  },
+  "cd3a8e8b-049c-43db-a3ee-41e3f415e56a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-01T12:38:14.694208+00:00",
+    "job_id": "cd3a8e8b-049c-43db-a3ee-41e3f415e56a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-30",
+    "title": "Engineer I, FinanceTechnology (Adaptive Planning)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cd3a8e8b-049c-43db-a3ee-41e3f415e56a"
+  },
+  "cd60e006-2ef2-4f8a-92a5-7f1da02a8f0b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "cd60e006-2ef2-4f8a-92a5-7f1da02a8f0b",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-07-21",
+    "title": "Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cd60e006-2ef2-4f8a-92a5-7f1da02a8f0b"
+  },
+  "cebe0da1-c957-4d0e-9887-e70d573f6351": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "cebe0da1-c957-4d0e-9887-e70d573f6351",
+    "last_seen": "2026-09-09T21:31:43.784358+00:00",
+    "location": "New York, San Francisco",
+    "posted_date": "2026-04-29",
+    "title": "Enterprise Sales Executive",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cebe0da1-c957-4d0e-9887-e70d573f6351"
+  },
+  "cf659680-f2b2-4d79-92aa-8b3be7719040": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "cf659680-f2b2-4d79-92aa-8b3be7719040",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-06",
+    "title": "Senior Product Manager, Fincrime",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cf659680-f2b2-4d79-92aa-8b3be7719040"
+  },
+  "cf848375-d937-4dbc-8a40-2a79a9b48e1b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "cf848375-d937-4dbc-8a40-2a79a9b48e1b",
+    "last_seen": "2026-08-13T21:16:23.905558+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-06-26",
+    "title": "Analyst I, Merchant Care",
+    "url": "https://jobs.ashbyhq.com/checkout.com/cf848375-d937-4dbc-8a40-2a79a9b48e1b"
+  },
+  "d072370d-13d1-4b9c-9c5d-7a24d30af7ec": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T00:12:14.789097+00:00",
+    "job_id": "d072370d-13d1-4b9c-9c5d-7a24d30af7ec",
+    "last_seen": "2026-10-07T21:52:52.703773+00:00",
+    "location": "London",
+    "posted_date": "2026-10-07",
+    "title": "Legal Counsel, Commercial",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d072370d-13d1-4b9c-9c5d-7a24d30af7ec"
+  },
+  "d1f24424-f5a3-4e40-a523-83dc0f5b5c11": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "d1f24424-f5a3-4e40-a523-83dc0f5b5c11",
+    "last_seen": "2026-10-06T00:18:28.498226+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-08-17",
+    "title": "Head of Underwriting (MALPB)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d1f24424-f5a3-4e40-a523-83dc0f5b5c11"
+  },
+  "d270d6e5-d68f-4514-a9c4-d6ab7e37d425": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-19T19:54:48.411456+00:00",
+    "job_id": "d270d6e5-d68f-4514-a9c4-d6ab7e37d425",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-10-13",
+    "title": "Enterprise Account Manager - UAE",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d270d6e5-d68f-4514-a9c4-d6ab7e37d425"
+  },
+  "d2b59be6-15bf-4783-a634-d3720eb5c913": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-18T19:49:07.507632+00:00",
+    "job_id": "d2b59be6-15bf-4783-a634-d3720eb5c913",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-18",
+    "title": "Senior Specialist, Revenue enablement",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d2b59be6-15bf-4783-a634-d3720eb5c913"
+  },
+  "d74d0ba0-908d-4523-9a8b-d156c003ff49": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-14T22:17:06.522932+00:00",
+    "job_id": "d74d0ba0-908d-4523-9a8b-d156c003ff49",
+    "last_seen": "2026-09-15T00:52:08.977082+00:00",
+    "location": "New York",
+    "posted_date": "2026-09-14",
+    "title": "[Commercial] Sales",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d74d0ba0-908d-4523-9a8b-d156c003ff49"
+  },
+  "d77b34ad-20f9-4926-a29e-493d4749a90f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "d77b34ad-20f9-4926-a29e-493d4749a90f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-07-16",
+    "title": "Staff Engineer, AI/ML",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d77b34ad-20f9-4926-a29e-493d4749a90f"
+  },
+  "d88c4736-7eb2-4c10-b951-47cce465c1de": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "d88c4736-7eb2-4c10-b951-47cce465c1de",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Paris",
+    "posted_date": "2026-10-02",
+    "title": "Project Manager - Integrations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d88c4736-7eb2-4c10-b951-47cce465c1de"
+  },
+  "d9913947-a7ca-404e-8929-f318c0ddac97": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "d9913947-a7ca-404e-8929-f318c0ddac97",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-02",
+    "title": "Senior Detection & Threat Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/d9913947-a7ca-404e-8929-f318c0ddac97"
+  },
+  "db9216e5-8701-41c8-92b9-140dafe1434d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-11T14:11:19.267405+00:00",
+    "job_id": "db9216e5-8701-41c8-92b9-140dafe1434d",
+    "last_seen": "2026-09-29T20:20:47.908387+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-11",
+    "title": "Analyst I, Transaction Monitoring and Screening",
+    "url": "https://jobs.ashbyhq.com/checkout.com/db9216e5-8701-41c8-92b9-140dafe1434d"
+  },
+  "dcee7834-efa0-4d21-adf5-272d43d94b93": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "dcee7834-efa0-4d21-adf5-272d43d94b93",
+    "last_seen": "2026-09-22T22:29:04.354012+00:00",
+    "location": "London",
+    "posted_date": "2026-04-16",
+    "title": "Senior Business Development Lead",
+    "url": "https://jobs.ashbyhq.com/checkout.com/dcee7834-efa0-4d21-adf5-272d43d94b93"
+  },
+  "dd71eb3a-a368-4f96-9520-76ded6687036": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-10T20:50:33.796283+00:00",
+    "job_id": "dd71eb3a-a368-4f96-9520-76ded6687036",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-10",
+    "title": "Senior Specialist, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/dd71eb3a-a368-4f96-9520-76ded6687036"
+  },
+  "dde086f3-8516-454c-a5c0-59d1d176420a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "dde086f3-8516-454c-a5c0-59d1d176420a",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-28",
+    "title": "Manager, Bid Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/dde086f3-8516-454c-a5c0-59d1d176420a"
+  },
+  "ddee2efd-01fd-4bee-82ca-2930503581e1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ddee2efd-01fd-4bee-82ca-2930503581e1",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-13",
+    "title": "Analytics Manager, Financial Experiences",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ddee2efd-01fd-4bee-82ca-2930503581e1"
+  },
+  "de47710d-f075-4561-a352-abeea119b34c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "de47710d-f075-4561-a352-abeea119b34c",
+    "last_seen": "2026-10-04T23:01:41.193558+00:00",
+    "location": "London",
+    "posted_date": "2026-09-23",
+    "title": "Senior Manager, Product Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/de47710d-f075-4561-a352-abeea119b34c"
+  },
+  "df5b019c-bb34-4af3-b5eb-c7b8e4668425": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-23T22:04:31.014722+00:00",
+    "job_id": "df5b019c-bb34-4af3-b5eb-c7b8e4668425",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Mexico City",
+    "posted_date": "2026-09-23",
+    "title": "Team Lead, Customer Due Diligence",
+    "url": "https://jobs.ashbyhq.com/checkout.com/df5b019c-bb34-4af3-b5eb-c7b8e4668425"
+  },
+  "e0a35dc2-2d66-4080-a7ff-3928bf2bca03": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-13T14:19:07.831826+00:00",
+    "job_id": "e0a35dc2-2d66-4080-a7ff-3928bf2bca03",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-20",
+    "title": "Associate, Financial Control - APAC (Bilingual - Japanese/English)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e0a35dc2-2d66-4080-a7ff-3928bf2bca03"
+  },
+  "e18217dc-763b-4e25-bc22-88b6ee1a8df5": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-21T16:27:26.048341+00:00",
+    "job_id": "e18217dc-763b-4e25-bc22-88b6ee1a8df5",
+    "last_seen": "2026-09-27T15:40:02.756403+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-08-21",
+    "title": "Merchant Care Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e18217dc-763b-4e25-bc22-88b6ee1a8df5"
+  },
+  "e208089b-948b-4d86-a7c0-e6fff7e4eddb": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-21T16:27:26.048341+00:00",
+    "job_id": "e208089b-948b-4d86-a7c0-e6fff7e4eddb",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-20",
+    "title": "Knowledge Management Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e208089b-948b-4d86-a7c0-e6fff7e4eddb"
+  },
+  "e23dc607-38d6-4738-8f76-f1b5a37ae36f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "e23dc607-38d6-4738-8f76-f1b5a37ae36f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-18",
+    "title": "Associate, Revenue and Billing Operations",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e23dc607-38d6-4738-8f76-f1b5a37ae36f"
+  },
+  "e30bb0f8-2e94-4f39-b57d-596cf9a68cf6": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "e30bb0f8-2e94-4f39-b57d-596cf9a68cf6",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "Paris",
+    "posted_date": "2026-07-30",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e30bb0f8-2e94-4f39-b57d-596cf9a68cf6"
+  },
+  "e33b4ec6-6497-409c-95ed-17032054e27f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-30T19:59:16.585887+00:00",
+    "job_id": "e33b4ec6-6497-409c-95ed-17032054e27f",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-08-28",
+    "title": "Senior Business Analyst \u2013 Payment Solutions",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e33b4ec6-6497-409c-95ed-17032054e27f"
+  },
+  "e35e589f-acd7-4fbd-ae69-f79387393e84": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-18T20:50:39.529482+00:00",
+    "job_id": "e35e589f-acd7-4fbd-ae69-f79387393e84",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Sao Paulo",
+    "posted_date": "2026-08-18",
+    "title": "Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e35e589f-acd7-4fbd-ae69-f79387393e84"
+  },
+  "e39da561-1caa-4664-a327-8d59a122e7f1": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-11T13:01:31.349135+00:00",
+    "job_id": "e39da561-1caa-4664-a327-8d59a122e7f1",
+    "last_seen": "2026-10-12T23:09:11.924902+00:00",
+    "location": "London",
+    "posted_date": "2026-08-11",
+    "title": "Senior Golang Engineer",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e39da561-1caa-4664-a327-8d59a122e7f1"
+  },
+  "e61ab1f1-3b90-42b9-9657-ba10ffede05e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "e61ab1f1-3b90-42b9-9657-ba10ffede05e",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "New York",
+    "posted_date": "2026-08-28",
+    "title": "Corporate Governance Paralegal",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e61ab1f1-3b90-42b9-9657-ba10ffede05e"
+  },
+  "e79a9997-cb14-4c84-a4f7-9b2ac7e13442": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-29T20:20:47.908387+00:00",
+    "job_id": "e79a9997-cb14-4c84-a4f7-9b2ac7e13442",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-09-29",
+    "title": "Merchant Care Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e79a9997-cb14-4c84-a4f7-9b2ac7e13442"
+  },
+  "e7c9c7e1-c768-43d5-92c6-def0306ff16f": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-12T14:09:25.841449+00:00",
+    "job_id": "e7c9c7e1-c768-43d5-92c6-def0306ff16f",
+    "last_seen": "2026-09-21T21:56:44.523316+00:00",
+    "location": "Dubai",
+    "posted_date": "2026-08-19",
+    "title": "Senior Associate, Regional Treasury",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e7c9c7e1-c768-43d5-92c6-def0306ff16f"
+  },
+  "e88c51bb-40c2-46eb-a5b6-71172fd92932": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-28T21:42:21.291889+00:00",
+    "job_id": "e88c51bb-40c2-46eb-a5b6-71172fd92932",
+    "last_seen": "2026-09-28T21:42:21.291889+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-28",
+    "title": "Senior Manager, Financial Control",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e88c51bb-40c2-46eb-a5b6-71172fd92932"
+  },
+  "e88f77c7-a9bd-4f14-b41a-2350f98a0047": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "e88f77c7-a9bd-4f14-b41a-2350f98a0047",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-13",
+    "title": "Senior Software Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e88f77c7-a9bd-4f14-b41a-2350f98a0047"
+  },
+  "e9960d73-c6d2-4f92-b6ec-d9caa1ae4e19": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-06T22:55:16.952064+00:00",
+    "job_id": "e9960d73-c6d2-4f92-b6ec-d9caa1ae4e19",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-08",
+    "title": "Director, Strategic Accounts, Account Management",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e9960d73-c6d2-4f92-b6ec-d9caa1ae4e19"
+  },
+  "e9f40dc0-1ed4-4246-9b46-47bcdac737ba": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "e9f40dc0-1ed4-4246-9b46-47bcdac737ba",
+    "last_seen": "2026-09-08T14:25:46.792872+00:00",
+    "location": "Paris",
+    "posted_date": "2026-05-28",
+    "title": "Sales Manager, IDV",
+    "url": "https://jobs.ashbyhq.com/checkout.com/e9f40dc0-1ed4-4246-9b46-47bcdac737ba"
+  },
+  "eac6af56-92f7-428f-912f-c02f80548dc8": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "eac6af56-92f7-428f-912f-c02f80548dc8",
+    "last_seen": "2026-08-18T22:42:18.163644+00:00",
+    "location": "London",
+    "posted_date": "2026-07-08",
+    "title": "Senior Manager, Underwriting",
+    "url": "https://jobs.ashbyhq.com/checkout.com/eac6af56-92f7-428f-912f-c02f80548dc8"
+  },
+  "ec22667a-971f-41ba-9cec-9eb45585ed87": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ec22667a-971f-41ba-9cec-9eb45585ed87",
+    "last_seen": "2026-08-22T16:03:15.447799+00:00",
+    "location": "London",
+    "posted_date": "2026-08-05",
+    "title": "Product Manager, Payouts",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ec22667a-971f-41ba-9cec-9eb45585ed87"
+  },
+  "ec457d1a-de58-4e8d-8867-159fe7d0ef2a": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-18T00:37:04.648520+00:00",
+    "job_id": "ec457d1a-de58-4e8d-8867-159fe7d0ef2a",
+    "last_seen": "2026-10-08T23:26:56.314458+00:00",
+    "location": "London",
+    "posted_date": "2026-08-17",
+    "title": "Data Analytics Engineer I",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ec457d1a-de58-4e8d-8867-159fe7d0ef2a"
+  },
+  "ef5baf64-3a31-453a-9de3-2116ed1e718b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "ef5baf64-3a31-453a-9de3-2116ed1e718b",
+    "last_seen": "2026-09-08T14:25:46.792872+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-04-15",
+    "title": "Enterprise Sales Executive",
+    "url": "https://jobs.ashbyhq.com/checkout.com/ef5baf64-3a31-453a-9de3-2116ed1e718b"
+  },
+  "f0358fb0-4b7d-4479-ae67-463a6aba0711": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-13T21:20:39.117764+00:00",
+    "job_id": "f0358fb0-4b7d-4479-ae67-463a6aba0711",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Barcelona",
+    "posted_date": "2026-10-13",
+    "title": "BDR Talent Programme (Barcelona)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f0358fb0-4b7d-4479-ae67-463a6aba0711"
+  },
+  "f0d111c3-888c-456f-a8da-0c622ed8daee": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f0d111c3-888c-456f-a8da-0c622ed8daee",
+    "last_seen": "2026-08-31T21:58:24.445844+00:00",
+    "location": "London",
+    "posted_date": "2026-08-11",
+    "title": "Manager, Operations and Strategy (CEO Office)",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f0d111c3-888c-456f-a8da-0c622ed8daee"
+  },
+  "f2bca5a3-69be-4968-8b8f-ccbb1ec7270b": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f2bca5a3-69be-4968-8b8f-ccbb1ec7270b",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-30",
+    "title": "Manager, Compliance Advisory",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f2bca5a3-69be-4968-8b8f-ccbb1ec7270b"
+  },
+  "f424f60a-2531-4950-991f-fd8deb682b6e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f424f60a-2531-4950-991f-fd8deb682b6e",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-08-03",
+    "title": "Business Development Representative",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f424f60a-2531-4950-991f-fd8deb682b6e"
+  },
+  "f4748ffa-af1e-4261-b4f7-8727e683bf88": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f4748ffa-af1e-4261-b4f7-8727e683bf88",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Riyadh",
+    "posted_date": "2026-07-22",
+    "title": "Sales Manager - Saudi Arabia",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f4748ffa-af1e-4261-b4f7-8727e683bf88"
+  },
+  "f4b21a58-5815-4d4d-9a0d-af09ee418c78": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f4b21a58-5815-4d4d-9a0d-af09ee418c78",
+    "last_seen": "2026-08-09T02:59:56.345918+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-05-14",
+    "title": "Analyst I, Risk Operations Centre",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f4b21a58-5815-4d4d-9a0d-af09ee418c78"
+  },
+  "f5f62aa2-2b28-44d0-a3b7-43bfb8fe43a0": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f5f62aa2-2b28-44d0-a3b7-43bfb8fe43a0",
+    "last_seen": "2026-09-10T20:50:33.796283+00:00",
+    "location": "London",
+    "posted_date": "2026-08-04",
+    "title": "Senior Director, Reward, Performance and Analytics",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f5f62aa2-2b28-44d0-a3b7-43bfb8fe43a0"
+  },
+  "f6a1e251-4a43-4f6a-86db-e110c88e8f30": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-02T18:34:26.677241+00:00",
+    "job_id": "f6a1e251-4a43-4f6a-86db-e110c88e8f30",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-09-02",
+    "title": "Analyst I, Risk Operations Centre",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f6a1e251-4a43-4f6a-86db-e110c88e8f30"
+  },
+  "f6bb5bf9-e614-43e8-aebb-ed1c0b57e8ce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "f6bb5bf9-e614-43e8-aebb-ed1c0b57e8ce",
+    "last_seen": "2026-08-22T16:03:15.447799+00:00",
+    "location": "Tel Aviv",
+    "posted_date": "2026-08-06",
+    "title": "Junior Fraud Data Scientist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f6bb5bf9-e614-43e8-aebb-ed1c0b57e8ce"
+  },
+  "f78ca637-f9b8-46f4-9b77-45a16c5f2efa": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-25T19:34:47.393314+00:00",
+    "job_id": "f78ca637-f9b8-46f4-9b77-45a16c5f2efa",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-25",
+    "title": "Product Manager, Agentic Commerce",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f78ca637-f9b8-46f4-9b77-45a16c5f2efa"
+  },
+  "f910c516-dd41-4410-832e-ff944013c08e": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "f910c516-dd41-4410-832e-ff944013c08e",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Home-based, Mexico",
+    "posted_date": "2026-09-04",
+    "title": "Risk Monitoring Analyst",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f910c516-dd41-4410-832e-ff944013c08e"
+  },
+  "f94b0830-0426-4178-932d-4762e2e2da39": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-24T20:54:18.097594+00:00",
+    "job_id": "f94b0830-0426-4178-932d-4762e2e2da39",
+    "last_seen": "2026-08-26T20:35:47.453650+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-24",
+    "title": "Senior Specialist, Technical Account Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/f94b0830-0426-4178-932d-4762e2e2da39"
+  },
+  "fa00758e-e436-4765-9a3f-b096744dfe35": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "fa00758e-e436-4765-9a3f-b096744dfe35",
+    "last_seen": "2026-10-06T22:55:16.952064+00:00",
+    "location": "Ebene",
+    "posted_date": "2026-06-24",
+    "title": "AI & Process Automation Specialist",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fa00758e-e436-4765-9a3f-b096744dfe35"
+  },
+  "fa15715e-20cc-49cf-9bdb-8a310b4e0485": {
+    "company": "Checkout.com",
+    "first_seen": "2026-10-04T23:01:41.193558+00:00",
+    "job_id": "fa15715e-20cc-49cf-9bdb-8a310b4e0485",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-10-02",
+    "title": "Specialist, Regional Events and Field Marketing",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fa15715e-20cc-49cf-9bdb-8a310b4e0485"
+  },
+  "fad3f54d-c7c2-4538-8033-2ea55a86b9ce": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-17T20:47:21.390140+00:00",
+    "job_id": "fad3f54d-c7c2-4538-8033-2ea55a86b9ce",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-09-17",
+    "title": "Engineer I,  Workplace Technology",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fad3f54d-c7c2-4538-8033-2ea55a86b9ce"
+  },
+  "fb480665-77af-4f73-a554-3121ace2e4a4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-10T12:21:04.751699+00:00",
+    "job_id": "fb480665-77af-4f73-a554-3121ace2e4a4",
+    "last_seen": "2026-10-12T02:08:41.214506+00:00",
+    "location": "London",
+    "posted_date": "2026-08-10",
+    "title": "Indirect Tax Global Lead",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fb480665-77af-4f73-a554-3121ace2e4a4"
+  },
+  "fb99344d-18bc-462d-bfe3-977ccb18569d": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "fb99344d-18bc-462d-bfe3-977ccb18569d",
+    "last_seen": "2026-08-24T20:54:18.097594+00:00",
+    "location": "Paris",
+    "posted_date": "2026-05-12",
+    "title": "Senior Software Engineer II, Integration Team",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fb99344d-18bc-462d-bfe3-977ccb18569d"
+  },
+  "fcf3e1f7-2ac0-4c26-a9e2-d346764e732c": {
+    "company": "Checkout.com",
+    "first_seen": "2026-08-06T12:52:42.862819+00:00",
+    "job_id": "fcf3e1f7-2ac0-4c26-a9e2-d346764e732c",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "London",
+    "posted_date": "2026-06-29",
+    "title": "Sales Manager",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fcf3e1f7-2ac0-4c26-a9e2-d346764e732c"
+  },
+  "fdd93c33-caeb-40e7-a3aa-20c3ae5802b4": {
+    "company": "Checkout.com",
+    "first_seen": "2026-09-08T14:25:46.792872+00:00",
+    "job_id": "fdd93c33-caeb-40e7-a3aa-20c3ae5802b4",
+    "last_seen": "2026-10-13T21:20:39.117764+00:00",
+    "location": "Sydney",
+    "posted_date": "2026-09-04",
+    "title": "Manager, Sales Engineering",
+    "url": "https://jobs.ashbyhq.com/checkout.com/fdd93c33-caeb-40e7-a3aa-20c3ae5802b4"
+  }
+}

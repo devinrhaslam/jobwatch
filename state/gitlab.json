@@ -1,0 +1,4552 @@
+{
+  "8396674002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8396674002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-03-06",
+    "title": "Manager, Solutions Architects - San Francisco",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8396674002"
+  },
+  "8448283002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8448283002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-03-09",
+    "title": "Staff Backend Engineer (Ruby on Rails/AI), Verify",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8448283002"
+  },
+  "8451512002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8451512002",
+    "last_seen": "2026-09-24T23:48:44.310873+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-03-12",
+    "title": "Senior Backend Engineer, Analytics Instrumentation (Golang)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8451512002"
+  },
+  "8453504002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8453504002",
+    "last_seen": "2026-08-07T14:33:37.223022+00:00",
+    "location": "Remote, EMEA",
+    "posted_date": "2026-03-30",
+    "title": "Senior Regional Marketing Manager, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8453504002"
+  },
+  "8463917002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T13:23:47.763984+00:00",
+    "job_id": "8463917002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-03-22",
+    "title": "Engineering Manager, Gitlab Delivery: Upgrades",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8463917002"
+  },
+  "8463922002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8463922002",
+    "last_seen": "2026-09-21T21:57:41.160659+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-03-22",
+    "title": "Staff Backend Engineer, Gitlab Delivery: Upgrades",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8463922002"
+  },
+  "8463925002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8463925002",
+    "last_seen": "2026-08-18T00:38:23.472037+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-06-25",
+    "title": "Senior Backend Engineer, Gitlab Delivery: Zero Downtime Upgrades",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8463925002"
+  },
+  "8464608002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8464608002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-03-19",
+    "title": "Senior Product Designer, AI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8464608002"
+  },
+  "8475077002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8475077002",
+    "last_seen": "2026-08-06T12:46:54.034956+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "posted_date": "2026-03-25",
+    "title": "Staff Product Designer, Knowledge Graph",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8475077002"
+  },
+  "8476375002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8476375002",
+    "last_seen": "2026-09-22T22:30:33.249165+00:00",
+    "location": "Remote, Australia; Remote, Singapore",
+    "posted_date": "2026-03-24",
+    "title": "Senior Solutions Architect - AI & Platforms SME",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8476375002"
+  },
+  "8478405002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8478405002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India; Remote, Australia; Remote, Canada; Remote, Israel; Remote, United States",
+    "posted_date": "2026-03-27",
+    "title": "Engineering Manager, SSCS: Supply Chain",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8478405002"
+  },
+  "8480559002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8480559002",
+    "last_seen": "2026-09-15T21:00:01.079465+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-04-10",
+    "title": "Staff Backend Engineer,  Software Supply Chain Security",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8480559002"
+  },
+  "8480580002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8480580002",
+    "last_seen": "2026-08-22T16:04:17.756037+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-04-10",
+    "title": "Senior Backend Engineer,  SSCS: Supply Chain",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8480580002"
+  },
+  "8481197002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8481197002",
+    "last_seen": "2026-08-07T00:41:29.393400+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-06-16",
+    "title": "Engineering Manager, Observability, Monitoring, and Integrations (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481197002"
+  },
+  "8488961002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8488961002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-04-08",
+    "title": "Staff Backend Engineer (Go), Events Platform",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8488961002"
+  },
+  "8490477002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8490477002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "posted_date": "2026-04-07",
+    "title": "Staff Backend Engineer, Developer Experience",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8490477002"
+  },
+  "8497793002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8497793002",
+    "last_seen": "2026-08-09T03:00:54.044250+00:00",
+    "location": "Remote, Canada; Remote, India; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-04-14",
+    "title": "Intermediate/Senior/Staff Backend Engineer (C), Tenant Scale: Git",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8497793002"
+  },
+  "8499647002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8499647002",
+    "last_seen": "2026-08-16T23:44:01.789173+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-04-09",
+    "title": "Vice President, Legal Commercial",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8499647002"
+  },
+  "8500014002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8500014002",
+    "last_seen": "2026-09-28T21:43:36.289995+00:00",
+    "location": "Remote, Japan; Remote, Philippines; Remote, Singapore",
+    "posted_date": "2026-04-28",
+    "title": "Senior Commercial Legal Counsel, APAC",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8500014002"
+  },
+  "8503792002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8503792002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, Italy",
+    "posted_date": "2026-04-17",
+    "title": "Account Executive - Italy",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8503792002"
+  },
+  "8510488002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8510488002",
+    "last_seen": "2026-08-12T19:29:31.896252+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-04-21",
+    "title": "Director, Enterprise Architecture & Intelligent Automation",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8510488002"
+  },
+  "8510676002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8510676002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-04-17",
+    "title": "Vice President, Data & Insights",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8510676002"
+  },
+  "8512220002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8512220002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-04-29",
+    "title": "Senior Product Manager, Tenant Scale",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8512220002"
+  },
+  "8512432002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8512432002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-20",
+    "title": "Staff Forward Deployed Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8512432002"
+  },
+  "8514960002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8514960002",
+    "last_seen": "2026-09-25T19:35:55.216690+00:00",
+    "location": "Remote, India; Remote, Israel; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-04-27",
+    "title": "Staff Infrastructure Security Engineer (EMEA/APJ)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8514960002"
+  },
+  "8515080002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8515080002",
+    "last_seen": "2026-08-12T00:11:42.456765+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-04-24",
+    "title": "Site Reliability Engineer, Cloud Cost Utilization",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8515080002"
+  },
+  "8517171002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8517171002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-05-06",
+    "title": "Forward Deployed Engineer, AI and Agentic SDLC",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8517171002"
+  },
+  "8520248002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8520248002",
+    "last_seen": "2026-09-14T01:42:41.709255+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-05-13",
+    "title": "Strategic Account Executive, Germany (Ent Industry)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8520248002"
+  },
+  "8522265002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8522265002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-05-11",
+    "title": "Forward Deployed Engineer - EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002"
+  },
+  "8522408002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8522408002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote Ireland; Remote, Austria; Remote, Denmark; Remote, France; Remote, Germany; Remote, Netherlands; Remote, Switzerland; Remote, United Kingdom",
+    "posted_date": "2026-05-11",
+    "title": "Forward Deployed Engineer - EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522408002"
+  },
+  "8524783002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8524783002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, United Arab Emirates",
+    "posted_date": "2026-05-11",
+    "title": "Forward Deployed Engineer - META",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8524783002"
+  },
+  "8527416002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-01T19:11:53.368490+00:00",
+    "job_id": "8527416002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, Netherlands",
+    "posted_date": "2026-09-01",
+    "title": "New Business Account Executive - Netherlands",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8527416002"
+  },
+  "8528922002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8528922002",
+    "last_seen": "2026-08-26T20:36:50.901276+00:00",
+    "location": "Remote, France; Remote, Germany; Remote, Ireland; Remote, Italy; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-05-26",
+    "title": "Commercial Account Executive - Greece/Malta",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8528922002"
+  },
+  "8530337002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8530337002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, North America",
+    "posted_date": "2026-05-01",
+    "title": "Sales Development Representative",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8530337002"
+  },
+  "8532272002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8532272002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, North America",
+    "posted_date": "2026-05-01",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8532272002"
+  },
+  "8532274002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8532274002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, EMEA; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-05-01",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8532274002"
+  },
+  "8533016002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8533016002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, North America",
+    "posted_date": "2026-06-23",
+    "title": "Customer Success Manager - East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8533016002"
+  },
+  "8539908002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8539908002",
+    "last_seen": "2026-08-13T00:13:26.930867+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-16",
+    "title": "Senior Director, Procurement",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8539908002"
+  },
+  "8548105002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8548105002",
+    "last_seen": "2026-08-07T14:33:37.223022+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "posted_date": "2026-05-18",
+    "title": "AI Transformation Owner, Marketing",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8548105002"
+  },
+  "8548980002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8548980002",
+    "last_seen": "2026-09-01T19:11:53.368490+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-05-14",
+    "title": "Customer Success Manager - Australia",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8548980002"
+  },
+  "8555134002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8555134002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, United Arab Emirates",
+    "posted_date": "2026-05-26",
+    "title": "Strategic Account Executive - South Africa",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8555134002"
+  },
+  "8556658002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8556658002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, Bangalore",
+    "posted_date": "2026-05-22",
+    "title": "AI Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8556658002"
+  },
+  "8561194002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8561194002",
+    "last_seen": "2026-08-14T18:34:04.008067+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-05-27",
+    "title": "Senior Manager, CX Services Operations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561194002"
+  },
+  "8561622002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8561622002",
+    "last_seen": "2026-09-25T19:35:55.216690+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-05-26",
+    "title": "Commercial Account Executive - Mid-Market, Canada",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561622002"
+  },
+  "8561952002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8561952002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, Austria; Remote, France; Remote, Germany",
+    "posted_date": "2026-05-28",
+    "title": "Customer Success Architect, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8561952002"
+  },
+  "8562593002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8562593002",
+    "last_seen": "2026-08-21T18:43:57.327786+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-02",
+    "title": "Commercial Legal Counsel, Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8562593002"
+  },
+  "8564957002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8564957002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-05-27",
+    "title": "Principal Product Manager, AI Custom Models",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8564957002"
+  },
+  "8565469002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8565469002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-05-29",
+    "title": "Senior AI Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8565469002"
+  },
+  "8574978002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8574978002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-08",
+    "title": "Staff HRIS Analyst, People Technology - Workday",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8574978002"
+  },
+  "8575027002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8575027002",
+    "last_seen": "2026-08-16T23:44:01.789173+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-06-03",
+    "title": "Strategic Account Executive  - Belgium & Luxembourg (Paris / Lille area based)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8575027002"
+  },
+  "8578321002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8578321002",
+    "last_seen": "2026-08-06T12:46:54.034956+00:00",
+    "location": "Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-06-18",
+    "title": "Customer Success Architect, NEUR",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8578321002"
+  },
+  "8579044002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8579044002",
+    "last_seen": "2026-08-19T19:55:54.392957+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-05",
+    "title": "Professional Services Engagement Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8579044002"
+  },
+  "8584282002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8584282002",
+    "last_seen": "2026-08-20T20:31:07.346750+00:00",
+    "location": "Remote, Bangalore",
+    "posted_date": "2026-07-06",
+    "title": "Senior Program Manager, Enterprise Technology & AI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8584282002"
+  },
+  "8586632002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8586632002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-13",
+    "title": "Engineering Manager, Switchboard",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002"
+  },
+  "8586667002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-19T19:55:54.392957+00:00",
+    "job_id": "8586667002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-19",
+    "title": "Engineering Manager, Build",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002"
+  },
+  "8588547002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8588547002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-11",
+    "title": "Senior TA Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8588547002"
+  },
+  "8589147002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8589147002",
+    "last_seen": "2026-08-15T21:47:22.136979+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-06-16",
+    "title": "Manager, Solutions Architect - Asia",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8589147002"
+  },
+  "8589176002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8589176002",
+    "last_seen": "2026-08-16T23:44:01.789173+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-15",
+    "title": "Senior Solutions Architect, Financial Services - NYC area",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8589176002"
+  },
+  "8591221002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8591221002",
+    "last_seen": "2026-08-22T16:04:17.756037+00:00",
+    "location": "Remote, Bangalore",
+    "posted_date": "2026-06-17",
+    "title": "Senior Solutions Architect, Global SI (India)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8591221002"
+  },
+  "8591223002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8591223002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-08-05",
+    "title": "Territory Sales Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8591223002"
+  },
+  "8592555002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8592555002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Commercial Account Executive, Named - West",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592555002"
+  },
+  "8592710002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8592710002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-09",
+    "title": "Senior Director, People Business Partner",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592710002"
+  },
+  "8592768002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8592768002",
+    "last_seen": "2026-08-07T20:44:09.931140+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-01",
+    "title": "Director of Engineering, Growth & Monetization",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592768002"
+  },
+  "8592891002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8592891002",
+    "last_seen": "2026-08-31T21:59:56.817450+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-06-17",
+    "title": "Engineering Manager, Growth",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002"
+  },
+  "8592950002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8592950002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-17",
+    "title": "Engineering Manager, Data Foundations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002"
+  },
+  "8593622002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8593622002",
+    "last_seen": "2026-08-07T23:46:34.761586+00:00",
+    "location": "Remote, United Arab Emirates",
+    "posted_date": "2026-06-17",
+    "title": "Senior Solutions Architect, MEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8593622002"
+  },
+  "8595154002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-17T20:44:36.151903+00:00",
+    "job_id": "8595154002",
+    "last_seen": "2026-08-20T20:31:07.346750+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-06-24",
+    "title": "Commercial Account Executive - Japan",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8595154002"
+  },
+  "8596778002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8596778002",
+    "last_seen": "2026-08-14T18:34:04.008067+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-26",
+    "title": "Public Sector Strategic Account Executive, FSI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8596778002"
+  },
+  "8597805002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8597805002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "Senior Product Manager, Agentic Source Code",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597805002"
+  },
+  "8597809002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8597809002",
+    "last_seen": "2026-08-07T20:44:09.931140+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-06-18",
+    "title": "Senior Manager, Professional Services Technical Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597809002"
+  },
+  "8597813002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8597813002",
+    "last_seen": "2026-09-10T20:51:42.250256+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Principal Product Manager, Engineering Intelligence & Insights",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597813002"
+  },
+  "8597826002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8597826002",
+    "last_seen": "2026-09-14T01:42:41.709255+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Senior Manager, Product Management: Agentic Software Delivery",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597826002"
+  },
+  "8597847002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8597847002",
+    "last_seen": "2026-08-10T15:52:36.533987+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-24",
+    "title": "Senior Professional Services Partners Manager, Subcontractor Partner Solutions",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597847002"
+  },
+  "8603824002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8603824002",
+    "last_seen": "2026-08-30T20:01:31.083469+00:00",
+    "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
+    "posted_date": "2026-07-06",
+    "title": "Engineering Manager, AI Engineering: Chat",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002"
+  },
+  "8603839002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8603839002",
+    "last_seen": "2026-08-09T03:00:54.044250+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom",
+    "posted_date": "2026-07-01",
+    "title": "Senior Backend Engineer (Ruby), AI Engineering: Duo Agent Platform Tools",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603839002"
+  },
+  "8604630002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8604630002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-01",
+    "title": "Strategic Account Executive, AI - San Francisco",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8604630002"
+  },
+  "8604633002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8604633002",
+    "last_seen": "2026-09-01T19:11:53.368490+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-24",
+    "title": "High Velocity Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8604633002"
+  },
+  "8604996002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8604996002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-25",
+    "title": "Senior Customer Success Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8604996002"
+  },
+  "8607104002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8607104002",
+    "last_seen": "2026-10-06T22:56:20.693183+00:00",
+    "location": "Remote, Israel; Remote, United Kingdom",
+    "posted_date": "2026-07-01",
+    "title": "Director of Engineering, Security Factory",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607104002"
+  },
+  "8607271002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8607271002",
+    "last_seen": "2026-08-18T00:38:23.472037+00:00",
+    "location": "Remote, India",
+    "posted_date": "2026-07-09",
+    "title": "Customer Success Engineer, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607271002"
+  },
+  "8607642002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8607642002",
+    "last_seen": "2026-08-07T14:33:37.223022+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-07-02",
+    "title": "Senior Customer Success Architect, France",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607642002"
+  },
+  "8607714002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8607714002",
+    "last_seen": "2026-08-09T03:00:54.044250+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-02",
+    "title": "Engineering Manager, Geo for Self-Managed Customers",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607714002"
+  },
+  "8608546002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8608546002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, UAE",
+    "posted_date": "2026-06-25",
+    "title": "Business Development Representative - MENA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8608546002"
+  },
+  "8609979002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8609979002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Turkey",
+    "posted_date": "2026-07-17",
+    "title": "Strategic Account Executive - Turkey",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8609979002"
+  },
+  "8610803002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8610803002",
+    "last_seen": "2026-08-14T18:34:04.008067+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "New Business Account Executive - SLED",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8610803002"
+  },
+  "8610952002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8610952002",
+    "last_seen": "2026-09-14T22:18:12.040814+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-06-29",
+    "title": "Staff Lifecycle Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8610952002"
+  },
+  "8611700002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8611700002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, KSA; Remote, UAE",
+    "posted_date": "2026-07-20",
+    "title": "Solutions Architect - MENA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611700002"
+  },
+  "8611764002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8611764002",
+    "last_seen": "2026-09-22T22:30:33.249165+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-06-30",
+    "title": "Senior Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611764002"
+  },
+  "8611767002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8611767002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-06-30",
+    "title": "Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611767002"
+  },
+  "8611813002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8611813002",
+    "last_seen": "2026-08-18T22:43:27.207715+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-06-29",
+    "title": "Renewals Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611813002"
+  },
+  "8611838002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8611838002",
+    "last_seen": "2026-08-26T00:15:59.569875+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Commercial Account Executive - Named, US East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611838002"
+  },
+  "8612937002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8612937002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-08",
+    "title": "Staff Product Manager,  RevOps & Finance Systems",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8612937002"
+  },
+  "8613165002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8613165002",
+    "last_seen": "2026-09-09T21:33:15.752151+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-10",
+    "title": "Staff Fullstack Engineer - Data Products",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613165002"
+  },
+  "8613199002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8613199002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Austria; Remote, Germany",
+    "posted_date": "2026-07-06",
+    "title": "Manager, Customer Success Managers, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613199002"
+  },
+  "8614945002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-27T20:25:56.065651+00:00",
+    "job_id": "8614945002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-02",
+    "title": "Senior Software Engineer (RoR/Go), SSCS: Authentication",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8614945002"
+  },
+  "8615268002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-16T23:44:01.789173+00:00",
+    "job_id": "8615268002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-16",
+    "title": "Staff Site Reliability Engineer - Monitoring and Anomaly Detection (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615268002"
+  },
+  "8615312002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-01T19:11:53.368490+00:00",
+    "job_id": "8615312002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-01",
+    "title": "Senior Backend Engineer - Platform Integrations (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615312002"
+  },
+  "8615319002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615319002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-23",
+    "title": "Senior Site Reliability Engineer - Monitoring and Anomaly Detection (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615319002"
+  },
+  "8615322002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T14:20:22.409515+00:00",
+    "job_id": "8615322002",
+    "last_seen": "2026-08-31T21:59:56.817450+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-13",
+    "title": "Senior Backend Engineer - Platform Integrations (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615322002"
+  },
+  "8615332002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615332002",
+    "last_seen": "2026-08-15T21:47:22.136979+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-23",
+    "title": "Intermediate Backend Engineer - Platform Integrations (Monetization)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615332002"
+  },
+  "8615389002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615389002",
+    "last_seen": "2026-08-09T03:00:54.044250+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Intermediate Backend Engineer - Analytics Instrumentation",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615389002"
+  },
+  "8615439002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615439002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Senior Backend Engineer - Platform Insights",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615439002"
+  },
+  "8615513002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615513002",
+    "last_seen": "2026-08-24T13:23:47.763984+00:00",
+    "location": "Remote, Netherlands; Remote, Sweden",
+    "posted_date": "2026-07-02",
+    "title": "New Business Account Executive - Nordics",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615513002"
+  },
+  "8615797002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615797002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "New Business Account Executive - West",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615797002"
+  },
+  "8615811002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615811002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Director, Strategic Partnerships",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615811002"
+  },
+  "8615946002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8615946002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-06",
+    "title": "Engineering Manager, Cell Infrastructure",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615946002"
+  },
+  "8616005002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8616005002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "Senior Customer Success Manager- Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002"
+  },
+  "8616247002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8616247002",
+    "last_seen": "2026-08-30T20:01:31.083469+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Revenue Analytics Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616247002"
+  },
+  "8616308002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8616308002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-13",
+    "title": "Senior Revenue Analytics Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616308002"
+  },
+  "8616847002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8616847002",
+    "last_seen": "2026-08-14T18:34:04.008067+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-01",
+    "title": "Professional Services Technical Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616847002"
+  },
+  "8617211002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617211002",
+    "last_seen": "2026-08-20T00:20:53.598348+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-07-12",
+    "title": "Commercial Account Executive - Australia",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617211002"
+  },
+  "8617252002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617252002",
+    "last_seen": "2026-08-14T18:34:04.008067+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Professional Services Program Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617252002"
+  },
+  "8617525002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617525002",
+    "last_seen": "2026-08-20T20:31:07.346750+00:00",
+    "location": "Remote, United Arab Emirates",
+    "posted_date": "2026-07-02",
+    "title": "Customer Success Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617525002"
+  },
+  "8617538002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617538002",
+    "last_seen": "2026-09-27T15:41:01.074211+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-07-10",
+    "title": "Engineering Manager, Tenant Scale:Git",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002"
+  },
+  "8617615002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617615002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-29",
+    "title": "Senior People Analytics Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617615002"
+  },
+  "8617751002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617751002",
+    "last_seen": "2026-10-01T12:39:13.598772+00:00",
+    "location": "Remote, Turkey",
+    "posted_date": "2026-07-16",
+    "title": "Strategic Account Executive - Turkey",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617751002"
+  },
+  "8617777002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617777002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-29",
+    "title": "Lead Internal Events & Production Strategist",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617777002"
+  },
+  "8617848002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8617848002",
+    "last_seen": "2026-09-01T19:11:53.368490+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-16",
+    "title": "Senior People Business Partner, Product & Marketing",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617848002"
+  },
+  "8618771002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8618771002",
+    "last_seen": "2026-09-15T21:00:01.079465+00:00",
+    "location": "Remote",
+    "posted_date": "2026-07-15",
+    "title": "Ecosystem Sales Manager, Carahsoft (Washington DC)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8618771002"
+  },
+  "8618795002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8618795002",
+    "last_seen": "2026-08-26T20:36:50.901276+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-13",
+    "title": "Revenue Technology Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8618795002"
+  },
+  "8620580002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8620580002",
+    "last_seen": "2026-08-18T22:43:27.207715+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-20",
+    "title": "Renewals Manager UK&I",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620580002"
+  },
+  "8620720002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8620720002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-07-08",
+    "title": "Backend Engineer (Ruby), AI Engineering: Agent Foundations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002"
+  },
+  "8621204002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8621204002",
+    "last_seen": "2026-09-16T20:41:31.324112+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-16",
+    "title": "Senior FP&A Analyst, Corporate Finance",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8621204002"
+  },
+  "8621620002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8621620002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-13",
+    "title": "Senior Backend Engineer (Ruby), AI Engineering: AI Coding",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8621620002"
+  },
+  "8621733002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8621733002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom",
+    "posted_date": "2026-07-20",
+    "title": "Senior Backend Engineer, AI Engineering: Chat",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8621733002"
+  },
+  "8622433002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8622433002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-22",
+    "title": "Senior Professional Services Project Manager (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8622433002"
+  },
+  "8623389002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8623389002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-10",
+    "title": "Site Reliability Engineer, Infrastructure Platforms \u2014 AMER (Intermediate to Senior Staff)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8623389002"
+  },
+  "8623542002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8623542002",
+    "last_seen": "2026-09-10T20:51:42.250256+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-07-09",
+    "title": "Senior Professional Services Engineer - Japan",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8623542002"
+  },
+  "8623592002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8623592002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-23",
+    "title": "Principal Site Reliability Engineer, Platform Engineering: Dedicated",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8623592002"
+  },
+  "8623751002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8623751002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Intermediate Fullstack Engineer - Data Products",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8623751002"
+  },
+  "8623763002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8623763002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Senior Fullstack Engineer - Data Products",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8623763002"
+  },
+  "8624025002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8624025002",
+    "last_seen": "2026-08-20T20:31:07.346750+00:00",
+    "location": "Remote, Brazil",
+    "posted_date": "2026-07-14",
+    "title": "Area Vice President - LATAM",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8624025002"
+  },
+  "8626198002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626198002",
+    "last_seen": "2026-08-31T21:59:56.817450+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-10",
+    "title": "FP&A Manager, R&D",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626198002"
+  },
+  "8626290002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626290002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "posted_date": "2026-07-13",
+    "title": "Senior Engineering Manager, Non-Linear Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626290002"
+  },
+  "8626740002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626740002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Engineering Manager - Git & Gitaly Operations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626740002"
+  },
+  "8626762002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626762002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-17",
+    "title": "Manager, Solutions Architecture - UK&I",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626762002"
+  },
+  "8626770002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626770002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-07-20",
+    "title": "Manager, Solutions Architect - CEUR",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626770002"
+  },
+  "8626772002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8626772002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-13",
+    "title": "Director, Engineering, Platform Operations & Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626772002"
+  },
+  "8627022002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T13:23:47.763984+00:00",
+    "job_id": "8627022002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, Turkey",
+    "posted_date": "2026-07-13",
+    "title": "Senior Solutions Architect - Turkey",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627022002"
+  },
+  "8627207002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8627207002",
+    "last_seen": "2026-09-10T20:51:42.250256+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-08-05",
+    "title": "Senior Solutions Architect - East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627207002"
+  },
+  "8627761002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8627761002",
+    "last_seen": "2026-09-12T18:13:37.399382+00:00",
+    "location": "Remote, India",
+    "posted_date": "2026-07-21",
+    "title": "Manager, Solutions Architect - India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627761002"
+  },
+  "8627764002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8627764002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-07-21",
+    "title": "Senior Manager, Solutions Architect - Australia & New Zealand",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627764002"
+  },
+  "8627768002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-17T20:44:36.151903+00:00",
+    "job_id": "8627768002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-08-17",
+    "title": "Senior Solutions Architect (Singapore)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627768002"
+  },
+  "8627772002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8627772002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-07-21",
+    "title": "Senior Solutions Architect- Australia and New Zealand",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627772002"
+  },
+  "8627798002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8627798002",
+    "last_seen": "2026-10-07T21:53:57.923462+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-07-13",
+    "title": "Senior Named Account Executive - DACH",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627798002"
+  },
+  "8628447002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8628447002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Israel; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-07-10",
+    "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628447002"
+  },
+  "8628537002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8628537002",
+    "last_seen": "2026-08-13T00:13:26.930867+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-10",
+    "title": "Director, Customer Experience Strategy",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628537002"
+  },
+  "8628780002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8628780002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-14",
+    "title": "Support Engineer, U.S. Government Support",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628780002"
+  },
+  "8629005002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8629005002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-07-15",
+    "title": "Director, Support (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8629005002"
+  },
+  "8629019002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8629019002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-16",
+    "title": "Director, Support (Bengaluru)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8629019002"
+  },
+  "8631068002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8631068002",
+    "last_seen": "2026-09-22T22:30:33.249165+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-15",
+    "title": "Area Vice President - Financial Services",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8631068002"
+  },
+  "8631153002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8631153002",
+    "last_seen": "2026-10-07T21:53:57.923462+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-07-13",
+    "title": "Commercial Account Executive - DACH",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8631153002"
+  },
+  "8631175002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8631175002",
+    "last_seen": "2026-08-26T20:36:50.901276+00:00",
+    "location": "Remote, Canada; Remote, India; Remote, US",
+    "posted_date": "2026-07-15",
+    "title": "Senior Threat Intelligence Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8631175002"
+  },
+  "8632005002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8632005002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, Canada; Remote, US",
+    "posted_date": "2026-07-14",
+    "title": "Senior Hyperscaler Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632005002"
+  },
+  "8632388002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8632388002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-15",
+    "title": "Engineering Manager - Nonlinear Productivity (Friction Elimination & Solutions)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632388002"
+  },
+  "8632446002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8632446002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-24",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632446002"
+  },
+  "8632496002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T12:46:54.034956+00:00",
+    "job_id": "8632496002",
+    "last_seen": "2026-08-24T20:55:21.140881+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-06",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632496002"
+  },
+  "8633807002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8633807002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-27",
+    "title": "Lead SEC Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8633807002"
+  },
+  "8635277002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8635277002",
+    "last_seen": "2026-09-01T19:11:53.368490+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-20",
+    "title": "Enablement Content Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8635277002"
+  },
+  "8636539002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T19:45:34.278672+00:00",
+    "job_id": "8636539002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-13",
+    "title": "Senior Frontend Engineer (Vue), Create:  Repository Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636539002"
+  },
+  "8636648002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T12:21:56.622612+00:00",
+    "job_id": "8636648002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-10",
+    "title": "Engineering Manager, Dedicated Integrations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002"
+  },
+  "8636713002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8636713002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom",
+    "posted_date": "2026-07-21",
+    "title": "Senior Backend Engineer, Deployment Environments",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636713002"
+  },
+  "8637075002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637075002",
+    "last_seen": "2026-09-14T22:18:12.040814+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-16",
+    "title": "Senior Lifecycle Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637075002"
+  },
+  "8637101002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637101002",
+    "last_seen": "2026-08-24T20:55:21.140881+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-17",
+    "title": "Director, Pipeline Excellence",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637101002"
+  },
+  "8637426002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637426002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Brazil; Remote, Mexico; Remote, United States",
+    "posted_date": "2026-07-22",
+    "title": "Customer Success Engineer, LATAM (Spanish, Portugese)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637426002"
+  },
+  "8637467002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637467002",
+    "last_seen": "2026-08-06T01:27:16.206542+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-22",
+    "title": "Staff Team Member Relations Partner",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637467002"
+  },
+  "8637549002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637549002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Bangalore, India; Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-07-21",
+    "title": "Senior Software Security Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637549002"
+  },
+  "8637579002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637579002",
+    "last_seen": "2026-08-24T20:55:21.140881+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-16",
+    "title": "Staff Account Based Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637579002"
+  },
+  "8637995002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8637995002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, KSA; Remote, UAE",
+    "posted_date": "2026-07-22",
+    "title": "Strategic Account Executive - MENA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637995002"
+  },
+  "8638001002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638001002",
+    "last_seen": "2026-10-06T00:19:24.913502+00:00",
+    "location": "Remote, KSA",
+    "posted_date": "2026-07-22",
+    "title": "Senior Commercial Account Executive - MENA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638001002"
+  },
+  "8638017002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638017002",
+    "last_seen": "2026-08-06T01:27:16.206542+00:00",
+    "location": "Remote",
+    "posted_date": "2026-07-22",
+    "title": "Senior Professional Services Engineer - EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638017002"
+  },
+  "8638232002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638232002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-22",
+    "title": "AI Transformation Owner, CRO",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638232002"
+  },
+  "8638246002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638246002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-22",
+    "title": "Tech Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638246002"
+  },
+  "8638295002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638295002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-22",
+    "title": "Staff Engineer, People Technology",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638295002"
+  },
+  "8638385002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8638385002",
+    "last_seen": "2026-09-03T20:05:44.376950+00:00",
+    "location": "Remote Ireland; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-07-22",
+    "title": "Senior Absence Management Partner",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8638385002"
+  },
+  "8639170002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8639170002",
+    "last_seen": "2026-09-09T21:33:15.752151+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-21",
+    "title": "Manager, Strategic Finance",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8639170002"
+  },
+  "8640151002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8640151002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-07-24",
+    "title": "Enterprise Account Executive - Singapore",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8640151002"
+  },
+  "8640173002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8640173002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-07-28",
+    "title": "Senior Ecosystem Sales Manager, Japan",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8640173002"
+  },
+  "8640317002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8640317002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote Ireland; Remote, United Kingdom",
+    "posted_date": "2026-07-30",
+    "title": "Ecosystem Sales Manager: Scale",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8640317002"
+  },
+  "8641816002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8641816002",
+    "last_seen": "2026-09-21T21:57:41.160659+00:00",
+    "location": "Remote Ireland; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-07-23",
+    "title": "Senior Benefits Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8641816002"
+  },
+  "8641849002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8641849002",
+    "last_seen": "2026-09-27T15:41:01.074211+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Manager, Solutions Architecture - East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8641849002"
+  },
+  "8642786002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T18:45:56.571101+00:00",
+    "job_id": "8642786002",
+    "last_seen": "2026-09-28T21:43:36.289995+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-10",
+    "title": "Manager, Procurement",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8642786002"
+  },
+  "8642850002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8642850002",
+    "last_seen": "2026-09-28T21:43:36.289995+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-24",
+    "title": "Senior Manager, Internal Audit - Audit Automation & Technology Risk",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8642850002"
+  },
+  "8643077002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8643077002",
+    "last_seen": "2026-09-15T21:00:01.079465+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-24",
+    "title": "Senior Internal Auditor, Technology",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8643077002"
+  },
+  "8643154002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8643154002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-28",
+    "title": "Manager, IT SOX PMO",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8643154002"
+  },
+  "8644274002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8644274002",
+    "last_seen": "2026-08-18T00:38:23.472037+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-23",
+    "title": "Site Reliability Engineer - Dedicated Hosted Runners",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644274002"
+  },
+  "8644569002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8644569002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Intermediate Backend Engineer, Platform Readiness",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644569002"
+  },
+  "8644572002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8644572002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Senior Backend Engineer, Platform Readiness",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644572002"
+  },
+  "8645825002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8645825002",
+    "last_seen": "2026-10-06T22:56:20.693183+00:00",
+    "location": "Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-07-23",
+    "title": "Senior Assigned Support Engineer (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8645825002"
+  },
+  "8645879002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8645879002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-23",
+    "title": "Senior Renewal Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8645879002"
+  },
+  "8646022002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8646022002",
+    "last_seen": "2026-08-24T13:23:47.763984+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-23",
+    "title": "Customer Success Manager- Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646022002"
+  },
+  "8646544002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8646544002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-05",
+    "title": "Staff Backend Engineer, Architecture Engineering: Nonlinear Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646544002"
+  },
+  "8646556002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8646556002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-05",
+    "title": "Senior Backend Engineer, Architecture Engineering: Nonlinear Productivity",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646556002"
+  },
+  "8646573002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-09T03:00:54.044250+00:00",
+    "job_id": "8646573002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-07",
+    "title": "Staff Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646573002"
+  },
+  "8646595002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-09T03:00:54.044250+00:00",
+    "job_id": "8646595002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-07",
+    "title": "Senior Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646595002"
+  },
+  "8646852002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8646852002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-08-05",
+    "title": "Customer Success Architect, CEUR",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646852002"
+  },
+  "8647506002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8647506002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-23",
+    "title": "Senior Director, Associate General Counsel",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8647506002"
+  },
+  "8648304002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8648304002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-07-31",
+    "title": "Senior Customer Success Architect - Singapore",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002"
+  },
+  "8648306002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8648306002",
+    "last_seen": "2026-09-16T20:41:31.324112+00:00",
+    "location": "Remote, India; Remote, Phillipines",
+    "posted_date": "2026-08-04",
+    "title": "Deal Desk Strategist, Philippines or India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648306002"
+  },
+  "8648964002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8648964002",
+    "last_seen": "2026-08-24T13:23:47.763984+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-07-28",
+    "title": "Senior Enterprise QA Engineer, Salesforce",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648964002"
+  },
+  "8649994002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T20:44:09.931140+00:00",
+    "job_id": "8649994002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-07",
+    "title": "Public Sector Strategic Account Executive, SLED - Mountain Plains",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8649994002"
+  },
+  "8652410002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8652410002",
+    "last_seen": "2026-08-07T14:33:37.223022+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-08-05",
+    "title": "Senior Customer Success Manager, SEUR",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8652410002"
+  },
+  "8652942002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8652942002",
+    "last_seen": "2026-09-02T20:50:43.189056+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-20",
+    "title": "Public Sector Strategic Account Executive, SLED - Great Lakes",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8652942002"
+  },
+  "8654230002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8654230002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-07-31",
+    "title": "Support Engineer (AMER)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8654230002"
+  },
+  "8656506002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8656506002",
+    "last_seen": "2026-09-21T21:57:41.160659+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-07-30",
+    "title": "Solutions Architect - France",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8656506002"
+  },
+  "8656848002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8656848002",
+    "last_seen": "2026-09-21T21:57:41.160659+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-07-31",
+    "title": "Strategic Account Executive, Southeast",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8656848002"
+  },
+  "8658878002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8658878002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-03",
+    "title": "Principal Product Manager, AI Software Factory",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8658878002"
+  },
+  "8660935002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T00:41:29.393400+00:00",
+    "job_id": "8660935002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-08-06",
+    "title": "Public Sector Strategic Account Executive - Canada",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8660935002"
+  },
+  "8662116002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-11T13:02:30.205142+00:00",
+    "job_id": "8662116002",
+    "last_seen": "2026-08-27T20:25:56.065651+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-11",
+    "title": "Recruiter, Sales (Contract)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8662116002"
+  },
+  "8673657002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T00:11:42.456765+00:00",
+    "job_id": "8673657002",
+    "last_seen": "2026-10-01T12:39:13.598772+00:00",
+    "location": "Remote, Mexico",
+    "posted_date": "2026-08-11",
+    "title": "Commercial Account Executive, Southern Cone",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8673657002"
+  },
+  "8673952002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8673952002",
+    "last_seen": "2026-08-20T20:31:07.346750+00:00",
+    "location": "Remote, Brazil",
+    "posted_date": "2026-08-03",
+    "title": "Regional Sales Director, Brazil",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8673952002"
+  },
+  "8675124002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-11T15:05:38.897309+00:00",
+    "job_id": "8675124002",
+    "last_seen": "2026-09-14T01:42:41.709255+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-11",
+    "title": "Senior Team Member Relations Partner",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675124002"
+  },
+  "8675543002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T14:33:37.223022+00:00",
+    "job_id": "8675543002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote Ireland",
+    "posted_date": "2026-08-07",
+    "title": "Associate Solutions Architect (French or German fluency)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675543002"
+  },
+  "8675560002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T12:21:56.622612+00:00",
+    "job_id": "8675560002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-08-10",
+    "title": "Strategic Account Executive, Poland",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675560002"
+  },
+  "8679047002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8679047002",
+    "last_seen": "2026-10-06T00:19:24.913502+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-05",
+    "title": "Senior Analyst, Sales Strategy",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8679047002"
+  },
+  "8682707002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T15:52:36.533987+00:00",
+    "job_id": "8682707002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-10",
+    "title": "Senior Backend Engineer (Ruby), Plan: Portfolio Experience",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682707002"
+  },
+  "8682749002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8682749002",
+    "last_seen": "2026-09-15T21:00:01.079465+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-05",
+    "title": "Renewals Manager - West",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682749002"
+  },
+  "8682860002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T14:10:53.452116+00:00",
+    "job_id": "8682860002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-12",
+    "title": "Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002"
+  },
+  "8684061002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8684061002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-05",
+    "title": "Intermediate Support Engineer (SHIFT)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684061002"
+  },
+  "8684071002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T00:11:42.456765+00:00",
+    "job_id": "8684071002",
+    "last_seen": "2026-09-24T23:48:44.310873+00:00",
+    "location": "Remote, Mexico; Remote, United States",
+    "posted_date": "2026-08-11",
+    "title": "Commercial Account Executive, Northern Cone",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684071002"
+  },
+  "8684078002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-06T01:27:16.206542+00:00",
+    "job_id": "8684078002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-05",
+    "title": "Intermediate Support Engineer (SHIFT)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684078002"
+  },
+  "8684201002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-14T15:11:26.159228+00:00",
+    "job_id": "8684201002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-14",
+    "title": "Ecosystem Sales Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684201002"
+  },
+  "8684348002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T00:41:29.393400+00:00",
+    "job_id": "8684348002",
+    "last_seen": "2026-09-22T22:30:33.249165+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-06",
+    "title": "Senior Product Manager, Growth",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8684348002"
+  },
+  "8685082002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T00:41:29.393400+00:00",
+    "job_id": "8685082002",
+    "last_seen": "2026-09-10T20:51:42.250256+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-06",
+    "title": "Revenue Technology Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8685082002"
+  },
+  "8686820002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T00:41:29.393400+00:00",
+    "job_id": "8686820002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-06",
+    "title": "Senior Director, Revenue Analytics",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8686820002"
+  },
+  "8686962002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-11T14:12:15.068854+00:00",
+    "job_id": "8686962002",
+    "last_seen": "2026-08-26T00:15:59.569875+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-11",
+    "title": "Intermediate Backend Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8686962002"
+  },
+  "8687026002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T12:21:56.622612+00:00",
+    "job_id": "8687026002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-09",
+    "title": "Intermediate Support Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687026002"
+  },
+  "8687171002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T14:33:37.223022+00:00",
+    "job_id": "8687171002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Remote, Spain",
+    "posted_date": "2026-08-07",
+    "title": "Associate Solutions Architect (French or German fluency)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687171002"
+  },
+  "8687246002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-19T19:55:54.392957+00:00",
+    "job_id": "8687246002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-19",
+    "title": "Senior Program Manager, Enterprise Technology and AI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687246002"
+  },
+  "8687381002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-07T19:22:03.279892+00:00",
+    "job_id": "8687381002",
+    "last_seen": "2026-09-14T01:42:41.709255+00:00",
+    "location": "Remote Ireland; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-08-07",
+    "title": "Business Development Representative - Nordics",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687381002"
+  },
+  "8687910002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T21:17:23.250168+00:00",
+    "job_id": "8687910002",
+    "last_seen": "2026-08-13T21:17:23.250168+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-08-13",
+    "title": "Senior Backend Engineer, Create: Source Code Experience (Ruby)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687910002"
+  },
+  "8687926002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T21:17:23.250168+00:00",
+    "job_id": "8687926002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-08-13",
+    "title": "Backend Engineer, Create: Source Code Experience (Ruby)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687926002"
+  },
+  "8687932002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T19:45:34.278672+00:00",
+    "job_id": "8687932002",
+    "last_seen": "2026-08-13T21:17:23.250168+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-13",
+    "title": "Backend Engineer, Create: Repository Management (Ruby)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687932002"
+  },
+  "8687958002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8687958002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-10-07",
+    "title": "Senior Backend Engineer, Core DevOps: Container Registry",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687958002"
+  },
+  "8688078002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8688078002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom",
+    "posted_date": "2026-08-20",
+    "title": "Intermediate Software Engineer, Security Factory: Vulnerability Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8688078002"
+  },
+  "8689236002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-18T19:50:11.888176+00:00",
+    "job_id": "8689236002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-18",
+    "title": "Staff Backend Engineer, Core DevOps",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8689236002"
+  },
+  "8689243002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8689243002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-10-07",
+    "title": "Senior Backend Engineer, Core DevOps",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8689243002"
+  },
+  "8691382002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8691382002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-23",
+    "title": "Strategic Account Executive - San Francisco",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691382002"
+  },
+  "8691636002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-10T15:52:36.533987+00:00",
+    "job_id": "8691636002",
+    "last_seen": "2026-09-09T21:33:15.752151+00:00",
+    "location": "Remote Ireland; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-08-10",
+    "title": "Business Development Representative, German Speaking",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691636002"
+  },
+  "8691770002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8691770002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-23",
+    "title": "Staff Professional Services Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691770002"
+  },
+  "8691859002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-15T21:47:22.136979+00:00",
+    "job_id": "8691859002",
+    "last_seen": "2026-09-01T19:11:53.368490+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-14",
+    "title": "Manager, Customer Success",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691859002"
+  },
+  "8692874002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-18T20:51:58.729663+00:00",
+    "job_id": "8692874002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-18",
+    "title": "Senior Support Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002"
+  },
+  "8692880002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-18T20:51:58.729663+00:00",
+    "job_id": "8692880002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, South Korea",
+    "posted_date": "2026-08-18",
+    "title": "Senior Support Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8692880002"
+  },
+  "8693068002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8693068002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-25",
+    "title": "Principal Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693068002"
+  },
+  "8693103002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T14:10:53.452116+00:00",
+    "job_id": "8693103002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-12",
+    "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693103002"
+  },
+  "8693563002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8693563002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "Staff Software Engineer, Security Factory: Static Analysis",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8693563002"
+  },
+  "8695515002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T14:10:53.452116+00:00",
+    "job_id": "8695515002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-11",
+    "title": "Backend Engineer, Geo Team",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8695515002"
+  },
+  "8695815002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-20T20:31:07.346750+00:00",
+    "job_id": "8695815002",
+    "last_seen": "2026-09-16T20:41:31.324112+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-20",
+    "title": "Senior Backend Engineer (Ruby on Rails), Plan: Planning Views",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8695815002"
+  },
+  "8695969002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-01T19:11:53.368490+00:00",
+    "job_id": "8695969002",
+    "last_seen": "2026-10-06T00:19:24.913502+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-09-01",
+    "title": "Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8695969002"
+  },
+  "8696826002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T19:45:34.278672+00:00",
+    "job_id": "8696826002",
+    "last_seen": "2026-09-18T19:50:11.888176+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-13",
+    "title": "Director of Engineering, Organizations & Cells",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8696826002"
+  },
+  "8697043002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-17T20:44:36.151903+00:00",
+    "job_id": "8697043002",
+    "last_seen": "2026-10-07T21:53:57.923462+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-17",
+    "title": "Senior Product Manager, Secret Detection and Vulnerability Research",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697043002"
+  },
+  "8697215002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T00:11:42.456765+00:00",
+    "job_id": "8697215002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-11",
+    "title": "Principal Program Manager, Go-To-Market",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697215002"
+  },
+  "8697493002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-12T00:11:42.456765+00:00",
+    "job_id": "8697493002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-11",
+    "title": "Senior Fullstack Engineer, Marketing",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8697493002"
+  },
+  "8698314002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8698314002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-20",
+    "title": "Backend Engineer, AI Engineering: Duo Chat",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002"
+  },
+  "8698330002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8698330002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-20",
+    "title": "Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002"
+  },
+  "8700245002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8700245002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-24",
+    "title": "Chief of Staff, CRO",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8700245002"
+  },
+  "8700587002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T18:20:30.912334+00:00",
+    "job_id": "8700587002",
+    "last_seen": "2026-09-09T21:33:15.752151+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-13",
+    "title": "Senior Director, Internal Audit",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8700587002"
+  },
+  "8700944002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-13T19:45:34.278672+00:00",
+    "job_id": "8700944002",
+    "last_seen": "2026-08-16T23:44:01.789173+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-13",
+    "title": "Regional Marketing Manager, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8700944002"
+  },
+  "8701290002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-20T20:31:07.346750+00:00",
+    "job_id": "8701290002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-20",
+    "title": "Senior Assigned Support Engineer (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8701290002"
+  },
+  "8704363002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-19T19:55:54.392957+00:00",
+    "job_id": "8704363002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
+    "posted_date": "2026-08-19",
+    "title": "Backend Engineer (Python),AI Engineering: Agent Foundations",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8704363002"
+  },
+  "8705011002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-18T00:38:23.472037+00:00",
+    "job_id": "8705011002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-17",
+    "title": "RPA Engineer, UiPath",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8705011002"
+  },
+  "8705017002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-18T00:38:23.472037+00:00",
+    "job_id": "8705017002",
+    "last_seen": "2026-09-08T14:27:29.611072+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-17",
+    "title": "Staff Systems Engineer, IT",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8705017002"
+  },
+  "8706202002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-17T20:44:36.151903+00:00",
+    "job_id": "8706202002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-17",
+    "title": "Strategic Account Executive - Seattle",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8706202002"
+  },
+  "8707353002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T18:43:57.327786+00:00",
+    "job_id": "8707353002",
+    "last_seen": "2026-09-24T23:48:44.310873+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-21",
+    "title": "Support Engineer, U.S. Government Support",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8707353002"
+  },
+  "8707385002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-18T20:51:58.729663+00:00",
+    "job_id": "8707385002",
+    "last_seen": "2026-10-06T00:19:24.913502+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-18",
+    "title": "Manager, Support Engineering, US Government",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8707385002"
+  },
+  "8709925002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-20T20:31:07.346750+00:00",
+    "job_id": "8709925002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-20",
+    "title": "Senior Assigned Support Engineer (AMER)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8709925002"
+  },
+  "8710061002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-19T19:55:54.392957+00:00",
+    "job_id": "8710061002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-19",
+    "title": "Migration Engineer - GitLab Dedicated",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8710061002"
+  },
+  "8715968002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-14T18:34:04.008067+00:00",
+    "job_id": "8715968002",
+    "last_seen": "2026-09-24T23:48:44.310873+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-14",
+    "title": "Senior Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8715968002"
+  },
+  "8716138002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-14T18:34:04.008067+00:00",
+    "job_id": "8716138002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-14",
+    "title": "Senior Backend Engineer, UK",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716138002"
+  },
+  "8716143002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-14T18:34:04.008067+00:00",
+    "job_id": "8716143002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-14",
+    "title": "Senior Backend Engineer, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716143002"
+  },
+  "8716179002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-20T00:20:53.598348+00:00",
+    "job_id": "8716179002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-08-19",
+    "title": "AI Transformation Owner, Product & Design",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716179002"
+  },
+  "8716271002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T13:23:47.763984+00:00",
+    "job_id": "8716271002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-24",
+    "title": "Staff Backend Engineer - Database Change Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716271002"
+  },
+  "8716306002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T20:55:21.140881+00:00",
+    "job_id": "8716306002",
+    "last_seen": "2026-09-16T20:41:31.324112+00:00",
+    "location": "Remote Ireland; Remote, United Kingdom",
+    "posted_date": "2026-08-24",
+    "title": "Lead Legal Counsel, Employment (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8716306002"
+  },
+  "8721124002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8721124002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-24",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8721124002"
+  },
+  "8721229002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8721229002",
+    "last_seen": "2026-08-26T00:15:59.569875+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-24",
+    "title": "Intermediate Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8721229002"
+  },
+  "8721888002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T18:43:57.327786+00:00",
+    "job_id": "8721888002",
+    "last_seen": "2026-09-10T20:51:42.250256+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-21",
+    "title": "Regional Sales Director, Public Sector - DoW",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8721888002"
+  },
+  "8722304002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T13:23:47.763984+00:00",
+    "job_id": "8722304002",
+    "last_seen": "2026-10-06T22:56:20.693183+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-24",
+    "title": "Intermediate Backend Engineer - Database Change Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8722304002"
+  },
+  "8722934002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8722934002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-08-20",
+    "title": "Senior Manager, Product Security Engineering (Security Posture & Supply Chain)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8722934002"
+  },
+  "8725225002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T18:35:42.023764+00:00",
+    "job_id": "8725225002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-02",
+    "title": "Engineering Manager, Dedicated Integrations Team",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8725225002"
+  },
+  "8725566002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-21T16:28:43.946972+00:00",
+    "job_id": "8725566002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-21",
+    "title": "Engineering Manager - Database Change Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8725566002"
+  },
+  "8725981002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-19T19:55:54.392957+00:00",
+    "job_id": "8725981002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-08-19",
+    "title": "Senior Engagement Manager - Germany",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8725981002"
+  },
+  "8726744002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-30T20:01:31.083469+00:00",
+    "job_id": "8726744002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-08-28",
+    "title": "Director of Recruiting, Engineering & IT, Bangalore India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8726744002"
+  },
+  "8729451002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-20T20:31:07.346750+00:00",
+    "job_id": "8729451002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom",
+    "posted_date": "2026-08-20",
+    "title": "Senior Backend Engineer (Go), Tenant Scale: Gitaly",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8729451002"
+  },
+  "8730125002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-03T20:05:44.376950+00:00",
+    "job_id": "8730125002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-03",
+    "title": "Senior Release Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8730125002"
+  },
+  "8731564002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8731564002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-25",
+    "title": "Senior FP&A Analyst, Cloud Hosting",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8731564002"
+  },
+  "8731718002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8731718002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-05",
+    "title": "Principal Security Researcher",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8731718002"
+  },
+  "8731996002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8731996002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-08",
+    "title": "Senior Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8731996002"
+  },
+  "8734888002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T20:55:21.140881+00:00",
+    "job_id": "8734888002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-24",
+    "title": "Staff Corporate Security Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8734888002"
+  },
+  "8736457002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T13:23:47.763984+00:00",
+    "job_id": "8736457002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-08-24",
+    "title": "Business Development Representative (Sydney or Melbourne)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8736457002"
+  },
+  "8736862002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-03T20:05:44.376950+00:00",
+    "job_id": "8736862002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-03",
+    "title": "Senior Backend Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8736862002"
+  },
+  "8736877002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-03T20:05:44.376950+00:00",
+    "job_id": "8736877002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-03",
+    "title": "Intermediate Backend Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8736877002"
+  },
+  "8737840002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-10T20:51:42.250256+00:00",
+    "job_id": "8737840002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-10",
+    "title": "Public Sector Strategic Account Executive, DoW",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8737840002"
+  },
+  "8737852002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8737852002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-10",
+    "title": "Public Sector Strategic Account Executive, Federal Civilian",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8737852002"
+  },
+  "8738179002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8738179002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "Senior Software Engineer, Security Factory: Code Security",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8738179002"
+  },
+  "8738225002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-03T20:05:44.376950+00:00",
+    "job_id": "8738225002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Senior Software Engineer (Ruby), Security Platform: Authorization",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8738225002"
+  },
+  "8739391002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-01T19:11:53.368490+00:00",
+    "job_id": "8739391002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-31",
+    "title": "Staff Fullstack Engineer (Ruby/Vue.js) Monetization Engineering: Purchase",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8739391002"
+  },
+  "8742113002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T00:15:59.569875+00:00",
+    "job_id": "8742113002",
+    "last_seen": "2026-09-14T01:42:41.709255+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-25",
+    "title": "Senior Program Manager, Enterprise Technology & AI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742113002"
+  },
+  "8742248002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8742248002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-26",
+    "title": "Senior Strategic Account Executive - California",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742248002"
+  },
+  "8742716002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-24T20:55:21.140881+00:00",
+    "job_id": "8742716002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-08-24",
+    "title": "Customer Success Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8742716002"
+  },
+  "8744318002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8744318002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Remote, India",
+    "posted_date": "2026-08-25",
+    "title": "Senior Ecosystem Sales Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8744318002"
+  },
+  "8745623002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8745623002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Netherlands; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-08-26",
+    "title": "Senior Professional Services Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8745623002"
+  },
+  "8746461002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8746461002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Senior Professional Services Engineer- PubSec - DC Metro",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8746461002"
+  },
+  "8749946002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8749946002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-08-26",
+    "title": "Senior Backend Engineer, Poland",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749946002"
+  },
+  "8749950002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8749950002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-08-26",
+    "title": "Intermediate-Senior Backend Engineer (Ruby), Plan: Spec-Driven Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002"
+  },
+  "8749951002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8749951002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-08-26",
+    "title": "Senior Backend Engineer (Go), Tenant Scale: Gitaly",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749951002"
+  },
+  "8749952002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-26T20:36:50.901276+00:00",
+    "job_id": "8749952002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-08-26",
+    "title": "Senior Software Engineer (Typescript), AI Clients: Duo CLI",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749952002"
+  },
+  "8750842002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-18T19:50:11.888176+00:00",
+    "job_id": "8750842002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-18",
+    "title": "Senior Backend Engineer, Platform Enablement",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8750842002"
+  },
+  "8753656002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8753656002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote; Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-03",
+    "title": "Senior Talent Brand Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753656002"
+  },
+  "8753664002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8753664002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote; Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-03",
+    "title": "Talent Brand Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753664002"
+  },
+  "8754823002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-17T20:48:21.921613+00:00",
+    "job_id": "8754823002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-17",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8754823002"
+  },
+  "8755304002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-17T20:48:21.921613+00:00",
+    "job_id": "8755304002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-17",
+    "title": "Staff Software Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8755304002"
+  },
+  "8755524002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-15T21:00:01.079465+00:00",
+    "job_id": "8755524002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-15",
+    "title": "Senior Engineering Manager - Continuous Deployment",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8755524002"
+  },
+  "8756163002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-30T20:01:31.083469+00:00",
+    "job_id": "8756163002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-27",
+    "title": "Lead Pricing Strategist",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8756163002"
+  },
+  "8759577002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-31T21:59:56.817450+00:00",
+    "job_id": "8759577002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-08-31",
+    "title": "Senior Backend Engineer (Ruby), AI Catalog: External Agents",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759577002"
+  },
+  "8759592002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-01T19:11:53.368490+00:00",
+    "job_id": "8759592002",
+    "last_seen": "2026-10-04T23:02:42.530537+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-01",
+    "title": "Engineering Manager, Agent Foundations: Agent Execution",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002"
+  },
+  "8760233002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8760233002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-09-08",
+    "title": "Senior Backend Engineer, Trusted Agentic Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002"
+  },
+  "8761409002": {
+    "company": "GitLab",
+    "first_seen": "2026-08-31T21:59:56.817450+00:00",
+    "job_id": "8761409002",
+    "last_seen": "2026-09-15T00:53:02.965184+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-08-31",
+    "title": "Staff Security Engineer, IAM",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8761409002"
+  },
+  "8763503002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T18:35:42.023764+00:00",
+    "job_id": "8763503002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Staff Commercial Pricing Strategist",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8763503002"
+  },
+  "8769103002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T18:35:42.023764+00:00",
+    "job_id": "8769103002",
+    "last_seen": "2026-10-01T12:39:13.598772+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Staff Infrastructure Security Engineer (USA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8769103002"
+  },
+  "8770542002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-03T20:05:44.376950+00:00",
+    "job_id": "8770542002",
+    "last_seen": "2026-09-17T20:48:21.921613+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-03",
+    "title": "Senior Security Assurance Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770542002"
+  },
+  "8770661002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8770661002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "Senior Solutions Architect Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770661002"
+  },
+  "8770689002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8770689002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Principal Security Awareness & Human Risk Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770689002"
+  },
+  "8770702002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8770702002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-09",
+    "title": "Staff Backend Engineer, Database Automation (Go)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770702002"
+  },
+  "8770747002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8770747002",
+    "last_seen": "2026-10-06T22:56:20.693183+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-04",
+    "title": "Senior Security Compliance Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8770747002"
+  },
+  "8771527002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-14T22:18:12.040814+00:00",
+    "job_id": "8771527002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-14",
+    "title": "Senior Platform Engineer, GitLab Orbit",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8771527002"
+  },
+  "8773006002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8773006002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Intermediate Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773006002"
+  },
+  "8773381002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8773381002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-02",
+    "title": "Staff Backend Engineer, AMER",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773381002"
+  },
+  "8773546002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8773546002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-08",
+    "title": "Site Reliability Engineer, Infrastructure Platforms \u2014 UK (Intermediate to Senior Staff)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8773546002"
+  },
+  "8775039002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8775039002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-02",
+    "title": "Staff Backend Engineer, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775039002"
+  },
+  "8775136002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8775136002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-02",
+    "title": "Staff Backend Engineer, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775136002"
+  },
+  "8775415002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8775415002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-09-02",
+    "title": "Intermediate Backend Engineer, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775415002"
+  },
+  "8775507002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8775507002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-02",
+    "title": "Intermediate Backend Engineer, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775507002"
+  },
+  "8777342002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8777342002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-09-02",
+    "title": "Staff Backend Engineer, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8777342002"
+  },
+  "8778279002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-02T20:50:43.189056+00:00",
+    "job_id": "8778279002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-02",
+    "title": "Intermediate Backend Engineer, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8778279002"
+  },
+  "8778943002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8778943002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-09",
+    "title": "Senior Backend Engineer, Database Excellence (Ruby)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8778943002"
+  },
+  "8781246002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8781246002",
+    "last_seen": "2026-10-04T23:02:42.530537+00:00",
+    "location": "Remote, Netherlands",
+    "posted_date": "2026-09-04",
+    "title": "New Business Account Executive - Netherlands",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8781246002"
+  },
+  "8781299002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8781299002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-24",
+    "title": "Staff Software Engineer - NLP",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8781299002"
+  },
+  "8782040002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8782040002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-09-03",
+    "title": "Engineering Manager, Trusted Agentic Development",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782040002"
+  },
+  "8782153002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8782153002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-05",
+    "title": "Staff Security Researcher",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782153002"
+  },
+  "8782306002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8782306002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-09-09",
+    "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782306002"
+  },
+  "8782471002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8782471002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-08",
+    "title": "Candidate Experience Specialist, Contractor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782471002"
+  },
+  "8783485002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8783485002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, South Korea",
+    "posted_date": "2026-09-08",
+    "title": "Senior Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8783485002"
+  },
+  "8783610002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8783610002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-09-08",
+    "title": "Director, Customer Success, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8783610002"
+  },
+  "8784056002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-08T14:27:29.611072+00:00",
+    "job_id": "8784056002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-08",
+    "title": "Principal Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8784056002"
+  },
+  "8784185002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-16T20:41:31.324112+00:00",
+    "job_id": "8784185002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-16",
+    "title": "Intermediate Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8784185002"
+  },
+  "8784553002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8784553002",
+    "last_seen": "2026-10-02T01:22:36.591634+00:00",
+    "location": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-09-08",
+    "title": "Business Development Representative, Turkish Speaking",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8784553002"
+  },
+  "8785285002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8785285002",
+    "last_seen": "2026-09-27T15:41:01.074211+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-09",
+    "title": "Senior Software Engineer, NLP",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8785285002"
+  },
+  "8785825002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8785825002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, Israel",
+    "posted_date": "2026-09-09",
+    "title": "Associate Renewals Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8785825002"
+  },
+  "8786095002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8786095002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-11",
+    "title": "Principal Engineer, Duo Agent Platform",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8786095002"
+  },
+  "8786425002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8786425002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-11",
+    "title": "Strategic Account Executive, Northeast",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8786425002"
+  },
+  "8789017002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-09T21:33:15.752151+00:00",
+    "job_id": "8789017002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-09-09",
+    "title": "Strategic Account Executive, Poland",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8789017002"
+  },
+  "8789547002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-16T20:41:31.324112+00:00",
+    "job_id": "8789547002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-16",
+    "title": "Engineering Manager, Core DevOps",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8789547002"
+  },
+  "8789857002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8789857002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-12",
+    "title": "Professional Services - Technical Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8789857002"
+  },
+  "8790102002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-10T20:51:42.250256+00:00",
+    "job_id": "8790102002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-10",
+    "title": "Commercial Account Executive - Mid-Market, East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8790102002"
+  },
+  "8790317002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-15T21:00:01.079465+00:00",
+    "job_id": "8790317002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-15",
+    "title": "Solutions Architect, Public Sector - West",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8790317002"
+  },
+  "8790538002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8790538002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-11",
+    "title": "Solutions Architect, Manager - Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8790538002"
+  },
+  "8790680002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-15T21:00:01.079465+00:00",
+    "job_id": "8790680002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-15",
+    "title": "Solutions Architect, Public Sector - East",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8790680002"
+  },
+  "8790705002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-14T01:42:41.709255+00:00",
+    "job_id": "8790705002",
+    "last_seen": "2026-10-05T22:07:57.207845+00:00",
+    "location": "Remote; Remote, United States",
+    "posted_date": "2026-09-13",
+    "title": "Senior Executive Business Partner, CFO",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8790705002"
+  },
+  "8792475002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-10T20:51:42.250256+00:00",
+    "job_id": "8792475002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-09",
+    "title": "Director, Social Media",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8792475002"
+  },
+  "8792585002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-14T22:18:12.040814+00:00",
+    "job_id": "8792585002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-14",
+    "title": "Field CTO, Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8792585002"
+  },
+  "8795736002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8795736002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-11",
+    "title": "Senior Professional Services Technical Architect - Security",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8795736002"
+  },
+  "8797735002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-16T20:41:31.324112+00:00",
+    "job_id": "8797735002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-15",
+    "title": "Contract Talent Acquisition Sourcer, Sales (AMER)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8797735002"
+  },
+  "8799044002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-27T15:41:01.074211+00:00",
+    "job_id": "8799044002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-26",
+    "title": "Engineering Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8799044002"
+  },
+  "8800489002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-18T19:50:11.888176+00:00",
+    "job_id": "8800489002",
+    "last_seen": "2026-09-29T20:21:54.879431+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-18",
+    "title": "Staff Site Reliability Engineer, Environment Automation",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8800489002"
+  },
+  "8801523002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-12T18:13:37.399382+00:00",
+    "job_id": "8801523002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-11",
+    "title": "Candidate Experience Specialist, Contractor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8801523002"
+  },
+  "8802261002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-15T21:00:01.079465+00:00",
+    "job_id": "8802261002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-09-15",
+    "title": "Senior Distribution Engineer, Gitlab: Build",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8802261002"
+  },
+  "8806017002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-14T22:18:12.040814+00:00",
+    "job_id": "8806017002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-14",
+    "title": "Director of Product Management, Agentic Software Delivery",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8806017002"
+  },
+  "8808115002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-17T20:48:21.921613+00:00",
+    "job_id": "8808115002",
+    "last_seen": "2026-09-23T22:05:21.660268+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-16",
+    "title": "Associate Revenue Operations Analyst, Policy & Rules of Engagement",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8808115002"
+  },
+  "8808524002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-15T21:00:01.079465+00:00",
+    "job_id": "8808524002",
+    "last_seen": "2026-10-06T22:56:20.693183+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-09-14",
+    "title": "Senior Ecosystem Sales Manager (ESM)- ASEAN",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8808524002"
+  },
+  "8808549002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-16T20:41:31.324112+00:00",
+    "job_id": "8808549002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-09-15",
+    "title": "Senior Customer Success Engineer, Japan",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8808549002"
+  },
+  "8809512002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-21T21:57:41.160659+00:00",
+    "job_id": "8809512002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-21",
+    "title": "Engagement Manager - French Speaking",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8809512002"
+  },
+  "8811842002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8811842002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, United Kingdom",
+    "posted_date": "2026-09-23",
+    "title": "Senior Contracts Manager, Commercial (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8811842002"
+  },
+  "8814596002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-17T20:48:21.921613+00:00",
+    "job_id": "8814596002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-17",
+    "title": "Public Sector Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8814596002"
+  },
+  "8815140002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-25T19:35:55.216690+00:00",
+    "job_id": "8815140002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, Israel; Remote, Poland; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-25",
+    "title": "Staff Product Security Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8815140002"
+  },
+  "8815229002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-17T20:48:21.921613+00:00",
+    "job_id": "8815229002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-09-17",
+    "title": "Senior Security Engineer, Incident Response Team (Australia)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8815229002"
+  },
+  "8820804002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-21T21:57:41.160659+00:00",
+    "job_id": "8820804002",
+    "last_seen": "2026-10-04T23:02:42.530537+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-21",
+    "title": "Senior Manager, Public Sector Renewals",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8820804002"
+  },
+  "8821526002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8821526002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-24",
+    "title": "Intermediate Security Analyst, Vulnerability Operations  (North America)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8821526002"
+  },
+  "8822279002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-21T21:57:41.160659+00:00",
+    "job_id": "8822279002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-18",
+    "title": "Staff Program Manager, CCO Programs",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8822279002"
+  },
+  "8826637002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8826637002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Australia",
+    "posted_date": "2026-09-29",
+    "title": "Senior Solutions Architect- Sydney",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826637002"
+  },
+  "8826920002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8826920002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-24",
+    "title": "Senior Frontend Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002"
+  },
+  "8826965002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8826965002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-09-24",
+    "title": "Staff Frontend Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826965002"
+  },
+  "8827370002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-02T01:22:36.591634+00:00",
+    "job_id": "8827370002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-10-01",
+    "title": "Staff Data Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8827370002"
+  },
+  "8827981002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-13T21:21:47.129784+00:00",
+    "job_id": "8827981002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-13",
+    "title": "Director, FP&A",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8827981002"
+  },
+  "8828009002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-22T22:30:33.249165+00:00",
+    "job_id": "8828009002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-22",
+    "title": "Staff Enterprise Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8828009002"
+  },
+  "8831350002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-25T19:35:55.216690+00:00",
+    "job_id": "8831350002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-25",
+    "title": "Distinguished Engineer, Core DevOps",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8831350002"
+  },
+  "8838202002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-23T22:05:21.660268+00:00",
+    "job_id": "8838202002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-23",
+    "title": "Senior Developer Advocate",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838202002"
+  },
+  "8838331002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8838331002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-10-07",
+    "title": "Senior Professional Services Engineer - PubSec - US Only",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838331002"
+  },
+  "8842171002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-28T21:43:36.289995+00:00",
+    "job_id": "8842171002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Singapore",
+    "posted_date": "2026-09-28",
+    "title": "Senior Manager of Success Architects",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8842171002"
+  },
+  "8842584002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8842584002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, United Kingdom",
+    "posted_date": "2026-09-24",
+    "title": "Director, Legal - Employment",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8842584002"
+  },
+  "8842630002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8842630002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "Lead Legal Counsel, Corporate",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8842630002"
+  },
+  "8843512002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-24T23:48:44.310873+00:00",
+    "job_id": "8843512002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-09-24",
+    "title": "Backend Engineer, Create: Repository Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8843512002"
+  },
+  "8844846002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-13T21:21:47.129784+00:00",
+    "job_id": "8844846002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Austria; Remote, Germany",
+    "posted_date": "2026-10-13",
+    "title": "Senior Customer Success Architect, CEUR",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8844846002"
+  },
+  "8845277002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8845277002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-02",
+    "title": "Staff Fullstack Engineer, Data Products (Golang / Node)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845277002"
+  },
+  "8845322002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-05T22:07:57.207845+00:00",
+    "job_id": "8845322002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-05",
+    "title": "Engineering Manager, Dedicated Infrastructure",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845322002"
+  },
+  "8845483002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8845483002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-30",
+    "title": "Senior Product Manager, Billing Engine & Platforms Monetization",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845483002"
+  },
+  "8845970002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8845970002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-30",
+    "title": "Director, Strategic Finance",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845970002"
+  },
+  "8845972002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-28T21:43:36.289995+00:00",
+    "job_id": "8845972002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-09-28",
+    "title": "Senior Manager, Technical Program Management",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845972002"
+  },
+  "8846277002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8846277002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-30",
+    "title": "Staff Security Governance Engineer, Policies & Standards",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8846277002"
+  },
+  "8846304002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8846304002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-29",
+    "title": "Senior Security Risk Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8846304002"
+  },
+  "8846318002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-02T01:22:36.591634+00:00",
+    "job_id": "8846318002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-01",
+    "title": "Social Impact Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8846318002"
+  },
+  "8853813002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8853813002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-30",
+    "title": "Regional Sales Director, Financial Services",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8853813002"
+  },
+  "8853843002": {
+    "company": "GitLab",
+    "first_seen": "2026-09-29T20:21:54.879431+00:00",
+    "job_id": "8853843002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-29",
+    "title": "Director of Engineering, Database Excellence",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8853843002"
+  },
+  "8855883002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8855883002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-02",
+    "title": "Senior Product Manager, CRM & GTM Systems",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8855883002"
+  },
+  "8856826002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8856826002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-09-30",
+    "title": "Senior Solutions Architect",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8856826002"
+  },
+  "8857084002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8857084002",
+    "last_seen": "2026-10-06T00:19:24.913502+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-29",
+    "title": "Manager, Renewals",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8857084002"
+  },
+  "8857185002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8857185002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-09-29",
+    "title": "Associate Renewals Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8857185002"
+  },
+  "8857335002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8857335002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-30",
+    "title": "Professional Services Technical Architect - West",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8857335002"
+  },
+  "8857611002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-01T12:39:13.598772+00:00",
+    "job_id": "8857611002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, India",
+    "posted_date": "2026-09-30",
+    "title": "Associate Renewals Manager, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8857611002"
+  },
+  "8858174002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8858174002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-02",
+    "title": "Regional Sales Director, National Security Group",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8858174002"
+  },
+  "8859063002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-05T22:07:57.207845+00:00",
+    "job_id": "8859063002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-05",
+    "title": "Support Engineer, U.S. Government Support",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8859063002"
+  },
+  "8859224002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-02T01:22:36.591634+00:00",
+    "job_id": "8859224002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-01",
+    "title": "Principal Product Marketing Manager, Competitive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8859224002"
+  },
+  "8859657002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-02T01:22:36.591634+00:00",
+    "job_id": "8859657002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Japan",
+    "posted_date": "2026-10-01",
+    "title": "Senior Professional Services Engineer, Japan",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8859657002"
+  },
+  "8859694002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-02T01:22:36.591634+00:00",
+    "job_id": "8859694002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, India",
+    "posted_date": "2026-10-01",
+    "title": "Associate Revenue Operations Manager, India",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8859694002"
+  },
+  "8860093002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860093002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-10-02",
+    "title": "Major Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860093002"
+  },
+  "8860106002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860106002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-10-02",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860106002"
+  },
+  "8860127002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860127002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-10-02",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860127002"
+  },
+  "8860134002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860134002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-10-02",
+    "title": "Strategic Account Executive - Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860134002"
+  },
+  "8860142002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860142002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-10-02",
+    "title": "Strategic Account Executive - Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860142002"
+  },
+  "8860183002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860183002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Switzerland",
+    "posted_date": "2026-10-02",
+    "title": "Senior Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860183002"
+  },
+  "8860193002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8860193002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Austria",
+    "posted_date": "2026-10-07",
+    "title": "Senior Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860193002"
+  },
+  "8860267002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8860267002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "Solutions Architect, New Business, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860267002"
+  },
+  "8860271002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860271002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-10-02",
+    "title": "Major Account Executive, UK Public Sector",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860271002"
+  },
+  "8860273002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8860273002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, Germany; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "Demo Architect, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860273002"
+  },
+  "8860275002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860275002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Netherlands",
+    "posted_date": "2026-10-02",
+    "title": "Major Account Executive Netherlands",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860275002"
+  },
+  "8860281002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860281002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Sweden",
+    "posted_date": "2026-10-02",
+    "title": "Major Account Manager, Sweden",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860281002"
+  },
+  "8860287002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860287002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-10-02",
+    "title": "Major Account Executive, France",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860287002"
+  },
+  "8860302002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8860302002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, France",
+    "posted_date": "2026-10-02",
+    "title": "Account Executive - France",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8860302002"
+  },
+  "8861745002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-04T23:02:42.530537+00:00",
+    "job_id": "8861745002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-10-02",
+    "title": "Global Sales Director of SMB, New Business",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861745002"
+  },
+  "8861748002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8861748002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India; Remote, Poland",
+    "posted_date": "2026-10-09",
+    "title": "People Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861748002"
+  },
+  "8861782002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8861782002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "People Technology Analyst - Workday",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861782002"
+  },
+  "8861795002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-05T22:07:57.207845+00:00",
+    "job_id": "8861795002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United Kingdom",
+    "posted_date": "2026-10-05",
+    "title": "Manager, Assigned Support Engineering (EMEA)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861795002"
+  },
+  "8862046002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8862046002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-07",
+    "title": "Senior Director, Global SME Solutions Architecture",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8862046002"
+  },
+  "8864819002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8864819002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Bangalore, India",
+    "posted_date": "2026-10-09",
+    "title": "Benefits Analyst",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002"
+  },
+  "8864903002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-06T22:56:20.693183+00:00",
+    "job_id": "8864903002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-06",
+    "title": "Pipeline Programs Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8864903002"
+  },
+  "8867725002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-06T22:56:20.693183+00:00",
+    "job_id": "8867725002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Poland",
+    "posted_date": "2026-10-06",
+    "title": "Senior Backend Engineer (Ruby), Production Engineering:Tenant Controls",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867725002"
+  },
+  "8868138002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8868138002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-07",
+    "title": "Senior Security Detection Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8868138002"
+  },
+  "8868220002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-06T22:56:20.693183+00:00",
+    "job_id": "8868220002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-10-06",
+    "title": "Strategic Account Executive, France",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8868220002"
+  },
+  "8868652002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-06T22:56:20.693183+00:00",
+    "job_id": "8868652002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-06",
+    "title": "Staff Renewals Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8868652002"
+  },
+  "8869149002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8869149002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, Australia; Remote, Canada; Remote, India; Remote, Mexico; Remote, Poland; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-10-08",
+    "title": "Recruiter,  GTM",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869149002"
+  },
+  "8869167002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8869167002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, Australia; Remote, Canada; Remote, India; Remote, Mexico; Remote, Poland; Remote, United Kingdom; Remote, United States",
+    "posted_date": "2026-10-08",
+    "title": "Recruiter, R&D",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869167002"
+  },
+  "8871274002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8871274002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "SMB New Business Account Executive",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871274002"
+  },
+  "8871406002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8871406002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-10-07",
+    "title": "Senior CX Platform Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871406002"
+  },
+  "8871798002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-13T21:21:47.129784+00:00",
+    "job_id": "8871798002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-13",
+    "title": "Principal Product Manager, Orbit",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871798002"
+  },
+  "8871820002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-13T21:21:47.129784+00:00",
+    "job_id": "8871820002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-13",
+    "title": "Staff Product Manager, Agentic Test Intelligence",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871820002"
+  },
+  "8871878002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8871878002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "SMB Account Executive, Growth",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8871878002"
+  },
+  "8872433002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8872433002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-07",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8872433002"
+  },
+  "8872457002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8872457002",
+    "last_seen": "2026-10-08T23:27:51.082985+00:00",
+    "location": "Remote Ireland; Remote, France; Remote, Germany; Remote, Netherlands; Remote, United Kingdom",
+    "posted_date": "2026-10-07",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8872457002"
+  },
+  "8872500002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8872500002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-06",
+    "title": "Director, Global People Operations & Compliance",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8872500002"
+  },
+  "8874151002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8874151002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "SMB Account Executive (Growth)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8874151002"
+  },
+  "8874166002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8874166002",
+    "last_seen": "2026-10-12T23:10:13.586511+00:00",
+    "location": "Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "SMB Account Executive (New Business)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8874166002"
+  },
+  "8875518002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-07T21:53:57.923462+00:00",
+    "job_id": "8875518002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-07",
+    "title": "Staff Product Manager, AI Software Factory PLG",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8875518002"
+  },
+  "8877510002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8877510002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-08",
+    "title": "Manager, Support Engineering (AMER)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8877510002"
+  },
+  "8879219002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-08T23:27:51.082985+00:00",
+    "job_id": "8879219002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote Ireland; Remote, Spain; Remote, United Kingdom",
+    "posted_date": "2026-10-08",
+    "title": "Senior Manager, Deal Desk, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8879219002"
+  },
+  "8882059002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-12T02:09:50.362825+00:00",
+    "job_id": "8882059002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, Canada; Remote, United States",
+    "posted_date": "2026-10-09",
+    "title": "Senior Revenue Operations Manager",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8882059002"
+  },
+  "8883003002": {
+    "company": "GitLab",
+    "first_seen": "2026-10-13T21:21:47.129784+00:00",
+    "job_id": "8883003002",
+    "last_seen": "2026-10-13T21:21:47.129784+00:00",
+    "location": "Remote, United States",
+    "posted_date": "2026-10-13",
+    "title": "Director, Analytics Engineering",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8883003002"
+  }
+}

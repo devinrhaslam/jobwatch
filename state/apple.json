@@ -1,0 +1,1792 @@
+{
+  "200465228-0351": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200465228-0351",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Beijing",
+    "posted_date": "2023-02-23",
+    "title": "RAN1/RAN4 Standards Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200465228-0351/ran1-ran4-standards-engineer?team=SFTWR"
+  },
+  "200524419-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200524419-0865",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Herzliya",
+    "posted_date": "2024-03-31",
+    "title": "Firmware Bluetooth MS.c student",
+    "url": "https://jobs.apple.com/en-us/details/200524419-0865/firmware-bluetooth-ms-c-student?team=SFTWR"
+  },
+  "200550604-0351": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200550604-0351",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Beijing",
+    "posted_date": "2024-05-08",
+    "title": "Cellular Protocol Stack Development Engineer-Beijing",
+    "url": "https://jobs.apple.com/en-us/details/200550604-0351/cellular-protocol-stack-development-engineer-beijing?team=SFTWR"
+  },
+  "200581811-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200581811-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2024-12-06",
+    "title": "Wireless Bluetooth QA Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200581811-0836/wireless-bluetooth-qa-engineer?team=SFTWR"
+  },
+  "200595175-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200595175-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-03-27",
+    "title": "Software Engineer, Applied ML Connected Experiences, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200595175-3543/software-engineer-applied-ml-connected-experiences-sensing-connectivity?team=SFTWR"
+  },
+  "200610825-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200610825-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "Location Estimation Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200610825-0836/location-estimation-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200611225-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200611225-0865",
+    "last_seen": "2026-08-21T16:26:19.932740+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-07-19",
+    "title": "Embedded FW Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200611225-0865/embedded-fw-engineer?team=SFTWR"
+  },
+  "200621016-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200621016-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "Software Development Engineer - Location Technologies, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200621016-0836/software-development-engineer-location-technologies-sensing-connectivity?team=SFTWR"
+  },
+  "200623408-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200623408-0865",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-05-10",
+    "title": "Firmware Bluetooth Engineer - Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200623408-0865/firmware-bluetooth-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200623409-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200623409-0865",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-08-31",
+    "title": "Firmware WiFi Engineer - Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200623409-0865/firmware-wifi-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200625007-0881": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200625007-0881",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Various Locations within Israel",
+    "posted_date": "2025-10-08",
+    "title": "PHY Firmware Design & Development Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200625007-0881/phy-firmware-design-development-engineer?team=SFTWR"
+  },
+  "200625007-1451": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200625007-1451",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Haifa",
+    "posted_date": "2025-10-08",
+    "title": "PHY Firmware Design & Development Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200625007-1451/phy-firmware-design-development-engineer?team=SFTWR"
+  },
+  "200626600-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200626600-0865",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Herzliya",
+    "posted_date": "2025-10-16",
+    "title": "Wireless Testing Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200626600-0865/wireless-testing-engineer?team=SFTWR"
+  },
+  "200626983-3337": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200626983-3337",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Seattle",
+    "posted_date": "2025-10-28",
+    "title": "Embedded Machine Learning Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200626983-3337/embedded-machine-learning-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200629354-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200629354-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "Sr. System Software Engineer, AirPods, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200629354-0836/sr-system-software-engineer-airpods-sensing-connectivity?team=SFTWR"
+  },
+  "200630136-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200630136-0836",
+    "last_seen": "2026-10-06T22:04:26.605619+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-31",
+    "title": "Sr. Software Engineer, Core Location, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200630136-0836/sr-software-engineer-core-location-sensing-connectivity?team=SFTWR"
+  },
+  "200631825-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200631825-3543",
+    "last_seen": "2026-10-12T02:07:51.126064+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-03",
+    "title": "Wi-Fi / Bluetooth Software System Performance Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200631825-3543/wi-fi-bluetooth-software-system-performance-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200636203-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-26T00:13:33.187354+00:00",
+    "job_id": "200636203-0836",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-25",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200636203-0836/senior-software-engineer?team=SFTWR"
+  },
+  "200638218-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200638218-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-03-27",
+    "title": "Wireless Systems AI/ML Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200638218-3543/wireless-systems-ai-ml-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200638621-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200638621-0865",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Herzliya",
+    "posted_date": "2025-12-22",
+    "title": "BT PHY System Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200638621-0865/bt-phy-system-engineer?team=SFTWR"
+  },
+  "200638621-1451": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200638621-1451",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Haifa",
+    "posted_date": "2025-12-22",
+    "title": "BT PHY System Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200638621-1451/bt-phy-system-engineer?team=SFTWR"
+  },
+  "200640806-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200640806-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "Firmware Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200640806-0836/firmware-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200642239-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200642239-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "Senior Software Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200642239-0836/senior-software-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200643254-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200643254-3543",
+    "last_seen": "2026-10-05T22:06:10.179119+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-31",
+    "title": "Sr. Software Frameworks Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200643254-3543/sr-software-frameworks-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200643682-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200643682-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-27",
+    "title": "AirPods Software Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200643682-0836/airpods-software-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200643923-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200643923-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-09",
+    "title": "Bluetooth Embedded Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200643923-0836/bluetooth-embedded-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200644614-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200644614-0836",
+    "last_seen": "2026-09-08T14:24:42.693877+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-05",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200644614-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200644619-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200644619-0836",
+    "last_seen": "2026-09-02T18:33:03.882077+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-05",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200644619-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200645256-0321": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200645256-0321",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-05-21",
+    "title": "Machine Learning Engineer, Apple Intelligence",
+    "url": "https://jobs.apple.com/en-us/details/200645256-0321/machine-learning-engineer-apple-intelligence?team=SFTWR"
+  },
+  "200646833-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200646833-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-24",
+    "title": "Software Development Engineer - Frameworks & AI/ML, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200646833-0836/software-development-engineer-frameworks-ai-ml-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200647885-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200647885-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-03-27",
+    "title": "Wireless System Validation Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200647885-3543/wireless-system-validation-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200648715-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200648715-3543",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-07-30",
+    "title": "Automation and Infrastructure Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200648715-3543/automation-and-infrastructure-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200649186-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649186-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-03-27",
+    "title": "Product System Test Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200649186-3543/product-system-test-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200649605-0365": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649605-0365",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "Boulder",
+    "posted_date": "2026-07-28",
+    "title": "Senior ML Software Engineer - Apple Watch",
+    "url": "https://jobs.apple.com/en-us/details/200649605-0365/senior-ml-software-engineer-apple-watch?team=SFTWR"
+  },
+  "200649605-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649605-0836",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-28",
+    "title": "Senior ML Software Engineer - Apple Watch",
+    "url": "https://jobs.apple.com/en-us/details/200649605-0836/senior-ml-software-engineer-apple-watch?team=SFTWR"
+  },
+  "200649605-3337": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649605-3337",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "Seattle",
+    "posted_date": "2026-07-28",
+    "title": "Senior ML Software Engineer - Apple Watch",
+    "url": "https://jobs.apple.com/en-us/details/200649605-3337/senior-ml-software-engineer-apple-watch?team=SFTWR"
+  },
+  "200649605-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649605-3543",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-07-28",
+    "title": "Senior ML Software Engineer - Apple Watch",
+    "url": "https://jobs.apple.com/en-us/details/200649605-3543/senior-ml-software-engineer-apple-watch?team=SFTWR"
+  },
+  "200649764-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649764-0836",
+    "last_seen": "2026-09-08T14:24:42.693877+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-05",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200649764-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200649767-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200649767-0836",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-26",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200649767-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200652126-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200652126-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-17",
+    "title": "Apple Home Matter Networking Engineering, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200652126-0836/apple-home-matter-networking-engineering-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200653574-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200653574-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-06-15",
+    "title": "Certification Engineering Program Manager, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200653574-0836/certification-engineering-program-manager-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200654485-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200654485-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-30",
+    "title": "Senior Software Engineer - Proximity and Context , Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200654485-0836/senior-software-engineer-proximity-and-context-sensing-connectivity?team=SFTWR"
+  },
+  "200654506-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200654506-0836",
+    "last_seen": "2026-09-27T15:38:28.810047+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-19",
+    "title": "Software QA Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200654506-0836/software-qa-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200654877-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200654877-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-03-31",
+    "title": "Wireless Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200654877-0836/wireless-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200655596-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200655596-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-04-07",
+    "title": "Technical Partner Engineer - Apple Home, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200655596-3543/technical-partner-engineer-apple-home-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200656715-1731": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200656715-1731",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Munich",
+    "posted_date": "2026-04-09",
+    "title": "Engineering Project Manager, SWE Programs",
+    "url": "https://jobs.apple.com/en-us/details/200656715-1731/engineering-project-manager-swe-programs?team=SFTWR"
+  },
+  "200657297-3725": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200657297-3725",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Santa Clara Valley (Cupertino)",
+    "posted_date": "2026-04-11",
+    "title": "iOS Home Application Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200657297-3725/ios-home-application-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200657382-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200657382-3543",
+    "last_seen": "2026-09-01T19:09:23.150995+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-07-30",
+    "title": "Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200657382-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200657658-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200657658-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-04-14",
+    "title": "Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200657658-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200657812-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200657812-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-11",
+    "title": "Core Wi-Fi Embedded Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200657812-3543/core-wi-fi-embedded-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200658689-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200658689-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-28",
+    "title": "Software Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200658689-0836/software-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200659286-0351": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200659286-0351",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Beijing",
+    "posted_date": "2026-04-27",
+    "title": "Senior Wireless Standardization Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200659286-0351/senior-wireless-standardization-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200659717-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200659717-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-04-23",
+    "title": "Sr. Manager, Product System Test, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200659717-0836/sr-manager-product-system-test-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200660035-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200660035-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-04-24",
+    "title": "Software Engineer, Connected Audio, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200660035-0836/software-engineer-connected-audio-sensing-connectivity?team=SFTWR"
+  },
+  "200660588-3401": {
+    "company": "Apple",
+    "first_seen": "2026-08-27T20:22:47.329352+00:00",
+    "job_id": "200660588-3401",
+    "last_seen": "2026-08-30T19:57:21.733671+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-08-26",
+    "title": "Firmware & Sensors Engineer, Home and Audio Devices",
+    "url": "https://jobs.apple.com/en-us/details/200660588-3401/firmware-sensors-engineer-home-and-audio-devices?team=SFTWR"
+  },
+  "200660735-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200660735-0865",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-04-29",
+    "title": "Wireless Ranging System/Algorithm Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200660735-0865/wireless-ranging-system-algorithm-engineer?team=SFTWR"
+  },
+  "200661150-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200661150-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-05-01",
+    "title": "Senior Backend Systems Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200661150-3543/senior-backend-systems-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200661601-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200661601-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-05-06",
+    "title": "Product System Test Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200661601-3543/product-system-test-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200662399-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200662399-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-05-28",
+    "title": "Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200662399-3543/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200663941-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200663941-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-05-26",
+    "title": "Software Engineering Manager - Telephony, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200663941-3543/software-engineering-manager-telephony-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200664179-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200664179-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-06-08",
+    "title": "Software Development Engineer in Test, Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200664179-3543/software-development-engineer-in-test-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200664228-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200664228-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-05-19",
+    "title": "Wi-Fi Performance Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200664228-0836/wi-fi-performance-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200664771-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200664771-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-05-21",
+    "title": "AirPods Software Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200664771-3543/airpods-software-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200665281-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200665281-0836",
+    "last_seen": "2026-09-02T18:33:03.882077+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-05",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200665281-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200665564-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200665564-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-06-01",
+    "title": "Wireless Bluetooth QA Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200665564-3543/wireless-bluetooth-qa-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200666184-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200666184-3543",
+    "last_seen": "2026-09-22T22:28:13.609423+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-03",
+    "title": "Bluetooth Firmware Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200666184-3543/bluetooth-firmware-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200666337-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200666337-0836",
+    "last_seen": "2026-10-04T23:00:51.618381+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-29",
+    "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200666337-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200667156-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200667156-3543",
+    "last_seen": "2026-09-22T22:28:13.609423+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-03",
+    "title": "Bluetooth Firmware Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200667156-3543/bluetooth-firmware-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200667807-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200667807-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-06-11",
+    "title": "Home Energy Software Engineering Manager, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200667807-0836/home-energy-software-engineering-manager-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200668233-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200668233-3543",
+    "last_seen": "2026-08-21T16:26:19.932740+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-07-20",
+    "title": "Software Engineer,  Streaming Media Ecosystem Tech",
+    "url": "https://jobs.apple.com/en-us/details/200668233-3543/software-engineer-streaming-media-ecosystem-tech?team=SFTWR"
+  },
+  "200668242-3956": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200668242-3956",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-06-15",
+    "title": "Senior Cellular Layer-1 Control Software Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200668242-3956/senior-cellular-layer-1-control-software-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200669521-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200669521-0836",
+    "last_seen": "2026-08-14T18:32:10.639374+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-15",
+    "title": "Wireless Bluetooth QA Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200669521-0836/wireless-bluetooth-qa-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200669895-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200669895-3543",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-06-29",
+    "title": "Cellular Embedded Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200669895-3543/cellular-embedded-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200669993-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-02T18:33:03.882077+00:00",
+    "job_id": "200669993-0836",
+    "last_seen": "2026-09-08T14:24:42.693877+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-02",
+    "title": "Certification Engineering Program Manager, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200669993-0836/certification-engineering-program-manager-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200670203-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670203-3543",
+    "last_seen": "2026-08-04T23:37:24.024615+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-06-30",
+    "title": "Senior Software Engineer - Location Technologies, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200670203-3543/senior-software-engineer-location-technologies-sensing-connectivity?team=SFTWR"
+  },
+  "200670297-0321": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670297-0321",
+    "last_seen": "2026-08-04T23:37:24.024615+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-06-29",
+    "title": "Systems Electronic Integration Engineer (HWEE)",
+    "url": "https://jobs.apple.com/en-us/details/200670297-0321/systems-electronic-integration-engineer-hwee?team=SFTWR"
+  },
+  "200670429-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670429-0836",
+    "last_seen": "2026-08-04T23:37:24.024615+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-06-30",
+    "title": "Senior System Quality Engineer, Car Key, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200670429-0836/senior-system-quality-engineer-car-key-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200670513-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670513-0836",
+    "last_seen": "2026-08-11T21:11:16.485487+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-06-30",
+    "title": "Safety and Location Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200670513-0836/safety-and-location-software-engineer?team=SFTWR"
+  },
+  "200670523-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670523-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-29",
+    "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200670523-0836/screening-integration-engineer-watch-software-sensing-connectivity?team=SFTWR"
+  },
+  "200670523-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670523-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-29",
+    "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200670523-3543/screening-integration-engineer-watch-software-sensing-connectivity?team=SFTWR"
+  },
+  "200670526-0365": {
+    "company": "Apple",
+    "first_seen": "2026-08-13T14:18:07.461499+00:00",
+    "job_id": "200670526-0365",
+    "last_seen": "2026-09-09T21:30:12.394667+00:00",
+    "location": "Boulder",
+    "posted_date": "2026-08-13",
+    "title": "Senior Systems Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200670526-0365/senior-systems-engineer-watch-software?team=SFTWR"
+  },
+  "200670526-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-13T14:18:07.461499+00:00",
+    "job_id": "200670526-0836",
+    "last_seen": "2026-09-09T21:30:12.394667+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-13",
+    "title": "Senior Systems Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200670526-0836/senior-systems-engineer-watch-software?team=SFTWR"
+  },
+  "200670526-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-13T14:18:07.461499+00:00",
+    "job_id": "200670526-3543",
+    "last_seen": "2026-09-09T21:30:12.394667+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-13",
+    "title": "Senior Systems Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200670526-3543/senior-systems-engineer-watch-software?team=SFTWR"
+  },
+  "200670529-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670529-0836",
+    "last_seen": "2026-08-13T14:18:07.461499+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-08",
+    "title": "Safety and Location Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200670529-0836/safety-and-location-software-engineer?team=SFTWR"
+  },
+  "200670535-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-14T18:32:10.639374+00:00",
+    "job_id": "200670535-0836",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-14",
+    "title": "Screening & Integration Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200670535-0836/screening-integration-engineer-watch-software?team=SFTWR"
+  },
+  "200670535-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-14T18:32:10.639374+00:00",
+    "job_id": "200670535-3543",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-14",
+    "title": "Screening & Integration Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200670535-3543/screening-integration-engineer-watch-software?team=SFTWR"
+  },
+  "200670586-3956": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200670586-3956",
+    "last_seen": "2026-08-12T14:08:24.825438+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-07-02",
+    "title": "Wireless Lab Manager, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200670586-3956/wireless-lab-manager-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200671106-0321": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200671106-0321",
+    "last_seen": "2026-08-12T14:08:24.825438+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-07-07",
+    "title": "Wi-Fi /BT/Thread Stability QA Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200671106-0321/wi-fi-bt-thread-stability-qa-engineer?team=SFTWR"
+  },
+  "200671326-2911": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200671326-2911",
+    "last_seen": "2026-08-12T14:08:24.825438+00:00",
+    "location": "Paris",
+    "posted_date": "2026-07-07",
+    "title": "Offensive Security Researcher - Wireless Security",
+    "url": "https://jobs.apple.com/en-us/details/200671326-2911/offensive-security-researcher-wireless-security?team=SFTWR"
+  },
+  "200671983-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200671983-0836",
+    "last_seen": "2026-08-14T15:09:10.347737+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-13",
+    "title": "Wi-Fi Firmware Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200671983-0836/wi-fi-firmware-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200671985-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200671985-0836",
+    "last_seen": "2026-08-14T15:09:10.347737+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-13",
+    "title": "Systems Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200671985-0836/systems-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200672212-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200672212-0836",
+    "last_seen": "2026-08-07T00:39:53.610387+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-17",
+    "title": "Wi-Fi Tools and Automation Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200672212-0836/wi-fi-tools-and-automation-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200672212-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-11T21:11:16.485487+00:00",
+    "job_id": "200672212-3543",
+    "last_seen": "2026-09-09T21:30:12.394667+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-11",
+    "title": "Wi-Fi Tools and Automation Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200672212-3543/wi-fi-tools-and-automation-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200672340-0865": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200672340-0865",
+    "last_seen": "2026-08-14T18:32:10.639374+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-07-15",
+    "title": "Embedded Platform Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200672340-0865/embedded-platform-engineer?team=SFTWR"
+  },
+  "200672608-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200672608-0836",
+    "last_seen": "2026-08-04T14:42:46.196293+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-15",
+    "title": "Wireless Bluetooth QA Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200672608-0836/wireless-bluetooth-qa-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200672818-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200672818-0836",
+    "last_seen": "2026-08-18T22:41:23.791852+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-18",
+    "title": "Car Experience Software Engineer - UI, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200672818-0836/car-experience-software-engineer-ui-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200673114-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200673114-0836",
+    "last_seen": "2026-08-26T20:34:17.796710+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-23",
+    "title": "Headphones and Accessories Tools & Automation Quality Engineer, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200673114-0836/headphones-and-accessories-tools-automation-quality-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200674547-0365": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200674547-0365",
+    "last_seen": "2026-08-30T19:57:21.733671+00:00",
+    "location": "Boulder",
+    "posted_date": "2026-07-30",
+    "title": "Senior Software Engineer, watchOS System Spaces",
+    "url": "https://jobs.apple.com/en-us/details/200674547-0365/senior-software-engineer-watchos-system-spaces?team=SFTWR"
+  },
+  "200674547-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200674547-0836",
+    "last_seen": "2026-08-30T19:57:21.733671+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-30",
+    "title": "Senior Software Engineer, watchOS System Spaces",
+    "url": "https://jobs.apple.com/en-us/details/200674547-0836/senior-software-engineer-watchos-system-spaces?team=SFTWR"
+  },
+  "200674707-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200674707-0836",
+    "last_seen": "2026-08-27T20:22:47.329352+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-07-29",
+    "title": "HomeKit Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200674707-0836/homekit-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200674969-0351": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200674969-0351",
+    "last_seen": "2026-09-01T19:09:23.150995+00:00",
+    "location": "Beijing",
+    "posted_date": "2026-08-03",
+    "title": "Cellular Protocol Stack Development Engineer, Wireless Tech and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200674969-0351/cellular-protocol-stack-development-engineer-wireless-tech-and-ecosystems?team=SFTWR"
+  },
+  "200675034-3956": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T14:42:46.196293+00:00",
+    "job_id": "200675034-3956",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-08-25",
+    "title": "Cellular Software Engineering Program Manager",
+    "url": "https://jobs.apple.com/en-us/details/200675034-3956/cellular-software-engineering-program-manager?team=SFTWR"
+  },
+  "200675469-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-14T22:04:47.810042+00:00",
+    "job_id": "200675469-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-14",
+    "title": "Product System Test Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200675469-3543/product-system-test-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200675577-0351": {
+    "company": "Apple",
+    "first_seen": "2026-08-05T10:32:19.384892+00:00",
+    "job_id": "200675577-0351",
+    "last_seen": "2026-09-02T18:33:03.882077+00:00",
+    "location": "Beijing",
+    "posted_date": "2026-08-05",
+    "title": "Car Experience Partner Engineer  - Embedded systems, Wireless Tech and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200675577-0351/car-experience-partner-engineer-embedded-systems-wireless-tech-and-ecosystems?team=SFTWR"
+  },
+  "200675591-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-05T10:32:19.384892+00:00",
+    "job_id": "200675591-0836",
+    "last_seen": "2026-09-01T19:09:23.150995+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-05",
+    "title": "iOS Developer Tools Engineer \u2013 Car Experience, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200675591-0836/ios-developer-tools-engineer-car-experience-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200675597-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-04T23:37:24.024615+00:00",
+    "job_id": "200675597-0836",
+    "last_seen": "2026-08-19T19:53:45.943950+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-04",
+    "title": "Wireless Bluetooth Quality Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200675597-0836/wireless-bluetooth-quality-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200675791-3956": {
+    "company": "Apple",
+    "first_seen": "2026-08-05T10:32:19.384892+00:00",
+    "job_id": "200675791-3956",
+    "last_seen": "2026-09-01T19:09:23.150995+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-08-05",
+    "title": "Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200675791-3956/software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200676229-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-14T15:09:10.347737+00:00",
+    "job_id": "200676229-0836",
+    "last_seen": "2026-09-22T22:28:13.609423+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-14",
+    "title": "Senior Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200676229-0836/senior-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200676417-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-07T00:39:53.610387+00:00",
+    "job_id": "200676417-3543",
+    "last_seen": "2026-09-08T14:24:42.693877+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-06",
+    "title": "System Test Engineer, 5G/6G Wireless Interoperability - Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200676417-3543/system-test-engineer-5g-6g-wireless-interoperability-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200676676-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-09T21:30:12.394667+00:00",
+    "job_id": "200676676-0836",
+    "last_seen": "2026-09-15T20:57:52.257990+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-09",
+    "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200676676-0836/screening-integration-engineer-watch-software-sensing-connectivity?team=SFTWR"
+  },
+  "200676676-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-09T21:30:12.394667+00:00",
+    "job_id": "200676676-3543",
+    "last_seen": "2026-09-15T20:57:52.257990+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-09",
+    "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200676676-3543/screening-integration-engineer-watch-software-sensing-connectivity?team=SFTWR"
+  },
+  "200677373-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-12T14:08:24.825438+00:00",
+    "job_id": "200677373-0836",
+    "last_seen": "2026-09-09T21:30:12.394667+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-12",
+    "title": "Software Development Engineer in Test, Car Key, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200677373-0836/software-development-engineer-in-test-car-key-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200678728-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-19T19:53:45.943950+00:00",
+    "job_id": "200678728-0836",
+    "last_seen": "2026-10-01T12:37:20.965051+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-14",
+    "title": "Wireless Bluetooth QA Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200678728-0836/wireless-bluetooth-qa-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200678731-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-18T22:41:23.791852+00:00",
+    "job_id": "200678731-0836",
+    "last_seen": "2026-09-24T21:07:33.597439+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-18",
+    "title": "Systems Architect",
+    "url": "https://jobs.apple.com/en-us/details/200678731-0836/systems-architect?team=SFTWR"
+  },
+  "200678755-3543": {
+    "company": "Apple",
+    "first_seen": "2026-08-20T00:18:50.814082+00:00",
+    "job_id": "200678755-3543",
+    "last_seen": "2026-09-27T15:38:28.810047+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-08-19",
+    "title": "AI/ML Engineer (GenAI), Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200678755-3543/ai-ml-engineer-genai-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200678814-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-18T22:41:23.791852+00:00",
+    "job_id": "200678814-0836",
+    "last_seen": "2026-09-23T21:30:14.955289+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-18",
+    "title": "Software Development Engineer - Location Technologies, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200678814-0836/software-development-engineer-location-technologies-sensing-connectivity?team=SFTWR"
+  },
+  "200679261-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-21T16:26:19.932740+00:00",
+    "job_id": "200679261-0836",
+    "last_seen": "2026-08-24T13:21:40.878425+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-20",
+    "title": "Wireless Tools & Automation Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200679261-0836/wireless-tools-automation-engineer?team=SFTWR"
+  },
+  "200679300-3401": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200679300-3401",
+    "last_seen": "2026-09-15T20:57:52.257990+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-09-10",
+    "title": "Wireless Analytics & Intelligence Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200679300-3401/wireless-analytics-intelligence-software-engineer?team=SFTWR"
+  },
+  "200679658-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-26T00:13:33.187354+00:00",
+    "job_id": "200679658-0836",
+    "last_seen": "2026-09-12T18:11:33.715811+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-24",
+    "title": "Machine Learning Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200679658-0836/machine-learning-engineer?team=SFTWR"
+  },
+  "200679707-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-26T00:13:33.187354+00:00",
+    "job_id": "200679707-0836",
+    "last_seen": "2026-09-21T21:55:54.775236+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-21",
+    "title": "AIML Software Engineer, On-Device Audio Intelligence, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200679707-0836/aiml-software-engineer-on-device-audio-intelligence-sensing-connectivity?team=SFTWR"
+  },
+  "200679966-3401": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200679966-3401",
+    "last_seen": "2026-09-16T20:39:34.270545+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-09-11",
+    "title": "WiFi Experience Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200679966-3401/wifi-experience-software-engineer?team=SFTWR"
+  },
+  "200680025-3401": {
+    "company": "Apple",
+    "first_seen": "2026-08-26T20:34:17.796710+00:00",
+    "job_id": "200680025-3401",
+    "last_seen": "2026-08-30T19:57:21.733671+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-08-26",
+    "title": "Wireless Bluetooth Tools & Triage Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200680025-3401/wireless-bluetooth-tools-triage-software-engineer?team=SFTWR"
+  },
+  "200680145-3456": {
+    "company": "Apple",
+    "first_seen": "2026-09-02T18:33:03.882077+00:00",
+    "job_id": "200680145-3456",
+    "last_seen": "2026-10-12T02:07:51.126064+00:00",
+    "location": "Sao Paulo",
+    "posted_date": "2026-09-01",
+    "title": "Technical Product Manager, WPC (Wallet, Payments, and Commerce) \u2013 Issuers & Merchant Acceptance",
+    "url": "https://jobs.apple.com/en-us/details/200680145-3456/technical-product-manager-wpc-wallet-payments-and-commerce-issuers-merchant-acceptance?team=SFTWR"
+  },
+  "200680267-3543": {
+    "company": "Apple",
+    "first_seen": "2026-10-05T22:06:10.179119+00:00",
+    "job_id": "200680267-3543",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-10-05",
+    "title": "Bluetooth Firmware Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200680267-3543/bluetooth-firmware-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200680546-3543": {
+    "company": "Apple",
+    "first_seen": "2026-10-01T12:37:20.965051+00:00",
+    "job_id": "200680546-3543",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-30",
+    "title": "Bluetooth Firmware Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200680546-3543/bluetooth-firmware-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200680682-3401": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680682-3401",
+    "last_seen": "2026-09-02T20:48:47.408753+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-08-28",
+    "title": "HomeKit Machine Learning Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200680682-3401/homekit-machine-learning-engineer?team=SFTWR"
+  },
+  "200680778-0186": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-0186",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Antioch",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-0186/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-0224": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-0224",
+    "last_seen": "2026-10-04T23:00:51.618381+00:00",
+    "location": "Beaumont",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-0224/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-0836": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-0836",
+    "last_seen": "2026-10-02T01:20:50.860786+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-0836/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-1168": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-1168",
+    "last_seen": "2026-10-04T23:00:51.618381+00:00",
+    "location": "Dixon",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-1168/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-5685": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-5685",
+    "last_seen": "2026-10-04T23:00:51.618381+00:00",
+    "location": "Carlsbad, CA - CC0462",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-5685/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-5763": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-5763",
+    "last_seen": "2026-10-04T23:00:51.618381+00:00",
+    "location": "Alturas",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-5763/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-5909": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-5909",
+    "last_seen": "2026-10-01T12:37:20.965051+00:00",
+    "location": "Colton",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-5909/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680778-5911": {
+    "company": "Apple",
+    "first_seen": "2026-08-30T19:57:21.733671+00:00",
+    "job_id": "200680778-5911",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Arleta, CA",
+    "posted_date": "2026-08-28",
+    "title": "Specialist, Emergency Services - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200680778-5911/specialist-emergency-services-sensing-connectivity?team=SFTWR"
+  },
+  "200680831-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-01T19:09:23.150995+00:00",
+    "job_id": "200680831-3543",
+    "last_seen": "2026-10-06T22:04:26.605619+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-01",
+    "title": "Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200680831-3543/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200681316-3956": {
+    "company": "Apple",
+    "first_seen": "2026-09-02T18:33:03.882077+00:00",
+    "job_id": "200681316-3956",
+    "last_seen": "2026-10-06T22:04:26.605619+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-01",
+    "title": "Cellular Layer-1 Control Software Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200681316-3956/cellular-layer-1-control-software-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200681318-3956": {
+    "company": "Apple",
+    "first_seen": "2026-09-02T18:33:03.882077+00:00",
+    "job_id": "200681318-3956",
+    "last_seen": "2026-10-08T23:26:09.307993+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-01",
+    "title": "Senior Cellular Layer-1 Control Software Development Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200681318-3956/senior-cellular-layer-1-control-software-development-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200681340-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-09T21:30:12.394667+00:00",
+    "job_id": "200681340-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-08",
+    "title": "Wireless Bluetooth Quality Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200681340-0836/wireless-bluetooth-quality-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200682345-0865": {
+    "company": "Apple",
+    "first_seen": "2026-09-08T14:24:42.693877+00:00",
+    "job_id": "200682345-0865",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-09-08",
+    "title": "iOS Software Engineer- Location Technologies",
+    "url": "https://jobs.apple.com/en-us/details/200682345-0865/ios-software-engineer-location-technologies?team=SFTWR"
+  },
+  "200682462-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-09T21:30:12.394667+00:00",
+    "job_id": "200682462-0836",
+    "last_seen": "2026-09-14T01:40:48.723287+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-08",
+    "title": "Software Engineer, Applied ML",
+    "url": "https://jobs.apple.com/en-us/details/200682462-0836/software-engineer-applied-ml?team=SFTWR"
+  },
+  "200682566-3715": {
+    "company": "Apple",
+    "first_seen": "2026-09-09T21:30:12.394667+00:00",
+    "job_id": "200682566-3715",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-09",
+    "title": "Bluetooth/Wi-Fi QA Engineer, Wireless Tech and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200682566-3715/bluetooth-wi-fi-qa-engineer-wireless-tech-and-ecosystems?team=SFTWR"
+  },
+  "200683007-3401": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200683007-3401",
+    "last_seen": "2026-09-16T20:39:34.270545+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-09-11",
+    "title": "Bluetooth Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200683007-3401/bluetooth-software-engineer?team=SFTWR"
+  },
+  "200683018-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200683018-0836",
+    "last_seen": "2026-09-16T20:39:34.270545+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-11",
+    "title": "Bluetooth Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200683018-0836/bluetooth-software-engineer?team=SFTWR"
+  },
+  "200683059-3401": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200683059-3401",
+    "last_seen": "2026-09-16T20:39:34.270545+00:00",
+    "location": "Various Locations within San Francisco Bay Area",
+    "posted_date": "2026-09-11",
+    "title": "Carrier Technologies Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200683059-3401/carrier-technologies-software-engineer?team=SFTWR"
+  },
+  "200683088-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-12T18:11:33.715811+00:00",
+    "job_id": "200683088-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-10",
+    "title": "Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200683088-3543/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200683533-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-14T22:04:47.810042+00:00",
+    "job_id": "200683533-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-14",
+    "title": "DevOps Engineer, Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200683533-3543/devops-engineer-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200683546-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-14T22:04:47.810042+00:00",
+    "job_id": "200683546-3543",
+    "last_seen": "2026-09-18T19:48:12.699777+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-14",
+    "title": "Senior Software Engineer, Developer Productivity, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200683546-3543/senior-software-engineer-developer-productivity-sensing-connectivity?team=SFTWR"
+  },
+  "200683552-3956": {
+    "company": "Apple",
+    "first_seen": "2026-09-14T22:04:47.810042+00:00",
+    "job_id": "200683552-3956",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-14",
+    "title": "System Test Engineer, 5G/6G Wireless Interoperability - Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200683552-3956/system-test-engineer-5g-6g-wireless-interoperability-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200683839-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-15T20:57:52.257990+00:00",
+    "job_id": "200683839-0836",
+    "last_seen": "2026-09-28T21:41:26.119525+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-15",
+    "title": "Machine Learning Engineer - Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200683839-0836/machine-learning-engineer-sensing-connectivity?team=SFTWR"
+  },
+  "200684401-2114": {
+    "company": "Apple",
+    "first_seen": "2026-09-21T21:55:54.775236+00:00",
+    "job_id": "200684401-2114",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "London",
+    "posted_date": "2026-09-21",
+    "title": "Carrier Account Manager,Wireless Technology & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200684401-2114/carrier-account-manager-wireless-technology-ecosystems?team=SFTWR"
+  },
+  "200684982-3956": {
+    "company": "Apple",
+    "first_seen": "2026-09-22T22:28:13.609423+00:00",
+    "job_id": "200684982-3956",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-22",
+    "title": "Modem System Test Engineer - Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200684982-3956/modem-system-test-engineer-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200685128-0157": {
+    "company": "Apple",
+    "first_seen": "2026-10-02T01:20:50.860786+00:00",
+    "job_id": "200685128-0157",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Austin",
+    "posted_date": "2026-10-01",
+    "title": "Data Scientist",
+    "url": "https://jobs.apple.com/en-us/details/200685128-0157/data-scientist?team=SFTWR"
+  },
+  "200685444-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-23T21:30:14.955289+00:00",
+    "job_id": "200685444-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-23",
+    "title": "Senior Software ML Engineer - Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200685444-0836/senior-software-ml-engineer-watch-software?team=SFTWR"
+  },
+  "200685444-3337": {
+    "company": "Apple",
+    "first_seen": "2026-09-23T21:30:14.955289+00:00",
+    "job_id": "200685444-3337",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Seattle",
+    "posted_date": "2026-09-23",
+    "title": "Senior Software ML Engineer - Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200685444-3337/senior-software-ml-engineer-watch-software?team=SFTWR"
+  },
+  "200685444-3543": {
+    "company": "Apple",
+    "first_seen": "2026-09-23T21:30:14.955289+00:00",
+    "job_id": "200685444-3543",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-23",
+    "title": "Senior Software ML Engineer - Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200685444-3543/senior-software-ml-engineer-watch-software?team=SFTWR"
+  },
+  "200685479-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-08T23:26:09.307993+00:00",
+    "job_id": "200685479-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-08",
+    "title": "SDET(Fitness) - Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200685479-0836/sdet-fitness-watch-software?team=SFTWR"
+  },
+  "200685701-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-24T21:07:33.597439+00:00",
+    "job_id": "200685701-0836",
+    "last_seen": "2026-10-12T23:08:17.552985+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-24",
+    "title": "Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200685701-0836/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200685739-1731": {
+    "company": "Apple",
+    "first_seen": "2026-10-01T12:37:20.965051+00:00",
+    "job_id": "200685739-1731",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Munich",
+    "posted_date": "2026-09-30",
+    "title": "Embedded Software Engineer - Cellular Layer1 Control , Wireless technology and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200685739-1731/embedded-software-engineer-cellular-layer1-control-wireless-technology-and-ecosystems?team=SFTWR"
+  },
+  "200686019-0321": {
+    "company": "Apple",
+    "first_seen": "2026-09-27T15:38:28.810047+00:00",
+    "job_id": "200686019-0321",
+    "last_seen": "2026-10-02T01:20:50.860786+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-09-27",
+    "title": "Applied ML Intern, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200686019-0321/applied-ml-intern-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200686212-0836": {
+    "company": "Apple",
+    "first_seen": "2026-09-28T21:41:26.119525+00:00",
+    "job_id": "200686212-0836",
+    "last_seen": "2026-10-07T21:52:07.109273+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-28",
+    "title": "Software Engineer - Location & Spatial Awareness, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200686212-0836/software-engineer-location-spatial-awareness-sensing-connectivity?team=SFTWR"
+  },
+  "200686220-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-01T12:37:20.965051+00:00",
+    "job_id": "200686220-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-09-29",
+    "title": "Wi-Fi Quality Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200686220-0836/wi-fi-quality-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200686421-3543": {
+    "company": "Apple",
+    "first_seen": "2026-10-01T12:37:20.965051+00:00",
+    "job_id": "200686421-3543",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-09-29",
+    "title": "Engineering Program Specialist",
+    "url": "https://jobs.apple.com/en-us/details/200686421-3543/engineering-program-specialist?team=SFTWR"
+  },
+  "200686844-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-08T23:26:09.307993+00:00",
+    "job_id": "200686844-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-08",
+    "title": "Telephony Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200686844-0836/telephony-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200686852-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-05T22:06:10.179119+00:00",
+    "job_id": "200686852-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-05",
+    "title": "Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200686852-0836/software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200686879-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-02T01:20:50.860786+00:00",
+    "job_id": "200686879-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-01",
+    "title": "System Software Engineer  - Headphone & Accessories, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200686879-0836/system-software-engineer-headphone-accessories-sensing-connectivity?team=SFTWR"
+  },
+  "200686930-6482": {
+    "company": "Apple",
+    "first_seen": "2026-10-05T22:06:10.179119+00:00",
+    "job_id": "200686930-6482",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Minato",
+    "posted_date": "2026-10-05",
+    "title": "Modem Systems Test Engineer - Wireless Technologies and Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200686930-6482/modem-systems-test-engineer-wireless-technologies-and-ecosystems?team=SFTWR"
+  },
+  "200686958-1731": {
+    "company": "Apple",
+    "first_seen": "2026-10-06T22:04:26.605619+00:00",
+    "job_id": "200686958-1731",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Munich",
+    "posted_date": "2026-10-06",
+    "title": "Internship - Software Engineering - Wireless Data Science",
+    "url": "https://jobs.apple.com/en-us/details/200686958-1731/internship-software-engineering-wireless-data-science?team=SFTWR"
+  },
+  "200686995-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-04T23:00:51.618381+00:00",
+    "job_id": "200686995-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-02",
+    "title": "Senior Software Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200686995-0836/senior-software-engineer?team=SFTWR"
+  },
+  "200687072-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-04T23:00:51.618381+00:00",
+    "job_id": "200687072-0836",
+    "last_seen": "2026-10-07T21:52:07.109273+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-02",
+    "title": "Senior Systems Engineer, Watch Software",
+    "url": "https://jobs.apple.com/en-us/details/200687072-0836/senior-systems-engineer-watch-software?team=SFTWR"
+  },
+  "200687104-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-05T22:06:10.179119+00:00",
+    "job_id": "200687104-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-05",
+    "title": "iOS Telephony Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200687104-0836/ios-telephony-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200687219-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-05T22:06:10.179119+00:00",
+    "job_id": "200687219-0836",
+    "last_seen": "2026-10-06T00:17:45.366090+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-05",
+    "title": "Wi-Fi Software Engineering Manager, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200687219-0836/wi-fi-software-engineering-manager-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200687362-3543": {
+    "company": "Apple",
+    "first_seen": "2026-10-06T22:04:26.605619+00:00",
+    "job_id": "200687362-3543",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "San Diego",
+    "posted_date": "2026-10-06",
+    "title": "Senior Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200687362-3543/senior-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200687581-3956": {
+    "company": "Apple",
+    "first_seen": "2026-10-07T21:52:07.109273+00:00",
+    "job_id": "200687581-3956",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-10-07",
+    "title": "Cellular Software Architect/Developer - Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200687581-3956/cellular-software-architect-developer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200687658-0865": {
+    "company": "Apple",
+    "first_seen": "2026-10-07T21:52:07.109273+00:00",
+    "job_id": "200687658-0865",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Herzliya",
+    "posted_date": "2026-10-07",
+    "title": "Wireless Testing Engineer",
+    "url": "https://jobs.apple.com/en-us/details/200687658-0865/wireless-testing-engineer?team=SFTWR"
+  },
+  "200687773-3956": {
+    "company": "Apple",
+    "first_seen": "2026-10-07T21:52:07.109273+00:00",
+    "job_id": "200687773-3956",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-10-07",
+    "title": "Software Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200687773-3956/software-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200687790-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-07T21:52:07.109273+00:00",
+    "job_id": "200687790-0836",
+    "last_seen": "2026-10-07T21:52:07.109273+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-07",
+    "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+    "url": "https://jobs.apple.com/en-us/details/200687790-0836/screening-integration-engineer-watch-software-sensing-connectivity?team=SFTWR"
+  },
+  "200688136-1731": {
+    "company": "Apple",
+    "first_seen": "2026-10-12T23:08:17.552985+00:00",
+    "job_id": "200688136-1731",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Munich",
+    "posted_date": "2026-10-12",
+    "title": "Internship - Modem Functional Test - Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200688136-1731/internship-modem-functional-test-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200688169-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-12T02:07:51.126064+00:00",
+    "job_id": "200688169-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-10",
+    "title": "Wi-Fi Certification Quality Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200688169-0836/wi-fi-certification-quality-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  },
+  "200688584-0836": {
+    "company": "Apple",
+    "first_seen": "2026-10-12T23:08:17.552985+00:00",
+    "job_id": "200688584-0836",
+    "last_seen": "2026-10-13T21:18:59.069606+00:00",
+    "location": "Cupertino",
+    "posted_date": "2026-10-12",
+    "title": "Wi-Fi / Bluetooth Software System Performance Engineer, Wireless Technologies & Ecosystems",
+    "url": "https://jobs.apple.com/en-us/details/200688584-0836/wi-fi-bluetooth-software-system-performance-engineer-wireless-technologies-ecosystems?team=SFTWR"
+  }
+}

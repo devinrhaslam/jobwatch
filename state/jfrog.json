@@ -1,0 +1,972 @@
+{
+  "6638800": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "6638800",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2025-02-16",
+    "title": "Senior Product Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/6638800"
+  },
+  "6861996": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "6861996",
+    "last_seen": "2026-09-03T20:06:18.604136+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-06-18",
+    "title": "Director of Product Management - Artifactory",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/6861996"
+  },
+  "6870647": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "6870647",
+    "last_seen": "2026-09-27T15:41:26.004172+00:00",
+    "location": "Tokyo, Japan",
+    "posted_date": "2025-05-12",
+    "title": "Business Development Representative - Tokyo, Japan",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/6870647"
+  },
+  "7419121": {
+    "company": "JFrog",
+    "first_seen": "2026-09-09T21:33:50.802966+00:00",
+    "job_id": "7419121",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2025-11-25",
+    "title": "R&D Team Lead",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7419121"
+  },
+  "7434101": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7434101",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2025-12-09",
+    "title": "Developer Advocate",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7434101"
+  },
+  "7480202": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7480202",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Taipei, Taiwan",
+    "posted_date": "2025-12-22",
+    "title": "Account Executive",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7480202"
+  },
+  "7510102": {
+    "company": "JFrog",
+    "first_seen": "2026-09-09T21:33:50.802966+00:00",
+    "job_id": "7510102",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-01-07",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7510102"
+  },
+  "7527546": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7527546",
+    "last_seen": "2026-08-07T20:44:30.408835+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-01-09",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7527546"
+  },
+  "7618800": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7618800",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "london",
+    "posted_date": "2026-02-18",
+    "title": "Developer Advocate",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7618800"
+  },
+  "7625895": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7625895",
+    "last_seen": "2026-08-07T20:44:30.408835+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-02-20",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7625895"
+  },
+  "7657193": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7657193",
+    "last_seen": "2026-10-12T02:10:18.114539+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-05-11",
+    "title": "Senior Product Manager - JFrog Security",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7657193"
+  },
+  "7694707": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7694707",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-03-10",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7694707"
+  },
+  "7715994": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7715994",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sydney",
+    "posted_date": "2026-03-19",
+    "title": "Business Development Representative, ANZ (Sydney/Melbourne)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7715994"
+  },
+  "7744682": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7744682",
+    "last_seen": "2026-09-15T00:53:28.418793+00:00",
+    "location": "Bangalore",
+    "posted_date": "2026-03-24",
+    "title": "FinOps Analyst",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7744682"
+  },
+  "7768086": {
+    "company": "JFrog",
+    "first_seen": "2026-08-12T19:29:56.638832+00:00",
+    "job_id": "7768086",
+    "last_seen": "2026-10-08T23:28:20.594071+00:00",
+    "location": "Paris",
+    "posted_date": "2026-04-08",
+    "title": "New Business Enterprise Account Executive",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7768086"
+  },
+  "7777456": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7777456",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-04-14",
+    "title": "Senior Technical Success Manager (North America Region - EST Shift)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7777456"
+  },
+  "7813281": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7813281",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-04-16",
+    "title": "Technical Product Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7813281"
+  },
+  "7814375": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7814375",
+    "last_seen": "2026-09-17T20:48:48.943126+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-04-15",
+    "title": "Technical Success Manager (EMEA Region)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7814375"
+  },
+  "7899047": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7899047",
+    "last_seen": "2026-09-08T14:28:09.505962+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-07-01",
+    "title": "R&D Team Lead - JFrog Security",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7899047"
+  },
+  "7918654": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7918654",
+    "last_seen": "2026-08-18T00:38:50.357640+00:00",
+    "location": "Sunnyvale or Atlanta",
+    "posted_date": "2026-05-27",
+    "title": "Director, Global Deal Desk",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7918654"
+  },
+  "7936018": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7936018",
+    "last_seen": "2026-09-21T21:58:09.131706+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-06-02",
+    "title": "Senior Business Value Consultant",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7936018"
+  },
+  "7939091": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7939091",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-05-24",
+    "title": "GenAI & Competitive Intelligence Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7939091"
+  },
+  "7946125": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7946125",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "germany",
+    "posted_date": "2026-05-27",
+    "title": "Senior Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7946125"
+  },
+  "7963399": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7963399",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "london, uk",
+    "posted_date": "2026-06-02",
+    "title": "Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7963399"
+  },
+  "7972308": {
+    "company": "JFrog",
+    "first_seen": "2026-08-19T19:56:26.047563+00:00",
+    "job_id": "7972308",
+    "last_seen": "2026-08-24T13:24:16.914546+00:00",
+    "location": "london",
+    "posted_date": "2026-06-02",
+    "title": "Accountant",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7972308"
+  },
+  "7978704": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7978704",
+    "last_seen": "2026-09-29T20:22:26.978654+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-06-08",
+    "title": "Partner Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7978704"
+  },
+  "7986109": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7986109",
+    "last_seen": "2026-08-18T00:38:50.357640+00:00",
+    "location": "Sunnyvale, Seattle, & Atlanta",
+    "posted_date": "2026-06-10",
+    "title": "Senior Business Value Consultant",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7986109"
+  },
+  "7996600": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "7996600",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-06-11",
+    "title": "Malware Researcher",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/7996600"
+  },
+  "8031649": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8031649",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-06-29",
+    "title": "Associate HRBP",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8031649"
+  },
+  "8035327": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8035327",
+    "last_seen": "2026-08-15T21:47:48.295096+00:00",
+    "location": "London, London, United Kingdom",
+    "posted_date": "2026-06-30",
+    "title": "Channel Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8035327"
+  },
+  "8045681": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8045681",
+    "last_seen": "2026-10-12T02:10:18.114539+00:00",
+    "location": "Remote, Germany",
+    "posted_date": "2026-07-16",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8045681"
+  },
+  "8074288": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8074288",
+    "last_seen": "2026-09-08T14:28:09.505962+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-07-23",
+    "title": "R&D Team Leader",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8074288"
+  },
+  "8089839": {
+    "company": "JFrog",
+    "first_seen": "2026-08-07T00:41:50.810753+00:00",
+    "job_id": "8089839",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale, Atlanta",
+    "posted_date": "2026-08-06",
+    "title": "Sales Development Representative (SDR - SkillBridge Internship)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8089839"
+  },
+  "8095859": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8095859",
+    "last_seen": "2026-08-15T21:47:48.295096+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-02",
+    "title": "Collection Specialist - Maternity Leave Replacement (Temporary position)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8095859"
+  },
+  "8096728": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8096728",
+    "last_seen": "2026-10-07T21:54:26.679973+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-31",
+    "title": "Senior Professional Services DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8096728"
+  },
+  "8096777": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8096777",
+    "last_seen": "2026-09-28T21:44:03.337884+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-07-31",
+    "title": "Professional Services DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8096777"
+  },
+  "8096818": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8096818",
+    "last_seen": "2026-09-28T21:44:03.337884+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-07-31",
+    "title": "Professional Services DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8096818"
+  },
+  "8102637": {
+    "company": "JFrog",
+    "first_seen": "2026-08-12T19:29:56.638832+00:00",
+    "job_id": "8102637",
+    "last_seen": "2026-09-15T00:53:28.418793+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-04",
+    "title": "SMB Account Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8102637"
+  },
+  "8104833": {
+    "company": "JFrog",
+    "first_seen": "2026-08-06T02:03:33.399367+00:00",
+    "job_id": "8104833",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-04",
+    "title": "IS Product Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8104833"
+  },
+  "8108383": {
+    "company": "JFrog",
+    "first_seen": "2026-08-10T12:22:19.048951+00:00",
+    "job_id": "8108383",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "madrid",
+    "posted_date": "2026-08-10",
+    "title": "Program Manager & Executive Assistant to the SVP of Sales",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8108383"
+  },
+  "8118681": {
+    "company": "JFrog",
+    "first_seen": "2026-08-21T16:29:16.019636+00:00",
+    "job_id": "8118681",
+    "last_seen": "2026-10-12T02:10:18.114539+00:00",
+    "location": "tel aviv",
+    "posted_date": "2026-08-21",
+    "title": "Sales Program Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8118681"
+  },
+  "8127498": {
+    "company": "JFrog",
+    "first_seen": "2026-08-16T23:44:28.797468+00:00",
+    "job_id": "8127498",
+    "last_seen": "2026-09-15T21:00:38.008778+00:00",
+    "location": "Tel Aviv/ Netanya",
+    "posted_date": "2026-08-16",
+    "title": "Business Development Representative - French speaker",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8127498"
+  },
+  "8131718": {
+    "company": "JFrog",
+    "first_seen": "2026-08-20T20:31:45.377748+00:00",
+    "job_id": "8131718",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-20",
+    "title": "Collection Specialist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8131718"
+  },
+  "8131741": {
+    "company": "JFrog",
+    "first_seen": "2026-08-20T20:31:45.377748+00:00",
+    "job_id": "8131741",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-20",
+    "title": "Data Scientist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8131741"
+  },
+  "8131976": {
+    "company": "JFrog",
+    "first_seen": "2026-08-18T20:52:25.826316+00:00",
+    "job_id": "8131976",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-18",
+    "title": "Marketing Coordinator",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8131976"
+  },
+  "8131992": {
+    "company": "JFrog",
+    "first_seen": "2026-08-19T19:56:26.047563+00:00",
+    "job_id": "8131992",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-19",
+    "title": "Deal Desk Specialist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8131992"
+  },
+  "8138480": {
+    "company": "JFrog",
+    "first_seen": "2026-08-20T20:31:45.377748+00:00",
+    "job_id": "8138480",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-20",
+    "title": "AI Solutions Builder",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8138480"
+  },
+  "8139469": {
+    "company": "JFrog",
+    "first_seen": "2026-08-18T20:52:25.826316+00:00",
+    "job_id": "8139469",
+    "last_seen": "2026-10-12T02:10:18.114539+00:00",
+    "location": "Atlanta, Georgia, United States ",
+    "posted_date": "2026-08-18",
+    "title": "Enterprise Account Executive, New Logo",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8139469"
+  },
+  "8140207": {
+    "company": "JFrog",
+    "first_seen": "2026-08-24T20:55:49.082480+00:00",
+    "job_id": "8140207",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-08-24",
+    "title": "Associate Account Manager, Revenue Retention",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8140207"
+  },
+  "8152802": {
+    "company": "JFrog",
+    "first_seen": "2026-08-26T20:37:34.020923+00:00",
+    "job_id": "8152802",
+    "last_seen": "2026-09-29T20:22:26.978654+00:00",
+    "location": "Tel aviv",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8152802"
+  },
+  "8156071": {
+    "company": "JFrog",
+    "first_seen": "2026-08-26T20:37:34.020923+00:00",
+    "job_id": "8156071",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-26",
+    "title": "IS Integration Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8156071"
+  },
+  "8156179": {
+    "company": "JFrog",
+    "first_seen": "2026-08-26T20:37:34.020923+00:00",
+    "job_id": "8156179",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-26",
+    "title": "GRC Specialist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8156179"
+  },
+  "8157049": {
+    "company": "JFrog",
+    "first_seen": "2026-08-26T00:16:29.069252+00:00",
+    "job_id": "8157049",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Remote, Canada",
+    "posted_date": "2026-08-25",
+    "title": "Senior Professional Services DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8157049"
+  },
+  "8160540": {
+    "company": "JFrog",
+    "first_seen": "2026-09-01T19:12:24.890423+00:00",
+    "job_id": "8160540",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-01",
+    "title": "Partner Account Manager, AMER",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8160540"
+  },
+  "8161565": {
+    "company": "JFrog",
+    "first_seen": "2026-08-30T20:02:52.992580+00:00",
+    "job_id": "8161565",
+    "last_seen": "2026-09-08T14:28:09.505962+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-08-30",
+    "title": "Senior Software Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8161565"
+  },
+  "8163093": {
+    "company": "JFrog",
+    "first_seen": "2026-09-02T18:36:12.448814+00:00",
+    "job_id": "8163093",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "US Remote",
+    "posted_date": "2026-09-02",
+    "title": "Strategic Account Executive",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8163093"
+  },
+  "8164605": {
+    "company": "JFrog",
+    "first_seen": "2026-09-01T19:12:24.890423+00:00",
+    "job_id": "8164605",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-09-01",
+    "title": "Strategic Solution Architect, Presales (West)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8164605"
+  },
+  "8164652": {
+    "company": "JFrog",
+    "first_seen": "2026-09-01T19:12:24.890423+00:00",
+    "job_id": "8164652",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-09-01",
+    "title": "Strategic Solution Architect, Presales (Central)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8164652"
+  },
+  "8165227": {
+    "company": "JFrog",
+    "first_seen": "2026-09-01T19:12:24.890423+00:00",
+    "job_id": "8165227",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta ",
+    "posted_date": "2026-09-01",
+    "title": "Revenue Enablement Manager, Americas",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8165227"
+  },
+  "8165995": {
+    "company": "JFrog",
+    "first_seen": "2026-09-02T18:36:12.448814+00:00",
+    "job_id": "8165995",
+    "last_seen": "2026-09-22T22:31:01.125730+00:00",
+    "location": "tel aviv",
+    "posted_date": "2026-09-02",
+    "title": "Operation Coordinator - Temporary role - Tel Aviv site",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8165995"
+  },
+  "8167054": {
+    "company": "JFrog",
+    "first_seen": "2026-09-03T20:06:18.604136+00:00",
+    "job_id": "8167054",
+    "last_seen": "2026-10-04T23:03:06.721020+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-03",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8167054"
+  },
+  "8168832": {
+    "company": "JFrog",
+    "first_seen": "2026-09-03T20:06:18.604136+00:00",
+    "job_id": "8168832",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-03",
+    "title": "Senior Deal Strategy Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8168832"
+  },
+  "8168837": {
+    "company": "JFrog",
+    "first_seen": "2026-09-02T18:36:12.448814+00:00",
+    "job_id": "8168837",
+    "last_seen": "2026-10-06T00:19:48.171192+00:00",
+    "location": "Bangalore",
+    "posted_date": "2026-09-01",
+    "title": "Customer Retention Account Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8168837"
+  },
+  "8169233": {
+    "company": "JFrog",
+    "first_seen": "2026-09-08T14:28:09.505962+00:00",
+    "job_id": "8169233",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-06",
+    "title": "Principal Product Manager -  Business Applications",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8169233"
+  },
+  "8172978": {
+    "company": "JFrog",
+    "first_seen": "2026-09-03T20:06:18.604136+00:00",
+    "job_id": "8172978",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Taipei",
+    "posted_date": "2026-09-03",
+    "title": "Senior Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8172978"
+  },
+  "8175084": {
+    "company": "JFrog",
+    "first_seen": "2026-09-09T21:33:50.802966+00:00",
+    "job_id": "8175084",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "London, United Kingdom",
+    "posted_date": "2026-09-07",
+    "title": "Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8175084"
+  },
+  "8175086": {
+    "company": "JFrog",
+    "first_seen": "2026-09-08T14:28:09.505962+00:00",
+    "job_id": "8175086",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "SPAIN",
+    "posted_date": "2026-09-07",
+    "title": "Senior Solutions Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8175086"
+  },
+  "8175114": {
+    "company": "JFrog",
+    "first_seen": "2026-09-08T14:28:09.505962+00:00",
+    "job_id": "8175114",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-07",
+    "title": "Revenue Enablement Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8175114"
+  },
+  "8184079": {
+    "company": "JFrog",
+    "first_seen": "2026-09-08T14:28:09.505962+00:00",
+    "job_id": "8184079",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-08",
+    "title": "R&D Team Lead, Data Engineering- JFrog Security",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8184079"
+  },
+  "8185302": {
+    "company": "JFrog",
+    "first_seen": "2026-09-09T21:33:50.802966+00:00",
+    "job_id": "8185302",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale, California",
+    "posted_date": "2026-09-08",
+    "title": "Developer Support Engineer (Sunnyvale)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8185302"
+  },
+  "8185306": {
+    "company": "JFrog",
+    "first_seen": "2026-09-10T20:52:08.357323+00:00",
+    "job_id": "8185306",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-09-08",
+    "title": "Senior Solution Engineer, Presales - Public Sector (US Remote)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8185306"
+  },
+  "8188129": {
+    "company": "JFrog",
+    "first_seen": "2026-09-10T20:52:08.357323+00:00",
+    "job_id": "8188129",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "madrid",
+    "posted_date": "2026-09-10",
+    "title": "Senior Solutions Engineer - German Speaker",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8188129"
+  },
+  "8188177": {
+    "company": "JFrog",
+    "first_seen": "2026-09-15T21:00:38.008778+00:00",
+    "job_id": "8188177",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-15",
+    "title": "Cloud Architect",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8188177"
+  },
+  "8195834": {
+    "company": "JFrog",
+    "first_seen": "2026-09-12T18:14:01.023442+00:00",
+    "job_id": "8195834",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-11",
+    "title": "Regional Vice President, Sales (Enterprise)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8195834"
+  },
+  "8211094": {
+    "company": "JFrog",
+    "first_seen": "2026-09-18T19:50:40.005733+00:00",
+    "job_id": "8211094",
+    "last_seen": "2026-10-07T21:54:26.679973+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-18",
+    "title": "EMEA Marketing Event Specialist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8211094"
+  },
+  "8214881": {
+    "company": "JFrog",
+    "first_seen": "2026-09-23T22:05:57.512974+00:00",
+    "job_id": "8214881",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale, California, United States",
+    "posted_date": "2026-09-23",
+    "title": "Accountant",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8214881"
+  },
+  "8215981": {
+    "company": "JFrog",
+    "first_seen": "2026-09-22T22:31:01.125730+00:00",
+    "job_id": "8215981",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-22",
+    "title": "Associate Account Manager, Revenue Retention",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8215981"
+  },
+  "8222516": {
+    "company": "JFrog",
+    "first_seen": "2026-09-28T21:44:03.337884+00:00",
+    "job_id": "8222516",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-28",
+    "title": "Senior Offensive Security Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8222516"
+  },
+  "8227027": {
+    "company": "JFrog",
+    "first_seen": "2026-09-25T19:36:22.339062+00:00",
+    "job_id": "8227027",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-09-25",
+    "title": "Senior Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8227027"
+  },
+  "8227096": {
+    "company": "JFrog",
+    "first_seen": "2026-09-23T22:05:57.512974+00:00",
+    "job_id": "8227096",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-23",
+    "title": "Senior Business Development Representative",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8227096"
+  },
+  "8229845": {
+    "company": "JFrog",
+    "first_seen": "2026-09-24T23:49:11.917988+00:00",
+    "job_id": "8229845",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-09-24",
+    "title": "Finance Operations Billing Specialist",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8229845"
+  },
+  "8231383": {
+    "company": "JFrog",
+    "first_seen": "2026-09-24T23:49:11.917988+00:00",
+    "job_id": "8231383",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta, Georgia",
+    "posted_date": "2026-09-24",
+    "title": "Developer Support Engineer (Atlanta)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8231383"
+  },
+  "8235896": {
+    "company": "JFrog",
+    "first_seen": "2026-09-28T21:44:03.337884+00:00",
+    "job_id": "8235896",
+    "last_seen": "2026-10-08T23:28:20.594071+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-09-28",
+    "title": "R&D Director",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8235896"
+  },
+  "8238775": {
+    "company": "JFrog",
+    "first_seen": "2026-10-01T12:39:45.072252+00:00",
+    "job_id": "8238775",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-09-30",
+    "title": "Strategic Technical Success Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8238775"
+  },
+  "8242727": {
+    "company": "JFrog",
+    "first_seen": "2026-10-05T22:08:25.787827+00:00",
+    "job_id": "8242727",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-10-05",
+    "title": "Technical Success Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8242727"
+  },
+  "8247055": {
+    "company": "JFrog",
+    "first_seen": "2026-10-05T22:08:25.787827+00:00",
+    "job_id": "8247055",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-10-01",
+    "title": "Strategic Technical Success Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8247055"
+  },
+  "8250376": {
+    "company": "JFrog",
+    "first_seen": "2026-10-06T22:56:48.768690+00:00",
+    "job_id": "8250376",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta",
+    "posted_date": "2026-10-06",
+    "title": "Technical Success Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8250376"
+  },
+  "8255562": {
+    "company": "JFrog",
+    "first_seen": "2026-10-05T22:08:25.787827+00:00",
+    "job_id": "8255562",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "US, Remote",
+    "posted_date": "2026-10-05",
+    "title": "Regional Vice President, Strategic Solution Engineering (Central)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8255562"
+  },
+  "8255858": {
+    "company": "JFrog",
+    "first_seen": "2026-10-06T22:56:48.768690+00:00",
+    "job_id": "8255858",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-10-06",
+    "title": "Developer Support Engineer (EMEA Shift)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8255858"
+  },
+  "8255863": {
+    "company": "JFrog",
+    "first_seen": "2026-10-06T22:56:48.768690+00:00",
+    "job_id": "8255863",
+    "last_seen": "2026-10-12T23:13:05.452439+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-10-06",
+    "title": "Developer Support Engineer (US Shift)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8255863"
+  },
+  "8255869": {
+    "company": "JFrog",
+    "first_seen": "2026-10-06T22:56:48.768690+00:00",
+    "job_id": "8255869",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Bengaluru",
+    "posted_date": "2026-10-06",
+    "title": "Developer Support Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8255869"
+  },
+  "8257273": {
+    "company": "JFrog",
+    "first_seen": "2026-10-07T21:54:26.679973+00:00",
+    "job_id": "8257273",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta, Sunnyvale, Seattle, New York City",
+    "posted_date": "2026-10-07",
+    "title": "Technical Program Manager (Contractor)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8257273"
+  },
+  "8257330": {
+    "company": "JFrog",
+    "first_seen": "2026-10-06T22:56:48.768690+00:00",
+    "job_id": "8257330",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Atlanta, Sunnyvale, Seattle, New York City",
+    "posted_date": "2026-10-06",
+    "title": "Technical Program Manager (Contractor)",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8257330"
+  },
+  "8264438": {
+    "company": "JFrog",
+    "first_seen": "2026-10-13T21:22:14.169217+00:00",
+    "job_id": "8264438",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-10-13",
+    "title": "Developer Support Engineer",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8264438"
+  },
+  "8268919": {
+    "company": "JFrog",
+    "first_seen": "2026-10-13T21:22:14.169217+00:00",
+    "job_id": "8268919",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Sunnyvale",
+    "posted_date": "2026-10-13",
+    "title": "Operations Coordinator",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8268919"
+  },
+  "8273868": {
+    "company": "JFrog",
+    "first_seen": "2026-10-13T21:22:14.169217+00:00",
+    "job_id": "8273868",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-10-13",
+    "title": "GRC Manager",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8273868"
+  },
+  "8274188": {
+    "company": "JFrog",
+    "first_seen": "2026-10-13T21:22:14.169217+00:00",
+    "job_id": "8274188",
+    "last_seen": "2026-10-13T21:22:14.169217+00:00",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted_date": "2026-10-13",
+    "title": "Senior Solution Engineer, New Logo",
+    "url": "https://job-boards.greenhouse.io/jfrog/jobs/8274188"
+  }
+}

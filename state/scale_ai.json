@@ -1,0 +1,3052 @@
+{
+  "4282118005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4282118005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2023-06-13",
+    "title": "Strategic Projects Lead, Generative AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4282118005"
+  },
+  "4302243005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4302243005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "posted_date": "2023-08-06",
+    "title": "Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4302243005"
+  },
+  "4363623005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4363623005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "posted_date": "2024-02-15",
+    "title": "Software Engineer, Frontier AI Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4363623005"
+  },
+  "4413274005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4413274005",
+    "last_seen": "2026-09-27T15:44:36.964859+00:00",
+    "location": "Doha, Qatar; London, UK",
+    "posted_date": "2024-05-01",
+    "title": "Machine Learning Engineer, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4413274005"
+  },
+  "4413992005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4413992005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar; London, UK",
+    "posted_date": "2024-05-01",
+    "title": "Applied AI Engineer, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4413992005"
+  },
+  "4472223005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4472223005",
+    "last_seen": "2026-10-07T21:57:40.352602+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2024-09-13",
+    "title": "AI Strategy Consultant, Frontier Tech",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4472223005"
+  },
+  "4481921005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4481921005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Austin, TX; Colorado Springs, CO; Honolulu, HI; Omaha, NE; St. Louis, MO; Washington, DC",
+    "posted_date": "2024-10-09",
+    "title": "Forward Deployed Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005"
+  },
+  "4488520005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4488520005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2024-10-25",
+    "title": "Senior / Staff Machine Learning Research Scientist, Agents",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4488520005"
+  },
+  "4513943005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4513943005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2025-01-07",
+    "title": "Software Engineer, Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005"
+  },
+  "4518690005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4518690005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Colorado Springs, CO; Omaha, NE; St. Louis, MO; Washington, DC",
+    "posted_date": "2025-01-19",
+    "title": "Field Engineer, Data Engine",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4518690005"
+  },
+  "4520320005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4520320005",
+    "last_seen": "2026-08-30T20:11:39.047808+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-01-28",
+    "title": "AI Infrastructure Engineer, Model Serving Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4520320005"
+  },
+  "4521238005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4521238005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-01-24",
+    "title": "Recruiting Coordinator, Contract",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4521238005"
+  },
+  "4528009005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T20:40:58.352113+00:00",
+    "job_id": "4528009005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2025-02-11",
+    "title": "Machine Learning Research Scientist, Post-Training",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005"
+  },
+  "4529529005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4529529005",
+    "last_seen": "2026-09-08T14:32:38.792176+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2025-02-13",
+    "title": "Staff Software Engineer, Full-Stack - Enterprise Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4529529005"
+  },
+  "4534631005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4534631005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2025-03-10",
+    "title": "ML Research Engineer, ML Systems",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005"
+  },
+  "4536653005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4536653005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2025-03-04",
+    "title": "Software Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4536653005"
+  },
+  "4536659005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4536659005",
+    "last_seen": "2026-10-06T23:01:28.776994+00:00",
+    "location": "London, UK",
+    "posted_date": "2025-03-05",
+    "title": "Frontier Agents Engineer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4536659005"
+  },
+  "4549048005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4549048005",
+    "last_seen": "2026-09-28T21:47:41.655874+00:00",
+    "location": "India",
+    "posted_date": "2025-04-03",
+    "title": "Forward Deployed Engineer, Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4549048005"
+  },
+  "4554440005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4554440005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-04-22",
+    "title": "Solutions Architect, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005"
+  },
+  "4565768005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-16T20:46:17.459090+00:00",
+    "job_id": "4565768005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ; Dubai, UAE; London, UK",
+    "posted_date": "2025-08-06",
+    "title": "Product Designer, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565768005"
+  },
+  "4565834005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4565834005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2025-10-09",
+    "title": "Legal Fellow - Human Frontier Collective (US)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005"
+  },
+  "4565836005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4565836005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2025-05-17",
+    "title": "Finance Fellow - Human Frontier Collective (US)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565836005"
+  },
+  "4568601005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4568601005",
+    "last_seen": "2026-08-10T21:50:14.219550+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-07-11",
+    "title": "Deployment Engineering Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4568601005"
+  },
+  "4569678005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4569678005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-05-27",
+    "title": "Staff Software Engineer, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005"
+  },
+  "4574113005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4574113005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2025-06-06",
+    "title": "STEM Fellow - Human Frontier Collective",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4574113005"
+  },
+  "4588236005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4588236005",
+    "last_seen": "2026-08-24T20:59:00.581707+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2025-07-28",
+    "title": "AI Upskilling Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4588236005"
+  },
+  "4589749005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4589749005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ; Dubai, UAE",
+    "posted_date": "2025-09-03",
+    "title": "Product Manager of AI Applications, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4589749005"
+  },
+  "4591298005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4591298005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-08-05",
+    "title": "Senior Software Engineer, GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591298005"
+  },
+  "4591300005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4591300005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-08-05",
+    "title": "Software Engineer, Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005"
+  },
+  "4591782005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4591782005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2025-07-30",
+    "title": "Medical Fellow - Human Frontier Collective (US)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591782005"
+  },
+  "4593571005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4593571005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-08-05",
+    "title": "Forward Deployed Engineer, GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005"
+  },
+  "4593823005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4593823005",
+    "last_seen": "2026-10-07T21:57:40.352602+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2025-08-05",
+    "title": "Engagement Manager, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593823005"
+  },
+  "4594879005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4594879005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-08-21",
+    "title": "Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005"
+  },
+  "4595555005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4595555005",
+    "last_seen": "2026-10-06T00:22:25.255756+00:00",
+    "location": "London, UK",
+    "posted_date": "2025-08-11",
+    "title": "Engineering Manager, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4595555005"
+  },
+  "4599202005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4599202005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2025-08-22",
+    "title": "Principal Architect",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599202005"
+  },
+  "4599700005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4599700005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2025-08-20",
+    "title": "Senior Infrastructure Software Engineer, Enterprise AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005"
+  },
+  "4602177005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4602177005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-01-27",
+    "title": "Frontier Agent Engineering Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4602177005"
+  },
+  "4607930005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4607930005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2025-09-16",
+    "title": "Strategist, Qatar",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4607930005"
+  },
+  "4609494005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4609494005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2025-09-17",
+    "title": "University Recruiter, Contract",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4609494005"
+  },
+  "4609736005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4609736005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2025-09-18",
+    "title": "AI Product Manager (Coding/Multimodal)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4609736005"
+  },
+  "4611448005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4611448005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-01",
+    "title": "VP, Research",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611448005"
+  },
+  "4611533005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4611533005",
+    "last_seen": "2026-08-26T00:20:04.360404+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2025-09-22",
+    "title": "Technical Advisor Specialist (Part-Time Internship)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005"
+  },
+  "4611776005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4611776005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-09-23",
+    "title": "Senior AI Product Manager, Finance Agents",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611776005"
+  },
+  "4612282005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4612282005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Argentina; Uruguay",
+    "posted_date": "2025-12-30",
+    "title": "Software Engineer, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005"
+  },
+  "4612329005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4612329005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2025-10-17",
+    "title": "Medical Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612329005"
+  },
+  "4612403005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4612403005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA; Washington, DC",
+    "posted_date": "2025-10-14",
+    "title": "Staff Product Manager, Agentic Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005"
+  },
+  "4613327005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4613327005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2025-10-17",
+    "title": "Finance Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4613327005"
+  },
+  "4613333005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4613333005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2025-10-17",
+    "title": "Legal Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4613333005"
+  },
+  "4618046005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4618046005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-10",
+    "title": "Tech Lead Manager- MLRE, ML Systems",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
+  },
+  "4620719005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4620719005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2025-10-17",
+    "title": "STEM Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4620719005"
+  },
+  "4622826005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-24T20:59:00.581707+00:00",
+    "job_id": "4622826005",
+    "last_seen": "2026-08-27T20:30:06.038329+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2025-11-03",
+    "title": "Mission Product Specialist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4622826005"
+  },
+  "4625271005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4625271005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-31",
+    "title": "Engineering Manager, Agent Oversight",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625271005"
+  },
+  "4625337005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4625337005",
+    "last_seen": "2026-09-15T00:56:29.451156+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-31",
+    "title": "Staff Machine Learning Research Scientist Agent Post-training - Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625337005"
+  },
+  "4625341005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4625341005",
+    "last_seen": "2026-09-15T00:56:29.451156+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-31",
+    "title": "Machine Learning Systems Research Engineer/Scientist, Agent Post-training - Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625341005"
+  },
+  "4625344005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4625344005",
+    "last_seen": "2026-09-15T00:56:29.451156+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-31",
+    "title": "Machine Learning Research Scientist Agents - Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625344005"
+  },
+  "4625345005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4625345005",
+    "last_seen": "2026-09-15T00:56:29.451156+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-10-31",
+    "title": "Machine Learning Research Scientist, Agent Data Foundation - Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625345005"
+  },
+  "4630032005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4630032005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "Budapest, Hungary",
+    "posted_date": "2025-11-14",
+    "title": "Software Engineer (Backend), Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4630032005"
+  },
+  "4631848005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4631848005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Denver, CO; Honolulu, HI; Washington, DC",
+    "posted_date": "2025-11-18",
+    "title": "Machine Learning Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4631848005"
+  },
+  "4633072005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4633072005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2025-11-21",
+    "title": "Technical Program Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4633072005"
+  },
+  "4637484005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4637484005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2025-12-05",
+    "title": "Senior Software Engineer,  Full-Stack \u2013 Scale GP",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4637484005"
+  },
+  "4640096005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4640096005",
+    "last_seen": "2026-08-13T19:48:56.333767+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2025-12-11",
+    "title": "Machine Learning Solutions Engineer \u2013 Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4640096005"
+  },
+  "4642876005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4642876005",
+    "last_seen": "2026-10-06T23:01:28.776994+00:00",
+    "location": "London, UK",
+    "posted_date": "2025-12-29",
+    "title": "Solutions Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005"
+  },
+  "4643029005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4643029005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+    "posted_date": "2025-12-22",
+    "title": "Security Engineer, Product Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005"
+  },
+  "4644742005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4644742005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-01-19",
+    "title": "Forward Deployed Product Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4644742005"
+  },
+  "4646888005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4646888005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+    "posted_date": "2026-01-12",
+    "title": "Security Engineer, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4646888005"
+  },
+  "4646946005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4646946005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-01-07",
+    "title": "Enterprise Account Executive",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4646946005"
+  },
+  "4648176005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4648176005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-01-12",
+    "title": "Support Specialist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4648176005"
+  },
+  "4649903005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4649903005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-01-15",
+    "title": "Staff Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4649903005"
+  },
+  "4650514005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4650514005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Riyadh, Saudi Arabia",
+    "posted_date": "2026-01-16",
+    "title": "Product Manager of AI Applications, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4650514005"
+  },
+  "4651559005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4651559005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; St. Louis, MO; Washington, DC",
+    "posted_date": "2026-02-05",
+    "title": "Product Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4651559005"
+  },
+  "4651614005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4651614005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-01-20",
+    "title": "Lead Counsel, Product",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4651614005"
+  },
+  "4654382005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-10T20:56:03.862263+00:00",
+    "job_id": "4654382005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Denver, CO; Washington, DC",
+    "posted_date": "2026-01-30",
+    "title": "Staff Machine Learning Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654382005"
+  },
+  "4654510005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4654510005",
+    "last_seen": "2026-09-03T20:10:30.435163+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-01-30",
+    "title": "AI Applications Ops Manager, GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654510005"
+  },
+  "4654897005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4654897005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-01-29",
+    "title": "Senior Software Engineer - Agentic Tooling & Productivity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654897005"
+  },
+  "4655050005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4655050005",
+    "last_seen": "2026-08-18T00:41:44.936284+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-01-29",
+    "title": "Software Engineer, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655050005"
+  },
+  "4655240005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4655240005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-02-17",
+    "title": "Operations Program Manager, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655240005"
+  },
+  "4655244005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4655244005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-02-17",
+    "title": "Operations Associate, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655244005"
+  },
+  "4658162005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4658162005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-02-10",
+    "title": "Senior/Staff Machine Learning Research Engineer, General Agents, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4658162005"
+  },
+  "4658316005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4658316005",
+    "last_seen": "2026-10-02T01:26:08.334229+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-02-05",
+    "title": "Strategic Projects Lead, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4658316005"
+  },
+  "4660340005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4660340005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2026-02-12",
+    "title": "Machine Learning Fellow - Human Frontier Collective",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4660340005"
+  },
+  "4661647005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4661647005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2026-02-12",
+    "title": "Machine Learning Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661647005"
+  },
+  "4661650005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4661650005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Canada",
+    "posted_date": "2026-02-12",
+    "title": "Machine Learning Fellow - Human Frontier Collective (Canada)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661650005"
+  },
+  "4662232005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4662232005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-02-13",
+    "title": "Head of GTM Strategy & Operations, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4662232005"
+  },
+  "4663053005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4663053005",
+    "last_seen": "2026-08-12T19:33:01.686712+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-02-17",
+    "title": "ML Systems Engineer, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4663053005"
+  },
+  "4663481005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4663481005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-02-17",
+    "title": "Solutions Engineer (Clearance Required)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4663481005"
+  },
+  "4663533005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4663533005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-03-06",
+    "title": "Senior Accountant",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4663533005"
+  },
+  "4664232005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4664232005",
+    "last_seen": "2026-08-06T12:49:47.783748+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-02-19",
+    "title": "Strategic Projects Lead - Coding",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4664232005"
+  },
+  "4665557005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4665557005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-02-23",
+    "title": "Infrastructure Software Engineer, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005"
+  },
+  "4666036005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4666036005",
+    "last_seen": "2026-08-06T12:49:47.783748+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-02-24",
+    "title": "Strategic Projects Lead - Coding",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4666036005"
+  },
+  "4669171005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4669171005",
+    "last_seen": "2026-08-07T23:49:50.611685+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-03-04",
+    "title": "Senior Technical Revenue Accounting Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4669171005"
+  },
+  "4669229005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4669229005",
+    "last_seen": "2026-09-02T20:54:25.738734+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-04-30",
+    "title": "Director of Product Management, Forward Deployed & Strategy",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4669229005"
+  },
+  "4670010005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4670010005",
+    "last_seen": "2026-09-03T20:10:30.435163+00:00",
+    "location": "New York, NY; Washington, DC",
+    "posted_date": "2026-03-05",
+    "title": "Field Marketing & Events Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4670010005"
+  },
+  "4671740005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4671740005",
+    "last_seen": "2026-09-03T20:10:30.435163+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-03-10",
+    "title": "Principal AI Ops Architect, GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4671740005"
+  },
+  "4673051005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4673051005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-03-13",
+    "title": "Forward Deployed Product Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005"
+  },
+  "4673310005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4673310005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-03-24",
+    "title": "Senior Full-Stack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673310005"
+  },
+  "4673312005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-12T19:33:01.686712+00:00",
+    "job_id": "4673312005",
+    "last_seen": "2026-08-13T00:16:48.695466+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-03-24",
+    "title": "Full-Stack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673312005"
+  },
+  "4673314005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4673314005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-03-24",
+    "title": "Staff FullStack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673314005"
+  },
+  "4673771005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4673771005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "posted_date": "2026-03-16",
+    "title": "Software Engineer, ARC Team",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005"
+  },
+  "4674863005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4674863005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-03-18",
+    "title": "DevOps Engineer, Infrastructure & Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674863005"
+  },
+  "4674911005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4674911005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "posted_date": "2026-03-31",
+    "title": "Senior Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674911005"
+  },
+  "4674913005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4674913005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+    "posted_date": "2026-03-31",
+    "title": "Staff Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674913005"
+  },
+  "4675684005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4675684005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-03-20",
+    "title": "Research Scientist, Agent Robustness",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675684005"
+  },
+  "4675694005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4675694005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-03-20",
+    "title": "Research Scientist, AI Controls and Monitoring",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675694005"
+  },
+  "4675842005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4675842005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-03-23",
+    "title": "Staff Product Manager, Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675842005"
+  },
+  "4676606005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4676606005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-03-24",
+    "title": "Senior Full-Stack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4676606005"
+  },
+  "4676610005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4676610005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-03-24",
+    "title": "Staff Full-Stack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4676610005"
+  },
+  "4677657005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4677657005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-03-25",
+    "title": "Research Scientist, Frontier Risk Evaluations",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677657005"
+  },
+  "4683446005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4683446005",
+    "last_seen": "2026-10-08T23:31:20.194919+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-04-10",
+    "title": "Staff Technical Product Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4683446005"
+  },
+  "4684073005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4684073005",
+    "last_seen": "2026-09-02T18:40:28.238149+00:00",
+    "location": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+    "posted_date": "2026-04-10",
+    "title": "Security Engineer, Detection & Response",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4684073005"
+  },
+  "4684808005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4684808005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "India",
+    "posted_date": "2026-05-01",
+    "title": "SME, Support Systems Specialist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4684808005"
+  },
+  "4687050005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4687050005",
+    "last_seen": "2026-10-08T23:31:20.194919+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-04-20",
+    "title": "Frontier Data Strategist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687050005"
+  },
+  "4687052005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4687052005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-04-20",
+    "title": "Senior Frontier Data Strategist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687052005"
+  },
+  "4687384005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4687384005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Honolulu, HI",
+    "posted_date": "2026-04-21",
+    "title": "Engagement Manager (Hawaii), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687384005"
+  },
+  "4687588005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4687588005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "posted_date": "2026-04-29",
+    "title": "National Security Hackathon 2026 - General Interest",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
+  },
+  "4688021005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4688021005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-05-12",
+    "title": "Finance Systems Integration Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4688021005"
+  },
+  "4689909005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689909005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-04-28",
+    "title": "Staff Solutions Architect, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689909005"
+  },
+  "4689917005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689917005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-04-28",
+    "title": "Enterprise Account Executive (Financial Services)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689917005"
+  },
+  "4689919005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689919005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-04-28",
+    "title": "Enterprise Account Executive (Healthcare & Life Sciences)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689919005"
+  },
+  "4689947005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689947005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2026-04-29",
+    "title": "SWE Fellow - Human Frontier Collective (US)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689947005"
+  },
+  "4689950005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689950005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2026-04-29",
+    "title": "SWE Fellow - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689950005"
+  },
+  "4689954005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4689954005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Canada",
+    "posted_date": "2026-04-29",
+    "title": "SWE Fellow - Human Frontier Collective (Canada)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689954005"
+  },
+  "4690504005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4690504005",
+    "last_seen": "2026-09-17T20:52:26.719293+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-05-06",
+    "title": "Director, Forward Deployed Engineering",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4690504005"
+  },
+  "4691603005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4691603005",
+    "last_seen": "2026-08-06T12:49:47.783748+00:00",
+    "location": "Dubai, UAE; London, UK",
+    "posted_date": "2026-05-07",
+    "title": "Lead Counsel, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4691603005"
+  },
+  "4692188005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4692188005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-05-04",
+    "title": "Engagement Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4692188005"
+  },
+  "4692198005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4692198005",
+    "last_seen": "2026-08-20T00:24:21.850597+00:00",
+    "location": "Hampton Roads, VA",
+    "posted_date": "2026-05-04",
+    "title": "Engagement Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4692198005"
+  },
+  "4692201005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4692201005",
+    "last_seen": "2026-08-18T20:55:55.351831+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-05-04",
+    "title": "Technical Program Manager (Computer Vision), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4692201005"
+  },
+  "4693078005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4693078005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United States",
+    "posted_date": "2026-05-08",
+    "title": "Research Advisor - Human Frontier Collective (US)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4693078005"
+  },
+  "4693082005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4693082005",
+    "last_seen": "2026-08-31T22:04:29.910296+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-05-06",
+    "title": "Recruiter, GTM",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4693082005"
+  },
+  "4693449005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4693449005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-08",
+    "title": "Technical Program Manager, Gen AI Operations Planning",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4693449005"
+  },
+  "4693453005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4693453005",
+    "last_seen": "2026-08-12T19:33:01.686712+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-05-08",
+    "title": "Technical Lead Manager, Physical AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4693453005"
+  },
+  "4694435005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694435005",
+    "last_seen": "2026-08-07T19:25:24.255494+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-01",
+    "title": "Director, Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694435005"
+  },
+  "4694836005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694836005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-05-12",
+    "title": "Business Development Representative, Partnerships (Physical AI)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694836005"
+  },
+  "4694861005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694861005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-15",
+    "title": "Frontier Agents Engineer (Forward Deployed Engineering)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694861005"
+  },
+  "4694863005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694863005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-15",
+    "title": "Senior Frontier Agents Engineer (Forward Deployed Engineering)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694863005"
+  },
+  "4694865005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694865005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-15",
+    "title": "Staff Frontier Agents Engineer (Forward Deployed Engineering)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694865005"
+  },
+  "4694869005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4694869005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-15",
+    "title": "Senior Staff Frontier Agents Engineer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694869005"
+  },
+  "4695042005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4695042005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2026-05-13",
+    "title": "Research Advisor - Human Frontier Collective (UK)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4695042005"
+  },
+  "4696072005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4696072005",
+    "last_seen": "2026-08-16T23:47:24.743389+00:00",
+    "location": "London, UK; San Francisco, CA; Seattle, WA; New York, NY; Washington, DC",
+    "posted_date": "2026-05-28",
+    "title": "Head of Policy & Security Research Lab",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4696072005"
+  },
+  "4696595005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4696595005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-05-18",
+    "title": "Research Scientist, Safety Post Training",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4696595005"
+  },
+  "4697299005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4697299005",
+    "last_seen": "2026-08-11T15:09:42.300835+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-05-19",
+    "title": "Proposals Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4697299005"
+  },
+  "4699033005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4699033005",
+    "last_seen": "2026-08-31T22:04:29.910296+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-05-22",
+    "title": "Technical Program Manager (Germany), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4699033005"
+  },
+  "4699572005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4699572005",
+    "last_seen": "2026-08-31T22:04:29.910296+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-05-27",
+    "title": "Enterprise AI Development Strategist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4699572005"
+  },
+  "4699779005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4699779005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-05-27",
+    "title": "Product Manager, Enterprise Core Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4699779005"
+  },
+  "4699806005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4699806005",
+    "last_seen": "2026-09-22T22:34:46.224916+00:00",
+    "location": "New York, NY; San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-03",
+    "title": "Technical Program Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4699806005"
+  },
+  "4701543005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4701543005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-01",
+    "title": "Growth Strategy & Operations Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4701543005"
+  },
+  "4702122005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4702122005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-02",
+    "title": "Technical Program Manager, Red Team",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702122005"
+  },
+  "4702657005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4702657005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-05",
+    "title": "Safety Coordinator / Lab Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702657005"
+  },
+  "4702785005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4702785005",
+    "last_seen": "2026-09-24T23:52:40.145370+00:00",
+    "location": "New York, NY; San Francisco, CA; Washington, DC",
+    "posted_date": "2026-06-04",
+    "title": "Associate General Counsel, Product & IP",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702785005"
+  },
+  "4702795005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4702795005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-05",
+    "title": "Technical Writer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702795005"
+  },
+  "4702890005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4702890005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-06-19",
+    "title": "Product Leadership, Forward Deployed & Strategy",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702890005"
+  },
+  "4703275005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4703275005",
+    "last_seen": "2026-09-22T22:34:46.224916+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-04",
+    "title": "Technical Program Manager, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703275005"
+  },
+  "4703343005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4703343005",
+    "last_seen": "2026-08-26T20:40:58.352113+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-06",
+    "title": "AI Builder Intern",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005"
+  },
+  "4703527005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4703527005",
+    "last_seen": "2026-10-07T21:57:40.352602+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-06-08",
+    "title": "Staff Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703527005"
+  },
+  "4704285005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4704285005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Canada; United States",
+    "posted_date": "2026-06-09",
+    "title": "Subject Matter Expert",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704285005"
+  },
+  "4704551005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4704551005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-06-10",
+    "title": "IT Systems Engineer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704551005"
+  },
+  "4704553005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4704553005",
+    "last_seen": "2026-08-07T23:49:50.611685+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-06-11",
+    "title": "Lead Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704553005"
+  },
+  "4704555005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4704555005",
+    "last_seen": "2026-08-06T12:49:47.783748+00:00",
+    "location": "St. Louis, MO; Washington, DC",
+    "posted_date": "2026-06-12",
+    "title": "Operations Program Manager (Computer Vision), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704555005"
+  },
+  "4704879005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4704879005",
+    "last_seen": "2026-08-07T00:44:53.014031+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-11",
+    "title": "Technical Program Manager, Engineering",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704879005"
+  },
+  "4706142005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4706142005",
+    "last_seen": "2026-08-14T18:37:23.659213+00:00",
+    "location": "San Francisco, CA; Washington, DC",
+    "posted_date": "2026-06-26",
+    "title": "Head of Global Policy",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4706142005"
+  },
+  "4708171005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4708171005",
+    "last_seen": "2026-09-01T19:15:51.726862+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-26",
+    "title": "ICML 2026 - University Recruiting",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708171005"
+  },
+  "4708221005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4708221005",
+    "last_seen": "2026-09-15T21:04:06.455141+00:00",
+    "location": "New York, NY; Washington, DC",
+    "posted_date": "2026-06-22",
+    "title": "Software Engineer, Data Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708221005"
+  },
+  "4708587005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4708587005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "Doha, Qatar; London, UK",
+    "posted_date": "2026-06-26",
+    "title": "EMEA Assurance Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708587005"
+  },
+  "4708811005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4708811005",
+    "last_seen": "2026-09-01T19:15:51.726862+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-30",
+    "title": "Head of Healthcare GTM",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708811005"
+  },
+  "4709123005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709123005",
+    "last_seen": "2026-08-15T21:50:51.282879+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-06-25",
+    "title": "Senior Engineering Manager, Defense",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709123005"
+  },
+  "4709129005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709129005",
+    "last_seen": "2026-09-08T14:32:38.792176+00:00",
+    "location": "Dubai, UAE",
+    "posted_date": "2026-06-25",
+    "title": "Engineering Manager, UAE",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709129005"
+  },
+  "4709132005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709132005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Riyadh, Saudi Arabia",
+    "posted_date": "2026-06-25",
+    "title": "Engineering Manager, Saudi Arabia",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709132005"
+  },
+  "4709157005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709157005",
+    "last_seen": "2026-10-12T23:16:06.049616+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-06-24",
+    "title": "Deployment Strategist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709157005"
+  },
+  "4709281005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709281005",
+    "last_seen": "2026-08-21T18:47:09.384361+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-24",
+    "title": "Senior AI Product Manager, Healthcare Agents",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709281005"
+  },
+  "4709439005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4709439005",
+    "last_seen": "2026-09-18T19:54:08.132070+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-06-26",
+    "title": "Head of Field Marketing and Events, Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709439005"
+  },
+  "4710382005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4710382005",
+    "last_seen": "2026-08-13T19:48:56.333767+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-06-29",
+    "title": "Solutions Engineer \u2013 Robotics & Autonomous Driving",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4710382005"
+  },
+  "4710484005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4710484005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "posted_date": "2026-06-30",
+    "title": "Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4710484005"
+  },
+  "4711544005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4711544005",
+    "last_seen": "2026-10-06T23:01:28.776994+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-02",
+    "title": "Machine Learning Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711544005"
+  },
+  "4711741005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4711741005",
+    "last_seen": "2026-09-15T21:04:06.455141+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-08",
+    "title": "Security Assurance Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711741005"
+  },
+  "4711898005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4711898005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY; Washington, DC",
+    "posted_date": "2026-07-08",
+    "title": "Senior Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005"
+  },
+  "4711993005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4711993005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-07",
+    "title": "Technical Program Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711993005"
+  },
+  "4711995005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4711995005",
+    "last_seen": "2026-09-23T22:09:31.273825+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-07",
+    "title": "Technical Program Manager, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711995005"
+  },
+  "4712145005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4712145005",
+    "last_seen": "2026-10-07T21:57:40.352602+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-07",
+    "title": "Sr Staff ML Forward Deployed Engineer, Enterprise GenAI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4712145005"
+  },
+  "4712321005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4712321005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-15",
+    "title": "Head of International Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4712321005"
+  },
+  "4712678005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4712678005",
+    "last_seen": "2026-09-14T01:46:02.968813+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-07-07",
+    "title": "Senior Technical Program Manager, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4712678005"
+  },
+  "4713429005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-27T20:30:06.038329+00:00",
+    "job_id": "4713429005",
+    "last_seen": "2026-09-03T20:10:30.435163+00:00",
+    "location": "Doha, Qatar ; Dubai, UAE; Riyadh, Saudia Arabia; Doha, Qatar",
+    "posted_date": "2026-08-27",
+    "title": "Head of Solutions Engineering, EMEA",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713429005"
+  },
+  "4713532005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4713532005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2026-07-09",
+    "title": "Deployment Strategist, Space Systems Command",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713532005"
+  },
+  "4713597005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4713597005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-10",
+    "title": "Senior Data Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713597005"
+  },
+  "4713608005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4713608005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2026-07-09",
+    "title": "Staff Software Engineer, Full Stack - Gen AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713608005"
+  },
+  "4713648005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4713648005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; Washington, DC",
+    "posted_date": "2026-07-14",
+    "title": "Forward Deployed Product Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713648005"
+  },
+  "4714509005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4714509005",
+    "last_seen": "2026-08-06T12:49:47.783748+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-14",
+    "title": "Senior Software Engineer, Agent Oversight",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4714509005"
+  },
+  "4714527005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4714527005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-14",
+    "title": "Staff/Senior Machine Learning Research Engineer, Intelligent Systems",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4714527005"
+  },
+  "4714727005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4714727005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-09-09",
+    "title": "Director of Product Management, Enterprise Core Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4714727005"
+  },
+  "4715325005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4715325005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-14",
+    "title": "Software Engineering Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715325005"
+  },
+  "4715352005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4715352005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-16",
+    "title": "Senior Software Engineer, Identity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715352005"
+  },
+  "4715714005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4715714005",
+    "last_seen": "2026-09-08T14:32:38.792176+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-07-16",
+    "title": "HR Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715714005"
+  },
+  "4715970005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4715970005",
+    "last_seen": "2026-10-12T23:16:06.049616+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-16",
+    "title": "AI Advisory Consultant",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715970005"
+  },
+  "4715976005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4715976005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-16",
+    "title": "AI Advisory Principal",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4715976005"
+  },
+  "4716431005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716431005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Argentina; Mexico City, MX",
+    "posted_date": "2026-07-27",
+    "title": "Support Team Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716431005"
+  },
+  "4716445005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716445005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-07-27",
+    "title": "Enablement Manager (Support)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716445005"
+  },
+  "4716453005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716453005",
+    "last_seen": "2026-09-15T21:04:06.455141+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2026-07-20",
+    "title": "AI Infrastructure Engineer, Sandbox Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716453005"
+  },
+  "4716772005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716772005",
+    "last_seen": "2026-08-07T20:47:22.390352+00:00",
+    "location": "Columbia, MD",
+    "posted_date": "2026-07-21",
+    "title": "Technical Program Manager, Public Sector (Columbia, MD)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716772005"
+  },
+  "4716836005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716836005",
+    "last_seen": "2026-08-18T20:55:55.351831+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-20",
+    "title": "Engagement Manager (Computer Vision), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716836005"
+  },
+  "4716908005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4716908005",
+    "last_seen": "2026-08-21T18:47:09.384361+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-21",
+    "title": "Head of Engagement Management",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4716908005"
+  },
+  "4717101005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717101005",
+    "last_seen": "2026-09-24T23:52:40.145370+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-22",
+    "title": "Senior Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717101005"
+  },
+  "4717105005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717105005",
+    "last_seen": "2026-09-24T23:52:40.145370+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-23",
+    "title": "AI Infrastructure Engineer, Sandbox Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717105005"
+  },
+  "4717574005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717574005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Dubai, UAE; London, UK",
+    "posted_date": "2026-07-24",
+    "title": "Sales Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717574005"
+  },
+  "4717642005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717642005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-23",
+    "title": "Executive Assistant",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717642005"
+  },
+  "4717648005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717648005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Austin, TX; Colorado Springs, CO; Omaha, NE; St. Louis, MO; Washington, DC",
+    "posted_date": "2026-07-22",
+    "title": "Field Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717648005"
+  },
+  "4717701005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717701005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-07-24",
+    "title": "Team Lead, ARC Software Engineering Team",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717701005"
+  },
+  "4717974005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717974005",
+    "last_seen": "2026-08-30T20:11:39.047808+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-24",
+    "title": "Associate General Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717974005"
+  },
+  "4717977005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717977005",
+    "last_seen": "2026-09-24T23:52:40.145370+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-24",
+    "title": "AI Infrastructure Engineer, Serving Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717977005"
+  },
+  "4717999005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4717999005",
+    "last_seen": "2026-08-07T20:47:22.390352+00:00",
+    "location": "Columbia, MD",
+    "posted_date": "2026-07-23",
+    "title": "Engagement Manager, Public Sector (Columbia, MD)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717999005"
+  },
+  "4718258005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718258005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; St. Louis, MO; Washington, DC",
+    "posted_date": "2026-07-24",
+    "title": "Infrastructure Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718258005"
+  },
+  "4718311005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718311005",
+    "last_seen": "2026-09-08T14:32:38.792176+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-07-24",
+    "title": "Senior Technician, Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718311005"
+  },
+  "4718314005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718314005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "New York, NY; St. Louis, MO; Washington, DC",
+    "posted_date": "2026-07-24",
+    "title": "Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718314005"
+  },
+  "4718431005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718431005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-24",
+    "title": "Senior Manager, Research Scientist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718431005"
+  },
+  "4718559005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718559005",
+    "last_seen": "2026-10-02T01:26:08.334229+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-07-27",
+    "title": "Staff Product Manager, Physical AI Data & Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718559005"
+  },
+  "4718618005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718618005",
+    "last_seen": "2026-09-29T20:26:29.080305+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-07-27",
+    "title": "Director of Engineering, Physical AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718618005"
+  },
+  "4718917005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718917005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-07-29",
+    "title": "Staff Product Designer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718917005"
+  },
+  "4718940005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4718940005",
+    "last_seen": "2026-10-06T23:01:28.776994+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-28",
+    "title": "Senior Communications Manager, Corporate & Product (Enterprise)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718940005"
+  },
+  "4719479005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4719479005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-30",
+    "title": "Engineering Manager, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4719479005"
+  },
+  "4720050005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720050005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-30",
+    "title": "Staff Applied AI Engineer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720050005"
+  },
+  "4720163005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720163005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-03",
+    "title": "Chief of Staff, Public Sector Engineering & Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720163005"
+  },
+  "4720213005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720213005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior AI Product Manager, Cybersecurity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720213005"
+  },
+  "4720216005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720216005",
+    "last_seen": "2026-09-22T22:34:46.224916+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior AI Product Manager, Leaderboard",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720216005"
+  },
+  "4720422005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720422005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Austin, TX; Colorado Springs, CO; Honolulu, HI; Omaha, NE; St. Louis, MO; Washington, DC",
+    "posted_date": "2026-07-31",
+    "title": "Senior Mission Software Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720422005"
+  },
+  "4720478005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720478005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-31",
+    "title": "Senior Frontier Agents Engineer (Applied AI)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720478005"
+  },
+  "4720487005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720487005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-31",
+    "title": "Staff Frontier Agents Engineer (Applied AI)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720487005"
+  },
+  "4720501005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720501005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior AI Product Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720501005"
+  },
+  "4720573005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720573005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-07-31",
+    "title": "Frontier Agents Engineer (Applied AI)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720573005"
+  },
+  "4720900005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720900005",
+    "last_seen": "2026-08-16T23:47:24.743389+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-08-03",
+    "title": "Payroll Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720900005"
+  },
+  "4720969005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720969005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-03",
+    "title": "Program Manager - Growth Operations, Contract",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720969005"
+  },
+  "4720975005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-05T15:49:58.087569+00:00",
+    "job_id": "4720975005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-03",
+    "title": "Growth Recruiter, High Volume - Contract",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720975005"
+  },
+  "4721008005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-07T00:44:53.014031+00:00",
+    "job_id": "4721008005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-06",
+    "title": "Senior Product Design Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4721008005"
+  },
+  "4721010005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-06T00:33:15.818515+00:00",
+    "job_id": "4721010005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Colorado Springs, CO",
+    "posted_date": "2026-08-05",
+    "title": "Engagement Manager, Public Sector (CO Springs)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4721010005"
+  },
+  "4722445005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-07T23:49:50.611685+00:00",
+    "job_id": "4722445005",
+    "last_seen": "2026-08-11T18:04:44.020020+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-07",
+    "title": "Operations Program Manager / Associate, Industrial Partnerships - Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722445005"
+  },
+  "4722512005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-13T14:24:20.527891+00:00",
+    "job_id": "4722512005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-08-13",
+    "title": "Software Engineer - AI Enablement",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722512005"
+  },
+  "4722811005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-10T21:50:14.219550+00:00",
+    "job_id": "4722811005",
+    "last_seen": "2026-10-08T23:31:20.194919+00:00",
+    "location": "New York, NY",
+    "posted_date": "2026-08-10",
+    "title": "Sr. Director, (Applied AI)  Forward Deployed Engineering",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722811005"
+  },
+  "4722819005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-11T20:14:54.793969+00:00",
+    "job_id": "4722819005",
+    "last_seen": "2026-09-08T14:32:38.792176+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-11",
+    "title": "Employee Relations Partner",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722819005"
+  },
+  "4722928005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-11T16:18:24.923934+00:00",
+    "job_id": "4722928005",
+    "last_seen": "2026-09-25T19:40:05.082820+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-11",
+    "title": "Strategic Projects Lead, Public Sector - Cyber",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722928005"
+  },
+  "4722941005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-12T00:15:09.485011+00:00",
+    "job_id": "4722941005",
+    "last_seen": "2026-10-01T12:43:48.011947+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-11",
+    "title": "Workplace Operations Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722941005"
+  },
+  "4722944005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-14T18:37:23.659213+00:00",
+    "job_id": "4722944005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-08-14",
+    "title": "Strategic Finance Manager, Corporate",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722944005"
+  },
+  "4722998005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-12T14:14:58.421618+00:00",
+    "job_id": "4722998005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-12",
+    "title": "Product Marketing Lead, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722998005"
+  },
+  "4723000005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-13T14:24:20.527891+00:00",
+    "job_id": "4723000005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-08-13",
+    "title": "Product Marketing Manager, Global Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723000005"
+  },
+  "4723002005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-12T19:33:01.686712+00:00",
+    "job_id": "4723002005",
+    "last_seen": "2026-09-27T15:44:36.964859+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-12",
+    "title": "National Security Policy, Senior Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723002005"
+  },
+  "4723290005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-11T20:14:54.793969+00:00",
+    "job_id": "4723290005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-08-11",
+    "title": "Operations Program Manager / Associate, Industrial Partnerships - Robotics",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723290005"
+  },
+  "4723638005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-13T00:16:48.695466+00:00",
+    "job_id": "4723638005",
+    "last_seen": "2026-08-18T22:46:44.775504+00:00",
+    "location": "Dallas, TX",
+    "posted_date": "2026-08-12",
+    "title": "Area Manager, Red Team",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723638005"
+  },
+  "4724276005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-14T16:56:20.387507+00:00",
+    "job_id": "4724276005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; Washington, DC",
+    "posted_date": "2026-08-14",
+    "title": "Staff Product Designer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4724276005"
+  },
+  "4725133005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-20T20:34:59.518827+00:00",
+    "job_id": "4725133005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-08-20",
+    "title": "Senior Software Engineer, AI Operations, GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725133005"
+  },
+  "4725317005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-18T20:55:55.351831+00:00",
+    "job_id": "4725317005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-18",
+    "title": "Partner Development Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725317005"
+  },
+  "4725451005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-20T00:24:21.850597+00:00",
+    "job_id": "4725451005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-19",
+    "title": "Enterprise Pricing Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725451005"
+  },
+  "4725509005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-22T16:08:00.494544+00:00",
+    "job_id": "4725509005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-21",
+    "title": "Data Acquisition Lead, Frontier Environments",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725509005"
+  },
+  "4725926005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-21T16:32:35.751098+00:00",
+    "job_id": "4725926005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Omaha, NE",
+    "posted_date": "2026-08-21",
+    "title": "Engagement Manager, Public Sector (Midwest)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725926005"
+  },
+  "4726264005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-24T20:59:00.581707+00:00",
+    "job_id": "4726264005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-24",
+    "title": "Engagement Manager (Homeland Layered Defense), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726264005"
+  },
+  "4726268005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-24T20:59:00.581707+00:00",
+    "job_id": "4726268005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-24",
+    "title": "Technical Program Manager (Homeland Layered Defense), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726268005"
+  },
+  "4726274005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-24T20:59:00.581707+00:00",
+    "job_id": "4726274005",
+    "last_seen": "2026-10-05T22:11:34.865991+00:00",
+    "location": "Colorado Springs, CO",
+    "posted_date": "2026-08-24",
+    "title": "Engagement Manager (Homeland Layered Defense), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726274005"
+  },
+  "4726276005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-24T20:59:00.581707+00:00",
+    "job_id": "4726276005",
+    "last_seen": "2026-10-05T22:11:34.865991+00:00",
+    "location": "Colorado Springs, CO",
+    "posted_date": "2026-08-24",
+    "title": "Technical Program Manager (Homeland Layered Defense), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726276005"
+  },
+  "4727135005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T00:20:04.360404+00:00",
+    "job_id": "4727135005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-08-24",
+    "title": "Program Manager, Technical Enablement",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727135005"
+  },
+  "4727138005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T00:20:04.360404+00:00",
+    "job_id": "4727138005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-25",
+    "title": "Program Manager, Sales Enablement",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727138005"
+  },
+  "4727162005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T00:20:04.360404+00:00",
+    "job_id": "4727162005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-24",
+    "title": "Subcontracts Manager, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727162005"
+  },
+  "4727185005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T00:20:04.360404+00:00",
+    "job_id": "4727185005",
+    "last_seen": "2026-09-21T22:02:09.811556+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-08-24",
+    "title": "Program Manager, Compliance",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727185005"
+  },
+  "4727252005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T20:40:58.352113+00:00",
+    "job_id": "4727252005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Riyadh, Saudi Arabia",
+    "posted_date": "2026-08-26",
+    "title": "Engagement Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727252005"
+  },
+  "4727671005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T20:40:58.352113+00:00",
+    "job_id": "4727671005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-08-26",
+    "title": "Deployment Strategist - DHS/DOJ",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727671005"
+  },
+  "4728014005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-26T20:40:58.352113+00:00",
+    "job_id": "4728014005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2026-08-26",
+    "title": "Machine Learning Research Scientist, Evaluations",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728014005"
+  },
+  "4728956005": {
+    "company": "Scale AI",
+    "first_seen": "2026-08-30T20:11:39.047808+00:00",
+    "job_id": "4728956005",
+    "last_seen": "2026-09-16T20:46:17.459090+00:00",
+    "location": "Argentina",
+    "posted_date": "2026-08-28",
+    "title": "Operations Associate",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728956005"
+  },
+  "4729620005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-08T14:32:38.792176+00:00",
+    "job_id": "4729620005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-03",
+    "title": "Senior Product Design Manager, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729620005"
+  },
+  "4729820005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-02T18:40:28.238149+00:00",
+    "job_id": "4729820005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-09-02",
+    "title": "Staff Software Engineer, RL Environments",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729820005"
+  },
+  "4729899005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-02T20:54:25.738734+00:00",
+    "job_id": "4729899005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-09-02",
+    "title": "Senior Data Analyst, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729899005"
+  },
+  "4729979005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-02T18:40:28.238149+00:00",
+    "job_id": "4729979005",
+    "last_seen": "2026-10-06T23:01:28.776994+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-02",
+    "title": "Infrastructure Software Engineer, Apps Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729979005"
+  },
+  "4730306005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-08T14:32:38.792176+00:00",
+    "job_id": "4730306005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-09-03",
+    "title": "GenAI Compliance Operations & Programs Associate",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730306005"
+  },
+  "4730337005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-03T20:10:30.435163+00:00",
+    "job_id": "4730337005",
+    "last_seen": "2026-09-28T21:47:41.655874+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-03",
+    "title": "Staff Network Engineer, App Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730337005"
+  },
+  "4730512005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-03T20:10:30.435163+00:00",
+    "job_id": "4730512005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-09-03",
+    "title": "Senior Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730512005"
+  },
+  "4730528005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-08T14:32:38.792176+00:00",
+    "job_id": "4730528005",
+    "last_seen": "2026-10-12T02:13:28.031297+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-09-03",
+    "title": "Global Payroll Analyst",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730528005"
+  },
+  "4730834005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-14T22:22:17.999159+00:00",
+    "job_id": "4730834005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-09-14",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
+  },
+  "4730836005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-08T14:32:38.792176+00:00",
+    "job_id": "4730836005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-04",
+    "title": "Software Engineer - New Grad",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005"
+  },
+  "4730845005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-08T14:32:38.792176+00:00",
+    "job_id": "4730845005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-04",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005"
+  },
+  "4730846005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-14T22:22:17.999159+00:00",
+    "job_id": "4730846005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-14",
+    "title": "Software Engineering Intern (Summer 2027)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
+  },
+  "4730851005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-14T22:22:17.999159+00:00",
+    "job_id": "4730851005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Doha, Qatar ",
+    "posted_date": "2026-09-14",
+    "title": "Software Engineer - New Grad",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
+  },
+  "4730862005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-14T22:22:17.999159+00:00",
+    "job_id": "4730862005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-14",
+    "title": "Software Engineer - New Grad",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+  },
+  "4730990005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4730990005",
+    "last_seen": "2026-10-05T22:11:34.865991+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2026-09-08",
+    "title": "Technical Program Manager, Public Sector (Boston, MA)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730990005"
+  },
+  "4731017005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4731017005",
+    "last_seen": "2026-10-05T22:11:34.865991+00:00",
+    "location": "Dayton, OH",
+    "posted_date": "2026-09-08",
+    "title": "Technical Program Manager, Public Sector (Dayton, OH)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4731017005"
+  },
+  "4731630005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4731630005",
+    "last_seen": "2026-10-07T21:57:40.352602+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-09",
+    "title": "Software Engineer, Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4731630005"
+  },
+  "4731928005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4731928005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-09-09",
+    "title": "Contributor Experience Manager, Community",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4731928005"
+  },
+  "4732222005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4732222005",
+    "last_seen": "2026-09-25T19:40:05.082820+00:00",
+    "location": "Columbia, MD; Washington, DC",
+    "posted_date": "2026-09-09",
+    "title": "Technical Program Manager (Cyber), Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732222005"
+  },
+  "4732365005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-09T21:38:18.018516+00:00",
+    "job_id": "4732365005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-09-09",
+    "title": "Engineering Manager, Frontier AI Infrastructure - Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732365005"
+  },
+  "4732394005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-10T20:56:03.862263+00:00",
+    "job_id": "4732394005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Riyadh, Saudi Arabia",
+    "posted_date": "2026-09-10",
+    "title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732394005"
+  },
+  "4732430005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-10T20:56:03.862263+00:00",
+    "job_id": "4732430005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Riyadh, Saudi Arabia",
+    "posted_date": "2026-09-10",
+    "title": "Staff Full-Stack Software Engineer, (Forward Deployed), GPS",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732430005"
+  },
+  "4732798005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-10T20:56:03.862263+00:00",
+    "job_id": "4732798005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Denver, CO; Honolulu, HI; Washington, DC",
+    "posted_date": "2026-09-10",
+    "title": "Senior Machine Learning Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732798005"
+  },
+  "4733702005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-15T21:04:06.455141+00:00",
+    "job_id": "4733702005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-09-15",
+    "title": "Engineering Manager, Customer Platform (GenAI)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4733702005"
+  },
+  "4734728005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-18T19:54:08.132070+00:00",
+    "job_id": "4734728005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-18",
+    "title": "Payroll Specialist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4734728005"
+  },
+  "4735192005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-17T20:52:26.719293+00:00",
+    "job_id": "4735192005",
+    "last_seen": "2026-10-02T01:26:08.334229+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-09-17",
+    "title": "Solutions Engineering Lead, Healthcare & Life Sciences",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735192005"
+  },
+  "4735196005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-17T20:52:26.719293+00:00",
+    "job_id": "4735196005",
+    "last_seen": "2026-10-02T01:26:08.334229+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-09-17",
+    "title": "Solutions Engineering Lead, Consumer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735196005"
+  },
+  "4735208005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-17T20:52:26.719293+00:00",
+    "job_id": "4735208005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-09-17",
+    "title": "Technical Program Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735208005"
+  },
+  "4735360005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-24T23:52:40.145370+00:00",
+    "job_id": "4735360005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-24",
+    "title": "Staff Product Designer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735360005"
+  },
+  "4736243005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-01T12:43:48.011947+00:00",
+    "job_id": "4736243005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-30",
+    "title": "Public Sector Lead, Defence & Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4736243005"
+  },
+  "4736426005": {
+    "company": "Scale AI",
+    "first_seen": "2026-09-23T22:09:31.273825+00:00",
+    "job_id": "4736426005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-23",
+    "title": "Software Engineer, Public Sector - New Grad",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4736426005"
+  },
+  "4736877005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-05T22:11:34.865991+00:00",
+    "job_id": "4736877005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY",
+    "posted_date": "2026-09-30",
+    "title": "COLM 2026 - General Interest",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4736877005"
+  },
+  "4738221005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-01T12:43:48.011947+00:00",
+    "job_id": "4738221005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-09-30",
+    "title": "Global Head of Workplace",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4738221005"
+  },
+  "4739058005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-01T12:43:48.011947+00:00",
+    "job_id": "4739058005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-09-30",
+    "title": "Product Marketing Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4739058005"
+  },
+  "4739727005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-02T01:26:08.334229+00:00",
+    "job_id": "4739727005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-10-01",
+    "title": "Account Based Marketing Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4739727005"
+  },
+  "4739920005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-02T01:26:08.334229+00:00",
+    "job_id": "4739920005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-10-01",
+    "title": "Senior Software Engineer, Orchestration Platform",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4739920005"
+  },
+  "4740039005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-04T23:06:12.681843+00:00",
+    "job_id": "4740039005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA; New York, NY",
+    "posted_date": "2026-10-02",
+    "title": "Product Operations Lead, Generative AI",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4740039005"
+  },
+  "4740043005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-04T23:06:12.681843+00:00",
+    "job_id": "4740043005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-10-02",
+    "title": "Revenue Operations Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4740043005"
+  },
+  "4740975005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-06T23:01:28.776994+00:00",
+    "job_id": "4740975005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-10-06",
+    "title": "Public Sector Lead, Central Government",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4740975005"
+  },
+  "4741059005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-06T23:01:28.776994+00:00",
+    "job_id": "4741059005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-10-06",
+    "title": "IT Support Engineer",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4741059005"
+  },
+  "4741087005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-07T21:57:40.352602+00:00",
+    "job_id": "4741087005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "New York, NY; San Francisco, CA",
+    "posted_date": "2026-10-07",
+    "title": "Enterprise AI Development Strategist",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4741087005"
+  },
+  "4741462005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-12T23:16:06.049616+00:00",
+    "job_id": "4741462005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-10-12",
+    "title": "Field Marketing & Events Manager, Frontier Data",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4741462005"
+  },
+  "4742042005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-12T02:13:28.031297+00:00",
+    "job_id": "4742042005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Washington, DC",
+    "posted_date": "2026-10-09",
+    "title": "Systems Engineering Integration & Test Lead, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4742042005"
+  },
+  "4742967005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-12T23:16:06.049616+00:00",
+    "job_id": "4742967005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "Miami, FL",
+    "posted_date": "2026-10-12",
+    "title": "Engagement Manager, Public Sector (Miami, FL)",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4742967005"
+  },
+  "4743370005": {
+    "company": "Scale AI",
+    "first_seen": "2026-10-13T21:25:41.011265+00:00",
+    "job_id": "4743370005",
+    "last_seen": "2026-10-13T21:25:41.011265+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-10-13",
+    "title": "Head of Strategic Partnerships, Labs",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4743370005"
+  }
+}

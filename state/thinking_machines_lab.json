@@ -1,0 +1,742 @@
+{
+  "0046b97e-6b8d-4dde-8d11-37aed910151a": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "0046b97e-6b8d-4dde-8d11-37aed910151a",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Supercomputing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/0046b97e-6b8d-4dde-8d11-37aed910151a"
+  },
+  "01aba71c-b55f-4df5-b803-dc545e6a9434": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-20T20:35:58.326131+00:00",
+    "job_id": "01aba71c-b55f-4df5-b803-dc545e6a9434",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-24",
+    "title": "Research, Safety",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/01aba71c-b55f-4df5-b803-dc545e6a9434"
+  },
+  "079f3334-43ae-4ee7-9671-1dbad75dd8df": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "079f3334-43ae-4ee7-9671-1dbad75dd8df",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Product Manager - Deployment",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/079f3334-43ae-4ee7-9671-1dbad75dd8df"
+  },
+  "0871bc29-7ca0-4906-a674-7b32527617ab": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-22T16:08:49.444250+00:00",
+    "job_id": "0871bc29-7ca0-4906-a674-7b32527617ab",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-21",
+    "title": "Research, RL Scaling",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/0871bc29-7ca0-4906-a674-7b32527617ab"
+  },
+  "0a71cb88-068b-4ac6-9912-e498c49b1343": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-17T20:55:52.406259+00:00",
+    "job_id": "0a71cb88-068b-4ac6-9912-e498c49b1343",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Research, Finetuning Science",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/0a71cb88-068b-4ac6-9912-e498c49b1343"
+  },
+  "0b0b63c8-79b6-4901-9861-4a7f98370d30": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "0b0b63c8-79b6-4901-9861-4a7f98370d30",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Technical Sourcer",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/0b0b63c8-79b6-4901-9861-4a7f98370d30"
+  },
+  "0e3920c4-9811-491e-9aef-67601c65a87f": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-17T20:55:52.406259+00:00",
+    "job_id": "0e3920c4-9811-491e-9aef-67601c65a87f",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Research, Tinker, RL Systems",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/0e3920c4-9811-491e-9aef-67601c65a87f"
+  },
+  "1161c2d5-17a1-41cb-a2c8-5558d5e42acb": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "1161c2d5-17a1-41cb-a2c8-5558d5e42acb",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Engineering Manager",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/1161c2d5-17a1-41cb-a2c8-5558d5e42acb"
+  },
+  "14bef671-162c-4513-bfcf-e679e41e10a8": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "14bef671-162c-4513-bfcf-e679e41e10a8",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Infrastructure Engineer, Security",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/14bef671-162c-4513-bfcf-e679e41e10a8"
+  },
+  "162cac0f-7861-413f-8ffb-2df1823be067": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "162cac0f-7861-413f-8ffb-2df1823be067",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Governance, Risk and Compliance Lead",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/162cac0f-7861-413f-8ffb-2df1823be067"
+  },
+  "17e34f27-4ce8-4bf2-b9dc-83a1816e21f9": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "17e34f27-4ce8-4bf2-b9dc-83a1816e21f9",
+    "last_seen": "2026-09-02T20:55:30.788044+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Pre-Training Science",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/17e34f27-4ce8-4bf2-b9dc-83a1816e21f9"
+  },
+  "1b503b26-dd56-4496-8f74-2c8abb3b7e4b": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-03T20:11:42.807528+00:00",
+    "job_id": "1b503b26-dd56-4496-8f74-2c8abb3b7e4b",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-03",
+    "title": "Product Manager - Post Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/1b503b26-dd56-4496-8f74-2c8abb3b7e4b"
+  },
+  "1d875087-b68d-4292-abed-7641a1e94fd8": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-12T02:14:04.130474+00:00",
+    "job_id": "1d875087-b68d-4292-abed-7641a1e94fd8",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-10",
+    "title": "Software Engineer, Production Inference (Distributed Inference)",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/1d875087-b68d-4292-abed-7641a1e94fd8"
+  },
+  "24f4c1e0-12bc-4f6c-ae7a-637ecd6bd56c": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "24f4c1e0-12bc-4f6c-ae7a-637ecd6bd56c",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Audio Expertise",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/24f4c1e0-12bc-4f6c-ae7a-637ecd6bd56c"
+  },
+  "24fdba4c-7c87-48d2-aec3-7421fd2577d2": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "24fdba4c-7c87-48d2-aec3-7421fd2577d2",
+    "last_seen": "2026-08-16T23:48:14.073084+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Recruiting Coordinator, Research",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/24fdba4c-7c87-48d2-aec3-7421fd2577d2"
+  },
+  "25a113b5-f4ec-4e61-a20d-041fff725d7d": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-29T20:27:21.072996+00:00",
+    "job_id": "25a113b5-f4ec-4e61-a20d-041fff725d7d",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-29",
+    "title": "Developer Relations Engineer",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/25a113b5-f4ec-4e61-a20d-041fff725d7d"
+  },
+  "27ec4240-9f70-4ebe-abc0-a7336358a9a4": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "27ec4240-9f70-4ebe-abc0-a7336358a9a4",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Pre-Training Data",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/27ec4240-9f70-4ebe-abc0-a7336358a9a4"
+  },
+  "28e2d71f-dabd-4745-9903-9b363979f0aa": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T00:21:22.892593+00:00",
+    "job_id": "28e2d71f-dabd-4745-9903-9b363979f0aa",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-25",
+    "title": "Data Operations",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/28e2d71f-dabd-4745-9903-9b363979f0aa"
+  },
+  "2c38437e-cdab-422c-9491-faaa02a3718b": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "2c38437e-cdab-422c-9491-faaa02a3718b",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-24",
+    "title": "Network Engineer, Supercomputing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/2c38437e-cdab-422c-9491-faaa02a3718b"
+  },
+  "2d72cec2-bad2-4d70-9b55-ee1dd73dc3d4": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "2d72cec2-bad2-4d70-9b55-ee1dd73dc3d4",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Vision Expertise",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/2d72cec2-bad2-4d70-9b55-ee1dd73dc3d4"
+  },
+  "2d7a9e99-836a-475b-9ae3-b6b1df8baa6d": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "2d7a9e99-836a-475b-9ae3-b6b1df8baa6d",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research Engineer, Infrastructure, Kernels",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/2d7a9e99-836a-475b-9ae3-b6b1df8baa6d"
+  },
+  "325bd679-8b8b-4ba4-9155-73f3ed66401b": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-01T12:46:56.543622+00:00",
+    "job_id": "325bd679-8b8b-4ba4-9155-73f3ed66401b",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-30",
+    "title": "Model Designer",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/325bd679-8b8b-4ba4-9155-73f3ed66401b"
+  },
+  "32b90fb6-428f-43db-a04d-64500a35b042": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "32b90fb6-428f-43db-a04d-64500a35b042",
+    "last_seen": "2026-08-31T22:05:37.468852+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-31",
+    "title": "Software Engineer, Tinker Product",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/32b90fb6-428f-43db-a04d-64500a35b042"
+  },
+  "3449b35c-78e1-4bf7-9b52-31ee9e764dca": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-01T12:46:56.543622+00:00",
+    "job_id": "3449b35c-78e1-4bf7-9b52-31ee9e764dca",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-30",
+    "title": "Executive Business Partner, Operations",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/3449b35c-78e1-4bf7-9b52-31ee9e764dca"
+  },
+  "35a61f1c-5811-492f-b7b5-13b11d3f48df": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "35a61f1c-5811-492f-b7b5-13b11d3f48df",
+    "last_seen": "2026-08-26T20:41:59.638751+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Site Reliability Engineer, Model Post Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/35a61f1c-5811-492f-b7b5-13b11d3f48df"
+  },
+  "39d630ce-af8d-404c-a7eb-cbaac2f96b24": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-16T20:49:22.443925+00:00",
+    "job_id": "39d630ce-af8d-404c-a7eb-cbaac2f96b24",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Technical Recruiter",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/39d630ce-af8d-404c-a7eb-cbaac2f96b24"
+  },
+  "3efb6896-4840-4f90-8798-2ce49fa146e5": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "3efb6896-4840-4f90-8798-2ce49fa146e5",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Post-Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/3efb6896-4840-4f90-8798-2ce49fa146e5"
+  },
+  "4087e0f6-4295-419a-ba02-08e95a74ceea": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "4087e0f6-4295-419a-ba02-08e95a74ceea",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research Engineer, Infrastructure, Inference",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/4087e0f6-4295-419a-ba02-08e95a74ceea"
+  },
+  "43807be9-a5c6-44b7-b9f9-037559b6dd11": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "43807be9-a5c6-44b7-b9f9-037559b6dd11",
+    "last_seen": "2026-08-26T20:41:59.638751+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Full Stack",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/43807be9-a5c6-44b7-b9f9-037559b6dd11"
+  },
+  "4d51cb65-5e5b-42d2-8c28-7073b8574e4b": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-09T21:39:21.379677+00:00",
+    "job_id": "4d51cb65-5e5b-42d2-8c28-7073b8574e4b",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-09",
+    "title": "Research Software Engineer, Post Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/4d51cb65-5e5b-42d2-8c28-7073b8574e4b"
+  },
+  "4e3a366f-eb0f-4ea9-8cf9-9c2f911f279c": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-17T20:55:52.406259+00:00",
+    "job_id": "4e3a366f-eb0f-4ea9-8cf9-9c2f911f279c",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Research Lead, Tinker, Fine-tuning Science",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/4e3a366f-eb0f-4ea9-8cf9-9c2f911f279c"
+  },
+  "50f566c8-7fe3-4fe5-a8ca-b42503537a51": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-02T01:29:09.359936+00:00",
+    "job_id": "50f566c8-7fe3-4fe5-a8ca-b42503537a51",
+    "last_seen": "2026-10-06T23:02:15.786367+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-10-02",
+    "title": "Software Engineer, Distributed Systems",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/50f566c8-7fe3-4fe5-a8ca-b42503537a51"
+  },
+  "53330ea5-1831-4b14-aede-786404d525da": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "53330ea5-1831-4b14-aede-786404d525da",
+    "last_seen": "2026-08-26T20:41:59.638751+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Site Reliability Engineer, RL Infra",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/53330ea5-1831-4b14-aede-786404d525da"
+  },
+  "541c2fcf-e128-4442-94ee-c8298f226756": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "541c2fcf-e128-4442-94ee-c8298f226756",
+    "last_seen": "2026-08-27T20:31:07.382386+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer, Tinker Platform",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/541c2fcf-e128-4442-94ee-c8298f226756"
+  },
+  "5585b16b-32ef-4f7f-a97e-90581416e921": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "5585b16b-32ef-4f7f-a97e-90581416e921",
+    "last_seen": "2026-09-02T20:55:30.788044+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Data Infra",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/5585b16b-32ef-4f7f-a97e-90581416e921"
+  },
+  "602f2a99-34eb-4fde-9eec-b4945ee4aab6": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-27T20:31:07.382386+00:00",
+    "job_id": "602f2a99-34eb-4fde-9eec-b4945ee4aab6",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-27",
+    "title": "Research, Post-Training Evals",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/602f2a99-34eb-4fde-9eec-b4945ee4aab6"
+  },
+  "61e7846c-afc3-41a1-93f5-37642f6a72a6": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "61e7846c-afc3-41a1-93f5-37642f6a72a6",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Systems Generalist",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/61e7846c-afc3-41a1-93f5-37642f6a72a6"
+  },
+  "6afeaa7a-8674-4e32-9364-fb14cc28e79a": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T00:21:22.892593+00:00",
+    "job_id": "6afeaa7a-8674-4e32-9364-fb14cc28e79a",
+    "last_seen": "2026-09-21T22:05:08.445404+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer, Sandboxing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a"
+  },
+  "71c91050-688e-45e9-b98e-891b82d693e8": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-30T20:14:15.851893+00:00",
+    "job_id": "71c91050-688e-45e9-b98e-891b82d693e8",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-27",
+    "title": "Research,  Coding Agents",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/71c91050-688e-45e9-b98e-891b82d693e8"
+  },
+  "72fe46e4-a772-4ebb-a413-53e4f1a8273e": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "72fe46e4-a772-4ebb-a413-53e4f1a8273e",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Software Engineer, Research Tools",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/72fe46e4-a772-4ebb-a413-53e4f1a8273e"
+  },
+  "740ab75b-954c-46fe-9ffa-2d9ede9c135a": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "740ab75b-954c-46fe-9ffa-2d9ede9c135a",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-26",
+    "title": "Executive Business Partner, Technical",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/740ab75b-954c-46fe-9ffa-2d9ede9c135a"
+  },
+  "7c8b01f8-8542-4cb4-9701-5578960cda3b": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "7c8b01f8-8542-4cb4-9701-5578960cda3b",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Security",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/7c8b01f8-8542-4cb4-9701-5578960cda3b"
+  },
+  "7fe42673-a392-4adb-a9e6-97554dd0a28d": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "7fe42673-a392-4adb-a9e6-97554dd0a28d",
+    "last_seen": "2026-08-27T20:31:07.382386+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-02-03",
+    "title": "Software Engineer, Research Acceleration",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/7fe42673-a392-4adb-a9e6-97554dd0a28d"
+  },
+  "8023baca-61b5-4f7d-b145-b96881754366": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "8023baca-61b5-4f7d-b145-b96881754366",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-24",
+    "title": "Reliability Engineer, Supercomputing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/8023baca-61b5-4f7d-b145-b96881754366"
+  },
+  "885f32cc-5b1c-465c-af5a-e88634065bc6": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-30T20:14:15.851893+00:00",
+    "job_id": "885f32cc-5b1c-465c-af5a-e88634065bc6",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-27",
+    "title": "Research, General Agents",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/885f32cc-5b1c-465c-af5a-e88634065bc6"
+  },
+  "8d60e5f3-222d-4f64-b640-24f40e1ab563": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "8d60e5f3-222d-4f64-b640-24f40e1ab563",
+    "last_seen": "2026-10-06T23:02:15.786367+00:00",
+    "location": "New York",
+    "posted_date": "2026-08-04",
+    "title": "IT Engineer",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/8d60e5f3-222d-4f64-b640-24f40e1ab563"
+  },
+  "8db05c24-7751-4923-a6d7-05bbfcebf069": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-06T23:02:15.786367+00:00",
+    "job_id": "8db05c24-7751-4923-a6d7-05bbfcebf069",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-06",
+    "title": "Technical Program Manager, Supercomputing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/8db05c24-7751-4923-a6d7-05bbfcebf069"
+  },
+  "919c3fa0-9c77-4770-b839-18492a4dbe6c": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-14T22:23:13.824930+00:00",
+    "job_id": "919c3fa0-9c77-4770-b839-18492a4dbe6c",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-14",
+    "title": "Senior Counsel, Commercial & Product",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/919c3fa0-9c77-4770-b839-18492a4dbe6c"
+  },
+  "922c3777-64d1-468e-bb9b-aa68f3fec823": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "922c3777-64d1-468e-bb9b-aa68f3fec823",
+    "last_seen": "2026-09-21T22:05:08.445404+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer, Developer Productivity, AI Tools",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/922c3777-64d1-468e-bb9b-aa68f3fec823"
+  },
+  "93855db2-9a80-421d-9e80-ace9eca24650": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "93855db2-9a80-421d-9e80-ace9eca24650",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research Engineer, Infrastructure, Numerics",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/93855db2-9a80-421d-9e80-ace9eca24650"
+  },
+  "9756df25-730d-4ef8-bcec-088f2d3a687f": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-18T19:57:13.286353+00:00",
+    "job_id": "9756df25-730d-4ef8-bcec-088f2d3a687f",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, Washington, D.C.",
+    "posted_date": "2026-09-18",
+    "title": "Global Public Policy",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/9756df25-730d-4ef8-bcec-088f2d3a687f"
+  },
+  "98aeba6f-1579-4e2f-9c00-5dd4a483f3b2": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "98aeba6f-1579-4e2f-9c00-5dd4a483f3b2",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Software Engineer, Product",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/98aeba6f-1579-4e2f-9c00-5dd4a483f3b2"
+  },
+  "99089ecb-e75b-4a80-8bbc-2fd21e2aadad": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-29T20:27:21.072996+00:00",
+    "job_id": "99089ecb-e75b-4a80-8bbc-2fd21e2aadad",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-29",
+    "title": "Developer Experience Engineer",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/99089ecb-e75b-4a80-8bbc-2fd21e2aadad"
+  },
+  "998becdd-611f-44e5-a36d-bbfc13328ed9": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-02T01:29:09.359936+00:00",
+    "job_id": "998becdd-611f-44e5-a36d-bbfc13328ed9",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineer, Infrastructure",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/998becdd-611f-44e5-a36d-bbfc13328ed9"
+  },
+  "9d1124f7-7f78-4e8d-a033-568c315826eb": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "9d1124f7-7f78-4e8d-a033-568c315826eb",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Safety Operations Lead",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/9d1124f7-7f78-4e8d-a033-568c315826eb"
+  },
+  "9d863c78-80c0-44cd-a574-d1330e125398": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-26T20:41:59.638751+00:00",
+    "job_id": "9d863c78-80c0-44cd-a574-d1330e125398",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Software Engineer, Evaluation Platform / Infra",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/9d863c78-80c0-44cd-a574-d1330e125398"
+  },
+  "9dabecde-1bdb-47c6-b943-ff7b0526657c": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "9dabecde-1bdb-47c6-b943-ff7b0526657c",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research Engineer, Infrastructure, Training Systems",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/9dabecde-1bdb-47c6-b943-ff7b0526657c"
+  },
+  "9f346787-6193-4045-937f-4354d39c2a74": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-27T15:47:36.737277+00:00",
+    "job_id": "9f346787-6193-4045-937f-4354d39c2a74",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-25",
+    "title": "People Operations",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/9f346787-6193-4045-937f-4354d39c2a74"
+  },
+  "a3e5a969-33cc-44d6-932a-a8bc7c505eef": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "a3e5a969-33cc-44d6-932a-a8bc7c505eef",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "HR Business Partner",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/a3e5a969-33cc-44d6-932a-a8bc7c505eef"
+  },
+  "a5559c53-7085-45ff-8a0f-5e47b5e822bc": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-24T23:55:39.288475+00:00",
+    "job_id": "a5559c53-7085-45ff-8a0f-5e47b5e822bc",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-24",
+    "title": "Research Engineer, Web Crawling",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/a5559c53-7085-45ff-8a0f-5e47b5e822bc"
+  },
+  "a9469410-04c7-4e6a-b8b4-64c15933a2bf": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-27T20:31:07.382386+00:00",
+    "job_id": "a9469410-04c7-4e6a-b8b4-64c15933a2bf",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Site Reliability Engineer, Post Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/a9469410-04c7-4e6a-b8b4-64c15933a2bf"
+  },
+  "aa68b4e0-d079-477b-9e0e-8b8f94cd6cfc": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "aa68b4e0-d079-477b-9e0e-8b8f94cd6cfc",
+    "last_seen": "2026-08-24T13:28:31.786124+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research, Post-Training Data",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/aa68b4e0-d079-477b-9e0e-8b8f94cd6cfc"
+  },
+  "b6286930-aba7-4a52-b298-53f948cd9ce8": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "b6286930-aba7-4a52-b298-53f948cd9ce8",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Endpoint Engineer, IT",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/b6286930-aba7-4a52-b298-53f948cd9ce8"
+  },
+  "c09f086c-b34b-4d34-b1fb-e5672c666dd8": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "c09f086c-b34b-4d34-b1fb-e5672c666dd8",
+    "last_seen": "2026-08-27T20:31:07.382386+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-04",
+    "title": "Research Engineer, Infrastructure, RL Systems",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/c09f086c-b34b-4d34-b1fb-e5672c666dd8"
+  },
+  "c4cddfec-33de-4f67-9801-1308c2151952": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "c4cddfec-33de-4f67-9801-1308c2151952",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-31",
+    "title": "Site Reliability Engineer, Production",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/c4cddfec-33de-4f67-9801-1308c2151952"
+  },
+  "c8427628-5315-403e-98b5-dddf2cee6063": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "c8427628-5315-403e-98b5-dddf2cee6063",
+    "last_seen": "2026-08-26T00:21:22.892593+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-27",
+    "title": "Software Engineer, Platform, Tinker",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/c8427628-5315-403e-98b5-dddf2cee6063"
+  },
+  "cc4f4b4e-8671-4f7b-8d3d-a2514a43f5b2": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-22T22:35:27.207721+00:00",
+    "job_id": "cc4f4b4e-8671-4f7b-8d3d-a2514a43f5b2",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-09-22",
+    "title": "Software Engineer, Sandboxing",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/cc4f4b4e-8671-4f7b-8d3d-a2514a43f5b2"
+  },
+  "d328e3d3-df94-47a1-9120-d2592a796142": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-27T20:31:07.382386+00:00",
+    "job_id": "d328e3d3-df94-47a1-9120-d2592a796142",
+    "last_seen": "2026-08-31T22:05:37.468852+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-08-28",
+    "title": "Software Engineer, ML Infra",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/d328e3d3-df94-47a1-9120-d2592a796142"
+  },
+  "d7513f3d-6a49-485d-b3c7-ecb629ad48db": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-02T01:29:09.359936+00:00",
+    "job_id": "d7513f3d-6a49-485d-b3c7-ecb629ad48db",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-10-02",
+    "title": "Software Engineer, Inference",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/d7513f3d-6a49-485d-b3c7-ecb629ad48db"
+  },
+  "e4dbe2d6-6d7e-47cf-a654-57de5fafe8a1": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-07T21:58:18.323255+00:00",
+    "job_id": "e4dbe2d6-6d7e-47cf-a654-57de5fafe8a1",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-07",
+    "title": "RL Systems - Infra",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/e4dbe2d6-6d7e-47cf-a654-57de5fafe8a1"
+  },
+  "ec5f88b6-e221-499c-bc8f-a27b66213b87": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-10-02T01:29:09.359936+00:00",
+    "job_id": "ec5f88b6-e221-499c-bc8f-a27b66213b87",
+    "last_seen": "2026-10-06T23:02:15.786367+00:00",
+    "location": "San Francisco, New York",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineer, Data Infrastructure",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/ec5f88b6-e221-499c-bc8f-a27b66213b87"
+  },
+  "f1367c17-63b2-41db-9e71-b9d44df9c558": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-18T19:57:13.286353+00:00",
+    "job_id": "f1367c17-63b2-41db-9e71-b9d44df9c558",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-18",
+    "title": "Product Policy",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/f1367c17-63b2-41db-9e71-b9d44df9c558"
+  },
+  "f9c03f58-c968-492c-b40c-fbc46a38ce05": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-09-21T22:05:08.445404+00:00",
+    "job_id": "f9c03f58-c968-492c-b40c-fbc46a38ce05",
+    "last_seen": "2026-10-13T21:26:22.002618+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-21",
+    "title": "Research, Mid Training",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/f9c03f58-c968-492c-b40c-fbc46a38ce05"
+  },
+  "f9f68c71-6603-4d73-a369-c5ccc51622e5": {
+    "company": "Thinking Machines Lab",
+    "first_seen": "2026-08-06T01:40:02.061767+00:00",
+    "job_id": "f9f68c71-6603-4d73-a369-c5ccc51622e5",
+    "last_seen": "2026-08-20T20:35:58.326131+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-27",
+    "title": "Research Engineer, Developer Experience, Tinker",
+    "url": "https://jobs.ashbyhq.com/ThinkingMachines/f9f68c71-6603-4d73-a369-c5ccc51622e5"
+  }
+}

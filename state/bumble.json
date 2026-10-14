@@ -1,0 +1,552 @@
+{
+  "02de0e07-76ad-431a-9116-050af63c12ae": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "02de0e07-76ad-431a-9116-050af63c12ae",
+    "last_seen": "2026-10-06T22:54:48.619194+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Security Software Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/02de0e07-76ad-431a-9116-050af63c12ae"
+  },
+  "07570a26-fdda-4f0a-880a-5bdd21477f2d": {
+    "company": "Bumble",
+    "first_seen": "2026-08-12T19:27:40.288517+00:00",
+    "job_id": "07570a26-fdda-4f0a-880a-5bdd21477f2d",
+    "last_seen": "2026-10-06T22:54:48.619194+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Senior Product Designer, BFF",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/07570a26-fdda-4f0a-880a-5bdd21477f2d"
+  },
+  "07596492-e461-44c2-a958-70ac419454bb": {
+    "company": "Bumble",
+    "first_seen": "2026-10-01T12:37:45.294994+00:00",
+    "job_id": "07596492-e461-44c2-a958-70ac419454bb",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-30",
+    "title": "Business Director - Integrated Marketing",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/07596492-e461-44c2-a958-70ac419454bb"
+  },
+  "0b48de15-199c-438d-a501-9fe1dc8eb494": {
+    "company": "Bumble",
+    "first_seen": "2026-09-14T22:16:41.885196+00:00",
+    "job_id": "0b48de15-199c-438d-a501-9fe1dc8eb494",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-23",
+    "title": "Senior Product Designer, Badoo",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/0b48de15-199c-438d-a501-9fe1dc8eb494"
+  },
+  "15446470-18e2-45fc-afd8-6bb127d8ed09": {
+    "company": "Bumble",
+    "first_seen": "2026-10-12T23:08:37.844813+00:00",
+    "job_id": "15446470-18e2-45fc-afd8-6bb127d8ed09",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-10-12",
+    "title": "Senior Android Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/15446470-18e2-45fc-afd8-6bb127d8ed09"
+  },
+  "1ad415b3-99d0-422c-810b-06e428d4b659": {
+    "company": "Bumble",
+    "first_seen": "2026-08-20T00:19:28.226257+00:00",
+    "job_id": "1ad415b3-99d0-422c-810b-06e428d4b659",
+    "last_seen": "2026-10-01T12:37:45.294994+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-09-08",
+    "title": "Associate Manager, Social Media",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/1ad415b3-99d0-422c-810b-06e428d4b659"
+  },
+  "1cc2f794-5eaa-4a7c-bdf2-89d0431ac183": {
+    "company": "Bumble",
+    "first_seen": "2026-09-03T20:03:52.403826+00:00",
+    "job_id": "1cc2f794-5eaa-4a7c-bdf2-89d0431ac183",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-09-03",
+    "title": "Associate Director, US Integrated Marketing (Interim)",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/1cc2f794-5eaa-4a7c-bdf2-89d0431ac183"
+  },
+  "283ca5e1-50a3-4005-b86e-bbd134e16450": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "283ca5e1-50a3-4005-b86e-bbd134e16450",
+    "last_seen": "2026-08-11T16:13:35.049010+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-11",
+    "title": "Associate Director, Corporate Communications",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/283ca5e1-50a3-4005-b86e-bbd134e16450"
+  },
+  "2c26c63e-590f-4ba3-9d8a-112f59ae4ecc": {
+    "company": "Bumble",
+    "first_seen": "2026-08-07T00:40:10.945895+00:00",
+    "job_id": "2c26c63e-590f-4ba3-9d8a-112f59ae4ecc",
+    "last_seen": "2026-10-06T00:18:03.225159+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Director of Culture Marketing",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/2c26c63e-590f-4ba3-9d8a-112f59ae4ecc"
+  },
+  "2e68e417-e41e-44ee-a80d-fcebb1f00d27": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "2e68e417-e41e-44ee-a80d-fcebb1f00d27",
+    "last_seen": "2026-08-24T20:53:48.024083+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-24",
+    "title": "Senior Product Designer, Bee AI",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/2e68e417-e41e-44ee-a80d-fcebb1f00d27"
+  },
+  "307a8377-34f2-414c-9e02-a2ac098976b8": {
+    "company": "Bumble",
+    "first_seen": "2026-09-21T21:56:18.553970+00:00",
+    "job_id": "307a8377-34f2-414c-9e02-a2ac098976b8",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London, UK Remote",
+    "posted_date": "2026-09-18",
+    "title": "Integrity Operations Specialist",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/307a8377-34f2-414c-9e02-a2ac098976b8"
+  },
+  "31905bee-cb45-456b-8576-2a5d06888125": {
+    "company": "Bumble",
+    "first_seen": "2026-09-23T22:04:02.796079+00:00",
+    "job_id": "31905bee-cb45-456b-8576-2a5d06888125",
+    "last_seen": "2026-10-07T21:52:25.750980+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-09-23",
+    "title": "Senior Manager, Critical Response",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/31905bee-cb45-456b-8576-2a5d06888125"
+  },
+  "39821b9f-0c1c-4ea2-8e93-ab111766f81f": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "39821b9f-0c1c-4ea2-8e93-ab111766f81f",
+    "last_seen": "2026-08-30T19:58:20.391242+00:00",
+    "location": "UK London",
+    "posted_date": "2026-08-28",
+    "title": "Localisation Project Manager",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/39821b9f-0c1c-4ea2-8e93-ab111766f81f"
+  },
+  "3a20ebf9-aa35-45f6-8de8-207eb5066d00": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "3a20ebf9-aa35-45f6-8de8-207eb5066d00",
+    "last_seen": "2026-09-28T21:41:55.214688+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Senior Motion Designer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/3a20ebf9-aa35-45f6-8de8-207eb5066d00"
+  },
+  "3dc4a6fc-7a31-46dd-a673-993e40f7a016": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "3dc4a6fc-7a31-46dd-a673-993e40f7a016",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Staff Software Engineer - (Matching and Recommendations)",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/3dc4a6fc-7a31-46dd-a673-993e40f7a016"
+  },
+  "447b41c0-b10c-4ca8-917b-f1a6041e68cb": {
+    "company": "Bumble",
+    "first_seen": "2026-10-07T21:52:25.750980+00:00",
+    "job_id": "447b41c0-b10c-4ca8-917b-f1a6041e68cb",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-10-07",
+    "title": "Senior Security Software Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/447b41c0-b10c-4ca8-917b-f1a6041e68cb"
+  },
+  "4719095b-048c-4770-a8c8-16a8bd54f953": {
+    "company": "Bumble",
+    "first_seen": "2026-10-07T21:52:25.750980+00:00",
+    "job_id": "4719095b-048c-4770-a8c8-16a8bd54f953",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-10-07",
+    "title": "Principal Machine Learning Engineer, Matching & Recommendations",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/4719095b-048c-4770-a8c8-16a8bd54f953"
+  },
+  "48b9af05-03f7-4e63-8827-8a802d58818b": {
+    "company": "Bumble",
+    "first_seen": "2026-10-06T22:54:48.619194+00:00",
+    "job_id": "48b9af05-03f7-4e63-8827-8a802d58818b",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-10-06",
+    "title": "Manager, FP&A",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/48b9af05-03f7-4e63-8827-8a802d58818b"
+  },
+  "49019f3a-229b-48aa-aadb-74a9c05a6af5": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "49019f3a-229b-48aa-aadb-74a9c05a6af5",
+    "last_seen": "2026-08-30T19:58:20.391242+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Copywriter",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/49019f3a-229b-48aa-aadb-74a9c05a6af5"
+  },
+  "49cc257f-e99b-4716-86fd-e7bd81b26f88": {
+    "company": "Bumble",
+    "first_seen": "2026-08-18T20:50:11.092933+00:00",
+    "job_id": "49cc257f-e99b-4716-86fd-e7bd81b26f88",
+    "last_seen": "2026-10-12T23:08:37.844813+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Graphic Designer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/49cc257f-e99b-4716-86fd-e7bd81b26f88"
+  },
+  "4de4cb33-39dd-4885-b31e-53ce3fed566e": {
+    "company": "Bumble",
+    "first_seen": "2026-10-08T23:26:28.875219+00:00",
+    "job_id": "4de4cb33-39dd-4885-b31e-53ce3fed566e",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-10-08",
+    "title": "Legal Counsel Specialist",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/4de4cb33-39dd-4885-b31e-53ce3fed566e"
+  },
+  "50c426ef-b04a-4df5-8c0f-d95702f804c5": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "50c426ef-b04a-4df5-8c0f-d95702f804c5",
+    "last_seen": "2026-08-06T12:45:44.911357+00:00",
+    "location": "UK London",
+    "posted_date": "2026-08-06",
+    "title": "Integrity Operations Specialist, Scaled Abuse",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/50c426ef-b04a-4df5-8c0f-d95702f804c5"
+  },
+  "51f74d77-fbd4-4893-8213-3e02cff36493": {
+    "company": "Bumble",
+    "first_seen": "2026-09-15T20:58:20.239874+00:00",
+    "job_id": "51f74d77-fbd4-4893-8213-3e02cff36493",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-10-12",
+    "title": "Marketing Coordinator, College Marketing",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/51f74d77-fbd4-4893-8213-3e02cff36493"
+  },
+  "52fcd7aa-9474-4beb-8cc1-32118cde500c": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "52fcd7aa-9474-4beb-8cc1-32118cde500c",
+    "last_seen": "2026-09-21T21:56:18.553970+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Android Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/52fcd7aa-9474-4beb-8cc1-32118cde500c"
+  },
+  "530a23fc-ee09-4d69-903e-3945d9ebafbe": {
+    "company": "Bumble",
+    "first_seen": "2026-10-06T22:54:48.619194+00:00",
+    "job_id": "530a23fc-ee09-4d69-903e-3945d9ebafbe",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-10-06",
+    "title": "Senior Manager, Critical Response",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/530a23fc-ee09-4d69-903e-3945d9ebafbe"
+  },
+  "5c402737-e385-4e42-b58b-cede0eca637c": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "5c402737-e385-4e42-b58b-cede0eca637c",
+    "last_seen": "2026-10-06T22:54:48.619194+00:00",
+    "location": "UK London",
+    "posted_date": "2026-08-28",
+    "title": "Principal Machine Learning Engineer, Matching and Recommendations (UK Based)",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/5c402737-e385-4e42-b58b-cede0eca637c"
+  },
+  "68e1f71f-edf7-4baf-9002-48a0a2a42287": {
+    "company": "Bumble",
+    "first_seen": "2026-08-10T21:45:16.743656+00:00",
+    "job_id": "68e1f71f-edf7-4baf-9002-48a0a2a42287",
+    "last_seen": "2026-08-26T20:34:47.510493+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-26",
+    "title": "Advertising Partnerships Manager",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/68e1f71f-edf7-4baf-9002-48a0a2a42287"
+  },
+  "72af9c4b-5216-41f5-85e9-0465433c433b": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "72af9c4b-5216-41f5-85e9-0465433c433b",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Lead Android Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/72af9c4b-5216-41f5-85e9-0465433c433b"
+  },
+  "72f06717-1847-430f-9050-4a2dae3fb2ce": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "72f06717-1847-430f-9050-4a2dae3fb2ce",
+    "last_seen": "2026-09-10T20:50:07.472325+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Identity Access Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/72f06717-1847-430f-9050-4a2dae3fb2ce"
+  },
+  "7fec638e-41dd-404a-b9a0-e88d915cd06e": {
+    "company": "Bumble",
+    "first_seen": "2026-09-29T20:20:20.872623+00:00",
+    "job_id": "7fec638e-41dd-404a-b9a0-e88d915cd06e",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-09-29",
+    "title": "Staff Product Manager, Trust & Safety",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/7fec638e-41dd-404a-b9a0-e88d915cd06e"
+  },
+  "80f745f0-b8ae-4e99-96d5-9dd95012032e": {
+    "company": "Bumble",
+    "first_seen": "2026-09-23T22:04:02.796079+00:00",
+    "job_id": "80f745f0-b8ae-4e99-96d5-9dd95012032e",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-09-23",
+    "title": "Staff Software Engineer - Trust and Safety",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/80f745f0-b8ae-4e99-96d5-9dd95012032e"
+  },
+  "937dc4bc-b804-40bc-9920-2cd2c6dcc869": {
+    "company": "Bumble",
+    "first_seen": "2026-09-16T20:39:59.950649+00:00",
+    "job_id": "937dc4bc-b804-40bc-9920-2cd2c6dcc869",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-21",
+    "title": "Lead Legal Counsel, IP",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/937dc4bc-b804-40bc-9920-2cd2c6dcc869"
+  },
+  "9620ffc1-6af2-47d9-a9fc-4745db1c722c": {
+    "company": "Bumble",
+    "first_seen": "2026-08-20T20:29:20.930129+00:00",
+    "job_id": "9620ffc1-6af2-47d9-a9fc-4745db1c722c",
+    "last_seen": "2026-09-29T20:20:20.872623+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-09-28",
+    "title": "Influencer Manager, BFF",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/9620ffc1-6af2-47d9-a9fc-4745db1c722c"
+  },
+  "9b5beda2-6610-456c-8822-14b510a279b1": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "9b5beda2-6610-456c-8822-14b510a279b1",
+    "last_seen": "2026-10-12T02:08:10.969276+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-22",
+    "title": "Machine Learning Engineer (UK)",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/9b5beda2-6610-456c-8822-14b510a279b1"
+  },
+  "9b92cb4b-d0ca-40d0-a460-a81f5b2cba8f": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "9b92cb4b-d0ca-40d0-a460-a81f5b2cba8f",
+    "last_seen": "2026-08-06T12:45:44.911357+00:00",
+    "location": "UK London",
+    "posted_date": "2026-08-06",
+    "title": "Integrity Operations Specialist, Scaled Abuse",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/9b92cb4b-d0ca-40d0-a460-a81f5b2cba8f"
+  },
+  "9e631419-411d-45fd-bc0c-4e67cf07adf7": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "9e631419-411d-45fd-bc0c-4e67cf07adf7",
+    "last_seen": "2026-10-06T22:54:48.619194+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Principal Machine Learning Engineer, Matching and Recommendations",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/9e631419-411d-45fd-bc0c-4e67cf07adf7"
+  },
+  "a229fe2d-acb6-43f6-a25e-2b51a9183797": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "a229fe2d-acb6-43f6-a25e-2b51a9183797",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-10-09",
+    "title": "Creative Director",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/a229fe2d-acb6-43f6-a25e-2b51a9183797"
+  },
+  "a5e1d425-0b9d-41bb-978e-7e55be5acb8a": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "a5e1d425-0b9d-41bb-978e-7e55be5acb8a",
+    "last_seen": "2026-10-12T02:08:10.969276+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Senior Machine Learning Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/a5e1d425-0b9d-41bb-978e-7e55be5acb8a"
+  },
+  "a5e9541d-8d99-4f47-a10d-5a96a594e5e7": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "a5e9541d-8d99-4f47-a10d-5a96a594e5e7",
+    "last_seen": "2026-08-24T13:22:09.788582+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-07-29",
+    "title": "Default - US Locations",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/a5e9541d-8d99-4f47-a10d-5a96a594e5e7"
+  },
+  "a6116de9-ddbe-467b-80c2-b284fa6c00e8": {
+    "company": "Bumble",
+    "first_seen": "2026-08-31T21:57:45.549561+00:00",
+    "job_id": "a6116de9-ddbe-467b-80c2-b284fa6c00e8",
+    "last_seen": "2026-10-04T23:01:16.159633+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-08-26",
+    "title": "Associate Manager, Operations & Sales, College",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/a6116de9-ddbe-467b-80c2-b284fa6c00e8"
+  },
+  "b002274b-8645-4e71-8891-e3de4122134f": {
+    "company": "Bumble",
+    "first_seen": "2026-10-07T21:52:25.750980+00:00",
+    "job_id": "b002274b-8645-4e71-8891-e3de4122134f",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-10-07",
+    "title": "Principal Machine Learning Engineer, Matching & Recommendations",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b002274b-8645-4e71-8891-e3de4122134f"
+  },
+  "b0d844ec-97c6-4ba0-9f3b-c468c39a3b90": {
+    "company": "Bumble",
+    "first_seen": "2026-09-10T20:50:07.472325+00:00",
+    "job_id": "b0d844ec-97c6-4ba0-9f3b-c468c39a3b90",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-09-30",
+    "title": "Senior Legal Counsel , Product",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b0d844ec-97c6-4ba0-9f3b-c468c39a3b90"
+  },
+  "b1ee5669-ae3c-4566-9eee-630ce63f2911": {
+    "company": "Bumble",
+    "first_seen": "2026-10-05T22:06:29.401154+00:00",
+    "job_id": "b1ee5669-ae3c-4566-9eee-630ce63f2911",
+    "last_seen": "2026-10-12T02:08:10.969276+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-10-05",
+    "title": "Associate Manager, Operations & Sales, College",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b1ee5669-ae3c-4566-9eee-630ce63f2911"
+  },
+  "b224c6cc-4a8b-4c40-8bbc-fd7cc904e4ba": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "b224c6cc-4a8b-4c40-8bbc-fd7cc904e4ba",
+    "last_seen": "2026-10-02T01:21:09.743489+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Lead Software Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b224c6cc-4a8b-4c40-8bbc-fd7cc904e4ba"
+  },
+  "b60a94ed-6f9d-4013-addf-fe9619ae91dd": {
+    "company": "Bumble",
+    "first_seen": "2026-10-05T22:06:29.401154+00:00",
+    "job_id": "b60a94ed-6f9d-4013-addf-fe9619ae91dd",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "US NY New York, US TX Austin",
+    "posted_date": "2026-10-05",
+    "title": "Manager, FP&A",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b60a94ed-6f9d-4013-addf-fe9619ae91dd"
+  },
+  "b67b82a9-2658-46c7-8ce7-218dd6e3565f": {
+    "company": "Bumble",
+    "first_seen": "2026-09-21T21:56:18.553970+00:00",
+    "job_id": "b67b82a9-2658-46c7-8ce7-218dd6e3565f",
+    "last_seen": "2026-09-23T22:04:02.796079+00:00",
+    "location": "US TX Austin, US NY New York",
+    "posted_date": "2026-09-21",
+    "title": "Product Designer, Bumble Date",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/b67b82a9-2658-46c7-8ce7-218dd6e3565f"
+  },
+  "be767f84-0827-4807-ac53-5f4f0388cb80": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "be767f84-0827-4807-ac53-5f4f0388cb80",
+    "last_seen": "2026-10-04T23:01:16.159633+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Advertising Operations Specialist",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/be767f84-0827-4807-ac53-5f4f0388cb80"
+  },
+  "c594e57d-9e1e-42a6-a4e5-c8364303f95b": {
+    "company": "Bumble",
+    "first_seen": "2026-09-21T21:56:18.553970+00:00",
+    "job_id": "c594e57d-9e1e-42a6-a4e5-c8364303f95b",
+    "last_seen": "2026-10-12T23:08:37.844813+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-21",
+    "title": "Senior Graphic Designer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/c594e57d-9e1e-42a6-a4e5-c8364303f95b"
+  },
+  "cf3eb38a-eac0-41c9-b4d2-1a681a9d2717": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "cf3eb38a-eac0-41c9-b4d2-1a681a9d2717",
+    "last_seen": "2026-09-22T22:28:38.022983+00:00",
+    "location": "US NY New York",
+    "posted_date": "2026-08-28",
+    "title": "Graphic Designer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/cf3eb38a-eac0-41c9-b4d2-1a681a9d2717"
+  },
+  "d93b0d3f-3de1-4a9f-97ae-3c454a3e67e2": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "d93b0d3f-3de1-4a9f-97ae-3c454a3e67e2",
+    "last_seen": "2026-08-06T12:45:44.911357+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-06",
+    "title": "Integrity Operations Specialist, Scaled Abuse",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/d93b0d3f-3de1-4a9f-97ae-3c454a3e67e2"
+  },
+  "dab7eba2-4518-4312-a669-c5db3c9152c6": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "dab7eba2-4518-4312-a669-c5db3c9152c6",
+    "last_seen": "2026-10-06T00:18:03.225159+00:00",
+    "location": "UK London",
+    "posted_date": "2026-08-28",
+    "title": "Associate Director, FP&A",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/dab7eba2-4518-4312-a669-c5db3c9152c6"
+  },
+  "eb94d8c3-10c9-438b-bb7c-0c7275c4cacd": {
+    "company": "Bumble",
+    "first_seen": "2026-09-21T21:56:18.553970+00:00",
+    "job_id": "eb94d8c3-10c9-438b-bb7c-0c7275c4cacd",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-10-13",
+    "title": "Operations Specialist, AI Enablement [Content Moderation]",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/eb94d8c3-10c9-438b-bb7c-0c7275c4cacd"
+  },
+  "f155eb98-5955-41fa-a6b8-a5d81c9f2e49": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "f155eb98-5955-41fa-a6b8-a5d81c9f2e49",
+    "last_seen": "2026-10-06T00:18:03.225159+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Software Engineer - Matching and Recommendations",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/f155eb98-5955-41fa-a6b8-a5d81c9f2e49"
+  },
+  "f802c2cc-34c3-419c-a5f0-183d0f1477c9": {
+    "company": "Bumble",
+    "first_seen": "2026-09-09T21:31:09.933016+00:00",
+    "job_id": "f802c2cc-34c3-419c-a5f0-183d0f1477c9",
+    "last_seen": "2026-10-13T21:19:18.629726+00:00",
+    "location": "UK London",
+    "posted_date": "2026-09-08",
+    "title": "Senior AI Automation & Service Engineer",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/f802c2cc-34c3-419c-a5f0-183d0f1477c9"
+  },
+  "f8d7cbf3-8eae-4b04-8a56-61b6ec25df1c": {
+    "company": "Bumble",
+    "first_seen": "2026-08-06T02:03:48.992146+00:00",
+    "job_id": "f8d7cbf3-8eae-4b04-8a56-61b6ec25df1c",
+    "last_seen": "2026-10-02T01:21:09.743489+00:00",
+    "location": "US TX Austin",
+    "posted_date": "2026-08-28",
+    "title": "Senior Pricing Manager",
+    "url": "https://jobs.ashbyhq.com/bumbleinc/f8d7cbf3-8eae-4b04-8a56-61b6ec25df1c"
+  }
+}

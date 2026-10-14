@@ -1,0 +1,4432 @@
+{
+  "4813946": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "4813946",
+    "last_seen": "2026-09-02T18:39:11.075781+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US",
+    "posted_date": "2023-01-31",
+    "title": "Software Engineer II, Backend",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/4813946"
+  },
+  "4843547": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-18T20:55:02.987768+00:00",
+    "job_id": "4843547",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2023-02-07",
+    "title": "Software Engineer II, Fullstack",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/4843547"
+  },
+  "4902175": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "4902175",
+    "last_seen": "2026-09-02T18:39:11.075781+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2023-03-01",
+    "title": "Sr. Software Engineer, Backend",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/4902175"
+  },
+  "4912949": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "4912949",
+    "last_seen": "2026-08-19T19:59:16.801385+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2023-03-07",
+    "title": "Data Scientist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/4912949"
+  },
+  "4916795": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "4916795",
+    "last_seen": "2026-09-10T20:55:02.634826+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2023-03-09",
+    "title": "Software Engineer II, Android",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/4916795"
+  },
+  "5132899": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5132899",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2024-08-22",
+    "title": "Software Engineer II, Backend",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5132899"
+  },
+  "5412514": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-24T23:51:52.092660+00:00",
+    "job_id": "5412514",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2023-10-04",
+    "title": "Sr. Software Engineer, Web",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5412514"
+  },
+  "5432095": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5432095",
+    "last_seen": "2026-09-10T20:55:02.634826+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2023-10-17",
+    "title": "Sr. Software Engineer, Android",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5432095"
+  },
+  "5459622": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5459622",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2023-11-03",
+    "title": "Software Engineer II, Full Stack",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5459622"
+  },
+  "5572858": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5572858",
+    "last_seen": "2026-09-09T21:37:24.958300+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2023-12-15",
+    "title": "Sr. Software Engineer, Backend",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5572858"
+  },
+  "5601228": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5601228",
+    "last_seen": "2026-08-13T21:20:01.564613+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2024-01-05",
+    "title": "Software Engineer II, iOS",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5601228"
+  },
+  "5691478": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5691478",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2024-02-09",
+    "title": "Sr. Machine Learning Engineer, Growth Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5691478"
+  },
+  "5740948": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5740948",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US",
+    "posted_date": "2024-02-22",
+    "title": "Sr. Data Scientist, Monetization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5740948"
+  },
+  "5773689": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "5773689",
+    "last_seen": "2026-09-02T20:53:40.497902+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2024-02-29",
+    "title": "Sr. Software Engineer, Android",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/5773689"
+  },
+  "6087213": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6087213",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2024-07-03",
+    "title": "Sr. Data Scientist, Core",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6087213"
+  },
+  "6121450": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6121450",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; Remote, US",
+    "posted_date": "2024-07-24",
+    "title": "Machine Learning Engineer, Core Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6121450"
+  },
+  "6121464": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6121464",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2024-07-24",
+    "title": "Sr. Machine Learning Engineer, Core Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6121464"
+  },
+  "6121543": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6121543",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2024-07-23",
+    "title": "Machine Learning Engineer, EPD Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6121543"
+  },
+  "6121551": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6121551",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2024-07-23",
+    "title": "Sr. Machine Learning Engineer, EPD Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6121551"
+  },
+  "6483186": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6483186",
+    "last_seen": "2026-08-06T12:49:16.490006+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2025-04-14",
+    "title": "Sr. Client Account Manager (eCommerce) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6483186"
+  },
+  "6510646": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6510646",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2025-01-07",
+    "title": "Sr. Software Engineer - Full Stack",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6510646"
+  },
+  "6659114": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "6659114",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2025-03-05",
+    "title": "Sr. Data Scientist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6659114"
+  },
+  "6816337": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6816337",
+    "last_seen": "2026-08-05T19:59:16.726688+00:00",
+    "location": "Seattle, WA, US; San Francisco, CA, US",
+    "posted_date": "2025-04-17",
+    "title": "Software Engineer I, Backend",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6816337"
+  },
+  "6894747": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6894747",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2025-05-19",
+    "title": "Sr. Machine Learning Engineer, Applied Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6894747"
+  },
+  "6908633": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "6908633",
+    "last_seen": "2026-09-23T22:08:44.490460+00:00",
+    "location": "Seattle,WA, US",
+    "posted_date": "2025-07-23",
+    "title": "Sr. Manager, Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6908633"
+  },
+  "6922682": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6922682",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2025-12-12",
+    "title": "Software Engineer, iOS",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6922682"
+  },
+  "6963868": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "6963868",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2025-09-23",
+    "title": "Principal Machine Learning Engineer, Ads Delivery",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/6963868"
+  },
+  "7075176": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7075176",
+    "last_seen": "2026-08-13T14:23:26.554168+00:00",
+    "location": "San Francisco, CA, US;  Remote, US",
+    "posted_date": "2025-07-16",
+    "title": "Manager II, Machine Learning Engineering, Core Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7075176"
+  },
+  "7194568": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-15T21:50:08.985610+00:00",
+    "job_id": "7194568",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2025-08-28",
+    "title": "Integrated Marketing Specialist, Industry Associations & Speakerships",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7194568"
+  },
+  "7305880": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7305880",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-25",
+    "title": "Staff Software Engineer, AI Tools",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7305880"
+  },
+  "7408778": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "7408778",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-27",
+    "title": "Staff Software Engineer, TwoTwenty",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7408778"
+  },
+  "7437356": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7437356",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "posted_date": "2025-12-17",
+    "title": "Staff Software Engineer, Big Data Storage",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7437356"
+  },
+  "7473497": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7473497",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2025-12-22",
+    "title": "Machine Learning Engineer II, Core Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7473497"
+  },
+  "7479359": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-14T18:36:40.758541+00:00",
+    "job_id": "7479359",
+    "last_seen": "2026-10-12T23:15:28.847650+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-01-23",
+    "title": "Director, UK Enterprise Sales (Retail)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7479359"
+  },
+  "7480764": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-13T21:20:01.564613+00:00",
+    "job_id": "7480764",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "New York, NY, US; San Francisco, CA, US",
+    "posted_date": "2026-01-12",
+    "title": "Measurement Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7480764"
+  },
+  "7494590": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-04T23:05:34.306077+00:00",
+    "job_id": "7494590",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-10-02",
+    "title": "Sr. Counsel",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494590"
+  },
+  "7494634": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494634",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-29",
+    "title": "Staff Technical Program Manager, Compute Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494634"
+  },
+  "7494636": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-11T21:15:55.546424+00:00",
+    "job_id": "7494636",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-11",
+    "title": "Senior Staff Technical Program Manager, Search Signals",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494636"
+  },
+  "7494648": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T22:11:13.615921+00:00",
+    "job_id": "7494648",
+    "last_seen": "2026-08-11T00:13:48.210650+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Sr. Staff Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494648"
+  },
+  "7494650": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494650",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Staff Technical Program Manager, Security",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494650"
+  },
+  "7494652": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494652",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-23",
+    "title": "Sr. Staff Technical Program Manager, Monetization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494652"
+  },
+  "7494668": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494668",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-16",
+    "title": "Staff Software Engineer, Capacity Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494668"
+  },
+  "7494686": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494686",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-14",
+    "title": "Staff Technical Program Manager, Monetization Data Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494686"
+  },
+  "7494708": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494708",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "Chicago, IL, US; Remote, US",
+    "posted_date": "2026-02-26",
+    "title": "Sr. Security Software Engineer, Application Security",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494708"
+  },
+  "7494740": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-29T20:25:19.521434+00:00",
+    "job_id": "7494740",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-29",
+    "title": "Principal Engineer, Shopping & Delivery Infra",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494740"
+  },
+  "7494765": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494765",
+    "last_seen": "2026-08-18T00:41:01.764788+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-05-19",
+    "title": "Staff Machine Learning Engineer, Programmatic Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494765"
+  },
+  "7494797": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494797",
+    "last_seen": "2026-08-06T12:49:16.490006+00:00",
+    "location": "Chicago, IL, US; Remote, US",
+    "posted_date": "2026-05-29",
+    "title": "Staff Product Owner, Collaboration & Productivity",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494797"
+  },
+  "7494904": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494904",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Seattle, WA, US; Remote, US",
+    "posted_date": "2026-03-23",
+    "title": "Staff Software Engineer, Ads Measurement Signal",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494904"
+  },
+  "7494915": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494915",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-02-25",
+    "title": "Staff Software Engineer, Ads Measurement Products",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494915"
+  },
+  "7494938": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494938",
+    "last_seen": "2026-08-21T18:46:28.302048+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-04-13",
+    "title": "Sr. Machine Learning Engineer, Responsible AI\u2013 Applied Research Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494938"
+  },
+  "7494956": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T00:19:15.654857+00:00",
+    "job_id": "7494956",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "Palo Alto; Seattle, WA; New York, NY; San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-25",
+    "title": "Sr. Staff Software Engineer, Big Data Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494956"
+  },
+  "7494991": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7494991",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "San Francisco, CA, US; Los Angeles, CA, US",
+    "posted_date": "2026-02-20",
+    "title": "Lead Client Partner, FinServ",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7494991"
+  },
+  "7495016": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T00:44:20.779321+00:00",
+    "job_id": "7495016",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "New York, NY, US; Chicago, IL, US",
+    "posted_date": "2026-08-06",
+    "title": "Partner Development Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7495016"
+  },
+  "7507652": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-05T10:34:15.711867+00:00",
+    "job_id": "7507652",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, USA; Hybrid",
+    "posted_date": "2026-01-16",
+    "title": "Sales Finance Analyst II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7507652"
+  },
+  "7525112": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7525112",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-14",
+    "title": "Staff Product Manager, Connections",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7525112"
+  },
+  "7577227": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T22:59:12.688947+00:00",
+    "job_id": "7577227",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "posted_date": "2026-10-06",
+    "title": "Sr. Staff Software Engineer, AI Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7577227"
+  },
+  "7638574": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T20:40:09.688989+00:00",
+    "job_id": "7638574",
+    "last_seen": "2026-09-09T21:37:24.958300+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-26",
+    "title": "Sr. Product Designer, Merchant AI-first Support",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7638574"
+  },
+  "7638587": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T20:40:09.688989+00:00",
+    "job_id": "7638587",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-16",
+    "title": "Sr. Project & Program Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7638587"
+  },
+  "7638599": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7638599",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Principal Product Designer, AI Native, Core",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7638599"
+  },
+  "7642251": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7642251",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-02-25",
+    "title": "Sr. Data Scientist, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7642251"
+  },
+  "7642253": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7642253",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-02-25",
+    "title": "Staff Software Engineer, Big Data, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7642253"
+  },
+  "7642272": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7642272",
+    "last_seen": "2026-08-05T19:59:16.726688+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-02-25",
+    "title": "Sr. Software Engineer, Big Data, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7642272"
+  },
+  "7648625": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7648625",
+    "last_seen": "2026-08-22T16:07:16.371355+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-13",
+    "title": "Director, Partner Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7648625"
+  },
+  "7648633": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7648633",
+    "last_seen": "2026-08-07T20:46:43.657910+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Director, Marketing Project & Program Management",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7648633"
+  },
+  "7648637": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7648637",
+    "last_seen": "2026-08-09T03:03:40.474033+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-23",
+    "title": "Strategy & Operations Lead, Strategic Enablement, MC2",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7648637"
+  },
+  "7648648": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7648648",
+    "last_seen": "2026-08-07T20:46:43.657910+00:00",
+    "location": "Los Angeles, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Lead, Strategy & Operations - Consumer Brand",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7648648"
+  },
+  "7648650": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-12T19:32:13.729981+00:00",
+    "job_id": "7648650",
+    "last_seen": "2026-09-16T20:45:14.533741+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-12",
+    "title": "Director, Marketing Technology & Innovation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7648650"
+  },
+  "7656243": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7656243",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-02-25",
+    "title": "Sr. Client Account Manager, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7656243"
+  },
+  "7663075": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7663075",
+    "last_seen": "2026-08-10T15:55:18.112660+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-03-06",
+    "title": "Sr. Lead Client Partner, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7663075"
+  },
+  "7671759": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-18T20:55:02.987768+00:00",
+    "job_id": "7671759",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-08-18",
+    "title": "Sr. Client Partner, Grocery",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7671759"
+  },
+  "7678040": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7678040",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-13",
+    "title": "Sr Client Account Manager, Amazon",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678040"
+  },
+  "7678180": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7678180",
+    "last_seen": "2026-09-14T01:45:25.767821+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-17",
+    "title": "Sr. Client Account Manager, E-Commerce",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678180"
+  },
+  "7678256": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7678256",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-06-24",
+    "title": "Sr. Insights Solutions Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678256"
+  },
+  "7678372": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T20:46:43.657910+00:00",
+    "job_id": "7678372",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-08-07",
+    "title": "Insights Solutions Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678372"
+  },
+  "7678712": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-11T18:04:02.953014+00:00",
+    "job_id": "7678712",
+    "last_seen": "2026-09-09T21:37:24.958300+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-08-11",
+    "title": "Measurement Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678712"
+  },
+  "7678715": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T00:44:20.779321+00:00",
+    "job_id": "7678715",
+    "last_seen": "2026-09-17T20:51:41.653930+00:00",
+    "location": "San Francisco, CA, US; New York, NY, US",
+    "posted_date": "2026-08-06",
+    "title": "Sales Strategy & Operations Lead, Agency Deal Ops",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678715"
+  },
+  "7678738": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-13T21:20:01.564613+00:00",
+    "job_id": "7678738",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-08-13",
+    "title": "Sr. Measurement Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7678738"
+  },
+  "7679640": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7679640",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-29",
+    "title": "Senior Staff Software Engineer, Configuration & Coordination",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7679640"
+  },
+  "7682046": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7682046",
+    "last_seen": "2026-08-04T20:23:53.916246+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-03-06",
+    "title": "Sr. Programmatic Ads Sales Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7682046"
+  },
+  "7683962": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "7683962",
+    "last_seen": "2026-10-06T22:59:12.688947+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-28",
+    "title": "Staff Product Manager, Ads Measurement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7683962"
+  },
+  "7683977": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-22T22:33:52.317976+00:00",
+    "job_id": "7683977",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-22",
+    "title": "Principal Engineer, AI Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7683977"
+  },
+  "7683981": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-02T18:39:11.075781+00:00",
+    "job_id": "7683981",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-02",
+    "title": "Principal Engineer, Big Data Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7683981"
+  },
+  "7684573": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7684573",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US",
+    "posted_date": "2026-04-08",
+    "title": "Engineering Manager I, Innovative Ad Formats",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684573"
+  },
+  "7684577": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-15T21:03:18.931241+00:00",
+    "job_id": "7684577",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-15",
+    "title": "Staff Qualitative UX Researcher, Monetization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684577"
+  },
+  "7684583": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-31T22:03:38.350441+00:00",
+    "job_id": "7684583",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-31",
+    "title": "Security GRC Analyst",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684583"
+  },
+  "7684618": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7684618",
+    "last_seen": "2026-08-10T21:49:28.369843+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-23",
+    "title": "Staff Product Owner, Finance & Business Operations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684618"
+  },
+  "7684630": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7684630",
+    "last_seen": "2026-08-06T12:49:16.490006+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-09",
+    "title": "Sr. Staff Product Owner, Accounting Systems",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684630"
+  },
+  "7684636": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7684636",
+    "last_seen": "2026-09-28T21:46:54.510657+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-16",
+    "title": "Product Design Manager II, Ad Formats",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7684636"
+  },
+  "7685103": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-19T19:59:16.801385+00:00",
+    "job_id": "7685103",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-19",
+    "title": "Finance Manager I, Technology Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7685103"
+  },
+  "7697137": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7697137",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-03-10",
+    "title": "Machine Learning Engineer II, Visual AI",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7697137"
+  },
+  "7718015": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7718015",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-03-31",
+    "title": "Staff Product Manager, AI Safety",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7718015"
+  },
+  "7724254": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7724254",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-04-27",
+    "title": "Sr. Staff Machine Learning Engineer, Content Quality",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7724254"
+  },
+  "7746407": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T00:23:37.598421+00:00",
+    "job_id": "7746407",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-19",
+    "title": "Sr. Agency Lead, Dentsu/Havas",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7746407"
+  },
+  "7746946": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7746946",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-09",
+    "title": "Sr. Staff Software Engineer, Data Product Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7746946"
+  },
+  "7763557": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T18:46:28.302048+00:00",
+    "job_id": "7763557",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US ",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Manager, Programmatic Ads Sales",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7763557"
+  },
+  "7770895": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7770895",
+    "last_seen": "2026-08-22T16:07:16.371355+00:00",
+    "location": "San Francisco, CA, US; Los Angeles, CA, US; New York, NY, US",
+    "posted_date": "2026-07-30",
+    "title": "Sr. Director, Consumer Communications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770895"
+  },
+  "7770898": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-13T21:20:01.564613+00:00",
+    "job_id": "7770898",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-08-13",
+    "title": "Staff Motion Designer, Design Innovation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770898"
+  },
+  "7770902": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7770902",
+    "last_seen": "2026-08-10T15:55:18.112660+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-18",
+    "title": "Sr. Product Designer, Advertiser Experience",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770902"
+  },
+  "7770911": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-14T16:55:36.205769+00:00",
+    "job_id": "7770911",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-14",
+    "title": "Sr. Staff Quantitative Product Researcher",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770911"
+  },
+  "7770918": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7770918",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US",
+    "posted_date": "2026-04-14",
+    "title": "Sr. Staff Software Engineer, Merchants",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770918"
+  },
+  "7770939": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7770939",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Staff Systems Engineer, Oracle EBS, Accounting",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770939"
+  },
+  "7770946": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "7770946",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Staff Software Engineer, Notifications & Growth Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770946"
+  },
+  "7770953": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7770953",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Staff Systems Engineer, Oracle EBS, Revenue",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7770953"
+  },
+  "7771029": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7771029",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Staff Systems Engineer, Oracle EBS, Integration",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7771029"
+  },
+  "7771049": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7771049",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Buenos Aires, AR",
+    "posted_date": "2026-07-28",
+    "title": "Sr. Client Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7771049"
+  },
+  "7772875": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7772875",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "Chicago, IL, US; Remote, CA, US",
+    "posted_date": "2026-06-12",
+    "title": "Sr. Production Engineer, Solutions Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7772875"
+  },
+  "7775727": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "7775727",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-04-07",
+    "title": "Sr. Counsel, Product",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7775727"
+  },
+  "7782229": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7782229",
+    "last_seen": "2026-09-01T19:15:05.053392+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US",
+    "posted_date": "2026-04-27",
+    "title": "Principal Engineer, Online Systems",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7782229"
+  },
+  "7782538": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7782538",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-18",
+    "title": "Site Reliability Engineer II, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7782538"
+  },
+  "7782546": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7782546",
+    "last_seen": "2026-10-04T23:05:34.306077+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-28",
+    "title": "Software Engineer II, Big Data, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7782546"
+  },
+  "7782550": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7782550",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-30",
+    "title": "Sr. Site Reliability Engineer, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7782550"
+  },
+  "7782569": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7782569",
+    "last_seen": "2026-09-18T19:53:12.147034+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-30",
+    "title": "Sr. Engineering Manager, Programmatic Ad Tech, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7782569"
+  },
+  "7786418": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7786418",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-06-02",
+    "title": "Software Engineer II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7786418"
+  },
+  "7807888": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7807888",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Tokyo, JP",
+    "posted_date": "2026-04-13",
+    "title": "Head of Verticals",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7807888"
+  },
+  "7816424": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7816424",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-18",
+    "title": "Data Scientist II, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7816424"
+  },
+  "7832348": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7832348",
+    "last_seen": "2026-08-06T12:49:16.490006+00:00",
+    "location": "Seattle, WA, US; Remote, US",
+    "posted_date": "2026-05-07",
+    "title": "Staff Software Engineer, Batch Processing Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7832348"
+  },
+  "7832719": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7832719",
+    "last_seen": "2026-08-10T12:24:36.143223+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-06-29",
+    "title": "Client Account Manager II, CPG Food",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7832719"
+  },
+  "7838577": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "7838577",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineer Intern 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7838577"
+  },
+  "7838591": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "7838591",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-01",
+    "title": "University Grad Software Engineer 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7838591"
+  },
+  "7838848": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7838848",
+    "last_seen": "2026-10-01T12:42:47.567112+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-23",
+    "title": "Director, Technical Program Management-Monetization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7838848"
+  },
+  "7839695": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7839695",
+    "last_seen": "2026-09-17T20:51:41.653930+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-10",
+    "title": "Staff Product Designer, Design Innovation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7839695"
+  },
+  "7857646": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7857646",
+    "last_seen": "2026-08-13T14:23:26.554168+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-04-28",
+    "title": "Lead Client Partner, Global CPG",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7857646"
+  },
+  "7858267": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7858267",
+    "last_seen": "2026-08-18T22:46:04.877448+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-06-11",
+    "title": "Client Account Manager I, Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7858267"
+  },
+  "7874931": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7874931",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-02",
+    "title": "Staff Software Engineer- Growth Performance Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7874931"
+  },
+  "7888329": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7888329",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-12",
+    "title": "Principal Engineer, AI Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7888329"
+  },
+  "7890195": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7890195",
+    "last_seen": "2026-08-14T18:36:40.758541+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-14",
+    "title": "Group Product Manager II, Creative Tech - tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7890195"
+  },
+  "7890197": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7890197",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-05-13",
+    "title": "Lead Product Analyst, Lifecycle Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7890197"
+  },
+  "7895567": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7895567",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-26",
+    "title": "Manager II, Engineering - Connections",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7895567"
+  },
+  "7896332": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7896332",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-05-20",
+    "title": "Sr. Software Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7896332"
+  },
+  "7901910": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7901910",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",
+    "posted_date": "2026-05-22",
+    "title": "Product Manager II, Content Compliance",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7901910"
+  },
+  "7903944": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7903944",
+    "last_seen": "2026-08-05T19:59:16.726688+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-05-08",
+    "title": "Sr. Client Account Manager, Mid-Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7903944"
+  },
+  "7903948": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7903948",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-05-08",
+    "title": "Lead Client Account Manager, Mid-Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7903948"
+  },
+  "7903955": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7903955",
+    "last_seen": "2026-10-07T21:57:02.003180+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-05-08",
+    "title": "Sr. Client Partner, Mid-Market (App + Performance)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7903955"
+  },
+  "7903959": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7903959",
+    "last_seen": "2026-08-18T00:41:01.764788+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-05-15",
+    "title": "Client Partner, Mid-Market UK/I",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7903959"
+  },
+  "7904011": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7904011",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-05-13",
+    "title": "Client Partner II, Mid-Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7904011"
+  },
+  "7905508": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7905508",
+    "last_seen": "2026-09-09T21:37:24.958300+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-22",
+    "title": "Staff Product Manager, Model Lifecycle & Management",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7905508"
+  },
+  "7908767": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T20:40:09.688989+00:00",
+    "job_id": "7908767",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-26",
+    "title": "Content Designer II, Personalization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7908767"
+  },
+  "7909000": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7909000",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-23",
+    "title": "Manager II, Trends Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7909000"
+  },
+  "7921160": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7921160",
+    "last_seen": "2026-08-12T16:49:47.901086+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-05",
+    "title": "Sr. Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7921160"
+  },
+  "7929862": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7929862",
+    "last_seen": "2026-08-10T12:24:36.143223+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-06-03",
+    "title": "Experiential Producer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7929862"
+  },
+  "7940044": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7940044",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Seattle, WA, US; Palo Alto, CA, US; Remote, US",
+    "posted_date": "2026-06-22",
+    "title": "Distinguished Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7940044"
+  },
+  "7940391": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7940391",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-29",
+    "title": "Sr. Client Account Manager, Pharma",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7940391"
+  },
+  "7953645": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7953645",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "Berlin, DE",
+    "posted_date": "2026-06-15",
+    "title": "Director, CPG Sales (DACH)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7953645"
+  },
+  "7954726": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7954726",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-06-26",
+    "title": "Client Account Manager II, E-Commerce",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7954726"
+  },
+  "7954753": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7954753",
+    "last_seen": "2026-10-12T23:15:28.847650+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-26",
+    "title": "Staff Software Engineer, Observability",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7954753"
+  },
+  "7955593": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7955593",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-06-04",
+    "title": "Staff Product Manager, Billing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7955593"
+  },
+  "7957635": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T00:21:49.028767+00:00",
+    "job_id": "7957635",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-10-05",
+    "title": "Manager II, Engineering, Ads Serving Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7957635"
+  },
+  "7957799": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7957799",
+    "last_seen": "2026-08-14T15:14:15.849437+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-05-27",
+    "title": "Staff Technical Program Manager, Search Relevance",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7957799"
+  },
+  "7957887": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7957887",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-06-18",
+    "title": "Content Growth Specialist, LATAM",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7957887"
+  },
+  "7958225": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7958225",
+    "last_seen": "2026-08-17T20:47:45.255525+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-23",
+    "title": "Lead, Compensation - Engineering & Product",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7958225"
+  },
+  "7958766": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7958766",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "Palo Alto, CA, US",
+    "posted_date": "2026-06-15",
+    "title": "Software Engineer II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7958766"
+  },
+  "7959458": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-06T01:16:58.785966+00:00",
+    "job_id": "7959458",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-08-05",
+    "title": "Staff Product Manager, Programmatic Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7959458"
+  },
+  "7963755": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7963755",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US",
+    "posted_date": "2026-06-10",
+    "title": "Staff Data Scientist, Ads Product",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7963755"
+  },
+  "7983334": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T00:44:20.779321+00:00",
+    "job_id": "7983334",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "San Francisco, CA, US; New York, NY, US",
+    "posted_date": "2026-08-06",
+    "title": "Sales Strategy & Operations Lead, JBP Development",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7983334"
+  },
+  "7983834": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7983834",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "Paris, FR",
+    "posted_date": "2026-06-10",
+    "title": "Sr. Sales Manager, Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7983834"
+  },
+  "7983838": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7983838",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "Berlin, DE; Hamburg, DE; Munich, DE",
+    "posted_date": "2026-06-15",
+    "title": "Sr. Client Account Manager, DACH Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7983838"
+  },
+  "7985302": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-08T23:30:42.500983+00:00",
+    "job_id": "7985302",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-10-07",
+    "title": "Staff Product Manager, Ads Quality Ranking",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7985302"
+  },
+  "7985917": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7985917",
+    "last_seen": "2026-08-05T13:04:57.666380+00:00",
+    "location": "Hamburg, DE",
+    "posted_date": "2026-06-23",
+    "title": "Sr. Manager, Communications DACH",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7985917"
+  },
+  "7986197": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T00:21:49.028767+00:00",
+    "job_id": "7986197",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Staff Product Manager, Ads Quality Ranking",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7986197"
+  },
+  "7987854": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7987854",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-06-10",
+    "title": "Software Engineer II, Android",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7987854"
+  },
+  "7987856": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "7987856",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-06",
+    "title": "Staff Data Scientist, Trust and Safety",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7987856"
+  },
+  "7988897": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T19:56:12.952859+00:00",
+    "job_id": "7988897",
+    "last_seen": "2026-08-11T14:14:44.728227+00:00",
+    "location": "Los Angeles, CA, US; Remote, CA, US",
+    "posted_date": "2026-08-04",
+    "title": "Sr. Data Analyst",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7988897"
+  },
+  "7989130": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7989130",
+    "last_seen": "2026-08-07T00:44:20.779321+00:00",
+    "location": "Paris, FR",
+    "posted_date": "2026-06-19",
+    "title": "Agency Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7989130"
+  },
+  "7989247": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7989247",
+    "last_seen": "2026-10-07T21:57:02.003180+00:00",
+    "location": "New York, NY, US; Chicago, IL, US",
+    "posted_date": "2026-07-30",
+    "title": "Sr. Industry Manager, Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7989247"
+  },
+  "7990086": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7990086",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-29",
+    "title": "Staff Software Engineer, Service Communications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7990086"
+  },
+  "7990090": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7990090",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "US; Remote, US",
+    "posted_date": "2026-06-30",
+    "title": "Staff Software Engineer, Edge",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7990090"
+  },
+  "7999050": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "7999050",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-26",
+    "title": "Sr. Machine Learning Engineer, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/7999050"
+  },
+  "8001339": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8001339",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-07-10",
+    "title": "Sales Strategy & Operations Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8001339"
+  },
+  "8001913": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8001913",
+    "last_seen": "2026-10-01T12:42:47.567112+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "Sr. Staff Software Engineer, iOS Search and Shopping Journeys",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8001913"
+  },
+  "8001932": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8001932",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-23",
+    "title": "Staff Data Scientist, Forecasting",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8001932"
+  },
+  "8002076": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8002076",
+    "last_seen": "2026-08-11T15:09:02.879645+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-12",
+    "title": "Manager II, Technical Program Management - Ads & Core Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8002076"
+  },
+  "8010505": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8010505",
+    "last_seen": "2026-09-01T19:15:05.053392+00:00",
+    "location": "Tokyo, JP",
+    "posted_date": "2026-06-17",
+    "title": "Agency Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8010505"
+  },
+  "8010903": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8010903",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Seattle, WA, US; Remote, US",
+    "posted_date": "2026-07-01",
+    "title": "Manager II, Machine Learning \u2013 Conversion Visibility",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8010903"
+  },
+  "8011376": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011376",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-18",
+    "title": "Sr. Data Scientist, Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011376"
+  },
+  "8011452": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011452",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-07-08",
+    "title": "Staff Machine Learning Engineer, Ads Conversion Core Modeling",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011452"
+  },
+  "8011547": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011547",
+    "last_seen": "2026-09-01T19:15:05.053392+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-06-22",
+    "title": "Sr. Software Engineer, iOS",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011547"
+  },
+  "8011568": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011568",
+    "last_seen": "2026-10-06T22:59:12.688947+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-17",
+    "title": "SDET II, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011568"
+  },
+  "8011573": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011573",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Sr. Systems Engineer, Sales & Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011573"
+  },
+  "8011719": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011719",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA,US",
+    "posted_date": "2026-07-31",
+    "title": "Principal Engineer, Indexing & Retrieval Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011719"
+  },
+  "8011928": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8011928",
+    "last_seen": "2026-08-26T20:40:09.688989+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-23",
+    "title": "Sr. Industry Manager, Ecommerce",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8011928"
+  },
+  "8014770": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8014770",
+    "last_seen": "2026-08-20T20:34:06.537122+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-06-26",
+    "title": "Sr. Data Scientist, Performance Marketing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8014770"
+  },
+  "8015346": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-28T21:46:54.510657+00:00",
+    "job_id": "8015346",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-28",
+    "title": "Staff Software, Engineering \u2013 Analytics Engineering, Core Data Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015346"
+  },
+  "8015360": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-28T21:46:54.510657+00:00",
+    "job_id": "8015360",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-28",
+    "title": "Manager II, Engineering- Analytics Engineering, Core Data Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015360"
+  },
+  "8015490": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8015490",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Security Software Engineer II, Detection and Response",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015490"
+  },
+  "8015494": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T19:24:44.558570+00:00",
+    "job_id": "8015494",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-07",
+    "title": "Sr. Product Manager, Search Personalization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015494"
+  },
+  "8015504": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T22:11:13.615921+00:00",
+    "job_id": "8015504",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Sr. Manager, Machine Learning Engineering-Applied Research",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015504"
+  },
+  "8015517": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-15T00:55:46.703202+00:00",
+    "job_id": "8015517",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-09-14",
+    "title": "Engineering Manager II, iOS Modernization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015517"
+  },
+  "8015519": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T16:53:21.765816+00:00",
+    "job_id": "8015519",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Sr. Product Manager, TwoTwenty",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015519"
+  },
+  "8015529": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8015529",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-06-24",
+    "title": "Engineering Manager II, Web Product Enablement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015529"
+  },
+  "8015531": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-14T22:21:32.349922+00:00",
+    "job_id": "8015531",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-09-14",
+    "title": "Engineering Manager II, Android Modernization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015531"
+  },
+  "8015537": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8015537",
+    "last_seen": "2026-09-23T22:08:44.490460+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-13",
+    "title": "Staff Machine Learning Engineer, Visual AI",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015537"
+  },
+  "8015539": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8015539",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-31",
+    "title": "Staff Machine Learning Engineer, Applied Research",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015539"
+  },
+  "8015547": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8015547",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-05",
+    "title": "Security Software Engineer II, Detection and Response",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8015547"
+  },
+  "8016126": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016126",
+    "last_seen": "2026-08-22T16:07:16.371355+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-07",
+    "title": "Director, Measurement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016126"
+  },
+  "8016626": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016626",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-24",
+    "title": "Sr. Client Account Manager (Entertainment App) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016626"
+  },
+  "8016630": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016630",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-20",
+    "title": "Programmatic Ads Sales Lead, EMEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016630"
+  },
+  "8016632": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016632",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-07-20",
+    "title": "Sr. Programmatic Tech Operations Specialist, EMEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016632"
+  },
+  "8016634": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-05T19:59:16.726688+00:00",
+    "job_id": "8016634",
+    "last_seen": "2026-10-01T12:42:47.567112+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-08-05",
+    "title": "Manager II, Technical Support Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016634"
+  },
+  "8016636": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016636",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-06",
+    "title": "Sr. Partner Support Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016636"
+  },
+  "8016642": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-22T22:33:52.317976+00:00",
+    "job_id": "8016642",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-09-22",
+    "title": "Client Account Manager II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016642"
+  },
+  "8016650": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016650",
+    "last_seen": "2026-08-11T00:13:48.210650+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-14",
+    "title": "Client Account Manager - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016650"
+  },
+  "8016652": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016652",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-22",
+    "title": "Director, Enterprise Sales - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016652"
+  },
+  "8016658": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016658",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-08",
+    "title": "Lead Client Partner (eCommerce) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016658"
+  },
+  "8016665": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016665",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-31",
+    "title": "Sr. Client Account Manager (Growth) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016665"
+  },
+  "8016669": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "8016669",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-08-28",
+    "title": "Director, Sales Partners & Agency - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016669"
+  },
+  "8016673": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016673",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-22",
+    "title": "Senior Industry Manager (Growth) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016673"
+  },
+  "8016681": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016681",
+    "last_seen": "2026-09-23T22:08:44.490460+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-06-29",
+    "title": "Sr. Agency Partner - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016681"
+  },
+  "8016692": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016692",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-17",
+    "title": "Sr. Performance Solutions Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016692"
+  },
+  "8016712": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016712",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-13",
+    "title": "Client Account Manager, Enterprise Sales (International Retail)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016712"
+  },
+  "8016717": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016717",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-07",
+    "title": "Lead Client Account Manager  (eCommerce) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016717"
+  },
+  "8016723": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016723",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-17",
+    "title": "Performance Solutions Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016723"
+  },
+  "8016726": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016726",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-24",
+    "title": "Lead Client Partner - SEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016726"
+  },
+  "8016735": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016735",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "Stockholm, SE",
+    "posted_date": "2026-07-24",
+    "title": "Sr. Client Account Manager | Nordics (CPG)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016735"
+  },
+  "8016737": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016737",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-24",
+    "title": "Sr. Client Account Manager - SEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016737"
+  },
+  "8016741": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016741",
+    "last_seen": "2026-08-12T00:14:29.044495+00:00",
+    "location": "Amsterdam, NL",
+    "posted_date": "2026-07-17",
+    "title": "Sales Manager, Northern Europe",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016741"
+  },
+  "8016982": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8016982",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-06-18",
+    "title": "Sr. Client Account Manager, Enterprise Sales - Retail, (12 months FTC)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8016982"
+  },
+  "8022402": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8022402",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-03",
+    "title": "Director, Integrated Marketing- Mid Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8022402"
+  },
+  "8022497": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8022497",
+    "last_seen": "2026-08-24T20:58:14.843693+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-09",
+    "title": "Sr. Client Account Manager, French Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8022497"
+  },
+  "8022863": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8022863",
+    "last_seen": "2026-09-12T18:17:00.379436+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-03",
+    "title": "Agency Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8022863"
+  },
+  "8023269": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8023269",
+    "last_seen": "2026-08-05T13:04:57.666380+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-07-22",
+    "title": "Sr. Client Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8023269"
+  },
+  "8023410": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8023410",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-06-29",
+    "title": "Lead Client Partner, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8023410"
+  },
+  "8023412": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8023412",
+    "last_seen": "2026-10-04T23:05:34.306077+00:00",
+    "location": "New York, New York, US",
+    "posted_date": "2026-07-01",
+    "title": "Lead Client Account Manager, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8023412"
+  },
+  "8024868": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8024868",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-06-25",
+    "title": "Sr. Software Engineer, Web",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8024868"
+  },
+  "8024883": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8024883",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-06-25",
+    "title": "Software Engineer II, Web",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8024883"
+  },
+  "8024966": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8024966",
+    "last_seen": "2026-10-04T23:05:34.306077+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-07",
+    "title": "Sr. Data Scientist, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8024966"
+  },
+  "8025136": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8025136",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-15",
+    "title": "Lead, Executive Compensation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8025136"
+  },
+  "8026607": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8026607",
+    "last_seen": "2026-10-06T00:21:49.028767+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-03",
+    "title": "Staff Data Scientist, Ads Delivery",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026607"
+  },
+  "8026860": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-05T19:59:16.726688+00:00",
+    "job_id": "8026860",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "New York, NY, US; Remote, NY, US",
+    "posted_date": "2026-08-05",
+    "title": "Sr. Lead Client Partner, Real Money Gaming (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026860"
+  },
+  "8026862": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T00:44:20.779321+00:00",
+    "job_id": "8026862",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-06",
+    "title": "Lead Client Partner, Brand Sales (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026862"
+  },
+  "8026869": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-05T19:59:16.726688+00:00",
+    "job_id": "8026869",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-08-05",
+    "title": "Lead Client Partner, Consumer Apps (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026869"
+  },
+  "8026876": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8026876",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-07-31",
+    "title": "Measurement Lead (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026876"
+  },
+  "8026882": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8026882",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-07-31",
+    "title": "Measurement Partner II (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026882"
+  },
+  "8026888": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8026888",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-07-28",
+    "title": "Client Account Manager II (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8026888"
+  },
+  "8027260": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8027260",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-09",
+    "title": "Lead Ads Product Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8027260"
+  },
+  "8029922": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8029922",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-07-31",
+    "title": "Industry Manager II, Beauty & Luxury",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8029922"
+  },
+  "8030915": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8030915",
+    "last_seen": "2026-08-20T20:34:06.537122+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-07-20",
+    "title": "Lead Client Partner, CPG Food",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8030915"
+  },
+  "8035163": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8035163",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US",
+    "posted_date": "2026-07-31",
+    "title": "Director of Engineering, Core & Ads Serving Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8035163"
+  },
+  "8035781": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8035781",
+    "last_seen": "2026-08-14T15:14:15.849437+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-09",
+    "title": "Lead Client Partner, Pharma",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8035781"
+  },
+  "8036258": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8036258",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-06-30",
+    "title": "Sr. Staff Machine Learning Engineer, Monetization Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8036258"
+  },
+  "8036273": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8036273",
+    "last_seen": "2026-09-18T19:53:12.147034+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-10",
+    "title": "Staff Data Scientist, Finance & Business Ops",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8036273"
+  },
+  "8036424": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8036424",
+    "last_seen": "2026-08-06T01:16:58.785966+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-07-02",
+    "title": "Sr. Sales Strategy & Operations Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8036424"
+  },
+  "8037865": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8037865",
+    "last_seen": "2026-08-18T00:41:01.764788+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-12",
+    "title": "Client Account Manager, CPG Enterprise (French Market)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8037865"
+  },
+  "8041770": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T16:53:21.765816+00:00",
+    "job_id": "8041770",
+    "last_seen": "2026-08-05T19:59:16.726688+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Software Engineer II, Backend, tvScientific",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8041770"
+  },
+  "8042279": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T19:24:44.558570+00:00",
+    "job_id": "8042279",
+    "last_seen": "2026-10-04T23:05:34.306077+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-07",
+    "title": "Product Manager II, Search Experience",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8042279"
+  },
+  "8042339": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8042339",
+    "last_seen": "2026-08-18T22:46:04.877448+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-15",
+    "title": "Measurement Partnerships Lead, EMEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8042339"
+  },
+  "8046820": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8046820",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-16",
+    "title": "Sr. Product Manager, Core Saving Experience",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8046820"
+  },
+  "8046824": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8046824",
+    "last_seen": "2026-08-11T18:04:02.953014+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-22",
+    "title": "Financial Analyst II - Sales",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8046824"
+  },
+  "8046828": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8046828",
+    "last_seen": "2026-08-11T18:04:02.953014+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-07-14",
+    "title": "Sr. Client Partner, Pinterest Spark",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8046828"
+  },
+  "8046842": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-25T19:39:19.842902+00:00",
+    "job_id": "8046842",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-25",
+    "title": "Sr. Manager, Capacity Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8046842"
+  },
+  "8046860": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8046860",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-09-30",
+    "title": "Sr. Staff Software Engineer, Product ML Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8046860"
+  },
+  "8047377": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8047377",
+    "last_seen": "2026-08-05T01:16:41.346256+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-08",
+    "title": "Physical Security Specialist II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8047377"
+  },
+  "8047425": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "8047425",
+    "last_seen": "2026-09-16T20:45:14.533741+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-08-24",
+    "title": "Staff Software Engineer, Storage Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8047425"
+  },
+  "8049076": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8049076",
+    "last_seen": "2026-08-06T12:49:16.490006+00:00",
+    "location": "Amsterdam, NL",
+    "posted_date": "2026-07-15",
+    "title": "Sr. Sales Strategy & Operations Manager (12-Month Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8049076"
+  },
+  "8049465": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8049465",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-07-07",
+    "title": "Staff Machine Learning Engineer, Shopping Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8049465"
+  },
+  "8049832": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-17T20:47:45.255525+00:00",
+    "job_id": "8049832",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-08-17",
+    "title": "Staff Technical Program Manager, Identity and Product Safety",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8049832"
+  },
+  "8050699": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8050699",
+    "last_seen": "2026-08-31T22:03:38.350441+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-07-14",
+    "title": "Staff Product Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8050699"
+  },
+  "8051472": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8051472",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-03",
+    "title": "Engineering Manager II, Media Rendering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8051472"
+  },
+  "8052679": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T00:23:37.598421+00:00",
+    "job_id": "8052679",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-19",
+    "title": "Principal Engineer, Core - Pinner Journeys",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8052679"
+  },
+  "8054838": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8054838",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-15",
+    "title": "Sr. Client Account Manager, Tech",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8054838"
+  },
+  "8055266": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-09T21:37:24.958300+00:00",
+    "job_id": "8055266",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-09-09",
+    "title": "Staff Software Engineer, Ads & Core Serving Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8055266"
+  },
+  "8055301": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8055301",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-15",
+    "title": "Client Account Manager II, Fashion & Apparel",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8055301"
+  },
+  "8055344": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8055344",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "Sydney, AU",
+    "posted_date": "2026-07-23",
+    "title": "Lead Industry Manager - SMB",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8055344"
+  },
+  "8059251": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8059251",
+    "last_seen": "2026-08-04T20:23:53.916246+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-23",
+    "title": "Manager II, Escalation Operations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8059251"
+  },
+  "8066850": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-14T15:14:15.849437+00:00",
+    "job_id": "8066850",
+    "last_seen": "2026-08-18T22:46:04.877448+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-13",
+    "title": "Accountant I",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8066850"
+  },
+  "8067109": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8067109",
+    "last_seen": "2026-08-12T00:14:29.044495+00:00",
+    "location": "Madrid, ES",
+    "posted_date": "2026-07-21",
+    "title": "Sr. Client Partner (6-Month Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8067109"
+  },
+  "8067933": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8067933",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-07-29",
+    "title": "Staff Technical Program Manager, Data Science",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8067933"
+  },
+  "8071595": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8071595",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "New York, New York, US",
+    "posted_date": "2026-07-23",
+    "title": "Sr. Client Partner, Amazon \u2013 Emerging Line of Business",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8071595"
+  },
+  "8071670": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8071670",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "posted_date": "2026-07-23",
+    "title": "Data Scientist II, ML Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8071670"
+  },
+  "8074872": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8074872",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Hamburg, DE",
+    "posted_date": "2026-07-22",
+    "title": "Sr. Client Partner [12-Month Fixed Term] Entertainment and Telco",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8074872"
+  },
+  "8074878": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8074878",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "Berlin, DE",
+    "posted_date": "2026-07-22",
+    "title": "Lead Client Partner [12-Month Fixed Term] Food and Beverage",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8074878"
+  },
+  "8074880": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8074880",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Hamburg, DE",
+    "posted_date": "2026-07-22",
+    "title": "Sr. Client Partner [12-Month Fixed Term]",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8074880"
+  },
+  "8074953": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8074953",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-07-31",
+    "title": "Lead Client Partner, Household & Beverage (12-Month Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8074953"
+  },
+  "8075678": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8075678",
+    "last_seen": "2026-08-20T00:23:37.598421+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-22",
+    "title": "Client Account Manager, Enterprise Nordics (English Speaking)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8075678"
+  },
+  "8075888": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-10T18:48:46.523635+00:00",
+    "job_id": "8075888",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-08-10",
+    "title": "Staff Software Engineer, Web Product Enablement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8075888"
+  },
+  "8076015": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "8076015",
+    "last_seen": "2026-09-16T20:45:14.533741+00:00",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "posted_date": "2026-08-24",
+    "title": "Staff Software Engineer, Data Warehouse Foundation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8076015"
+  },
+  "8077735": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T23:39:04.062843+00:00",
+    "job_id": "8077735",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Email & Lifecycle Marketing Specialist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8077735"
+  },
+  "8078133": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8078133",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-07-30",
+    "title": "Sr. Safety Specialist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8078133"
+  },
+  "8078223": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8078223",
+    "last_seen": "2026-09-02T20:53:40.497902+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-07-21",
+    "title": "Industry Manager II, Mid-Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8078223"
+  },
+  "8080469": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8080469",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "Stockholm, SE",
+    "posted_date": "2026-07-22",
+    "title": "Sr. Client Account Manager | Nordics (Retail)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8080469"
+  },
+  "8081335": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8081335",
+    "last_seen": "2026-08-18T22:46:04.877448+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-08-03",
+    "title": "Client Account Manager II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8081335"
+  },
+  "8081337": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8081337",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-07-30",
+    "title": "Client Account Manager II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8081337"
+  },
+  "8081452": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-19T19:59:16.801385+00:00",
+    "job_id": "8081452",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-19",
+    "title": "Sr. Client Account Manager, Home Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8081452"
+  },
+  "8081505": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8081505",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Los Angeles, CA, US",
+    "posted_date": "2026-07-30",
+    "title": "Sr. Client Account Manager, Home Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8081505"
+  },
+  "8081509": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8081509",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-07-28",
+    "title": "Sr. Client Partner, Retail Media",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8081509"
+  },
+  "8082033": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T00:23:37.598421+00:00",
+    "job_id": "8082033",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-19",
+    "title": "Staff Product Manager, Applied Science - Representation Learning",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8082033"
+  },
+  "8082169": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T00:23:37.598421+00:00",
+    "job_id": "8082169",
+    "last_seen": "2026-08-27T20:29:08.534706+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-08-19",
+    "title": "Sr. Strategic Partner Manager, Content",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8082169"
+  },
+  "8082234": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8082234",
+    "last_seen": "2026-09-03T20:09:36.959851+00:00",
+    "location": "Singapore, Singapore",
+    "posted_date": "2026-07-29",
+    "title": "Sr. Sourcer (6 months fixed term contract)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8082234"
+  },
+  "8082503": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T18:46:28.302048+00:00",
+    "job_id": "8082503",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US; New York, NY, US; San Francisco, CA, US; Los Angeles, CA, US; Atlanta, GA, US; Seattle, WA, US",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Ads Product Marketing Manager- Ads Delivery",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8082503"
+  },
+  "8083603": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8083603",
+    "last_seen": "2026-08-26T00:19:15.654857+00:00",
+    "location": "Los Angeles, CA, US",
+    "posted_date": "2026-08-03",
+    "title": "Client Account Manager II, Entertainment & Gaming",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8083603"
+  },
+  "8084337": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8084337",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Buenos Aires, AR",
+    "posted_date": "2026-07-28",
+    "title": "Sr. Industry Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8084337"
+  },
+  "8085092": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8085092",
+    "last_seen": "2026-08-20T20:34:06.537122+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-07-30",
+    "title": "Client Account Manager II, CPG (Nestle)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8085092"
+  },
+  "8088867": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-10T18:48:46.523635+00:00",
+    "job_id": "8088867",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-10",
+    "title": "Sr. Staff Software Engineer, Pinterest Assistant",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8088867"
+  },
+  "8089250": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8089250",
+    "last_seen": "2026-09-17T20:51:41.653930+00:00",
+    "location": "Buenos Aires, AR",
+    "posted_date": "2026-07-28",
+    "title": "Client Account Manager I",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8089250"
+  },
+  "8089344": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-14T18:36:40.758541+00:00",
+    "job_id": "8089344",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "Los Angeles, CA, US; Chicago, IL, US; New York, NY, US ",
+    "posted_date": "2026-08-14",
+    "title": "Agency Lead, Independents",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8089344"
+  },
+  "8092378": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-07T19:24:44.558570+00:00",
+    "job_id": "8092378",
+    "last_seen": "2026-08-26T20:40:09.688989+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-08-07",
+    "title": "Senior Data Scientist, Trust & Safety and Content Quality",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8092378"
+  },
+  "8093282": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8093282",
+    "last_seen": "2026-08-20T20:34:06.537122+00:00",
+    "location": "Los Angeles, CA, US; New York, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-07-29",
+    "title": "Sr. Director, Corporate Communications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8093282"
+  },
+  "8093284": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-11T18:04:02.953014+00:00",
+    "job_id": "8093284",
+    "last_seen": "2026-08-18T20:55:02.987768+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-08-11",
+    "title": "Sr. Client Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8093284"
+  },
+  "8094012": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-12T19:32:13.729981+00:00",
+    "job_id": "8094012",
+    "last_seen": "2026-10-12T23:15:28.847650+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-12",
+    "title": "Director, UK Enterprise Sales (Multi-Vertical)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8094012"
+  },
+  "8094208": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8094208",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-07-29",
+    "title": "Lead Client Partner (Gaming & Apps) - Greater China Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8094208"
+  },
+  "8095322": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-21T22:01:03.318730+00:00",
+    "job_id": "8095322",
+    "last_seen": "2026-10-06T22:59:12.688947+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-21",
+    "title": "Sr. Ads Product Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8095322"
+  },
+  "8095343": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T22:11:13.615921+00:00",
+    "job_id": "8095343",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-04",
+    "title": "Staff Data Scientist, Notifications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8095343"
+  },
+  "8096738": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-01T19:15:05.053392+00:00",
+    "job_id": "8096738",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-01",
+    "title": "Sr. Security Software Engineer, Security Operations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8096738"
+  },
+  "8097936": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-06T12:49:16.490006+00:00",
+    "job_id": "8097936",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-06",
+    "title": "Communications Lead, UK & Europe - Corporate & Policy",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8097936"
+  },
+  "8097938": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "8097938",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-08-24",
+    "title": "Sr. Lead, Corporate Communications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8097938"
+  },
+  "8098379": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-13T00:16:05.162856+00:00",
+    "job_id": "8098379",
+    "last_seen": "2026-09-01T19:15:05.053392+00:00",
+    "location": "Paris, FR",
+    "posted_date": "2026-08-12",
+    "title": "Sr. Client Partner (8-Month Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8098379"
+  },
+  "8098383": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T16:53:21.765816+00:00",
+    "job_id": "8098383",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "Hamburg, DE",
+    "posted_date": "2026-08-04",
+    "title": "Sr. Client Account Manager - 12 month Fixed Term Contract",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8098383"
+  },
+  "8098385": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T16:31:43.455777+00:00",
+    "job_id": "8098385",
+    "last_seen": "2026-09-15T21:03:18.931241+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-21",
+    "title": "Client Account Manager, Enterprise Sales, Fixed-Term Contract (8 months)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8098385"
+  },
+  "8100299": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-06T00:33:00.130032+00:00",
+    "job_id": "8100299",
+    "last_seen": "2026-08-26T20:40:09.688989+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-05",
+    "title": "Sr. Software Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8100299"
+  },
+  "8102742": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T12:54:26.068069+00:00",
+    "job_id": "8102742",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Sydney, AU",
+    "posted_date": "2026-08-03",
+    "title": "Sr. Client Partner (6 Months Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8102742"
+  },
+  "8102744": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-04T02:21:00.365844+00:00",
+    "job_id": "8102744",
+    "last_seen": "2026-08-20T20:34:06.537122+00:00",
+    "location": "Sydney, AU",
+    "posted_date": "2026-08-03",
+    "title": "Client Account Manager II (12 Months Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8102744"
+  },
+  "8103612": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-15T21:50:08.985610+00:00",
+    "job_id": "8103612",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US",
+    "posted_date": "2026-08-14",
+    "title": "Administrative Business Partner I - Engineering, Product and Design",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8103612"
+  },
+  "8104117": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T00:19:15.654857+00:00",
+    "job_id": "8104117",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Seattle, WA, US; Remote, US",
+    "posted_date": "2026-08-19",
+    "title": "Manager II, Config Deployments",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8104117"
+  },
+  "8106377": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-06T12:49:16.490006+00:00",
+    "job_id": "8106377",
+    "last_seen": "2026-09-17T20:51:41.653930+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-06",
+    "title": "Sr. Software Engineer",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8106377"
+  },
+  "8107243": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T00:19:15.654857+00:00",
+    "job_id": "8107243",
+    "last_seen": "2026-09-24T23:51:52.092660+00:00",
+    "location": "Los Angeles, CA, US; Remote, US",
+    "posted_date": "2026-08-25",
+    "title": "Performance Solutions Partner I",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8107243"
+  },
+  "8107389": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-17T20:47:45.255525+00:00",
+    "job_id": "8107389",
+    "last_seen": "2026-09-08T14:31:46.487338+00:00",
+    "location": "Paris, FR",
+    "posted_date": "2026-08-17",
+    "title": "Measurement Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8107389"
+  },
+  "8107543": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-13T00:16:05.162856+00:00",
+    "job_id": "8107543",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "Atlanta, GA, US",
+    "posted_date": "2026-08-12",
+    "title": "Sr. Client Account Manager, Tractor Supply & Paint",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8107543"
+  },
+  "8108629": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-11T13:05:13.909271+00:00",
+    "job_id": "8108629",
+    "last_seen": "2026-09-18T19:53:12.147034+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-08-11",
+    "title": "Senior Manager, Measurement - APAC",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8108629"
+  },
+  "8109351": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-14T18:36:40.758541+00:00",
+    "job_id": "8109351",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-08-14",
+    "title": "Lead Program Manager, Global SMB Sales Enablement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8109351"
+  },
+  "8112049": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-17T20:47:45.255525+00:00",
+    "job_id": "8112049",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-17",
+    "title": "Sr. Client Account Manager, Walmart",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8112049"
+  },
+  "8112792": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-09T03:03:40.474033+00:00",
+    "job_id": "8112792",
+    "last_seen": "2026-09-16T20:45:14.533741+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-08",
+    "title": "Sr. Client Account Manager, Enterprise Sales, Fixed-Term Contract (6 months)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8112792"
+  },
+  "8114104": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-27T20:29:08.534706+00:00",
+    "job_id": "8114104",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "Seattle, WA, US",
+    "posted_date": "2026-08-26",
+    "title": "Sr. Client Account Manager, Fashion Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8114104"
+  },
+  "8114760": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-01T19:15:05.053392+00:00",
+    "job_id": "8114760",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-09-01",
+    "title": "Client Account Manager II, CPG (Food)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8114760"
+  },
+  "8119900": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-22T16:07:16.371355+00:00",
+    "job_id": "8119900",
+    "last_seen": "2026-09-02T20:53:40.497902+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-08-21",
+    "title": "Director, Technical Revenue Accounting",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8119900"
+  },
+  "8119902": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-17T20:47:45.255525+00:00",
+    "job_id": "8119902",
+    "last_seen": "2026-09-09T21:37:24.958300+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-08-17",
+    "title": "Sr. Client Account Manager, Household & Beverage",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8119902"
+  },
+  "8120416": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "8120416",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-08-27",
+    "title": "Sales Strategy & Operations Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8120416"
+  },
+  "8121166": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-14T22:21:32.349922+00:00",
+    "job_id": "8121166",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-14",
+    "title": "Sr. Client Partner, UK Enterprise Sales - Tech and Telco",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8121166"
+  },
+  "8122109": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-31T22:03:38.350441+00:00",
+    "job_id": "8122109",
+    "last_seen": "2026-09-02T20:53:40.497902+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-31",
+    "title": "Content Enablement Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8122109"
+  },
+  "8123052": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-22T16:07:16.371355+00:00",
+    "job_id": "8123052",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-21",
+    "title": "Product Designer II, Notifications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8123052"
+  },
+  "8125787": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "8125787",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-08-24",
+    "title": "Lead Industry Manager, SMB Sales -  Agency",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8125787"
+  },
+  "8126310": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-24T20:58:14.843693+00:00",
+    "job_id": "8126310",
+    "last_seen": "2026-08-30T20:10:33.844663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-24",
+    "title": "Manager I, Technical Accounting",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8126310"
+  },
+  "8126331": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-15T21:50:08.985610+00:00",
+    "job_id": "8126331",
+    "last_seen": "2026-08-31T22:03:38.350441+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-08-14",
+    "title": "Sr. Client Partner, Brand Sales (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8126331"
+  },
+  "8128230": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T20:34:06.537122+00:00",
+    "job_id": "8128230",
+    "last_seen": "2026-09-22T22:33:52.317976+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-20",
+    "title": "Lead Client Partner, UK Enterprise Sales - Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8128230"
+  },
+  "8128842": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-18T20:55:02.987768+00:00",
+    "job_id": "8128842",
+    "last_seen": "2026-08-18T22:46:04.877448+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-18",
+    "title": "Sr. Client Account Manager UK/I (6-Month Fixed Term)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8128842"
+  },
+  "8129644": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T16:31:43.455777+00:00",
+    "job_id": "8129644",
+    "last_seen": "2026-08-24T13:26:44.368819+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-08-21",
+    "title": "Client Account Manager II, UK/I,  Fintech, Insurance and Government Business",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8129644"
+  },
+  "8129654": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-03T20:09:36.959851+00:00",
+    "job_id": "8129654",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-02",
+    "title": "Programmatic Ads Sales Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8129654"
+  },
+  "8129662": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-10T20:55:02.634826+00:00",
+    "job_id": "8129662",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-09",
+    "title": "Sr. Programmatic Tech Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8129662"
+  },
+  "8129664": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T18:46:28.302048+00:00",
+    "job_id": "8129664",
+    "last_seen": "2026-09-14T22:21:32.349922+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Manager, Programmatic Tech Operations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8129664"
+  },
+  "8129827": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-12T18:17:00.379436+00:00",
+    "job_id": "8129827",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-09-11",
+    "title": "Managing Director, Canada Sales",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8129827"
+  },
+  "8130606": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-12T18:17:00.379436+00:00",
+    "job_id": "8130606",
+    "last_seen": "2026-10-01T12:42:47.567112+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-10",
+    "title": "Lead Ads Product Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8130606"
+  },
+  "8130612": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-12T18:17:00.379436+00:00",
+    "job_id": "8130612",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-11",
+    "title": "Client Account Manager II, Affiliate (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8130612"
+  },
+  "8130616": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-23T22:08:44.490460+00:00",
+    "job_id": "8130616",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-23",
+    "title": "Sr. Client Partner (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8130616"
+  },
+  "8130640": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-03T20:09:36.959851+00:00",
+    "job_id": "8130640",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-03",
+    "title": "Lead Client Partner (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8130640"
+  },
+  "8131326": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-15T21:50:08.985610+00:00",
+    "job_id": "8131326",
+    "last_seen": "2026-08-16T23:46:42.730620+00:00",
+    "location": "Remote",
+    "posted_date": "2026-08-14",
+    "title": "Performance Solutions Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8131326"
+  },
+  "8131383": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T16:31:43.455777+00:00",
+    "job_id": "8131383",
+    "last_seen": "2026-09-15T00:55:46.703202+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-20",
+    "title": "Director, Retail Transformation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8131383"
+  },
+  "8131732": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T16:31:43.455777+00:00",
+    "job_id": "8131732",
+    "last_seen": "2026-09-02T20:53:40.497902+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-21",
+    "title": "Safety Specialist, Privacy",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8131732"
+  },
+  "8131793": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T22:59:12.688947+00:00",
+    "job_id": "8131793",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, WA, US",
+    "posted_date": "2026-10-06",
+    "title": "Staff Software Engineer, App Promotion",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8131793"
+  },
+  "8132078": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-26T00:19:15.654857+00:00",
+    "job_id": "8132078",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-25",
+    "title": "Manager II, Recruiting",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8132078"
+  },
+  "8132504": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-17T20:51:41.653930+00:00",
+    "job_id": "8132504",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-09-17",
+    "title": "Director of Product Management, Advertiser Growth",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8132504"
+  },
+  "8135500": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-19T19:59:16.801385+00:00",
+    "job_id": "8135500",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-19",
+    "title": "Client Account Manager, Enterprise Sales - Italian Market",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8135500"
+  },
+  "8138034": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138034",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineering Intern 2027 (Dublin)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138034"
+  },
+  "8138039": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138039",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineering Intern 2027 (Toronto)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138039"
+  },
+  "8138049": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138049",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-10-01",
+    "title": "University Grad Software Engineer (Toronto)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138049"
+  },
+  "8138057": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138057",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-10-01",
+    "title": "University Grad Software Engineer (Dublin)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138057"
+  },
+  "8138065": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138065",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-10-01",
+    "title": "University Grad Machine Learning Engineer 2027 (Toronto)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138065"
+  },
+  "8138080": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138080",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, CA",
+    "posted_date": "2026-10-01",
+    "title": "Machine Learning Intern 2027 (Toronto)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138080"
+  },
+  "8138090": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138090",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "Master's Machine Learning Internship 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138090"
+  },
+  "8138097": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8138097",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "Master's Data Science Internship 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138097"
+  },
+  "8138245": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "8138245",
+    "last_seen": "2026-10-08T23:30:42.500983+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-28",
+    "title": "Revenue Assurance Specialist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8138245"
+  },
+  "8139631": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-31T22:03:38.350441+00:00",
+    "job_id": "8139631",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-31",
+    "title": "Senior Privacy Counsel",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8139631"
+  },
+  "8140140": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140140",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "PhD Machine Learning Internship 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140140"
+  },
+  "8140169": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140169",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "PhD Data Science Internship 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140169"
+  },
+  "8140210": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140210",
+    "last_seen": "2026-10-06T00:21:49.028767+00:00",
+    "location": "San Francisco, CA, US",
+    "posted_date": "2026-10-01",
+    "title": "UX Engineering Intern (San Francisco)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140210"
+  },
+  "8140217": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140217",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Remote, US",
+    "posted_date": "2026-10-01",
+    "title": "UX Quantitative Research Intern (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140217"
+  },
+  "8140219": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140219",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "Master's University Grad Machine Learning Engineer 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140219"
+  },
+  "8140363": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140363",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-10-01",
+    "title": "PhD University Grad Machine Learning Engineer (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140363"
+  },
+  "8140389": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8140389",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "Master's University Grad Data Scientist (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8140389"
+  },
+  "8144918": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-20T20:34:06.537122+00:00",
+    "job_id": "8144918",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "Atlanta, GA",
+    "posted_date": "2026-08-20",
+    "title": "Lead Client Partner, Retail",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8144918"
+  },
+  "8146085": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-30T20:10:33.844663+00:00",
+    "job_id": "8146085",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-08-28",
+    "title": "Sr Lead Industry Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8146085"
+  },
+  "8147108": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-21T16:31:43.455777+00:00",
+    "job_id": "8147108",
+    "last_seen": "2026-09-29T20:25:19.521434+00:00",
+    "location": "San Francisco, CA,US; Los Angeles, CA, US",
+    "posted_date": "2026-08-21",
+    "title": "Lead Client Partner, Tech",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8147108"
+  },
+  "8152750": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8152750",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-10-01",
+    "title": "Manager II, Machine Learning Engineering-Content Foundation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8152750"
+  },
+  "8154435": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-31T22:03:38.350441+00:00",
+    "job_id": "8154435",
+    "last_seen": "2026-09-21T22:01:03.318730+00:00",
+    "location": "Sydney, AU",
+    "posted_date": "2026-08-31",
+    "title": "Head of Business Marketing, Australia",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8154435"
+  },
+  "8157108": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-27T20:29:08.534706+00:00",
+    "job_id": "8157108",
+    "last_seen": "2026-09-14T22:21:32.349922+00:00",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-08-26",
+    "title": "Sr. Director, Security Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8157108"
+  },
+  "8157351": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8157351",
+    "last_seen": "2026-10-02T01:25:27.293946+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "PhD University Grad Data Scientist 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8157351"
+  },
+  "8157900": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-09T21:37:24.958300+00:00",
+    "job_id": "8157900",
+    "last_seen": "2026-09-17T20:51:41.653930+00:00",
+    "location": "Palo Alto, CA, US; Remote, US",
+    "posted_date": "2026-09-09",
+    "title": "Staff Software Engineer, Workflow Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8157900"
+  },
+  "8162046": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-27T20:29:08.534706+00:00",
+    "job_id": "8162046",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-08-27",
+    "title": "Machine Learning Engineer II, Responsible AI",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8162046"
+  },
+  "8162586": {
+    "company": "Pinterest",
+    "first_seen": "2026-08-31T22:03:38.350441+00:00",
+    "job_id": "8162586",
+    "last_seen": "2026-09-14T22:21:32.349922+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-08-31",
+    "title": "Sr. Director, Engineering - TwoTwenty (Innovation Lab)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8162586"
+  },
+  "8167987": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-09T21:37:24.958300+00:00",
+    "job_id": "8167987",
+    "last_seen": "2026-09-10T20:55:02.634826+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-08",
+    "title": "Sr. Client Account Manager, Gaming (tvScientific)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8167987"
+  },
+  "8168118": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-12T18:17:00.379436+00:00",
+    "job_id": "8168118",
+    "last_seen": "2026-10-06T22:59:12.688947+00:00",
+    "location": "Atlanta, GA, US",
+    "posted_date": "2026-09-10",
+    "title": "Sr. Client Account Manager, Home",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8168118"
+  },
+  "8171331": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-15T21:03:18.931241+00:00",
+    "job_id": "8171331",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-09-14",
+    "title": "Sr. Client Account Manager, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8171331"
+  },
+  "8171829": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-17T20:51:41.653930+00:00",
+    "job_id": "8171829",
+    "last_seen": "2026-10-01T12:42:47.567112+00:00",
+    "location": "New York, NY, US; Chicago, IL, US",
+    "posted_date": "2026-09-17",
+    "title": "Managing Director, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8171829"
+  },
+  "8180940": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-16T20:45:14.533741+00:00",
+    "job_id": "8180940",
+    "last_seen": "2026-10-06T00:21:49.028767+00:00",
+    "location": "London, UK",
+    "posted_date": "2026-09-16",
+    "title": "Sr. Client Partner; EMEA (Amazon)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8180940"
+  },
+  "8189872": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-17T20:51:41.653930+00:00",
+    "job_id": "8189872",
+    "last_seen": "2026-10-04T23:05:34.306077+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-16",
+    "title": "Finance Manager I, Platform",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8189872"
+  },
+  "8196944": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-22T22:33:52.317976+00:00",
+    "job_id": "8196944",
+    "last_seen": "2026-09-23T22:08:44.490460+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-22",
+    "title": "Sr. Client Partner, Pharma",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8196944"
+  },
+  "8202207": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-18T19:53:12.147034+00:00",
+    "job_id": "8202207",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Buenos Aires, AR",
+    "posted_date": "2026-09-17",
+    "title": "Client Account Manager II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8202207"
+  },
+  "8203802": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-15T21:03:18.931241+00:00",
+    "job_id": "8203802",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-09-15",
+    "title": "Sr. Client Account Manager - SEA",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8203802"
+  },
+  "8205194": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-24T23:51:52.092660+00:00",
+    "job_id": "8205194",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US; Remote, US",
+    "posted_date": "2026-09-24",
+    "title": "Sr. Manager, Strategic Sourcing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8205194"
+  },
+  "8205230": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-16T20:45:14.533741+00:00",
+    "job_id": "8205230",
+    "last_seen": "2026-10-12T23:15:28.847650+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-09-16",
+    "title": "Client Account Manager, UK Enterprise Sales [12-Month Fixed Term]",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8205230"
+  },
+  "8206769": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-16T20:45:14.533741+00:00",
+    "job_id": "8206769",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "US Remote",
+    "posted_date": "2026-09-15",
+    "title": "Sr. Client Partner, Pinterest Spark",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8206769"
+  },
+  "8206782": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-13T21:25:03.805663+00:00",
+    "job_id": "8206782",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Atlanta, GA, US",
+    "posted_date": "2026-10-13",
+    "title": "Lead Client Partner, Travel",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8206782"
+  },
+  "8207249": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-21T22:01:03.318730+00:00",
+    "job_id": "8207249",
+    "last_seen": "2026-10-12T02:12:52.309967+00:00",
+    "location": "Berlin, DE",
+    "posted_date": "2026-09-21",
+    "title": "Lead Client Partner, CPG",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8207249"
+  },
+  "8208419": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-23T22:08:44.490460+00:00",
+    "job_id": "8208419",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-23",
+    "title": "Sr. Technical Program Manager, Ads Delivery Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8208419"
+  },
+  "8209014": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-23T22:08:44.490460+00:00",
+    "job_id": "8209014",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-23",
+    "title": "Sr. Technical Program Manager, Data Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209014"
+  },
+  "8209016": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-22T22:33:52.317976+00:00",
+    "job_id": "8209016",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-09-21",
+    "title": "Sr. Lead HRBP - APAC Region",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209016"
+  },
+  "8209020": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-24T23:51:52.092660+00:00",
+    "job_id": "8209020",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-24",
+    "title": "Technical Program Manager II, Shopping Platforms",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209020"
+  },
+  "8209324": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-23T22:08:44.490460+00:00",
+    "job_id": "8209324",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-23",
+    "title": "Technical Program Manager II, Infrastructure (Capacity & Efficiency)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209324"
+  },
+  "8209814": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-28T21:46:54.510657+00:00",
+    "job_id": "8209814",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; New York, NY, US",
+    "posted_date": "2026-09-28",
+    "title": "Staff Product Manager, Retail Media & Audiences",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209814"
+  },
+  "8209845": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-18T19:53:12.147034+00:00",
+    "job_id": "8209845",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-17",
+    "title": "Sr. IT Project & Program Manager, Asset Management",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209845"
+  },
+  "8209905": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8209905",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, Ireland",
+    "posted_date": "2026-10-07",
+    "title": "Lead SMB & Channel Sales Program Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8209905"
+  },
+  "8210875": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-22T22:33:52.317976+00:00",
+    "job_id": "8210875",
+    "last_seen": "2026-10-12T23:15:28.847650+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-09-22",
+    "title": "Lead Client Partner, Pharma",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8210875"
+  },
+  "8211440": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-21T22:01:03.318730+00:00",
+    "job_id": "8211440",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG ",
+    "posted_date": "2026-09-21",
+    "title": "Content Growth Specialist, APAC Growth [6-Month Fixed Term]",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8211440"
+  },
+  "8213988": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-21T22:01:03.318730+00:00",
+    "job_id": "8213988",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-18",
+    "title": "Software Engineer II, Data Analytics & Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8213988"
+  },
+  "8214745": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8214745",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Zurich, CH",
+    "posted_date": "2026-10-01",
+    "title": "Software Engineering Intern 2027 (Zurich)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8214745"
+  },
+  "8214757": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8214757",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Zurich, CH",
+    "posted_date": "2026-10-01",
+    "title": "Machine Learning Intern 2027 (Zurich)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8214757"
+  },
+  "8214788": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-08T23:30:42.500983+00:00",
+    "job_id": "8214788",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-08",
+    "title": "Solutions Engineer Intern 2027 (USA)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8214788"
+  },
+  "8222282": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8222282",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Manager, Ads Product Policy",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8222282"
+  },
+  "8222432": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-24T23:51:52.092660+00:00",
+    "job_id": "8222432",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-24",
+    "title": "Sr. Agency Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8222432"
+  },
+  "8223489": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8223489",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-10-01",
+    "title": "Client Account Manager II, Beauty CPG",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8223489"
+  },
+  "8226802": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-23T22:08:44.490460+00:00",
+    "job_id": "8226802",
+    "last_seen": "2026-10-07T21:57:02.003180+00:00",
+    "location": "San Francisco, CA, US; Hybrid, US",
+    "posted_date": "2026-09-23",
+    "title": "Staff Software Engineer, Programmatic Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8226802"
+  },
+  "8226882": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T00:21:49.028767+00:00",
+    "job_id": "8226882",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Los Angeles, CA, US; Seattle, WA, US",
+    "posted_date": "2026-10-05",
+    "title": "Sr. Industry Manager, Fashion",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8226882"
+  },
+  "8227344": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8227344",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA; Palo Alto, CA; Seattle, WA; New York, NY; Remote, US",
+    "posted_date": "2026-10-05",
+    "title": "Software Engineer II, EPD Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8227344"
+  },
+  "8229781": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-25T19:39:19.842902+00:00",
+    "job_id": "8229781",
+    "last_seen": "2026-09-27T15:43:56.326073+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-09-25",
+    "title": "Client Account Manager II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8229781"
+  },
+  "8230592": {
+    "company": "Pinterest",
+    "first_seen": "2026-09-24T23:51:52.092660+00:00",
+    "job_id": "8230592",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, US",
+    "posted_date": "2026-09-24",
+    "title": "Sr. Programmatic Tech Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8230592"
+  },
+  "8230778": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8230778",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-01",
+    "title": "Sr. Security Software Engineer, Security Operations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8230778"
+  },
+  "8231071": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8231071",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA; Palo Alto, CA; Seattle, WA; New York, NY; Remote, US",
+    "posted_date": "2026-10-05",
+    "title": "Sr Software Engineer, EPD Ads",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8231071"
+  },
+  "8233213": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T23:15:28.847650+00:00",
+    "job_id": "8233213",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-10-12",
+    "title": "Sr. Client Account Manager, Luxury",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8233213"
+  },
+  "8233536": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-04T23:05:34.306077+00:00",
+    "job_id": "8233536",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Remote, CA, US",
+    "posted_date": "2026-10-02",
+    "title": "Director & Assistant General Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8233536"
+  },
+  "8234002": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8234002",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-09-29",
+    "title": "Sr. Manager, Machine Learning Engineering, Ads Measurement Products",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8234002"
+  },
+  "8234538": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8234538",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Chicago, IL, US",
+    "posted_date": "2026-10-05",
+    "title": "Staff Product Manager, Ads Measurement & Optimization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8234538"
+  },
+  "8234540": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8234540",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-10-07",
+    "title": "Sr. Staff Product Manager, Data and Signals Connectivity",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8234540"
+  },
+  "8234555": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8234555",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-09-30",
+    "title": "Director, Machine Learning Engineering, Ads Measurement",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8234555"
+  },
+  "8238389": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8238389",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US",
+    "posted_date": "2026-10-07",
+    "title": "Sr. Product Manager, Data and Signals Intelligence",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8238389"
+  },
+  "8238679": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8238679",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
+    "posted_date": "2026-09-29",
+    "title": "Staff Machine Learning Engineer, Ads Bidding & Pacing",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8238679"
+  },
+  "8238682": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T02:12:52.309967+00:00",
+    "job_id": "8238682",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US; Los Angeles, CA, US; District of Columbia, Washington, US",
+    "posted_date": "2026-10-09",
+    "title": "Sr. Manager, Policy Communications",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8238682"
+  },
+  "8239171": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8239171",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",
+    "posted_date": "2026-10-07",
+    "title": "Staff Product Manager, Content-to-Discovery Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8239171"
+  },
+  "8239425": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T22:59:12.688947+00:00",
+    "job_id": "8239425",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Los Angeles, CA, US; San Francisco, CA, US; Chicago, IL, US; New York, NY, US; Remote, US",
+    "posted_date": "2026-10-06",
+    "title": "Sr. Manager, Ads Product Marketing- Ads Automation",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8239425"
+  },
+  "8239954": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8239954",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Los Angeles CA, US; New York, NY, US",
+    "posted_date": "2026-10-05",
+    "title": "Staff Product Manager, Measurement Partner Optimization",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8239954"
+  },
+  "8241516": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-02T01:25:27.293946+00:00",
+    "job_id": "8241516",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA,US; San Francisco, CA, US",
+    "posted_date": "2026-10-01",
+    "title": "Sr. Manager, Engineering \u2013\u00a0 Delivery Serving Infrastructure",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8241516"
+  },
+  "8242245": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8242245",
+    "last_seen": "2026-10-12T02:12:52.309967+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-30",
+    "title": "Sr. Client Partner (Gaming/App)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8242245"
+  },
+  "8242487": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8242487",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-10-07",
+    "title": "Client Account Manager I (Fixed Term Contract)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8242487"
+  },
+  "8244922": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-05T22:10:56.256458+00:00",
+    "job_id": "8244922",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Dublin, IE",
+    "posted_date": "2026-10-05",
+    "title": "Machine Learning Intern 2027 (Dublin)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8244922"
+  },
+  "8245152": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-01T12:42:47.567112+00:00",
+    "job_id": "8245152",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-09-30",
+    "title": "Lead Client Partner",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8245152"
+  },
+  "8246013": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T02:12:52.309967+00:00",
+    "job_id": "8246013",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "posted_date": "2026-10-09",
+    "title": "Sr. Counsel, Compliance & Investigations",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8246013"
+  },
+  "8247246": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-08T23:30:42.500983+00:00",
+    "job_id": "8247246",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; New York City, NY, US; Seattle, WA, US; Remote, US",
+    "posted_date": "2026-10-08",
+    "title": "Staff Machine Learning Engineer, Content Visual AI",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8247246"
+  },
+  "8247248": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-08T23:30:42.500983+00:00",
+    "job_id": "8247248",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Singapore, SG",
+    "posted_date": "2026-10-08",
+    "title": "Integrated Marketing Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8247248"
+  },
+  "8247774": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-07T21:57:02.003180+00:00",
+    "job_id": "8247774",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-10-07",
+    "title": "Sr. Client Partner (Fixed Term Contract)",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8247774"
+  },
+  "8248297": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-04T23:05:34.306077+00:00",
+    "job_id": "8248297",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "New York, NY, US; Remote, US",
+    "posted_date": "2026-10-02",
+    "title": "Performance Solutions Partner II",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8248297"
+  },
+  "8248368": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T02:12:52.309967+00:00",
+    "job_id": "8248368",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "San Francisco, CA, US; Remote, US",
+    "posted_date": "2026-10-09",
+    "title": "Compliance Lead",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8248368"
+  },
+  "8248469": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-04T23:05:34.306077+00:00",
+    "job_id": "8248469",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Sydney, Australia",
+    "posted_date": "2026-10-02",
+    "title": "Sr. Client Partner - Auto and QSR",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8248469"
+  },
+  "8249643": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T02:12:52.309967+00:00",
+    "job_id": "8249643",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Paris, France; London, United Kingdom",
+    "posted_date": "2026-10-09",
+    "title": "Lead Client Partner, Beauty - Global Accounts",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8249643"
+  },
+  "8258175": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T22:59:12.688947+00:00",
+    "job_id": "8258175",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Palo Alto, CA, US; San Francisco, CA, US",
+    "posted_date": "2026-10-06",
+    "title": "Director, Machine Learning Engineering, Ads Quality",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8258175"
+  },
+  "8259517": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-06T22:59:12.688947+00:00",
+    "job_id": "8259517",
+    "last_seen": "2026-10-06T22:59:12.688947+00:00",
+    "location": "San Francisco, CA, Seattle, WA, US; New York, NY,US; Remote;US",
+    "posted_date": "2026-10-06",
+    "title": "Sr. Software Engineer, Data Analytics Engineering",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8259517"
+  },
+  "8260075": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-13T21:25:03.805663+00:00",
+    "job_id": "8260075",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "S\u00e3o Paulo, BR",
+    "posted_date": "2026-10-13",
+    "title": "Sr. SMB & Channel Sales Program Manager",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8260075"
+  },
+  "8265119": {
+    "company": "Pinterest",
+    "first_seen": "2026-10-12T02:12:52.309967+00:00",
+    "job_id": "8265119",
+    "last_seen": "2026-10-13T21:25:03.805663+00:00",
+    "location": "Toronto, ON, Canada",
+    "posted_date": "2026-10-09",
+    "title": "Lead Client Partner, Financial Services",
+    "url": "https://job-boards.greenhouse.io/pinterest/jobs/8265119"
+  }
+}

@@ -1,0 +1,3822 @@
+{
+  "000392a0-3844-47c4-b580-d56d9a97620c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "000392a0-3844-47c4-b580-d56d9a97620c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-04-17",
+    "title": "Engineering Manager,  Onboard Execution Performance",
+    "url": "https://jobs.lever.co/zoox/000392a0-3844-47c4-b580-d56d9a97620c"
+  },
+  "00694777-4083-426f-8382-3d0073c34787": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "00694777-4083-426f-8382-3d0073c34787",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-06-24",
+    "title": "Machine Learning Engineer - Simulation Framework",
+    "url": "https://jobs.lever.co/zoox/00694777-4083-426f-8382-3d0073c34787"
+  },
+  "00bede24-f74d-4447-ace1-48638965382e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "00bede24-f74d-4447-ace1-48638965382e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2025-11-05",
+    "title": "Senior / Staff Software Engineer - Motion Planning",
+    "url": "https://jobs.lever.co/zoox/00bede24-f74d-4447-ace1-48638965382e"
+  },
+  "013b341d-8019-431d-bfda-8be411a14d84": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "013b341d-8019-431d-bfda-8be411a14d84",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-24",
+    "title": "Sr. Electrical Integration Engineer  - Diagnostics",
+    "url": "https://jobs.lever.co/zoox/013b341d-8019-431d-bfda-8be411a14d84"
+  },
+  "019b636a-23c9-4366-90fd-5a95ad9e5049": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "019b636a-23c9-4366-90fd-5a95ad9e5049",
+    "last_seen": "2026-08-05T15:51:21.404501+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-02",
+    "title": "Part-Time Student Worker \u2013 Software Development Engineer in Test",
+    "url": "https://jobs.lever.co/zoox/019b636a-23c9-4366-90fd-5a95ad9e5049"
+  },
+  "02f4bebd-ab47-4d4c-b887-cffcfeea3494": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "02f4bebd-ab47-4d4c-b887-cffcfeea3494",
+    "last_seen": "2026-08-13T21:23:42.593616+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-07-08",
+    "title": "Part Time Student Worker \u2013 Manufacturing SW Engineer",
+    "url": "https://jobs.lever.co/zoox/02f4bebd-ab47-4d4c-b887-cffcfeea3494"
+  },
+  "03263034-e792-4ac1-8f79-b8b3068ccc2c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-22T16:10:35.829721+00:00",
+    "job_id": "03263034-e792-4ac1-8f79-b8b3068ccc2c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-21",
+    "title": "Manager, Service Operations Systems",
+    "url": "https://jobs.lever.co/zoox/03263034-e792-4ac1-8f79-b8b3068ccc2c"
+  },
+  "041bae07-c771-4ed1-b98e-8e2c47785319": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "041bae07-c771-4ed1-b98e-8e2c47785319",
+    "last_seen": "2026-09-17T20:57:42.507788+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-02-13",
+    "title": "Manager, Vehicle Repair",
+    "url": "https://jobs.lever.co/zoox/041bae07-c771-4ed1-b98e-8e2c47785319"
+  },
+  "04519598-88f3-4494-bc0e-755fd7c48342": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "04519598-88f3-4494-bc0e-755fd7c48342",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Banbury, UK",
+    "posted_date": "2026-07-21",
+    "title": "Staff Vehicle Attributes Engineer",
+    "url": "https://jobs.lever.co/zoox/04519598-88f3-4494-bc0e-755fd7c48342"
+  },
+  "04ccd0b8-2a8c-49b7-9468-2046f8b51ad5": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T02:15:45.660792+00:00",
+    "job_id": "04ccd0b8-2a8c-49b7-9468-2046f8b51ad5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-09",
+    "title": "Seating and Passive Safety HW Validation Engineer",
+    "url": "https://jobs.lever.co/zoox/04ccd0b8-2a8c-49b7-9468-2046f8b51ad5"
+  },
+  "05762fb8-07fa-43a3-aa30-e079bb31018e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "05762fb8-07fa-43a3-aa30-e079bb31018e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-12",
+    "title": "Manager, Technical Recruiting",
+    "url": "https://jobs.lever.co/zoox/05762fb8-07fa-43a3-aa30-e079bb31018e"
+  },
+  "07f0834f-06ec-44c7-a24b-3efa08589d38": {
+    "company": "Zoox",
+    "first_seen": "2026-08-30T20:27:49.817812+00:00",
+    "job_id": "07f0834f-06ec-44c7-a24b-3efa08589d38",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Diego, CA, Seattle, WA",
+    "posted_date": "2026-04-15",
+    "title": "Contract Student Worker  \u2013 Firmware Engineer (FW Thermal/Body)",
+    "url": "https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38"
+  },
+  "082ed20c-b8e1-4b1c-9c22-4738ad94055d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "082ed20c-b8e1-4b1c-9c22-4738ad94055d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA, Foster City, CA",
+    "posted_date": "2026-08-06",
+    "title": "Embedded Software Engineer - Battery Management Systems",
+    "url": "https://jobs.lever.co/zoox/082ed20c-b8e1-4b1c-9c22-4738ad94055d"
+  },
+  "09438fb7-2428-4adb-acaf-9a58d1d3fa8e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "09438fb7-2428-4adb-acaf-9a58d1d3fa8e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-06-09",
+    "title": "Release Manager",
+    "url": "https://jobs.lever.co/zoox/09438fb7-2428-4adb-acaf-9a58d1d3fa8e"
+  },
+  "09a8f970-9b25-4775-9ad7-ea9f4bd2cb76": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "09a8f970-9b25-4775-9ad7-ea9f4bd2cb76",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-28",
+    "title": "Vehicle Line Director",
+    "url": "https://jobs.lever.co/zoox/09a8f970-9b25-4775-9ad7-ea9f4bd2cb76"
+  },
+  "0a22d356-f7f7-4374-b393-55637772edda": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "0a22d356-f7f7-4374-b393-55637772edda",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-18",
+    "title": "Technical Program Manager, PMO - Test Fleet Program (Contract)",
+    "url": "https://jobs.lever.co/zoox/0a22d356-f7f7-4374-b393-55637772edda"
+  },
+  "0a34f6c7-209f-4087-8a84-7d7356ba3fc9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "0a34f6c7-209f-4087-8a84-7d7356ba3fc9",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-06",
+    "title": "Senior Accounting Manager",
+    "url": "https://jobs.lever.co/zoox/0a34f6c7-209f-4087-8a84-7d7356ba3fc9"
+  },
+  "0a46e434-d154-4ac1-8d56-1c75481b3e4b": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "0a46e434-d154-4ac1-8d56-1c75481b3e4b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Phoenix, AZ",
+    "posted_date": "2026-09-10",
+    "title": "Team Lead, Readiness & Response",
+    "url": "https://jobs.lever.co/zoox/0a46e434-d154-4ac1-8d56-1c75481b3e4b"
+  },
+  "0a6150c7-a850-4a00-a3c8-fd4d2f83e6ff": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "0a6150c7-a850-4a00-a3c8-fd4d2f83e6ff",
+    "last_seen": "2026-08-13T18:26:53.448881+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-19",
+    "title": "Senior Learning & Development Partner",
+    "url": "https://jobs.lever.co/zoox/0a6150c7-a850-4a00-a3c8-fd4d2f83e6ff"
+  },
+  "0b3dcc68-d9cf-420f-9c47-521cfb6c0dc4": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "0b3dcc68-d9cf-420f-9c47-521cfb6c0dc4",
+    "last_seen": "2026-10-01T12:49:00.435290+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-26",
+    "title": "Recruiting Coordination Lead",
+    "url": "https://jobs.lever.co/zoox/0b3dcc68-d9cf-420f-9c47-521cfb6c0dc4"
+  },
+  "0c03e57f-fe89-4a65-857e-af7ec6eadadf": {
+    "company": "Zoox",
+    "first_seen": "2026-09-23T22:11:45.170082+00:00",
+    "job_id": "0c03e57f-fe89-4a65-857e-af7ec6eadadf",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Phoenix, AZ",
+    "posted_date": "2026-09-23",
+    "title": "Senior Team Lead, Vehicle Technicians",
+    "url": "https://jobs.lever.co/zoox/0c03e57f-fe89-4a65-857e-af7ec6eadadf"
+  },
+  "0da91b55-fd12-4d1f-8f35-e11804f591ab": {
+    "company": "Zoox",
+    "first_seen": "2026-09-22T22:37:03.379516+00:00",
+    "job_id": "0da91b55-fd12-4d1f-8f35-e11804f591ab",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-22",
+    "title": "Senior/Staff Closures Engineer",
+    "url": "https://jobs.lever.co/zoox/0da91b55-fd12-4d1f-8f35-e11804f591ab"
+  },
+  "0dd5de4b-4e98-4808-85fd-e739e7fc5bba": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "0dd5de4b-4e98-4808-85fd-e739e7fc5bba",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-06-10",
+    "title": "Embedded Software Engineer",
+    "url": "https://jobs.lever.co/zoox/0dd5de4b-4e98-4808-85fd-e739e7fc5bba"
+  },
+  "0f3ea839-5cc1-466f-907c-3d2c935c20b8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-14T15:17:41.166839+00:00",
+    "job_id": "0f3ea839-5cc1-466f-907c-3d2c935c20b8",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-13",
+    "title": "Engineering Manager, Simulation Scenario Generation",
+    "url": "https://jobs.lever.co/zoox/0f3ea839-5cc1-466f-907c-3d2c935c20b8"
+  },
+  "104eba07-32d9-4007-9ab9-af2f482769aa": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "104eba07-32d9-4007-9ab9-af2f482769aa",
+    "last_seen": "2026-10-12T02:15:45.660792+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-01",
+    "title": "Senior Industrial Engineer",
+    "url": "https://jobs.lever.co/zoox/104eba07-32d9-4007-9ab9-af2f482769aa"
+  },
+  "11bf8b68-69a6-423d-a3fe-4712ff8b920d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "11bf8b68-69a6-423d-a3fe-4712ff8b920d",
+    "last_seen": "2026-09-21T22:06:39.314239+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-22",
+    "title": "Senior/Staff Systems Engineer - Pose Verification and Validation",
+    "url": "https://jobs.lever.co/zoox/11bf8b68-69a6-423d-a3fe-4712ff8b920d"
+  },
+  "11d7b37e-4420-4619-a465-d387ffc6ee16": {
+    "company": "Zoox",
+    "first_seen": "2026-08-20T20:37:59.386004+00:00",
+    "job_id": "11d7b37e-4420-4619-a465-d387ffc6ee16",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-20",
+    "title": "Contract Student Worker - Data Analyst",
+    "url": "https://jobs.lever.co/zoox/11d7b37e-4420-4619-a465-d387ffc6ee16"
+  },
+  "11f3d5cc-be0c-492f-97b8-29358bd5a057": {
+    "company": "Zoox",
+    "first_seen": "2026-09-02T20:57:29.163597+00:00",
+    "job_id": "11f3d5cc-be0c-492f-97b8-29358bd5a057",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-02",
+    "title": "Manager, Fleet Operations Training",
+    "url": "https://jobs.lever.co/zoox/11f3d5cc-be0c-492f-97b8-29358bd5a057"
+  },
+  "12289ae8-3c49-4e9f-a37c-4fe4449f98ac": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "12289ae8-3c49-4e9f-a37c-4fe4449f98ac",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2026-03-31",
+    "title": "Senior / Staff Machine Learning Engineer - Scene Intelligence",
+    "url": "https://jobs.lever.co/zoox/12289ae8-3c49-4e9f-a37c-4fe4449f98ac"
+  },
+  "15efc87a-f31b-40e0-967f-5927dae73b5d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-13T18:26:53.448881+00:00",
+    "job_id": "15efc87a-f31b-40e0-967f-5927dae73b5d",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-13",
+    "title": "Technical Program Manager, Robot Platforms",
+    "url": "https://jobs.lever.co/zoox/15efc87a-f31b-40e0-967f-5927dae73b5d"
+  },
+  "16f95b9e-6520-41bb-9a27-27a5f8f5dcf5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "16f95b9e-6520-41bb-9a27-27a5f8f5dcf5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Las Vegas, NV",
+    "posted_date": "2026-06-16",
+    "title": "Senior Team Lead, Vehicle Technicians",
+    "url": "https://jobs.lever.co/zoox/16f95b9e-6520-41bb-9a27-27a5f8f5dcf5"
+  },
+  "170c22c2-24f8-4163-a007-45dec5bdb902": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "170c22c2-24f8-4163-a007-45dec5bdb902",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-12-17",
+    "title": "Senior / Staff Machine Learning Engineer - Behavior Models for Road Users",
+    "url": "https://jobs.lever.co/zoox/170c22c2-24f8-4163-a007-45dec5bdb902"
+  },
+  "17b0e746-90f5-40f1-9086-491c99cabd52": {
+    "company": "Zoox",
+    "first_seen": "2026-08-20T00:27:03.203227+00:00",
+    "job_id": "17b0e746-90f5-40f1-9086-491c99cabd52",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-08-19",
+    "title": "Team Lead, Vehicle Operations",
+    "url": "https://jobs.lever.co/zoox/17b0e746-90f5-40f1-9086-491c99cabd52"
+  },
+  "17b2714f-5454-48a4-bb76-d14157575498": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "17b2714f-5454-48a4-bb76-d14157575498",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-10",
+    "title": "Lead Analytics Engineer \u2013 Enterprise, Data & AI",
+    "url": "https://jobs.lever.co/zoox/17b2714f-5454-48a4-bb76-d14157575498"
+  },
+  "184994f1-84f6-4d0f-b229-07ae1f404491": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "184994f1-84f6-4d0f-b229-07ae1f404491",
+    "last_seen": "2026-09-14T01:48:34.651087+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-04",
+    "title": "Senior / Staff Manufacturing Engineer - High Voltage Battery Assembly",
+    "url": "https://jobs.lever.co/zoox/184994f1-84f6-4d0f-b229-07ae1f404491"
+  },
+  "18b6dfa0-d581-4d29-ac79-5d6e666aa9c3": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "18b6dfa0-d581-4d29-ac79-5d6e666aa9c3",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-24",
+    "title": "Software Engineer, Fleet Simulation (Core Data Science)",
+    "url": "https://jobs.lever.co/zoox/18b6dfa0-d581-4d29-ac79-5d6e666aa9c3"
+  },
+  "18f1de8e-0f9f-48a5-aca6-406e1206dc47": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "18f1de8e-0f9f-48a5-aca6-406e1206dc47",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-05-08",
+    "title": "Senior Plant Issue Resolution Engineer - Electrical Systems",
+    "url": "https://jobs.lever.co/zoox/18f1de8e-0f9f-48a5-aca6-406e1206dc47"
+  },
+  "1c9dae67-e486-4e39-b6a5-ccac4d93b2df": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "1c9dae67-e486-4e39-b6a5-ccac4d93b2df",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-04",
+    "title": "SAP BRIM Engineer - Convergent Mediation (CM)",
+    "url": "https://jobs.lever.co/zoox/1c9dae67-e486-4e39-b6a5-ccac4d93b2df"
+  },
+  "1cdcccf4-3a29-4a24-8cdc-f476da8f4821": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "1cdcccf4-3a29-4a24-8cdc-f476da8f4821",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Fremont, CA",
+    "posted_date": "2026-03-30",
+    "title": "Manufacturing Quality Supervisor",
+    "url": "https://jobs.lever.co/zoox/1cdcccf4-3a29-4a24-8cdc-f476da8f4821"
+  },
+  "1d2db940-07df-440d-af0c-7d5f0a44908b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "1d2db940-07df-440d-af0c-7d5f0a44908b",
+    "last_seen": "2026-08-16T23:49:52.150191+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-22",
+    "title": "Senior Automation & Middleware Engineer",
+    "url": "https://jobs.lever.co/zoox/1d2db940-07df-440d-af0c-7d5f0a44908b"
+  },
+  "1d37ef04-7968-4cb5-b0ba-be4a99bebd6f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "1d37ef04-7968-4cb5-b0ba-be4a99bebd6f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-30",
+    "title": "Senior/Staff Project Manager, Places & Build",
+    "url": "https://jobs.lever.co/zoox/1d37ef04-7968-4cb5-b0ba-be4a99bebd6f"
+  },
+  "1de7207d-2d77-44c8-b875-06b78b98e69c": {
+    "company": "Zoox",
+    "first_seen": "2026-10-01T12:49:00.435290+00:00",
+    "job_id": "1de7207d-2d77-44c8-b875-06b78b98e69c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-29",
+    "title": "Senior Software Engineer, Continuous Deployment",
+    "url": "https://jobs.lever.co/zoox/1de7207d-2d77-44c8-b875-06b78b98e69c"
+  },
+  "1ff0f89b-77ec-4e86-927e-7098c377581f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "1ff0f89b-77ec-4e86-927e-7098c377581f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2024-11-12",
+    "title": "Senior Staff Machine Learning Engineer - Perception",
+    "url": "https://jobs.lever.co/zoox/1ff0f89b-77ec-4e86-927e-7098c377581f"
+  },
+  "20289d99-c867-4022-85a3-0c5a69a04faf": {
+    "company": "Zoox",
+    "first_seen": "2026-09-15T21:06:58.681110+00:00",
+    "job_id": "20289d99-c867-4022-85a3-0c5a69a04faf",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Hayward, CA",
+    "posted_date": "2026-09-14",
+    "title": "Senior/Staff Technical Program Manager, Change Governance",
+    "url": "https://jobs.lever.co/zoox/20289d99-c867-4022-85a3-0c5a69a04faf"
+  },
+  "2042bc12-6247-48d5-a9fb-a6e41363a5ce": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2042bc12-6247-48d5-a9fb-a6e41363a5ce",
+    "last_seen": "2026-09-03T20:13:36.860083+00:00",
+    "location": "Foster City, CA, Seattle, WA, Boston, MA, San Diego, CA",
+    "posted_date": "2026-04-16",
+    "title": "Senior Software Engineer - C++  GPU Performance",
+    "url": "https://jobs.lever.co/zoox/2042bc12-6247-48d5-a9fb-a6e41363a5ce"
+  },
+  "205dea93-1a08-4b7e-b3b4-46783a3fb047": {
+    "company": "Zoox",
+    "first_seen": "2026-08-14T18:39:57.237813+00:00",
+    "job_id": "205dea93-1a08-4b7e-b3b4-46783a3fb047",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-14",
+    "title": "Manager, PEx Generalists and People Partner (HR for HR)",
+    "url": "https://jobs.lever.co/zoox/205dea93-1a08-4b7e-b3b4-46783a3fb047"
+  },
+  "20e2f23b-030a-49ac-8b00-680d715ddb31": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "20e2f23b-030a-49ac-8b00-680d715ddb31",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-09",
+    "title": "Senior Staff Technical Program Manager - Body, Closures & Chassis",
+    "url": "https://jobs.lever.co/zoox/20e2f23b-030a-49ac-8b00-680d715ddb31"
+  },
+  "21c05367-a444-49ae-b498-5189b17e193c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "21c05367-a444-49ae-b498-5189b17e193c",
+    "last_seen": "2026-08-18T22:49:36.162734+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-06",
+    "title": "SAP Functional Lead - EWM",
+    "url": "https://jobs.lever.co/zoox/21c05367-a444-49ae-b498-5189b17e193c"
+  },
+  "222978c8-80d6-4a55-aa40-3bb6eb15671c": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "222978c8-80d6-4a55-aa40-3bb6eb15671c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Engineering Manager, ML Performance Optimization",
+    "url": "https://jobs.lever.co/zoox/222978c8-80d6-4a55-aa40-3bb6eb15671c"
+  },
+  "2347453a-f11f-4dc2-ad14-572bc1f6247f": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T23:18:36.043538+00:00",
+    "job_id": "2347453a-f11f-4dc2-ad14-572bc1f6247f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-10-12",
+    "title": "Machine Learning Engineer - 3D Sensor Simulation",
+    "url": "https://jobs.lever.co/zoox/2347453a-f11f-4dc2-ad14-572bc1f6247f"
+  },
+  "23bee42c-48de-477b-b2df-09dc971d65be": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "23bee42c-48de-477b-b2df-09dc971d65be",
+    "last_seen": "2026-08-06T12:51:13.051878+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-04",
+    "title": "Senior / Staff Manufacturing Engineer - Body (Body-in-White)",
+    "url": "https://jobs.lever.co/zoox/23bee42c-48de-477b-b2df-09dc971d65be"
+  },
+  "23cd472d-deac-45f1-8f84-466811ed0223": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "23cd472d-deac-45f1-8f84-466811ed0223",
+    "last_seen": "2026-09-14T01:48:34.651087+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-23",
+    "title": "Contract Student  Worker Technical Program Manager (Full-time)",
+    "url": "https://jobs.lever.co/zoox/23cd472d-deac-45f1-8f84-466811ed0223"
+  },
+  "23ee90f0-2b28-492b-95ad-91b58d7f3c8c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "23ee90f0-2b28-492b-95ad-91b58d7f3c8c",
+    "last_seen": "2026-08-26T20:43:53.503226+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Program Manager, Contingent Workforce",
+    "url": "https://jobs.lever.co/zoox/23ee90f0-2b28-492b-95ad-91b58d7f3c8c"
+  },
+  "240ae92f-51ec-4d32-a0a4-3d4669508e3d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "240ae92f-51ec-4d32-a0a4-3d4669508e3d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-17",
+    "title": "Senior Machine Learning  Engineer - Perception 3D Segmentation",
+    "url": "https://jobs.lever.co/zoox/240ae92f-51ec-4d32-a0a4-3d4669508e3d"
+  },
+  "2479aa32-51ed-411c-b91d-2239eb7e050b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2479aa32-51ed-411c-b91d-2239eb7e050b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-01",
+    "title": "Senior / Staff Vehicle Program Manager",
+    "url": "https://jobs.lever.co/zoox/2479aa32-51ed-411c-b91d-2239eb7e050b"
+  },
+  "24acfe86-aa1b-4aa6-903b-99b4596e42cf": {
+    "company": "Zoox",
+    "first_seen": "2026-09-08T14:35:39.322373+00:00",
+    "job_id": "24acfe86-aa1b-4aa6-903b-99b4596e42cf",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-11-07",
+    "title": "Senior / Staff Software Engineer - Learned Trajectory Machine Learning Engineer",
+    "url": "https://jobs.lever.co/zoox/24acfe86-aa1b-4aa6-903b-99b4596e42cf"
+  },
+  "252e1844-774c-4e9a-9101-e25ddca13910": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "252e1844-774c-4e9a-9101-e25ddca13910",
+    "last_seen": "2026-08-18T20:58:50.764594+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-29",
+    "title": "Financial Analyst, Corporate and Employee Expenses",
+    "url": "https://jobs.lever.co/zoox/252e1844-774c-4e9a-9101-e25ddca13910"
+  },
+  "25cff65a-c3bc-4789-a9fb-dedf773b7ea7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "25cff65a-c3bc-4789-a9fb-dedf773b7ea7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-15",
+    "title": "Staff ServiceNow Platform Engineer",
+    "url": "https://jobs.lever.co/zoox/25cff65a-c3bc-4789-a9fb-dedf773b7ea7"
+  },
+  "25e3889e-1dfa-4f8c-ab27-f6e17604164f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "25e3889e-1dfa-4f8c-ab27-f6e17604164f",
+    "last_seen": "2026-08-11T15:12:03.259154+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-05-12",
+    "title": "Software Development Engineer in Test, Product Software",
+    "url": "https://jobs.lever.co/zoox/25e3889e-1dfa-4f8c-ab27-f6e17604164f"
+  },
+  "25fd2c27-0837-48fa-80c7-21e2e2bad024": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "25fd2c27-0837-48fa-80c7-21e2e2bad024",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-24",
+    "title": "Validation Engineer, Feature Integration",
+    "url": "https://jobs.lever.co/zoox/25fd2c27-0837-48fa-80c7-21e2e2bad024"
+  },
+  "2783987b-5ab8-4447-a9e4-77745439e7ba": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2783987b-5ab8-4447-a9e4-77745439e7ba",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA, Seattle, WA, Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Software Engineer - Ride and Fleet Services",
+    "url": "https://jobs.lever.co/zoox/2783987b-5ab8-4447-a9e4-77745439e7ba"
+  },
+  "28301fc5-d593-44fe-b2ec-d2bab0e3f6b9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "28301fc5-d593-44fe-b2ec-d2bab0e3f6b9",
+    "last_seen": "2026-09-18T19:58:56.145973+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-27",
+    "title": "Senior SAP BRIM Analyst - Convergent Charging (CC)",
+    "url": "https://jobs.lever.co/zoox/28301fc5-d593-44fe-b2ec-d2bab0e3f6b9"
+  },
+  "28a4317a-db26-450f-b3b0-7550a507fce1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "28a4317a-db26-450f-b3b0-7550a507fce1",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-02",
+    "title": "Senior / Staff Machine Learning Engineer - Perception Attributes",
+    "url": "https://jobs.lever.co/zoox/28a4317a-db26-450f-b3b0-7550a507fce1"
+  },
+  "28a74ce9-92f3-4280-b6a7-730e7ffee5b2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "28a74ce9-92f3-4280-b6a7-730e7ffee5b2",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-12",
+    "title": "Senior Manager, Perception",
+    "url": "https://jobs.lever.co/zoox/28a74ce9-92f3-4280-b6a7-730e7ffee5b2"
+  },
+  "29783182-a9c1-444b-bfc4-74cad9a32476": {
+    "company": "Zoox",
+    "first_seen": "2026-09-16T20:51:02.497590+00:00",
+    "job_id": "29783182-a9c1-444b-bfc4-74cad9a32476",
+    "last_seen": "2026-10-02T01:54:16.903410+00:00",
+    "location": "Las Vegas, NV, Foster City, CA, San Francisco, CA",
+    "posted_date": "2026-09-16",
+    "title": "Program Manager, Fleet Readiness & Response",
+    "url": "https://jobs.lever.co/zoox/29783182-a9c1-444b-bfc4-74cad9a32476"
+  },
+  "29d141cb-1289-4954-8fe6-d9e6053cbf8c": {
+    "company": "Zoox",
+    "first_seen": "2026-10-07T22:00:14.852807+00:00",
+    "job_id": "29d141cb-1289-4954-8fe6-d9e6053cbf8c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Engineering Manager, Robot Data Visualization",
+    "url": "https://jobs.lever.co/zoox/29d141cb-1289-4954-8fe6-d9e6053cbf8c"
+  },
+  "29f666af-ab09-48e8-ac1e-09b4d87d0595": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T20:49:27.813188+00:00",
+    "job_id": "29f666af-ab09-48e8-ac1e-09b4d87d0595",
+    "last_seen": "2026-10-06T00:27:03.304383+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-06",
+    "title": "Senior Materials Engineer",
+    "url": "https://jobs.lever.co/zoox/29f666af-ab09-48e8-ac1e-09b4d87d0595"
+  },
+  "2a5ffe65-9b0a-4f0e-a2d4-d7875b5c6f24": {
+    "company": "Zoox",
+    "first_seen": "2026-09-22T22:37:03.379516+00:00",
+    "job_id": "2a5ffe65-9b0a-4f0e-a2d4-d7875b5c6f24",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-21",
+    "title": "Engineering Manager, Software Core Connectivity",
+    "url": "https://jobs.lever.co/zoox/2a5ffe65-9b0a-4f0e-a2d4-d7875b5c6f24"
+  },
+  "2a7c9842-96ae-4a98-a2bd-152a720d81f7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2a7c9842-96ae-4a98-a2bd-152a720d81f7",
+    "last_seen": "2026-10-06T23:04:09.380434+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Staff/Senior Staff Supply Chain Program Manager - Enterprise Business Applications",
+    "url": "https://jobs.lever.co/zoox/2a7c9842-96ae-4a98-a2bd-152a720d81f7"
+  },
+  "2aa94106-52ac-4f67-871b-1140f8644ea4": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2aa94106-52ac-4f67-871b-1140f8644ea4",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-05",
+    "title": "Senior/Staff Software Engineer - ML/AI Applications",
+    "url": "https://jobs.lever.co/zoox/2aa94106-52ac-4f67-871b-1140f8644ea4"
+  },
+  "2b4b5430-927c-429b-9ac3-b06bf33b7302": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2b4b5430-927c-429b-9ac3-b06bf33b7302",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-22",
+    "title": "Senior Real Estate Capacity & Topology Planner",
+    "url": "https://jobs.lever.co/zoox/2b4b5430-927c-429b-9ac3-b06bf33b7302"
+  },
+  "2bea4c87-47f3-40a6-801f-acfe7de88245": {
+    "company": "Zoox",
+    "first_seen": "2026-08-21T16:35:39.151986+00:00",
+    "job_id": "2bea4c87-47f3-40a6-801f-acfe7de88245",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-21",
+    "title": "Senior Supplier Quality Engineer - Powertrain",
+    "url": "https://jobs.lever.co/zoox/2bea4c87-47f3-40a6-801f-acfe7de88245"
+  },
+  "2c893cc6-bd23-4d63-a399-d399c25f7f9d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2c893cc6-bd23-4d63-a399-d399c25f7f9d",
+    "last_seen": "2026-08-26T20:43:53.503226+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-27",
+    "title": "Manager, Safety Clearance Program Management",
+    "url": "https://jobs.lever.co/zoox/2c893cc6-bd23-4d63-a399-d399c25f7f9d"
+  },
+  "2d23cf58-a117-4f40-ac98-7c6a691eb273": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2d23cf58-a117-4f40-ac98-7c6a691eb273",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-07-15",
+    "title": "Senior/Staff Software Engineer - Behavior Capabilities",
+    "url": "https://jobs.lever.co/zoox/2d23cf58-a117-4f40-ac98-7c6a691eb273"
+  },
+  "2ec7b1be-46f6-420d-b582-e565fe4f6b3e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-15T21:06:58.681110+00:00",
+    "job_id": "2ec7b1be-46f6-420d-b582-e565fe4f6b3e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-15",
+    "title": "Staff Compute Systems Engineer",
+    "url": "https://jobs.lever.co/zoox/2ec7b1be-46f6-420d-b582-e565fe4f6b3e"
+  },
+  "2ed8a665-cee8-4d70-bcb1-e96b6214b371": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2ed8a665-cee8-4d70-bcb1-e96b6214b371",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA, Remote (United States)",
+    "posted_date": "2023-10-28",
+    "title": "Senior/Staff Software Engineer, ML Performance Optimization",
+    "url": "https://jobs.lever.co/zoox/2ed8a665-cee8-4d70-bcb1-e96b6214b371"
+  },
+  "2ef807a0-f80d-47ba-a1a1-578ebe195592": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2ef807a0-f80d-47ba-a1a1-578ebe195592",
+    "last_seen": "2026-10-06T00:27:03.304383+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-07-27",
+    "title": "Senior / Staff Software Systems Engineer - Simulation Evaluation & Validation",
+    "url": "https://jobs.lever.co/zoox/2ef807a0-f80d-47ba-a1a1-578ebe195592"
+  },
+  "2f65fc0e-16f1-48a9-b34d-5ca5dcf76800": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2f65fc0e-16f1-48a9-b34d-5ca5dcf76800",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2025-05-20",
+    "title": "Senior Machine Learning Engineer - Perception",
+    "url": "https://jobs.lever.co/zoox/2f65fc0e-16f1-48a9-b34d-5ca5dcf76800"
+  },
+  "2f859d8b-3723-4d46-9517-24470f0a1c6c": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T02:15:45.660792+00:00",
+    "job_id": "2f859d8b-3723-4d46-9517-24470f0a1c6c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-08",
+    "title": "Shift / Team Lead, Fusion Center Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/2f859d8b-3723-4d46-9517-24470f0a1c6c"
+  },
+  "2fe0dd1c-1899-4c07-bdf1-459ddd298e81": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "2fe0dd1c-1899-4c07-bdf1-459ddd298e81",
+    "last_seen": "2026-08-24T13:30:22.245079+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior / Staff Lidar Engineer",
+    "url": "https://jobs.lever.co/zoox/2fe0dd1c-1899-4c07-bdf1-459ddd298e81"
+  },
+  "2ff4b934-b823-4d33-a0c2-3372389aeef7": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "2ff4b934-b823-4d33-a0c2-3372389aeef7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Senior Software Engineer - Pipeline Infrastructure & Integration",
+    "url": "https://jobs.lever.co/zoox/2ff4b934-b823-4d33-a0c2-3372389aeef7"
+  },
+  "300e20c4-8c4b-4325-90aa-473e7d4abe52": {
+    "company": "Zoox",
+    "first_seen": "2026-09-16T20:51:02.497590+00:00",
+    "job_id": "300e20c4-8c4b-4325-90aa-473e7d4abe52",
+    "last_seen": "2026-10-06T23:04:09.380434+00:00",
+    "location": "Hayward, CA, Fremont, CA",
+    "posted_date": "2026-09-15",
+    "title": "Technical Program Manager, Manufacturing",
+    "url": "https://jobs.lever.co/zoox/300e20c4-8c4b-4325-90aa-473e7d4abe52"
+  },
+  "306e97e2-1036-4edc-b14d-161279ffa8ec": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "306e97e2-1036-4edc-b14d-161279ffa8ec",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-09",
+    "title": "Senior Technical Program Manager - Vehicle Attributes",
+    "url": "https://jobs.lever.co/zoox/306e97e2-1036-4edc-b14d-161279ffa8ec"
+  },
+  "32bfa91f-c139-4c19-aa38-53f57eb53d74": {
+    "company": "Zoox",
+    "first_seen": "2026-08-17T20:53:51.861966+00:00",
+    "job_id": "32bfa91f-c139-4c19-aa38-53f57eb53d74",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-17",
+    "title": "Executive Sourcer",
+    "url": "https://jobs.lever.co/zoox/32bfa91f-c139-4c19-aa38-53f57eb53d74"
+  },
+  "3311fa70-55d1-4b38-9aef-295a0cbb460d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3311fa70-55d1-4b38-9aef-295a0cbb460d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-07-22",
+    "title": "Manager, Vehicle Technicians",
+    "url": "https://jobs.lever.co/zoox/3311fa70-55d1-4b38-9aef-295a0cbb460d"
+  },
+  "33ff94ab-ec61-4c17-9651-2286d74a7ca8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "33ff94ab-ec61-4c17-9651-2286d74a7ca8",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-03-25",
+    "title": "Strategic Sourcing Manager",
+    "url": "https://jobs.lever.co/zoox/33ff94ab-ec61-4c17-9651-2286d74a7ca8"
+  },
+  "341859c7-6449-482b-a6ef-1717bd97ea78": {
+    "company": "Zoox",
+    "first_seen": "2026-08-17T20:53:51.861966+00:00",
+    "job_id": "341859c7-6449-482b-a6ef-1717bd97ea78",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-17",
+    "title": "Chassis Controls Engineer, Brakes & Steering",
+    "url": "https://jobs.lever.co/zoox/341859c7-6449-482b-a6ef-1717bd97ea78"
+  },
+  "34dc14a8-80d6-4763-86e5-94287b64d5c7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "34dc14a8-80d6-4763-86e5-94287b64d5c7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-22",
+    "title": "Senior Manager, Network Engineering & Infrastructure",
+    "url": "https://jobs.lever.co/zoox/34dc14a8-80d6-4763-86e5-94287b64d5c7"
+  },
+  "354121d1-018e-43fa-87a3-f29baf107d6f": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "354121d1-018e-43fa-87a3-f29baf107d6f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-23",
+    "title": "Senior Manager, Perception Data",
+    "url": "https://jobs.lever.co/zoox/354121d1-018e-43fa-87a3-f29baf107d6f"
+  },
+  "35437364-ebbe-4fab-abcf-895771b6e697": {
+    "company": "Zoox",
+    "first_seen": "2026-08-14T16:58:59.048375+00:00",
+    "job_id": "35437364-ebbe-4fab-abcf-895771b6e697",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-27",
+    "title": "Senior Manager, Software Tools Development",
+    "url": "https://jobs.lever.co/zoox/35437364-ebbe-4fab-abcf-895771b6e697"
+  },
+  "357b4f2a-1dd8-4a53-8d39-9c898cdc2d79": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "357b4f2a-1dd8-4a53-8d39-9c898cdc2d79",
+    "last_seen": "2026-08-20T00:27:03.203227+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-04",
+    "title": "Software Engineer - Site Reliability Engineering",
+    "url": "https://jobs.lever.co/zoox/357b4f2a-1dd8-4a53-8d39-9c898cdc2d79"
+  },
+  "35d40d69-48c7-4b3c-9b44-957e617cbfa9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-18T22:49:36.162734+00:00",
+    "job_id": "35d40d69-48c7-4b3c-9b44-957e617cbfa9",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-18",
+    "title": "Financial Analyst, Workforce Planning",
+    "url": "https://jobs.lever.co/zoox/35d40d69-48c7-4b3c-9b44-957e617cbfa9"
+  },
+  "36377a76-8c8d-495c-abe4-82ebae3d6581": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "36377a76-8c8d-495c-abe4-82ebae3d6581",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2023-05-03",
+    "title": "Senior Staff Software Engineer - Perception & Sensing",
+    "url": "https://jobs.lever.co/zoox/36377a76-8c8d-495c-abe4-82ebae3d6581"
+  },
+  "36be565f-6ee7-4fcc-bc81-3c61e0dc2469": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "36be565f-6ee7-4fcc-bc81-3c61e0dc2469",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-06-18",
+    "title": "Senior / Staff Connectivity Integration Lead",
+    "url": "https://jobs.lever.co/zoox/36be565f-6ee7-4fcc-bc81-3c61e0dc2469"
+  },
+  "36d2a9b9-bb21-4150-87fd-35a387f27855": {
+    "company": "Zoox",
+    "first_seen": "2026-10-08T23:33:53.303845+00:00",
+    "job_id": "36d2a9b9-bb21-4150-87fd-35a387f27855",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-08",
+    "title": "Senior Employee Relations Business Partner",
+    "url": "https://jobs.lever.co/zoox/36d2a9b9-bb21-4150-87fd-35a387f27855"
+  },
+  "37530bfc-55ec-4913-a27b-478ad0e3f8e7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "37530bfc-55ec-4913-a27b-478ad0e3f8e7",
+    "last_seen": "2026-09-14T01:48:34.651087+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-05",
+    "title": "Senior Data Scientist, Autonomy Behavior Monitoring",
+    "url": "https://jobs.lever.co/zoox/37530bfc-55ec-4913-a27b-478ad0e3f8e7"
+  },
+  "379f39ea-d01b-4112-ad65-a148b8a24fa9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "379f39ea-d01b-4112-ad65-a148b8a24fa9",
+    "last_seen": "2026-10-12T23:18:36.043538+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Senior Technical Program Manager - NPI (Test & Diagnostics)",
+    "url": "https://jobs.lever.co/zoox/379f39ea-d01b-4112-ad65-a148b8a24fa9"
+  },
+  "38dd64ad-bbaf-41b2-a6a0-91b25920284f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "38dd64ad-bbaf-41b2-a6a0-91b25920284f",
+    "last_seen": "2026-08-11T15:12:03.259154+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-19",
+    "title": "Software Development Engineer in Test, Web Applications",
+    "url": "https://jobs.lever.co/zoox/38dd64ad-bbaf-41b2-a6a0-91b25920284f"
+  },
+  "3921a393-27c0-4a62-bb4d-2e88d80e45e0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3921a393-27c0-4a62-bb4d-2e88d80e45e0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-10-27",
+    "title": "Director, Perception",
+    "url": "https://jobs.lever.co/zoox/3921a393-27c0-4a62-bb4d-2e88d80e45e0"
+  },
+  "3aa4a45e-36c7-4502-adbf-f33de11e23e0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3aa4a45e-36c7-4502-adbf-f33de11e23e0",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-08-19",
+    "title": "Senior Supply & Demand Planning Manager",
+    "url": "https://jobs.lever.co/zoox/3aa4a45e-36c7-4502-adbf-f33de11e23e0"
+  },
+  "3bc964e4-41e5-47e7-b704-c6284d613593": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3bc964e4-41e5-47e7-b704-c6284d613593",
+    "last_seen": "2026-08-30T20:27:49.817812+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-18",
+    "title": "Senior/Staff Technical Program Manager - Autonomy Operations",
+    "url": "https://jobs.lever.co/zoox/3bc964e4-41e5-47e7-b704-c6284d613593"
+  },
+  "3d951aa1-611b-4abd-ae2d-447c5361a679": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3d951aa1-611b-4abd-ae2d-447c5361a679",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-26",
+    "title": "Senior Energy Engineer",
+    "url": "https://jobs.lever.co/zoox/3d951aa1-611b-4abd-ae2d-447c5361a679"
+  },
+  "3e06c948-94f4-4c16-bc2f-a84465868e3e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "3e06c948-94f4-4c16-bc2f-a84465868e3e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-24",
+    "title": "Safety Test and Validation Engineer",
+    "url": "https://jobs.lever.co/zoox/3e06c948-94f4-4c16-bc2f-a84465868e3e"
+  },
+  "3e74f14a-667a-4381-9f8e-2e8b9f1b92d3": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "3e74f14a-667a-4381-9f8e-2e8b9f1b92d3",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior Systems Engineer, Fail Operational Capabilities",
+    "url": "https://jobs.lever.co/zoox/3e74f14a-667a-4381-9f8e-2e8b9f1b92d3"
+  },
+  "3e7a437a-d297-4ca4-bd87-460da185deea": {
+    "company": "Zoox",
+    "first_seen": "2026-08-12T16:52:53.863845+00:00",
+    "job_id": "3e7a437a-d297-4ca4-bd87-460da185deea",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-08-12",
+    "title": "Technical Sourcer",
+    "url": "https://jobs.lever.co/zoox/3e7a437a-d297-4ca4-bd87-460da185deea"
+  },
+  "408784a4-36c2-4d4c-ad50-d2952e2e64cc": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "408784a4-36c2-4d4c-ad50-d2952e2e64cc",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-09-19",
+    "title": "Principal Systems Engineer, Safety",
+    "url": "https://jobs.lever.co/zoox/408784a4-36c2-4d4c-ad50-d2952e2e64cc"
+  },
+  "4258cd55-95e1-424e-9fe6-edbec8235281": {
+    "company": "Zoox",
+    "first_seen": "2026-09-15T21:06:58.681110+00:00",
+    "job_id": "4258cd55-95e1-424e-9fe6-edbec8235281",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-15",
+    "title": "Senior/Staff Technical Program Manager - Compute Hardware",
+    "url": "https://jobs.lever.co/zoox/4258cd55-95e1-424e-9fe6-edbec8235281"
+  },
+  "42bb084b-e5a0-47d7-bdf7-90a24026e4c5": {
+    "company": "Zoox",
+    "first_seen": "2026-09-27T15:49:16.127204+00:00",
+    "job_id": "42bb084b-e5a0-47d7-bdf7-90a24026e4c5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-25",
+    "title": "Technical Program Manager - System Behavior Analysis",
+    "url": "https://jobs.lever.co/zoox/42bb084b-e5a0-47d7-bdf7-90a24026e4c5"
+  },
+  "44136143-ba13-4839-bdc5-26a7633080a3": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "44136143-ba13-4839-bdc5-26a7633080a3",
+    "last_seen": "2026-09-09T21:41:11.318660+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-26",
+    "title": "Software Engineer - Robot Link Platform",
+    "url": "https://jobs.lever.co/zoox/44136143-ba13-4839-bdc5-26a7633080a3"
+  },
+  "44256995-b7d1-4c4a-b83b-3c55b69dedf7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-18T20:58:50.764594+00:00",
+    "job_id": "44256995-b7d1-4c4a-b83b-3c55b69dedf7",
+    "last_seen": "2026-08-30T20:27:49.817812+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2026-08-18",
+    "title": "Data Scientist - Perception Verification and Validation",
+    "url": "https://jobs.lever.co/zoox/44256995-b7d1-4c4a-b83b-3c55b69dedf7"
+  },
+  "44e0530a-6a48-417e-aa43-1f487ea3001e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "44e0530a-6a48-417e-aa43-1f487ea3001e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-10-22",
+    "title": "Senior Strategic Sourcing Manager",
+    "url": "https://jobs.lever.co/zoox/44e0530a-6a48-417e-aa43-1f487ea3001e"
+  },
+  "46336705-25a7-4e33-b008-680ad0117dd8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "46336705-25a7-4e33-b008-680ad0117dd8",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-12-15",
+    "title": "Engineering Manager, Autonomy Systems Verification and Validation",
+    "url": "https://jobs.lever.co/zoox/46336705-25a7-4e33-b008-680ad0117dd8"
+  },
+  "4645fddd-019c-470c-96c8-552496b30450": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T00:27:03.304383+00:00",
+    "job_id": "4645fddd-019c-470c-96c8-552496b30450",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-05",
+    "title": "Contract Student Worker - Charging Infrastructure Partnerships",
+    "url": "https://jobs.lever.co/zoox/4645fddd-019c-470c-96c8-552496b30450"
+  },
+  "46c23963-2be1-4037-8f1a-ce87bdccde6d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "46c23963-2be1-4037-8f1a-ce87bdccde6d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-06",
+    "title": "Embedded Software Engineer - Body Systems",
+    "url": "https://jobs.lever.co/zoox/46c23963-2be1-4037-8f1a-ce87bdccde6d"
+  },
+  "48125a3d-c929-49f0-a045-b2492b3e5b5b": {
+    "company": "Zoox",
+    "first_seen": "2026-09-12T18:21:14.184651+00:00",
+    "job_id": "48125a3d-c929-49f0-a045-b2492b3e5b5b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-10",
+    "title": "Senior CAD BOM Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/48125a3d-c929-49f0-a045-b2492b3e5b5b"
+  },
+  "48639085-6179-4a14-94c5-5b5ba027879c": {
+    "company": "Zoox",
+    "first_seen": "2026-09-03T20:13:36.860083+00:00",
+    "job_id": "48639085-6179-4a14-94c5-5b5ba027879c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-29",
+    "title": "Head of Talent Acquisition",
+    "url": "https://jobs.lever.co/zoox/48639085-6179-4a14-94c5-5b5ba027879c"
+  },
+  "48a6b2ac-0dcb-4481-ab26-386ce62decab": {
+    "company": "Zoox",
+    "first_seen": "2026-09-21T22:06:39.314239+00:00",
+    "job_id": "48a6b2ac-0dcb-4481-ab26-386ce62decab",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-21",
+    "title": "Lead AI Engineer \u2013 Enterprise, Data & AI",
+    "url": "https://jobs.lever.co/zoox/48a6b2ac-0dcb-4481-ab26-386ce62decab"
+  },
+  "48a7c3a9-3d0a-4b15-8a18-5ed786298316": {
+    "company": "Zoox",
+    "first_seen": "2026-10-08T23:33:53.303845+00:00",
+    "job_id": "48a7c3a9-3d0a-4b15-8a18-5ed786298316",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-08",
+    "title": "Infrastructure Development Manager",
+    "url": "https://jobs.lever.co/zoox/48a7c3a9-3d0a-4b15-8a18-5ed786298316"
+  },
+  "4a26b266-b3b2-4a08-be0d-de81029da441": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4a26b266-b3b2-4a08-be0d-de81029da441",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-04",
+    "title": "Senior/Staff Technical Program Manager - Autonomous Test Fleet Data Strategy & Mileage Accumulation",
+    "url": "https://jobs.lever.co/zoox/4a26b266-b3b2-4a08-be0d-de81029da441"
+  },
+  "4b00bf61-6547-4c50-be83-5d659176090b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4b00bf61-6547-4c50-be83-5d659176090b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-08-12",
+    "title": "Firmware Validation Engineer",
+    "url": "https://jobs.lever.co/zoox/4b00bf61-6547-4c50-be83-5d659176090b"
+  },
+  "4c16c18c-18c0-433c-bc21-8bd72824a1d9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4c16c18c-18c0-433c-bc21-8bd72824a1d9",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA, San Diego, CA, Seattle, WA",
+    "posted_date": "2026-08-04",
+    "title": "Embedded Software Engineer - MCU Platforms",
+    "url": "https://jobs.lever.co/zoox/4c16c18c-18c0-433c-bc21-8bd72824a1d9"
+  },
+  "4cf378f6-fab9-4bdb-a349-4ae70c099b8e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4cf378f6-fab9-4bdb-a349-4ae70c099b8e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Francisco, CA",
+    "posted_date": "2026-06-16",
+    "title": "Senior/Staff Software Engineer - Planner Frameworks Pipeline",
+    "url": "https://jobs.lever.co/zoox/4cf378f6-fab9-4bdb-a349-4ae70c099b8e"
+  },
+  "4d58c75b-57a0-43f9-860c-2d4b146b299e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4d58c75b-57a0-43f9-860c-2d4b146b299e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-03",
+    "title": "Senior/Staff Software Engineer - Embedded Linux Operating Systems",
+    "url": "https://jobs.lever.co/zoox/4d58c75b-57a0-43f9-860c-2d4b146b299e"
+  },
+  "4de1853a-7339-4ddc-8afa-3f10122bdd70": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4de1853a-7339-4ddc-8afa-3f10122bdd70",
+    "last_seen": "2026-09-24T23:57:20.430894+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Senior Program Manager, Fleet Readiness & Response Process Improvement",
+    "url": "https://jobs.lever.co/zoox/4de1853a-7339-4ddc-8afa-3f10122bdd70"
+  },
+  "4df5862c-edd7-4033-acb8-59ebbfbbb941": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4df5862c-edd7-4033-acb8-59ebbfbbb941",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-12-04",
+    "title": "Senior / Staff Machine Learning Engineer - Perception Mapping",
+    "url": "https://jobs.lever.co/zoox/4df5862c-edd7-4033-acb8-59ebbfbbb941"
+  },
+  "4e861d9a-5ebc-4bc1-96df-b7ae1f41780e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4e861d9a-5ebc-4bc1-96df-b7ae1f41780e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-07",
+    "title": "Senior/Staff Technical Program Manager -  Live Service Operations",
+    "url": "https://jobs.lever.co/zoox/4e861d9a-5ebc-4bc1-96df-b7ae1f41780e"
+  },
+  "4f4ff749-8f88-428d-bd14-2f15d84c492c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4f4ff749-8f88-428d-bd14-2f15d84c492c",
+    "last_seen": "2026-09-22T22:37:03.379516+00:00",
+    "location": "Hayward, CA, Foster City, CA",
+    "posted_date": "2026-06-15",
+    "title": "Senior Technical Program Manager, Systems and Business Process Review",
+    "url": "https://jobs.lever.co/zoox/4f4ff749-8f88-428d-bd14-2f15d84c492c"
+  },
+  "4f5492ab-a8d0-4d28-9d77-67a1d033ea81": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4f5492ab-a8d0-4d28-9d77-67a1d033ea81",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-26",
+    "title": "Senior/Staff Cost Engineer",
+    "url": "https://jobs.lever.co/zoox/4f5492ab-a8d0-4d28-9d77-67a1d033ea81"
+  },
+  "4f75dce0-9960-4d95-883f-ae8c2745a38c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4f75dce0-9960-4d95-883f-ae8c2745a38c",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-25",
+    "title": "Senior Program Manager, People Experience",
+    "url": "https://jobs.lever.co/zoox/4f75dce0-9960-4d95-883f-ae8c2745a38c"
+  },
+  "4fc59f52-0828-40a7-90d6-d8081c05ee20": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "4fc59f52-0828-40a7-90d6-d8081c05ee20",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-19",
+    "title": "Manager, Learning & Development",
+    "url": "https://jobs.lever.co/zoox/4fc59f52-0828-40a7-90d6-d8081c05ee20"
+  },
+  "5027566b-0449-4f0b-8ebc-6b2205799723": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5027566b-0449-4f0b-8ebc-6b2205799723",
+    "last_seen": "2026-10-12T02:15:45.660792+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior Mechanical Design Engineer - Sensor Cleaning",
+    "url": "https://jobs.lever.co/zoox/5027566b-0449-4f0b-8ebc-6b2205799723"
+  },
+  "51630efc-50f6-461c-8d56-ebed59a5d0d6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "51630efc-50f6-461c-8d56-ebed59a5d0d6",
+    "last_seen": "2026-09-03T20:13:36.860083+00:00",
+    "location": "Foster City, CA, Boston, MA, San Diego, CA, Seattle, WA",
+    "posted_date": "2026-04-16",
+    "title": "Software Engineer - C++  GPU Performance",
+    "url": "https://jobs.lever.co/zoox/51630efc-50f6-461c-8d56-ebed59a5d0d6"
+  },
+  "51838a63-2dde-44dc-9c3e-757f35b9690f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-20T20:37:59.386004+00:00",
+    "job_id": "51838a63-2dde-44dc-9c3e-757f35b9690f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-20",
+    "title": "Contract Student Worker - Data Scientist",
+    "url": "https://jobs.lever.co/zoox/51838a63-2dde-44dc-9c3e-757f35b9690f"
+  },
+  "519a337e-ad08-4244-ada7-747f38fcb415": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "519a337e-ad08-4244-ada7-747f38fcb415",
+    "last_seen": "2026-08-24T21:02:03.398411+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-22",
+    "title": "UX Research Operations Program Manager",
+    "url": "https://jobs.lever.co/zoox/519a337e-ad08-4244-ada7-747f38fcb415"
+  },
+  "52040c45-6937-47af-b5f8-41dd20b83c11": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "52040c45-6937-47af-b5f8-41dd20b83c11",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-11-04",
+    "title": "Manager, Multi-Modal Language Action Models",
+    "url": "https://jobs.lever.co/zoox/52040c45-6937-47af-b5f8-41dd20b83c11"
+  },
+  "5569d46e-0af8-4f07-93ea-b635c7403f7d": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "5569d46e-0af8-4f07-93ea-b635c7403f7d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "CAE Engineer - Safety occupant",
+    "url": "https://jobs.lever.co/zoox/5569d46e-0af8-4f07-93ea-b635c7403f7d"
+  },
+  "55e51bf3-68ee-40d4-a1c5-5196e0e2d100": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "55e51bf3-68ee-40d4-a1c5-5196e0e2d100",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-02-26",
+    "title": "Machine Learning Engineer - 3D Sensor Simulation",
+    "url": "https://jobs.lever.co/zoox/55e51bf3-68ee-40d4-a1c5-5196e0e2d100"
+  },
+  "57462ce4-0270-4ad6-83ba-1c2427e80503": {
+    "company": "Zoox",
+    "first_seen": "2026-08-11T18:06:47.415329+00:00",
+    "job_id": "57462ce4-0270-4ad6-83ba-1c2427e80503",
+    "last_seen": "2026-09-23T22:11:45.170082+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-11",
+    "title": "Senior / Staff Technical Program Manager -  End-to-End Features",
+    "url": "https://jobs.lever.co/zoox/57462ce4-0270-4ad6-83ba-1c2427e80503"
+  },
+  "57975dc5-c7ba-40e2-a8e7-547a79afd798": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "57975dc5-c7ba-40e2-a8e7-547a79afd798",
+    "last_seen": "2026-10-12T23:18:36.043538+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior Electrical Integration Engineer",
+    "url": "https://jobs.lever.co/zoox/57975dc5-c7ba-40e2-a8e7-547a79afd798"
+  },
+  "57b8519b-e599-44eb-84dc-403cea7bca49": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T18:18:22.347660+00:00",
+    "job_id": "57b8519b-e599-44eb-84dc-403cea7bca49",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "Remote (United States)",
+    "posted_date": "2026-08-04",
+    "title": "Senior Information Security Engineer (Detection, Automation & AI)",
+    "url": "https://jobs.lever.co/zoox/57b8519b-e599-44eb-84dc-403cea7bca49"
+  },
+  "5915823a-3546-4748-b102-85e85c0dc71d": {
+    "company": "Zoox",
+    "first_seen": "2026-09-28T21:52:27.473309+00:00",
+    "job_id": "5915823a-3546-4748-b102-85e85c0dc71d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA, Foster City, CA",
+    "posted_date": "2026-09-27",
+    "title": "Software Engineer - Planner GPU Compute",
+    "url": "https://jobs.lever.co/zoox/5915823a-3546-4748-b102-85e85c0dc71d"
+  },
+  "5981f7a6-8df4-424a-a611-692def60c34a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-27T20:33:00.369688+00:00",
+    "job_id": "5981f7a6-8df4-424a-a611-692def60c34a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-27",
+    "title": "Staff Signal Integrity and Power Integrity Engineer (SI/PI)",
+    "url": "https://jobs.lever.co/zoox/5981f7a6-8df4-424a-a611-692def60c34a"
+  },
+  "5ab0cc36-0d91-4acd-9cf3-c38a273293cb": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5ab0cc36-0d91-4acd-9cf3-c38a273293cb",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-03",
+    "title": "Senior/Staff Software Engineer - SRE, GitHub & CI/CD Infrastructure",
+    "url": "https://jobs.lever.co/zoox/5ab0cc36-0d91-4acd-9cf3-c38a273293cb"
+  },
+  "5b0c4c1d-9308-4809-995a-223161fb5068": {
+    "company": "Zoox",
+    "first_seen": "2026-08-27T20:33:00.369688+00:00",
+    "job_id": "5b0c4c1d-9308-4809-995a-223161fb5068",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-26",
+    "title": "Wireless Firmware Validation Engineer",
+    "url": "https://jobs.lever.co/zoox/5b0c4c1d-9308-4809-995a-223161fb5068"
+  },
+  "5c373b68-b18b-45ef-b69e-7c0f8e578b57": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5c373b68-b18b-45ef-b69e-7c0f8e578b57",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-20",
+    "title": "Technical Program Manager - Product Software",
+    "url": "https://jobs.lever.co/zoox/5c373b68-b18b-45ef-b69e-7c0f8e578b57"
+  },
+  "5de4079e-3365-479b-99ca-4bc0371cb63c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5de4079e-3365-479b-99ca-4bc0371cb63c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-03",
+    "title": "Senior Signal Integrity and EMC Engineer",
+    "url": "https://jobs.lever.co/zoox/5de4079e-3365-479b-99ca-4bc0371cb63c"
+  },
+  "5e03b357-0cc1-4194-9488-14f85044f4f9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5e03b357-0cc1-4194-9488-14f85044f4f9",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-20",
+    "title": "Contract  Student Worker - Data Analyst (Part-time)",
+    "url": "https://jobs.lever.co/zoox/5e03b357-0cc1-4194-9488-14f85044f4f9"
+  },
+  "5f10dfaf-5920-4506-8a09-b39b29e6f48b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "5f10dfaf-5920-4506-8a09-b39b29e6f48b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-10-16",
+    "title": "Contract Student Worker Software Engineer (6-month Contract) (20/hrs week)",
+    "url": "https://jobs.lever.co/zoox/5f10dfaf-5920-4506-8a09-b39b29e6f48b"
+  },
+  "5fad000d-791f-4a0a-96da-65ca594160a9": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "5fad000d-791f-4a0a-96da-65ca594160a9",
+    "last_seen": "2026-10-01T12:49:00.435290+00:00",
+    "location": "Seattle, WA",
+    "posted_date": "2026-09-09",
+    "title": "Contract Student Worker - Forward Deployed Automation Engineer (40 hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/5fad000d-791f-4a0a-96da-65ca594160a9"
+  },
+  "5fb23003-057f-4488-84c2-80ca98cc795d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "5fb23003-057f-4488-84c2-80ca98cc795d",
+    "last_seen": "2026-09-01T19:18:45.783103+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-20",
+    "title": "Business Recruiter",
+    "url": "https://jobs.lever.co/zoox/5fb23003-057f-4488-84c2-80ca98cc795d"
+  },
+  "6076ce7c-19da-468a-86a4-d0fc90502442": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6076ce7c-19da-468a-86a4-d0fc90502442",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-06-24",
+    "title": "Senior/Staff Software Engineer - C++ Simulation Platform",
+    "url": "https://jobs.lever.co/zoox/6076ce7c-19da-468a-86a4-d0fc90502442"
+  },
+  "61ce377c-b0d1-41cb-8689-e609be7f80f5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "61ce377c-b0d1-41cb-8689-e609be7f80f5",
+    "last_seen": "2026-08-31T22:07:32.459260+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Operations Development Manager",
+    "url": "https://jobs.lever.co/zoox/61ce377c-b0d1-41cb-8689-e609be7f80f5"
+  },
+  "62adaf80-43a9-4210-a908-7b714bfea84b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "62adaf80-43a9-4210-a908-7b714bfea84b",
+    "last_seen": "2026-08-06T12:51:13.051878+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-11",
+    "title": "Software Engineer, Test Set Curation",
+    "url": "https://jobs.lever.co/zoox/62adaf80-43a9-4210-a908-7b714bfea84b"
+  },
+  "63307a27-f2b1-43dc-8e78-a2e09d0eba2b": {
+    "company": "Zoox",
+    "first_seen": "2026-10-01T12:49:00.435290+00:00",
+    "job_id": "63307a27-f2b1-43dc-8e78-a2e09d0eba2b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-29",
+    "title": "Software Engineer - Embedded Linux Operating Systems",
+    "url": "https://jobs.lever.co/zoox/63307a27-f2b1-43dc-8e78-a2e09d0eba2b"
+  },
+  "63829003-24ba-4169-96a6-a3349b68bf17": {
+    "company": "Zoox",
+    "first_seen": "2026-08-13T18:26:53.448881+00:00",
+    "job_id": "63829003-24ba-4169-96a6-a3349b68bf17",
+    "last_seen": "2026-09-15T00:59:21.774436+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-26",
+    "title": "Staff Design Reliability Engineer \u2013 Sensor, Compute and EE Systems",
+    "url": "https://jobs.lever.co/zoox/63829003-24ba-4169-96a6-a3349b68bf17"
+  },
+  "65e29b92-c907-4fb9-919e-8915080987e6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-22T16:10:35.829721+00:00",
+    "job_id": "65e29b92-c907-4fb9-919e-8915080987e6",
+    "last_seen": "2026-10-06T23:04:09.380434+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-21",
+    "title": "Senior IT Engineer, Audio Visual",
+    "url": "https://jobs.lever.co/zoox/65e29b92-c907-4fb9-919e-8915080987e6"
+  },
+  "65ffe656-2b91-46d3-9223-cb6c88441b45": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "65ffe656-2b91-46d3-9223-cb6c88441b45",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-10-27",
+    "title": "Senior Vehicle Attributes Engineer",
+    "url": "https://jobs.lever.co/zoox/65ffe656-2b91-46d3-9223-cb6c88441b45"
+  },
+  "6727ef94-9a4b-4275-95c1-863ba7723364": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6727ef94-9a4b-4275-95c1-863ba7723364",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Houston, TX",
+    "posted_date": "2026-05-06",
+    "title": "Manager, City Operations",
+    "url": "https://jobs.lever.co/zoox/6727ef94-9a4b-4275-95c1-863ba7723364"
+  },
+  "67e21fab-c93e-45c3-b54a-ae95056dbcdc": {
+    "company": "Zoox",
+    "first_seen": "2026-10-08T23:33:53.303845+00:00",
+    "job_id": "67e21fab-c93e-45c3-b54a-ae95056dbcdc",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-07",
+    "title": "Staff Chassis Engineer, Steering and Braking Actuation",
+    "url": "https://jobs.lever.co/zoox/67e21fab-c93e-45c3-b54a-ae95056dbcdc"
+  },
+  "68996f74-85e8-435d-9369-906438670794": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "68996f74-85e8-435d-9369-906438670794",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-20",
+    "title": "Procurement Operations Manager",
+    "url": "https://jobs.lever.co/zoox/68996f74-85e8-435d-9369-906438670794"
+  },
+  "6c17febd-ba2b-436c-b6ba-6a66ba922058": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6c17febd-ba2b-436c-b6ba-6a66ba922058",
+    "last_seen": "2026-08-17T20:53:51.861966+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-03",
+    "title": "Senior Technical Product Manager - Data and Pricing Services",
+    "url": "https://jobs.lever.co/zoox/6c17febd-ba2b-436c-b6ba-6a66ba922058"
+  },
+  "6d975a67-c0ec-4eb5-99b5-5ba4a455e5bd": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6d975a67-c0ec-4eb5-99b5-5ba4a455e5bd",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-08",
+    "title": "Senior Software Engineer, Vehicle Deployment",
+    "url": "https://jobs.lever.co/zoox/6d975a67-c0ec-4eb5-99b5-5ba4a455e5bd"
+  },
+  "6da52aa7-0ccb-48d0-af25-0889f41ddee5": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "6da52aa7-0ccb-48d0-af25-0889f41ddee5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Software Engineer - Robot Software Infrastructure",
+    "url": "https://jobs.lever.co/zoox/6da52aa7-0ccb-48d0-af25-0889f41ddee5"
+  },
+  "6e58a614-0388-4916-bb8f-de12c19be758": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6e58a614-0388-4916-bb8f-de12c19be758",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-20",
+    "title": "Principal Software Engineer, Perception Architect",
+    "url": "https://jobs.lever.co/zoox/6e58a614-0388-4916-bb8f-de12c19be758"
+  },
+  "6e661ebe-548b-4532-a243-a310fbf60223": {
+    "company": "Zoox",
+    "first_seen": "2026-08-22T16:10:35.829721+00:00",
+    "job_id": "6e661ebe-548b-4532-a243-a310fbf60223",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-21",
+    "title": "Staff/Senior Staff Software Engineer - Full Stack",
+    "url": "https://jobs.lever.co/zoox/6e661ebe-548b-4532-a243-a310fbf60223"
+  },
+  "6e83599a-480e-4fe8-bac7-3b9da512558d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6e83599a-480e-4fe8-bac7-3b9da512558d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-09-19",
+    "title": "Senior Director of Engineering, Product Software",
+    "url": "https://jobs.lever.co/zoox/6e83599a-480e-4fe8-bac7-3b9da512558d"
+  },
+  "6e8794f4-7098-4ba2-a04c-938a1096e91b": {
+    "company": "Zoox",
+    "first_seen": "2026-09-03T20:13:36.860083+00:00",
+    "job_id": "6e8794f4-7098-4ba2-a04c-938a1096e91b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-03",
+    "title": "Diagnostics Serviceability Engineer",
+    "url": "https://jobs.lever.co/zoox/6e8794f4-7098-4ba2-a04c-938a1096e91b"
+  },
+  "6efb15a8-ebe0-4ffc-bcc6-1d8f8375dbee": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "6efb15a8-ebe0-4ffc-bcc6-1d8f8375dbee",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-09",
+    "title": "Software Engineer - Mission Planning",
+    "url": "https://jobs.lever.co/zoox/6efb15a8-ebe0-4ffc-bcc6-1d8f8375dbee"
+  },
+  "6f2f77a2-b0db-464c-8275-4d8e5aa7044c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6f2f77a2-b0db-464c-8275-4d8e5aa7044c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-07",
+    "title": "Senior Full-stack Engineer - Mapping Web Services",
+    "url": "https://jobs.lever.co/zoox/6f2f77a2-b0db-464c-8275-4d8e5aa7044c"
+  },
+  "6fbd5497-3958-40f2-adbf-fe2218d04c28": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6fbd5497-3958-40f2-adbf-fe2218d04c28",
+    "last_seen": "2026-09-21T22:06:39.314239+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-06-18",
+    "title": "Manager, Software Core Firmware Validation",
+    "url": "https://jobs.lever.co/zoox/6fbd5497-3958-40f2-adbf-fe2218d04c28"
+  },
+  "6fd07895-b6af-40d8-82ba-fe1d2174982f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-18T20:58:50.764594+00:00",
+    "job_id": "6fd07895-b6af-40d8-82ba-fe1d2174982f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Atlanta, GA",
+    "posted_date": "2026-08-18",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/6fd07895-b6af-40d8-82ba-fe1d2174982f"
+  },
+  "6fd52e5d-88ca-48df-a1af-463b9db66b74": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "6fd52e5d-88ca-48df-a1af-463b9db66b74",
+    "last_seen": "2026-08-18T22:49:36.162734+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-04-07",
+    "title": "Senior Supply Chain Program Manager",
+    "url": "https://jobs.lever.co/zoox/6fd52e5d-88ca-48df-a1af-463b9db66b74"
+  },
+  "714021f6-b6fe-48c6-bd0c-cc579ee938b9": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "714021f6-b6fe-48c6-bd0c-cc579ee938b9",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Dallas, TX",
+    "posted_date": "2026-10-05",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/714021f6-b6fe-48c6-bd0c-cc579ee938b9"
+  },
+  "7177db75-881c-4107-9cb8-291e91a27b58": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7177db75-881c-4107-9cb8-291e91a27b58",
+    "last_seen": "2026-09-18T19:58:56.145973+00:00",
+    "location": "Miami, FL",
+    "posted_date": "2026-08-04",
+    "title": "Manager, City Operations",
+    "url": "https://jobs.lever.co/zoox/7177db75-881c-4107-9cb8-291e91a27b58"
+  },
+  "71a2b465-11fb-49fa-b5f8-29757bc6bba6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "71a2b465-11fb-49fa-b5f8-29757bc6bba6",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Software Engineer - Driving Behavior",
+    "url": "https://jobs.lever.co/zoox/71a2b465-11fb-49fa-b5f8-29757bc6bba6"
+  },
+  "7206fd97-14e4-43a0-b903-ba65dfeee53e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-11T16:20:37.332453+00:00",
+    "job_id": "7206fd97-14e4-43a0-b903-ba65dfeee53e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-07",
+    "title": "Contract Student Worker - Machine Learning Engineer - Data Mining & VLM (Full-time)",
+    "url": "https://jobs.lever.co/zoox/7206fd97-14e4-43a0-b903-ba65dfeee53e"
+  },
+  "72726d6b-6fe4-48f2-9b1f-4e69c1d0263a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "72726d6b-6fe4-48f2-9b1f-4e69c1d0263a",
+    "last_seen": "2026-09-14T22:25:02.084889+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-24",
+    "title": "Senior Systems Integration Engineer, Thermal",
+    "url": "https://jobs.lever.co/zoox/72726d6b-6fe4-48f2-9b1f-4e69c1d0263a"
+  },
+  "7314a1a4-ae7a-4c5a-a048-fd2bc966f26b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7314a1a4-ae7a-4c5a-a048-fd2bc966f26b",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-14",
+    "title": "Sr. Manager, Product and Experience Design",
+    "url": "https://jobs.lever.co/zoox/7314a1a4-ae7a-4c5a-a048-fd2bc966f26b"
+  },
+  "737259b5-4258-4557-b7e0-0627b3d870a5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "737259b5-4258-4557-b7e0-0627b3d870a5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Diego, CA, Seattle, WA",
+    "posted_date": "2026-08-04",
+    "title": "Contract Student  Worker: Analyst (Full-time)",
+    "url": "https://jobs.lever.co/zoox/737259b5-4258-4557-b7e0-0627b3d870a5"
+  },
+  "73c8f671-64a7-4353-8b81-af2be81b0ac0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "73c8f671-64a7-4353-8b81-af2be81b0ac0",
+    "last_seen": "2026-10-08T23:33:53.303845+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-22",
+    "title": "Senior/Staff Homologation Engineer",
+    "url": "https://jobs.lever.co/zoox/73c8f671-64a7-4353-8b81-af2be81b0ac0"
+  },
+  "7522162e-a518-444e-8fe7-49b8b45bbdd3": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "7522162e-a518-444e-8fe7-49b8b45bbdd3",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-26",
+    "title": "Embedded Software Engineer, Wireless Technologies",
+    "url": "https://jobs.lever.co/zoox/7522162e-a518-444e-8fe7-49b8b45bbdd3"
+  },
+  "75cbaeec-967a-45e8-ba50-cb18bcb56afd": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "75cbaeec-967a-45e8-ba50-cb18bcb56afd",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Senior Trim & Lighting Engineer",
+    "url": "https://jobs.lever.co/zoox/75cbaeec-967a-45e8-ba50-cb18bcb56afd"
+  },
+  "76845566-1870-4836-91ee-ff8e27462f8d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "76845566-1870-4836-91ee-ff8e27462f8d",
+    "last_seen": "2026-09-23T22:11:45.170082+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-07-08",
+    "title": "Contract Student Worker \u2013 Hardware Software Integration Engineer (Full-Time 40 hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/76845566-1870-4836-91ee-ff8e27462f8d"
+  },
+  "78853f19-4a0b-49c8-8423-738b51b6b5a5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "78853f19-4a0b-49c8-8423-738b51b6b5a5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-01",
+    "title": "Manager, Onboard Behavior Encoder",
+    "url": "https://jobs.lever.co/zoox/78853f19-4a0b-49c8-8423-738b51b6b5a5"
+  },
+  "7980e9a3-99f3-4988-ae6d-355c9199d8fb": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "7980e9a3-99f3-4988-ae6d-355c9199d8fb",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-10",
+    "title": "Body Structures Engineer",
+    "url": "https://jobs.lever.co/zoox/7980e9a3-99f3-4988-ae6d-355c9199d8fb"
+  },
+  "79cb5d35-e1f5-4020-9537-4d565bf45673": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "79cb5d35-e1f5-4020-9537-4d565bf45673",
+    "last_seen": "2026-08-19T20:02:53.247813+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-11",
+    "title": "Senior/Staff Technical Product Manager, Autonomy",
+    "url": "https://jobs.lever.co/zoox/79cb5d35-e1f5-4020-9537-4d565bf45673"
+  },
+  "79d97b0a-3c16-4cb9-8a0d-0386836f25d1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-11T18:06:47.415329+00:00",
+    "job_id": "79d97b0a-3c16-4cb9-8a0d-0386836f25d1",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-11",
+    "title": "Senior Technical Recruiter, Hardware",
+    "url": "https://jobs.lever.co/zoox/79d97b0a-3c16-4cb9-8a0d-0386836f25d1"
+  },
+  "7a81544d-3fa6-4e58-b3be-a580be03f4ed": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7a81544d-3fa6-4e58-b3be-a580be03f4ed",
+    "last_seen": "2026-10-06T23:04:09.380434+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-07",
+    "title": "Senior Manager \u2013 CAPEX & Tooling Procurement",
+    "url": "https://jobs.lever.co/zoox/7a81544d-3fa6-4e58-b3be-a580be03f4ed"
+  },
+  "7b1ca060-9b22-4d72-9e7e-27e78fefbc79": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7b1ca060-9b22-4d72-9e7e-27e78fefbc79",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Miami, FL",
+    "posted_date": "2026-01-29",
+    "title": "Senior Fleet Support Engineering Lead",
+    "url": "https://jobs.lever.co/zoox/7b1ca060-9b22-4d72-9e7e-27e78fefbc79"
+  },
+  "7b625fa4-4524-4d33-8fe8-8c0f5e574b26": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7b625fa4-4524-4d33-8fe8-8c0f5e574b26",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-27",
+    "title": "Senior/Staff Data Scientist, Quantitative Risk Assessment",
+    "url": "https://jobs.lever.co/zoox/7b625fa4-4524-4d33-8fe8-8c0f5e574b26"
+  },
+  "7bf2a9b3-8aa5-4950-b8b8-14306ef1069f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7bf2a9b3-8aa5-4950-b8b8-14306ef1069f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-22",
+    "title": "Program Tooling & Analytics Developer",
+    "url": "https://jobs.lever.co/zoox/7bf2a9b3-8aa5-4950-b8b8-14306ef1069f"
+  },
+  "7c9bcc56-12f2-43e5-84a2-9f30f3dcb36d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7c9bcc56-12f2-43e5-84a2-9f30f3dcb36d",
+    "last_seen": "2026-08-06T12:51:13.051878+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-03",
+    "title": "Senior/Staff Technical Product Manager - Autonomy Performance & Data",
+    "url": "https://jobs.lever.co/zoox/7c9bcc56-12f2-43e5-84a2-9f30f3dcb36d"
+  },
+  "7ca52fd4-a683-4ba9-a635-5155f90be4f7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7ca52fd4-a683-4ba9-a635-5155f90be4f7",
+    "last_seen": "2026-09-03T20:13:36.860083+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-02",
+    "title": "Compute Platform System Safety Engineer",
+    "url": "https://jobs.lever.co/zoox/7ca52fd4-a683-4ba9-a635-5155f90be4f7"
+  },
+  "7d73d483-3e32-421a-9397-4430fdb80bdd": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7d73d483-3e32-421a-9397-4430fdb80bdd",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Austin, TX",
+    "posted_date": "2026-07-20",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/7d73d483-3e32-421a-9397-4430fdb80bdd"
+  },
+  "7d9de9c0-14e0-47ed-aa8e-b86caffe57f2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7d9de9c0-14e0-47ed-aa8e-b86caffe57f2",
+    "last_seen": "2026-09-09T21:41:11.318660+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-11",
+    "title": "Senior Technical Program Manager, Service Engineering",
+    "url": "https://jobs.lever.co/zoox/7d9de9c0-14e0-47ed-aa8e-b86caffe57f2"
+  },
+  "7dd45151-9d8a-45a4-bb33-86fb88c1995d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "7dd45151-9d8a-45a4-bb33-86fb88c1995d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2016-02-08",
+    "title": "Software Engineer - Motion Planning",
+    "url": "https://jobs.lever.co/zoox/7dd45151-9d8a-45a4-bb33-86fb88c1995d"
+  },
+  "80d07c0a-731c-45df-bb69-4ee5e18ea1b0": {
+    "company": "Zoox",
+    "first_seen": "2026-10-07T22:00:14.852807+00:00",
+    "job_id": "80d07c0a-731c-45df-bb69-4ee5e18ea1b0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-07",
+    "title": "Strategic Sourcing Manager, Mechanical Components",
+    "url": "https://jobs.lever.co/zoox/80d07c0a-731c-45df-bb69-4ee5e18ea1b0"
+  },
+  "8102c816-7ce1-49c8-8093-f46c8074652c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8102c816-7ce1-49c8-8093-f46c8074652c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-18",
+    "title": "Software Engineer - Mapping Data Software",
+    "url": "https://jobs.lever.co/zoox/8102c816-7ce1-49c8-8093-f46c8074652c"
+  },
+  "82349ccb-1e23-4124-866b-bb235a702513": {
+    "company": "Zoox",
+    "first_seen": "2026-09-25T19:44:53.585233+00:00",
+    "job_id": "82349ccb-1e23-4124-866b-bb235a702513",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-25",
+    "title": "Senior Technical Product Manager - Vehicle Experience",
+    "url": "https://jobs.lever.co/zoox/82349ccb-1e23-4124-866b-bb235a702513"
+  },
+  "8321d00e-9e2b-4947-a37e-fdbad7dcd637": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8321d00e-9e2b-4947-a37e-fdbad7dcd637",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Senior Network Security Engineer",
+    "url": "https://jobs.lever.co/zoox/8321d00e-9e2b-4947-a37e-fdbad7dcd637"
+  },
+  "83967e5c-bfb4-4b3d-974a-fd0fefe4a168": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "83967e5c-bfb4-4b3d-974a-fd0fefe4a168",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Senior Technical Program Manager, EE Systems",
+    "url": "https://jobs.lever.co/zoox/83967e5c-bfb4-4b3d-974a-fd0fefe4a168"
+  },
+  "83ad368b-0815-40b8-bed1-bdeb80342874": {
+    "company": "Zoox",
+    "first_seen": "2026-09-22T22:37:03.379516+00:00",
+    "job_id": "83ad368b-0815-40b8-bed1-bdeb80342874",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-22",
+    "title": "Senior Software Engineer, Continuous Integration",
+    "url": "https://jobs.lever.co/zoox/83ad368b-0815-40b8-bed1-bdeb80342874"
+  },
+  "84b7c9c7-1307-4f0c-a0f2-aab0c9b72335": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "84b7c9c7-1307-4f0c-a0f2-aab0c9b72335",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-23",
+    "title": "Senior/Staff Technical Program Manager - Core Autonomy Capabilities",
+    "url": "https://jobs.lever.co/zoox/84b7c9c7-1307-4f0c-a0f2-aab0c9b72335"
+  },
+  "85ac55ee-0fdf-4b17-b57f-b09ce0defebe": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "85ac55ee-0fdf-4b17-b57f-b09ce0defebe",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-01",
+    "title": "Senior Commercial Operations Analyst",
+    "url": "https://jobs.lever.co/zoox/85ac55ee-0fdf-4b17-b57f-b09ce0defebe"
+  },
+  "85b40783-bc13-4564-b6b6-1ea0801653b1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "85b40783-bc13-4564-b6b6-1ea0801653b1",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-29",
+    "title": "Financial Analyst, Production Manufacturing",
+    "url": "https://jobs.lever.co/zoox/85b40783-bc13-4564-b6b6-1ea0801653b1"
+  },
+  "8664c340-71df-4803-a91e-c2d3d289f019": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8664c340-71df-4803-a91e-c2d3d289f019",
+    "last_seen": "2026-08-11T18:06:47.415329+00:00",
+    "location": "Boston, MA, Foster City, CA",
+    "posted_date": "2026-02-24",
+    "title": "Senior Data Scientist - Data for Perception Machine Learning",
+    "url": "https://jobs.lever.co/zoox/8664c340-71df-4803-a91e-c2d3d289f019"
+  },
+  "8714ca37-74ad-4cf5-8f08-c80cd3df7215": {
+    "company": "Zoox",
+    "first_seen": "2026-09-14T22:25:02.084889+00:00",
+    "job_id": "8714ca37-74ad-4cf5-8f08-c80cd3df7215",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-14",
+    "title": "Manager - Model Evaluation",
+    "url": "https://jobs.lever.co/zoox/8714ca37-74ad-4cf5-8f08-c80cd3df7215"
+  },
+  "87653bd9-b1ff-43de-9ba7-b9b2bc1cc878": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "87653bd9-b1ff-43de-9ba7-b9b2bc1cc878",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-15",
+    "title": "Senior Systems Engineer, Fail Operational Safety Strategy",
+    "url": "https://jobs.lever.co/zoox/87653bd9-b1ff-43de-9ba7-b9b2bc1cc878"
+  },
+  "87877cf4-3ac8-45d5-90fb-2ef7f223c068": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "87877cf4-3ac8-45d5-90fb-2ef7f223c068",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2026-09-09",
+    "title": "Data Scientist - Perception Verification and Validation",
+    "url": "https://jobs.lever.co/zoox/87877cf4-3ac8-45d5-90fb-2ef7f223c068"
+  },
+  "8840bf52-a4f9-468f-bff6-a9d58ab7f19d": {
+    "company": "Zoox",
+    "first_seen": "2026-10-08T23:33:53.303845+00:00",
+    "job_id": "8840bf52-a4f9-468f-bff6-a9d58ab7f19d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-08",
+    "title": "Recruiter, Operations",
+    "url": "https://jobs.lever.co/zoox/8840bf52-a4f9-468f-bff6-a9d58ab7f19d"
+  },
+  "887c7590-e98d-4997-b85d-e3956381fd57": {
+    "company": "Zoox",
+    "first_seen": "2026-09-08T14:35:39.322373+00:00",
+    "job_id": "887c7590-e98d-4997-b85d-e3956381fd57",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-04",
+    "title": "Sensing and Perception System Safety Engineer",
+    "url": "https://jobs.lever.co/zoox/887c7590-e98d-4997-b85d-e3956381fd57"
+  },
+  "8914da26-af12-40ce-8819-bfc9fbf98cf2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8914da26-af12-40ce-8819-bfc9fbf98cf2",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-19",
+    "title": "Software Development Engineer in Test, Platform Safety Assurance",
+    "url": "https://jobs.lever.co/zoox/8914da26-af12-40ce-8819-bfc9fbf98cf2"
+  },
+  "89410e34-6554-4d41-89e3-35f403d72fe8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "89410e34-6554-4d41-89e3-35f403d72fe8",
+    "last_seen": "2026-08-07T14:39:51.269756+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-06-01",
+    "title": "Release Engineer",
+    "url": "https://jobs.lever.co/zoox/89410e34-6554-4d41-89e3-35f403d72fe8"
+  },
+  "89518ce8-5b07-4750-90c9-4988e27daa3c": {
+    "company": "Zoox",
+    "first_seen": "2026-10-07T22:00:14.852807+00:00",
+    "job_id": "89518ce8-5b07-4750-90c9-4988e27daa3c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Staff Energy Engineer",
+    "url": "https://jobs.lever.co/zoox/89518ce8-5b07-4750-90c9-4988e27daa3c"
+  },
+  "896f37b9-80b7-4077-a937-e499151ce5f2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T20:00:31.126875+00:00",
+    "job_id": "896f37b9-80b7-4077-a937-e499151ce5f2",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-05",
+    "title": "Software Systems Engineer - Security",
+    "url": "https://jobs.lever.co/zoox/896f37b9-80b7-4077-a937-e499151ce5f2"
+  },
+  "89adda42-9575-4028-bba8-a38e5f0feb94": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "89adda42-9575-4028-bba8-a38e5f0feb94",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-04",
+    "title": "Senior/Staff Technical Program Manager - Fleet Orchestration",
+    "url": "https://jobs.lever.co/zoox/89adda42-9575-4028-bba8-a38e5f0feb94"
+  },
+  "89d5927e-db67-443b-9dd2-53d367c11f9b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T19:27:15.423400+00:00",
+    "job_id": "89d5927e-db67-443b-9dd2-53d367c11f9b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Diego, CA",
+    "posted_date": "2026-08-07",
+    "title": "Release Engineer",
+    "url": "https://jobs.lever.co/zoox/89d5927e-db67-443b-9dd2-53d367c11f9b"
+  },
+  "8a596739-4f00-4429-8998-9c03e9cf8a40": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8a596739-4f00-4429-8998-9c03e9cf8a40",
+    "last_seen": "2026-08-11T00:16:20.908219+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2025-10-23",
+    "title": "Senior Technical Program Manager, Logistics",
+    "url": "https://jobs.lever.co/zoox/8a596739-4f00-4429-8998-9c03e9cf8a40"
+  },
+  "8aecfb4f-9e7a-46e2-832e-bfc9478ef39b": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T02:15:45.660792+00:00",
+    "job_id": "8aecfb4f-9e7a-46e2-832e-bfc9478ef39b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Las Vegas, NV",
+    "posted_date": "2026-10-09",
+    "title": "Shift Lead, Fusion Center Analysts",
+    "url": "https://jobs.lever.co/zoox/8aecfb4f-9e7a-46e2-832e-bfc9478ef39b"
+  },
+  "8af192a0-9ee4-45de-a241-f373cb2ef71c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8af192a0-9ee4-45de-a241-f373cb2ef71c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-17",
+    "title": "Director, Corporate Security",
+    "url": "https://jobs.lever.co/zoox/8af192a0-9ee4-45de-a241-f373cb2ef71c"
+  },
+  "8c037577-5728-4a7d-bbd4-bd83a3e44614": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "8c037577-5728-4a7d-bbd4-bd83a3e44614",
+    "last_seen": "2026-10-02T01:54:16.903410+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-05",
+    "title": "Firmware Validation Engineer - Battery Management Systems",
+    "url": "https://jobs.lever.co/zoox/8c037577-5728-4a7d-bbd4-bd83a3e44614"
+  },
+  "8df66250-f2bd-4e4f-a807-239916ce84e6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8df66250-f2bd-4e4f-a807-239916ce84e6",
+    "last_seen": "2026-08-24T21:02:03.398411+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-07-08",
+    "title": "Software Engineering Manager - Fleet Management Backend Services",
+    "url": "https://jobs.lever.co/zoox/8df66250-f2bd-4e4f-a807-239916ce84e6"
+  },
+  "8e29ed0e-8cce-42e8-8784-79dfbd1660c8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "8e29ed0e-8cce-42e8-8784-79dfbd1660c8",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-10",
+    "title": "Senior/Staff Software Systems Engineer - Software Health and Complexity",
+    "url": "https://jobs.lever.co/zoox/8e29ed0e-8cce-42e8-8784-79dfbd1660c8"
+  },
+  "8ed069c6-78b3-403f-9bb7-6fc9237b2973": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T00:27:03.304383+00:00",
+    "job_id": "8ed069c6-78b3-403f-9bb7-6fc9237b2973",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-05",
+    "title": "Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)",
+    "url": "https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973"
+  },
+  "8ef1e673-e129-407c-b147-95681a30179c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-20T00:27:03.203227+00:00",
+    "job_id": "8ef1e673-e129-407c-b147-95681a30179c",
+    "last_seen": "2026-09-28T21:52:27.473309+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-08-19",
+    "title": "Manager, City Operations",
+    "url": "https://jobs.lever.co/zoox/8ef1e673-e129-407c-b147-95681a30179c"
+  },
+  "90325b3d-1571-4e7f-8bfd-986edb593e2f": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "90325b3d-1571-4e7f-8bfd-986edb593e2f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-24",
+    "title": "Vehicle Safety - Occupant Protection Engineer",
+    "url": "https://jobs.lever.co/zoox/90325b3d-1571-4e7f-8bfd-986edb593e2f"
+  },
+  "909ee174-0c55-4bcb-9891-48569bcd7651": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "909ee174-0c55-4bcb-9891-48569bcd7651",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-07-10",
+    "title": "Senior Software Engineer, Build Infrastructure",
+    "url": "https://jobs.lever.co/zoox/909ee174-0c55-4bcb-9891-48569bcd7651"
+  },
+  "90ee9fbc-f0e4-4b47-a337-09493ecf4902": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "90ee9fbc-f0e4-4b47-a337-09493ecf4902",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-03",
+    "title": "Senior Technical Program Manager, Manufacturing Integration",
+    "url": "https://jobs.lever.co/zoox/90ee9fbc-f0e4-4b47-a337-09493ecf4902"
+  },
+  "916715e4-4cab-47bc-acdd-9ecbc31f25b8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "916715e4-4cab-47bc-acdd-9ecbc31f25b8",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-13",
+    "title": "Senior / Staff Technical Program Manager, Fleet Optimization",
+    "url": "https://jobs.lever.co/zoox/916715e4-4cab-47bc-acdd-9ecbc31f25b8"
+  },
+  "9176aa65-14e3-4f9d-98f9-e755e9777d67": {
+    "company": "Zoox",
+    "first_seen": "2026-10-01T12:49:00.435290+00:00",
+    "job_id": "9176aa65-14e3-4f9d-98f9-e755e9777d67",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-11-07",
+    "title": "Software Engineer - Learned Trajectory Machine Learning Engineer",
+    "url": "https://jobs.lever.co/zoox/9176aa65-14e3-4f9d-98f9-e755e9777d67"
+  },
+  "91cb95a8-0025-41c1-9649-d1c87fa9741f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "91cb95a8-0025-41c1-9649-d1c87fa9741f",
+    "last_seen": "2026-09-01T19:18:45.783103+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-09",
+    "title": "Manager, System Safety (Service and Operations Verification and Validation)",
+    "url": "https://jobs.lever.co/zoox/91cb95a8-0025-41c1-9649-d1c87fa9741f"
+  },
+  "92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-14T22:25:02.084889+00:00",
+    "job_id": "92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-14",
+    "title": "Technical Program Manager - Body & Closures",
+    "url": "https://jobs.lever.co/zoox/92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e"
+  },
+  "93936b92-3aa4-4461-9b50-8b0397dcdf29": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "93936b92-3aa4-4461-9b50-8b0397dcdf29",
+    "last_seen": "2026-09-09T21:41:11.318660+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-06-15",
+    "title": "Senior Technical Program Manager, Manufacturing Test Solutions",
+    "url": "https://jobs.lever.co/zoox/93936b92-3aa4-4461-9b50-8b0397dcdf29"
+  },
+  "94b5b4a5-257a-43d8-96bb-8dccd6d690f0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "94b5b4a5-257a-43d8-96bb-8dccd6d690f0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-03-25",
+    "title": "Software Engineer - Road Network Tools",
+    "url": "https://jobs.lever.co/zoox/94b5b4a5-257a-43d8-96bb-8dccd6d690f0"
+  },
+  "96faea2e-c539-4d63-89a5-f534b807ab09": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "96faea2e-c539-4d63-89a5-f534b807ab09",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-09",
+    "title": "Staff Technical Program Manager, Powertrain & Thermal",
+    "url": "https://jobs.lever.co/zoox/96faea2e-c539-4d63-89a5-f534b807ab09"
+  },
+  "972635b6-713a-44cf-b82f-87a504bcdf3f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-31T22:07:32.459260+00:00",
+    "job_id": "972635b6-713a-44cf-b82f-87a504bcdf3f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-31",
+    "title": "Senior Supplier Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/972635b6-713a-44cf-b82f-87a504bcdf3f"
+  },
+  "978e36ef-e8e9-4874-ade6-f33a80e46309": {
+    "company": "Zoox",
+    "first_seen": "2026-09-12T18:21:14.184651+00:00",
+    "job_id": "978e36ef-e8e9-4874-ade6-f33a80e46309",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Software Engineer - Pipeline Infrastructure & Integration",
+    "url": "https://jobs.lever.co/zoox/978e36ef-e8e9-4874-ade6-f33a80e46309"
+  },
+  "97c0450f-0704-4151-8664-3585001f872d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "97c0450f-0704-4151-8664-3585001f872d",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-07",
+    "title": "Senior Systems Engineer, Future Robot Platforms",
+    "url": "https://jobs.lever.co/zoox/97c0450f-0704-4151-8664-3585001f872d"
+  },
+  "99113e00-d810-47e5-bb31-997eb6d9afaa": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "99113e00-d810-47e5-bb31-997eb6d9afaa",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-30",
+    "title": "Senior Manufacturing Test Engineer",
+    "url": "https://jobs.lever.co/zoox/99113e00-d810-47e5-bb31-997eb6d9afaa"
+  },
+  "9945ef61-1c15-4cf1-9734-b65944c73757": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9945ef61-1c15-4cf1-9734-b65944c73757",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-03",
+    "title": "Staff Network Security Architect",
+    "url": "https://jobs.lever.co/zoox/9945ef61-1c15-4cf1-9734-b65944c73757"
+  },
+  "998ca0ca-4e3a-409f-bc84-f364d5451e01": {
+    "company": "Zoox",
+    "first_seen": "2026-09-03T20:13:36.860083+00:00",
+    "job_id": "998ca0ca-4e3a-409f-bc84-f364d5451e01",
+    "last_seen": "2026-09-25T19:44:53.585233+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-03",
+    "title": "Software Engineer, Operational Tools",
+    "url": "https://jobs.lever.co/zoox/998ca0ca-4e3a-409f-bc84-f364d5451e01"
+  },
+  "9ab192af-3480-40a7-9ff3-f81061ac6301": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9ab192af-3480-40a7-9ff3-f81061ac6301",
+    "last_seen": "2026-08-06T12:51:13.051878+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2025-12-22",
+    "title": "Data Scientist - Perception Verification and Validation [Filled 7/24/2026]",
+    "url": "https://jobs.lever.co/zoox/9ab192af-3480-40a7-9ff3-f81061ac6301"
+  },
+  "9abd3543-0d46-4fd8-882c-2fe93d75a51b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9abd3543-0d46-4fd8-882c-2fe93d75a51b",
+    "last_seen": "2026-09-15T00:59:21.774436+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-17",
+    "title": "Sensor Software Engineer - Core Sensors",
+    "url": "https://jobs.lever.co/zoox/9abd3543-0d46-4fd8-882c-2fe93d75a51b"
+  },
+  "9bb633af-2517-4e5b-9363-0f75836687f6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9bb633af-2517-4e5b-9363-0f75836687f6",
+    "last_seen": "2026-09-02T18:43:14.753476+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-15",
+    "title": "Senior Manager, Robot Industrial Design",
+    "url": "https://jobs.lever.co/zoox/9bb633af-2517-4e5b-9363-0f75836687f6"
+  },
+  "9e0751cd-f651-4cc7-bea7-f21663f082c0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9e0751cd-f651-4cc7-bea7-f21663f082c0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-02-10",
+    "title": "Senior AI Developer Productivity Engineer",
+    "url": "https://jobs.lever.co/zoox/9e0751cd-f651-4cc7-bea7-f21663f082c0"
+  },
+  "9f30b1a9-9637-431b-ad46-83ba696108bd": {
+    "company": "Zoox",
+    "first_seen": "2026-10-08T23:33:53.303845+00:00",
+    "job_id": "9f30b1a9-9637-431b-ad46-83ba696108bd",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-10-07",
+    "title": "Staff Logistics Engineer",
+    "url": "https://jobs.lever.co/zoox/9f30b1a9-9637-431b-ad46-83ba696108bd"
+  },
+  "9fa5e316-c361-4526-860a-51478587dc3b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "9fa5e316-c361-4526-860a-51478587dc3b",
+    "last_seen": "2026-08-21T16:35:39.151986+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-01",
+    "title": "Simulation Expert Triage Engineer",
+    "url": "https://jobs.lever.co/zoox/9fa5e316-c361-4526-860a-51478587dc3b"
+  },
+  "a0ffbca7-3613-498a-9f7b-c8dc13858184": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a0ffbca7-3613-498a-9f7b-c8dc13858184",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2025-10-23",
+    "title": "Manager, Manufacturing Systems",
+    "url": "https://jobs.lever.co/zoox/a0ffbca7-3613-498a-9f7b-c8dc13858184"
+  },
+  "a2e507b6-86b3-4a97-a9bd-63867adb0b1c": {
+    "company": "Zoox",
+    "first_seen": "2026-09-17T20:57:42.507788+00:00",
+    "job_id": "a2e507b6-86b3-4a97-a9bd-63867adb0b1c",
+    "last_seen": "2026-10-01T12:49:00.435290+00:00",
+    "location": "Phoenix, AZ",
+    "posted_date": "2026-09-16",
+    "title": "Team Lead, Vehicle Operations (2nd Shift)",
+    "url": "https://jobs.lever.co/zoox/a2e507b6-86b3-4a97-a9bd-63867adb0b1c"
+  },
+  "a3925dc8-29ee-48c5-a9e4-c100818ef247": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a3925dc8-29ee-48c5-a9e4-c100818ef247",
+    "last_seen": "2026-09-21T22:06:39.314239+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-08",
+    "title": "Senior /Staff Systems Integration Engineer, Body",
+    "url": "https://jobs.lever.co/zoox/a3925dc8-29ee-48c5-a9e4-c100818ef247"
+  },
+  "a3de2d89-7acb-41a9-9435-ea4d56edb47e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a3de2d89-7acb-41a9-9435-ea4d56edb47e",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-07",
+    "title": "Senior Electrical Engineer, Compute",
+    "url": "https://jobs.lever.co/zoox/a3de2d89-7acb-41a9-9435-ea4d56edb47e"
+  },
+  "a3f526bf-2417-4596-be1f-479c5c079367": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "a3f526bf-2417-4596-be1f-479c5c079367",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Phoenix, AZ",
+    "posted_date": "2026-10-05",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/a3f526bf-2417-4596-be1f-479c5c079367"
+  },
+  "a50dec1e-ad55-415f-880c-2f1bd8291311": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a50dec1e-ad55-415f-880c-2f1bd8291311",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-08",
+    "title": "Manager, Procurement & Strategic Partnerships - Chassis",
+    "url": "https://jobs.lever.co/zoox/a50dec1e-ad55-415f-880c-2f1bd8291311"
+  },
+  "a6d3d00d-dc03-4c94-aea2-d0f690d56c2e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-17T20:57:42.507788+00:00",
+    "job_id": "a6d3d00d-dc03-4c94-aea2-d0f690d56c2e",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-17",
+    "title": "Recruiter, Business & Operations",
+    "url": "https://jobs.lever.co/zoox/a6d3d00d-dc03-4c94-aea2-d0f690d56c2e"
+  },
+  "a76e2e49-4f41-40d6-9bda-b15c24d7590b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "a76e2e49-4f41-40d6-9bda-b15c24d7590b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2025-12-17",
+    "title": "Senior Inventory Planning Manager",
+    "url": "https://jobs.lever.co/zoox/a76e2e49-4f41-40d6-9bda-b15c24d7590b"
+  },
+  "a83974b3-444c-40f2-9551-12c3414be6a7": {
+    "company": "Zoox",
+    "first_seen": "2026-10-07T22:00:14.852807+00:00",
+    "job_id": "a83974b3-444c-40f2-9551-12c3414be6a7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-07",
+    "title": "Senior Technical Program Manager - Verification and Validation",
+    "url": "https://jobs.lever.co/zoox/a83974b3-444c-40f2-9551-12c3414be6a7"
+  },
+  "a88dcba4-fe9a-4ec5-b79d-df34160fbcbc": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a88dcba4-fe9a-4ec5-b79d-df34160fbcbc",
+    "last_seen": "2026-09-16T20:51:02.497590+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Program Manager, Workforce Planning",
+    "url": "https://jobs.lever.co/zoox/a88dcba4-fe9a-4ec5-b79d-df34160fbcbc"
+  },
+  "a8a99e08-ac9d-4cfd-98cb-50eae1e96675": {
+    "company": "Zoox",
+    "first_seen": "2026-08-06T00:34:11.495581+00:00",
+    "job_id": "a8a99e08-ac9d-4cfd-98cb-50eae1e96675",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-05",
+    "title": "Senior Technical Program Manager - Vehicle Platform & Autonomy Integration",
+    "url": "https://jobs.lever.co/zoox/a8a99e08-ac9d-4cfd-98cb-50eae1e96675"
+  },
+  "a8d90dae-875a-4818-9a39-c6c74db8c9fd": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "a8d90dae-875a-4818-9a39-c6c74db8c9fd",
+    "last_seen": "2026-09-17T20:57:42.507788+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-05",
+    "title": "Senior Staff Autonomy Systems Engineer, Environmental Expansion",
+    "url": "https://jobs.lever.co/zoox/a8d90dae-875a-4818-9a39-c6c74db8c9fd"
+  },
+  "aa87cd88-dc3f-4c54-accf-e4e9c9b9a2ba": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "aa87cd88-dc3f-4c54-accf-e4e9c9b9a2ba",
+    "last_seen": "2026-09-22T22:37:03.379516+00:00",
+    "location": "Hayward, CA, Foster City, CA",
+    "posted_date": "2026-06-15",
+    "title": "Senior Technical Program Manager, Operational Excellence",
+    "url": "https://jobs.lever.co/zoox/aa87cd88-dc3f-4c54-accf-e4e9c9b9a2ba"
+  },
+  "ab24fad1-bc66-4b58-bd8d-e65f558acff1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ab24fad1-bc66-4b58-bd8d-e65f558acff1",
+    "last_seen": "2026-10-06T23:04:09.380434+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-12",
+    "title": "Senior Technical Program Manager - Vehicle System Integration",
+    "url": "https://jobs.lever.co/zoox/ab24fad1-bc66-4b58-bd8d-e65f558acff1"
+  },
+  "ac1e86dd-aaea-4e5e-a9bb-1b95909da846": {
+    "company": "Zoox",
+    "first_seen": "2026-09-25T19:44:53.585233+00:00",
+    "job_id": "ac1e86dd-aaea-4e5e-a9bb-1b95909da846",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA, Foster City, CA",
+    "posted_date": "2026-09-25",
+    "title": "Senior Software Engineer - Planner GPU Compute",
+    "url": "https://jobs.lever.co/zoox/ac1e86dd-aaea-4e5e-a9bb-1b95909da846"
+  },
+  "ac3b7bb9-71f8-4804-a576-f21343180b72": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ac3b7bb9-71f8-4804-a576-f21343180b72",
+    "last_seen": "2026-10-12T23:18:36.043538+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-09",
+    "title": "Senior Finance Program Manager",
+    "url": "https://jobs.lever.co/zoox/ac3b7bb9-71f8-4804-a576-f21343180b72"
+  },
+  "ac6ff0ab-e046-48b1-9438-71c293de1583": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ac6ff0ab-e046-48b1-9438-71c293de1583",
+    "last_seen": "2026-08-30T20:27:49.817812+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-27",
+    "title": "Staff Software Engineer, Operational Applications & Platforms",
+    "url": "https://jobs.lever.co/zoox/ac6ff0ab-e046-48b1-9438-71c293de1583"
+  },
+  "ac7f82e2-2d61-4466-90e3-d067ac8e8a86": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ac7f82e2-2d61-4466-90e3-d067ac8e8a86",
+    "last_seen": "2026-08-19T20:02:53.247813+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-09",
+    "title": "Senior Engineering Manager, ML Platform",
+    "url": "https://jobs.lever.co/zoox/ac7f82e2-2d61-4466-90e3-d067ac8e8a86"
+  },
+  "acaafc9a-486d-4045-80d7-12b09e39330e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "acaafc9a-486d-4045-80d7-12b09e39330e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2022-05-04",
+    "title": "Staff Data Scientist - Behavior Evaluation",
+    "url": "https://jobs.lever.co/zoox/acaafc9a-486d-4045-80d7-12b09e39330e"
+  },
+  "acbf0c0c-1f38-4454-bf38-b706778b1f69": {
+    "company": "Zoox",
+    "first_seen": "2026-09-17T20:57:42.507788+00:00",
+    "job_id": "acbf0c0c-1f38-4454-bf38-b706778b1f69",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Dallas, TX",
+    "posted_date": "2026-09-16",
+    "title": "Team Lead, Vehicle Operations (2nd Shift)",
+    "url": "https://jobs.lever.co/zoox/acbf0c0c-1f38-4454-bf38-b706778b1f69"
+  },
+  "adb74515-a246-41b8-aba5-46d8a0e213a1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "adb74515-a246-41b8-aba5-46d8a0e213a1",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-15",
+    "title": "Platform Engineer",
+    "url": "https://jobs.lever.co/zoox/adb74515-a246-41b8-aba5-46d8a0e213a1"
+  },
+  "adf2fdd1-d5ca-46f6-aa97-16e4bedf2423": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "adf2fdd1-d5ca-46f6-aa97-16e4bedf2423",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-20",
+    "title": "Manager, Technical Program Management - Artificial Intelligence",
+    "url": "https://jobs.lever.co/zoox/adf2fdd1-d5ca-46f6-aa97-16e4bedf2423"
+  },
+  "ae168503-1eb6-4693-b4ec-7696c7d86176": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ae168503-1eb6-4693-b4ec-7696c7d86176",
+    "last_seen": "2026-08-26T20:43:53.503226+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-18",
+    "title": "Senior Strategic Sourcing Manager",
+    "url": "https://jobs.lever.co/zoox/ae168503-1eb6-4693-b4ec-7696c7d86176"
+  },
+  "ae2785ae-dfee-484b-8add-3cf32ca2d10e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "ae2785ae-dfee-484b-8add-3cf32ca2d10e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Seattle, WA",
+    "posted_date": "2026-09-09",
+    "title": "Contract Student Worker - Data Analyst (20 hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/ae2785ae-dfee-484b-8add-3cf32ca2d10e"
+  },
+  "aee9fb25-2129-4bf8-9d59-65e71ecba5cb": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "aee9fb25-2129-4bf8-9d59-65e71ecba5cb",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Team Lead, Fleet Support Specialists",
+    "url": "https://jobs.lever.co/zoox/aee9fb25-2129-4bf8-9d59-65e71ecba5cb"
+  },
+  "af337ab3-5e8d-48e9-8ae6-b1998cb3e858": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "af337ab3-5e8d-48e9-8ae6-b1998cb3e858",
+    "last_seen": "2026-08-30T20:27:49.817812+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-21",
+    "title": "Senior Manager, Accounting",
+    "url": "https://jobs.lever.co/zoox/af337ab3-5e8d-48e9-8ae6-b1998cb3e858"
+  },
+  "b13095a0-c3a1-4750-923d-4f3f19c581fc": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b13095a0-c3a1-4750-923d-4f3f19c581fc",
+    "last_seen": "2026-08-16T23:49:52.150191+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Sustaining Engineer, Powertrain & Thermal Systems",
+    "url": "https://jobs.lever.co/zoox/b13095a0-c3a1-4750-923d-4f3f19c581fc"
+  },
+  "b1bba11f-2b04-4a4a-8095-752c04182af1": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b1bba11f-2b04-4a4a-8095-752c04182af1",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA, Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Embedded Software Engineer - Power Systems",
+    "url": "https://jobs.lever.co/zoox/b1bba11f-2b04-4a4a-8095-752c04182af1"
+  },
+  "b30b28b0-fea9-4420-a61e-10309c3f7c52": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b30b28b0-fea9-4420-a61e-10309c3f7c52",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-11-04",
+    "title": "Senior Staff / Principal Machine Learning Engineer - Autonomy Behaviors",
+    "url": "https://jobs.lever.co/zoox/b30b28b0-fea9-4420-a61e-10309c3f7c52"
+  },
+  "b346616d-9891-4c68-a8ac-22bd97feac01": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b346616d-9891-4c68-a8ac-22bd97feac01",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-29",
+    "title": "Senior Software Engineer, Test Infrastructure",
+    "url": "https://jobs.lever.co/zoox/b346616d-9891-4c68-a8ac-22bd97feac01"
+  },
+  "b5134a16-5bdc-449e-9665-745bb1e7239f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b5134a16-5bdc-449e-9665-745bb1e7239f",
+    "last_seen": "2026-09-02T18:43:14.753476+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-06-04",
+    "title": "Manager, Systems Verification & Validation, Platform Safety Assurance",
+    "url": "https://jobs.lever.co/zoox/b5134a16-5bdc-449e-9665-745bb1e7239f"
+  },
+  "b5becce4-2537-4a19-8667-4de657c71b10": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b5becce4-2537-4a19-8667-4de657c71b10",
+    "last_seen": "2026-09-18T19:58:56.145973+00:00",
+    "location": "Miami, FL",
+    "posted_date": "2026-07-20",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/b5becce4-2537-4a19-8667-4de657c71b10"
+  },
+  "b5f6f5f4-1a0a-42a2-a72b-f4ed5c3be562": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b5f6f5f4-1a0a-42a2-a72b-f4ed5c3be562",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-17",
+    "title": "Machine Learning Automation Engineer",
+    "url": "https://jobs.lever.co/zoox/b5f6f5f4-1a0a-42a2-a72b-f4ed5c3be562"
+  },
+  "b6799ed0-252b-4535-a908-af77eb130415": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b6799ed0-252b-4535-a908-af77eb130415",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA, Seattle, WA, San Diego, CA",
+    "posted_date": "2025-10-02",
+    "title": "Senior Software Engineer - Full Stack Operational Tools",
+    "url": "https://jobs.lever.co/zoox/b6799ed0-252b-4535-a908-af77eb130415"
+  },
+  "b7c1a78f-43b9-4142-bd71-97022a760750": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "b7c1a78f-43b9-4142-bd71-97022a760750",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2024-12-02",
+    "title": "Software Engineer - Behavior Capabilities",
+    "url": "https://jobs.lever.co/zoox/b7c1a78f-43b9-4142-bd71-97022a760750"
+  },
+  "b8eefee3-f699-4cc6-881c-0a4b739b50d0": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "b8eefee3-f699-4cc6-881c-0a4b739b50d0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Financial Operations Analyst",
+    "url": "https://jobs.lever.co/zoox/b8eefee3-f699-4cc6-881c-0a4b739b50d0"
+  },
+  "ba1f2937-abf0-4bde-86e9-e302202a6b0e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-15T21:53:25.312722+00:00",
+    "job_id": "ba1f2937-abf0-4bde-86e9-e302202a6b0e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-04",
+    "title": "Contract Student Worker Automation & Behavioral Science Engineer",
+    "url": "https://jobs.lever.co/zoox/ba1f2937-abf0-4bde-86e9-e302202a6b0e"
+  },
+  "ba2b9418-e041-43b9-9bb1-b19762a00bd6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ba2b9418-e041-43b9-9bb1-b19762a00bd6",
+    "last_seen": "2026-09-15T21:06:58.681110+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-09",
+    "title": "Lead AI Engineer \u2013 Enterprise Data & AI",
+    "url": "https://jobs.lever.co/zoox/ba2b9418-e041-43b9-9bb1-b19762a00bd6"
+  },
+  "baeb5af5-65b7-433b-99e8-44e61901ae9b": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "baeb5af5-65b7-433b-99e8-44e61901ae9b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "IT Service Desk & SLA Operations Manager",
+    "url": "https://jobs.lever.co/zoox/baeb5af5-65b7-433b-99e8-44e61901ae9b"
+  },
+  "bc11276c-8db7-426e-9d00-d41c2097723a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "bc11276c-8db7-426e-9d00-d41c2097723a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-28",
+    "title": "Software Engineer, ML Performance Optimization",
+    "url": "https://jobs.lever.co/zoox/bc11276c-8db7-426e-9d00-d41c2097723a"
+  },
+  "bdbdb0cb-0700-4a82-981a-3b7d234db6dd": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "bdbdb0cb-0700-4a82-981a-3b7d234db6dd",
+    "last_seen": "2026-08-21T18:49:52.501075+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-09",
+    "title": "Manager - Sensor Calibration",
+    "url": "https://jobs.lever.co/zoox/bdbdb0cb-0700-4a82-981a-3b7d234db6dd"
+  },
+  "bdeeba8c-947d-474d-9d90-d788d09d0ce6": {
+    "company": "Zoox",
+    "first_seen": "2026-09-15T21:06:58.681110+00:00",
+    "job_id": "bdeeba8c-947d-474d-9d90-d788d09d0ce6",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-10",
+    "title": "Staff/Senior Staff Software Engineer - Product Security",
+    "url": "https://jobs.lever.co/zoox/bdeeba8c-947d-474d-9d90-d788d09d0ce6"
+  },
+  "be1539af-482f-478d-823d-a00f44958aa0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "be1539af-482f-478d-823d-a00f44958aa0",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-29",
+    "title": "Staff Compensation Manager",
+    "url": "https://jobs.lever.co/zoox/be1539af-482f-478d-823d-a00f44958aa0"
+  },
+  "be2e8cfd-c908-49f9-a618-b6369fc3e7f2": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "be2e8cfd-c908-49f9-a618-b6369fc3e7f2",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Sustaining Engineer, Body & Closure Systems",
+    "url": "https://jobs.lever.co/zoox/be2e8cfd-c908-49f9-a618-b6369fc3e7f2"
+  },
+  "bea6c1d0-09dc-47db-9fff-ed2f33151763": {
+    "company": "Zoox",
+    "first_seen": "2026-08-31T22:07:32.459260+00:00",
+    "job_id": "bea6c1d0-09dc-47db-9fff-ed2f33151763",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-31",
+    "title": "Senior Staff / Principal Software Engineer - Freeway Autonomy",
+    "url": "https://jobs.lever.co/zoox/bea6c1d0-09dc-47db-9fff-ed2f33151763"
+  },
+  "bebe062b-0315-4730-83dd-0c186d8444c5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "bebe062b-0315-4730-83dd-0c186d8444c5",
+    "last_seen": "2026-09-14T22:25:02.084889+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-05-29",
+    "title": "Senior Software Engineer - 3D Simulation Applications",
+    "url": "https://jobs.lever.co/zoox/bebe062b-0315-4730-83dd-0c186d8444c5"
+  },
+  "bf983498-1063-4c02-8ea6-8f037c2b0c56": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T02:15:45.660792+00:00",
+    "job_id": "bf983498-1063-4c02-8ea6-8f037c2b0c56",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-08",
+    "title": "Information Security Manager - Identity and Access Management (IAM)",
+    "url": "https://jobs.lever.co/zoox/bf983498-1063-4c02-8ea6-8f037c2b0c56"
+  },
+  "c03ac4b4-ad7b-4407-aaea-66ebc09ca579": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c03ac4b4-ad7b-4407-aaea-66ebc09ca579",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA, San Diego, CA",
+    "posted_date": "2026-01-12",
+    "title": "Senior/Staff Software Engineer - Ride and Fleet Services",
+    "url": "https://jobs.lever.co/zoox/c03ac4b4-ad7b-4407-aaea-66ebc09ca579"
+  },
+  "c06851cc-9439-4598-a9d2-c67c7e046018": {
+    "company": "Zoox",
+    "first_seen": "2026-08-13T18:26:53.448881+00:00",
+    "job_id": "c06851cc-9439-4598-a9d2-c67c7e046018",
+    "last_seen": "2026-09-25T19:44:53.585233+00:00",
+    "location": "Remote (United States)",
+    "posted_date": "2026-08-13",
+    "title": "Product & Regulatory Counsel",
+    "url": "https://jobs.lever.co/zoox/c06851cc-9439-4598-a9d2-c67c7e046018"
+  },
+  "c1399cb4-16fa-4f04-8391-d19b1979d467": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c1399cb4-16fa-4f04-8391-d19b1979d467",
+    "last_seen": "2026-09-17T20:57:42.507788+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-26",
+    "title": "CRM Lead \u2013 Service Cloud, AI & Omnichannel",
+    "url": "https://jobs.lever.co/zoox/c1399cb4-16fa-4f04-8391-d19b1979d467"
+  },
+  "c21467f4-690b-4100-95e5-040b040044b8": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c21467f4-690b-4100-95e5-040b040044b8",
+    "last_seen": "2026-10-01T12:49:00.435290+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-08",
+    "title": "Senior Systems Integration Engineer, Brakes",
+    "url": "https://jobs.lever.co/zoox/c21467f4-690b-4100-95e5-040b040044b8"
+  },
+  "c2256725-2c81-4039-b6dd-03a0d7d7e95f": {
+    "company": "Zoox",
+    "first_seen": "2026-10-02T01:54:16.903410+00:00",
+    "job_id": "c2256725-2c81-4039-b6dd-03a0d7d7e95f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-01",
+    "title": "Senior Program Manager, People Experience",
+    "url": "https://jobs.lever.co/zoox/c2256725-2c81-4039-b6dd-03a0d7d7e95f"
+  },
+  "c2abc555-0105-4eda-b9c9-5c9ee28703e7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "c2abc555-0105-4eda-b9c9-5c9ee28703e7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-25",
+    "title": "Software Engineer - C++ On-Vehicle Data",
+    "url": "https://jobs.lever.co/zoox/c2abc555-0105-4eda-b9c9-5c9ee28703e7"
+  },
+  "c303382b-bdc9-4084-a0f5-8448667a3373": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c303382b-bdc9-4084-a0f5-8448667a3373",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-30",
+    "title": "Manager, RL Algorithms & Decoder",
+    "url": "https://jobs.lever.co/zoox/c303382b-bdc9-4084-a0f5-8448667a3373"
+  },
+  "c3877eb0-56d7-44a9-9a6d-88f87c1fc309": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c3877eb0-56d7-44a9-9a6d-88f87c1fc309",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-05-22",
+    "title": "Senior Strategic Sourcing Manager, CapEx",
+    "url": "https://jobs.lever.co/zoox/c3877eb0-56d7-44a9-9a6d-88f87c1fc309"
+  },
+  "c794f77e-c39d-44f2-9309-8bc904e0f868": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c794f77e-c39d-44f2-9309-8bc904e0f868",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-23",
+    "title": "Contract Student Worker System Test Engineer (Full-time)",
+    "url": "https://jobs.lever.co/zoox/c794f77e-c39d-44f2-9309-8bc904e0f868"
+  },
+  "c7ae5688-4bee-4378-b4de-6c9ad0c186ec": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c7ae5688-4bee-4378-b4de-6c9ad0c186ec",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2023-08-01",
+    "title": "Head of Executive Recruiting",
+    "url": "https://jobs.lever.co/zoox/c7ae5688-4bee-4378-b4de-6c9ad0c186ec"
+  },
+  "c8894e25-83b0-4200-a2ab-9f5764bab7ae": {
+    "company": "Zoox",
+    "first_seen": "2026-08-24T21:02:03.398411+00:00",
+    "job_id": "c8894e25-83b0-4200-a2ab-9f5764bab7ae",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-24",
+    "title": "Senior/Staff Technical Program Manager - Autonomy Behaviors",
+    "url": "https://jobs.lever.co/zoox/c8894e25-83b0-4200-a2ab-9f5764bab7ae"
+  },
+  "c88c8b02-71b6-492c-a666-584458ac8c6e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c88c8b02-71b6-492c-a666-584458ac8c6e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA, San Diego, CA, Seattle, WA",
+    "posted_date": "2026-04-11",
+    "title": "Senior AI Inference Engineer - Model Optimization & Deployment",
+    "url": "https://jobs.lever.co/zoox/c88c8b02-71b6-492c-a666-584458ac8c6e"
+  },
+  "c8924164-2a47-4700-9686-c0783fa6dc25": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c8924164-2a47-4700-9686-c0783fa6dc25",
+    "last_seen": "2026-08-24T13:30:22.245079+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-07-01",
+    "title": "Systems Test Engineer, System Behavior Analysis",
+    "url": "https://jobs.lever.co/zoox/c8924164-2a47-4700-9686-c0783fa6dc25"
+  },
+  "c8ca7105-5044-49ee-88d3-cf6b7145a2ec": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c8ca7105-5044-49ee-88d3-cf6b7145a2ec",
+    "last_seen": "2026-09-02T20:57:29.163597+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-29",
+    "title": "Software Engineer, Operational Tools",
+    "url": "https://jobs.lever.co/zoox/c8ca7105-5044-49ee-88d3-cf6b7145a2ec"
+  },
+  "c91fe4d4-7b55-4a0d-8577-1699fd3d5a6b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "c91fe4d4-7b55-4a0d-8577-1699fd3d5a6b",
+    "last_seen": "2026-09-24T23:57:20.430894+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-14",
+    "title": "Senior / Staff Program Manager, Operations Cost Analytics",
+    "url": "https://jobs.lever.co/zoox/c91fe4d4-7b55-4a0d-8577-1699fd3d5a6b"
+  },
+  "cb334597-ba6b-4d39-ba50-035c3a359c8e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "cb334597-ba6b-4d39-ba50-035c3a359c8e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-04-28",
+    "title": "Logistics & Operations Planning Manager (Sales and Operations Planning / S&OP)",
+    "url": "https://jobs.lever.co/zoox/cb334597-ba6b-4d39-ba50-035c3a359c8e"
+  },
+  "cc074dc6-e1a1-43cc-a02b-164b7b56da74": {
+    "company": "Zoox",
+    "first_seen": "2026-09-22T22:37:03.379516+00:00",
+    "job_id": "cc074dc6-e1a1-43cc-a02b-164b7b56da74",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-12",
+    "title": "Senior Sensor Hardware Functional Safety Engineer",
+    "url": "https://jobs.lever.co/zoox/cc074dc6-e1a1-43cc-a02b-164b7b56da74"
+  },
+  "cde4bf49-c8da-4e1a-b6e3-d2e1144a8fb3": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "cde4bf49-c8da-4e1a-b6e3-d2e1144a8fb3",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2026-04-09",
+    "title": "Senior Data Operations Manager - Data Operations Lead",
+    "url": "https://jobs.lever.co/zoox/cde4bf49-c8da-4e1a-b6e3-d2e1144a8fb3"
+  },
+  "cfb9dff3-844f-443e-9be8-46133eb9e656": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "cfb9dff3-844f-443e-9be8-46133eb9e656",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-10",
+    "title": "Contract Student Worker - Digital Engineer",
+    "url": "https://jobs.lever.co/zoox/cfb9dff3-844f-443e-9be8-46133eb9e656"
+  },
+  "cfcef305-3f40-498d-8b96-0bd08b2d46d4": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "cfcef305-3f40-498d-8b96-0bd08b2d46d4",
+    "last_seen": "2026-09-08T14:35:39.322373+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-06",
+    "title": "Senior / Staff 3D Engine Software Engineer - Simulation",
+    "url": "https://jobs.lever.co/zoox/cfcef305-3f40-498d-8b96-0bd08b2d46d4"
+  },
+  "d17b2046-b128-4c8d-8ce5-2b8137139f52": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d17b2046-b128-4c8d-8ce5-2b8137139f52",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-29",
+    "title": "Senior/Staff Systems Engineer, Powertrain System Safety and Fail Operational",
+    "url": "https://jobs.lever.co/zoox/d17b2046-b128-4c8d-8ce5-2b8137139f52"
+  },
+  "d181ce5a-a906-4656-a748-f4128a43dd48": {
+    "company": "Zoox",
+    "first_seen": "2026-10-01T12:49:00.435290+00:00",
+    "job_id": "d181ce5a-a906-4656-a748-f4128a43dd48",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-29",
+    "title": "Manager, Technical Program Management (Advanced Hardware Manufacturing)",
+    "url": "https://jobs.lever.co/zoox/d181ce5a-a906-4656-a748-f4128a43dd48"
+  },
+  "d1f4e09e-90c5-444f-a880-7ce17f281e41": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d1f4e09e-90c5-444f-a880-7ce17f281e41",
+    "last_seen": "2026-10-12T02:15:45.660792+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-24",
+    "title": "Senior Chassis Engineer, Steering Actuation",
+    "url": "https://jobs.lever.co/zoox/d1f4e09e-90c5-444f-a880-7ce17f281e41"
+  },
+  "d238c5ef-cb10-4b64-954b-443ae0e792ba": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "d238c5ef-cb10-4b64-954b-443ae0e792ba",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-23",
+    "title": "Senior/Staff CNC Programmer",
+    "url": "https://jobs.lever.co/zoox/d238c5ef-cb10-4b64-954b-443ae0e792ba"
+  },
+  "d3a7605d-7e6e-4361-bc00-04db50418c1e": {
+    "company": "Zoox",
+    "first_seen": "2026-10-13T21:28:18.932475+00:00",
+    "job_id": "d3a7605d-7e6e-4361-bc00-04db50418c1e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-13",
+    "title": "Software Development Engineer in Test",
+    "url": "https://jobs.lever.co/zoox/d3a7605d-7e6e-4361-bc00-04db50418c1e"
+  },
+  "d4108968-e83d-4d87-a92c-e4cd1823801c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d4108968-e83d-4d87-a92c-e4cd1823801c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-20",
+    "title": "Software Engineer, ML Platform (ML Training)",
+    "url": "https://jobs.lever.co/zoox/d4108968-e83d-4d87-a92c-e4cd1823801c"
+  },
+  "d48270e1-81e0-4f04-ab9e-d1fc25313f76": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d48270e1-81e0-4f04-ab9e-d1fc25313f76",
+    "last_seen": "2026-10-01T12:49:00.435290+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-08",
+    "title": "Software Engineer, Android",
+    "url": "https://jobs.lever.co/zoox/d48270e1-81e0-4f04-ab9e-d1fc25313f76"
+  },
+  "d4f98411-c289-4ada-993a-e4686ec11852": {
+    "company": "Zoox",
+    "first_seen": "2026-08-24T21:02:03.398411+00:00",
+    "job_id": "d4f98411-c289-4ada-993a-e4686ec11852",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-24",
+    "title": "Director, Product Management",
+    "url": "https://jobs.lever.co/zoox/d4f98411-c289-4ada-993a-e4686ec11852"
+  },
+  "d5d0608a-aa33-43c3-abe2-5ff8b40028d5": {
+    "company": "Zoox",
+    "first_seen": "2026-09-08T14:35:39.322373+00:00",
+    "job_id": "d5d0608a-aa33-43c3-abe2-5ff8b40028d5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA, San Diego, CA",
+    "posted_date": "2026-09-03",
+    "title": "Software Engineer - Collision Avoidance System Metrics",
+    "url": "https://jobs.lever.co/zoox/d5d0608a-aa33-43c3-abe2-5ff8b40028d5"
+  },
+  "d6748d5e-b0ee-424b-b303-c5688713662a": {
+    "company": "Zoox",
+    "first_seen": "2026-10-12T23:18:36.043538+00:00",
+    "job_id": "d6748d5e-b0ee-424b-b303-c5688713662a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Seattle, WA",
+    "posted_date": "2026-10-12",
+    "title": "Senior / Staff Machine Learning Engineer - 3D Sensor Simulation",
+    "url": "https://jobs.lever.co/zoox/d6748d5e-b0ee-424b-b303-c5688713662a"
+  },
+  "d736debf-c361-4a7c-81fd-6c3125ab03c0": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d736debf-c361-4a7c-81fd-6c3125ab03c0",
+    "last_seen": "2026-10-07T22:00:14.852807+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-23",
+    "title": "Machine Learning Engineer - Behavior Models for Road Users",
+    "url": "https://jobs.lever.co/zoox/d736debf-c361-4a7c-81fd-6c3125ab03c0"
+  },
+  "d856c631-446c-452f-81f5-0359b50403c9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d856c631-446c-452f-81f5-0359b50403c9",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA",
+    "posted_date": "2026-03-27",
+    "title": "Senior Data Scientist - Verification & Validation",
+    "url": "https://jobs.lever.co/zoox/d856c631-446c-452f-81f5-0359b50403c9"
+  },
+  "d8582506-eef9-4e69-b1c8-1e6b0c83b7a7": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "d8582506-eef9-4e69-b1c8-1e6b0c83b7a7",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Vehicle Test Technician (1st Shift)",
+    "url": "https://jobs.lever.co/zoox/d8582506-eef9-4e69-b1c8-1e6b0c83b7a7"
+  },
+  "d8d98a2c-731f-4eb7-8dcf-bacbb79acfe5": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d8d98a2c-731f-4eb7-8dcf-bacbb79acfe5",
+    "last_seen": "2026-08-24T21:02:03.398411+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-04-29",
+    "title": "Senior People Partner",
+    "url": "https://jobs.lever.co/zoox/d8d98a2c-731f-4eb7-8dcf-bacbb79acfe5"
+  },
+  "d939f359-805f-45c7-bac2-35e137d1f65b": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "d939f359-805f-45c7-bac2-35e137d1f65b",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Hayward, CA, Foster City, CA",
+    "posted_date": "2026-07-22",
+    "title": "Senior / Staff Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/d939f359-805f-45c7-bac2-35e137d1f65b"
+  },
+  "d9496a78-88b3-4c62-bea2-0eb61288aa9c": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "d9496a78-88b3-4c62-bea2-0eb61288aa9c",
+    "last_seen": "2026-09-15T00:59:21.774436+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2016-07-07",
+    "title": "Senior/Staff Technical Program Manager - Compute Hardware",
+    "url": "https://jobs.lever.co/zoox/d9496a78-88b3-4c62-bea2-0eb61288aa9c"
+  },
+  "dafe2927-74bf-4bef-8df0-cb0874595819": {
+    "company": "Zoox",
+    "first_seen": "2026-09-08T14:35:39.322373+00:00",
+    "job_id": "dafe2927-74bf-4bef-8df0-cb0874595819",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA, Seattle, WA",
+    "posted_date": "2026-09-03",
+    "title": "Contract Student Worker - Autonomy Safety Data Engineer",
+    "url": "https://jobs.lever.co/zoox/dafe2927-74bf-4bef-8df0-cb0874595819"
+  },
+  "db46c9bf-3854-4cf9-83b5-ae7a9e28ad31": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "db46c9bf-3854-4cf9-83b5-ae7a9e28ad31",
+    "last_seen": "2026-08-18T00:46:46.638033+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-01-31",
+    "title": "Senior Machine Learning Engineer - 3D Sensor Simulation",
+    "url": "https://jobs.lever.co/zoox/db46c9bf-3854-4cf9-83b5-ae7a9e28ad31"
+  },
+  "ddba8228-2215-48fd-bc4e-a633bca6b8e4": {
+    "company": "Zoox",
+    "first_seen": "2026-09-10T20:59:33.342957+00:00",
+    "job_id": "ddba8228-2215-48fd-bc4e-a633bca6b8e4",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Dallas, TX",
+    "posted_date": "2026-09-10",
+    "title": "Team Lead, Readiness & Response",
+    "url": "https://jobs.lever.co/zoox/ddba8228-2215-48fd-bc4e-a633bca6b8e4"
+  },
+  "de43fa7a-1cf2-41b9-ba99-244f699e3870": {
+    "company": "Zoox",
+    "first_seen": "2026-08-11T18:06:47.415329+00:00",
+    "job_id": "de43fa7a-1cf2-41b9-ba99-244f699e3870",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA, Seattle, WA",
+    "posted_date": "2026-08-10",
+    "title": "Staff Software Engineer, HPC",
+    "url": "https://jobs.lever.co/zoox/de43fa7a-1cf2-41b9-ba99-244f699e3870"
+  },
+  "e0d46302-6fa2-45a7-927d-cd11ccf1843e": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e0d46302-6fa2-45a7-927d-cd11ccf1843e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-24",
+    "title": "Manufacturing Test Engineer",
+    "url": "https://jobs.lever.co/zoox/e0d46302-6fa2-45a7-927d-cd11ccf1843e"
+  },
+  "e1c1b82a-db3f-451e-840d-383d87b4515c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e1c1b82a-db3f-451e-840d-383d87b4515c",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-03-26",
+    "title": "Senior Software Development Engineer in Test - Verification And Validation",
+    "url": "https://jobs.lever.co/zoox/e1c1b82a-db3f-451e-840d-383d87b4515c"
+  },
+  "e1e3ddc4-b6cc-4873-87cf-bff2295109fb": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e1e3ddc4-b6cc-4873-87cf-bff2295109fb",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA, Seattle, WA",
+    "posted_date": "2026-06-30",
+    "title": "Senior/Staff Software Engineer - Machine Learning & System Optimization",
+    "url": "https://jobs.lever.co/zoox/e1e3ddc4-b6cc-4873-87cf-bff2295109fb"
+  },
+  "e1f6143d-a18d-4d92-ad6c-fb2cd661609e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-23T22:11:45.170082+00:00",
+    "job_id": "e1f6143d-a18d-4d92-ad6c-fb2cd661609e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA",
+    "posted_date": "2026-09-18",
+    "title": "Systems Test Engineer, System Behavior Analysis",
+    "url": "https://jobs.lever.co/zoox/e1f6143d-a18d-4d92-ad6c-fb2cd661609e"
+  },
+  "e2dc70db-8179-45c6-81f8-33c53409d29f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e2dc70db-8179-45c6-81f8-33c53409d29f",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-29",
+    "title": "Financial Analyst, Revenue and Commercial",
+    "url": "https://jobs.lever.co/zoox/e2dc70db-8179-45c6-81f8-33c53409d29f"
+  },
+  "e3465011-f94e-49e1-872e-68ec79c7db23": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e3465011-f94e-49e1-872e-68ec79c7db23",
+    "last_seen": "2026-09-02T18:43:14.753476+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-10",
+    "title": "Senior Data Engineer \u2013 Enterprise Data & AI",
+    "url": "https://jobs.lever.co/zoox/e3465011-f94e-49e1-872e-68ec79c7db23"
+  },
+  "e36cc53e-5bd5-43b9-9a90-ec9b7c6abda9": {
+    "company": "Zoox",
+    "first_seen": "2026-08-07T00:46:57.961747+00:00",
+    "job_id": "e36cc53e-5bd5-43b9-9a90-ec9b7c6abda9",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-09-16",
+    "title": "AV Safety Data Reporting Engineer",
+    "url": "https://jobs.lever.co/zoox/e36cc53e-5bd5-43b9-9a90-ec9b7c6abda9"
+  },
+  "e725749e-88f7-48e0-8e4c-8a4a3289b905": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "e725749e-88f7-48e0-8e4c-8a4a3289b905",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, San Francisco, CA",
+    "posted_date": "2026-05-12",
+    "title": "Software Engineer - Planner Frameworks Pipeline",
+    "url": "https://jobs.lever.co/zoox/e725749e-88f7-48e0-8e4c-8a4a3289b905"
+  },
+  "e8a190f0-7a89-4c11-a6a0-452ff6234749": {
+    "company": "Zoox",
+    "first_seen": "2026-10-06T23:04:09.380434+00:00",
+    "job_id": "e8a190f0-7a89-4c11-a6a0-452ff6234749",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "Administrative Business Partner, Floater",
+    "url": "https://jobs.lever.co/zoox/e8a190f0-7a89-4c11-a6a0-452ff6234749"
+  },
+  "e93ca4b5-b327-40f1-886b-a72a251c33e2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-06T00:34:11.495581+00:00",
+    "job_id": "e93ca4b5-b327-40f1-886b-a72a251c33e2",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-05",
+    "title": "Senior Technical Program Manager - Compute and Sensors",
+    "url": "https://jobs.lever.co/zoox/e93ca4b5-b327-40f1-886b-a72a251c33e2"
+  },
+  "ea3fbfaf-588b-434a-9a5a-c61edc731a40": {
+    "company": "Zoox",
+    "first_seen": "2026-08-31T22:07:32.459260+00:00",
+    "job_id": "ea3fbfaf-588b-434a-9a5a-c61edc731a40",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-31",
+    "title": "Embedded Software Engineer - Drive Systems",
+    "url": "https://jobs.lever.co/zoox/ea3fbfaf-588b-434a-9a5a-c61edc731a40"
+  },
+  "eb2177de-ca5e-43de-9e70-e2b597747f9d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-20T20:37:59.386004+00:00",
+    "job_id": "eb2177de-ca5e-43de-9e70-e2b597747f9d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-20",
+    "title": "Staff Electrical Architecture System Engineer",
+    "url": "https://jobs.lever.co/zoox/eb2177de-ca5e-43de-9e70-e2b597747f9d"
+  },
+  "eb782315-c401-44f7-9558-3f14d9a8acf7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "eb782315-c401-44f7-9558-3f14d9a8acf7",
+    "last_seen": "2026-08-18T22:49:36.162734+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-08",
+    "title": "Senior/Staff Technical Program Manager - Core Software",
+    "url": "https://jobs.lever.co/zoox/eb782315-c401-44f7-9558-3f14d9a8acf7"
+  },
+  "ec1de483-ebd5-4b87-96b7-d749f077aefb": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ec1de483-ebd5-4b87-96b7-d749f077aefb",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA, Foster City, CA",
+    "posted_date": "2026-01-05",
+    "title": "System Test Engineer",
+    "url": "https://jobs.lever.co/zoox/ec1de483-ebd5-4b87-96b7-d749f077aefb"
+  },
+  "ec7c3f40-ec58-445e-ad01-8cc3d639680c": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ec7c3f40-ec58-445e-ad01-8cc3d639680c",
+    "last_seen": "2026-10-12T02:15:45.660792+00:00",
+    "location": "Fremont, CA",
+    "posted_date": "2026-07-30",
+    "title": "Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/ec7c3f40-ec58-445e-ad01-8cc3d639680c"
+  },
+  "ecca3855-84c8-4fe6-98a3-41cf00f384c6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ecca3855-84c8-4fe6-98a3-41cf00f384c6",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Banbury, UK",
+    "posted_date": "2026-06-30",
+    "title": "Sr / Staff Technical Program Manager - Body, Closures & Chassis",
+    "url": "https://jobs.lever.co/zoox/ecca3855-84c8-4fe6-98a3-41cf00f384c6"
+  },
+  "edd3a8ae-bc78-49ac-a536-2033d7c02dd6": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "edd3a8ae-bc78-49ac-a536-2033d7c02dd6",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-18",
+    "title": "Senior/Staff Technical Program Manager - Robot Platform",
+    "url": "https://jobs.lever.co/zoox/edd3a8ae-bc78-49ac-a536-2033d7c02dd6"
+  },
+  "ee1a6e36-1289-42aa-990c-3e6b289270a4": {
+    "company": "Zoox",
+    "first_seen": "2026-08-24T21:02:03.398411+00:00",
+    "job_id": "ee1a6e36-1289-42aa-990c-3e6b289270a4",
+    "last_seen": "2026-09-10T20:59:33.342957+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-21",
+    "title": "Contract Student Worker - Business Operations",
+    "url": "https://jobs.lever.co/zoox/ee1a6e36-1289-42aa-990c-3e6b289270a4"
+  },
+  "ee3d224f-fb03-4b28-ae55-aef094ea26b2": {
+    "company": "Zoox",
+    "first_seen": "2026-08-19T20:02:53.247813+00:00",
+    "job_id": "ee3d224f-fb03-4b28-ae55-aef094ea26b2",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Remote (United States)",
+    "posted_date": "2026-08-18",
+    "title": "Supplier Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/ee3d224f-fb03-4b28-ae55-aef094ea26b2"
+  },
+  "ee4bcd02-44f2-483b-80ae-51b17abaae89": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "ee4bcd02-44f2-483b-80ae-51b17abaae89",
+    "last_seen": "2026-09-09T21:41:11.318660+00:00",
+    "location": "Hayward, CA",
+    "posted_date": "2026-09-04",
+    "title": "Plant Supplier Quality Engineer",
+    "url": "https://jobs.lever.co/zoox/ee4bcd02-44f2-483b-80ae-51b17abaae89"
+  },
+  "ee666ba2-c170-4edc-9f93-383e90f904fa": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ee666ba2-c170-4edc-9f93-383e90f904fa",
+    "last_seen": "2026-09-21T22:06:39.314239+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-24",
+    "title": "Senior/Staff Systems Engineer, Fail Operational",
+    "url": "https://jobs.lever.co/zoox/ee666ba2-c170-4edc-9f93-383e90f904fa"
+  },
+  "eed5bd1e-8f24-4180-ac1f-c757d67c775a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "eed5bd1e-8f24-4180-ac1f-c757d67c775a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2026-07-20",
+    "title": "Team Lead, Ground Operations (3rd Shift)",
+    "url": "https://jobs.lever.co/zoox/eed5bd1e-8f24-4180-ac1f-c757d67c775a"
+  },
+  "eefe4c91-8a7f-46c4-9db2-ba5e8d6c913f": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "eefe4c91-8a7f-46c4-9db2-ba5e8d6c913f",
+    "last_seen": "2026-09-16T20:51:02.497590+00:00",
+    "location": "Scottsdale, AZ",
+    "posted_date": "2026-07-16",
+    "title": "Senior Program Manager, Quality Assurance",
+    "url": "https://jobs.lever.co/zoox/eefe4c91-8a7f-46c4-9db2-ba5e8d6c913f"
+  },
+  "ef2fe77d-9b7b-4fdf-a98d-93e46f7ed272": {
+    "company": "Zoox",
+    "first_seen": "2026-08-30T20:27:49.817812+00:00",
+    "job_id": "ef2fe77d-9b7b-4fdf-a98d-93e46f7ed272",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-28",
+    "title": "Senior Software Engineer -  Mapping Web",
+    "url": "https://jobs.lever.co/zoox/ef2fe77d-9b7b-4fdf-a98d-93e46f7ed272"
+  },
+  "f10acec0-4887-4e3b-b6dc-2fd351ae2ca5": {
+    "company": "Zoox",
+    "first_seen": "2026-10-07T22:00:14.852807+00:00",
+    "job_id": "f10acec0-4887-4e3b-b6dc-2fd351ae2ca5",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "San Diego, CA, Foster City, CA",
+    "posted_date": "2026-10-06",
+    "title": "System Test Engineer",
+    "url": "https://jobs.lever.co/zoox/f10acec0-4887-4e3b-b6dc-2fd351ae2ca5"
+  },
+  "f1f1e6ec-6167-4369-a788-89f5d009368a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f1f1e6ec-6167-4369-a788-89f5d009368a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-02-03",
+    "title": "Software Engineering Manager - Perception Occupancy",
+    "url": "https://jobs.lever.co/zoox/f1f1e6ec-6167-4369-a788-89f5d009368a"
+  },
+  "f2da6b2e-791a-49b1-87e6-d0313b105507": {
+    "company": "Zoox",
+    "first_seen": "2026-10-01T12:49:00.435290+00:00",
+    "job_id": "f2da6b2e-791a-49b1-87e6-d0313b105507",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA, Boston, MA, Seattle, WA, San Diego, CA",
+    "posted_date": "2026-09-30",
+    "title": "Perception Deployment Engineer - Model Deployment & Optimization",
+    "url": "https://jobs.lever.co/zoox/f2da6b2e-791a-49b1-87e6-d0313b105507"
+  },
+  "f30603f7-cc6f-41b5-91e5-ead70d880135": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f30603f7-cc6f-41b5-91e5-ead70d880135",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-07-13",
+    "title": "Senior/Staff Design Project Manager, Places & Build",
+    "url": "https://jobs.lever.co/zoox/f30603f7-cc6f-41b5-91e5-ead70d880135"
+  },
+  "f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d",
+    "last_seen": "2026-10-04T23:10:48.597735+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-04",
+    "title": "Autonomy System Test Engineer",
+    "url": "https://jobs.lever.co/zoox/f4746da4-8eb8-43e2-b7ce-bf3c7cf9640d"
+  },
+  "f478258f-0027-43e1-b009-e96aa9b20c0e": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "f478258f-0027-43e1-b009-e96aa9b20c0e",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-23",
+    "title": "Senior Communications Manager, Policy, Safety & Reputation",
+    "url": "https://jobs.lever.co/zoox/f478258f-0027-43e1-b009-e96aa9b20c0e"
+  },
+  "f5433da0-81fe-48bb-80f1-0bac539d4a02": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f5433da0-81fe-48bb-80f1-0bac539d4a02",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-08",
+    "title": "Technical Sourcer (Contract)",
+    "url": "https://jobs.lever.co/zoox/f5433da0-81fe-48bb-80f1-0bac539d4a02"
+  },
+  "f62f1083-acff-4862-984e-4d16d2a827a6": {
+    "company": "Zoox",
+    "first_seen": "2026-09-09T21:41:11.318660+00:00",
+    "job_id": "f62f1083-acff-4862-984e-4d16d2a827a6",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-08",
+    "title": "Senior Software Engineer - Robot Software Infrastructure",
+    "url": "https://jobs.lever.co/zoox/f62f1083-acff-4862-984e-4d16d2a827a6"
+  },
+  "f6306bce-689a-4462-af2a-1c2d49168b96": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f6306bce-689a-4462-af2a-1c2d49168b96",
+    "last_seen": "2026-08-30T20:27:49.817812+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2026-06-26",
+    "title": "Government Affairs and Public Policy Manager, Cities",
+    "url": "https://jobs.lever.co/zoox/f6306bce-689a-4462-af2a-1c2d49168b96"
+  },
+  "f7f84c5c-acda-4c2c-8da6-6d59bce8da25": {
+    "company": "Zoox",
+    "first_seen": "2026-08-26T20:43:53.503226+00:00",
+    "job_id": "f7f84c5c-acda-4c2c-8da6-6d59bce8da25",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-26",
+    "title": "Manager, Sensor Integration & Cleaning Hardware",
+    "url": "https://jobs.lever.co/zoox/f7f84c5c-acda-4c2c-8da6-6d59bce8da25"
+  },
+  "f8150234-1695-4ed9-a820-c81e66ca693a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T20:00:31.126875+00:00",
+    "job_id": "f8150234-1695-4ed9-a820-c81e66ca693a",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-05",
+    "title": "Senior Software Systems Engineer - Security",
+    "url": "https://jobs.lever.co/zoox/f8150234-1695-4ed9-a820-c81e66ca693a"
+  },
+  "f93c451d-b9b0-4480-ad7e-4c4d410e4100": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "f93c451d-b9b0-4480-ad7e-4c4d410e4100",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-10-21",
+    "title": "Senior/Staff Technical Program Manager - Artificial Intelligence",
+    "url": "https://jobs.lever.co/zoox/f93c451d-b9b0-4480-ad7e-4c4d410e4100"
+  },
+  "fa7b53e5-b6f4-4912-943c-d20155435180": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fa7b53e5-b6f4-4912-943c-d20155435180",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-30",
+    "title": "Manager, Technical Program Management - System Safety for Cross Functional Initiatives",
+    "url": "https://jobs.lever.co/zoox/fa7b53e5-b6f4-4912-943c-d20155435180"
+  },
+  "fa96e7a4-df02-41c3-91c6-248a5bad6fa7": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fa96e7a4-df02-41c3-91c6-248a5bad6fa7",
+    "last_seen": "2026-09-15T00:59:21.774436+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-04-17",
+    "title": "Senior Sensor Software Engineer - Core Sensors",
+    "url": "https://jobs.lever.co/zoox/fa96e7a4-df02-41c3-91c6-248a5bad6fa7"
+  },
+  "fbfed349-50ac-47fd-aef8-8f4a0eafc43a": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fbfed349-50ac-47fd-aef8-8f4a0eafc43a",
+    "last_seen": "2026-09-01T19:18:45.783103+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2025-10-05",
+    "title": "Senior/Staff Business Enablement Architect - Manufacturing and Operations",
+    "url": "https://jobs.lever.co/zoox/fbfed349-50ac-47fd-aef8-8f4a0eafc43a"
+  },
+  "fc0e28a6-99ba-4298-80b4-a62986363dae": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fc0e28a6-99ba-4298-80b4-a62986363dae",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-01-28",
+    "title": "Manager, Enterprise Applications",
+    "url": "https://jobs.lever.co/zoox/fc0e28a6-99ba-4298-80b4-a62986363dae"
+  },
+  "fc12408e-d0e0-4838-adba-f9fccb67442d": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fc12408e-d0e0-4838-adba-f9fccb67442d",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-22",
+    "title": "Director, Go-To-Market Strategy",
+    "url": "https://jobs.lever.co/zoox/fc12408e-d0e0-4838-adba-f9fccb67442d"
+  },
+  "fd30da7a-d7ec-49a0-b4bd-ed3a193a1e07": {
+    "company": "Zoox",
+    "first_seen": "2026-09-08T14:35:39.322373+00:00",
+    "job_id": "fd30da7a-d7ec-49a0-b4bd-ed3a193a1e07",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-09-04",
+    "title": "Lead Data Platform Engineer - Enterprise, Data & AI",
+    "url": "https://jobs.lever.co/zoox/fd30da7a-d7ec-49a0-b4bd-ed3a193a1e07"
+  },
+  "fd97675c-3483-42c6-826f-12fbb96ccafc": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fd97675c-3483-42c6-826f-12fbb96ccafc",
+    "last_seen": "2026-08-16T23:49:52.150191+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-18",
+    "title": "Data Scientist - Mapping",
+    "url": "https://jobs.lever.co/zoox/fd97675c-3483-42c6-826f-12fbb96ccafc"
+  },
+  "fe0a2c57-517f-4bc0-ae5b-d4a3127bd855": {
+    "company": "Zoox",
+    "first_seen": "2026-08-24T21:02:03.398411+00:00",
+    "job_id": "fe0a2c57-517f-4bc0-ae5b-d4a3127bd855",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-08-24",
+    "title": "Senior Validation Engineer, Suspension",
+    "url": "https://jobs.lever.co/zoox/fe0a2c57-517f-4bc0-ae5b-d4a3127bd855"
+  },
+  "fe41af48-f0ec-46ec-b840-00f9d9f872de": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "fe41af48-f0ec-46ec-b840-00f9d9f872de",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-06-30",
+    "title": "System Verification and Validation Engineer - Fail Operational Systems",
+    "url": "https://jobs.lever.co/zoox/fe41af48-f0ec-46ec-b840-00f9d9f872de"
+  },
+  "fe820d6e-2f38-4f5a-a824-3690dbb58453": {
+    "company": "Zoox",
+    "first_seen": "2026-09-24T23:57:20.430894+00:00",
+    "job_id": "fe820d6e-2f38-4f5a-a824-3690dbb58453",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Dallas, TX",
+    "posted_date": "2026-09-23",
+    "title": "Senior Team Lead, Vehicle Technicians",
+    "url": "https://jobs.lever.co/zoox/fe820d6e-2f38-4f5a-a824-3690dbb58453"
+  },
+  "ff6a9a68-872f-4327-a6dc-c4f6cc6171da": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ff6a9a68-872f-4327-a6dc-c4f6cc6171da",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Boston, MA",
+    "posted_date": "2026-05-15",
+    "title": "Senior Strategic Sourcing Manager",
+    "url": "https://jobs.lever.co/zoox/ff6a9a68-872f-4327-a6dc-c4f6cc6171da"
+  },
+  "ffb6c8ea-a939-4440-819c-c737737ae6de": {
+    "company": "Zoox",
+    "first_seen": "2026-08-05T15:51:21.404501+00:00",
+    "job_id": "ffb6c8ea-a939-4440-819c-c737737ae6de",
+    "last_seen": "2026-10-13T21:28:18.932475+00:00",
+    "location": "Foster City, CA",
+    "posted_date": "2026-05-20",
+    "title": "Senior Platform System Vehicle Test Engineer",
+    "url": "https://jobs.lever.co/zoox/ffb6c8ea-a939-4440-819c-c737737ae6de"
+  }
+}

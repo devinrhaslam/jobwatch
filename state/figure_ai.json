@@ -1,0 +1,1732 @@
+{
+  "4006355006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-06T22:56:12.517691+00:00",
+    "job_id": "4006355006",
+    "last_seen": "2026-10-06T22:56:12.517691+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2022-11-07",
+    "title": "Electrical Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4006355006"
+  },
+  "4007375006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4007375006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2022-11-15",
+    "title": "Helix AI Engineer, Perception",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4007375006"
+  },
+  "4303098006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4303098006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2023-11-09",
+    "title": "Mechanical Engineer Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4303098006"
+  },
+  "4313470006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4313470006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2023-12-11",
+    "title": "Electrical Engineer, Torso",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4313470006"
+  },
+  "4315521006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4315521006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2023-12-18",
+    "title": "Product Compliance Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4315521006"
+  },
+  "4333397006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4333397006",
+    "last_seen": "2026-09-02T20:50:34.526322+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-02-12",
+    "title": "Power Electronics Engineer, Charging",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4333397006"
+  },
+  "4345915006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4345915006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-03-14",
+    "title": "Helix AI Engineer, Data Infrastructure",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4345915006"
+  },
+  "4369739006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4369739006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-05-14",
+    "title": "Humanoid Robot Pilot",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4369739006"
+  },
+  "4375064006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4375064006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-06-04",
+    "title": "Manufacturing Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4375064006"
+  },
+  "4391518006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-06T22:56:12.517691+00:00",
+    "job_id": "4391518006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-08-05",
+    "title": "Systems Integration Engineer, Hands",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4391518006"
+  },
+  "4392728006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4392728006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-08-08",
+    "title": "Robot Service Technician (Morning Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4392728006"
+  },
+  "4406268006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4406268006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-09-25",
+    "title": "Humanoid Robot Operator (Morning Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4406268006"
+  },
+  "4409868006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4409868006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-10-09",
+    "title": "Technical Recruiter",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4409868006"
+  },
+  "4410831006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4410831006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-10-14",
+    "title": "Mechanical Engineer - All Levels",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4410831006"
+  },
+  "4414646006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4414646006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2024-10-29",
+    "title": "Manufacturing Software Test Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4414646006"
+  },
+  "4432449006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4432449006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-01-08",
+    "title": "Senior Mechanical Engineer, Charging Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4432449006"
+  },
+  "4439202006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4439202006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-01-29",
+    "title": "Fabricator",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4439202006"
+  },
+  "4440430006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4440430006",
+    "last_seen": "2026-08-31T21:59:35.466359+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-02-03",
+    "title": "CNC Machinist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4440430006"
+  },
+  "4453797006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4453797006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-03-11",
+    "title": "Production Associate",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4453797006"
+  },
+  "4553552006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4553552006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-03-24",
+    "title": "Manufacturing Equipment Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4553552006"
+  },
+  "4555450006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4555450006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-03-31",
+    "title": "Security Engineer, Product and Device Security",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4555450006"
+  },
+  "4573670006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4573670006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-06-04",
+    "title": "Manufacturing Electrical Test Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4573670006"
+  },
+  "4574399006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4574399006",
+    "last_seen": "2026-10-01T12:39:04.948370+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-06-06",
+    "title": "Manufacturing Test Engineer, PCBA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4574399006"
+  },
+  "4585080006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4585080006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-08-06",
+    "title": "Helix Data Creator",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4585080006"
+  },
+  "4587570006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4587570006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-07-24",
+    "title": "Quality Engineering Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4587570006"
+  },
+  "4589484006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-26T20:36:42.601391+00:00",
+    "job_id": "4589484006",
+    "last_seen": "2026-09-21T21:57:32.478586+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-08-01",
+    "title": "Prototype Development Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4589484006"
+  },
+  "4590702006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4590702006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-09-05",
+    "title": "Data Quality Analyst",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4590702006"
+  },
+  "4595829006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-15T00:52:54.619284+00:00",
+    "job_id": "4595829006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-09-09",
+    "title": "Production Lead (Swing Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4595829006"
+  },
+  "4596418006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4596418006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-08-25",
+    "title": "Mechanical Engineer, Robot Ecosystem",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4596418006"
+  },
+  "4596421006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-07T00:41:22.565868+00:00",
+    "job_id": "4596421006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-08-25",
+    "title": "Mechanical Engineer, Softgoods/Plastics",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4596421006"
+  },
+  "4601309006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-06T22:56:12.517691+00:00",
+    "job_id": "4601309006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-09-12",
+    "title": "Firmware Engineering Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006"
+  },
+  "4603840006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4603840006",
+    "last_seen": "2026-08-12T00:11:31.673052+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-09-23",
+    "title": "Senior Network Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4603840006"
+  },
+  "4605724006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-06T22:56:12.517691+00:00",
+    "job_id": "4605724006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-09-30",
+    "title": "Middleware Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4605724006"
+  },
+  "4606072006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4606072006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-01",
+    "title": "Validation Engineering Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4606072006"
+  },
+  "4609306006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-05T22:07:49.023106+00:00",
+    "job_id": "4609306006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-13",
+    "title": "Senior Software Engineer, Middleware Productivity",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4609306006"
+  },
+  "4609779006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4609779006",
+    "last_seen": "2026-09-15T00:52:54.619284+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-12-01",
+    "title": "Remanufacturing Technician (Swing Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4609779006"
+  },
+  "4612612006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4612612006",
+    "last_seen": "2026-10-04T23:02:34.338059+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-23",
+    "title": "Systems Integration Engineer - Hand Subsystem",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4612612006"
+  },
+  "4613067006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4613067006",
+    "last_seen": "2026-09-22T22:30:25.065988+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-24",
+    "title": "Hardware Test Intern [Fall 2026]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4613067006"
+  },
+  "4613433006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-01T12:39:04.948370+00:00",
+    "job_id": "4613433006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-27",
+    "title": "Test Automation Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4613433006"
+  },
+  "4613444006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4613444006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-27",
+    "title": "Facilities Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4613444006"
+  },
+  "4614747006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4614747006",
+    "last_seen": "2026-10-01T12:39:04.948370+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-10-31",
+    "title": "Staff Infrastructure Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4614747006"
+  },
+  "4615252006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4615252006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-11-04",
+    "title": "Electrical Validation Engineer \u2013 Hand Subsystem",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4615252006"
+  },
+  "4618234006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-01T12:39:04.948370+00:00",
+    "job_id": "4618234006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-11-13",
+    "title": "Software Integration Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4618234006"
+  },
+  "4620050006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4620050006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-11-20",
+    "title": "Security Engineer, Application Security",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4620050006"
+  },
+  "4626247006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4626247006",
+    "last_seen": "2026-10-04T23:02:34.338059+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-12-16",
+    "title": "Systems Integration Engineer - Actuation Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4626247006"
+  },
+  "4626806006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4626806006",
+    "last_seen": "2026-10-12T23:10:04.895813+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-12-17",
+    "title": "Quality Engineer, Metrology",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4626806006"
+  },
+  "4626809006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4626809006",
+    "last_seen": "2026-08-11T00:10:57.411083+00:00",
+    "location": "Asia",
+    "posted_date": "2025-12-17",
+    "title": "Supplier Quality Engineer (Asia)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4626809006"
+  },
+  "4627111006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4627111006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2025-12-18",
+    "title": "Helix Data Creator",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4627111006"
+  },
+  "4627386006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4627386006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2025-12-18",
+    "title": "NPI Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4627386006"
+  },
+  "4643612006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4643612006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-09",
+    "title": "Mechanical Engineer - Hands",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4643612006"
+  },
+  "4644956006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4644956006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-14",
+    "title": "Humanoid Robot Operator (Afternoon Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4644956006"
+  },
+  "4644962006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4644962006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-14",
+    "title": "Humanoid Robot Operator (Night Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4644962006"
+  },
+  "4647172006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4647172006",
+    "last_seen": "2026-08-20T00:20:45.246597+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-21",
+    "title": "Logistics and Inventory Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4647172006"
+  },
+  "4648134006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4648134006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-26",
+    "title": "Global Supply Manager, Mechanical",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4648134006"
+  },
+  "4648671006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4648671006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-27",
+    "title": "Global Supply Manager, EE and Semiconductors",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4648671006"
+  },
+  "4649851006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4649851006",
+    "last_seen": "2026-10-04T23:02:34.338059+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-01-30",
+    "title": "Helix AI Engineer, Robot Learning",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4649851006"
+  },
+  "4654891006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4654891006",
+    "last_seen": "2026-08-30T20:01:12.269324+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-02-16",
+    "title": "Firmware Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4654891006"
+  },
+  "4655833006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4655833006",
+    "last_seen": "2026-09-03T20:05:35.501898+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-02-18",
+    "title": "Robot Service Technician (Afternoon Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4655833006"
+  },
+  "4655837006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4655837006",
+    "last_seen": "2026-10-01T12:39:04.948370+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-02-18",
+    "title": "Robot Service Technician (Night Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4655837006"
+  },
+  "4656559006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4656559006",
+    "last_seen": "2026-08-06T12:46:48.336908+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-02-20",
+    "title": "Mechanical Engineer, Battery",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4656559006"
+  },
+  "4658691006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-11T18:01:13.993960+00:00",
+    "job_id": "4658691006",
+    "last_seen": "2026-09-22T22:30:25.065988+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-02-27",
+    "title": "Recruiting Coordinator",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4658691006"
+  },
+  "4659175006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4659175006",
+    "last_seen": "2026-08-18T22:43:16.622457+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-02",
+    "title": "Helix AI Engineer, Agentic Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4659175006"
+  },
+  "4660300006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4660300006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-05",
+    "title": "Supplier Quality Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4660300006"
+  },
+  "4660876006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4660876006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-06",
+    "title": "Helix AI Engineer, Android",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4660876006"
+  },
+  "4661633006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4661633006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-10",
+    "title": "Associate General Counsel, Commercial",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4661633006"
+  },
+  "4664781006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4664781006",
+    "last_seen": "2026-09-09T21:33:05.569537+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-18",
+    "title": "Data Strategy Associate",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4664781006"
+  },
+  "4665205006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4665205006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-19",
+    "title": "Humanoid Robot Operator, Commercial Launch Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4665205006"
+  },
+  "4666290006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4666290006",
+    "last_seen": "2026-09-10T20:51:31.703289+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-24",
+    "title": "Deployment Logistics Lead",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4666290006"
+  },
+  "4666292006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4666292006",
+    "last_seen": "2026-08-18T20:51:50.645382+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-03-24",
+    "title": "Hardware Technician (Data Collection)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4666292006"
+  },
+  "4670751006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4670751006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-06",
+    "title": "Global Supply Manager - PCBA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4670751006"
+  },
+  "4671442006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671442006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-08",
+    "title": "Reinforcement Learning Engineer, Whole Body Control",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671442006"
+  },
+  "4671699006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671699006",
+    "last_seen": "2026-10-04T23:02:34.338059+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Helix AI Engineer, Generative AI",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671699006"
+  },
+  "4671703006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671703006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Helix AI Engineer, Video Pretraining",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671703006"
+  },
+  "4671704006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671704006",
+    "last_seen": "2026-10-05T22:07:49.023106+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Helix AI Engineer, Pretraining",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671704006"
+  },
+  "4671707006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671707006",
+    "last_seen": "2026-10-04T23:02:34.338059+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Helix AI Engineer, Reinforcement Learning",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671707006"
+  },
+  "4671712006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4671712006",
+    "last_seen": "2026-10-05T22:07:49.023106+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Helix AI Engineer, Modeling",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4671712006"
+  },
+  "4672013006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4672013006",
+    "last_seen": "2026-09-23T22:05:13.525085+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-09",
+    "title": "Mechanical Engineer - Integration & Test",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4672013006"
+  },
+  "4674402006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4674402006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Reno, NV",
+    "posted_date": "2026-04-17",
+    "title": "Humanoid Robot Operator, Commercial Site Team (Reno)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4674402006"
+  },
+  "4674403006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4674403006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-17",
+    "title": "Deployment Engineer, Commercial Sites",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4674403006"
+  },
+  "4674754006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4674754006",
+    "last_seen": "2026-09-28T21:43:19.182125+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-20",
+    "title": "AI Training Infrastructure Engineer \u2013 Humanoid Whole Body Control",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4674754006"
+  },
+  "4676467006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4676467006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-04-25",
+    "title": "Electrical Engineering Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4676467006"
+  },
+  "4677955006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4677955006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-05-05",
+    "title": "Staging Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4677955006"
+  },
+  "4679601006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4679601006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-05-06",
+    "title": "Mechanical Engineer, Structures - Robot Hands",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4679601006"
+  },
+  "4680643006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4680643006",
+    "last_seen": "2026-09-21T21:57:32.478586+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-05-11",
+    "title": "Connector & Interconnect Design Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4680643006"
+  },
+  "4681405006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4681405006",
+    "last_seen": "2026-08-10T21:46:40.581058+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-05-13",
+    "title": "Robot Operations Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4681405006"
+  },
+  "4681835006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4681835006",
+    "last_seen": "2026-08-06T12:46:48.336908+00:00",
+    "location": "Reno, NV",
+    "posted_date": "2026-05-14",
+    "title": "Service Technician - Commercial Site Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4681835006"
+  },
+  "4681836006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4681836006",
+    "last_seen": "2026-08-11T15:05:08.079425+00:00",
+    "location": "Reno, NV",
+    "posted_date": "2026-05-14",
+    "title": "Site Lead - Commercial Site Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4681836006"
+  },
+  "4683845006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4683845006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "Fontana, California",
+    "posted_date": "2026-05-22",
+    "title": "Site Lead - Commercial Site Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4683845006"
+  },
+  "4683846006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4683846006",
+    "last_seen": "2026-09-15T20:59:51.631012+00:00",
+    "location": "Fontana, CA",
+    "posted_date": "2026-05-22",
+    "title": "Deployment Engineer - Commercial Site Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4683846006"
+  },
+  "4683847006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4683847006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Fontana, CA",
+    "posted_date": "2026-05-22",
+    "title": "Field Service Technician, Commercial Site Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4683847006"
+  },
+  "4685172006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4685172006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-05-28",
+    "title": "Helix AI Engineer, Backend",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4685172006"
+  },
+  "4685814006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4685814006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-01",
+    "title": "Mechanical Engineer - Hands (Compliant Elements)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4685814006"
+  },
+  "4688381006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4688381006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-10",
+    "title": "Electrical Engineer, Actuator Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4688381006"
+  },
+  "4690458006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4690458006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-18",
+    "title": "Gear Machinist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4690458006"
+  },
+  "4690870006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4690870006",
+    "last_seen": "2026-08-31T21:59:35.466359+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-21",
+    "title": "Security Engineer, Vulnerability Management and Automation",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4690870006"
+  },
+  "4690871006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4690871006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-21",
+    "title": "Software Engineer, Privacy & Data Governance",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4690871006"
+  },
+  "4691070006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4691070006",
+    "last_seen": "2026-09-22T22:30:25.065988+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-22",
+    "title": "Firmware Intern [Fall 2026]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4691070006"
+  },
+  "4691166006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4691166006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-22",
+    "title": "Finance Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4691166006"
+  },
+  "4692556006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4692556006",
+    "last_seen": "2026-10-01T12:39:04.948370+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-26",
+    "title": "Sr/Staff Graphics Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4692556006"
+  },
+  "4692559006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4692559006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-26",
+    "title": "Software Engineer, Manufacturing Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4692559006"
+  },
+  "4692572006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4692572006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-06-26",
+    "title": "Staff AI Inference and Acceleration Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4692572006"
+  },
+  "4694160006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4694160006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-02",
+    "title": "Mechanical Engineer, Arms",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4694160006"
+  },
+  "4694889006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4694889006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-06",
+    "title": "Special Projects Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4694889006"
+  },
+  "4696347006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696347006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-10",
+    "title": "Lead, Data Quality - Partnerships",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696347006"
+  },
+  "4696348006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696348006",
+    "last_seen": "2026-08-10T21:46:40.581058+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-10",
+    "title": "Project Coordinator, Data Creators",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696348006"
+  },
+  "4696349006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696349006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2026-07-10",
+    "title": "Project Coordinator, Data Creators",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696349006"
+  },
+  "4696350006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696350006",
+    "last_seen": "2026-10-02T01:22:28.381744+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-10",
+    "title": "Project Coordinator, Data Quality",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696350006"
+  },
+  "4696355006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696355006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-10",
+    "title": "Lead, Data Operations Global Expansion",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696355006"
+  },
+  "4696533006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696533006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-13",
+    "title": "Helix AI Engineer, Localization and Mapping",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696533006"
+  },
+  "4696722006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-07T19:21:56.542369+00:00",
+    "job_id": "4696722006",
+    "last_seen": "2026-08-19T19:55:44.725859+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-15",
+    "title": "Fleet Coordinator",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696722006"
+  },
+  "4696724006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4696724006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-14",
+    "title": "Deployment Engineer (Data Collection)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696724006"
+  },
+  "4697354006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4697354006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-15",
+    "title": "Global Supply Manager, Battery",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4697354006"
+  },
+  "4697402006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4697402006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-15",
+    "title": "Wire Harness Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4697402006"
+  },
+  "4697420006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4697420006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-15",
+    "title": "Data Collection Quality Support",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4697420006"
+  },
+  "4697431006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4697431006",
+    "last_seen": "2026-10-01T12:39:04.948370+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-15",
+    "title": "Ops Facilitator - Pilot Support Team",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4697431006"
+  },
+  "4697840006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4697840006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-17",
+    "title": "Senior Logistics and Trade Compliance Analyst",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4697840006"
+  },
+  "4698164006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4698164006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "United Arab Emirates",
+    "posted_date": "2026-07-17",
+    "title": "AI Data Operations Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4698164006"
+  },
+  "4698238006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4698238006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Los Angeles, CA",
+    "posted_date": "2026-07-20",
+    "title": "Humanoid Robot Operator, Commercial Site Team (LA)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4698238006"
+  },
+  "4698535006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4698535006",
+    "last_seen": "2026-09-03T20:05:35.501898+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-20",
+    "title": "Apprentice Robot Service Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4698535006"
+  },
+  "4698860006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4698860006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Asia",
+    "posted_date": "2026-07-21",
+    "title": "Firmware Integration Engineer, Asia",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4698860006"
+  },
+  "4699095006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4699095006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-22",
+    "title": "Helix AI Engineer, XR",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4699095006"
+  },
+  "4699237006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4699237006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-22",
+    "title": "Material Planning Manager, Electronics",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4699237006"
+  },
+  "4699238006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4699238006",
+    "last_seen": "2026-10-02T01:22:28.381744+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-22",
+    "title": "Demand Planner",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4699238006"
+  },
+  "4700616006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4700616006",
+    "last_seen": "2026-08-26T20:36:42.601391+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-07-28",
+    "title": "Helix AI Engineer, iOS",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4700616006"
+  },
+  "4700899006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4700899006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "Fontana, CA",
+    "posted_date": "2026-07-29",
+    "title": "Humanoid Robot Operator & Data Creator \u2014 Fontana, CA (Customer Site)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4700899006"
+  },
+  "4701747006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4701747006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "S\u00e3o Paulo, Brazil",
+    "posted_date": "2026-07-31",
+    "title": "Shift Coordinator, Data Creators (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4701747006"
+  },
+  "4701748006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4701748006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "S\u00e3o Paulo, Brazil",
+    "posted_date": "2026-07-31",
+    "title": "Technical Coordinator, Data Creators (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4701748006"
+  },
+  "4702104006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702104006",
+    "last_seen": "2026-09-22T22:30:25.065988+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-03",
+    "title": "Power Systems Integration Intern [Fall 2026]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702104006"
+  },
+  "4702369006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702369006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "Fontana, California",
+    "posted_date": "2026-08-04",
+    "title": "Site Lead (Night Shift)- Commercial Site Team (LA)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702369006"
+  },
+  "4702533006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702533006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": " S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-04",
+    "title": "Facilities Coordinator (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702533006"
+  },
+  "4702538006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702538006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": " S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-04",
+    "title": "IT Operations Specialist (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702538006"
+  },
+  "4702540006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702540006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": " S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-04",
+    "title": "People Lead (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702540006"
+  },
+  "4702541006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702541006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": " S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-04",
+    "title": "Operations & Logistics Coordinator (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702541006"
+  },
+  "4702544006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702544006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Ciudad de M\u00e9xico",
+    "posted_date": "2026-08-04",
+    "title": "Project Lead, Data Creators (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702544006"
+  },
+  "4702551006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702551006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Mexico City",
+    "posted_date": "2026-08-04",
+    "title": "Technical Coordinator, Data Creators (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702551006"
+  },
+  "4702553006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702553006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-08-04",
+    "title": "Facilities Coordinator (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702553006"
+  },
+  "4702555006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702555006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Mexico City, MX",
+    "posted_date": "2026-08-04",
+    "title": "People Lead (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702555006"
+  },
+  "4702556006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702556006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "Mexico City, CDMX",
+    "posted_date": "2026-08-04",
+    "title": "Operations & Logistics Coordinator (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702556006"
+  },
+  "4702689006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-05T15:45:37.979796+00:00",
+    "job_id": "4702689006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-05",
+    "title": "Logistics & Dispatch Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702689006"
+  },
+  "4702863006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-06T00:31:05.571377+00:00",
+    "job_id": "4702863006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Mexico City",
+    "posted_date": "2026-08-05",
+    "title": "IT Operations Specialist (CDMX)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4702863006"
+  },
+  "4703943006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-11T00:10:57.411083+00:00",
+    "job_id": "4703943006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-10",
+    "title": "User Support Lead",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4703943006"
+  },
+  "4703944006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-11T00:10:57.411083+00:00",
+    "job_id": "4703944006",
+    "last_seen": "2026-09-01T19:11:42.492296+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-10",
+    "title": "Test Development Engineer \u2014 Actuation Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4703944006"
+  },
+  "4705296006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-14T15:11:17.976254+00:00",
+    "job_id": "4705296006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-14",
+    "title": "Helix AI Engineer, Training Performance",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4705296006"
+  },
+  "4705464006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-14T18:33:55.387192+00:00",
+    "job_id": "4705464006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-14",
+    "title": "Finance Manager (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4705464006"
+  },
+  "4705588006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-18T00:38:08.190375+00:00",
+    "job_id": "4705588006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-17",
+    "title": "Senior Gear Design Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4705588006"
+  },
+  "4706280006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-18T20:51:50.645382+00:00",
+    "job_id": "4706280006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-18",
+    "title": "State Estimation Engineer, Data Collection Systems",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4706280006"
+  },
+  "4706787006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-20T20:30:58.309645+00:00",
+    "job_id": "4706787006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-20",
+    "title": "Warehouse Manager, Commercial Operations",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4706787006"
+  },
+  "4707189006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-21T16:28:35.214883+00:00",
+    "job_id": "4707189006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-21",
+    "title": "Technical Program Manager, Security & Privacy",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4707189006"
+  },
+  "4708450006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-26T20:36:42.601391+00:00",
+    "job_id": "4708450006",
+    "last_seen": "2026-10-06T00:19:16.308833+00:00",
+    "location": "S\u00e3o Paulo, SP, Brasil",
+    "posted_date": "2026-08-25",
+    "title": "Helix Data Creator (SP)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4708450006"
+  },
+  "4708750006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-27T20:25:47.366067+00:00",
+    "job_id": "4708750006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-26",
+    "title": "Senior People Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4708750006"
+  },
+  "4708751006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-27T20:25:47.366067+00:00",
+    "job_id": "4708751006",
+    "last_seen": "2026-08-27T20:25:47.366067+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-26",
+    "title": "People Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4708751006"
+  },
+  "4709290006": {
+    "company": "Figure AI",
+    "first_seen": "2026-08-30T20:01:12.269324+00:00",
+    "job_id": "4709290006",
+    "last_seen": "2026-09-08T14:27:20.594237+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-08-28",
+    "title": "NPI Buyer/Planner",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4709290006"
+  },
+  "4710235006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-01T19:11:42.492296+00:00",
+    "job_id": "4710235006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-01",
+    "title": "Material Handler, Commercial Operations",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4710235006"
+  },
+  "4710288006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-02T18:35:30.613276+00:00",
+    "job_id": "4710288006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-01",
+    "title": "IT Client Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4710288006"
+  },
+  "4711258006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-08T14:27:20.594237+00:00",
+    "job_id": "4711258006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-04",
+    "title": "Senior Engineering Technician",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4711258006"
+  },
+  "4713838006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-16T20:41:22.347133+00:00",
+    "job_id": "4713838006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-16",
+    "title": "Software Engineer, Service & Operations",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4713838006"
+  },
+  "4714381006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-18T19:50:02.556423+00:00",
+    "job_id": "4714381006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-17",
+    "title": "Security Engineer - Infrastructure Security",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4714381006"
+  },
+  "4714390006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-18T19:50:02.556423+00:00",
+    "job_id": "4714390006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-17",
+    "title": "Security Engineer, Enterprise Security",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4714390006"
+  },
+  "4716299006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-24T23:48:35.759073+00:00",
+    "job_id": "4716299006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-24",
+    "title": "IT Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4716299006"
+  },
+  "4717229006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-28T21:43:19.182125+00:00",
+    "job_id": "4717229006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-28",
+    "title": "Production Lead",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4717229006"
+  },
+  "4717486006": {
+    "company": "Figure AI",
+    "first_seen": "2026-09-29T20:21:46.276088+00:00",
+    "job_id": "4717486006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-29",
+    "title": "AV Operations Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4717486006"
+  },
+  "4717759006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-01T12:39:04.948370+00:00",
+    "job_id": "4717759006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-09-29",
+    "title": "Data Operations Coordinator (Night Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4717759006"
+  },
+  "4718506006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-02T01:22:28.381744+00:00",
+    "job_id": "4718506006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-01",
+    "title": "PCB Layout Designer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4718506006"
+  },
+  "4718858006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-04T23:02:34.338059+00:00",
+    "job_id": "4718858006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-02",
+    "title": "Supply Chain Analytics Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4718858006"
+  },
+  "4719235006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-05T22:07:49.023106+00:00",
+    "job_id": "4719235006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-05",
+    "title": "Grid Operations Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4719235006"
+  },
+  "4719239006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-05T22:07:49.023106+00:00",
+    "job_id": "4719239006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-05",
+    "title": "Commercial Operations Associate",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4719239006"
+  },
+  "4719591006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-06T22:56:12.517691+00:00",
+    "job_id": "4719591006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-06",
+    "title": "Commercial Operations Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4719591006"
+  },
+  "4719593006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-07T21:53:49.470190+00:00",
+    "job_id": "4719593006",
+    "last_seen": "2026-10-12T02:09:41.771157+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-06",
+    "title": "Security Engineer Intern [Winter 2027]",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4719593006"
+  },
+  "4719958006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-07T21:53:49.470190+00:00",
+    "job_id": "4719958006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-07",
+    "title": "Commercial Technician (Night Shift)",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4719958006"
+  },
+  "4720359006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-08T23:27:42.918305+00:00",
+    "job_id": "4720359006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "Brazil, CDMX",
+    "posted_date": "2026-10-08",
+    "title": "Accounts Payable Specialist",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4720359006"
+  },
+  "4720671006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-12T02:09:41.771157+00:00",
+    "job_id": "4720671006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-09",
+    "title": "Inventory Accounting Manager",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4720671006"
+  },
+  "4720675006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-12T02:09:41.771157+00:00",
+    "job_id": "4720675006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-09",
+    "title": "Security Engineer, Detection and Response",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4720675006"
+  },
+  "4721113006": {
+    "company": "Figure AI",
+    "first_seen": "2026-10-12T23:10:04.895813+00:00",
+    "job_id": "4721113006",
+    "last_seen": "2026-10-13T21:21:39.019316+00:00",
+    "location": "San Jose, CA",
+    "posted_date": "2026-10-12",
+    "title": "Deployment Engineering Intern",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4721113006"
+  }
+}

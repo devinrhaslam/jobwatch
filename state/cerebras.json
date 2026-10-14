@@ -1,0 +1,1812 @@
+{
+  "024f1401-76cc-43fa-9338-cc3262a793d3": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "024f1401-76cc-43fa-9338-cc3262a793d3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-02-17",
+    "title": "System Software Engineer (Embedded)",
+    "url": "https://jobs.ashbyhq.com/cerebras/024f1401-76cc-43fa-9338-cc3262a793d3"
+  },
+  "0322249e-e2d4-4e0a-9133-6f173000173a": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "0322249e-e2d4-4e0a-9133-6f173000173a",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-01",
+    "title": "Manufacturing Linux Network Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/0322249e-e2d4-4e0a-9133-6f173000173a"
+  },
+  "0471b24c-013d-4e9c-a1dd-b11beadb95c7": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "0471b24c-013d-4e9c-a1dd-b11beadb95c7",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-02-17",
+    "title": "ML Software Tool Development Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/0471b24c-013d-4e9c-a1dd-b11beadb95c7"
+  },
+  "05bfe83a-64d8-4080-b6e5-81bb9e64b731": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "05bfe83a-64d8-4080-b6e5-81bb9e64b731",
+    "last_seen": "2026-08-26T00:14:29.033139+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-03-23",
+    "title": "Senior Hardware Technical Program Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/05bfe83a-64d8-4080-b6e5-81bb9e64b731"
+  },
+  "07120606-8ddb-43bd-8e79-453573c84760": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "07120606-8ddb-43bd-8e79-453573c84760",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-16",
+    "title": "Infrastructure Engineer (Data Center Operations)",
+    "url": "https://jobs.ashbyhq.com/cerebras/07120606-8ddb-43bd-8e79-453573c84760"
+  },
+  "084b4552-7d3a-491b-87ff-92e195aa2ef2": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "084b4552-7d3a-491b-87ff-92e195aa2ef2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-07-20",
+    "title": "Release Qualification Team Lead",
+    "url": "https://jobs.ashbyhq.com/cerebras/084b4552-7d3a-491b-87ff-92e195aa2ef2"
+  },
+  "088ab192-e04a-4819-8152-0d0f8c015299": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "088ab192-e04a-4819-8152-0d0f8c015299",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2025-10-29",
+    "title": "Principal Engineer, AI Inference Reliability",
+    "url": "https://jobs.ashbyhq.com/cerebras/088ab192-e04a-4819-8152-0d0f8c015299"
+  },
+  "08ffd14b-cb60-4916-9946-735e49594308": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "08ffd14b-cb60-4916-9946-735e49594308",
+    "last_seen": "2026-08-26T20:35:43.162476+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-27",
+    "title": "AI Inference Core - Junior SDET, Release Integration Testing",
+    "url": "https://jobs.ashbyhq.com/cerebras/08ffd14b-cb60-4916-9946-735e49594308"
+  },
+  "099d8b10-9bf1-4287-88ab-f9a3274f45e1": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "099d8b10-9bf1-4287-88ab-f9a3274f45e1",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-15",
+    "title": "Physical Security Lead, Manufacturing Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/099d8b10-9bf1-4287-88ab-f9a3274f45e1"
+  },
+  "0bdb4924-1e51-4139-a4e4-1e315f3a8eb4": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-12T02:08:36.816127+00:00",
+    "job_id": "0bdb4924-1e51-4139-a4e4-1e315f3a8eb4",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-10-09",
+    "title": "Senior Manager, Production & Fleet Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/0bdb4924-1e51-4139-a4e4-1e315f3a8eb4"
+  },
+  "0fbdfff1-78cc-4fac-b99a-a90b5f244cc2": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "0fbdfff1-78cc-4fac-b99a-a90b5f244cc2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-03-24",
+    "title": "Senior Manager - Cluster Security",
+    "url": "https://jobs.ashbyhq.com/cerebras/0fbdfff1-78cc-4fac-b99a-a90b5f244cc2"
+  },
+  "13eec2f8-b308-40b4-8194-f3c133ccb3bc": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "13eec2f8-b308-40b4-8194-f3c133ccb3bc",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-01-08",
+    "title": "Engineering Manager, Kernel Reliability",
+    "url": "https://jobs.ashbyhq.com/cerebras/13eec2f8-b308-40b4-8194-f3c133ccb3bc"
+  },
+  "148d2fe4-72f6-4170-8955-f93124aa7314": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "148d2fe4-72f6-4170-8955-f93124aa7314",
+    "last_seen": "2026-09-01T19:10:26.918644+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-20",
+    "title": "Director of Capacity Planning & Delivery",
+    "url": "https://jobs.ashbyhq.com/cerebras/148d2fe4-72f6-4170-8955-f93124aa7314"
+  },
+  "156913ad-fcce-4551-b422-b5df5a9310fe": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "156913ad-fcce-4551-b422-b5df5a9310fe",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote",
+    "posted_date": "2026-07-25",
+    "title": "Director, Intellectual Property Counsel",
+    "url": "https://jobs.ashbyhq.com/cerebras/156913ad-fcce-4551-b422-b5df5a9310fe"
+  },
+  "156a5e00-bfc3-4a16-b7a0-57a1c3b6ac8d": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-21T18:42:46.233671+00:00",
+    "job_id": "156a5e00-bfc3-4a16-b7a0-57a1c3b6ac8d",
+    "last_seen": "2026-09-17T20:47:17.124819+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-21",
+    "title": "Sr. Operations Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/156a5e00-bfc3-4a16-b7a0-57a1c3b6ac8d"
+  },
+  "17a6a5e1-a2a7-4f77-8ff5-38884736838e": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-22T22:28:59.916855+00:00",
+    "job_id": "17a6a5e1-a2a7-4f77-8ff5-38884736838e",
+    "last_seen": "2026-09-22T22:28:59.916855+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2026-09-21",
+    "title": "Staff Software Engineer, Inference API",
+    "url": "https://jobs.ashbyhq.com/cerebras/17a6a5e1-a2a7-4f77-8ff5-38884736838e"
+  },
+  "18d0a40f-69dd-4bf2-9ec3-860f7c26ed71": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-01T12:38:10.415705+00:00",
+    "job_id": "18d0a40f-69dd-4bf2-9ec3-860f7c26ed71",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-09-29",
+    "title": "Managing Counsel,  Data Center & Infrastructure",
+    "url": "https://jobs.ashbyhq.com/cerebras/18d0a40f-69dd-4bf2-9ec3-860f7c26ed71"
+  },
+  "192602ef-6198-41bd-8b1f-5e6b5b9bd924": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "192602ef-6198-41bd-8b1f-5e6b5b9bd924",
+    "last_seen": "2026-09-02T20:49:39.059416+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-07-14",
+    "title": "ML Systems Integration Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/192602ef-6198-41bd-8b1f-5e6b5b9bd924"
+  },
+  "1bf0ea92-b0fd-4163-b44c-3564e67b15c1": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "1bf0ea92-b0fd-4163-b44c-3564e67b15c1",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-06",
+    "title": "Principal SRE - AI Inference",
+    "url": "https://jobs.ashbyhq.com/cerebras/1bf0ea92-b0fd-4163-b44c-3564e67b15c1"
+  },
+  "1c63f451-b4d1-44e4-a31a-8c0cd3045222": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "1c63f451-b4d1-44e4-a31a-8c0cd3045222",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2025-10-06",
+    "title": "Manager kernel software",
+    "url": "https://jobs.ashbyhq.com/cerebras/1c63f451-b4d1-44e4-a31a-8c0cd3045222"
+  },
+  "1c8cdbc4-bd74-46df-9645-bb910eaa7a37": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "1c8cdbc4-bd74-46df-9645-bb910eaa7a37",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2025-11-25",
+    "title": "Software Engineer, GPU Inference",
+    "url": "https://jobs.ashbyhq.com/cerebras/1c8cdbc4-bd74-46df-9645-bb910eaa7a37"
+  },
+  "1e1e6848-b35e-465e-96b3-3cd5538cc1f1": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "1e1e6848-b35e-465e-96b3-3cd5538cc1f1",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-03",
+    "title": "Director / Senior Director, Critical Facility Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/1e1e6848-b35e-465e-96b3-3cd5538cc1f1"
+  },
+  "1fd0045d-8469-4dc6-ab13-d4fd0bf26f8b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "1fd0045d-8469-4dc6-ab13-d4fd0bf26f8b",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-02-23",
+    "title": "Kernel Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/1fd0045d-8469-4dc6-ab13-d4fd0bf26f8b"
+  },
+  "20010f8f-5ede-469a-b432-c38dc223e11c": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "20010f8f-5ede-469a-b432-c38dc223e11c",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-23",
+    "title": "Manufacturing Automation Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/20010f8f-5ede-469a-b432-c38dc223e11c"
+  },
+  "20dab4de-51f4-4704-8b72-5896b83ac37b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "20dab4de-51f4-4704-8b72-5896b83ac37b",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-08",
+    "title": "Sr. Member of Technical Staff",
+    "url": "https://jobs.ashbyhq.com/cerebras/20dab4de-51f4-4704-8b72-5896b83ac37b"
+  },
+  "22332143-b54d-47f2-944e-2fc52d5446df": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "22332143-b54d-47f2-944e-2fc52d5446df",
+    "last_seen": "2026-09-08T14:25:42.509630+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-28",
+    "title": "Hardware Analytics Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/22332143-b54d-47f2-944e-2fc52d5446df"
+  },
+  "224566db-c2c9-4b81-9534-a9917ea1aaa6": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "224566db-c2c9-4b81-9534-a9917ea1aaa6",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-07-02",
+    "title": "Cloud Quality Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/224566db-c2c9-4b81-9534-a9917ea1aaa6"
+  },
+  "2484eb99-2bbf-45df-a3c5-bdd337584726": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "2484eb99-2bbf-45df-a3c5-bdd337584726",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-09-29",
+    "title": "Principal Engineer, Inference Cloud",
+    "url": "https://jobs.ashbyhq.com/cerebras/2484eb99-2bbf-45df-a3c5-bdd337584726"
+  },
+  "24e42002-7f6d-4769-9ce0-0d844757cc0e": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "24e42002-7f6d-4769-9ce0-0d844757cc0e",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-08",
+    "title": "Member of Technical Staff (Software Engineer)",
+    "url": "https://jobs.ashbyhq.com/cerebras/24e42002-7f6d-4769-9ce0-0d844757cc0e"
+  },
+  "270407eb-1452-4a36-8f8c-7d64263eaa0a": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "270407eb-1452-4a36-8f8c-7d64263eaa0a",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Remote",
+    "posted_date": "2026-02-05",
+    "title": "Staff Kernel Optimzation Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/270407eb-1452-4a36-8f8c-7d64263eaa0a"
+  },
+  "2a133db0-a8bf-4945-8320-e5aff8d333cc": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "2a133db0-a8bf-4945-8320-e5aff8d333cc",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-04-09",
+    "title": "IT SRE Team Lead",
+    "url": "https://jobs.ashbyhq.com/cerebras/2a133db0-a8bf-4945-8320-e5aff8d333cc"
+  },
+  "2b22599f-b1ee-46ef-8684-1475bc49bac0": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "2b22599f-b1ee-46ef-8684-1475bc49bac0",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-08-25",
+    "title": "Cloud Infrastructure Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/2b22599f-b1ee-46ef-8684-1475bc49bac0"
+  },
+  "2c786281-e51c-4d2d-a760-2ef907d81760": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "2c786281-e51c-4d2d-a760-2ef907d81760",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-21",
+    "title": "Director, Strategic Finance - Corporate FP&A",
+    "url": "https://jobs.ashbyhq.com/cerebras/2c786281-e51c-4d2d-a760-2ef907d81760"
+  },
+  "2e8dc5fb-ffe2-44d7-ad37-6fb2f1a88351": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-15T20:58:50.187944+00:00",
+    "job_id": "2e8dc5fb-ffe2-44d7-ad37-6fb2f1a88351",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-15",
+    "title": "Senior Fullstack Engineer - Inference Console",
+    "url": "https://jobs.ashbyhq.com/cerebras/2e8dc5fb-ffe2-44d7-ad37-6fb2f1a88351"
+  },
+  "31def8de-acc5-4db3-9020-1fdfa8e783da": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "31def8de-acc5-4db3-9020-1fdfa8e783da",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-29",
+    "title": "Systems Debug Engineer- EE",
+    "url": "https://jobs.ashbyhq.com/cerebras/31def8de-acc5-4db3-9020-1fdfa8e783da"
+  },
+  "39c1aea3-d6df-4661-872d-082ba11df5fc": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-08T14:25:42.509630+00:00",
+    "job_id": "39c1aea3-d6df-4661-872d-082ba11df5fc",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-08",
+    "title": "Network Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/39c1aea3-d6df-4661-872d-082ba11df5fc"
+  },
+  "3a943706-87b4-4a0f-b1ac-70d1ff3d00e2": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-21T21:56:40.229621+00:00",
+    "job_id": "3a943706-87b4-4a0f-b1ac-70d1ff3d00e2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN, Remote (US), Sunnyvale, CA",
+    "posted_date": "2026-09-21",
+    "title": "AI Datacenter Infra engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/3a943706-87b4-4a0f-b1ac-70d1ff3d00e2"
+  },
+  "3b875977-293c-4277-bd04-55f34273c443": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-18T19:49:03.241417+00:00",
+    "job_id": "3b875977-293c-4277-bd04-55f34273c443",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-18",
+    "title": "Network Systems Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/3b875977-293c-4277-bd04-55f34273c443"
+  },
+  "3c456e76-308b-4a6b-8e9a-01def6383d28": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "3c456e76-308b-4a6b-8e9a-01def6383d28",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2025-10-03",
+    "title": "Staff Site Reliability Engineer \u2013 Automation and Platform",
+    "url": "https://jobs.ashbyhq.com/cerebras/3c456e76-308b-4a6b-8e9a-01def6383d28"
+  },
+  "3cf1e214-487e-4d11-9feb-0d6ef3185251": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-17T20:47:17.124819+00:00",
+    "job_id": "3cf1e214-487e-4d11-9feb-0d6ef3185251",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-17",
+    "title": "Staff Systems Technical Program Manager\u202f (Hardware)",
+    "url": "https://jobs.ashbyhq.com/cerebras/3cf1e214-487e-4d11-9feb-0d6ef3185251"
+  },
+  "3e85f230-6fe2-440f-8f31-c8419a295068": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "3e85f230-6fe2-440f-8f31-c8419a295068",
+    "last_seen": "2026-09-29T20:20:43.487911+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-03",
+    "title": "Power Engineering Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/3e85f230-6fe2-440f-8f31-c8419a295068"
+  },
+  "3eeb99eb-0998-4fa3-91f6-adae42ea58c3": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "3eeb99eb-0998-4fa3-91f6-adae42ea58c3",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-02-24",
+    "title": "Senior Product Marketing Manager, AI Inference",
+    "url": "https://jobs.ashbyhq.com/cerebras/3eeb99eb-0998-4fa3-91f6-adae42ea58c3"
+  },
+  "3f85f614-264f-4987-9fb5-320ee2798e97": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-07T00:40:33.011623+00:00",
+    "job_id": "3f85f614-264f-4987-9fb5-320ee2798e97",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-08-06",
+    "title": "FPGA Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/3f85f614-264f-4987-9fb5-320ee2798e97"
+  },
+  "3fb6d1f7-a45c-4827-87ac-e0f7944b6350": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "3fb6d1f7-a45c-4827-87ac-e0f7944b6350",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-23",
+    "title": "Director/Sr. Manager, AI Inference Model Scaling",
+    "url": "https://jobs.ashbyhq.com/cerebras/3fb6d1f7-a45c-4827-87ac-e0f7944b6350"
+  },
+  "40e0d3ee-8f0a-4b19-9bf9-79410b1c7735": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "40e0d3ee-8f0a-4b19-9bf9-79410b1c7735",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2026-05-11",
+    "title": "DevOps Engineer - New Grad 2026",
+    "url": "https://jobs.ashbyhq.com/cerebras/40e0d3ee-8f0a-4b19-9bf9-79410b1c7735"
+  },
+  "4101a058-b42a-4ef0-9b8c-163c0d273509": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "4101a058-b42a-4ef0-9b8c-163c0d273509",
+    "last_seen": "2026-08-27T20:24:12.482119+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-04-30",
+    "title": "Senior Quality Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/4101a058-b42a-4ef0-9b8c-163c0d273509"
+  },
+  "4197a749-fd21-4420-8d01-1df94c96310b": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "4197a749-fd21-4420-8d01-1df94c96310b",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-03",
+    "title": "Lead Systems Signal Integrity/Power Integrity Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/4197a749-fd21-4420-8d01-1df94c96310b"
+  },
+  "4281cf23-78d7-4b41-9627-a134a9475826": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-01T12:38:10.415705+00:00",
+    "job_id": "4281cf23-78d7-4b41-9627-a134a9475826",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-30",
+    "title": "Senior Product, Test and Yield Enhancement Engineer - Taiwan",
+    "url": "https://jobs.ashbyhq.com/cerebras/4281cf23-78d7-4b41-9627-a134a9475826"
+  },
+  "453a7940-ba08-4656-b9a7-eb3d3fd28db2": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-19T19:54:44.154924+00:00",
+    "job_id": "453a7940-ba08-4656-b9a7-eb3d3fd28db2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-08-19",
+    "title": "Head of SOX Internal Audit",
+    "url": "https://jobs.ashbyhq.com/cerebras/453a7940-ba08-4656-b9a7-eb3d3fd28db2"
+  },
+  "45dec7be-c0c1-40fe-a88d-d13db4f44e42": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "45dec7be-c0c1-40fe-a88d-d13db4f44e42",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-04",
+    "title": "Design Verification Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/45dec7be-c0c1-40fe-a88d-d13db4f44e42"
+  },
+  "465e7d06-93c1-49e5-a2c9-7088d1bcda0a": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "465e7d06-93c1-49e5-a2c9-7088d1bcda0a",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote",
+    "posted_date": "2026-07-20",
+    "title": "Deployment Manager \u2013 Global Data Center Build and Deploy",
+    "url": "https://jobs.ashbyhq.com/cerebras/465e7d06-93c1-49e5-a2c9-7088d1bcda0a"
+  },
+  "474768a4-7e4f-43c9-a9d3-f23dfe6be406": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "474768a4-7e4f-43c9-a9d3-f23dfe6be406",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-06-16",
+    "title": "ML Systems Performance Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/474768a4-7e4f-43c9-a9d3-f23dfe6be406"
+  },
+  "4a7be83c-5d32-46b7-9d30-cf6759922237": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-24T23:47:43.947609+00:00",
+    "job_id": "4a7be83c-5d32-46b7-9d30-cf6759922237",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-10-07",
+    "title": "Senior ASIC RTL Design Engineer, AI Hardware",
+    "url": "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237"
+  },
+  "4a9ff42b-c834-4445-ba47-2f90d74d83a5": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "4a9ff42b-c834-4445-ba47-2f90d74d83a5",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-05-28",
+    "title": "Security & IT General Opportunities",
+    "url": "https://jobs.ashbyhq.com/cerebras/4a9ff42b-c834-4445-ba47-2f90d74d83a5"
+  },
+  "4af81ff3-6f27-4d29-a811-85ccff5585fb": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-29T20:20:43.487911+00:00",
+    "job_id": "4af81ff3-6f27-4d29-a811-85ccff5585fb",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-29",
+    "title": "Staff Software Engineer - Observability",
+    "url": "https://jobs.ashbyhq.com/cerebras/4af81ff3-6f27-4d29-a811-85ccff5585fb"
+  },
+  "4b52a6d0-93ba-498c-883c-35118cb5b5db": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "4b52a6d0-93ba-498c-883c-35118cb5b5db",
+    "last_seen": "2026-09-01T19:10:26.918644+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-08-07",
+    "title": "Senior/Staff Engineer : Post Silicon- Bring Up",
+    "url": "https://jobs.ashbyhq.com/cerebras/4b52a6d0-93ba-498c-883c-35118cb5b5db"
+  },
+  "4dd7ad78-80c1-4826-ac4c-8f0371773281": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "4dd7ad78-80c1-4826-ac4c-8f0371773281",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-02-19",
+    "title": "Senior Staff Electrical Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/4dd7ad78-80c1-4826-ac4c-8f0371773281"
+  },
+  "4e706d0d-65a6-4a36-9ff3-b9e9da16a618": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "4e706d0d-65a6-4a36-9ff3-b9e9da16a618",
+    "last_seen": "2026-08-18T22:42:13.913882+00:00",
+    "location": "US and Canada Offices",
+    "posted_date": "2026-06-23",
+    "title": "Hardware / Low Level Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/4e706d0d-65a6-4a36-9ff3-b9e9da16a618"
+  },
+  "50e42a6b-89b3-49e9-b907-624447e40d82": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "50e42a6b-89b3-49e9-b907-624447e40d82",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-04-13",
+    "title": "Senior Performance Engineer, Inference",
+    "url": "https://jobs.ashbyhq.com/cerebras/50e42a6b-89b3-49e9-b907-624447e40d82"
+  },
+  "522004b6-8ac2-445c-969f-d33035fef794": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-19T19:54:44.154924+00:00",
+    "job_id": "522004b6-8ac2-445c-969f-d33035fef794",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-19",
+    "title": "Accounting Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/522004b6-8ac2-445c-969f-d33035fef794"
+  },
+  "5301a7ac-75fc-47ed-9194-a0e887ba6531": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "5301a7ac-75fc-47ed-9194-a0e887ba6531",
+    "last_seen": "2026-08-15T21:46:11.122198+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-05-26",
+    "title": "Software Architect \u2013 Manufacturing Test",
+    "url": "https://jobs.ashbyhq.com/cerebras/5301a7ac-75fc-47ed-9194-a0e887ba6531"
+  },
+  "538ef11a-dfaa-47f1-8557-790199a769d1": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "538ef11a-dfaa-47f1-8557-790199a769d1",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-01-15",
+    "title": "Senior Product Manager, AI Models",
+    "url": "https://jobs.ashbyhq.com/cerebras/538ef11a-dfaa-47f1-8557-790199a769d1"
+  },
+  "5598658c-8e8d-47d0-9973-18b379ddeec9": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "5598658c-8e8d-47d0-9973-18b379ddeec9",
+    "last_seen": "2026-09-27T15:39:58.458225+00:00",
+    "location": "Sunnyvale, CA, Remote",
+    "posted_date": "2026-09-17",
+    "title": "Director, Data Center Counsel",
+    "url": "https://jobs.ashbyhq.com/cerebras/5598658c-8e8d-47d0-9973-18b379ddeec9"
+  },
+  "571c222a-6d87-45b3-a424-2ab12011b024": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "571c222a-6d87-45b3-a424-2ab12011b024",
+    "last_seen": "2026-08-30T19:59:08.501971+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-31",
+    "title": "Datacenter Electrical Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/571c222a-6d87-45b3-a424-2ab12011b024"
+  },
+  "58cebd9f-5a5c-4435-843a-aca160d66a32": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "58cebd9f-5a5c-4435-843a-aca160d66a32",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-12-12",
+    "title": "Principal ML Investigator",
+    "url": "https://jobs.ashbyhq.com/cerebras/58cebd9f-5a5c-4435-843a-aca160d66a32"
+  },
+  "594d7525-be2b-4407-8649-6e4a8cd302e8": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "594d7525-be2b-4407-8649-6e4a8cd302e8",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "UAE ",
+    "posted_date": "2026-01-14",
+    "title": "Applied AI/ML Scientist",
+    "url": "https://jobs.ashbyhq.com/cerebras/594d7525-be2b-4407-8649-6e4a8cd302e8"
+  },
+  "5985b733-1290-4603-8e66-f91c677e99ee": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "5985b733-1290-4603-8e66-f91c677e99ee",
+    "last_seen": "2026-09-23T22:04:26.690168+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-04-21",
+    "title": "AI Silicon Physical Design Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/5985b733-1290-4603-8e66-f91c677e99ee"
+  },
+  "5ddcef34-82e8-4e20-9938-47aa49e6418d": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-02T18:34:22.410013+00:00",
+    "job_id": "5ddcef34-82e8-4e20-9938-47aa49e6418d",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-30",
+    "title": "AI and Automation Engineer - Business Systems",
+    "url": "https://jobs.ashbyhq.com/cerebras/5ddcef34-82e8-4e20-9938-47aa49e6418d"
+  },
+  "5ec9197f-2534-414b-88f6-9d13563c8157": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-26T20:35:43.162476+00:00",
+    "job_id": "5ec9197f-2534-414b-88f6-9d13563c8157",
+    "last_seen": "2026-09-10T20:50:29.202393+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-26",
+    "title": "Technical Program Manager, Manufacturing Test",
+    "url": "https://jobs.ashbyhq.com/cerebras/5ec9197f-2534-414b-88f6-9d13563c8157"
+  },
+  "5f0910ab-d750-4dd4-af43-21446237b45c": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "5f0910ab-d750-4dd4-af43-21446237b45c",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2024-07-12",
+    "title": "Staff Software Engineer, Inference Cloud",
+    "url": "https://jobs.ashbyhq.com/cerebras/5f0910ab-d750-4dd4-af43-21446237b45c"
+  },
+  "61a88eea-bd78-471c-8088-1ac96f22c88d": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "61a88eea-bd78-471c-8088-1ac96f22c88d",
+    "last_seen": "2026-08-26T00:14:29.033139+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-06-10",
+    "title": "Lead Full Stack Machine Learning Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/61a88eea-bd78-471c-8088-1ac96f22c88d"
+  },
+  "61cb76d6-0e5f-43d1-ad2e-a282a84e0d21": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-24T23:47:43.947609+00:00",
+    "job_id": "61cb76d6-0e5f-43d1-ad2e-a282a84e0d21",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-24",
+    "title": "ERP Engineer - Business Systems",
+    "url": "https://jobs.ashbyhq.com/cerebras/61cb76d6-0e5f-43d1-ad2e-a282a84e0d21"
+  },
+  "62b9ff34-0fcb-414d-ba1f-cf05edd4b164": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "62b9ff34-0fcb-414d-ba1f-cf05edd4b164",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-29",
+    "title": "Regional Data Center Manager - Finland",
+    "url": "https://jobs.ashbyhq.com/cerebras/62b9ff34-0fcb-414d-ba1f-cf05edd4b164"
+  },
+  "63b9c135-ce5d-4898-8e4d-9422d39e4ca6": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "63b9c135-ce5d-4898-8e4d-9422d39e4ca6",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-23",
+    "title": "Software Engineer, Cluster Deployment",
+    "url": "https://jobs.ashbyhq.com/cerebras/63b9c135-ce5d-4898-8e4d-9422d39e4ca6"
+  },
+  "671c1185-757b-4863-9547-be2b4040e4ef": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-12T18:12:27.244742+00:00",
+    "job_id": "671c1185-757b-4863-9547-be2b4040e4ef",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-11",
+    "title": "Senior Operations Accountant",
+    "url": "https://jobs.ashbyhq.com/cerebras/671c1185-757b-4863-9547-be2b4040e4ef"
+  },
+  "6864fdd6-6848-40b8-b9e5-aea11db86b8b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "6864fdd6-6848-40b8-b9e5-aea11db86b8b",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-07-23",
+    "title": "Senior Front End Design Engineer (Microarchitecture) - Sunnyvale HQ",
+    "url": "https://jobs.ashbyhq.com/cerebras/6864fdd6-6848-40b8-b9e5-aea11db86b8b"
+  },
+  "691225e6-aff8-4371-968d-5aa0b5d8637b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "691225e6-aff8-4371-968d-5aa0b5d8637b",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote, Toronto, CAN",
+    "posted_date": "2026-06-29",
+    "title": "Sr./Staff TPM - Inference Capacity",
+    "url": "https://jobs.ashbyhq.com/cerebras/691225e6-aff8-4371-968d-5aa0b5d8637b"
+  },
+  "6a5f5797-64c0-42d7-a4db-7d2d5b7de2fe": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-01T12:38:10.415705+00:00",
+    "job_id": "6a5f5797-64c0-42d7-a4db-7d2d5b7de2fe",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-09-29",
+    "title": "Senior Counsel, Data Center & Infrastructure",
+    "url": "https://jobs.ashbyhq.com/cerebras/6a5f5797-64c0-42d7-a4db-7d2d5b7de2fe"
+  },
+  "6b089477-8f01-481a-9425-b30363666d4d": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "6b089477-8f01-481a-9425-b30363666d4d",
+    "last_seen": "2026-08-27T20:24:12.482119+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-11-25",
+    "title": "Design Verification Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/6b089477-8f01-481a-9425-b30363666d4d"
+  },
+  "6b3651e3-40ac-44ec-b427-68c78a3a7b5d": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "6b3651e3-40ac-44ec-b427-68c78a3a7b5d",
+    "last_seen": "2026-08-18T00:37:00.369411+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-04-13",
+    "title": "Manager - Data Center Asset tracking and Accounting",
+    "url": "https://jobs.ashbyhq.com/cerebras/6b3651e3-40ac-44ec-b427-68c78a3a7b5d"
+  },
+  "6c6a842b-0061-4424-ad90-12a926acb30f": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "6c6a842b-0061-4424-ad90-12a926acb30f",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-07-14",
+    "title": "CoDesign & NextGen Performance Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/6c6a842b-0061-4424-ad90-12a926acb30f"
+  },
+  "6d966c0a-d587-4a16-bf57-cfb4b4eb7eef": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "6d966c0a-d587-4a16-bf57-cfb4b4eb7eef",
+    "last_seen": "2026-09-25T19:34:43.021064+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-02-16",
+    "title": "Senior Engineer: Post Silicon - Bring Up",
+    "url": "https://jobs.ashbyhq.com/cerebras/6d966c0a-d587-4a16-bf57-cfb4b4eb7eef"
+  },
+  "708b4906-c873-40a1-9b6d-71b6fdda326e": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "708b4906-c873-40a1-9b6d-71b6fdda326e",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-15",
+    "title": "Senior Software Development Engineer in Test (SDET)  - AI Cluster",
+    "url": "https://jobs.ashbyhq.com/cerebras/708b4906-c873-40a1-9b6d-71b6fdda326e"
+  },
+  "70f859f8-ea99-42bb-a2ac-ac0d230a2929": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "70f859f8-ea99-42bb-a2ac-ac0d230a2929",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-15",
+    "title": "AI Inference Core - Infrastructure SW Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/70f859f8-ea99-42bb-a2ac-ac0d230a2929"
+  },
+  "74abc38e-f2c8-4c9b-bda2-945dea2c365d": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-10T20:50:29.202393+00:00",
+    "job_id": "74abc38e-f2c8-4c9b-bda2-945dea2c365d",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-09",
+    "title": "Staff GPU Inference SDET",
+    "url": "https://jobs.ashbyhq.com/cerebras/74abc38e-f2c8-4c9b-bda2-945dea2c365d"
+  },
+  "74ebd69b-14e3-4492-9232-847dd2b77bfa": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "74ebd69b-14e3-4492-9232-847dd2b77bfa",
+    "last_seen": "2026-08-20T20:29:52.199895+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-05-29",
+    "title": "Mechanical Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/74ebd69b-14e3-4492-9232-847dd2b77bfa"
+  },
+  "7571d94f-66a6-4c43-88e2-55340f3b9383": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-15T21:46:11.122198+00:00",
+    "job_id": "7571d94f-66a6-4c43-88e2-55340f3b9383",
+    "last_seen": "2026-09-25T19:34:43.021064+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-15",
+    "title": "Inventory Control Analyst",
+    "url": "https://jobs.ashbyhq.com/cerebras/7571d94f-66a6-4c43-88e2-55340f3b9383"
+  },
+  "758805c1-fcbf-45c5-93c8-4e92155b570b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "758805c1-fcbf-45c5-93c8-4e92155b570b",
+    "last_seen": "2026-08-31T21:58:20.131171+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-03-11",
+    "title": "Security SWE",
+    "url": "https://jobs.ashbyhq.com/cerebras/758805c1-fcbf-45c5-93c8-4e92155b570b"
+  },
+  "78c170fd-d494-400b-84c5-3a68d1c03e12": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "78c170fd-d494-400b-84c5-3a68d1c03e12",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "UAE ",
+    "posted_date": "2025-10-31",
+    "title": "Staff Python / PyTorch Developer \u2014 Frontend Inference Compiler \u2013 Dubai",
+    "url": "https://jobs.ashbyhq.com/cerebras/78c170fd-d494-400b-84c5-3a68d1c03e12"
+  },
+  "78f1098a-6022-40ba-b7a0-948711921de2": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-23T22:04:26.690168+00:00",
+    "job_id": "78f1098a-6022-40ba-b7a0-948711921de2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-23",
+    "title": "Staff Software Engineer, Inference API",
+    "url": "https://jobs.ashbyhq.com/cerebras/78f1098a-6022-40ba-b7a0-948711921de2"
+  },
+  "79eec4ee-8c02-407a-899c-3848f7c2a8b8": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "79eec4ee-8c02-407a-899c-3848f7c2a8b8",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-17",
+    "title": "Full Stack Engineer - Console Team",
+    "url": "https://jobs.ashbyhq.com/cerebras/79eec4ee-8c02-407a-899c-3848f7c2a8b8"
+  },
+  "7fe218a3-7b69-4491-9042-a178fc304659": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "7fe218a3-7b69-4491-9042-a178fc304659",
+    "last_seen": "2026-08-21T16:27:21.661432+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-06-30",
+    "title": "Systems Engineering Technician",
+    "url": "https://jobs.ashbyhq.com/cerebras/7fe218a3-7b69-4491-9042-a178fc304659"
+  },
+  "80775253-7fba-4a3b-87ee-0e70ce8e995c": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "80775253-7fba-4a3b-87ee-0e70ce8e995c",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-06-20",
+    "title": "Software Engineer, Inference Platform",
+    "url": "https://jobs.ashbyhq.com/cerebras/80775253-7fba-4a3b-87ee-0e70ce8e995c"
+  },
+  "8318fcc4-cda9-426c-8ff5-9c8c01408268": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-01T19:10:26.918644+00:00",
+    "job_id": "8318fcc4-cda9-426c-8ff5-9c8c01408268",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-01",
+    "title": "Staff Cloud Infrastructure Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/8318fcc4-cda9-426c-8ff5-9c8c01408268"
+  },
+  "83edf746-1972-4985-8ef1-a6dd50e4ddae": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "83edf746-1972-4985-8ef1-a6dd50e4ddae",
+    "last_seen": "2026-08-24T20:54:13.847489+00:00",
+    "location": "India Office",
+    "posted_date": "2026-06-04",
+    "title": "Design Verification Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/83edf746-1972-4985-8ef1-a6dd50e4ddae"
+  },
+  "84a9df6b-fe96-4711-8106-971d829b6dc2": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "84a9df6b-fe96-4711-8106-971d829b6dc2",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Remote (US)",
+    "posted_date": "2026-09-21",
+    "title": "Network Security Engineer (Remote)",
+    "url": "https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2"
+  },
+  "85de24ab-1d08-4584-92d5-936b7700f9b3": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-12T23:09:07.579802+00:00",
+    "job_id": "85de24ab-1d08-4584-92d5-936b7700f9b3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-10-12",
+    "title": "SEC Reporting & Technical Accounting Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/85de24ab-1d08-4584-92d5-936b7700f9b3"
+  },
+  "864698cd-da36-42b6-bbcc-fc39d22010f0": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "864698cd-da36-42b6-bbcc-fc39d22010f0",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-15",
+    "title": "AI Engineer, Model Quality and Performance",
+    "url": "https://jobs.ashbyhq.com/cerebras/864698cd-da36-42b6-bbcc-fc39d22010f0"
+  },
+  "87943434-237a-4649-817e-2dcc20347a23": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "87943434-237a-4649-817e-2dcc20347a23",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-08-21",
+    "title": "Technical Lead Manager, Infrastructure Hardware (Server and Network Systems)",
+    "url": "https://jobs.ashbyhq.com/cerebras/87943434-237a-4649-817e-2dcc20347a23"
+  },
+  "89ed36d3-d7e4-4c41-b466-2e39a30a84f4": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-04T23:01:36.901940+00:00",
+    "job_id": "89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-10-02",
+    "title": "AI Fleet Platform Software Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4"
+  },
+  "8a46bfe0-0d5f-4388-a8ea-7a02ff97b7e3": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-06T22:55:12.661200+00:00",
+    "job_id": "8a46bfe0-0d5f-4388-a8ea-7a02ff97b7e3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-10-08",
+    "title": "Head of DevRel",
+    "url": "https://jobs.ashbyhq.com/cerebras/8a46bfe0-0d5f-4388-a8ea-7a02ff97b7e3"
+  },
+  "8b729a93-04bd-49da-8e87-5eb4ff3c8a26": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "8b729a93-04bd-49da-8e87-5eb4ff3c8a26",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-06-23",
+    "title": "Principal Network Security Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/8b729a93-04bd-49da-8e87-5eb4ff3c8a26"
+  },
+  "8cb78937-ac30-4ab2-98d0-680228ea5e6f": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-15T20:58:50.187944+00:00",
+    "job_id": "8cb78937-ac30-4ab2-98d0-680228ea5e6f",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-09-15",
+    "title": "Software Engineer, Kernel Reliability",
+    "url": "https://jobs.ashbyhq.com/cerebras/8cb78937-ac30-4ab2-98d0-680228ea5e6f"
+  },
+  "8f7c4fa6-cb09-460c-98e1-d9f4f7928f28": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "8f7c4fa6-cb09-460c-98e1-d9f4f7928f28",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "San Francisco ",
+    "posted_date": "2025-09-23",
+    "title": "Product Manager, Strategic Verticals",
+    "url": "https://jobs.ashbyhq.com/cerebras/8f7c4fa6-cb09-460c-98e1-d9f4f7928f28"
+  },
+  "90879967-1071-4d05-9180-6e18023ed887": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "90879967-1071-4d05-9180-6e18023ed887",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-02-05",
+    "title": "AI Inference Core - Software Integration Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/90879967-1071-4d05-9180-6e18023ed887"
+  },
+  "915ed244-bc69-48fb-bbc0-9347d2f32fa3": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "915ed244-bc69-48fb-bbc0-9347d2f32fa3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-07",
+    "title": "Lead RTL Design Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/915ed244-bc69-48fb-bbc0-9347d2f32fa3"
+  },
+  "91bc61c1-29db-4a47-817d-30e921064af5": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-02T18:34:22.410013+00:00",
+    "job_id": "91bc61c1-29db-4a47-817d-30e921064af5",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-02",
+    "title": "Application Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/91bc61c1-29db-4a47-817d-30e921064af5"
+  },
+  "91fb96a9-1737-4d3d-ac73-ac2f6c40ec58": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "91fb96a9-1737-4d3d-ac73-ac2f6c40ec58",
+    "last_seen": "2026-09-23T22:04:26.690168+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-03",
+    "title": "Senior / Staff Technical Program Manager - Datacenter Capacity Delivery (E2E)",
+    "url": "https://jobs.ashbyhq.com/cerebras/91fb96a9-1737-4d3d-ac73-ac2f6c40ec58"
+  },
+  "92939082-317e-41ac-aa98-29dcf9eb5422": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "92939082-317e-41ac-aa98-29dcf9eb5422",
+    "last_seen": "2026-09-25T19:34:43.021064+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-03-02",
+    "title": "Manufacturing Bring-up Engineer L2",
+    "url": "https://jobs.ashbyhq.com/cerebras/92939082-317e-41ac-aa98-29dcf9eb5422"
+  },
+  "97c53713-0e4e-4cb8-b638-5add6bb1a987": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "97c53713-0e4e-4cb8-b638-5add6bb1a987",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-21",
+    "title": "Senior ERP Systems Administrator",
+    "url": "https://jobs.ashbyhq.com/cerebras/97c53713-0e4e-4cb8-b638-5add6bb1a987"
+  },
+  "987d7f64-c957-4c8f-b89d-2f9d64738507": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "987d7f64-c957-4c8f-b89d-2f9d64738507",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-01-07",
+    "title": "CoDesign & NextGen - New College Grad",
+    "url": "https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507"
+  },
+  "98ccea5d-d67a-4b58-a44a-168eb5012fe6": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "98ccea5d-d67a-4b58-a44a-168eb5012fe6",
+    "last_seen": "2026-09-15T00:52:04.580055+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-02-09",
+    "title": "AI Infrastructure Operations Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/98ccea5d-d67a-4b58-a44a-168eb5012fe6"
+  },
+  "992de642-1400-4d21-825e-889876ae4d25": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-13T00:12:11.571385+00:00",
+    "job_id": "992de642-1400-4d21-825e-889876ae4d25",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-12",
+    "title": "Staff Design Verification Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/992de642-1400-4d21-825e-889876ae4d25"
+  },
+  "99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2026-05-11",
+    "title": "Software Engineer - New Grad 2026",
+    "url": "https://jobs.ashbyhq.com/cerebras/99c289fa-8fc6-49f7-b7e8-78ac4e9d99ac"
+  },
+  "9c7da4b8-446b-4bf2-8d07-23241590bf2e": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "9c7da4b8-446b-4bf2-8d07-23241590bf2e",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-23",
+    "title": "Kernel Engineer - New Grad",
+    "url": "https://jobs.ashbyhq.com/cerebras/9c7da4b8-446b-4bf2-8d07-23241590bf2e"
+  },
+  "9e222e2c-f10d-47b7-b3bd-6d1cb03aa3fd": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-12T02:08:36.816127+00:00",
+    "job_id": "9e222e2c-f10d-47b7-b3bd-6d1cb03aa3fd",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-10-09",
+    "title": "Senior Manager, Production & Fleet Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/9e222e2c-f10d-47b7-b3bd-6d1cb03aa3fd"
+  },
+  "9f6c08a7-66c5-4b54-9951-07b2d33b3beb": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "9f6c08a7-66c5-4b54-9951-07b2d33b3beb",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-02-18",
+    "title": "Compute Server Platform Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/9f6c08a7-66c5-4b54-9951-07b2d33b3beb"
+  },
+  "a939e310-95ef-48b0-963c-b55dd8376d9b": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "a939e310-95ef-48b0-963c-b55dd8376d9b",
+    "last_seen": "2026-09-03T20:04:26.636723+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-12-16",
+    "title": "Senior Technical Program Manager \u2013 AI Infrastructure, Site Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/a939e310-95ef-48b0-963c-b55dd8376d9b"
+  },
+  "a98bb5ba-31af-4c12-a38b-719ce95a6f33": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "a98bb5ba-31af-4c12-a38b-719ce95a6f33",
+    "last_seen": "2026-09-03T20:04:26.636723+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-03-30",
+    "title": "Senior WAN Network Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/a98bb5ba-31af-4c12-a38b-719ce95a6f33"
+  },
+  "ab6ab5f5-14b7-40d1-9070-e7b4517005b1": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ab6ab5f5-14b7-40d1-9070-e7b4517005b1",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-14",
+    "title": "Technical Business Development Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/ab6ab5f5-14b7-40d1-9070-e7b4517005b1"
+  },
+  "ada45357-f6bb-452c-a9db-acd9ec33f0aa": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-08T14:25:42.509630+00:00",
+    "job_id": "ada45357-f6bb-452c-a9db-acd9ec33f0aa",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2026-09-08",
+    "title": "Distributed Software Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/ada45357-f6bb-452c-a9db-acd9ec33f0aa"
+  },
+  "ae5daf29-d7d0-440e-b41f-c6f0a67489f3": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ae5daf29-d7d0-440e-b41f-c6f0a67489f3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2025-10-14",
+    "title": "Site Reliability Engineer - Ops & Automation",
+    "url": "https://jobs.ashbyhq.com/cerebras/ae5daf29-d7d0-440e-b41f-c6f0a67489f3"
+  },
+  "af87f29d-7ae1-4306-b6b0-61b21971b456": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "af87f29d-7ae1-4306-b6b0-61b21971b456",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-03",
+    "title": "AI Inference Core - SDET Technical Lead, Release Integration Testing",
+    "url": "https://jobs.ashbyhq.com/cerebras/af87f29d-7ae1-4306-b6b0-61b21971b456"
+  },
+  "b1026ed1-1134-48cc-a8ad-780241ca7651": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-18T20:50:35.202609+00:00",
+    "job_id": "b1026ed1-1134-48cc-a8ad-780241ca7651",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Norway, Toronto, CAN, Finland",
+    "posted_date": "2026-08-18",
+    "title": "Member of Technical Staff - DevOps and SRE",
+    "url": "https://jobs.ashbyhq.com/cerebras/b1026ed1-1134-48cc-a8ad-780241ca7651"
+  },
+  "b418fbca-9a33-4ac5-adb3-24dd57b1c678": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "b418fbca-9a33-4ac5-adb3-24dd57b1c678",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN, Sunnyvale, CA",
+    "posted_date": "2026-07-28",
+    "title": "Staff Software Engineer, GPU Inference",
+    "url": "https://jobs.ashbyhq.com/cerebras/b418fbca-9a33-4ac5-adb3-24dd57b1c678"
+  },
+  "b59048d8-dfdd-4138-86cb-7a2a497cd1ad": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "b59048d8-dfdd-4138-86cb-7a2a497cd1ad",
+    "last_seen": "2026-08-15T21:46:11.122198+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2025-04-10",
+    "title": "3D Physical Design Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/b59048d8-dfdd-4138-86cb-7a2a497cd1ad"
+  },
+  "b5dd4ace-f660-441e-a65e-e599536a7341": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "b5dd4ace-f660-441e-a65e-e599536a7341",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-04-29",
+    "title": "Manager, Business Operations",
+    "url": "https://jobs.ashbyhq.com/cerebras/b5dd4ace-f660-441e-a65e-e599536a7341"
+  },
+  "b6da286f-891a-4544-997a-4c287fe8d8f0": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-06T22:55:12.661200+00:00",
+    "job_id": "b6da286f-891a-4544-997a-4c287fe8d8f0",
+    "last_seen": "2026-10-06T22:55:12.661200+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-10-06",
+    "title": "Head of New Media",
+    "url": "https://jobs.ashbyhq.com/cerebras/b6da286f-891a-4544-997a-4c287fe8d8f0"
+  },
+  "ba24de32-d882-4e27-b398-90e6356297c5": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ba24de32-d882-4e27-b398-90e6356297c5",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-07-16",
+    "title": "Senior Software Development Engineer in Test (SDET)  - AI Cluster Networking and Security",
+    "url": "https://jobs.ashbyhq.com/cerebras/ba24de32-d882-4e27-b398-90e6356297c5"
+  },
+  "bc6bb81e-6ade-49a7-b76e-5123d87bcbba": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-01T19:10:26.918644+00:00",
+    "job_id": "bc6bb81e-6ade-49a7-b76e-5123d87bcbba",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-01",
+    "title": "Staff Software Engineer - Tools & Infrastructure / DevOps",
+    "url": "https://jobs.ashbyhq.com/cerebras/bc6bb81e-6ade-49a7-b76e-5123d87bcbba"
+  },
+  "bd32fbbe-4d7a-4679-8767-20227654082c": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "bd32fbbe-4d7a-4679-8767-20227654082c",
+    "last_seen": "2026-09-01T19:10:26.918644+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-31",
+    "title": "Datacenter Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/bd32fbbe-4d7a-4679-8767-20227654082c"
+  },
+  "bf35e329-997b-438b-8dab-da21a59a6222": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "bf35e329-997b-438b-8dab-da21a59a6222",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-08",
+    "title": "Sr. Technical Staff",
+    "url": "https://jobs.ashbyhq.com/cerebras/bf35e329-997b-438b-8dab-da21a59a6222"
+  },
+  "bf6f81b2-f079-483a-9238-295a184b3f0f": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "bf6f81b2-f079-483a-9238-295a184b3f0f",
+    "last_seen": "2026-09-15T00:52:04.580055+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-07-14",
+    "title": "Simulation Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/bf6f81b2-f079-483a-9238-295a184b3f0f"
+  },
+  "c0d8fa46-fd9e-49b5-80c9-040bbd0da916": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "c0d8fa46-fd9e-49b5-80c9-040bbd0da916",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-07-13",
+    "title": "Software Engineer - Tools & Infrastructure / DevOps",
+    "url": "https://jobs.ashbyhq.com/cerebras/c0d8fa46-fd9e-49b5-80c9-040bbd0da916"
+  },
+  "c2198d42-ccad-4bee-aa43-83027aa5e46e": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-12T02:08:36.816127+00:00",
+    "job_id": "c2198d42-ccad-4bee-aa43-83027aa5e46e",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-10-09",
+    "title": "Full Stack Machine Learning Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/c2198d42-ccad-4bee-aa43-83027aa5e46e"
+  },
+  "c2d428d4-b32d-46e8-ae5d-37fe54fb9bf7": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "c2d428d4-b32d-46e8-ae5d-37fe54fb9bf7",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Vancouver, CAN",
+    "posted_date": "2026-06-29",
+    "title": "Regional Data Center Manager - Western Canada",
+    "url": "https://jobs.ashbyhq.com/cerebras/c2d428d4-b32d-46e8-ae5d-37fe54fb9bf7"
+  },
+  "c35a389c-807e-45fb-bfda-03f6b1361871": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "c35a389c-807e-45fb-bfda-03f6b1361871",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-03",
+    "title": "ML Systems Integration Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/c35a389c-807e-45fb-bfda-03f6b1361871"
+  },
+  "c3890fd4-99de-4a22-b442-b6a77a717dfb": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "c3890fd4-99de-4a22-b442-b6a77a717dfb",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2025-07-18",
+    "title": "Full Stack LLM Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/c3890fd4-99de-4a22-b442-b6a77a717dfb"
+  },
+  "c4faac59-3dbb-4ab7-9f74-d1fcbcddc7c6": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-14T22:17:02.238433+00:00",
+    "job_id": "c4faac59-3dbb-4ab7-9f74-d1fcbcddc7c6",
+    "last_seen": "2026-09-24T23:47:43.947609+00:00",
+    "location": "Toronto, CAN",
+    "posted_date": "2026-09-14",
+    "title": "DevOps Engineer Intern - PEY",
+    "url": "https://jobs.ashbyhq.com/cerebras/c4faac59-3dbb-4ab7-9f74-d1fcbcddc7c6"
+  },
+  "c5c87a44-f891-4842-955f-f1bb59d9d124": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "c5c87a44-f891-4842-955f-f1bb59d9d124",
+    "last_seen": "2026-09-08T14:25:42.509630+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-28",
+    "title": "Senior Quality Assurance Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/c5c87a44-f891-4842-955f-f1bb59d9d124"
+  },
+  "c8fbf33e-a200-483f-8980-673a0a7dab53": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "c8fbf33e-a200-483f-8980-673a0a7dab53",
+    "last_seen": "2026-09-23T22:04:26.690168+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-10",
+    "title": "Mechanical Engineer - Datacenter Deliver",
+    "url": "https://jobs.ashbyhq.com/cerebras/c8fbf33e-a200-483f-8980-673a0a7dab53"
+  },
+  "cb57dac6-84cc-4860-9732-39c60514a2ab": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-04T23:01:36.901940+00:00",
+    "job_id": "cb57dac6-84cc-4860-9732-39c60514a2ab",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-10-02",
+    "title": "ML Research Scientist - Inference ML",
+    "url": "https://jobs.ashbyhq.com/cerebras/cb57dac6-84cc-4860-9732-39c60514a2ab"
+  },
+  "ce441c5a-5c03-465a-8447-2bf1fdabf370": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-21T21:56:40.229621+00:00",
+    "job_id": "ce441c5a-5c03-465a-8447-2bf1fdabf370",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-21",
+    "title": "Distributed Systems Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/ce441c5a-5c03-465a-8447-2bf1fdabf370"
+  },
+  "cf45f13c-b6a9-4df2-b6c3-eefea14a024f": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "cf45f13c-b6a9-4df2-b6c3-eefea14a024f",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-06-29",
+    "title": "Senior Inference ML API SDET",
+    "url": "https://jobs.ashbyhq.com/cerebras/cf45f13c-b6a9-4df2-b6c3-eefea14a024f"
+  },
+  "cfe7a6e6-110a-45ea-aad2-8e9e3bbf4814": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "cfe7a6e6-110a-45ea-aad2-8e9e3bbf4814",
+    "last_seen": "2026-08-26T00:14:29.033139+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-01-09",
+    "title": "Distributed Software Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/cfe7a6e6-110a-45ea-aad2-8e9e3bbf4814"
+  },
+  "d00a69be-436a-4926-964e-1d7f9ce75bb5": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-30T19:59:08.501971+00:00",
+    "job_id": "d00a69be-436a-4926-964e-1d7f9ce75bb5",
+    "last_seen": "2026-09-14T01:41:40.852511+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-29",
+    "title": "VP Legal, Strategic Transactions",
+    "url": "https://jobs.ashbyhq.com/cerebras/d00a69be-436a-4926-964e-1d7f9ce75bb5"
+  },
+  "d0baac54-76cb-4e8d-93bd-24e121113870": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d0baac54-76cb-4e8d-93bd-24e121113870",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-10",
+    "title": "Physical Design Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/d0baac54-76cb-4e8d-93bd-24e121113870"
+  },
+  "d0f2d292-eff0-418d-896a-06e8e3420f74": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-07T21:52:48.443707+00:00",
+    "job_id": "d0f2d292-eff0-418d-896a-06e8e3420f74",
+    "last_seen": "2026-10-08T23:26:52.012720+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-10-07",
+    "title": "Head of New Media",
+    "url": "https://jobs.ashbyhq.com/cerebras/d0f2d292-eff0-418d-896a-06e8e3420f74"
+  },
+  "d114d16b-3c5f-44a1-9a15-26b37fb45369": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "d114d16b-3c5f-44a1-9a15-26b37fb45369",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-28",
+    "title": "Senior Detection and Response Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/d114d16b-3c5f-44a1-9a15-26b37fb45369"
+  },
+  "d1754f03-8011-40ff-b85c-691abf23d59c": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-18T19:49:03.241417+00:00",
+    "job_id": "d1754f03-8011-40ff-b85c-691abf23d59c",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-17",
+    "title": "Senior Staff AI Accelerator Performance Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/d1754f03-8011-40ff-b85c-691abf23d59c"
+  },
+  "d418c1b5-1968-452b-89d0-4d3fa566265e": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d418c1b5-1968-452b-89d0-4d3fa566265e",
+    "last_seen": "2026-09-17T20:47:17.124819+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-05-06",
+    "title": "Physical Design Engineer (Bengaluru)",
+    "url": "https://jobs.ashbyhq.com/cerebras/d418c1b5-1968-452b-89d0-4d3fa566265e"
+  },
+  "d4a6507d-8908-4ea5-ac3a-0815533e2512": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d4a6507d-8908-4ea5-ac3a-0815533e2512",
+    "last_seen": "2026-09-17T20:47:17.124819+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2025-11-13",
+    "title": "Network Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/d4a6507d-8908-4ea5-ac3a-0815533e2512"
+  },
+  "d4eed58d-bd1c-496e-a3b3-d0e34e65af83": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-20T20:29:52.199895+00:00",
+    "job_id": "d4eed58d-bd1c-496e-a3b3-d0e34e65af83",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-20",
+    "title": "Staff Business Systems Analyst",
+    "url": "https://jobs.ashbyhq.com/cerebras/d4eed58d-bd1c-496e-a3b3-d0e34e65af83"
+  },
+  "d654a704-2c58-4ba6-9109-2c92aecb2503": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d654a704-2c58-4ba6-9109-2c92aecb2503",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-03-05",
+    "title": "Applied Machine Learning Research Scientist",
+    "url": "https://jobs.ashbyhq.com/cerebras/d654a704-2c58-4ba6-9109-2c92aecb2503"
+  },
+  "d65f2d36-998d-4384-8cff-36835a403ce6": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d65f2d36-998d-4384-8cff-36835a403ce6",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-01-21",
+    "title": "ML Systems Performance Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/d65f2d36-998d-4384-8cff-36835a403ce6"
+  },
+  "d67609c3-6604-487e-8482-2ceffdb3f288": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-30T19:59:08.501971+00:00",
+    "job_id": "d67609c3-6604-487e-8482-2ceffdb3f288",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-28",
+    "title": "Senior Supplier Quality Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/d67609c3-6604-487e-8482-2ceffdb3f288"
+  },
+  "d6df4a44-a05f-4fac-b012-6d2e8bb981f6": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-28T21:42:17.013911+00:00",
+    "job_id": "d6df4a44-a05f-4fac-b012-6d2e8bb981f6",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-28",
+    "title": "ML Runtime and Kernel Engineer - Core ML",
+    "url": "https://jobs.ashbyhq.com/cerebras/d6df4a44-a05f-4fac-b012-6d2e8bb981f6"
+  },
+  "d82f92ec-1287-469f-a5a9-2bb77e6cef2f": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "d82f92ec-1287-469f-a5a9-2bb77e6cef2f",
+    "last_seen": "2026-09-27T15:39:58.458225+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-07-10",
+    "title": "Principal AI Accelerator Architect",
+    "url": "https://jobs.ashbyhq.com/cerebras/d82f92ec-1287-469f-a5a9-2bb77e6cef2f"
+  },
+  "dbeeb53b-1bfd-4454-8285-4ec5dbceebc3": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "dbeeb53b-1bfd-4454-8285-4ec5dbceebc3",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2026-06-23",
+    "title": "Principal AI Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/dbeeb53b-1bfd-4454-8285-4ec5dbceebc3"
+  },
+  "ddc0eea7-3d35-41b5-98de-8978b1c7cdcf": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ddc0eea7-3d35-41b5-98de-8978b1c7cdcf",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-03",
+    "title": "AI Inference Core - Senior SW Engineer for Platform & DevOps",
+    "url": "https://jobs.ashbyhq.com/cerebras/ddc0eea7-3d35-41b5-98de-8978b1c7cdcf"
+  },
+  "de47a79d-5ee5-4ad4-8623-49101d6de4fb": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "de47a79d-5ee5-4ad4-8623-49101d6de4fb",
+    "last_seen": "2026-08-18T22:42:13.913882+00:00",
+    "location": "India Office",
+    "posted_date": "2026-04-08",
+    "title": "ML Research Engineer (Inference)",
+    "url": "https://jobs.ashbyhq.com/cerebras/de47a79d-5ee5-4ad4-8623-49101d6de4fb"
+  },
+  "e4224669-79e2-429e-9b80-988273fb8ee7": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "e4224669-79e2-429e-9b80-988273fb8ee7",
+    "last_seen": "2026-09-01T19:10:26.918644+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-07-10",
+    "title": "Senior Front End Design Engineer (Microarchitecture)",
+    "url": "https://jobs.ashbyhq.com/cerebras/e4224669-79e2-429e-9b80-988273fb8ee7"
+  },
+  "e46c1d18-14b2-4b13-a5f9-1de10f401a2e": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-21T21:56:40.229621+00:00",
+    "job_id": "e46c1d18-14b2-4b13-a5f9-1de10f401a2e",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-21",
+    "title": "Software Supply Chain Security Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/e46c1d18-14b2-4b13-a5f9-1de10f401a2e"
+  },
+  "e4bc1ea1-5401-4a3a-af22-21be3378aa4a": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "e4bc1ea1-5401-4a3a-af22-21be3378aa4a",
+    "last_seen": "2026-10-08T23:26:52.012720+00:00",
+    "location": "Bengaluru, IND",
+    "posted_date": "2026-07-14",
+    "title": "Tech Lead Manager, Developer Productivity",
+    "url": "https://jobs.ashbyhq.com/cerebras/e4bc1ea1-5401-4a3a-af22-21be3378aa4a"
+  },
+  "e616412a-6412-4f0d-93b9-47644d3e99fa": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-03T20:04:26.636723+00:00",
+    "job_id": "e616412a-6412-4f0d-93b9-47644d3e99fa",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Remote (US), Sunnyvale, CA",
+    "posted_date": "2026-09-03",
+    "title": "PCB Layout Engineering Lead",
+    "url": "https://jobs.ashbyhq.com/cerebras/e616412a-6412-4f0d-93b9-47644d3e99fa"
+  },
+  "e62f91e4-3079-45aa-87ff-b848b56c54e6": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-10T20:50:29.202393+00:00",
+    "job_id": "e62f91e4-3079-45aa-87ff-b848b56c54e6",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-09-10",
+    "title": "Software Engineer - Host and Network IO",
+    "url": "https://jobs.ashbyhq.com/cerebras/e62f91e4-3079-45aa-87ff-b848b56c54e6"
+  },
+  "e6ad7dfe-df4d-4b97-a8a5-fa1f1c3fc2bf": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-06T22:55:12.661200+00:00",
+    "job_id": "e6ad7dfe-df4d-4b97-a8a5-fa1f1c3fc2bf",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Remote (US)",
+    "posted_date": "2026-10-08",
+    "title": "Hardware Technical Analyst",
+    "url": "https://jobs.ashbyhq.com/cerebras/e6ad7dfe-df4d-4b97-a8a5-fa1f1c3fc2bf"
+  },
+  "e825320a-b21f-40b0-9318-e71548f27640": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "e825320a-b21f-40b0-9318-e71548f27640",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-07-13",
+    "title": "Senior SDET, Inference Platform",
+    "url": "https://jobs.ashbyhq.com/cerebras/e825320a-b21f-40b0-9318-e71548f27640"
+  },
+  "ea0a48cf-8c1d-444c-9a69-a5e100c311e6": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ea0a48cf-8c1d-444c-9a69-a5e100c311e6",
+    "last_seen": "2026-09-10T20:50:29.202393+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-05-26",
+    "title": "Senior Accountant",
+    "url": "https://jobs.ashbyhq.com/cerebras/ea0a48cf-8c1d-444c-9a69-a5e100c311e6"
+  },
+  "ea1a3622-b59f-4ed6-8d7c-b0d53a38a1a7": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-08T23:26:52.012720+00:00",
+    "job_id": "ea1a3622-b59f-4ed6-8d7c-b0d53a38a1a7",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States | Alabama",
+    "posted_date": "2026-10-08",
+    "title": "Cluster Datacenter Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/ea1a3622-b59f-4ed6-8d7c-b0d53a38a1a7"
+  },
+  "ea44d96f-37e9-4d59-8749-621013176832": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ea44d96f-37e9-4d59-8749-621013176832",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "United States and Canada",
+    "posted_date": "2025-10-28",
+    "title": "Senior Runtime Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/ea44d96f-37e9-4d59-8749-621013176832"
+  },
+  "ef15b7be-2fa3-4343-81aa-47ef65171af0": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "ef15b7be-2fa3-4343-81aa-47ef65171af0",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN",
+    "posted_date": "2026-06-19",
+    "title": "Sr. Staff Software Engineer, Inference Platform",
+    "url": "https://jobs.ashbyhq.com/cerebras/ef15b7be-2fa3-4343-81aa-47ef65171af0"
+  },
+  "efc5bdc8-62df-4fc3-881c-a96ca1705de7": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "efc5bdc8-62df-4fc3-881c-a96ca1705de7",
+    "last_seen": "2026-08-26T00:14:29.033139+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-06-03",
+    "title": "Network Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/efc5bdc8-62df-4fc3-881c-a96ca1705de7"
+  },
+  "f25b9677-32fa-41ed-84d1-0ed704a98533": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-13T18:19:15.232555+00:00",
+    "job_id": "f25b9677-32fa-41ed-84d1-0ed704a98533",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA, Toronto, CAN, Bengaluru, IND",
+    "posted_date": "2026-08-13",
+    "title": "Cluster Operations Software Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/f25b9677-32fa-41ed-84d1-0ed704a98533"
+  },
+  "f4d29622-03e6-41e6-acec-8a22e89c51ee": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "f4d29622-03e6-41e6-acec-8a22e89c51ee",
+    "last_seen": "2026-08-15T21:46:11.122198+00:00",
+    "location": "Headquarters/Sunnyvale Office",
+    "posted_date": "2026-03-04",
+    "title": "Design Validation Test - Lead/Principal Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/f4d29622-03e6-41e6-acec-8a22e89c51ee"
+  },
+  "f5b09237-550f-4267-93f5-68f7ea5e59f7": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "f5b09237-550f-4267-93f5-68f7ea5e59f7",
+    "last_seen": "2026-08-24T13:22:33.964714+00:00",
+    "location": "Toronto Office",
+    "posted_date": "2026-03-18",
+    "title": "ML Performance Benchmarking Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/f5b09237-550f-4267-93f5-68f7ea5e59f7"
+  },
+  "f6b2efb8-71b1-44b9-bbaf-42943071c7fc": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "f6b2efb8-71b1-44b9-bbaf-42943071c7fc",
+    "last_seen": "2026-08-26T00:14:29.033139+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-01-08",
+    "title": "Manufacturing Test Development Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/f6b2efb8-71b1-44b9-bbaf-42943071c7fc"
+  },
+  "fd32728a-5801-42fd-aeb5-c5e4dfbd9403": {
+    "company": "Cerebras",
+    "first_seen": "2026-08-06T01:27:29.391828+00:00",
+    "job_id": "fd32728a-5801-42fd-aeb5-c5e4dfbd9403",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-08-07",
+    "title": "Senior Staff Design Verification Engineer",
+    "url": "https://jobs.ashbyhq.com/cerebras/fd32728a-5801-42fd-aeb5-c5e4dfbd9403"
+  },
+  "fe581188-2bc1-4fce-856d-2df0936a7f56": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-28T21:42:17.013911+00:00",
+    "job_id": "fe581188-2bc1-4fce-856d-2df0936a7f56",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-09-28",
+    "title": "ML Algorithm Mapping and Performance Engineer, Core ML",
+    "url": "https://jobs.ashbyhq.com/cerebras/fe581188-2bc1-4fce-856d-2df0936a7f56"
+  },
+  "feb6cb72-2efc-4174-b194-e195ada636ef": {
+    "company": "Cerebras",
+    "first_seen": "2026-09-15T20:58:50.187944+00:00",
+    "job_id": "feb6cb72-2efc-4174-b194-e195ada636ef",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Finland, Remote (US)",
+    "posted_date": "2026-09-15",
+    "title": "Senior Datacenter Construction Manager",
+    "url": "https://jobs.ashbyhq.com/cerebras/feb6cb72-2efc-4174-b194-e195ada636ef"
+  },
+  "fec1e6a5-0d34-44d8-8d77-0c308f7c2aee": {
+    "company": "Cerebras",
+    "first_seen": "2026-10-08T23:26:52.012720+00:00",
+    "job_id": "fec1e6a5-0d34-44d8-8d77-0c308f7c2aee",
+    "last_seen": "2026-10-13T21:20:34.851691+00:00",
+    "location": "Sunnyvale, CA",
+    "posted_date": "2026-10-08",
+    "title": "DevX Technical Writer",
+    "url": "https://jobs.ashbyhq.com/cerebras/fec1e6a5-0d34-44d8-8d77-0c308f7c2aee"
+  }
+}

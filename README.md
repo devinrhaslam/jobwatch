@@ -64,8 +64,8 @@ Stripe         # recruiter said reapply after 12 months
 An explicit `--company Datadog` still runs it — naming a company overrides the
 file — so a one-off check needs no edit. A stale name in the file (a company
 later dropped from the registry) only prints a warning; a typo in `--exclude`
-is rejected like an unknown `--company`. The file lives under `state/`, so it
-is local to the machine and never committed.
+is rejected like an unknown `--company`. The file lives under `state/`, which
+is committed along with the snapshots, so it travels with the repo.
 
 Every run prints progress to stderr as it goes, so a multi-minute run is
 legible rather than silent — the report itself goes to stdout, so piping is

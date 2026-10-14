@@ -1,0 +1,482 @@
+{
+  "031e9b1e-6e58-4c81-b608-3cfda0514082": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-22T16:07:14.265028+00:00",
+    "job_id": "031e9b1e-6e58-4c81-b608-3cfda0514082",
+    "last_seen": "2026-09-10T20:55:00.446342+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-21",
+    "title": "Fullstack Software Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/031e9b1e-6e58-4c81-b608-3cfda0514082"
+  },
+  "0465b08b-b0c9-4971-99b0-288880a4c918": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-12T23:15:26.729925+00:00",
+    "job_id": "0465b08b-b0c9-4971-99b0-288880a4c918",
+    "last_seen": "2026-10-12T23:15:26.729925+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-12",
+    "title": "Set Team Coordinator",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/0465b08b-b0c9-4971-99b0-288880a4c918"
+  },
+  "0825c70b-5bf2-4490-9611-74432fa32dc8": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-12T23:15:26.729925+00:00",
+    "job_id": "0825c70b-5bf2-4490-9611-74432fa32dc8",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-12",
+    "title": "Set Team Specialist",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/0825c70b-5bf2-4490-9611-74432fa32dc8"
+  },
+  "0bcf909e-b38b-4276-91a1-e55c4c56a33a": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-17T20:51:39.237298+00:00",
+    "job_id": "0bcf909e-b38b-4276-91a1-e55c4c56a33a",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-17",
+    "title": "Mechatronics Intern",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/0bcf909e-b38b-4276-91a1-e55c4c56a33a"
+  },
+  "11208bdc-a679-4cf7-b7a9-67848f7660ab": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "11208bdc-a679-4cf7-b7a9-67848f7660ab",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2025-07-30",
+    "title": "Robotics Technician",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/11208bdc-a679-4cf7-b7a9-67848f7660ab"
+  },
+  "13808317-916f-4ed2-b4f5-a539ac3cf81c": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "13808317-916f-4ed2-b4f5-a539ac3cf81c",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-05",
+    "title": "AI and Robotics Recruiter",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/13808317-916f-4ed2-b4f5-a539ac3cf81c"
+  },
+  "14586c10-d913-43c5-8f7c-c77b5c438e4c": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-05T22:10:54.146457+00:00",
+    "job_id": "14586c10-d913-43c5-8f7c-c77b5c438e4c",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-09",
+    "title": "ML Engineer - API Platform",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/14586c10-d913-43c5-8f7c-c77b5c438e4c"
+  },
+  "16093ed0-49de-429e-81d4-6d8b5d715c01": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-12T02:12:50.189158+00:00",
+    "job_id": "16093ed0-49de-429e-81d4-6d8b5d715c01",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-09",
+    "title": "ML Infra Engineer, Platform",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/16093ed0-49de-429e-81d4-6d8b5d715c01"
+  },
+  "17107519-0e50-430a-b742-200f08388d29": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "17107519-0e50-430a-b742-200f08388d29",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-24",
+    "title": "Prototype Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/17107519-0e50-430a-b742-200f08388d29"
+  },
+  "1922d627-e2bf-4cd9-8c0f-92b919b6324f": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-12T18:16:58.117063+00:00",
+    "job_id": "1922d627-e2bf-4cd9-8c0f-92b919b6324f",
+    "last_seen": "2026-10-02T01:25:25.192683+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-13",
+    "title": "Logistics Coordinator",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/1922d627-e2bf-4cd9-8c0f-92b919b6324f"
+  },
+  "1a05f471-1896-45a3-bff8-89db0abe0259": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "1a05f471-1896-45a3-bff8-89db0abe0259",
+    "last_seen": "2026-09-14T01:45:23.607620+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-02",
+    "title": "Recruiting Coordinator",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/1a05f471-1896-45a3-bff8-89db0abe0259"
+  },
+  "1a7a181f-c318-4e0b-9516-c7111b3e3968": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "1a7a181f-c318-4e0b-9516-c7111b3e3968",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-23",
+    "title": "Applied Researcher",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/1a7a181f-c318-4e0b-9516-c7111b3e3968"
+  },
+  "1e8a741a-d415-4c34-9ac8-eda4c5393e41": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "1e8a741a-d415-4c34-9ac8-eda4c5393e41",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-08",
+    "title": "Deployments Software Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/1e8a741a-d415-4c34-9ac8-eda4c5393e41"
+  },
+  "1f6cf3eb-f70f-480b-9fff-befd56c7fd07": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "1f6cf3eb-f70f-480b-9fff-befd56c7fd07",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-01",
+    "title": "ML Infra Engineer, Data Systems",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/1f6cf3eb-f70f-480b-9fff-befd56c7fd07"
+  },
+  "37e6a38f-71ff-4ff9-8151-ddbd20fcb6ae": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "37e6a38f-71ff-4ff9-8151-ddbd20fcb6ae",
+    "last_seen": "2026-09-15T00:55:44.602958+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-26",
+    "title": "Product Manager",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/37e6a38f-71ff-4ff9-8151-ddbd20fcb6ae"
+  },
+  "37fccca5-0475-4b29-b656-8792d5324802": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-04T23:05:32.219422+00:00",
+    "job_id": "37fccca5-0475-4b29-b656-8792d5324802",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-04",
+    "title": "Annotations Portfolio Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/37fccca5-0475-4b29-b656-8792d5324802"
+  },
+  "3806333f-ecf5-4f65-b404-e9418ba26b87": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "3806333f-ecf5-4f65-b404-e9418ba26b87",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-26",
+    "title": "Strategic Project Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/3806333f-ecf5-4f65-b404-e9418ba26b87"
+  },
+  "404111a6-3a18-4a7c-a249-dd787f975188": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-07T23:49:06.155464+00:00",
+    "job_id": "404111a6-3a18-4a7c-a249-dd787f975188",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-07",
+    "title": "NPI Technical Program Manager",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/404111a6-3a18-4a7c-a249-dd787f975188"
+  },
+  "4180292d-e5d8-4a52-a37b-aceda803e743": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "4180292d-e5d8-4a52-a37b-aceda803e743",
+    "last_seen": "2026-09-18T19:53:10.038899+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-06-29",
+    "title": "Data Annotation Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/4180292d-e5d8-4a52-a37b-aceda803e743"
+  },
+  "41dfbfcd-a9d1-4969-b11b-821f3319cae2": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "41dfbfcd-a9d1-4969-b11b-821f3319cae2",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-07",
+    "title": "Robot Prototype Technician",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/41dfbfcd-a9d1-4969-b11b-821f3319cae2"
+  },
+  "45cf0996-6cdd-42ba-b810-1e5ce1e36cd7": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "45cf0996-6cdd-42ba-b810-1e5ce1e36cd7",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-03",
+    "title": "Supply Chain Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/45cf0996-6cdd-42ba-b810-1e5ce1e36cd7"
+  },
+  "4e547c5a-e4ee-40a7-b14b-c4daf9c072eb": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "4e547c5a-e4ee-40a7-b14b-c4daf9c072eb",
+    "last_seen": "2026-08-16T23:46:40.620920+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-23",
+    "title": "ML Infra Engineer (TPU/Jax/Optimization)",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/4e547c5a-e4ee-40a7-b14b-c4daf9c072eb"
+  },
+  "50f00992-a6c4-480b-a000-2efba5283379": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-14T01:45:23.607620+00:00",
+    "job_id": "50f00992-a6c4-480b-a000-2efba5283379",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-12",
+    "title": "Embedded Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/50f00992-a6c4-480b-a000-2efba5283379"
+  },
+  "52fb2d63-f18e-446e-8a15-cbcdc8740147": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "52fb2d63-f18e-446e-8a15-cbcdc8740147",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "Fremont",
+    "posted_date": "2026-02-16",
+    "title": "Robot Build Technician",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/52fb2d63-f18e-446e-8a15-cbcdc8740147"
+  },
+  "532ced99-8de8-4862-a313-4c6d00b3d979": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "532ced99-8de8-4862-a313-4c6d00b3d979",
+    "last_seen": "2026-10-12T02:12:50.189158+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-03",
+    "title": "Prop Team Shift Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/532ced99-8de8-4862-a313-4c6d00b3d979"
+  },
+  "567d620f-7600-4e35-9edd-f41ed4db45ce": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "567d620f-7600-4e35-9edd-f41ed4db45ce",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2025-11-17",
+    "title": "Forward Deployed Robotics Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/567d620f-7600-4e35-9edd-f41ed4db45ce"
+  },
+  "58bd9bea-c447-4c85-8514-0e4486331683": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-15T21:50:06.880801+00:00",
+    "job_id": "58bd9bea-c447-4c85-8514-0e4486331683",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-14",
+    "title": "People Ops",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/58bd9bea-c447-4c85-8514-0e4486331683"
+  },
+  "58e5a454-47db-41b2-9c5d-c8e34c55159e": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "58e5a454-47db-41b2-9c5d-c8e34c55159e",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2025-06-14",
+    "title": "Mechanical Design Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/58e5a454-47db-41b2-9c5d-c8e34c55159e"
+  },
+  "63b19ebb-4c79-4289-ac3b-2b7efbbb6f02": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-12T23:15:26.729925+00:00",
+    "job_id": "63b19ebb-4c79-4289-ac3b-2b7efbbb6f02",
+    "last_seen": "2026-10-12T23:15:26.729925+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-12",
+    "title": "Props Coordinator",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/63b19ebb-4c79-4289-ac3b-2b7efbbb6f02"
+  },
+  "6fe1ce2d-303b-4d34-9c13-4cb6476f4cbe": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-10-05T22:10:54.146457+00:00",
+    "job_id": "6fe1ce2d-303b-4d34-9c13-4cb6476f4cbe",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-10-05",
+    "title": "ML Engineer - API Platform",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/6fe1ce2d-303b-4d34-9c13-4cb6476f4cbe"
+  },
+  "70ebf855-16df-4879-a6a7-ee0161174acc": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "70ebf855-16df-4879-a6a7-ee0161174acc",
+    "last_seen": "2026-09-10T20:55:00.446342+00:00",
+    "location": "San Francisco",
+    "posted_date": "2024-08-24",
+    "title": "ML Infra Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/70ebf855-16df-4879-a6a7-ee0161174acc"
+  },
+  "77a8ca93-7344-43ed-b215-98ecd95ecf9b": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "77a8ca93-7344-43ed-b215-98ecd95ecf9b",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "Fremont",
+    "posted_date": "2026-08-05",
+    "title": "Manufacturing Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/77a8ca93-7344-43ed-b215-98ecd95ecf9b"
+  },
+  "7f8397a4-c3cd-45c6-90c7-13c4481f4699": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-12T18:16:58.117063+00:00",
+    "job_id": "7f8397a4-c3cd-45c6-90c7-13c4481f4699",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-11",
+    "title": "Software Engineer, AI Productivity",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/7f8397a4-c3cd-45c6-90c7-13c4481f4699"
+  },
+  "81d1eb25-ada9-40fd-8708-e1e42ecb2b7e": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "81d1eb25-ada9-40fd-8708-e1e42ecb2b7e",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-03",
+    "title": "Production Test Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/81d1eb25-ada9-40fd-8708-e1e42ecb2b7e"
+  },
+  "86237337-963a-4e0e-bcf7-82d366e5f0fc": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-16T20:45:06.897891+00:00",
+    "job_id": "86237337-963a-4e0e-bcf7-82d366e5f0fc",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-24",
+    "title": "Software Engineer, Robot Interfaces",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/86237337-963a-4e0e-bcf7-82d366e5f0fc"
+  },
+  "8a2bee0b-be32-4907-879d-f91957693e62": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-16T20:45:06.897891+00:00",
+    "job_id": "8a2bee0b-be32-4907-879d-f91957693e62",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-16",
+    "title": "Recruiter, Operations",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/8a2bee0b-be32-4907-879d-f91957693e62"
+  },
+  "8e9830f4-89ba-46e6-ab73-648c550aaf3c": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "8e9830f4-89ba-46e6-ab73-648c550aaf3c",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-05-18",
+    "title": "Robot Integration Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/8e9830f4-89ba-46e6-ab73-648c550aaf3c"
+  },
+  "96bf6ea8-fb8d-4a76-bec7-878a8c224cea": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-09-01T19:15:02.952546+00:00",
+    "job_id": "96bf6ea8-fb8d-4a76-bec7-878a8c224cea",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-09-01",
+    "title": "ML Infra Engineer, Modeling",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/96bf6ea8-fb8d-4a76-bec7-878a8c224cea"
+  },
+  "a32cf6ed-b81c-4ee6-8785-d5895cf39ffb": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "a32cf6ed-b81c-4ee6-8785-d5895cf39ffb",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-07-24",
+    "title": "Robot Integration and Test Technician",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/a32cf6ed-b81c-4ee6-8785-d5895cf39ffb"
+  },
+  "c01b0e18-5eb8-4255-a10a-7e9a171676b7": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-20T00:23:35.489358+00:00",
+    "job_id": "c01b0e18-5eb8-4255-a10a-7e9a171676b7",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-25",
+    "title": "Software Engineer, Data Quality",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/c01b0e18-5eb8-4255-a10a-7e9a171676b7"
+  },
+  "c2c1faae-acb6-4c8b-bd0d-e7e180ac8d94": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "c2c1faae-acb6-4c8b-bd0d-e7e180ac8d94",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-02-02",
+    "title": "Business Operations",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/c2c1faae-acb6-4c8b-bd0d-e7e180ac8d94"
+  },
+  "c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-07",
+    "title": "Controls Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9"
+  },
+  "e501e135-9407-4b14-a8e8-c131f89be61d": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-22T16:07:14.265028+00:00",
+    "job_id": "e501e135-9407-4b14-a8e8-c131f89be61d",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-22",
+    "title": "Shift Lead",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/e501e135-9407-4b14-a8e8-c131f89be61d"
+  },
+  "eb3ed968-630f-429a-9e44-5508b77d554b": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "eb3ed968-630f-429a-9e44-5508b77d554b",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-06",
+    "title": "Robot Operator",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/eb3ed968-630f-429a-9e44-5508b77d554b"
+  },
+  "f020ff1a-4b4c-4415-8434-2da5010a7076": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "f020ff1a-4b4c-4415-8434-2da5010a7076",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2024-08-24",
+    "title": "Research Internships",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/f020ff1a-4b4c-4415-8434-2da5010a7076"
+  },
+  "f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-01-06",
+    "title": "Robotics Software Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327"
+  },
+  "f70f9481-ea7e-48e4-9212-f9c10952a028": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "f70f9481-ea7e-48e4-9212-f9c10952a028",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-04-29",
+    "title": "Build & Release Engineer",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/f70f9481-ea7e-48e4-9212-f9c10952a028"
+  },
+  "f83ba447-2261-4832-95db-a2f88454e0ba": {
+    "company": "Physical Intelligence",
+    "first_seen": "2026-08-05T15:49:43.274687+00:00",
+    "job_id": "f83ba447-2261-4832-95db-a2f88454e0ba",
+    "last_seen": "2026-10-13T21:25:00.572211+00:00",
+    "location": "San Francisco",
+    "posted_date": "2024-08-24",
+    "title": "Research Scientist",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/f83ba447-2261-4832-95db-a2f88454e0ba"
+  }
+}

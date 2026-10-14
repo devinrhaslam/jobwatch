@@ -1,0 +1,3002 @@
+{
+  "7100730": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7100730",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-08-18",
+    "title": "Senior Rendering Engineer Manager",
+    "url": "https://careers.roblox.com/jobs/7100730?gh_jid=7100730"
+  },
+  "7249513": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7249513",
+    "last_seen": "2026-08-12T19:32:49.167469+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-09-12",
+    "title": "Senior Machine Learning - Avatar, Core AI",
+    "url": "https://careers.roblox.com/jobs/7249513?gh_jid=7249513"
+  },
+  "7309267": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7309267",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-10",
+    "title": "Senior Software Engineer, Engine Systems",
+    "url": "https://careers.roblox.com/jobs/7309267?gh_jid=7309267"
+  },
+  "7332473": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7332473",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-15",
+    "title": "Distinguished Engineer, Machine Learning Systems \u2013 Economy",
+    "url": "https://careers.roblox.com/jobs/7332473?gh_jid=7332473"
+  },
+  "7350081": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7350081",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-27",
+    "title": "[2026] Senior Machine Learning Engineer, Recommendation Systems - PhD Early Career",
+    "url": "https://careers.roblox.com/jobs/7350081?gh_jid=7350081"
+  },
+  "7351202": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7351202",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-24",
+    "title": "Principal Machine Learning Infrastructure Engineer, Ads & Discovery",
+    "url": "https://careers.roblox.com/jobs/7351202?gh_jid=7351202"
+  },
+  "7351220": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7351220",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-24",
+    "title": "Senior Machine Learning Engineer, Ads",
+    "url": "https://careers.roblox.com/jobs/7351220?gh_jid=7351220"
+  },
+  "7354277": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7354277",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-10-23",
+    "title": "Senior Software Engineer, Game Engine Systems",
+    "url": "https://careers.roblox.com/jobs/7354277?gh_jid=7354277"
+  },
+  "7360413": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7360413",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-11-03",
+    "title": "Senior Software Engineer, App Performance",
+    "url": "https://careers.roblox.com/jobs/7360413?gh_jid=7360413"
+  },
+  "7396342": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7396342",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-11-17",
+    "title": "Senior Frontend Software Engineer, Ads Experience",
+    "url": "https://careers.roblox.com/jobs/7396342?gh_jid=7396342"
+  },
+  "7409676": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7409676",
+    "last_seen": "2026-08-11T21:16:26.431551+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-11-20",
+    "title": "Senior Software Engineer - Game Engine Network (C++)",
+    "url": "https://careers.roblox.com/jobs/7409676?gh_jid=7409676"
+  },
+  "7411636": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7411636",
+    "last_seen": "2026-08-30T20:11:20.745769+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-11-20",
+    "title": "Principal Data Scientist - Safety",
+    "url": "https://careers.roblox.com/jobs/7411636?gh_jid=7411636"
+  },
+  "7437922": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7437922",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-02",
+    "title": "Senior Software Engineer - Data Access",
+    "url": "https://careers.roblox.com/jobs/7437922?gh_jid=7437922"
+  },
+  "7441754": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7441754",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2025-12-03",
+    "title": "Senior Rendering Engineer Manager",
+    "url": "https://careers.roblox.com/jobs/7441754?gh_jid=7441754"
+  },
+  "7449585": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7449585",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-08",
+    "title": "Senior Software Engineer - Game Engine Systems (C++)",
+    "url": "https://careers.roblox.com/jobs/7449585?gh_jid=7449585"
+  },
+  "7460850": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7460850",
+    "last_seen": "2026-08-27T20:29:45.660771+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-11",
+    "title": "Principal Software Engineer, Ads Experience",
+    "url": "https://careers.roblox.com/jobs/7460850?gh_jid=7460850"
+  },
+  "7463634": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7463634",
+    "last_seen": "2026-08-07T20:47:11.146402+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-16",
+    "title": "[2026] Data Scientist, Social",
+    "url": "https://careers.roblox.com/jobs/7463634?gh_jid=7463634"
+  },
+  "7463674": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7463674",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-12",
+    "title": "Senior Hardware Engineer - GPU & AI Infrastructure",
+    "url": "https://careers.roblox.com/jobs/7463674?gh_jid=7463674"
+  },
+  "7472910": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7472910",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-17",
+    "title": "Senior Software Engineer, Frontend",
+    "url": "https://careers.roblox.com/jobs/7472910?gh_jid=7472910"
+  },
+  "7473601": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7473601",
+    "last_seen": "2026-08-11T16:18:13.497171+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-15",
+    "title": "Principal Software Engineer - Game Engine Systems",
+    "url": "https://careers.roblox.com/jobs/7473601?gh_jid=7473601"
+  },
+  "7477577": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7477577",
+    "last_seen": "2026-08-05T15:49:53.356957+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-17",
+    "title": "Senior Data Scientist - Growth Measurement",
+    "url": "https://careers.roblox.com/jobs/7477577?gh_jid=7477577"
+  },
+  "7482015": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7482015",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2025-12-18",
+    "title": "Software Engineering Manager, Engine UI",
+    "url": "https://careers.roblox.com/jobs/7482015?gh_jid=7482015"
+  },
+  "7528070": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7528070",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-12",
+    "title": "Senior Mobile Systems Engineer, Audio Team (Android & C++)",
+    "url": "https://careers.roblox.com/jobs/7528070?gh_jid=7528070"
+  },
+  "7540219": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7540219",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-16",
+    "title": "Senior Software Engineer, Avatar Animation",
+    "url": "https://careers.roblox.com/jobs/7540219?gh_jid=7540219"
+  },
+  "7545202": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7545202",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-21",
+    "title": "Senior Software Engineer - Avatar Personalization",
+    "url": "https://careers.roblox.com/jobs/7545202?gh_jid=7545202"
+  },
+  "7545955": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7545955",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-20",
+    "title": "Principal Software Engineer - Roblox Economy Platform",
+    "url": "https://careers.roblox.com/jobs/7545955?gh_jid=7545955"
+  },
+  "7561736": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7561736",
+    "last_seen": "2026-08-11T21:16:26.431551+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-23",
+    "title": "Core Engine Developer - Systems (C++)",
+    "url": "https://careers.roblox.com/jobs/7561736?gh_jid=7561736"
+  },
+  "7561739": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7561739",
+    "last_seen": "2026-08-11T21:16:26.431551+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-23",
+    "title": "Systems Software Engineer - Game Engine Network (C++)",
+    "url": "https://careers.roblox.com/jobs/7561739?gh_jid=7561739"
+  },
+  "7561743": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7561743",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-23",
+    "title": "Senior Software Engineer - Network Transport (C++)",
+    "url": "https://careers.roblox.com/jobs/7561743?gh_jid=7561743"
+  },
+  "7561827": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7561827",
+    "last_seen": "2026-08-11T16:18:13.497171+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-01-23",
+    "title": "Principal Software Engineer - Asset Loading",
+    "url": "https://careers.roblox.com/jobs/7561827?gh_jid=7561827"
+  },
+  "7604271": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7604271",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-02-19",
+    "title": "Director of Business Development, Payments",
+    "url": "https://careers.roblox.com/jobs/7604271?gh_jid=7604271"
+  },
+  "7629489": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7629489",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-02-19",
+    "title": "Principal Data Engineer - Economy",
+    "url": "https://careers.roblox.com/jobs/7629489?gh_jid=7629489"
+  },
+  "7629843": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7629843",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-02-19",
+    "title": "Principal Machine Learning Engineer, Embodied AI and Smart NPCs",
+    "url": "https://careers.roblox.com/jobs/7629843?gh_jid=7629843"
+  },
+  "7645403": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7645403",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-02-25",
+    "title": "Principal Network Engineer",
+    "url": "https://careers.roblox.com/jobs/7645403?gh_jid=7645403"
+  },
+  "7650307": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7650307",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-03",
+    "title": "Principal Software Engineer - Content Lifecycle",
+    "url": "https://careers.roblox.com/jobs/7650307?gh_jid=7650307"
+  },
+  "7655346": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7655346",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-02-26",
+    "title": "Principal/Senior Machine Learning Scientist - Search and Discovery",
+    "url": "https://careers.roblox.com/jobs/7655346?gh_jid=7655346"
+  },
+  "7655780": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7655780",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-03",
+    "title": "Senior Software Engineer, Ads Experience (C++)",
+    "url": "https://careers.roblox.com/jobs/7655780?gh_jid=7655780"
+  },
+  "7655813": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7655813",
+    "last_seen": "2026-08-27T20:29:45.660771+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-03",
+    "title": "Tech Lead Manager (TLM) - Ads Experience",
+    "url": "https://careers.roblox.com/jobs/7655813?gh_jid=7655813"
+  },
+  "7656541": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7656541",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-04",
+    "title": "Senior QA Engineer, Safety",
+    "url": "https://careers.roblox.com/jobs/7656541?gh_jid=7656541"
+  },
+  "7678832": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7678832",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-05",
+    "title": "Principal Software Engineer, Data Engineering",
+    "url": "https://careers.roblox.com/jobs/7678832?gh_jid=7678832"
+  },
+  "7697520": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7697520",
+    "last_seen": "2026-08-26T20:40:45.338533+00:00",
+    "location": "United States",
+    "posted_date": "2026-03-16",
+    "title": "Human Evaluator, Studio (Contract)",
+    "url": "https://careers.roblox.com/jobs/7697520?gh_jid=7697520"
+  },
+  "7698330": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7698330",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-10",
+    "title": "Senior Software Engineer, Application Gateway",
+    "url": "https://careers.roblox.com/jobs/7698330?gh_jid=7698330"
+  },
+  "7701911": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7701911",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-11",
+    "title": "Senior Product Manager, Engineering Acceleration",
+    "url": "https://careers.roblox.com/jobs/7701911?gh_jid=7701911"
+  },
+  "7705949": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7705949",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-03-11",
+    "title": "Developer Engagement Representative - LATAM (Part-Time Contract)",
+    "url": "https://careers.roblox.com/jobs/7705949?gh_jid=7705949"
+  },
+  "7708489": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7708489",
+    "last_seen": "2026-08-18T22:46:33.542146+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-13",
+    "title": "Senior Software Engineer, Core UI",
+    "url": "https://careers.roblox.com/jobs/7708489?gh_jid=7708489"
+  },
+  "7719455": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7719455",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-17",
+    "title": "Director of Engineering \u2013 Studio Systems",
+    "url": "https://careers.roblox.com/jobs/7719455?gh_jid=7719455"
+  },
+  "7736682": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7736682",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-03-23",
+    "title": "Global Developer Engagement Representative, Part-Time, Contractor",
+    "url": "https://careers.roblox.com/jobs/7736682?gh_jid=7736682"
+  },
+  "7740153": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7740153",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-24",
+    "title": "Principal Software Engineer - Creator Distributed Systems & Storage",
+    "url": "https://careers.roblox.com/jobs/7740153?gh_jid=7740153"
+  },
+  "7744272": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7744272",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-01",
+    "title": "Principal Software Engineer",
+    "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272"
+  },
+  "7754152": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7754152",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-15",
+    "title": "Technical Director, Content Platform",
+    "url": "https://careers.roblox.com/jobs/7754152?gh_jid=7754152"
+  },
+  "7758622": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7758622",
+    "last_seen": "2026-08-20T00:24:10.632932+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-30",
+    "title": "Senior Corporate FP&A Manager, Workforce Planning & Total Rewards",
+    "url": "https://careers.roblox.com/jobs/7758622?gh_jid=7758622"
+  },
+  "7760129": {
+    "company": "Roblox",
+    "first_seen": "2026-08-30T20:11:20.745769+00:00",
+    "job_id": "7760129",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-27",
+    "title": "Senior Frontend/Fullstack Software Engineer, Social Graph",
+    "url": "https://careers.roblox.com/jobs/7760129?gh_jid=7760129"
+  },
+  "7764306": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7764306",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-30",
+    "title": "Senior Engineering Manager, Search and Discovery",
+    "url": "https://careers.roblox.com/jobs/7764306?gh_jid=7764306"
+  },
+  "7769510": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7769510",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-03-31",
+    "title": "Principal Software Engineer - Creator Collaboration",
+    "url": "https://careers.roblox.com/jobs/7769510?gh_jid=7769510"
+  },
+  "7778939": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7778939",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-03",
+    "title": "Executive Business Partner, Strategy and Operations",
+    "url": "https://careers.roblox.com/jobs/7778939?gh_jid=7778939"
+  },
+  "7779120": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7779120",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-04",
+    "title": "Product Counsel/ Sr Product Counsel, Advertising",
+    "url": "https://careers.roblox.com/jobs/7779120?gh_jid=7779120"
+  },
+  "7785784": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7785784",
+    "last_seen": "2026-09-03T20:10:16.845133+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-04-08",
+    "title": "Quality Analyst",
+    "url": "https://careers.roblox.com/jobs/7785784?gh_jid=7785784"
+  },
+  "7789332": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7789332",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-07",
+    "title": "Principal Security Software Engineer, Application Security",
+    "url": "https://careers.roblox.com/jobs/7789332?gh_jid=7789332"
+  },
+  "7792862": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7792862",
+    "last_seen": "2026-08-12T00:14:58.117029+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-04-09",
+    "title": "Workforce Management Analyst",
+    "url": "https://careers.roblox.com/jobs/7792862?gh_jid=7792862"
+  },
+  "7808741": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7808741",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Goodyear, Arizona, United States",
+    "posted_date": "2026-04-29",
+    "title": "Manager Data Center Operations",
+    "url": "https://careers.roblox.com/jobs/7808741?gh_jid=7808741"
+  },
+  "7813041": {
+    "company": "Roblox",
+    "first_seen": "2026-08-27T20:29:45.660771+00:00",
+    "job_id": "7813041",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-14",
+    "title": "Localization Program Manager",
+    "url": "https://careers.roblox.com/jobs/7813041?gh_jid=7813041"
+  },
+  "7816527": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7816527",
+    "last_seen": "2026-08-15T21:50:39.015861+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-16",
+    "title": "Senior Product Manager, UI Ecosystems",
+    "url": "https://careers.roblox.com/jobs/7816527?gh_jid=7816527"
+  },
+  "7821818": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7821818",
+    "last_seen": "2026-08-27T20:29:45.660771+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-06",
+    "title": "Principal Software Engineer - Content Platform",
+    "url": "https://careers.roblox.com/jobs/7821818?gh_jid=7821818"
+  },
+  "7822736": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7822736",
+    "last_seen": "2026-08-26T00:19:50.373115+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-20",
+    "title": "Senior Data Scientist - Machine Intelligence (Creator Services)",
+    "url": "https://careers.roblox.com/jobs/7822736?gh_jid=7822736"
+  },
+  "7826363": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7826363",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-20",
+    "title": "Design Engineer",
+    "url": "https://careers.roblox.com/jobs/7826363?gh_jid=7826363"
+  },
+  "7832171": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7832171",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-04-21",
+    "title": "Director of Public Policy, UAE/Middle East",
+    "url": "https://careers.roblox.com/jobs/7832171?gh_jid=7832171"
+  },
+  "7834163": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7834163",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-06",
+    "title": "Principal Engineer, Studio Builder Tools",
+    "url": "https://careers.roblox.com/jobs/7834163?gh_jid=7834163"
+  },
+  "7838662": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7838662",
+    "last_seen": "2026-08-30T20:11:20.745769+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-04-24",
+    "title": "General Manager, South East Asia",
+    "url": "https://careers.roblox.com/jobs/7838662?gh_jid=7838662"
+  },
+  "7839534": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7839534",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-23",
+    "title": "Senior Product Manager, App Performance & Architecture",
+    "url": "https://careers.roblox.com/jobs/7839534?gh_jid=7839534"
+  },
+  "7848812": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7848812",
+    "last_seen": "2026-08-15T21:50:39.015861+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-27",
+    "title": "Senior Data Scientist, Engine Systems",
+    "url": "https://careers.roblox.com/jobs/7848812?gh_jid=7848812"
+  },
+  "7852258": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7852258",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-27",
+    "title": "Senior Software Engineer - Data Infrastructure, Safety",
+    "url": "https://careers.roblox.com/jobs/7852258?gh_jid=7852258"
+  },
+  "7856888": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7856888",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-04-27",
+    "title": "Data Analyst, Operations (IP & Legal Compliance)",
+    "url": "https://careers.roblox.com/jobs/7856888?gh_jid=7856888"
+  },
+  "7857818": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7857818",
+    "last_seen": "2026-08-17T20:48:20.600007+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-29",
+    "title": "Facilities Engineer",
+    "url": "https://careers.roblox.com/jobs/7857818?gh_jid=7857818"
+  },
+  "7862605": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7862605",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-04-28",
+    "title": "Senior Software Engineer - Storage Cache",
+    "url": "https://careers.roblox.com/jobs/7862605?gh_jid=7862605"
+  },
+  "7872401": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7872401",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-05",
+    "title": "Principal Model Optimization Engineer",
+    "url": "https://careers.roblox.com/jobs/7872401?gh_jid=7872401"
+  },
+  "7886349": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7886349",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-05-06",
+    "title": "Support Escalations Specialist",
+    "url": "https://careers.roblox.com/jobs/7886349?gh_jid=7886349"
+  },
+  "7887896": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7887896",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-04",
+    "title": "Engineering Manager, Application Security",
+    "url": "https://careers.roblox.com/jobs/7887896?gh_jid=7887896"
+  },
+  "7894481": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7894481",
+    "last_seen": "2026-08-24T20:58:47.375837+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-06",
+    "title": "Senior Scientist, Ads Systems",
+    "url": "https://careers.roblox.com/jobs/7894481?gh_jid=7894481"
+  },
+  "7896061": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7896061",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-07",
+    "title": "Senior Security Software Engineer, Infrastructure Security",
+    "url": "https://careers.roblox.com/jobs/7896061?gh_jid=7896061"
+  },
+  "7896293": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7896293",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-06",
+    "title": "Senior Security Software Engineer, Application Security",
+    "url": "https://careers.roblox.com/jobs/7896293?gh_jid=7896293"
+  },
+  "7899865": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7899865",
+    "last_seen": "2026-08-16T23:47:13.695186+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-06",
+    "title": "Senior Software Engineer, iOS",
+    "url": "https://careers.roblox.com/jobs/7899865?gh_jid=7899865"
+  },
+  "7901793": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7901793",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-03",
+    "title": "Engineering Manager, Observability Infrastructure",
+    "url": "https://careers.roblox.com/jobs/7901793?gh_jid=7901793"
+  },
+  "7905464": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7905464",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-08",
+    "title": "Engineering Manager, Home Infrastructure (Recommendation Systems)",
+    "url": "https://careers.roblox.com/jobs/7905464?gh_jid=7905464"
+  },
+  "7911884": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7911884",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "posted_date": "2026-05-13",
+    "title": "Developer Relations Manager -  EU region",
+    "url": "https://careers.roblox.com/jobs/7911884?gh_jid=7911884"
+  },
+  "7913302": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7913302",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-11",
+    "title": "Senior Software Engineer - Marketplace (Avatar Identity)",
+    "url": "https://careers.roblox.com/jobs/7913302?gh_jid=7913302"
+  },
+  "7913665": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7913665",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-13",
+    "title": "Director, Product Management, Consumer Frontend",
+    "url": "https://careers.roblox.com/jobs/7913665?gh_jid=7913665"
+  },
+  "7913878": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7913878",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-11",
+    "title": "Senior Frontend Software Engineer - Marketplace",
+    "url": "https://careers.roblox.com/jobs/7913878?gh_jid=7913878"
+  },
+  "7918044": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7918044",
+    "last_seen": "2026-08-06T01:17:09.391281+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-05-13",
+    "title": "Sr Internal Auditor",
+    "url": "https://careers.roblox.com/jobs/7918044?gh_jid=7918044"
+  },
+  "7921673": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7921673",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-05-21",
+    "title": "Marketing Manager, India",
+    "url": "https://careers.roblox.com/jobs/7921673?gh_jid=7921673"
+  },
+  "7922649": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7922649",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-13",
+    "title": "Senior Security Software Engineer, Vulnerability Management",
+    "url": "https://careers.roblox.com/jobs/7922649?gh_jid=7922649"
+  },
+  "7923586": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7923586",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-14",
+    "title": "Senior Software Engineer - Release",
+    "url": "https://careers.roblox.com/jobs/7923586?gh_jid=7923586"
+  },
+  "7928938": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7928938",
+    "last_seen": "2026-08-24T20:58:47.375837+00:00",
+    "location": "S\u00e3o Paulo, Brazil",
+    "posted_date": "2026-05-16",
+    "title": "Senior Product Policy Manager, Regional Policy (LATAM)",
+    "url": "https://careers.roblox.com/jobs/7928938?gh_jid=7928938"
+  },
+  "7931911": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7931911",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-17",
+    "title": "Distinguished Machine Learning Engineer - Safety",
+    "url": "https://careers.roblox.com/jobs/7931911?gh_jid=7931911"
+  },
+  "7940279": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7940279",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-19",
+    "title": "Engineering Manager - Account Security",
+    "url": "https://careers.roblox.com/jobs/7940279?gh_jid=7940279"
+  },
+  "7943933": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7943933",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-21",
+    "title": "Senior Machine Learning Engineer, GenAI Data",
+    "url": "https://careers.roblox.com/jobs/7943933?gh_jid=7943933"
+  },
+  "7944233": {
+    "company": "Roblox",
+    "first_seen": "2026-08-21T16:32:23.528239+00:00",
+    "job_id": "7944233",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-09",
+    "title": "Global Mobility Lead",
+    "url": "https://careers.roblox.com/jobs/7944233?gh_jid=7944233"
+  },
+  "7947153": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7947153",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-20",
+    "title": "Senior Hardware Engineer - Infrastructure",
+    "url": "https://careers.roblox.com/jobs/7947153?gh_jid=7947153"
+  },
+  "7951971": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7951971",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-05-22",
+    "title": "Product Marketing Manager, Ads",
+    "url": "https://careers.roblox.com/jobs/7951971?gh_jid=7951971"
+  },
+  "7957849": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7957849",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-05-26",
+    "title": "Senior Analyst, Safety Operations Tooling",
+    "url": "https://careers.roblox.com/jobs/7957849?gh_jid=7957849"
+  },
+  "7962542": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7962542",
+    "last_seen": "2026-08-24T20:58:47.375837+00:00",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "posted_date": "2026-05-29",
+    "title": "Senior Product Policy Manager, Regional Policy (Europe)",
+    "url": "https://careers.roblox.com/jobs/7962542?gh_jid=7962542"
+  },
+  "7963129": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7963129",
+    "last_seen": "2026-08-24T20:58:47.375837+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-01",
+    "title": "Director of Engineering, Economy ML",
+    "url": "https://careers.roblox.com/jobs/7963129?gh_jid=7963129"
+  },
+  "7963220": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7963220",
+    "last_seen": "2026-08-18T20:55:41.506035+00:00",
+    "location": "Remote",
+    "posted_date": "2026-05-29",
+    "title": "Law Enforcement and Digital Safety Specialist, West Virginia",
+    "url": "https://careers.roblox.com/jobs/7963220?gh_jid=7963220"
+  },
+  "7965517": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7965517",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "posted_date": "2026-06-03",
+    "title": "Marketing Manager, Europe",
+    "url": "https://careers.roblox.com/jobs/7965517?gh_jid=7965517"
+  },
+  "7975445": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7975445",
+    "last_seen": "2026-08-06T12:49:36.952642+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Technical Director, Frontend Architecture",
+    "url": "https://careers.roblox.com/jobs/7975445?gh_jid=7975445"
+  },
+  "7977161": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7977161",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-04",
+    "title": "Finance Business Partner, Trust & Safety (6319)",
+    "url": "https://careers.roblox.com/jobs/7977161?gh_jid=7977161"
+  },
+  "7977682": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7977682",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-03",
+    "title": "Senior Data Scientist - Consumer Frontend",
+    "url": "https://careers.roblox.com/jobs/7977682?gh_jid=7977682"
+  },
+  "7977893": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7977893",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-03",
+    "title": "Senior Growth Marketing Manager",
+    "url": "https://careers.roblox.com/jobs/7977893?gh_jid=7977893"
+  },
+  "7978492": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7978492",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-04",
+    "title": "Principal Software Engineer, GPU Compute",
+    "url": "https://careers.roblox.com/jobs/7978492?gh_jid=7978492"
+  },
+  "7978940": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7978940",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-06-05",
+    "title": "Developer Engagement Representative - Malaysia  (Part-Time Contract)",
+    "url": "https://careers.roblox.com/jobs/7978940?gh_jid=7978940"
+  },
+  "7981917": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7981917",
+    "last_seen": "2026-08-18T00:41:33.769638+00:00",
+    "location": "Singapore",
+    "posted_date": "2026-06-17",
+    "title": "Senior Product Policy Manager, Regional Policy (SEA/SA)",
+    "url": "https://careers.roblox.com/jobs/7981917?gh_jid=7981917"
+  },
+  "7983067": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7983067",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-06-05",
+    "title": "Senior Manager, Moderation Escalations",
+    "url": "https://careers.roblox.com/jobs/7983067?gh_jid=7983067"
+  },
+  "7983905": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7983905",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-09",
+    "title": "Principal Security Software Engineer, Enterprise IAM",
+    "url": "https://careers.roblox.com/jobs/7983905?gh_jid=7983905"
+  },
+  "7983990": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7983990",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-08",
+    "title": "Principal Software Engineer, Compute Fleet Management",
+    "url": "https://careers.roblox.com/jobs/7983990?gh_jid=7983990"
+  },
+  "7985997": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7985997",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-08",
+    "title": "Senior Software Engineer - Safety Experience",
+    "url": "https://careers.roblox.com/jobs/7985997?gh_jid=7985997"
+  },
+  "7987819": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7987819",
+    "last_seen": "2026-08-21T16:32:23.528239+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-08",
+    "title": "Senior Software Engineer, Content Suitability",
+    "url": "https://careers.roblox.com/jobs/7987819?gh_jid=7987819"
+  },
+  "7991993": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T14:37:09.062122+00:00",
+    "job_id": "7991993",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Principal Software Engineer, Engineering Acceleration",
+    "url": "https://careers.roblox.com/jobs/7991993?gh_jid=7991993"
+  },
+  "7992558": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7992558",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-06-10",
+    "title": "Developer Engagement Representative - Thailand (Part-Time Contract)",
+    "url": "https://careers.roblox.com/jobs/7992558?gh_jid=7992558"
+  },
+  "7994532": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7994532",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Senior Product Manager, Compute Platform",
+    "url": "https://careers.roblox.com/jobs/7994532?gh_jid=7994532"
+  },
+  "7997039": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7997039",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Senior Cloud Security Engineer",
+    "url": "https://careers.roblox.com/jobs/7997039?gh_jid=7997039"
+  },
+  "7997105": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7997105",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Principal Technical Program Manager, Compute",
+    "url": "https://careers.roblox.com/jobs/7997105?gh_jid=7997105"
+  },
+  "7997195": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7997195",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Senior Product Manager, Inference Platform",
+    "url": "https://careers.roblox.com/jobs/7997195?gh_jid=7997195"
+  },
+  "7997637": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7997637",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-10",
+    "title": "Senior Software Engineer, UGC Validation",
+    "url": "https://careers.roblox.com/jobs/7997637?gh_jid=7997637"
+  },
+  "7997934": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7997934",
+    "last_seen": "2026-08-06T12:49:36.952642+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-06-12",
+    "title": "Senior Software Engineer, Geometry",
+    "url": "https://careers.roblox.com/jobs/7997934?gh_jid=7997934"
+  },
+  "7998292": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7998292",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-12",
+    "title": "Senior Software Engineer, Geometry",
+    "url": "https://careers.roblox.com/jobs/7998292?gh_jid=7998292"
+  },
+  "7998339": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7998339",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-11",
+    "title": "Senior Software Engineer, Engineering Acceleration Foundations",
+    "url": "https://careers.roblox.com/jobs/7998339?gh_jid=7998339"
+  },
+  "7998366": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "7998366",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-15",
+    "title": "Principal Software Engineer, Physics",
+    "url": "https://careers.roblox.com/jobs/7998366?gh_jid=7998366"
+  },
+  "8001022": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8001022",
+    "last_seen": "2026-08-30T20:11:20.745769+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-11",
+    "title": "Senior Software Engineer (Backend), Communication",
+    "url": "https://careers.roblox.com/jobs/8001022?gh_jid=8001022"
+  },
+  "8001172": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8001172",
+    "last_seen": "2026-08-11T00:14:15.140807+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-11",
+    "title": "Senior Software Engineer (Frontend/Engine), Messaging",
+    "url": "https://careers.roblox.com/jobs/8001172?gh_jid=8001172"
+  },
+  "8003347": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8003347",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-15",
+    "title": "Senior Software Engineer - Creator Business",
+    "url": "https://careers.roblox.com/jobs/8003347?gh_jid=8003347"
+  },
+  "8003825": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8003825",
+    "last_seen": "2026-08-18T22:46:33.542146+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-17",
+    "title": "Senior Product Counsel, Consumer",
+    "url": "https://careers.roblox.com/jobs/8003825?gh_jid=8003825"
+  },
+  "8008607": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8008607",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-15",
+    "title": "Senior Software Engineer - Fraud",
+    "url": "https://careers.roblox.com/jobs/8008607?gh_jid=8008607"
+  },
+  "8009151": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8009151",
+    "last_seen": "2026-08-05T19:59:27.754559+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-16",
+    "title": "Product Manager, Consumer Payments and Subscriptions",
+    "url": "https://careers.roblox.com/jobs/8009151?gh_jid=8009151"
+  },
+  "8010058": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8010058",
+    "last_seen": "2026-08-30T20:11:20.745769+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-18",
+    "title": "Senior Machine Learning Engineer, Reliability",
+    "url": "https://careers.roblox.com/jobs/8010058?gh_jid=8010058"
+  },
+  "8011015": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8011015",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-16",
+    "title": "Senior Frontend Engineer, Voice Communication",
+    "url": "https://careers.roblox.com/jobs/8011015?gh_jid=8011015"
+  },
+  "8011079": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8011079",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-17",
+    "title": "Senior Software Engineer, Ads Platform",
+    "url": "https://careers.roblox.com/jobs/8011079?gh_jid=8011079"
+  },
+  "8011273": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8011273",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-09",
+    "title": "Senior Software Engineer, Data Infrastructure",
+    "url": "https://careers.roblox.com/jobs/8011273?gh_jid=8011273"
+  },
+  "8012671": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8012671",
+    "last_seen": "2026-08-18T00:41:33.769638+00:00",
+    "location": "Gurugram, Haryana, India; India",
+    "posted_date": "2026-06-17",
+    "title": "Senior Product Policy Manager, Regional Policy (SEA/ SA)",
+    "url": "https://careers.roblox.com/jobs/8012671?gh_jid=8012671"
+  },
+  "8013437": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8013437",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-17",
+    "title": "Principal Software Engineer, Backend - Sharing",
+    "url": "https://careers.roblox.com/jobs/8013437?gh_jid=8013437"
+  },
+  "8014486": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8014486",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-23",
+    "title": "Senior Software Engineer, Data Infrastructure",
+    "url": "https://careers.roblox.com/jobs/8014486?gh_jid=8014486"
+  },
+  "8014742": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8014742",
+    "last_seen": "2026-08-05T19:59:27.754559+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-22",
+    "title": "Senior Product Manager, User Life Cycle: Engagement",
+    "url": "https://careers.roblox.com/jobs/8014742?gh_jid=8014742"
+  },
+  "8015824": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8015824",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-18",
+    "title": "Senior Software Engineer, Service Mesh",
+    "url": "https://careers.roblox.com/jobs/8015824?gh_jid=8015824"
+  },
+  "8016277": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8016277",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-18",
+    "title": "Senior Software Engineer - Non-Playable Character Behavior",
+    "url": "https://careers.roblox.com/jobs/8016277?gh_jid=8016277"
+  },
+  "8016408": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8016408",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-18",
+    "title": "Senior Security Software Engineer, IAM",
+    "url": "https://careers.roblox.com/jobs/8016408?gh_jid=8016408"
+  },
+  "8017352": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8017352",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-23",
+    "title": "Senior Software Engineer, Safety Foundation",
+    "url": "https://careers.roblox.com/jobs/8017352?gh_jid=8017352"
+  },
+  "8017415": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8017415",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-23",
+    "title": "Principal Software Engineer",
+    "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415"
+  },
+  "8020695": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8020695",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-06-24",
+    "title": "Developer Engagement Representative - ANZ (Australia / New Zealand)  (Part-Time Contract)",
+    "url": "https://careers.roblox.com/jobs/8020695?gh_jid=8020695"
+  },
+  "8022674": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8022674",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-23",
+    "title": "Senior Privacy Software Engineer",
+    "url": "https://careers.roblox.com/jobs/8022674?gh_jid=8022674"
+  },
+  "8024627": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8024627",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-24",
+    "title": "Principal Software Engineer - Compute (Kubernetes)",
+    "url": "https://careers.roblox.com/jobs/8024627?gh_jid=8024627"
+  },
+  "8024941": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8024941",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-07-31",
+    "title": "Principal Software Engineer, Physics",
+    "url": "https://careers.roblox.com/jobs/8024941?gh_jid=8024941"
+  },
+  "8024947": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8024947",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-07-31",
+    "title": "Senior Software Engineer, Avatar Animation",
+    "url": "https://careers.roblox.com/jobs/8024947?gh_jid=8024947"
+  },
+  "8025021": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8025021",
+    "last_seen": "2026-08-26T00:19:50.373115+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-25",
+    "title": "Software Engineer, Data Engineering",
+    "url": "https://careers.roblox.com/jobs/8025021?gh_jid=8025021"
+  },
+  "8025023": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8025023",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-07-31",
+    "title": "Senior Software Engineer, Geometry",
+    "url": "https://careers.roblox.com/jobs/8025023?gh_jid=8025023"
+  },
+  "8025477": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8025477",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-08",
+    "title": "Principal Frontend Software Engineer, Connections",
+    "url": "https://careers.roblox.com/jobs/8025477?gh_jid=8025477"
+  },
+  "8025510": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8025510",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-24",
+    "title": "Senior Software Engineer (C++)",
+    "url": "https://careers.roblox.com/jobs/8025510?gh_jid=8025510"
+  },
+  "8025516": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8025516",
+    "last_seen": "2026-08-18T22:46:33.542146+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-14",
+    "title": "Principal Software Engineering, App Performance (C++)",
+    "url": "https://careers.roblox.com/jobs/8025516?gh_jid=8025516"
+  },
+  "8027420": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8027420",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-24",
+    "title": "Litigation Paralegal",
+    "url": "https://careers.roblox.com/jobs/8027420?gh_jid=8027420"
+  },
+  "8027587": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8027587",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-30",
+    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
+    "url": "https://careers.roblox.com/jobs/8027587?gh_jid=8027587"
+  },
+  "8027588": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8027588",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-30",
+    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
+    "url": "https://careers.roblox.com/jobs/8027588?gh_jid=8027588"
+  },
+  "8027755": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8027755",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Senior / Principal Infrastructure Engineer - ML Platform",
+    "url": "https://careers.roblox.com/jobs/8027755?gh_jid=8027755"
+  },
+  "8029414": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8029414",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Director, Engineering \u2014 Engineering Acceleration",
+    "url": "https://careers.roblox.com/jobs/8029414?gh_jid=8029414"
+  },
+  "8029695": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8029695",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-26",
+    "title": "Principal Software Engineer, Data Infrastructure",
+    "url": "https://careers.roblox.com/jobs/8029695?gh_jid=8029695"
+  },
+  "8030839": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8030839",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-29",
+    "title": "Senior Engineering Manager, AI Safety Platform",
+    "url": "https://careers.roblox.com/jobs/8030839?gh_jid=8030839"
+  },
+  "8031014": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8031014",
+    "last_seen": "2026-08-30T20:11:20.745769+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-26",
+    "title": "Director, Corporate and Securities Counsel",
+    "url": "https://careers.roblox.com/jobs/8031014?gh_jid=8031014"
+  },
+  "8031166": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8031166",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Principal Software Engineer, Game Safety",
+    "url": "https://careers.roblox.com/jobs/8031166?gh_jid=8031166"
+  },
+  "8035873": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8035873",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-07",
+    "title": "Senior Product Manager, AI Content Safety",
+    "url": "https://careers.roblox.com/jobs/8035873?gh_jid=8035873"
+  },
+  "8036223": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8036223",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-04",
+    "title": "Principal Software Engineer, Engine Systems",
+    "url": "https://careers.roblox.com/jobs/8036223?gh_jid=8036223"
+  },
+  "8036287": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T00:44:41.205374+00:00",
+    "job_id": "8036287",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-06",
+    "title": "Principal Rendering Engineer",
+    "url": "https://careers.roblox.com/jobs/8036287?gh_jid=8036287"
+  },
+  "8036430": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8036430",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-06-29",
+    "title": "Principal Enterprise Security Engineer",
+    "url": "https://careers.roblox.com/jobs/8036430?gh_jid=8036430"
+  },
+  "8036535": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8036535",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-07",
+    "title": "Senior Software Engineer, Client Systems (C++)",
+    "url": "https://careers.roblox.com/jobs/8036535?gh_jid=8036535"
+  },
+  "8036680": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8036680",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-27",
+    "title": "Principal Software Engineer, WebRTC",
+    "url": "https://careers.roblox.com/jobs/8036680?gh_jid=8036680"
+  },
+  "8036724": {
+    "company": "Roblox",
+    "first_seen": "2026-08-20T00:24:10.632932+00:00",
+    "job_id": "8036724",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-19",
+    "title": "Senior Software Engineer, Core UI",
+    "url": "https://careers.roblox.com/jobs/8036724?gh_jid=8036724"
+  },
+  "8036892": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8036892",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Principal Software Engineer - Roblox Database",
+    "url": "https://careers.roblox.com/jobs/8036892?gh_jid=8036892"
+  },
+  "8036943": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8036943",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-02",
+    "title": "Senior Software Engineer, Frontend (App Foundations)",
+    "url": "https://careers.roblox.com/jobs/8036943?gh_jid=8036943"
+  },
+  "8036991": {
+    "company": "Roblox",
+    "first_seen": "2026-08-10T18:49:13.409075+00:00",
+    "job_id": "8036991",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-23",
+    "title": "Technical Sourcer (Short Term)",
+    "url": "https://careers.roblox.com/jobs/8036991?gh_jid=8036991"
+  },
+  "8037082": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8037082",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Senior Data Scientist - Discovery",
+    "url": "https://careers.roblox.com/jobs/8037082?gh_jid=8037082"
+  },
+  "8037805": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8037805",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "London, England, United Kingdom",
+    "posted_date": "2026-07-06",
+    "title": "Senior Security Engineer, Detection and Response",
+    "url": "https://careers.roblox.com/jobs/8037805?gh_jid=8037805"
+  },
+  "8039302": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8039302",
+    "last_seen": "2026-08-27T20:29:45.660771+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-17",
+    "title": "Principal Detection and Response Engineer",
+    "url": "https://careers.roblox.com/jobs/8039302?gh_jid=8039302"
+  },
+  "8039680": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8039680",
+    "last_seen": "2026-09-02T20:54:14.473129+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-31",
+    "title": "Principal Software Engineer, Physics",
+    "url": "https://careers.roblox.com/jobs/8039680?gh_jid=8039680"
+  },
+  "8040179": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8040179",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-01",
+    "title": "Engineering Manager, Creator Analytics",
+    "url": "https://careers.roblox.com/jobs/8040179?gh_jid=8040179"
+  },
+  "8042523": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8042523",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-01",
+    "title": "Senior Enterprise Security Engineer",
+    "url": "https://careers.roblox.com/jobs/8042523?gh_jid=8042523"
+  },
+  "8042554": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8042554",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-01",
+    "title": "Senior Site Reliability Engineer, Compute",
+    "url": "https://careers.roblox.com/jobs/8042554?gh_jid=8042554"
+  },
+  "8046794": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8046794",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-07",
+    "title": "Technical Director - AI Roblox Studio",
+    "url": "https://careers.roblox.com/jobs/8046794?gh_jid=8046794"
+  },
+  "8047106": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047106",
+    "last_seen": "2026-08-26T20:40:45.338533+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-06",
+    "title": "Senior Child Safety Intelligence Analyst",
+    "url": "https://careers.roblox.com/jobs/8047106?gh_jid=8047106"
+  },
+  "8047815": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047815",
+    "last_seen": "2026-08-09T03:04:08.972293+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-16",
+    "title": "Software Engineer, Ads Platform",
+    "url": "https://careers.roblox.com/jobs/8047815?gh_jid=8047815"
+  },
+  "8047817": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047817",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-08",
+    "title": "Senior Software Engineer - Bot Defense",
+    "url": "https://careers.roblox.com/jobs/8047817?gh_jid=8047817"
+  },
+  "8047821": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047821",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-15",
+    "title": "Principal Software Engineer, CI and CD Foundation",
+    "url": "https://careers.roblox.com/jobs/8047821?gh_jid=8047821"
+  },
+  "8047823": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047823",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-15",
+    "title": "Senior Software Engineer: Assistant",
+    "url": "https://careers.roblox.com/jobs/8047823?gh_jid=8047823"
+  },
+  "8047829": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047829",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-28",
+    "title": "Senior Software Engineer, Engineering Acceleration",
+    "url": "https://careers.roblox.com/jobs/8047829?gh_jid=8047829"
+  },
+  "8047831": {
+    "company": "Roblox",
+    "first_seen": "2026-08-14T15:14:49.731386+00:00",
+    "job_id": "8047831",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-14",
+    "title": "Senior Software Engineer - Orchestration",
+    "url": "https://careers.roblox.com/jobs/8047831?gh_jid=8047831"
+  },
+  "8047841": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047841",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-15",
+    "title": "Strategic Sourcing Manager - Technology",
+    "url": "https://careers.roblox.com/jobs/8047841?gh_jid=8047841"
+  },
+  "8047847": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047847",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Goodyear, Arizona, United States",
+    "posted_date": "2026-07-14",
+    "title": "Data Center Asset Management Specialist",
+    "url": "https://careers.roblox.com/jobs/8047847?gh_jid=8047847"
+  },
+  "8047865": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047865",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-08-03",
+    "title": "Law Enforcement Liaison, Mississippi",
+    "url": "https://careers.roblox.com/jobs/8047865?gh_jid=8047865"
+  },
+  "8047875": {
+    "company": "Roblox",
+    "first_seen": "2026-08-19T19:59:49.909680+00:00",
+    "job_id": "8047875",
+    "last_seen": "2026-08-31T22:04:16.568786+00:00",
+    "location": "Goodyear, Arizona, United States",
+    "posted_date": "2026-08-19",
+    "title": "Data Center Engineer",
+    "url": "https://careers.roblox.com/jobs/8047875?gh_jid=8047875"
+  },
+  "8047877": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8047877",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-15",
+    "title": "Senior Machine Learning Engineering Manager, Safety AI Systems",
+    "url": "https://careers.roblox.com/jobs/8047877?gh_jid=8047877"
+  },
+  "8048004": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8048004",
+    "last_seen": "2026-08-24T20:58:47.375837+00:00",
+    "location": "Remote",
+    "posted_date": "2026-07-31",
+    "title": "Head of Public Policy, Saudi Arabia",
+    "url": "https://careers.roblox.com/jobs/8048004?gh_jid=8048004"
+  },
+  "8049802": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8049802",
+    "last_seen": "2026-09-03T20:10:16.845133+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-21",
+    "title": "Senior Data Scientist, Creator Platform",
+    "url": "https://careers.roblox.com/jobs/8049802?gh_jid=8049802"
+  },
+  "8052237": {
+    "company": "Roblox",
+    "first_seen": "2026-08-27T20:29:45.660771+00:00",
+    "job_id": "8052237",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-27",
+    "title": "Engineering Manager, Data Tooling",
+    "url": "https://careers.roblox.com/jobs/8052237?gh_jid=8052237"
+  },
+  "8052466": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8052466",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-04",
+    "title": "Principal Frontend Software Engineer - Discovery UX",
+    "url": "https://careers.roblox.com/jobs/8052466?gh_jid=8052466"
+  },
+  "8054257": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8054257",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-10",
+    "title": "3D Animator (Short Term)",
+    "url": "https://careers.roblox.com/jobs/8054257?gh_jid=8054257"
+  },
+  "8055450": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8055450",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-30",
+    "title": "Senior Growth Data Engineer",
+    "url": "https://careers.roblox.com/jobs/8055450?gh_jid=8055450"
+  },
+  "8055512": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8055512",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-28",
+    "title": "Senior Engineering Manager, AI Roblox Studio",
+    "url": "https://careers.roblox.com/jobs/8055512?gh_jid=8055512"
+  },
+  "8056346": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8056346",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-15",
+    "title": "Senior Security GRC Analyst",
+    "url": "https://careers.roblox.com/jobs/8056346?gh_jid=8056346"
+  },
+  "8056362": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8056362",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-17",
+    "title": "Senior Software Engineer, Compute Cell Platform",
+    "url": "https://careers.roblox.com/jobs/8056362?gh_jid=8056362"
+  },
+  "8060254": {
+    "company": "Roblox",
+    "first_seen": "2026-08-30T20:11:20.745769+00:00",
+    "job_id": "8060254",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-28",
+    "title": "Software Engineer, Economy Platform",
+    "url": "https://careers.roblox.com/jobs/8060254?gh_jid=8060254"
+  },
+  "8060957": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8060957",
+    "last_seen": "2026-08-27T20:29:45.660771+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-17",
+    "title": "Manager, Workplace Services",
+    "url": "https://careers.roblox.com/jobs/8060957?gh_jid=8060957"
+  },
+  "8065848": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8065848",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-24",
+    "title": "Strategic Financial Analyst, Revenue",
+    "url": "https://careers.roblox.com/jobs/8065848?gh_jid=8065848"
+  },
+  "8066252": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T00:44:41.205374+00:00",
+    "job_id": "8066252",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-06",
+    "title": "Analyst, Tools & Systems Administration",
+    "url": "https://careers.roblox.com/jobs/8066252?gh_jid=8066252"
+  },
+  "8066262": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T19:32:49.167469+00:00",
+    "job_id": "8066262",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "Senior Threat Investigator, Safety Investigations",
+    "url": "https://careers.roblox.com/jobs/8066262?gh_jid=8066262"
+  },
+  "8067424": {
+    "company": "Roblox",
+    "first_seen": "2026-08-10T18:49:13.409075+00:00",
+    "job_id": "8067424",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-10",
+    "title": "Technical Director, Roblox Studio",
+    "url": "https://careers.roblox.com/jobs/8067424?gh_jid=8067424"
+  },
+  "8068295": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8068295",
+    "last_seen": "2026-08-19T19:59:49.909680+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-22",
+    "title": "Global Benefits Program Manager (Short Term)",
+    "url": "https://careers.roblox.com/jobs/8068295?gh_jid=8068295"
+  },
+  "8068678": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8068678",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-03",
+    "title": "Senior Product Designer, Safety",
+    "url": "https://careers.roblox.com/jobs/8068678?gh_jid=8068678"
+  },
+  "8069987": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8069987",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-04",
+    "title": "Quality Analyst",
+    "url": "https://careers.roblox.com/jobs/8069987?gh_jid=8069987"
+  },
+  "8069989": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8069989",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-05",
+    "title": "Proactive Moderation Operations Specialist",
+    "url": "https://careers.roblox.com/jobs/8069989?gh_jid=8069989"
+  },
+  "8069995": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8069995",
+    "last_seen": "2026-08-12T00:14:58.117029+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-07-20",
+    "title": "Product Support Specialist - Text Filter",
+    "url": "https://careers.roblox.com/jobs/8069995?gh_jid=8069995"
+  },
+  "8069997": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8069997",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-07-28",
+    "title": "Support Escalations Specialist",
+    "url": "https://careers.roblox.com/jobs/8069997?gh_jid=8069997"
+  },
+  "8070025": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8070025",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-07-28",
+    "title": "Quality Analyst",
+    "url": "https://careers.roblox.com/jobs/8070025?gh_jid=8070025"
+  },
+  "8070027": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8070027",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-07-29",
+    "title": "Product Support Specialist",
+    "url": "https://careers.roblox.com/jobs/8070027?gh_jid=8070027"
+  },
+  "8070037": {
+    "company": "Roblox",
+    "first_seen": "2026-08-13T14:24:07.085100+00:00",
+    "job_id": "8070037",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-13",
+    "title": "Lead, Support Operations Excellence",
+    "url": "https://careers.roblox.com/jobs/8070037?gh_jid=8070037"
+  },
+  "8070124": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8070124",
+    "last_seen": "2026-08-31T22:04:16.568786+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-03",
+    "title": "Content Designer",
+    "url": "https://careers.roblox.com/jobs/8070124?gh_jid=8070124"
+  },
+  "8070133": {
+    "company": "Roblox",
+    "first_seen": "2026-08-13T18:23:43.276211+00:00",
+    "job_id": "8070133",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-13",
+    "title": "User Researcher",
+    "url": "https://careers.roblox.com/jobs/8070133?gh_jid=8070133"
+  },
+  "8070888": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8070888",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-23",
+    "title": "Senior Offensive Security Engineer",
+    "url": "https://careers.roblox.com/jobs/8070888?gh_jid=8070888"
+  },
+  "8070890": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8070890",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-21",
+    "title": "Senior Detection and Response Engineer",
+    "url": "https://careers.roblox.com/jobs/8070890?gh_jid=8070890"
+  },
+  "8072244": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T16:46:14.297041+00:00",
+    "job_id": "8072244",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-05",
+    "title": "[2027] Software Engineer, Early Career",
+    "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244"
+  },
+  "8072713": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T16:46:14.297041+00:00",
+    "job_id": "8072713",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-05",
+    "title": "[Summer 2027] Software Engineer Intern",
+    "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713"
+  },
+  "8073279": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8073279",
+    "last_seen": "2026-08-31T22:04:16.568786+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-23",
+    "title": "Senior Software Engineer, ML Infra (Communication Safety)",
+    "url": "https://careers.roblox.com/jobs/8073279?gh_jid=8073279"
+  },
+  "8073283": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8073283",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-20",
+    "title": "Principal Machine Learning Engineer, Content Safety",
+    "url": "https://careers.roblox.com/jobs/8073283?gh_jid=8073283"
+  },
+  "8075125": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8075125",
+    "last_seen": "2026-08-18T22:46:33.542146+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-22",
+    "title": "Global Security Manager, Campus Security",
+    "url": "https://careers.roblox.com/jobs/8075125?gh_jid=8075125"
+  },
+  "8077261": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8077261",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-28",
+    "title": "Senior Engineering Manager, Communications",
+    "url": "https://careers.roblox.com/jobs/8077261?gh_jid=8077261"
+  },
+  "8077671": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8077671",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-21",
+    "title": "Growth Marketing Manager Lead",
+    "url": "https://careers.roblox.com/jobs/8077671?gh_jid=8077671"
+  },
+  "8078014": {
+    "company": "Roblox",
+    "first_seen": "2026-08-10T18:49:13.409075+00:00",
+    "job_id": "8078014",
+    "last_seen": "2026-08-16T23:47:13.695186+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-24",
+    "title": "Senior Technical Recruiter",
+    "url": "https://careers.roblox.com/jobs/8078014?gh_jid=8078014"
+  },
+  "8079795": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T00:44:41.205374+00:00",
+    "job_id": "8079795",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-06",
+    "title": "Senior Software Engineer - Studio Tools",
+    "url": "https://careers.roblox.com/jobs/8079795?gh_jid=8079795"
+  },
+  "8079797": {
+    "company": "Roblox",
+    "first_seen": "2026-08-20T20:34:45.417698+00:00",
+    "job_id": "8079797",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-20",
+    "title": "Senior Software Engineer - Core Platform and Systems",
+    "url": "https://careers.roblox.com/jobs/8079797?gh_jid=8079797"
+  },
+  "8079799": {
+    "company": "Roblox",
+    "first_seen": "2026-08-20T20:34:45.417698+00:00",
+    "job_id": "8079799",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-20",
+    "title": "Senior Software Engineer - Core UX Studio",
+    "url": "https://careers.roblox.com/jobs/8079799?gh_jid=8079799"
+  },
+  "8079846": {
+    "company": "Roblox",
+    "first_seen": "2026-08-14T15:14:49.731386+00:00",
+    "job_id": "8079846",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-13",
+    "title": "Senior/Principal Product Manager, Engine Systems Foundations",
+    "url": "https://careers.roblox.com/jobs/8079846?gh_jid=8079846"
+  },
+  "8080438": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8080438",
+    "last_seen": "2026-09-02T20:54:14.473129+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-30",
+    "title": "Software Engineer, User Frameworks",
+    "url": "https://careers.roblox.com/jobs/8080438?gh_jid=8080438"
+  },
+  "8082263": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8082263",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States; Washington, District of Columbia, United States",
+    "posted_date": "2026-07-31",
+    "title": "Senior Director, Policy Communications",
+    "url": "https://careers.roblox.com/jobs/8082263?gh_jid=8082263"
+  },
+  "8082672": {
+    "company": "Roblox",
+    "first_seen": "2026-08-17T20:48:20.600007+00:00",
+    "job_id": "8082672",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-08-17",
+    "title": "People & Talent Partner",
+    "url": "https://careers.roblox.com/jobs/8082672?gh_jid=8082672"
+  },
+  "8083281": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8083281",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-07-29",
+    "title": "Developer Engagement Representative - Philippines (Part-Time Contract)",
+    "url": "https://careers.roblox.com/jobs/8083281?gh_jid=8083281"
+  },
+  "8083944": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8083944",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-31",
+    "title": "Software Engineer, Communications",
+    "url": "https://careers.roblox.com/jobs/8083944?gh_jid=8083944"
+  },
+  "8084445": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8084445",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Vancouver, British Columbia, Canada",
+    "posted_date": "2026-07-24",
+    "title": "Principal Software Engineer, Physics",
+    "url": "https://careers.roblox.com/jobs/8084445?gh_jid=8084445"
+  },
+  "8089039": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8089039",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-03",
+    "title": "Senior Software Engineer - Consoles",
+    "url": "https://careers.roblox.com/jobs/8089039?gh_jid=8089039"
+  },
+  "8090079": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8090079",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-28",
+    "title": "Engineering Manager, Machine Learning Infrastructure, Ads",
+    "url": "https://careers.roblox.com/jobs/8090079?gh_jid=8090079"
+  },
+  "8092905": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8092905",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-31",
+    "title": "Senior Software Engineer- Account Authentication",
+    "url": "https://careers.roblox.com/jobs/8092905?gh_jid=8092905"
+  },
+  "8094470": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T00:19:50.373115+00:00",
+    "job_id": "8094470",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-24",
+    "title": "Senior Software Engineer - Content Understanding",
+    "url": "https://careers.roblox.com/jobs/8094470?gh_jid=8094470"
+  },
+  "8094661": {
+    "company": "Roblox",
+    "first_seen": "2026-08-15T21:50:39.015861+00:00",
+    "job_id": "8094661",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-14",
+    "title": "Senior Product Designer, Monetization",
+    "url": "https://careers.roblox.com/jobs/8094661?gh_jid=8094661"
+  },
+  "8094717": {
+    "company": "Roblox",
+    "first_seen": "2026-08-06T01:17:09.391281+00:00",
+    "job_id": "8094717",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-05",
+    "title": "Senior Privacy Engineer",
+    "url": "https://careers.roblox.com/jobs/8094717?gh_jid=8094717"
+  },
+  "8097435": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8097435",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-05",
+    "title": "Moderation Escalation Specialist",
+    "url": "https://careers.roblox.com/jobs/8097435?gh_jid=8097435"
+  },
+  "8097469": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T00:44:41.205374+00:00",
+    "job_id": "8097469",
+    "last_seen": "2026-09-01T19:15:37.629658+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-06",
+    "title": "Senior Data Scientist - Authentication",
+    "url": "https://careers.roblox.com/jobs/8097469?gh_jid=8097469"
+  },
+  "8097701": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T16:50:21.888870+00:00",
+    "job_id": "8097701",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "Software Engineer, Account Authentication",
+    "url": "https://careers.roblox.com/jobs/8097701?gh_jid=8097701"
+  },
+  "8097774": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8097774",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-07-30",
+    "title": "Hardware & Testing Lab Technician",
+    "url": "https://careers.roblox.com/jobs/8097774?gh_jid=8097774"
+  },
+  "8097810": {
+    "company": "Roblox",
+    "first_seen": "2026-08-19T19:59:49.909680+00:00",
+    "job_id": "8097810",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-19",
+    "title": "Senior Software Engineer, Runtime",
+    "url": "https://careers.roblox.com/jobs/8097810?gh_jid=8097810"
+  },
+  "8099348": {
+    "company": "Roblox",
+    "first_seen": "2026-08-05T15:49:53.356957+00:00",
+    "job_id": "8099348",
+    "last_seen": "2026-08-12T19:32:49.167469+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-04",
+    "title": "Recruiting Operations Coordinator (Short Term)",
+    "url": "https://careers.roblox.com/jobs/8099348?gh_jid=8099348"
+  },
+  "8099956": {
+    "company": "Roblox",
+    "first_seen": "2026-08-17T20:48:20.600007+00:00",
+    "job_id": "8099956",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-17",
+    "title": "Engineering Manager - Subscriptions",
+    "url": "https://careers.roblox.com/jobs/8099956?gh_jid=8099956"
+  },
+  "8099958": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T19:32:49.167469+00:00",
+    "job_id": "8099958",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "Principal Security Software Engineer, IAM",
+    "url": "https://careers.roblox.com/jobs/8099958?gh_jid=8099958"
+  },
+  "8103714": {
+    "company": "Roblox",
+    "first_seen": "2026-08-13T00:16:37.432317+00:00",
+    "job_id": "8103714",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "Senior Machine Learning Engineering Manager, Text Safety",
+    "url": "https://careers.roblox.com/jobs/8103714?gh_jid=8103714"
+  },
+  "8104285": {
+    "company": "Roblox",
+    "first_seen": "2026-08-07T19:25:12.269987+00:00",
+    "job_id": "8104285",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-07",
+    "title": "Senior Technical Program Manager, Human-in-the-Loop Operations",
+    "url": "https://careers.roblox.com/jobs/8104285?gh_jid=8104285"
+  },
+  "8106959": {
+    "company": "Roblox",
+    "first_seen": "2026-08-06T12:49:36.952642+00:00",
+    "job_id": "8106959",
+    "last_seen": "2026-08-31T22:04:16.568786+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-06",
+    "title": "Senior Product Policy Manager, Monetization",
+    "url": "https://careers.roblox.com/jobs/8106959?gh_jid=8106959"
+  },
+  "8107091": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T16:50:21.888870+00:00",
+    "job_id": "8107091",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "People Business Associate (Short-Term)",
+    "url": "https://careers.roblox.com/jobs/8107091?gh_jid=8107091"
+  },
+  "8107093": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T16:50:21.888870+00:00",
+    "job_id": "8107093",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "People Business Associate (Short-term)",
+    "url": "https://careers.roblox.com/jobs/8107093?gh_jid=8107093"
+  },
+  "8107204": {
+    "company": "Roblox",
+    "first_seen": "2026-08-30T20:11:20.745769+00:00",
+    "job_id": "8107204",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-27",
+    "title": "Legal Operations Technology Specialist",
+    "url": "https://careers.roblox.com/jobs/8107204?gh_jid=8107204"
+  },
+  "8107208": {
+    "company": "Roblox",
+    "first_seen": "2026-08-13T14:24:07.085100+00:00",
+    "job_id": "8107208",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-12",
+    "title": "Senior Payments Compliance Manager",
+    "url": "https://careers.roblox.com/jobs/8107208?gh_jid=8107208"
+  },
+  "8111889": {
+    "company": "Roblox",
+    "first_seen": "2026-08-19T19:59:49.909680+00:00",
+    "job_id": "8111889",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-19",
+    "title": "Senior Product Support Specialist",
+    "url": "https://careers.roblox.com/jobs/8111889?gh_jid=8111889"
+  },
+  "8113334": {
+    "company": "Roblox",
+    "first_seen": "2026-08-14T15:14:49.731386+00:00",
+    "job_id": "8113334",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-14",
+    "title": "Software Engineer, Creator Business",
+    "url": "https://careers.roblox.com/jobs/8113334?gh_jid=8113334"
+  },
+  "8115917": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T20:40:45.338533+00:00",
+    "job_id": "8115917",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-26",
+    "title": "Software Engineer, Creator",
+    "url": "https://careers.roblox.com/jobs/8115917?gh_jid=8115917"
+  },
+  "8120054": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8120054",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-21",
+    "title": "Senior Software Engineer, Creator Experience",
+    "url": "https://careers.roblox.com/jobs/8120054?gh_jid=8120054"
+  },
+  "8120368": {
+    "company": "Roblox",
+    "first_seen": "2026-08-13T18:23:43.276211+00:00",
+    "job_id": "8120368",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-13",
+    "title": "Business Operations Associate",
+    "url": "https://careers.roblox.com/jobs/8120368?gh_jid=8120368"
+  },
+  "8121877": {
+    "company": "Roblox",
+    "first_seen": "2026-08-11T18:04:32.514596+00:00",
+    "job_id": "8121877",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Gurugram, Haryana, India",
+    "posted_date": "2026-08-11",
+    "title": "Receptionist",
+    "url": "https://careers.roblox.com/jobs/8121877?gh_jid=8121877"
+  },
+  "8121895": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T00:19:50.373115+00:00",
+    "job_id": "8121895",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-24",
+    "title": "Senior/Principal Data Scientist, AVC ( Audio/Video/Communications)",
+    "url": "https://careers.roblox.com/jobs/8121895?gh_jid=8121895"
+  },
+  "8123004": {
+    "company": "Roblox",
+    "first_seen": "2026-08-17T20:48:20.600007+00:00",
+    "job_id": "8123004",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-17",
+    "title": "Software Engineer, Foundation AI",
+    "url": "https://careers.roblox.com/jobs/8123004?gh_jid=8123004"
+  },
+  "8123084": {
+    "company": "Roblox",
+    "first_seen": "2026-08-12T00:14:58.117029+00:00",
+    "job_id": "8123084",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-11",
+    "title": "TLM (Tech Lead Manager) - Recommendation Systems (Homepage)",
+    "url": "https://careers.roblox.com/jobs/8123084?gh_jid=8123084"
+  },
+  "8127033": {
+    "company": "Roblox",
+    "first_seen": "2026-08-19T19:59:49.909680+00:00",
+    "job_id": "8127033",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-19",
+    "title": "Senior Software Engineer, Privacy Infrastructure",
+    "url": "https://careers.roblox.com/jobs/8127033?gh_jid=8127033"
+  },
+  "8127054": {
+    "company": "Roblox",
+    "first_seen": "2026-08-24T20:58:47.375837+00:00",
+    "job_id": "8127054",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-24",
+    "title": "Senior Data Scientist, Consumer Apps",
+    "url": "https://careers.roblox.com/jobs/8127054?gh_jid=8127054"
+  },
+  "8127056": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8127056",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-01",
+    "title": "Senior Software Engineer - Desktop",
+    "url": "https://careers.roblox.com/jobs/8127056?gh_jid=8127056"
+  },
+  "8127058": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T00:19:50.373115+00:00",
+    "job_id": "8127058",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-24",
+    "title": "Senior Product Manager, Content Sharing",
+    "url": "https://careers.roblox.com/jobs/8127058?gh_jid=8127058"
+  },
+  "8129395": {
+    "company": "Roblox",
+    "first_seen": "2026-09-01T19:15:37.629658+00:00",
+    "job_id": "8129395",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-31",
+    "title": "Senior Software Engineer, Observability",
+    "url": "https://careers.roblox.com/jobs/8129395?gh_jid=8129395"
+  },
+  "8131273": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T00:19:50.373115+00:00",
+    "job_id": "8131273",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-24",
+    "title": "Senior Software Engineer (Backend), Communities",
+    "url": "https://careers.roblox.com/jobs/8131273?gh_jid=8131273"
+  },
+  "8131354": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8131354",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-01",
+    "title": "Senior Software Engineer, 3D Engine Scalability",
+    "url": "https://careers.roblox.com/jobs/8131354?gh_jid=8131354"
+  },
+  "8131689": {
+    "company": "Roblox",
+    "first_seen": "2026-08-26T00:19:50.373115+00:00",
+    "job_id": "8131689",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-25",
+    "title": "Software Engineer, Creator Studio",
+    "url": "https://careers.roblox.com/jobs/8131689?gh_jid=8131689"
+  },
+  "8131695": {
+    "company": "Roblox",
+    "first_seen": "2026-08-18T20:55:41.506035+00:00",
+    "job_id": "8131695",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-18",
+    "title": "Senior Director of Engineering, Generative AI",
+    "url": "https://careers.roblox.com/jobs/8131695?gh_jid=8131695"
+  },
+  "8139492": {
+    "company": "Roblox",
+    "first_seen": "2026-08-19T19:59:49.909680+00:00",
+    "job_id": "8139492",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-18",
+    "title": "Product Marketing Manager, Marketplace",
+    "url": "https://careers.roblox.com/jobs/8139492?gh_jid=8139492"
+  },
+  "8140563": {
+    "company": "Roblox",
+    "first_seen": "2026-08-21T16:32:23.528239+00:00",
+    "job_id": "8140563",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-21",
+    "title": "Senior Software Engineer, iOS",
+    "url": "https://careers.roblox.com/jobs/8140563?gh_jid=8140563"
+  },
+  "8140565": {
+    "company": "Roblox",
+    "first_seen": "2026-08-22T16:07:49.341799+00:00",
+    "job_id": "8140565",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-21",
+    "title": "Senior Fullstack Software Engineer, Profiles",
+    "url": "https://careers.roblox.com/jobs/8140565?gh_jid=8140565"
+  },
+  "8142712": {
+    "company": "Roblox",
+    "first_seen": "2026-08-20T20:34:45.417698+00:00",
+    "job_id": "8142712",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-19",
+    "title": "Senior Software Engineer - Marketplace Foundation",
+    "url": "https://careers.roblox.com/jobs/8142712?gh_jid=8142712"
+  },
+  "8143149": {
+    "company": "Roblox",
+    "first_seen": "2026-08-24T20:58:47.375837+00:00",
+    "job_id": "8143149",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "Washington, District of Columbia, United States",
+    "posted_date": "2026-08-24",
+    "title": "Manager, Public Policy and US State Strategy",
+    "url": "https://careers.roblox.com/jobs/8143149?gh_jid=8143149"
+  },
+  "8143976": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8143976",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-02",
+    "title": "[2027] Associate Product Manager, Early Career",
+    "url": "https://careers.roblox.com/jobs/8143976?gh_jid=8143976"
+  },
+  "8143981": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8143981",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-02",
+    "title": "[Summer 2027] Product Management Intern",
+    "url": "https://careers.roblox.com/jobs/8143981?gh_jid=8143981"
+  },
+  "8143982": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8143982",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-02",
+    "title": "[2027] Associate Product Designer, Early Career",
+    "url": "https://careers.roblox.com/jobs/8143982?gh_jid=8143982"
+  },
+  "8143984": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8143984",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-02",
+    "title": "[Summer 2027] Product Design Intern",
+    "url": "https://careers.roblox.com/jobs/8143984?gh_jid=8143984"
+  },
+  "8148344": {
+    "company": "Roblox",
+    "first_seen": "2026-08-22T16:07:49.341799+00:00",
+    "job_id": "8148344",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-21",
+    "title": "People Science & Learning Associate",
+    "url": "https://careers.roblox.com/jobs/8148344?gh_jid=8148344"
+  },
+  "8148394": {
+    "company": "Roblox",
+    "first_seen": "2026-08-22T16:07:49.341799+00:00",
+    "job_id": "8148394",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-21",
+    "title": "Senior Software Engineer - Storage",
+    "url": "https://careers.roblox.com/jobs/8148394?gh_jid=8148394"
+  },
+  "8160843": {
+    "company": "Roblox",
+    "first_seen": "2026-08-27T20:29:45.660771+00:00",
+    "job_id": "8160843",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-08-26",
+    "title": "Senior Software Engineer, Core Engine",
+    "url": "https://careers.roblox.com/jobs/8160843?gh_jid=8160843"
+  },
+  "8164933": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8164933",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-04",
+    "title": "Senior Software Engineer, Sharing",
+    "url": "https://careers.roblox.com/jobs/8164933?gh_jid=8164933"
+  },
+  "8168157": {
+    "company": "Roblox",
+    "first_seen": "2026-09-02T18:40:12.604676+00:00",
+    "job_id": "8168157",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-01",
+    "title": "Marketing Manager, Live Content (Short-Term)",
+    "url": "https://careers.roblox.com/jobs/8168157?gh_jid=8168157"
+  },
+  "8171037": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8171037",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-04",
+    "title": "Brand and Ad Operations Specialist",
+    "url": "https://careers.roblox.com/jobs/8171037?gh_jid=8171037"
+  },
+  "8171039": {
+    "company": "Roblox",
+    "first_seen": "2026-09-03T20:10:16.845133+00:00",
+    "job_id": "8171039",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-03",
+    "title": "Revenue Operations Manager",
+    "url": "https://careers.roblox.com/jobs/8171039?gh_jid=8171039"
+  },
+  "8171128": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8171128",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-04",
+    "title": "IT Support Technician",
+    "url": "https://careers.roblox.com/jobs/8171128?gh_jid=8171128"
+  },
+  "8172233": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8172233",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-04",
+    "title": "Privacy & Security Counsel",
+    "url": "https://careers.roblox.com/jobs/8172233?gh_jid=8172233"
+  },
+  "8172297": {
+    "company": "Roblox",
+    "first_seen": "2026-09-03T20:10:16.845133+00:00",
+    "job_id": "8172297",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-03",
+    "title": "Senior Data Engineer, Economy",
+    "url": "https://careers.roblox.com/jobs/8172297?gh_jid=8172297"
+  },
+  "8174475": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8174475",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-04",
+    "title": "Senior Software Engineer, Data Engineering (Short Term)",
+    "url": "https://careers.roblox.com/jobs/8174475?gh_jid=8174475"
+  },
+  "8180852": {
+    "company": "Roblox",
+    "first_seen": "2026-09-08T14:32:21.641784+00:00",
+    "job_id": "8180852",
+    "last_seen": "2026-09-08T14:32:21.641784+00:00",
+    "location": "San Mateo, CA, United States",
+    "posted_date": "2026-09-07",
+    "title": "Senior Counsel, Litigation",
+    "url": "https://careers.roblox.com/jobs/8180852?gh_jid=8180852"
+  }
+}

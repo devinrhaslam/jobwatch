@@ -1,0 +1,602 @@
+{
+  "24e00c6c-2ba8-4a34-b412-670bded1a92d": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "24e00c6c-2ba8-4a34-b412-670bded1a92d",
+    "last_seen": "2026-08-20T20:34:24.104994+00:00",
+    "location": "Italy",
+    "posted_date": "2026-02-20",
+    "title": "Account Executive - Italy",
+    "url": "https://jobs.ashbyhq.com/redis/24e00c6c-2ba8-4a34-b412-670bded1a92d"
+  },
+  "296ee333-613e-4b78-9ba2-bf9bda838b7c": {
+    "company": "Redis",
+    "first_seen": "2026-10-01T12:43:12.141718+00:00",
+    "job_id": "296ee333-613e-4b78-9ba2-bf9bda838b7c",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-10-01",
+    "title": "Sales Development Representative - Austin",
+    "url": "https://jobs.ashbyhq.com/redis/296ee333-613e-4b78-9ba2-bf9bda838b7c"
+  },
+  "2c37f565-f233-49d0-aae5-dca1d72ddae2": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "2c37f565-f233-49d0-aae5-dca1d72ddae2",
+    "last_seen": "2026-08-07T00:44:29.254609+00:00",
+    "location": "Bulgaria",
+    "posted_date": "2026-07-21",
+    "title": "Senior Software Engineer , AI and Search Team - C/C++ or Rust",
+    "url": "https://jobs.ashbyhq.com/redis/2c37f565-f233-49d0-aae5-dca1d72ddae2"
+  },
+  "2d639755-2005-4346-9a4f-a7ae8129c7e8": {
+    "company": "Redis",
+    "first_seen": "2026-08-12T16:49:57.878438+00:00",
+    "job_id": "2d639755-2005-4346-9a4f-a7ae8129c7e8",
+    "last_seen": "2026-08-21T18:46:38.225131+00:00",
+    "location": "United States",
+    "posted_date": "2026-08-12",
+    "title": "Video Lead, Video & Animation - Contractor",
+    "url": "https://jobs.ashbyhq.com/redis/2d639755-2005-4346-9a4f-a7ae8129c7e8"
+  },
+  "2eca9474-f7ec-43e0-84a7-9bb9b1b0f270": {
+    "company": "Redis",
+    "first_seen": "2026-09-14T22:21:45.971715+00:00",
+    "job_id": "2eca9474-f7ec-43e0-84a7-9bb9b1b0f270",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Germany",
+    "posted_date": "2026-09-16",
+    "title": "Senior Solutions Architect - Germany",
+    "url": "https://jobs.ashbyhq.com/redis/2eca9474-f7ec-43e0-84a7-9bb9b1b0f270"
+  },
+  "38593ce4-10fe-4718-8c04-26bfaefef9d3": {
+    "company": "Redis",
+    "first_seen": "2026-08-20T20:34:24.104994+00:00",
+    "job_id": "38593ce4-10fe-4718-8c04-26bfaefef9d3",
+    "last_seen": "2026-08-26T20:40:23.355990+00:00",
+    "location": "Canada",
+    "posted_date": "2026-08-20",
+    "title": "Director, Platform Engineering",
+    "url": "https://jobs.ashbyhq.com/redis/38593ce4-10fe-4718-8c04-26bfaefef9d3"
+  },
+  "3f228666-d541-448a-9b0b-81ba8056ed06": {
+    "company": "Redis",
+    "first_seen": "2026-08-26T20:40:23.355990+00:00",
+    "job_id": "3f228666-d541-448a-9b0b-81ba8056ed06",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-08-26",
+    "title": "Strategic Account Executive (T-Mobile)",
+    "url": "https://jobs.ashbyhq.com/redis/3f228666-d541-448a-9b0b-81ba8056ed06"
+  },
+  "41fd75a5-b552-4c5a-aa9b-0d8013f5ca5d": {
+    "company": "Redis",
+    "first_seen": "2026-09-16T20:45:34.663657+00:00",
+    "job_id": "41fd75a5-b552-4c5a-aa9b-0d8013f5ca5d",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Italy",
+    "posted_date": "2026-09-16",
+    "title": "Enterprise account executive  - Milan",
+    "url": "https://jobs.ashbyhq.com/redis/41fd75a5-b552-4c5a-aa9b-0d8013f5ca5d"
+  },
+  "45d64fa6-4ede-4409-93f2-e7c11adb4d11": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "45d64fa6-4ede-4409-93f2-e7c11adb4d11",
+    "last_seen": "2026-09-28T21:47:09.515424+00:00",
+    "location": "Italy",
+    "posted_date": "2026-07-15",
+    "title": "Senior Professional Services Consulting Engineer",
+    "url": "https://jobs.ashbyhq.com/redis/45d64fa6-4ede-4409-93f2-e7c11adb4d11"
+  },
+  "4646503c-513c-4c62-91bd-515267d41ca3": {
+    "company": "Redis",
+    "first_seen": "2026-10-12T23:15:36.700104+00:00",
+    "job_id": "4646503c-513c-4c62-91bd-515267d41ca3",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "London, England",
+    "posted_date": "2026-10-12",
+    "title": "Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/4646503c-513c-4c62-91bd-515267d41ca3"
+  },
+  "551b3656-59af-4ee5-b511-c0fc01fdf524": {
+    "company": "Redis",
+    "first_seen": "2026-09-08T14:31:59.455743+00:00",
+    "job_id": "551b3656-59af-4ee5-b511-c0fc01fdf524",
+    "last_seen": "2026-10-12T02:13:00.561244+00:00",
+    "location": "India",
+    "posted_date": "2026-09-04",
+    "title": "Senior NetSuite Administrator",
+    "url": "https://jobs.ashbyhq.com/redis/551b3656-59af-4ee5-b511-c0fc01fdf524"
+  },
+  "595eacf4-ac63-4927-9c1f-85dc07fabcc8": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "595eacf4-ac63-4927-9c1f-85dc07fabcc8",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-07-10",
+    "title": "Account Executive - NYC",
+    "url": "https://jobs.ashbyhq.com/redis/595eacf4-ac63-4927-9c1f-85dc07fabcc8"
+  },
+  "5a1e84db-5be1-479e-b448-2735eb40c591": {
+    "company": "Redis",
+    "first_seen": "2026-08-18T20:55:21.293487+00:00",
+    "job_id": "5a1e84db-5be1-479e-b448-2735eb40c591",
+    "last_seen": "2026-09-15T21:03:32.415325+00:00",
+    "location": "Germany",
+    "posted_date": "2026-08-18",
+    "title": "Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/5a1e84db-5be1-479e-b448-2735eb40c591"
+  },
+  "5abb3d7f-cb29-47e2-b011-d01ae96ee714": {
+    "company": "Redis",
+    "first_seen": "2026-08-21T18:46:38.225131+00:00",
+    "job_id": "5abb3d7f-cb29-47e2-b011-d01ae96ee714",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-08-26",
+    "title": "Strategic Account Executive - FinServ (NYC)",
+    "url": "https://jobs.ashbyhq.com/redis/5abb3d7f-cb29-47e2-b011-d01ae96ee714"
+  },
+  "66756ddc-a8e4-4dea-b92f-0dd38ee0513b": {
+    "company": "Redis",
+    "first_seen": "2026-09-08T14:31:59.455743+00:00",
+    "job_id": "66756ddc-a8e4-4dea-b92f-0dd38ee0513b",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-09-04",
+    "title": "Solution Architect - NY Metro",
+    "url": "https://jobs.ashbyhq.com/redis/66756ddc-a8e4-4dea-b92f-0dd38ee0513b"
+  },
+  "66bc9c95-1248-45f6-b3f1-d5c2d3994198": {
+    "company": "Redis",
+    "first_seen": "2026-08-18T20:55:21.293487+00:00",
+    "job_id": "66bc9c95-1248-45f6-b3f1-d5c2d3994198",
+    "last_seen": "2026-10-12T23:15:36.700104+00:00",
+    "location": "HQ (San Francisco)",
+    "posted_date": "2026-08-17",
+    "title": "Director, Developer Marketing",
+    "url": "https://jobs.ashbyhq.com/redis/66bc9c95-1248-45f6-b3f1-d5c2d3994198"
+  },
+  "66d02763-c44b-4c20-a5cf-9565f98f01a6": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "66d02763-c44b-4c20-a5cf-9565f98f01a6",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Canada",
+    "posted_date": "2026-07-21",
+    "title": "Principal Product Manager",
+    "url": "https://jobs.ashbyhq.com/redis/66d02763-c44b-4c20-a5cf-9565f98f01a6"
+  },
+  "698e070d-ad6a-410c-a087-d63bee083ead": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "698e070d-ad6a-410c-a087-d63bee083ead",
+    "last_seen": "2026-09-17T20:51:51.665955+00:00",
+    "location": "India",
+    "posted_date": "2026-07-23",
+    "title": "Technical Support Engineer (L2/ L3)",
+    "url": "https://jobs.ashbyhq.com/redis/698e070d-ad6a-410c-a087-d63bee083ead"
+  },
+  "6a47676c-cd31-446d-b058-5d8e8685d8cf": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "6a47676c-cd31-446d-b058-5d8e8685d8cf",
+    "last_seen": "2026-08-27T20:29:24.317031+00:00",
+    "location": "London, England",
+    "posted_date": "2026-07-16",
+    "title": "Sr Product Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/redis/6a47676c-cd31-446d-b058-5d8e8685d8cf"
+  },
+  "6f748587-bba8-41f0-bac9-675cb9889376": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "6f748587-bba8-41f0-bac9-675cb9889376",
+    "last_seen": "2026-08-27T20:29:24.317031+00:00",
+    "location": "United States",
+    "posted_date": "2026-02-26",
+    "title": "Pricing Strategy Director",
+    "url": "https://jobs.ashbyhq.com/redis/6f748587-bba8-41f0-bac9-675cb9889376"
+  },
+  "715ccbc7-d023-4b85-a2d0-be9f2fd8a626": {
+    "company": "Redis",
+    "first_seen": "2026-09-12T18:17:20.383605+00:00",
+    "job_id": "715ccbc7-d023-4b85-a2d0-be9f2fd8a626",
+    "last_seen": "2026-10-06T22:59:20.417190+00:00",
+    "location": "United States",
+    "posted_date": "2026-09-11",
+    "title": "Senior Customer Success Manager - Telcos",
+    "url": "https://jobs.ashbyhq.com/redis/715ccbc7-d023-4b85-a2d0-be9f2fd8a626"
+  },
+  "71615530-1522-4164-a624-ba8900c623be": {
+    "company": "Redis",
+    "first_seen": "2026-09-02T20:53:54.350371+00:00",
+    "job_id": "71615530-1522-4164-a624-ba8900c623be",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Australia",
+    "posted_date": "2026-09-02",
+    "title": "Regional Account Executive, Australia",
+    "url": "https://jobs.ashbyhq.com/redis/71615530-1522-4164-a624-ba8900c623be"
+  },
+  "729f73bd-4c56-44c5-9d81-2b216c61213b": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "729f73bd-4c56-44c5-9d81-2b216c61213b",
+    "last_seen": "2026-08-09T03:03:52.182762+00:00",
+    "location": "India",
+    "posted_date": "2026-04-22",
+    "title": "Sr. Customer Success Manager - Mumbai",
+    "url": "https://jobs.ashbyhq.com/redis/729f73bd-4c56-44c5-9d81-2b216c61213b"
+  },
+  "72f076af-67b9-4a82-9a63-0a34bcce540b": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "72f076af-67b9-4a82-9a63-0a34bcce540b",
+    "last_seen": "2026-08-13T21:20:11.820618+00:00",
+    "location": "India",
+    "posted_date": "2026-08-03",
+    "title": "Regional Sales Director, North Business (Delhi NCR)",
+    "url": "https://jobs.ashbyhq.com/redis/72f076af-67b9-4a82-9a63-0a34bcce540b"
+  },
+  "74a71b7a-2ae1-44c7-a988-a7dd7572edb8": {
+    "company": "Redis",
+    "first_seen": "2026-08-13T00:16:16.871810+00:00",
+    "job_id": "74a71b7a-2ae1-44c7-a988-a7dd7572edb8",
+    "last_seen": "2026-08-20T00:23:49.582085+00:00",
+    "location": "United States",
+    "posted_date": "2026-08-12",
+    "title": "Regional Sales Director - West",
+    "url": "https://jobs.ashbyhq.com/redis/74a71b7a-2ae1-44c7-a988-a7dd7572edb8"
+  },
+  "778b71fe-ade1-4c3f-b21f-212737b8c0c4": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "778b71fe-ade1-4c3f-b21f-212737b8c0c4",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United Arab Emirates",
+    "posted_date": "2026-05-13",
+    "title": "Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/778b71fe-ade1-4c3f-b21f-212737b8c0c4"
+  },
+  "7f3ab2c9-b015-451e-b47b-bd0853a3c21b": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T12:49:21.806508+00:00",
+    "job_id": "7f3ab2c9-b015-451e-b47b-bd0853a3c21b",
+    "last_seen": "2026-08-07T00:44:29.254609+00:00",
+    "location": "Germany",
+    "posted_date": "2026-08-06",
+    "title": "Senior Product Manager, Redis Core (Document Database) - Product Management - Germany",
+    "url": "https://jobs.ashbyhq.com/redis/7f3ab2c9-b015-451e-b47b-bd0853a3c21b"
+  },
+  "80ff1298-ad88-4d77-95ca-b597f0d18e2b": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "80ff1298-ad88-4d77-95ca-b597f0d18e2b",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "India",
+    "posted_date": "2026-10-09",
+    "title": "Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/80ff1298-ad88-4d77-95ca-b597f0d18e2b"
+  },
+  "9659a17b-0831-4461-b64d-ceacd7f91b6b": {
+    "company": "Redis",
+    "first_seen": "2026-09-29T20:25:39.929372+00:00",
+    "job_id": "9659a17b-0831-4461-b64d-ceacd7f91b6b",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "HQ (San Francisco)",
+    "posted_date": "2026-09-29",
+    "title": "Director, Global Sales Compensation",
+    "url": "https://jobs.ashbyhq.com/redis/9659a17b-0831-4461-b64d-ceacd7f91b6b"
+  },
+  "98a4ea8d-250e-407a-a9c9-719dbc9f9c6a": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "98a4ea8d-250e-407a-a9c9-719dbc9f9c6a",
+    "last_seen": "2026-08-12T00:14:38.931666+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2026-08-04",
+    "title": "Senior Product Manager, Redis Core (Document Database) - Product Management - UK",
+    "url": "https://jobs.ashbyhq.com/redis/98a4ea8d-250e-407a-a9c9-719dbc9f9c6a"
+  },
+  "9dbf2e47-ceb9-4669-9610-b1703d8562b4": {
+    "company": "Redis",
+    "first_seen": "2026-08-14T15:14:28.706108+00:00",
+    "job_id": "9dbf2e47-ceb9-4669-9610-b1703d8562b4",
+    "last_seen": "2026-09-08T14:31:59.455743+00:00",
+    "location": "Canada",
+    "posted_date": "2026-08-14",
+    "title": "Enterprise Account Executive - Quebec",
+    "url": "https://jobs.ashbyhq.com/redis/9dbf2e47-ceb9-4669-9610-b1703d8562b4"
+  },
+  "a50e91a6-8e70-443a-9d17-2738f5473d54": {
+    "company": "Redis",
+    "first_seen": "2026-09-24T23:52:07.870462+00:00",
+    "job_id": "a50e91a6-8e70-443a-9d17-2738f5473d54",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "London, England",
+    "posted_date": "2026-09-24",
+    "title": "Sales Development Representative - French speaking",
+    "url": "https://jobs.ashbyhq.com/redis/a50e91a6-8e70-443a-9d17-2738f5473d54"
+  },
+  "ace8ec20-9c18-4b3b-8d74-8ae17abfe9f4": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "ace8ec20-9c18-4b3b-8d74-8ae17abfe9f4",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-07-14",
+    "title": "Account Executive - Midwest",
+    "url": "https://jobs.ashbyhq.com/redis/ace8ec20-9c18-4b3b-8d74-8ae17abfe9f4"
+  },
+  "b2e2354a-0b0b-4560-8719-f84fa4010a8b": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "b2e2354a-0b0b-4560-8719-f84fa4010a8b",
+    "last_seen": "2026-09-08T14:31:59.455743+00:00",
+    "location": "United States",
+    "posted_date": "2026-08-05",
+    "title": "Sr Product Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/redis/b2e2354a-0b0b-4560-8719-f84fa4010a8b"
+  },
+  "b2f45634-397f-465b-bdb3-9e82e013d3d7": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "b2f45634-397f-465b-bdb3-9e82e013d3d7",
+    "last_seen": "2026-08-24T20:58:27.869652+00:00",
+    "location": "United States",
+    "posted_date": "2026-04-01",
+    "title": "Regional Account Executive - PubSec",
+    "url": "https://jobs.ashbyhq.com/redis/b2f45634-397f-465b-bdb3-9e82e013d3d7"
+  },
+  "b45d7df2-556c-4ac0-b4c3-1a4901baf659": {
+    "company": "Redis",
+    "first_seen": "2026-09-16T20:45:34.663657+00:00",
+    "job_id": "b45d7df2-556c-4ac0-b4c3-1a4901baf659",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Germany",
+    "posted_date": "2026-09-23",
+    "title": "Account Executive (Enterprise), DACH",
+    "url": "https://jobs.ashbyhq.com/redis/b45d7df2-556c-4ac0-b4c3-1a4901baf659"
+  },
+  "ba6e1462-94d4-4989-9d6b-8f0f397b84ba": {
+    "company": "Redis",
+    "first_seen": "2026-09-09T21:37:35.177369+00:00",
+    "job_id": "ba6e1462-94d4-4989-9d6b-8f0f397b84ba",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-09-09",
+    "title": "Corporate Counsel, Commercial",
+    "url": "https://jobs.ashbyhq.com/redis/ba6e1462-94d4-4989-9d6b-8f0f397b84ba"
+  },
+  "bc07c928-b183-46ee-86ee-81e4d5d53fa5": {
+    "company": "Redis",
+    "first_seen": "2026-09-24T23:52:07.870462+00:00",
+    "job_id": "bc07c928-b183-46ee-86ee-81e4d5d53fa5",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "London, England",
+    "posted_date": "2026-09-24",
+    "title": "Enterprise Sales Development Representative - German speaking",
+    "url": "https://jobs.ashbyhq.com/redis/bc07c928-b183-46ee-86ee-81e4d5d53fa5"
+  },
+  "be8a5417-df85-4170-b608-3a8419af65b7": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "be8a5417-df85-4170-b608-3a8419af65b7",
+    "last_seen": "2026-08-11T00:13:59.003523+00:00",
+    "location": "Bulgaria",
+    "posted_date": "2026-05-12",
+    "title": "Senior Product Security Engineer - InfoSec - Bulgaria",
+    "url": "https://jobs.ashbyhq.com/redis/be8a5417-df85-4170-b608-3a8419af65b7"
+  },
+  "c4322a86-762a-4e10-bf7f-28179f2c7375": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "c4322a86-762a-4e10-bf7f-28179f2c7375",
+    "last_seen": "2026-08-20T00:23:49.582085+00:00",
+    "location": "London, England",
+    "posted_date": "2026-06-29",
+    "title": "Cybersecurity Trust & Assurance Analyst",
+    "url": "https://jobs.ashbyhq.com/redis/c4322a86-762a-4e10-bf7f-28179f2c7375"
+  },
+  "c4d283dd-d14a-41cd-8b0c-4ff57d41220f": {
+    "company": "Redis",
+    "first_seen": "2026-09-02T18:39:50.822368+00:00",
+    "job_id": "c4d283dd-d14a-41cd-8b0c-4ff57d41220f",
+    "last_seen": "2026-09-03T20:09:57.046662+00:00",
+    "location": "Germany",
+    "posted_date": "2026-09-02",
+    "title": "Senior Channel Sales Manager",
+    "url": "https://jobs.ashbyhq.com/redis/c4d283dd-d14a-41cd-8b0c-4ff57d41220f"
+  },
+  "c91fbf2c-51bd-4e70-8c7c-7ec4260736bf": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "c91fbf2c-51bd-4e70-8c7c-7ec4260736bf",
+    "last_seen": "2026-08-12T00:14:38.931666+00:00",
+    "location": "United States",
+    "posted_date": "2026-06-30",
+    "title": "Manager, GTM Systems Engineering",
+    "url": "https://jobs.ashbyhq.com/redis/c91fbf2c-51bd-4e70-8c7c-7ec4260736bf"
+  },
+  "c93c891c-5ccf-4777-91d0-5745629646bf": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "c93c891c-5ccf-4777-91d0-5745629646bf",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "London, England",
+    "posted_date": "2026-02-16",
+    "title": "Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/c93c891c-5ccf-4777-91d0-5745629646bf"
+  },
+  "d52fa366-9a5b-41ca-adfc-aeb4e7125cfc": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "d52fa366-9a5b-41ca-adfc-aeb4e7125cfc",
+    "last_seen": "2026-08-12T00:14:38.931666+00:00",
+    "location": "Bulgaria, Germany, Spain, United Kingdom, Israel",
+    "posted_date": "2026-06-01",
+    "title": "Senior Product Manager, Redis Core (Document Database) - Product Management - Bulgaria",
+    "url": "https://jobs.ashbyhq.com/redis/d52fa366-9a5b-41ca-adfc-aeb4e7125cfc"
+  },
+  "d8092b32-0985-4fa7-9f55-6563f7f93475": {
+    "company": "Redis",
+    "first_seen": "2026-08-27T20:29:24.317031+00:00",
+    "job_id": "d8092b32-0985-4fa7-9f55-6563f7f93475",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Canada",
+    "posted_date": "2026-08-27",
+    "title": "Senior Principal Software Engineer, Feature Store",
+    "url": "https://jobs.ashbyhq.com/redis/d8092b32-0985-4fa7-9f55-6563f7f93475"
+  },
+  "d94ff9f8-6c14-4af0-88be-3ff8524da3fe": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "d94ff9f8-6c14-4af0-88be-3ff8524da3fe",
+    "last_seen": "2026-08-31T22:03:57.521048+00:00",
+    "location": "United Kingdom",
+    "posted_date": "2026-06-22",
+    "title": "Sales Development Representative with French - Field Sales - UK",
+    "url": "https://jobs.ashbyhq.com/redis/d94ff9f8-6c14-4af0-88be-3ff8524da3fe"
+  },
+  "e305fc8c-a434-4d46-8ede-5e8c430f232d": {
+    "company": "Redis",
+    "first_seen": "2026-09-17T20:51:51.665955+00:00",
+    "job_id": "e305fc8c-a434-4d46-8ede-5e8c430f232d",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "France",
+    "posted_date": "2026-09-17",
+    "title": "Partner Sales manager",
+    "url": "https://jobs.ashbyhq.com/redis/e305fc8c-a434-4d46-8ede-5e8c430f232d"
+  },
+  "e6aca94c-96fa-4420-996d-a320d4313beb": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T12:49:21.806508+00:00",
+    "job_id": "e6aca94c-96fa-4420-996d-a320d4313beb",
+    "last_seen": "2026-08-13T00:16:16.871810+00:00",
+    "location": "India",
+    "posted_date": "2026-08-06",
+    "title": "Senior Forward Deployed Engineer - Field Engineering - India",
+    "url": "https://jobs.ashbyhq.com/redis/e6aca94c-96fa-4420-996d-a320d4313beb"
+  },
+  "e77f4e06-6f23-48bc-a574-7d42523f1115": {
+    "company": "Redis",
+    "first_seen": "2026-10-01T12:43:12.141718+00:00",
+    "job_id": "e77f4e06-6f23-48bc-a574-7d42523f1115",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-09-30",
+    "title": "Lead, Growth Marketing",
+    "url": "https://jobs.ashbyhq.com/redis/e77f4e06-6f23-48bc-a574-7d42523f1115"
+  },
+  "e7998e7f-a4a3-4ba7-b28c-cf30156bbf9a": {
+    "company": "Redis",
+    "first_seen": "2026-09-02T18:39:50.822368+00:00",
+    "job_id": "e7998e7f-a4a3-4ba7-b28c-cf30156bbf9a",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "HQ (San Francisco)",
+    "posted_date": "2026-09-01",
+    "title": "Principal Manager, Communications & Developer Influence",
+    "url": "https://jobs.ashbyhq.com/redis/e7998e7f-a4a3-4ba7-b28c-cf30156bbf9a"
+  },
+  "e80df684-2d86-49ae-9efd-16c31e22a6d9": {
+    "company": "Redis",
+    "first_seen": "2026-09-21T22:01:34.645261+00:00",
+    "job_id": "e80df684-2d86-49ae-9efd-16c31e22a6d9",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "United States",
+    "posted_date": "2026-09-21",
+    "title": "Account Executive - TOLA",
+    "url": "https://jobs.ashbyhq.com/redis/e80df684-2d86-49ae-9efd-16c31e22a6d9"
+  },
+  "e900e4e9-fcc7-4aea-b7be-a4bedbea485f": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "e900e4e9-fcc7-4aea-b7be-a4bedbea485f",
+    "last_seen": "2026-08-24T20:58:27.869652+00:00",
+    "location": "France",
+    "posted_date": "2026-02-18",
+    "title": "Account Executive",
+    "url": "https://jobs.ashbyhq.com/redis/e900e4e9-fcc7-4aea-b7be-a4bedbea485f"
+  },
+  "efd61518-e442-4652-9852-c68de03a5cdf": {
+    "company": "Redis",
+    "first_seen": "2026-10-04T23:05:42.035861+00:00",
+    "job_id": "efd61518-e442-4652-9852-c68de03a5cdf",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Austin, TX",
+    "posted_date": "2026-10-02",
+    "title": "Workplace Experience Specialist",
+    "url": "https://jobs.ashbyhq.com/redis/efd61518-e442-4652-9852-c68de03a5cdf"
+  },
+  "f0410812-b7ec-4994-9fdc-bbe68f357308": {
+    "company": "Redis",
+    "first_seen": "2026-08-06T01:27:34.789062+00:00",
+    "job_id": "f0410812-b7ec-4994-9fdc-bbe68f357308",
+    "last_seen": "2026-09-09T21:37:35.177369+00:00",
+    "location": "Bulgaria",
+    "posted_date": "2026-05-05",
+    "title": "Senior AI Automation Engineer \u2013 IT \u2013 Bulgaria",
+    "url": "https://jobs.ashbyhq.com/redis/f0410812-b7ec-4994-9fdc-bbe68f357308"
+  },
+  "f2098a68-9a93-4f41-8f3c-cabfcaebb2ee": {
+    "company": "Redis",
+    "first_seen": "2026-09-23T22:08:59.842638+00:00",
+    "job_id": "f2098a68-9a93-4f41-8f3c-cabfcaebb2ee",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "India",
+    "posted_date": "2026-09-23",
+    "title": "Field Partner Leader, MEA",
+    "url": "https://jobs.ashbyhq.com/redis/f2098a68-9a93-4f41-8f3c-cabfcaebb2ee"
+  },
+  "f2824628-ca39-41f0-9a1e-8b98fa7a018a": {
+    "company": "Redis",
+    "first_seen": "2026-08-20T20:34:24.104994+00:00",
+    "job_id": "f2824628-ca39-41f0-9a1e-8b98fa7a018a",
+    "last_seen": "2026-08-26T20:40:23.355990+00:00",
+    "location": "Canada",
+    "posted_date": "2026-08-20",
+    "title": "Engineering Manager, Platform",
+    "url": "https://jobs.ashbyhq.com/redis/f2824628-ca39-41f0-9a1e-8b98fa7a018a"
+  },
+  "f47155e6-bcac-4e8d-8bfc-cb8903e4d1f7": {
+    "company": "Redis",
+    "first_seen": "2026-08-26T20:40:23.355990+00:00",
+    "job_id": "f47155e6-bcac-4e8d-8bfc-cb8903e4d1f7",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "London, England",
+    "posted_date": "2026-09-23",
+    "title": "Sales Development Representative - German speaking",
+    "url": "https://jobs.ashbyhq.com/redis/f47155e6-bcac-4e8d-8bfc-cb8903e4d1f7"
+  },
+  "f64281ec-46b8-4b44-b0fc-4ec8a57f6aab": {
+    "company": "Redis",
+    "first_seen": "2026-09-17T20:51:51.665955+00:00",
+    "job_id": "f64281ec-46b8-4b44-b0fc-4ec8a57f6aab",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Austin, TX",
+    "posted_date": "2026-09-17",
+    "title": "Technical Product Manager - Enterprise AI & IT - Austin",
+    "url": "https://jobs.ashbyhq.com/redis/f64281ec-46b8-4b44-b0fc-4ec8a57f6aab"
+  },
+  "f6c724d3-97b0-49c0-bb1e-b7e0e9bd1404": {
+    "company": "Redis",
+    "first_seen": "2026-09-14T22:21:45.971715+00:00",
+    "job_id": "f6c724d3-97b0-49c0-bb1e-b7e0e9bd1404",
+    "last_seen": "2026-10-12T23:15:36.700104+00:00",
+    "location": "Costa Rica",
+    "posted_date": "2026-09-14",
+    "title": "Customer Success Engineer - Costa Rica",
+    "url": "https://jobs.ashbyhq.com/redis/f6c724d3-97b0-49c0-bb1e-b7e0e9bd1404"
+  },
+  "ff540656-32ca-4c61-ae44-79e0a6d6e06c": {
+    "company": "Redis",
+    "first_seen": "2026-09-25T19:39:34.170269+00:00",
+    "job_id": "ff540656-32ca-4c61-ae44-79e0a6d6e06c",
+    "last_seen": "2026-10-13T21:25:11.552635+00:00",
+    "location": "Mexico",
+    "posted_date": "2026-09-25",
+    "title": "Account Executive - Mexico",
+    "url": "https://jobs.ashbyhq.com/redis/ff540656-32ca-4c61-ae44-79e0a6d6e06c"
+  }
+}

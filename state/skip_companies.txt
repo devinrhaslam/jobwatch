@@ -1,0 +1,48 @@
+# Companies jobwatch should not scrape — active interview processes plus a few
+# closed ones you don't want alerts from. As of 2026-10-06.
+# Delete a line when you want alerts back. Applies to every run without --company.
+
+Amazon                 # by request
+American Express       # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Atlassian              # by request
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Autodesk               # by request
+Bloomberg              # by request
+Broadcom               # by request
+Capital One            # offer (Lead SWE, Richmond), declining; by request
+Cloudflare             # by request
+CoreWeave              # recruiter screen 10/6, awaiting result
+CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+Datadog                # closed 9/2 (final-round reject); by request
+Duolingo               # recruiter chat to be booked
+eBay                   # by request
+Expedia                # by request
+Intuit                 # interview ~9/17
+Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+Mastercard             # by request
+Nubank                 # by request
+OpenAI                 # by request
+PayPal                 # by request
+Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+Qualcomm               # by request
+Riot Games             # phone screen Tue 10/27 3:00pm
+Rivian                 # recruiter screen Tue 10/13 1:30pm
+Robinhood              # first technical being scheduled
+Roblox                 # by request
+SpaceX                 # by request
+Stripe                 # recruiter call Thu 10/15 4:15pm - Backend Engineer, Data & AI
+StubHub                # by request
+Target                 # by request
+Tesla                  # coding interview Thu 10/15 2:00pm
+Vanta                  # silent 5 days post-technical (9/4)
+Verkada                # closed 9/8 (post-interview reject); by request
+Visa                   # by request
+Walmart Global Tech    # dormant
+Workday                # by request
+Zipline                # onsite stage, asked for video
+Zscaler                # by request
+
+# Not tracked by jobwatch, so nothing to skip: Render, Audible.

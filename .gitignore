@@ -1,5 +1,4 @@
-# Runtime scraper snapshots and run logs
-state/
+# Run logs (state/ snapshots are committed so another machine can pick up where this one left off)
 output/
 
 # Python

@@ -1,0 +1,912 @@
+{
+  "8214127002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8214127002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area or Los Angeles Area",
+    "posted_date": "2025-10-30",
+    "title": "Staff Software Engineer, Safety Processing",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8214127002"
+  },
+  "8299493002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8299493002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "Remote (U.S.)",
+    "posted_date": "2025-11-19",
+    "title": "Senior Data Engineer, Ads",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8299493002"
+  },
+  "8344197002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8344197002",
+    "last_seen": "2026-08-17T20:44:03.797740+00:00",
+    "location": "San Francisco Bay Area or Los Angeles Area",
+    "posted_date": "2025-12-19",
+    "title": "Staff Software Engineer - Safety Experience",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8344197002"
+  },
+  "8369347002": {
+    "company": "Discord",
+    "first_seen": "2026-09-12T18:13:03.682897+00:00",
+    "job_id": "8369347002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-11",
+    "title": "Senior Software Engineer, Machine Learning (Safety)",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8369347002"
+  },
+  "8396927002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8396927002",
+    "last_seen": "2026-09-09T21:32:28.070857+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-02-09",
+    "title": "Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8396927002"
+  },
+  "8433948002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8433948002",
+    "last_seen": "2026-08-07T14:33:09.744136+00:00",
+    "location": "San Francisco Bay Area or New York (Remote (U.S.))",
+    "posted_date": "2026-02-24",
+    "title": "Account Executive - Tech",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8433948002"
+  },
+  "8460791002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8460791002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-03-18",
+    "title": "Senior Software Engineer, Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8460791002"
+  },
+  "8460867002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8460867002",
+    "last_seen": "2026-09-02T20:50:12.111591+00:00",
+    "location": "Remote (U.S.)",
+    "posted_date": "2026-03-16",
+    "title": "Staff Software Engineer - Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8460867002"
+  },
+  "8464570002": {
+    "company": "Discord",
+    "first_seen": "2026-09-03T20:05:12.121428+00:00",
+    "job_id": "8464570002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "Remote",
+    "posted_date": "2026-09-02",
+    "title": "Staff Software Engineer - Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8464570002"
+  },
+  "8485884002": {
+    "company": "Discord",
+    "first_seen": "2026-10-08T23:27:22.747685+00:00",
+    "job_id": "8485884002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-05-14",
+    "title": "Senior Data Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8485884002"
+  },
+  "8498984002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8498984002",
+    "last_seen": "2026-10-06T00:18:51.716089+00:00",
+    "location": "San Francisco, CA",
+    "posted_date": "2026-04-17",
+    "title": "Staff Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8498984002"
+  },
+  "8502342002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8502342002",
+    "last_seen": "2026-09-08T14:26:54.010214+00:00",
+    "location": "Remote",
+    "posted_date": "2026-04-10",
+    "title": "Engineering Manager, Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8502342002"
+  },
+  "8507387002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8507387002",
+    "last_seen": "2026-08-27T20:25:22.950123+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-04-15",
+    "title": "Strategy & Operations Manager, Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8507387002"
+  },
+  "8509325002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8509325002",
+    "last_seen": "2026-08-13T21:16:51.547284+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-04-16",
+    "title": "Engineering Manager, Social Commerce",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8509325002"
+  },
+  "8537955002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8537955002",
+    "last_seen": "2026-10-01T12:38:42.081241+00:00",
+    "location": "Remote",
+    "posted_date": "2026-05-11",
+    "title": "Engineering Manager, Notifications",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8537955002"
+  },
+  "8545663002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8545663002",
+    "last_seen": "2026-09-14T01:42:09.706661+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-03",
+    "title": "Software Engineer, Distributed Systems",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8545663002"
+  },
+  "8545675002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8545675002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area or Los Angeles Area",
+    "posted_date": "2026-05-27",
+    "title": "Senior Software Engineer, Safety Processing",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8545675002"
+  },
+  "8565373002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8565373002",
+    "last_seen": "2026-08-20T00:20:22.643233+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-05-26",
+    "title": "Senior Tax Analyst",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8565373002"
+  },
+  "8571766002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8571766002",
+    "last_seen": "2026-09-27T15:40:28.279251+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-05-29",
+    "title": "Director of Engineering, Safety",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8571766002"
+  },
+  "8575166002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8575166002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-24",
+    "title": "Strategic Finance Analyst",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8575166002"
+  },
+  "8581126002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8581126002",
+    "last_seen": "2026-09-27T15:40:28.279251+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-08",
+    "title": "Senior Product Manager, Safety",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8581126002"
+  },
+  "8585009002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8585009002",
+    "last_seen": "2026-08-12T19:28:50.177050+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-24",
+    "title": "Product Creative Designer & Illustrator",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8585009002"
+  },
+  "8595014002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8595014002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-17",
+    "title": "Senior Product Designer, Developer Success",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8595014002"
+  },
+  "8597656002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8597656002",
+    "last_seen": "2026-09-23T22:04:53.388449+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-21",
+    "title": "Senior Full-Stack Software Engineer, Game Records",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8597656002"
+  },
+  "8599937002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8599937002",
+    "last_seen": "2026-09-02T20:50:12.111591+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-06-23",
+    "title": "Account Manager, Advertising Solutions",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8599937002"
+  },
+  "8604768002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8604768002",
+    "last_seen": "2026-09-24T23:48:12.410563+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-23",
+    "title": "Senior Full-Stack Software Engineer, Social Commerce",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8604768002"
+  },
+  "8609250002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8609250002",
+    "last_seen": "2026-09-08T14:26:54.010214+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-26",
+    "title": "Software Engineer, Developer Success",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8609250002"
+  },
+  "8614424002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8614424002",
+    "last_seen": "2026-08-13T21:16:51.547284+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-06-30",
+    "title": "Senior Product Designer, Consumer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8614424002"
+  },
+  "8614971002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8614971002",
+    "last_seen": "2026-08-20T20:30:33.215876+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-30",
+    "title": "Data Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8614971002"
+  },
+  "8625545002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8625545002",
+    "last_seen": "2026-09-03T20:05:12.121428+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-13",
+    "title": "Associate Product Counsel, Safety",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8625545002"
+  },
+  "8627078002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8627078002",
+    "last_seen": "2026-09-09T21:32:28.070857+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-07-10",
+    "title": "Oracle ERP Fusion Technical Developer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8627078002"
+  },
+  "8627166002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8627166002",
+    "last_seen": "2026-09-16T20:41:00.544967+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-07-10",
+    "title": "Oracle ERP Fusion Functional Analyst",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8627166002"
+  },
+  "8635949002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8635949002",
+    "last_seen": "2026-09-17T20:47:51.951068+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-21",
+    "title": "Program Manager, Detection & Enforcement, Youth Safety",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8635949002"
+  },
+  "8637188002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8637188002",
+    "last_seen": "2026-10-06T00:18:51.716089+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-07-17",
+    "title": "Senior Salesforce Technical Lead",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8637188002"
+  },
+  "8637648002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8637648002",
+    "last_seen": "2026-08-06T12:46:31.244159+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-17",
+    "title": "QA/DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8637648002"
+  },
+  "8637688002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8637688002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area, Greater Seattle Area, Greater Los Angeles Area (U.S.)",
+    "posted_date": "2026-07-29",
+    "title": "Engineering Manager, Safety",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8637688002"
+  },
+  "8641295002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8641295002",
+    "last_seen": "2026-09-22T22:30:03.281769+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-24",
+    "title": "Staff Product Marketing Manager, Developer and Publishers",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8641295002"
+  },
+  "8642085002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8642085002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-21",
+    "title": "Senior Full-Stack Software Engineer, Growth",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642085002"
+  },
+  "8642087002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8642087002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-04",
+    "title": "Senior Software Engineer, Growth",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642087002"
+  },
+  "8642213002": {
+    "company": "Discord",
+    "first_seen": "2026-09-12T18:13:03.682897+00:00",
+    "job_id": "8642213002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-11",
+    "title": "Software Engineer, Notifications",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642213002"
+  },
+  "8642220002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8642220002",
+    "last_seen": "2026-09-02T20:50:12.111591+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-22",
+    "title": "Software Engineer, Notifications",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642220002"
+  },
+  "8644780002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8644780002",
+    "last_seen": "2026-09-08T14:26:54.010214+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-22",
+    "title": "Senior Software Engineer, Machine Learning (Ads)",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8644780002"
+  },
+  "8649856002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8649856002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "Remote (West Coast)",
+    "posted_date": "2026-07-27",
+    "title": "Engineering Manager, Platform Security",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8649856002"
+  },
+  "8652553002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8652553002",
+    "last_seen": "2026-08-21T16:28:08.709141+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-29",
+    "title": "Security Analyst",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8652553002"
+  },
+  "8652853002": {
+    "company": "Discord",
+    "first_seen": "2026-08-17T20:44:03.797740+00:00",
+    "job_id": "8652853002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-17",
+    "title": "Staff Data Scientist, Causal Inference & Experimentation",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8652853002"
+  },
+  "8652914002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8652914002",
+    "last_seen": "2026-09-23T22:04:53.388449+00:00",
+    "location": "San Francisco Bay Area, Los Angeles, New York, Washington D.C., or Austin ",
+    "posted_date": "2026-07-31",
+    "title": "Threat Investigator",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8652914002"
+  },
+  "8656854002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8656854002",
+    "last_seen": "2026-10-12T23:09:43.584962+00:00",
+    "location": "Remote (West Coast) ",
+    "posted_date": "2026-07-31",
+    "title": "Senior Software Engineer, Application Security",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8656854002"
+  },
+  "8659978002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8659978002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-07-31",
+    "title": "Senior Full-Stack Software Engineer, Ads",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8659978002"
+  },
+  "8674411002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8674411002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-03",
+    "title": "Product Designer, Growth",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8674411002"
+  },
+  "8675185002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8675185002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area or Remote (West Coast)",
+    "posted_date": "2026-08-04",
+    "title": "Staff Software Engineer, Enterprise Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002"
+  },
+  "8675215002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8675215002",
+    "last_seen": "2026-09-02T20:50:12.111591+00:00",
+    "location": "Remote US",
+    "posted_date": "2026-08-03",
+    "title": "Manager, Safety Analytics",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675215002"
+  },
+  "8675277002": {
+    "company": "Discord",
+    "first_seen": "2026-08-05T12:18:36.190409+00:00",
+    "job_id": "8675277002",
+    "last_seen": "2026-09-29T20:21:22.602370+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-08-04",
+    "title": "Senior Software Engineer, Enterprise Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675277002"
+  },
+  "8678376002": {
+    "company": "Discord",
+    "first_seen": "2026-08-11T00:10:35.366109+00:00",
+    "job_id": "8678376002",
+    "last_seen": "2026-08-27T20:25:22.950123+00:00",
+    "location": "San Francisco",
+    "posted_date": "2026-08-10",
+    "title": "Regional Security Manager, Bay Area",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8678376002"
+  },
+  "8680047002": {
+    "company": "Discord",
+    "first_seen": "2026-08-06T00:30:53.470647+00:00",
+    "job_id": "8680047002",
+    "last_seen": "2026-09-14T01:42:09.706661+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-08-05",
+    "title": "Commercial Policy Lead, Brand Safety & Malware",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8680047002"
+  },
+  "8686353002": {
+    "company": "Discord",
+    "first_seen": "2026-08-07T00:41:01.305400+00:00",
+    "job_id": "8686353002",
+    "last_seen": "2026-09-15T20:59:29.649190+00:00",
+    "location": "San Francisco Bay Area or New York (Remote)",
+    "posted_date": "2026-08-06",
+    "title": "Advertising Operations Manager",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8686353002"
+  },
+  "8691572002": {
+    "company": "Discord",
+    "first_seen": "2026-08-10T18:45:23.366309+00:00",
+    "job_id": "8691572002",
+    "last_seen": "2026-10-12T23:09:43.584962+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-10",
+    "title": "Staff Data Engineer - Data Infrastructure",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8691572002"
+  },
+  "8694476002": {
+    "company": "Discord",
+    "first_seen": "2026-08-13T00:12:55.144251+00:00",
+    "job_id": "8694476002",
+    "last_seen": "2026-10-06T00:18:51.716089+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-08-12",
+    "title": "Senior Software Engineer, Data Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8694476002"
+  },
+  "8694818002": {
+    "company": "Discord",
+    "first_seen": "2026-08-15T21:46:49.120465+00:00",
+    "job_id": "8694818002",
+    "last_seen": "2026-09-16T20:41:00.544967+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-14",
+    "title": "Technology Risk Audit Manager",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8694818002"
+  },
+  "8697883002": {
+    "company": "Discord",
+    "first_seen": "2026-08-12T16:46:18.621440+00:00",
+    "job_id": "8697883002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-12",
+    "title": "Senior Software Engineer, Ads",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8697883002"
+  },
+  "8700605002": {
+    "company": "Discord",
+    "first_seen": "2026-08-18T22:42:50.777926+00:00",
+    "job_id": "8700605002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "Remote (U.S.)",
+    "posted_date": "2026-08-18",
+    "title": "Staff Software Engineer, Experimentation Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8700605002"
+  },
+  "8703614002": {
+    "company": "Discord",
+    "first_seen": "2026-08-14T15:10:53.552880+00:00",
+    "job_id": "8703614002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-13",
+    "title": "QA/DevOps Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8703614002"
+  },
+  "8722538002": {
+    "company": "Discord",
+    "first_seen": "2026-08-20T20:30:33.215876+00:00",
+    "job_id": "8722538002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area (or Remote U.S.)",
+    "posted_date": "2026-08-20",
+    "title": "Engineering Manager, Machine Learning (Safety)",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8722538002"
+  },
+  "8727410002": {
+    "company": "Discord",
+    "first_seen": "2026-08-27T20:25:22.950123+00:00",
+    "job_id": "8727410002",
+    "last_seen": "2026-10-08T23:27:22.747685+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-26",
+    "title": "Staff Software Engineer, Safety Experience",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8727410002"
+  },
+  "8730666002": {
+    "company": "Discord",
+    "first_seen": "2026-08-20T20:30:33.215876+00:00",
+    "job_id": "8730666002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-08-20",
+    "title": "Senior Data Scientist, Causal Inference + Experimentation",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8730666002"
+  },
+  "8731898002": {
+    "company": "Discord",
+    "first_seen": "2026-08-20T20:30:33.215876+00:00",
+    "job_id": "8731898002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-08-20",
+    "title": "Senior Product Designer, Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8731898002"
+  },
+  "8757366002": {
+    "company": "Discord",
+    "first_seen": "2026-08-30T20:00:09.595575+00:00",
+    "job_id": "8757366002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-08-28",
+    "title": "Senior Stock Administrator",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8757366002"
+  },
+  "8769799002": {
+    "company": "Discord",
+    "first_seen": "2026-09-09T21:32:28.070857+00:00",
+    "job_id": "8769799002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-09-08",
+    "title": "Senior Platform Security Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8769799002"
+  },
+  "8771034002": {
+    "company": "Discord",
+    "first_seen": "2026-09-24T23:48:12.410563+00:00",
+    "job_id": "8771034002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-24",
+    "title": "Staff Technical Program Manager, Security + IT",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8771034002"
+  },
+  "8771059002": {
+    "company": "Discord",
+    "first_seen": "2026-09-08T14:26:54.010214+00:00",
+    "job_id": "8771059002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-03",
+    "title": "Program Manager, Fraud and Payments Risk",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8771059002"
+  },
+  "8780263002": {
+    "company": "Discord",
+    "first_seen": "2026-09-03T20:05:12.121428+00:00",
+    "job_id": "8780263002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-03",
+    "title": "Senior Product Design Manager, Growth",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8780263002"
+  },
+  "8796132002": {
+    "company": "Discord",
+    "first_seen": "2026-10-07T21:53:28.408970+00:00",
+    "job_id": "8796132002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "Lisbon, Portugal",
+    "posted_date": "2026-10-07",
+    "title": "IT Ops Engineer - Lisbon",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8796132002"
+  },
+  "8801465002": {
+    "company": "Discord",
+    "first_seen": "2026-09-16T20:41:00.544967+00:00",
+    "job_id": "8801465002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area ",
+    "posted_date": "2026-09-15",
+    "title": "Marketing Program Manager",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8801465002"
+  },
+  "8802354002": {
+    "company": "Discord",
+    "first_seen": "2026-09-22T22:30:03.281769+00:00",
+    "job_id": "8802354002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-09-21",
+    "title": "Staff Software Engineer, Machine Learning (Consumer Revenue)",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8802354002"
+  },
+  "8806163002": {
+    "company": "Discord",
+    "first_seen": "2026-09-15T20:59:29.649190+00:00",
+    "job_id": "8806163002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-15",
+    "title": "Software Engineer, Distributed Systems",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8806163002"
+  },
+  "8806482002": {
+    "company": "Discord",
+    "first_seen": "2026-09-15T20:59:29.649190+00:00",
+    "job_id": "8806482002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-15",
+    "title": "Commercial Policy Lead",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8806482002"
+  },
+  "8811574002": {
+    "company": "Discord",
+    "first_seen": "2026-09-15T20:59:29.649190+00:00",
+    "job_id": "8811574002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-15",
+    "title": "Senior Full-Stack Software Engineer, Developer Success",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8811574002"
+  },
+  "8811881002": {
+    "company": "Discord",
+    "first_seen": "2026-10-12T02:09:16.417386+00:00",
+    "job_id": "8811881002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-10-09",
+    "title": "Senior Engineering Manager, Nitro",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8811881002"
+  },
+  "8811982002": {
+    "company": "Discord",
+    "first_seen": "2026-09-18T19:49:38.885202+00:00",
+    "job_id": "8811982002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-17",
+    "title": "Sales Operations Manager",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8811982002"
+  },
+  "8815116002": {
+    "company": "Discord",
+    "first_seen": "2026-09-21T21:57:11.467837+00:00",
+    "job_id": "8815116002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-19",
+    "title": "Senior Staff Program Manager, Creator Partnerships",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8815116002"
+  },
+  "8817776002": {
+    "company": "Discord",
+    "first_seen": "2026-09-18T19:49:38.885202+00:00",
+    "job_id": "8817776002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-18",
+    "title": "Senior Software Engineer - Safety Experience",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8817776002"
+  },
+  "8821508002": {
+    "company": "Discord",
+    "first_seen": "2026-09-27T15:40:28.279251+00:00",
+    "job_id": "8821508002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-25",
+    "title": "Senior Data Science Manager, Developer Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8821508002"
+  },
+  "8822683002": {
+    "company": "Discord",
+    "first_seen": "2026-09-22T22:30:03.281769+00:00",
+    "job_id": "8822683002",
+    "last_seen": "2026-09-22T22:30:03.281769+00:00",
+    "location": "San Francisco Bay Area or Remote (U.S.)",
+    "posted_date": "2026-09-22",
+    "title": "Technical Sourcer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8822683002"
+  },
+  "8823881002": {
+    "company": "Discord",
+    "first_seen": "2026-09-21T21:57:11.467837+00:00",
+    "job_id": "8823881002",
+    "last_seen": "2026-10-12T23:09:43.584962+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-21",
+    "title": "Software Engineer, Safety Processing",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8823881002"
+  },
+  "8827890002": {
+    "company": "Discord",
+    "first_seen": "2026-09-23T22:04:53.388449+00:00",
+    "job_id": "8827890002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-23",
+    "title": "Graphic Designer & Illustrator",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8827890002"
+  },
+  "8840756002": {
+    "company": "Discord",
+    "first_seen": "2026-09-24T23:48:12.410563+00:00",
+    "job_id": "8840756002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-24",
+    "title": "Data Scientist - Client Platform",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8840756002"
+  },
+  "8846330002": {
+    "company": "Discord",
+    "first_seen": "2026-10-01T12:38:42.081241+00:00",
+    "job_id": "8846330002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-30",
+    "title": "Senior Product Designer, Design Systems",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8846330002"
+  },
+  "8846732002": {
+    "company": "Discord",
+    "first_seen": "2026-09-28T21:42:54.134827+00:00",
+    "job_id": "8846732002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-09-28",
+    "title": "Software Engineer, Consumer Revenue",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8846732002"
+  },
+  "8856460002": {
+    "company": "Discord",
+    "first_seen": "2026-10-01T12:38:42.081241+00:00",
+    "job_id": "8856460002",
+    "last_seen": "2026-10-07T21:53:28.408970+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-10-01",
+    "title": "IT Ops Engineer, Networking",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8856460002"
+  },
+  "8856467002": {
+    "company": "Discord",
+    "first_seen": "2026-10-02T01:22:08.213603+00:00",
+    "job_id": "8856467002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-10-01",
+    "title": "Senior Full-Stack Software Engineer, Engagement",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8856467002"
+  },
+  "8856582002": {
+    "company": "Discord",
+    "first_seen": "2026-10-01T12:38:42.081241+00:00",
+    "job_id": "8856582002",
+    "last_seen": "2026-10-07T21:53:28.408970+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-10-01",
+    "title": "IT Ops Engineer",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8856582002"
+  },
+  "8879502002": {
+    "company": "Discord",
+    "first_seen": "2026-10-12T02:09:16.417386+00:00",
+    "job_id": "8879502002",
+    "last_seen": "2026-10-13T21:21:18.316784+00:00",
+    "location": "San Francisco Bay Area",
+    "posted_date": "2026-10-08",
+    "title": "Product Designer, Player Experiences",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8879502002"
+  }
+}

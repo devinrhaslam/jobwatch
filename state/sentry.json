@@ -1,0 +1,762 @@
+{
+  "01e24f35-a936-4dd1-a700-31e872c50da8": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "01e24f35-a936-4dd1-a700-31e872c50da8",
+    "last_seen": "2026-09-24T23:52:43.739525+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-04-24",
+    "title": "Senior Software Engineer (Node), JavaScript SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/01e24f35-a936-4dd1-a700-31e872c50da8"
+  },
+  "01f4db4e-cdba-4a9c-a371-31ee7afef588": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "01f4db4e-cdba-4a9c-a371-31ee7afef588",
+    "last_seen": "2026-09-21T22:02:13.300333+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-07-31",
+    "title": "Engineering Manager, Infrastructure",
+    "url": "https://jobs.ashbyhq.com/sentry/01f4db4e-cdba-4a9c-a371-31ee7afef588"
+  },
+  "1b63fc5e-ee6e-42b4-924c-a48836722cba": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "1b63fc5e-ee6e-42b4-924c-a48836722cba",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-27",
+    "title": "Startups Marketing Lead",
+    "url": "https://jobs.ashbyhq.com/sentry/1b63fc5e-ee6e-42b4-924c-a48836722cba"
+  },
+  "1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba": {
+    "company": "Sentry",
+    "first_seen": "2026-10-12T02:13:31.765037+00:00",
+    "job_id": "1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-10-09",
+    "title": "Software Engineer, Streaming Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba"
+  },
+  "26c3535f-fcaa-4419-8272-43faa00582f1": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "26c3535f-fcaa-4419-8272-43faa00582f1",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-10-09",
+    "title": "Senior Software Engineer, Billing Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/26c3535f-fcaa-4419-8272-43faa00582f1"
+  },
+  "278476b1-87c5-461f-ad7e-950cd31e5f31": {
+    "company": "Sentry",
+    "first_seen": "2026-10-04T23:06:16.206678+00:00",
+    "job_id": "278476b1-87c5-461f-ad7e-950cd31e5f31",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-04",
+    "title": "Senior Technical Program Manager, AI Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/278476b1-87c5-461f-ad7e-950cd31e5f31"
+  },
+  "2cdc2ba7-8406-452a-b84f-d94d8e7a09bb": {
+    "company": "Sentry",
+    "first_seen": "2026-09-08T14:32:42.313603+00:00",
+    "job_id": "2cdc2ba7-8406-452a-b84f-d94d8e7a09bb",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-04",
+    "title": "Senior Solutions Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/2cdc2ba7-8406-452a-b84f-d94d8e7a09bb"
+  },
+  "35193bfb-bb6b-4479-85be-0945e5b94a3e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "35193bfb-bb6b-4479-85be-0945e5b94a3e",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-09",
+    "title": "Senior Software Engineer, Developer Infrastructure",
+    "url": "https://jobs.ashbyhq.com/sentry/35193bfb-bb6b-4479-85be-0945e5b94a3e"
+  },
+  "361dfd45-650b-4f0a-9182-742e70a6c5ee": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "361dfd45-650b-4f0a-9182-742e70a6c5ee",
+    "last_seen": "2026-08-16T23:47:28.287882+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-02-06",
+    "title": "Senior Security Engineer, Application & Platform Security",
+    "url": "https://jobs.ashbyhq.com/sentry/361dfd45-650b-4f0a-9182-742e70a6c5ee"
+  },
+  "37c30441-078e-4575-83e9-d955ca2e15ce": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "37c30441-078e-4575-83e9-d955ca2e15ce",
+    "last_seen": "2026-09-08T14:32:42.313603+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-05-07",
+    "title": "Senior Software Engineer (iOS), SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/37c30441-078e-4575-83e9-d955ca2e15ce"
+  },
+  "3c3064ea-4d49-491e-ba93-05e66bda9ed8": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "3c3064ea-4d49-491e-ba93-05e66bda9ed8",
+    "last_seen": "2026-08-16T23:47:28.287882+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-02-06",
+    "title": "Senior Security Engineer, Application & Platform Security",
+    "url": "https://jobs.ashbyhq.com/sentry/3c3064ea-4d49-491e-ba93-05e66bda9ed8"
+  },
+  "4067f08e-5229-4af4-9028-a7c69d3791d0": {
+    "company": "Sentry",
+    "first_seen": "2026-09-09T21:38:30.636982+00:00",
+    "job_id": "4067f08e-5229-4af4-9028-a7c69d3791d0",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-08",
+    "title": "Director, FP&A",
+    "url": "https://jobs.ashbyhq.com/sentry/4067f08e-5229-4af4-9028-a7c69d3791d0"
+  },
+  "4eb18706-9bbb-4b55-a58c-0fd71a3cb080": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "4eb18706-9bbb-4b55-a58c-0fd71a3cb080",
+    "last_seen": "2026-09-23T22:09:34.869923+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-19",
+    "title": "Senior Software Engineer (Frameworks), JavaScript SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/4eb18706-9bbb-4b55-a58c-0fd71a3cb080"
+  },
+  "52276d75-dab7-473d-8a56-2417c35104f7": {
+    "company": "Sentry",
+    "first_seen": "2026-08-27T20:30:09.798226+00:00",
+    "job_id": "52276d75-dab7-473d-8a56-2417c35104f7",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-27",
+    "title": "Editorial Lead",
+    "url": "https://jobs.ashbyhq.com/sentry/52276d75-dab7-473d-8a56-2417c35104f7"
+  },
+  "554bab60-831e-45b0-9b93-67531b08f020": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "554bab60-831e-45b0-9b93-67531b08f020",
+    "last_seen": "2026-08-18T00:41:48.385864+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-05-29",
+    "title": "Security Engineer, IAM",
+    "url": "https://jobs.ashbyhq.com/sentry/554bab60-831e-45b0-9b93-67531b08f020"
+  },
+  "59176120-b457-487e-80fe-f1bb1a97d686": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "59176120-b457-487e-80fe-f1bb1a97d686",
+    "last_seen": "2026-08-11T00:14:29.309192+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-06-12",
+    "title": "Senior Software Engineer, Control Plane",
+    "url": "https://jobs.ashbyhq.com/sentry/59176120-b457-487e-80fe-f1bb1a97d686"
+  },
+  "5c3196c7-f3d6-4dba-9c41-c886df4b2421": {
+    "company": "Sentry",
+    "first_seen": "2026-08-11T21:16:49.389438+00:00",
+    "job_id": "5c3196c7-f3d6-4dba-9c41-c886df4b2421",
+    "last_seen": "2026-08-17T20:48:46.216035+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-01",
+    "title": "Software Engineer, New Grad (2027)",
+    "url": "https://jobs.ashbyhq.com/sentry/5c3196c7-f3d6-4dba-9c41-c886df4b2421"
+  },
+  "5e35f663-3021-45a9-8858-c70ce1905fb3": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "5e35f663-3021-45a9-8858-c70ce1905fb3",
+    "last_seen": "2026-08-18T00:41:48.385864+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-29",
+    "title": "Security Engineer, IAM",
+    "url": "https://jobs.ashbyhq.com/sentry/5e35f663-3021-45a9-8858-c70ce1905fb3"
+  },
+  "5ee81d6f-e837-43bb-af06-8f26c992a766": {
+    "company": "Sentry",
+    "first_seen": "2026-10-12T02:13:31.765037+00:00",
+    "job_id": "5ee81d6f-e837-43bb-af06-8f26c992a766",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-09",
+    "title": "Software Engineer, Streaming Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/5ee81d6f-e837-43bb-af06-8f26c992a766"
+  },
+  "62cc8f95-d1ed-4476-a00c-71b1ec63d73e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "62cc8f95-d1ed-4476-a00c-71b1ec63d73e",
+    "last_seen": "2026-10-01T12:43:51.648297+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-06-04",
+    "title": "Senior Software Engineer, Events Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/62cc8f95-d1ed-4476-a00c-71b1ec63d73e"
+  },
+  "672e2a76-d8e1-49c1-b227-4a189c4e49a1": {
+    "company": "Sentry",
+    "first_seen": "2026-08-11T21:16:49.389438+00:00",
+    "job_id": "672e2a76-d8e1-49c1-b227-4a189c4e49a1",
+    "last_seen": "2026-08-17T20:48:46.216035+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-01",
+    "title": "Software Engineer, Intern (Summer 2027)",
+    "url": "https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1"
+  },
+  "67f20449-6b01-4cfa-92ca-bace58c10684": {
+    "company": "Sentry",
+    "first_seen": "2026-08-27T20:30:09.798226+00:00",
+    "job_id": "67f20449-6b01-4cfa-92ca-bace58c10684",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-08-26",
+    "title": "Security Engineer, Application Security",
+    "url": "https://jobs.ashbyhq.com/sentry/67f20449-6b01-4cfa-92ca-bace58c10684"
+  },
+  "68757804-a892-40ed-8ea7-f2d13500f29c": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "68757804-a892-40ed-8ea7-f2d13500f29c",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-03-31",
+    "title": "Staff Software Engineer, Issues",
+    "url": "https://jobs.ashbyhq.com/sentry/68757804-a892-40ed-8ea7-f2d13500f29c"
+  },
+  "6a973e19-6736-4973-8a87-043fcbcd553e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-26T00:20:07.849437+00:00",
+    "job_id": "6a973e19-6736-4973-8a87-043fcbcd553e",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-08-25",
+    "title": "Senior Product Manager, Mobile",
+    "url": "https://jobs.ashbyhq.com/sentry/6a973e19-6736-4973-8a87-043fcbcd553e"
+  },
+  "6ce36964-7052-4c18-9497-68dd42c29cba": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "6ce36964-7052-4c18-9497-68dd42c29cba",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Amsterdam, Netherlands",
+    "posted_date": "2026-08-03",
+    "title": "Sales Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/6ce36964-7052-4c18-9497-68dd42c29cba"
+  },
+  "6eb8d5f2-977e-4ff4-bdbe-fccb8747b5d7": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "6eb8d5f2-977e-4ff4-bdbe-fccb8747b5d7",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2025-10-30",
+    "title": "Senior Software Engineer, AI",
+    "url": "https://jobs.ashbyhq.com/sentry/6eb8d5f2-977e-4ff4-bdbe-fccb8747b5d7"
+  },
+  "70b48ffb-b413-49d1-8557-acc37b0e407e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-18T00:41:48.385864+00:00",
+    "job_id": "70b48ffb-b413-49d1-8557-acc37b0e407e",
+    "last_seen": "2026-09-01T19:15:55.218711+00:00",
+    "location": "San Francisco, California, Toronto, Ontario, Canada",
+    "posted_date": "2026-08-17",
+    "title": "Senior Software Engineer, Streaming Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/70b48ffb-b413-49d1-8557-acc37b0e407e"
+  },
+  "725334ed-ffef-4ead-8606-103267d9d640": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "725334ed-ffef-4ead-8606-103267d9d640",
+    "last_seen": "2026-09-10T20:56:07.536692+00:00",
+    "location": "Sydney, Australia",
+    "posted_date": "2026-07-09",
+    "title": "Senior Technical Support Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/725334ed-ffef-4ead-8606-103267d9d640"
+  },
+  "75ef5e93-cc2e-4e3e-b031-d7d0c3ffdd5d": {
+    "company": "Sentry",
+    "first_seen": "2026-09-10T20:56:07.536692+00:00",
+    "job_id": "75ef5e93-cc2e-4e3e-b031-d7d0c3ffdd5d",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-10",
+    "title": "Engineering Manager, Growth",
+    "url": "https://jobs.ashbyhq.com/sentry/75ef5e93-cc2e-4e3e-b031-d7d0c3ffdd5d"
+  },
+  "7e8c3a84-8b7a-4656-a7bf-544828f2a567": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "7e8c3a84-8b7a-4656-a7bf-544828f2a567",
+    "last_seen": "2026-08-24T20:59:04.092237+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-07-10",
+    "title": "Senior Technical Program Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/7e8c3a84-8b7a-4656-a7bf-544828f2a567"
+  },
+  "7ed2b263-3873-44c6-a730-2ca96100c58f": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "7ed2b263-3873-44c6-a730-2ca96100c58f",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2025-12-09",
+    "title": "Senior Developer Experience Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/7ed2b263-3873-44c6-a730-2ca96100c58f"
+  },
+  "81f09568-da7d-4ed1-8283-614f846c9b00": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "81f09568-da7d-4ed1-8283-614f846c9b00",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-22",
+    "title": "Staff Machine Learning Engineer, AI",
+    "url": "https://jobs.ashbyhq.com/sentry/81f09568-da7d-4ed1-8283-614f846c9b00"
+  },
+  "8422d476-7977-4ae0-bdaf-e5fba73fca44": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "8422d476-7977-4ae0-bdaf-e5fba73fca44",
+    "last_seen": "2026-08-11T00:14:29.309192+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-04-09",
+    "title": "Senior Software Engineer, Control Plane",
+    "url": "https://jobs.ashbyhq.com/sentry/8422d476-7977-4ae0-bdaf-e5fba73fca44"
+  },
+  "86e3e57e-6caf-446a-9208-1a614a138b10": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "86e3e57e-6caf-446a-9208-1a614a138b10",
+    "last_seen": "2026-08-31T22:04:33.437620+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-07-31",
+    "title": "Engineering Manager, Events Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/86e3e57e-6caf-446a-9208-1a614a138b10"
+  },
+  "889f98a2-07dd-4e7c-9682-3f137c57dc88": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "889f98a2-07dd-4e7c-9682-3f137c57dc88",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-06-10",
+    "title": "Technical Support Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/889f98a2-07dd-4e7c-9682-3f137c57dc88"
+  },
+  "8ecd25a9-3f0d-4225-8452-60a3b855c771": {
+    "company": "Sentry",
+    "first_seen": "2026-09-08T14:32:42.313603+00:00",
+    "job_id": "8ecd25a9-3f0d-4225-8452-60a3b855c771",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-03",
+    "title": "FP&A Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/8ecd25a9-3f0d-4225-8452-60a3b855c771"
+  },
+  "8ff7af3d-6b97-4cc5-9655-e06ea772bf07": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "8ff7af3d-6b97-4cc5-9655-e06ea772bf07",
+    "last_seen": "2026-08-12T16:50:36.958915+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-30",
+    "title": "Engineering Manager, Developer Infrastructure",
+    "url": "https://jobs.ashbyhq.com/sentry/8ff7af3d-6b97-4cc5-9655-e06ea772bf07"
+  },
+  "90c78863-f475-4d6f-ab51-5f00d6871cce": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "90c78863-f475-4d6f-ab51-5f00d6871cce",
+    "last_seen": "2026-08-16T23:47:28.287882+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-02-06",
+    "title": "Senior Security Engineer, Application & Platform Security",
+    "url": "https://jobs.ashbyhq.com/sentry/90c78863-f475-4d6f-ab51-5f00d6871cce"
+  },
+  "92f30f40-9596-4b66-9fd0-7ca5203f629d": {
+    "company": "Sentry",
+    "first_seen": "2026-09-14T22:22:21.651350+00:00",
+    "job_id": "92f30f40-9596-4b66-9fd0-7ca5203f629d",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-14",
+    "title": "Senior Software Engineer, Issue Detection",
+    "url": "https://jobs.ashbyhq.com/sentry/92f30f40-9596-4b66-9fd0-7ca5203f629d"
+  },
+  "9405b1d7-9a4e-424d-b5b2-4bc3cb2ba5cb": {
+    "company": "Sentry",
+    "first_seen": "2026-10-02T01:26:11.964159+00:00",
+    "job_id": "9405b1d7-9a4e-424d-b5b2-4bc3cb2ba5cb",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California, Toronto, Ontario, Canada",
+    "posted_date": "2026-10-01",
+    "title": "Manager, Design Engineering",
+    "url": "https://jobs.ashbyhq.com/sentry/9405b1d7-9a4e-424d-b5b2-4bc3cb2ba5cb"
+  },
+  "944d924d-b239-4b32-88f3-8cbf78bd34f3": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "944d924d-b239-4b32-88f3-8cbf78bd34f3",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Amsterdam, Netherlands",
+    "posted_date": "2026-05-15",
+    "title": "Senior Technical Customer Success Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/944d924d-b239-4b32-88f3-8cbf78bd34f3"
+  },
+  "95d2eeab-291d-40ad-97a2-86b104f3c7ad": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "95d2eeab-291d-40ad-97a2-86b104f3c7ad",
+    "last_seen": "2026-10-12T23:16:09.742872+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-01-28",
+    "title": "Senior Software Engineer, AI Evals",
+    "url": "https://jobs.ashbyhq.com/sentry/95d2eeab-291d-40ad-97a2-86b104f3c7ad"
+  },
+  "960b966a-849f-421f-8c75-72924f28293e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "960b966a-849f-421f-8c75-72924f28293e",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "New York City, New York",
+    "posted_date": "2026-04-30",
+    "title": "Senior Technical Customer Success Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/960b966a-849f-421f-8c75-72924f28293e"
+  },
+  "9889cf59-cd32-4aff-bff7-645bb1be4e14": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "9889cf59-cd32-4aff-bff7-645bb1be4e14",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2025-11-21",
+    "title": "Solutions Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/9889cf59-cd32-4aff-bff7-645bb1be4e14"
+  },
+  "9b7ba790-75d1-404c-bf9f-c3776179f7f2": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "9b7ba790-75d1-404c-bf9f-c3776179f7f2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-09",
+    "title": "Engineering Manager, Billing Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/9b7ba790-75d1-404c-bf9f-c3776179f7f2"
+  },
+  "a078cfdc-4dcc-47b4-93da-a49e4f39d322": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "a078cfdc-4dcc-47b4-93da-a49e4f39d322",
+    "last_seen": "2026-09-09T21:38:30.636982+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-07-08",
+    "title": "Technical Support Engineer (4PM-12AM PST)",
+    "url": "https://jobs.ashbyhq.com/sentry/a078cfdc-4dcc-47b4-93da-a49e4f39d322"
+  },
+  "ac1cb3c4-5408-4912-8591-eea2a84480b7": {
+    "company": "Sentry",
+    "first_seen": "2026-08-27T20:30:09.798226+00:00",
+    "job_id": "ac1cb3c4-5408-4912-8591-eea2a84480b7",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-26",
+    "title": "Security Engineer, Detection & Response",
+    "url": "https://jobs.ashbyhq.com/sentry/ac1cb3c4-5408-4912-8591-eea2a84480b7"
+  },
+  "ac8fd540-f3a2-4306-b52c-195fdbd2b998": {
+    "company": "Sentry",
+    "first_seen": "2026-08-27T20:30:09.798226+00:00",
+    "job_id": "ac8fd540-f3a2-4306-b52c-195fdbd2b998",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-08-26",
+    "title": "Security Engineer, Detection & Response",
+    "url": "https://jobs.ashbyhq.com/sentry/ac8fd540-f3a2-4306-b52c-195fdbd2b998"
+  },
+  "af7fab29-5d68-4041-9794-de4de3f41953": {
+    "company": "Sentry",
+    "first_seen": "2026-09-22T22:34:49.723683+00:00",
+    "job_id": "af7fab29-5d68-4041-9794-de4de3f41953",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-22",
+    "title": "Sr Staff Software Engineer, Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/af7fab29-5d68-4041-9794-de4de3f41953"
+  },
+  "bbd40ef1-c1d5-4e0e-99dd-30fde87cc804": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "bbd40ef1-c1d5-4e0e-99dd-30fde87cc804",
+    "last_seen": "2026-09-23T22:09:34.869923+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-04-24",
+    "title": "Senior Software Engineer (Frameworks), JavaScript SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/bbd40ef1-c1d5-4e0e-99dd-30fde87cc804"
+  },
+  "bc431cdf-7f32-4b9f-ac3e-9b0f660e6eb2": {
+    "company": "Sentry",
+    "first_seen": "2026-10-01T12:43:51.648297+00:00",
+    "job_id": "bc431cdf-7f32-4b9f-ac3e-9b0f660e6eb2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-09-30",
+    "title": "Senior Technical Support Engineer",
+    "url": "https://jobs.ashbyhq.com/sentry/bc431cdf-7f32-4b9f-ac3e-9b0f660e6eb2"
+  },
+  "bd787a06-bb6c-41e6-8a6e-06362fe776b2": {
+    "company": "Sentry",
+    "first_seen": "2026-09-22T22:34:49.723683+00:00",
+    "job_id": "bd787a06-bb6c-41e6-8a6e-06362fe776b2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-22",
+    "title": "Engineering Manager, Events Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/bd787a06-bb6c-41e6-8a6e-06362fe776b2"
+  },
+  "befec0ef-0e90-4b30-a02a-c47094090957": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "befec0ef-0e90-4b30-a02a-c47094090957",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-11",
+    "title": "Revenue Operations Analyst",
+    "url": "https://jobs.ashbyhq.com/sentry/befec0ef-0e90-4b30-a02a-c47094090957"
+  },
+  "bf150464-a7bc-4357-beb7-341535538370": {
+    "company": "Sentry",
+    "first_seen": "2026-09-12T18:18:17.746049+00:00",
+    "job_id": "bf150464-a7bc-4357-beb7-341535538370",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-09-11",
+    "title": "Senior Software Engineer, Telemetry Experience",
+    "url": "https://jobs.ashbyhq.com/sentry/bf150464-a7bc-4357-beb7-341535538370"
+  },
+  "c00e77f5-bd58-49da-b4a8-3b6249529747": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "c00e77f5-bd58-49da-b4a8-3b6249529747",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-04",
+    "title": "Staff Software Engineer, AI Developer Tooling",
+    "url": "https://jobs.ashbyhq.com/sentry/c00e77f5-bd58-49da-b4a8-3b6249529747"
+  },
+  "c1479d26-cf69-48ff-8424-c42ce05a8698": {
+    "company": "Sentry",
+    "first_seen": "2026-10-13T21:25:44.539926+00:00",
+    "job_id": "c1479d26-cf69-48ff-8424-c42ce05a8698",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-10-13",
+    "title": "Senior Software Engineer, Foundational Storage",
+    "url": "https://jobs.ashbyhq.com/sentry/c1479d26-cf69-48ff-8424-c42ce05a8698"
+  },
+  "c2b2dece-cecb-46e8-be1f-22b08d6b3483": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "c2b2dece-cecb-46e8-be1f-22b08d6b3483",
+    "last_seen": "2026-09-24T23:52:43.739525+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-19",
+    "title": "Senior Software Engineer (Node), JavaScript SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/c2b2dece-cecb-46e8-be1f-22b08d6b3483"
+  },
+  "c3ed6481-f031-4fe9-a456-775b7b3d2eda": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "c3ed6481-f031-4fe9-a456-775b7b3d2eda",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-03-31",
+    "title": "Staff Software Engineer, Issues",
+    "url": "https://jobs.ashbyhq.com/sentry/c3ed6481-f031-4fe9-a456-775b7b3d2eda"
+  },
+  "c736c27c-406d-43eb-8f88-bc7defb7ff32": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "c736c27c-406d-43eb-8f88-bc7defb7ff32",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-01-29",
+    "title": "Senior Technical Customer Success Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/c736c27c-406d-43eb-8f88-bc7defb7ff32"
+  },
+  "c796cd46-d80c-4ea8-9b0d-0eecbfc1353e": {
+    "company": "Sentry",
+    "first_seen": "2026-09-12T18:18:17.746049+00:00",
+    "job_id": "c796cd46-d80c-4ea8-9b0d-0eecbfc1353e",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-09-18",
+    "title": "Senior Software Engineer, Agent Tracing",
+    "url": "https://jobs.ashbyhq.com/sentry/c796cd46-d80c-4ea8-9b0d-0eecbfc1353e"
+  },
+  "c8f08641-a748-44fd-80b9-d3283848606b": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "c8f08641-a748-44fd-80b9-d3283848606b",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-04-30",
+    "title": "Senior Technical Customer Success Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/c8f08641-a748-44fd-80b9-d3283848606b"
+  },
+  "ccbee884-5fc1-492e-ba18-df568587ccc2": {
+    "company": "Sentry",
+    "first_seen": "2026-10-13T21:25:44.539926+00:00",
+    "job_id": "ccbee884-5fc1-492e-ba18-df568587ccc2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-13",
+    "title": "Senior Software Engineer, Foundational Storage",
+    "url": "https://jobs.ashbyhq.com/sentry/ccbee884-5fc1-492e-ba18-df568587ccc2"
+  },
+  "d5a378cc-524d-410b-8c42-2493cee1c657": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "d5a378cc-524d-410b-8c42-2493cee1c657",
+    "last_seen": "2026-10-12T23:16:09.742872+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-18",
+    "title": "Engineering Manager, Machine Learning",
+    "url": "https://jobs.ashbyhq.com/sentry/d5a378cc-524d-410b-8c42-2493cee1c657"
+  },
+  "d96096f1-f662-4581-8706-2f088bc43211": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "d96096f1-f662-4581-8706-2f088bc43211",
+    "last_seen": "2026-09-22T22:34:49.723683+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2025-11-14",
+    "title": "Senior Enterprise Product Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/d96096f1-f662-4581-8706-2f088bc43211"
+  },
+  "d98f9c72-836a-47fc-aaee-859f2ab63480": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "d98f9c72-836a-47fc-aaee-859f2ab63480",
+    "last_seen": "2026-08-18T00:41:48.385864+00:00",
+    "location": "Toronto, Ontario, Canada",
+    "posted_date": "2026-05-29",
+    "title": "Security Engineer, IAM",
+    "url": "https://jobs.ashbyhq.com/sentry/d98f9c72-836a-47fc-aaee-859f2ab63480"
+  },
+  "dc1e73a4-3cb8-4269-82b5-fdc6495b7e83": {
+    "company": "Sentry",
+    "first_seen": "2026-08-27T20:30:09.798226+00:00",
+    "job_id": "dc1e73a4-3cb8-4269-82b5-fdc6495b7e83",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-26",
+    "title": "Security Engineer, Application Security",
+    "url": "https://jobs.ashbyhq.com/sentry/dc1e73a4-3cb8-4269-82b5-fdc6495b7e83"
+  },
+  "ead6ce86-76b2-47a9-980b-ff3a64c9e38e": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "ead6ce86-76b2-47a9-980b-ff3a64c9e38e",
+    "last_seen": "2026-08-21T16:32:51.316464+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-06-15",
+    "title": "Staff Technical Program Manager",
+    "url": "https://jobs.ashbyhq.com/sentry/ead6ce86-76b2-47a9-980b-ff3a64c9e38e"
+  },
+  "ee7542d4-f478-4aa0-8da9-3583845d8269": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "ee7542d4-f478-4aa0-8da9-3583845d8269",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-08-28",
+    "title": "Technical Enablement Director",
+    "url": "https://jobs.ashbyhq.com/sentry/ee7542d4-f478-4aa0-8da9-3583845d8269"
+  },
+  "ee90f315-6ff3-4e63-a11d-1dcfa2a863b4": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "ee90f315-6ff3-4e63-a11d-1dcfa2a863b4",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-09-14",
+    "title": "Senior Software Engineer (iOS), SDK",
+    "url": "https://jobs.ashbyhq.com/sentry/ee90f315-6ff3-4e63-a11d-1dcfa2a863b4"
+  },
+  "f129ac00-0d67-43e2-9726-70ae262f5320": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "f129ac00-0d67-43e2-9726-70ae262f5320",
+    "last_seen": "2026-08-07T00:44:55.126152+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-01-28",
+    "title": "Software Engineer, Ingest",
+    "url": "https://jobs.ashbyhq.com/sentry/f129ac00-0d67-43e2-9726-70ae262f5320"
+  },
+  "f345b525-b2e9-4dc1-bec1-85fb4c3b3cf2": {
+    "company": "Sentry",
+    "first_seen": "2026-09-10T20:56:07.536692+00:00",
+    "job_id": "f345b525-b2e9-4dc1-bec1-85fb4c3b3cf2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-09-10",
+    "title": "Software Engineer, New Grad (2027)",
+    "url": "https://jobs.ashbyhq.com/sentry/f345b525-b2e9-4dc1-bec1-85fb4c3b3cf2"
+  },
+  "f34d1bfd-4b09-4436-976a-79fd6648cf7b": {
+    "company": "Sentry",
+    "first_seen": "2026-09-22T22:34:49.723683+00:00",
+    "job_id": "f34d1bfd-4b09-4436-976a-79fd6648cf7b",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-09-22",
+    "title": "Engineering Manager, Infrastructure",
+    "url": "https://jobs.ashbyhq.com/sentry/f34d1bfd-4b09-4436-976a-79fd6648cf7b"
+  },
+  "f7b4f37b-4293-433d-910e-9033bf10d6d4": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "f7b4f37b-4293-433d-910e-9033bf10d6d4",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-10-09",
+    "title": "Senior Software Engineer, Billing Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/f7b4f37b-4293-433d-910e-9033bf10d6d4"
+  },
+  "f9e12841-4efe-4742-81ae-e9c75e93d8a7": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "f9e12841-4efe-4742-81ae-e9c75e93d8a7",
+    "last_seen": "2026-10-01T12:43:51.648297+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-06-04",
+    "title": "Senior Software Engineer, Events Analytics Platform",
+    "url": "https://jobs.ashbyhq.com/sentry/f9e12841-4efe-4742-81ae-e9c75e93d8a7"
+  },
+  "fa522ac5-fc9f-4ce1-a191-842496a235a2": {
+    "company": "Sentry",
+    "first_seen": "2026-09-10T20:56:07.536692+00:00",
+    "job_id": "fa522ac5-fc9f-4ce1-a191-842496a235a2",
+    "last_seen": "2026-10-13T21:25:44.539926+00:00",
+    "location": "Vienna, Austria",
+    "posted_date": "2026-09-10",
+    "title": "Software Engineer, Intern (Summer 2027)",
+    "url": "https://jobs.ashbyhq.com/sentry/fa522ac5-fc9f-4ce1-a191-842496a235a2"
+  },
+  "fb3d5644-6172-43ca-9941-91c025ab16c9": {
+    "company": "Sentry",
+    "first_seen": "2026-08-06T01:27:35.835290+00:00",
+    "job_id": "fb3d5644-6172-43ca-9941-91c025ab16c9",
+    "last_seen": "2026-09-23T22:09:34.869923+00:00",
+    "location": "San Francisco, California",
+    "posted_date": "2026-05-27",
+    "title": "Head of Developer Experience",
+    "url": "https://jobs.ashbyhq.com/sentry/fb3d5644-6172-43ca-9941-91c025ab16c9"
+  }
+}

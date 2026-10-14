@@ -1,0 +1,612 @@
+{
+  "015958ae-38c0-4e9e-8bca-1a6fccdabd7f": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "015958ae-38c0-4e9e-8bca-1a6fccdabd7f",
+    "last_seen": "2026-09-16T20:46:44.781467+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-04-26",
+    "title": "Total Rewards Partner, Equity Compensation",
+    "url": "https://jobs.ashbyhq.com/supercell/015958ae-38c0-4e9e-8bca-1a6fccdabd7f"
+  },
+  "06058b2e-d65d-4e7f-9217-946ab424c508": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "06058b2e-d65d-4e7f-9217-946ab424c508",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-01-16",
+    "title": "Senior Product Manager, Live Ops & Monetization, Hay Day",
+    "url": "https://jobs.ashbyhq.com/supercell/06058b2e-d65d-4e7f-9217-946ab424c508"
+  },
+  "09df5324-2d80-44a0-82ab-df13a7f1c5a7": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "09df5324-2d80-44a0-82ab-df13a7f1c5a7",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-07-29",
+    "title": "Live Ops Designer, Hay Day",
+    "url": "https://jobs.ashbyhq.com/supercell/09df5324-2d80-44a0-82ab-df13a7f1c5a7"
+  },
+  "0c5ef7a2-f039-4ec6-aff5-fc35c79a3ee8": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "0c5ef7a2-f039-4ec6-aff5-fc35c79a3ee8",
+    "last_seen": "2026-10-08T23:31:49.107924+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-04-30",
+    "title": "Senior Engine Programmer",
+    "url": "https://jobs.ashbyhq.com/supercell/0c5ef7a2-f039-4ec6-aff5-fc35c79a3ee8"
+  },
+  "0f4bafd3-2221-462a-87a7-0959d02ffc08": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "0f4bafd3-2221-462a-87a7-0959d02ffc08",
+    "last_seen": "2026-08-30T20:12:26.081070+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-04-15",
+    "title": "Senior Game Programmer, Brawl Stars",
+    "url": "https://jobs.ashbyhq.com/supercell/0f4bafd3-2221-462a-87a7-0959d02ffc08"
+  },
+  "12cea05e-dcd6-40ac-b218-98e4edc0b9c9": {
+    "company": "Supercell",
+    "first_seen": "2026-10-13T21:26:11.847008+00:00",
+    "job_id": "12cea05e-dcd6-40ac-b218-98e4edc0b9c9",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-10-13",
+    "title": "Default Job Posting (external)",
+    "url": "https://jobs.ashbyhq.com/supercell/12cea05e-dcd6-40ac-b218-98e4edc0b9c9"
+  },
+  "1a3b2775-fcd6-4cdf-a6f5-90a6706d030c": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "1a3b2775-fcd6-4cdf-a6f5-90a6706d030c",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-05-08",
+    "title": "Senior Programmer, Engine Reliability",
+    "url": "https://jobs.ashbyhq.com/supercell/1a3b2775-fcd6-4cdf-a6f5-90a6706d030c"
+  },
+  "1c446790-5fad-48b4-a194-92a8caaac381": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "1c446790-5fad-48b4-a194-92a8caaac381",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-02-25",
+    "title": "Senior Game Designer, Project R.I.S.E",
+    "url": "https://jobs.ashbyhq.com/supercell/1c446790-5fad-48b4-a194-92a8caaac381"
+  },
+  "1d91d31a-2022-40a2-ae8f-289decdf2ea4": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "1d91d31a-2022-40a2-ae8f-289decdf2ea4",
+    "last_seen": "2026-09-27T15:45:04.111856+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-03-04",
+    "title": "Senior Software Engineer, Supercell ID (Backend)",
+    "url": "https://jobs.ashbyhq.com/supercell/1d91d31a-2022-40a2-ae8f-289decdf2ea4"
+  },
+  "22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0": {
+    "company": "Supercell",
+    "first_seen": "2026-08-17T20:49:13.494154+00:00",
+    "job_id": "22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0",
+    "last_seen": "2026-09-22T22:35:13.812344+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-08-17",
+    "title": "Marketing Lead, New Games",
+    "url": "https://jobs.ashbyhq.com/supercell/22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0"
+  },
+  "25896f6c-f9c6-449d-8abe-69ce7c63fffe": {
+    "company": "Supercell",
+    "first_seen": "2026-08-07T14:37:51.104722+00:00",
+    "job_id": "25896f6c-f9c6-449d-8abe-69ce7c63fffe",
+    "last_seen": "2026-09-21T22:02:36.446602+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-08-07",
+    "title": "Product Marketing Manager, Hay Day",
+    "url": "https://jobs.ashbyhq.com/supercell/25896f6c-f9c6-449d-8abe-69ce7c63fffe"
+  },
+  "259aa2ac-cd24-479e-8f63-d4318589cddf": {
+    "company": "Supercell",
+    "first_seen": "2026-09-03T20:11:02.095379+00:00",
+    "job_id": "259aa2ac-cd24-479e-8f63-d4318589cddf",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-09-03",
+    "title": "Quality Engineering Lead",
+    "url": "https://jobs.ashbyhq.com/supercell/259aa2ac-cd24-479e-8f63-d4318589cddf"
+  },
+  "25c49a59-3915-45b4-9389-6e1e4889f29f": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "25c49a59-3915-45b4-9389-6e1e4889f29f",
+    "last_seen": "2026-09-14T01:46:30.685877+00:00",
+    "location": "Seoul",
+    "posted_date": "2026-07-03",
+    "title": "Marketing Manager, Korea",
+    "url": "https://jobs.ashbyhq.com/supercell/25c49a59-3915-45b4-9389-6e1e4889f29f"
+  },
+  "2aa24f0b-5f80-48bc-940e-f122184339d7": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "2aa24f0b-5f80-48bc-940e-f122184339d7",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-10",
+    "title": "Principal Product Manager, LiveOps & Monetization, Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/2aa24f0b-5f80-48bc-940e-f122184339d7"
+  },
+  "2ea14727-3642-4b98-97a4-06d8f63cadce": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "2ea14727-3642-4b98-97a4-06d8f63cadce",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-04-30",
+    "title": "Product Manager, D2C",
+    "url": "https://jobs.ashbyhq.com/supercell/2ea14727-3642-4b98-97a4-06d8f63cadce"
+  },
+  "2ed2158f-fca8-4be3-9f8e-06b8030a9058": {
+    "company": "Supercell",
+    "first_seen": "2026-10-12T23:16:36.454778+00:00",
+    "job_id": "2ed2158f-fca8-4be3-9f8e-06b8030a9058",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Seoul",
+    "posted_date": "2026-10-12",
+    "title": "Creator Partnerships Manager, Korea",
+    "url": "https://jobs.ashbyhq.com/supercell/2ed2158f-fca8-4be3-9f8e-06b8030a9058"
+  },
+  "32c51066-9a60-4bc8-8c82-a8f52080c200": {
+    "company": "Supercell",
+    "first_seen": "2026-08-13T14:25:01.042916+00:00",
+    "job_id": "32c51066-9a60-4bc8-8c82-a8f52080c200",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-08-13",
+    "title": "MarTech Engineer",
+    "url": "https://jobs.ashbyhq.com/supercell/32c51066-9a60-4bc8-8c82-a8f52080c200"
+  },
+  "3c2e4e49-4b85-4281-a7e1-1bfddd3dab6f": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "3c2e4e49-4b85-4281-a7e1-1bfddd3dab6f",
+    "last_seen": "2026-09-22T22:35:13.812344+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-01-13",
+    "title": "Senior Live Ops Manager, Clash of Clans",
+    "url": "https://jobs.ashbyhq.com/supercell/3c2e4e49-4b85-4281-a7e1-1bfddd3dab6f"
+  },
+  "3e4ade1a-54e5-4776-9c83-e936b34ccd0f": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "3e4ade1a-54e5-4776-9c83-e936b34ccd0f",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-05-27",
+    "title": "Product Marketing Manager, Brawl Stars",
+    "url": "https://jobs.ashbyhq.com/supercell/3e4ade1a-54e5-4776-9c83-e936b34ccd0f"
+  },
+  "3f0eafb6-be84-419c-866c-3c2300ddd99c": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "3f0eafb6-be84-419c-866c-3c2300ddd99c",
+    "last_seen": "2026-08-30T20:12:26.081070+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-03-19",
+    "title": "Senior Game Programmer, Hay Day",
+    "url": "https://jobs.ashbyhq.com/supercell/3f0eafb6-be84-419c-866c-3c2300ddd99c"
+  },
+  "44f9aff1-f130-4a30-b51f-1dcbe9002264": {
+    "company": "Supercell",
+    "first_seen": "2026-09-15T21:04:44.091799+00:00",
+    "job_id": "44f9aff1-f130-4a30-b51f-1dcbe9002264",
+    "last_seen": "2026-09-27T15:45:04.111856+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-09-15",
+    "title": "Investment Intern",
+    "url": "https://jobs.ashbyhq.com/supercell/44f9aff1-f130-4a30-b51f-1dcbe9002264"
+  },
+  "46fab76c-cd8b-4845-acfd-fa8d322c26c2": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "46fab76c-cd8b-4845-acfd-fa8d322c26c2",
+    "last_seen": "2026-09-24T23:53:07.227267+00:00",
+    "location": "Berlin",
+    "posted_date": "2026-07-01",
+    "title": "Senior Marketing Manager, EMEA",
+    "url": "https://jobs.ashbyhq.com/supercell/46fab76c-cd8b-4845-acfd-fa8d322c26c2"
+  },
+  "4dc6b102-5f3f-4211-9f81-646c16f29888": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "4dc6b102-5f3f-4211-9f81-646c16f29888",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-02-13",
+    "title": "Product Lead, Project R.I.S.E",
+    "url": "https://jobs.ashbyhq.com/supercell/4dc6b102-5f3f-4211-9f81-646c16f29888"
+  },
+  "4f664144-8f5f-4b80-b3e6-ed59f1814e7e": {
+    "company": "Supercell",
+    "first_seen": "2026-08-11T14:16:03.898897+00:00",
+    "job_id": "4f664144-8f5f-4b80-b3e6-ed59f1814e7e",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-08-11",
+    "title": "Head of Performance Marketing",
+    "url": "https://jobs.ashbyhq.com/supercell/4f664144-8f5f-4b80-b3e6-ed59f1814e7e"
+  },
+  "5575d11e-a08f-4d68-9c89-76ab400d4fff": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "5575d11e-a08f-4d68-9c89-76ab400d4fff",
+    "last_seen": "2026-08-07T00:45:30.739098+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-02-03",
+    "title": "Senior Server Engineer, Central Tech",
+    "url": "https://jobs.ashbyhq.com/supercell/5575d11e-a08f-4d68-9c89-76ab400d4fff"
+  },
+  "5c0288ab-280c-46cb-844d-297ac2a6ffe8": {
+    "company": "Supercell",
+    "first_seen": "2026-09-24T23:53:07.227267+00:00",
+    "job_id": "5c0288ab-280c-46cb-844d-297ac2a6ffe8",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-24",
+    "title": "Senior Technical Artist, Project R.I.S.E",
+    "url": "https://jobs.ashbyhq.com/supercell/5c0288ab-280c-46cb-844d-297ac2a6ffe8"
+  },
+  "5cc9682b-7353-4ee7-be2f-9f3065b5f5df": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "5cc9682b-7353-4ee7-be2f-9f3065b5f5df",
+    "last_seen": "2026-08-18T00:42:28.398901+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-06-12",
+    "title": "Game Systems Designer, Clash of Clans",
+    "url": "https://jobs.ashbyhq.com/supercell/5cc9682b-7353-4ee7-be2f-9f3065b5f5df"
+  },
+  "5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a",
+    "last_seen": "2026-09-27T15:45:04.111856+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-05-29",
+    "title": "Senior Server Engineer, Brawl Stars",
+    "url": "https://jobs.ashbyhq.com/supercell/5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a"
+  },
+  "60651ccd-1ec1-4b87-a6b3-8148350459f8": {
+    "company": "Supercell",
+    "first_seen": "2026-10-13T21:26:11.847008+00:00",
+    "job_id": "60651ccd-1ec1-4b87-a6b3-8148350459f8",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-10-13",
+    "title": "Senior Game Tester, Game Modes \u2014 Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/60651ccd-1ec1-4b87-a6b3-8148350459f8"
+  },
+  "66476c5d-30b6-4772-aa41-94d251e3d73c": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "66476c5d-30b6-4772-aa41-94d251e3d73c",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-07-08",
+    "title": "Senior UI Artist",
+    "url": "https://jobs.ashbyhq.com/supercell/66476c5d-30b6-4772-aa41-94d251e3d73c"
+  },
+  "76e56d65-9884-4c86-b616-f9c70c4a7a34": {
+    "company": "Supercell",
+    "first_seen": "2026-09-09T21:38:56.656738+00:00",
+    "job_id": "76e56d65-9884-4c86-b616-f9c70c4a7a34",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-09-09",
+    "title": "Marketing Creative Lead",
+    "url": "https://jobs.ashbyhq.com/supercell/76e56d65-9884-4c86-b616-f9c70c4a7a34"
+  },
+  "79044439-beb5-4f7a-9f71-f49d1d93022c": {
+    "company": "Supercell",
+    "first_seen": "2026-09-03T20:11:02.095379+00:00",
+    "job_id": "79044439-beb5-4f7a-9f71-f49d1d93022c",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-09-03",
+    "title": "Senior Software Engineer, Supercell ID (Client SDK)",
+    "url": "https://jobs.ashbyhq.com/supercell/79044439-beb5-4f7a-9f71-f49d1d93022c"
+  },
+  "79310a4f-67d2-4772-b107-ef7ea4eb106c": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "79310a4f-67d2-4772-b107-ef7ea4eb106c",
+    "last_seen": "2026-09-14T01:46:30.685877+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-01",
+    "title": "Senior Tools Programmer",
+    "url": "https://jobs.ashbyhq.com/supercell/79310a4f-67d2-4772-b107-ef7ea4eb106c"
+  },
+  "85d37bfd-864e-4d51-8743-f2d9d07fbac1": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "85d37bfd-864e-4d51-8743-f2d9d07fbac1",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-16",
+    "title": "Marketing Producer, Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/85d37bfd-864e-4d51-8743-f2d9d07fbac1"
+  },
+  "8cb16c25-3e09-4245-96b0-6bab32186181": {
+    "company": "Supercell",
+    "first_seen": "2026-09-01T19:16:24.378526+00:00",
+    "job_id": "8cb16c25-3e09-4245-96b0-6bab32186181",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-09-01",
+    "title": "Senior Level Artist, Project R.I.S.E",
+    "url": "https://jobs.ashbyhq.com/supercell/8cb16c25-3e09-4245-96b0-6bab32186181"
+  },
+  "8d605b68-a90c-472a-837f-697e319fdcb9": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "8d605b68-a90c-472a-837f-697e319fdcb9",
+    "last_seen": "2026-10-04T23:06:41.542712+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-04-14",
+    "title": "Feature Lead",
+    "url": "https://jobs.ashbyhq.com/supercell/8d605b68-a90c-472a-837f-697e319fdcb9"
+  },
+  "8d939573-6cf0-4f7e-91f6-46d0af27728b": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "8d939573-6cf0-4f7e-91f6-46d0af27728b",
+    "last_seen": "2026-09-18T19:54:39.986316+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-06-15",
+    "title": "Art Lead, Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/8d939573-6cf0-4f7e-91f6-46d0af27728b"
+  },
+  "99339e8c-3190-4cfb-a7e4-01f675188597": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "99339e8c-3190-4cfb-a7e4-01f675188597",
+    "last_seen": "2026-10-06T00:22:54.877116+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-04-10",
+    "title": "Corporate Brand Manager",
+    "url": "https://jobs.ashbyhq.com/supercell/99339e8c-3190-4cfb-a7e4-01f675188597"
+  },
+  "a91f0f17-3e71-4767-a448-94bd86dbb525": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "a91f0f17-3e71-4767-a448-94bd86dbb525",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-07-03",
+    "title": "Gameplay Capture & Video Artist, Creative Studio",
+    "url": "https://jobs.ashbyhq.com/supercell/a91f0f17-3e71-4767-a448-94bd86dbb525"
+  },
+  "aa364252-bce0-4a50-80ad-54d5ea1a9078": {
+    "company": "Supercell",
+    "first_seen": "2026-10-01T12:44:17.466011+00:00",
+    "job_id": "aa364252-bce0-4a50-80ad-54d5ea1a9078",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-10-01",
+    "title": "Product Manager, Data Platform",
+    "url": "https://jobs.ashbyhq.com/supercell/aa364252-bce0-4a50-80ad-54d5ea1a9078"
+  },
+  "ab40c52a-c067-47fb-a202-277a4854a8df": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "ab40c52a-c067-47fb-a202-277a4854a8df",
+    "last_seen": "2026-08-20T00:24:52.281712+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-05-15",
+    "title": "UA Creative Producer, Hay Day",
+    "url": "https://jobs.ashbyhq.com/supercell/ab40c52a-c067-47fb-a202-277a4854a8df"
+  },
+  "ac462eb1-cbda-4c78-99bf-fcb71f917cc4": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "ac462eb1-cbda-4c78-99bf-fcb71f917cc4",
+    "last_seen": "2026-09-29T20:26:57.715441+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-07-06",
+    "title": "Senior UI Designer, Community",
+    "url": "https://jobs.ashbyhq.com/supercell/ac462eb1-cbda-4c78-99bf-fcb71f917cc4"
+  },
+  "afac0f22-9b86-4c60-8fe7-29f0e024126f": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "afac0f22-9b86-4c60-8fe7-29f0e024126f",
+    "last_seen": "2026-09-27T15:45:04.111856+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-15",
+    "title": "Senior Machine Learning Engineer",
+    "url": "https://jobs.ashbyhq.com/supercell/afac0f22-9b86-4c60-8fe7-29f0e024126f"
+  },
+  "b6b6d432-e4dc-41de-a814-7dee7f1d0adc": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "b6b6d432-e4dc-41de-a814-7dee7f1d0adc",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-29",
+    "title": "Competitive Experience Manager, Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/b6b6d432-e4dc-41de-a814-7dee7f1d0adc"
+  },
+  "b6b931a4-1fd8-4351-9381-e2c3e1c7cfee": {
+    "company": "Supercell",
+    "first_seen": "2026-10-06T23:01:58.579442+00:00",
+    "job_id": "b6b931a4-1fd8-4351-9381-e2c3e1c7cfee",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-10-06",
+    "title": "Senior Infrastructure Engineer, IT",
+    "url": "https://jobs.ashbyhq.com/supercell/b6b931a4-1fd8-4351-9381-e2c3e1c7cfee"
+  },
+  "b9c005e5-63ae-4a68-94c6-db2ba6e08a9e": {
+    "company": "Supercell",
+    "first_seen": "2026-08-10T12:25:54.124150+00:00",
+    "job_id": "b9c005e5-63ae-4a68-94c6-db2ba6e08a9e",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-08-09",
+    "title": "Senior Automation Engineer",
+    "url": "https://jobs.ashbyhq.com/supercell/b9c005e5-63ae-4a68-94c6-db2ba6e08a9e"
+  },
+  "bba0b240-f0e8-47df-b635-9295536207c8": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "bba0b240-f0e8-47df-b635-9295536207c8",
+    "last_seen": "2026-10-06T23:01:58.579442+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-03-25",
+    "title": "Live Ops Designer, Brawl Stars",
+    "url": "https://jobs.ashbyhq.com/supercell/bba0b240-f0e8-47df-b635-9295536207c8"
+  },
+  "bdc0c3c3-f381-48c7-bcb1-101cc21b1466": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "bdc0c3c3-f381-48c7-bcb1-101cc21b1466",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-02-04",
+    "title": "Senior Client Programmer, Project R.I.S.E",
+    "url": "https://jobs.ashbyhq.com/supercell/bdc0c3c3-f381-48c7-bcb1-101cc21b1466"
+  },
+  "be3451d8-7ff6-4130-bbea-880d565051a1": {
+    "company": "Supercell",
+    "first_seen": "2026-08-10T12:25:54.124150+00:00",
+    "job_id": "be3451d8-7ff6-4130-bbea-880d565051a1",
+    "last_seen": "2026-08-31T22:05:03.104520+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-08-09",
+    "title": "Senior QA Specialist",
+    "url": "https://jobs.ashbyhq.com/supercell/be3451d8-7ff6-4130-bbea-880d565051a1"
+  },
+  "ced1857b-2a07-45ee-a8d7-aa784a275ba6": {
+    "company": "Supercell",
+    "first_seen": "2026-08-14T15:15:34.294940+00:00",
+    "job_id": "ced1857b-2a07-45ee-a8d7-aa784a275ba6",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-08-14",
+    "title": "Product Lead, Game Engine",
+    "url": "https://jobs.ashbyhq.com/supercell/ced1857b-2a07-45ee-a8d7-aa784a275ba6"
+  },
+  "d0b5451c-4d57-4d4b-81da-7330c83f90e7": {
+    "company": "Supercell",
+    "first_seen": "2026-09-09T21:38:56.656738+00:00",
+    "job_id": "d0b5451c-4d57-4d4b-81da-7330c83f90e7",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "London",
+    "posted_date": "2026-09-09",
+    "title": "Senior Match-3 Designer, New Game",
+    "url": "https://jobs.ashbyhq.com/supercell/d0b5451c-4d57-4d4b-81da-7330c83f90e7"
+  },
+  "d65a9741-cf71-4065-a2cc-bf3780ee7ee5": {
+    "company": "Supercell",
+    "first_seen": "2026-08-12T14:15:28.735178+00:00",
+    "job_id": "d65a9741-cf71-4065-a2cc-bf3780ee7ee5",
+    "last_seen": "2026-09-15T00:57:00.067542+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-08-12",
+    "title": "UX Designer, LiveOps Tooling",
+    "url": "https://jobs.ashbyhq.com/supercell/d65a9741-cf71-4065-a2cc-bf3780ee7ee5"
+  },
+  "e003151e-ed49-47ca-99d1-8bc4bfd5265e": {
+    "company": "Supercell",
+    "first_seen": "2026-09-03T20:11:02.095379+00:00",
+    "job_id": "e003151e-ed49-47ca-99d1-8bc4bfd5265e",
+    "last_seen": "2026-09-16T20:46:44.781467+00:00",
+    "location": "London",
+    "posted_date": "2026-09-03",
+    "title": "Team Support",
+    "url": "https://jobs.ashbyhq.com/supercell/e003151e-ed49-47ca-99d1-8bc4bfd5265e"
+  },
+  "e8271fa2-f496-4380-8c10-b174ec076be5": {
+    "company": "Supercell",
+    "first_seen": "2026-08-13T19:49:45.376682+00:00",
+    "job_id": "e8271fa2-f496-4380-8c10-b174ec076be5",
+    "last_seen": "2026-09-03T20:11:02.095379+00:00",
+    "location": "New York, San Francisco, Los Angeles",
+    "posted_date": "2026-08-13",
+    "title": "Marketing Producer",
+    "url": "https://jobs.ashbyhq.com/supercell/e8271fa2-f496-4380-8c10-b174ec076be5"
+  },
+  "ececc5c4-9332-4e3d-9c78-36f59f82644e": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "ececc5c4-9332-4e3d-9c78-36f59f82644e",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "London, Helsinki",
+    "posted_date": "2026-06-03",
+    "title": "Game Lead, Boom Beach",
+    "url": "https://jobs.ashbyhq.com/supercell/ececc5c4-9332-4e3d-9c78-36f59f82644e"
+  },
+  "ef3ddd1b-bf20-4ff2-b6ef-4340662aa20a": {
+    "company": "Supercell",
+    "first_seen": "2026-10-08T23:31:49.107924+00:00",
+    "job_id": "ef3ddd1b-bf20-4ff2-b6ef-4340662aa20a",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-10-08",
+    "title": "Senior Gameplay Designer, Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/ef3ddd1b-bf20-4ff2-b6ef-4340662aa20a"
+  },
+  "f49ebe91-f999-4f8b-84d1-29c801b38a71": {
+    "company": "Supercell",
+    "first_seen": "2026-08-10T12:25:54.124150+00:00",
+    "job_id": "f49ebe91-f999-4f8b-84d1-29c801b38a71",
+    "last_seen": "2026-09-08T14:33:12.711715+00:00",
+    "location": "Shanghai",
+    "posted_date": "2026-08-10",
+    "title": "Senior Engine Programmer, Rendering , Clash Royale",
+    "url": "https://jobs.ashbyhq.com/supercell/f49ebe91-f999-4f8b-84d1-29c801b38a71"
+  },
+  "f5eddac0-3d89-4224-8301-bde715e2dde2": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "f5eddac0-3d89-4224-8301-bde715e2dde2",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-04-10",
+    "title": "Art Director, Clash of Clans",
+    "url": "https://jobs.ashbyhq.com/supercell/f5eddac0-3d89-4224-8301-bde715e2dde2"
+  },
+  "fbf26285-b36d-4977-b137-e3264b5a033a": {
+    "company": "Supercell",
+    "first_seen": "2026-08-06T02:04:05.064891+00:00",
+    "job_id": "fbf26285-b36d-4977-b137-e3264b5a033a",
+    "last_seen": "2026-09-21T22:02:36.446602+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-06-19",
+    "title": "Senior Cloud Engineer",
+    "url": "https://jobs.ashbyhq.com/supercell/fbf26285-b36d-4977-b137-e3264b5a033a"
+  },
+  "fc3bfdb7-e09a-4a66-b2fe-00e47e57e56b": {
+    "company": "Supercell",
+    "first_seen": "2026-09-09T21:38:56.656738+00:00",
+    "job_id": "fc3bfdb7-e09a-4a66-b2fe-00e47e57e56b",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki",
+    "posted_date": "2026-09-09",
+    "title": "Head of Editor & Tools",
+    "url": "https://jobs.ashbyhq.com/supercell/fc3bfdb7-e09a-4a66-b2fe-00e47e57e56b"
+  },
+  "fdef9348-750d-4c8f-88b2-517ba4804672": {
+    "company": "Supercell",
+    "first_seen": "2026-08-13T14:25:01.042916+00:00",
+    "job_id": "fdef9348-750d-4c8f-88b2-517ba4804672",
+    "last_seen": "2026-10-13T21:26:11.847008+00:00",
+    "location": "Helsinki, London",
+    "posted_date": "2026-08-13",
+    "title": "Marketing Data Science Lead",
+    "url": "https://jobs.ashbyhq.com/supercell/fdef9348-750d-4c8f-88b2-517ba4804672"
+  }
+}
