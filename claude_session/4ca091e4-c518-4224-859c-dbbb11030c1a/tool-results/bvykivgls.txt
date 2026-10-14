@@ -1,0 +1,677 @@
+ALL TOOL USES ON FILE:
+2026-09-09T17:00:40 a4a5cbad AskUserQuestion  | NEW: 
+2026-09-09T17:11:33 a4a5cbad Bash grep -rn "skip_companies\|skip companies\|excluded\|paused" README.md DEPLOY.md | head; echo "---filter_cache  | NEW: 
+2026-09-09T17:31:54 a4a5cbad mcp__ccd_session__mark_chapter  | NEW: 
+2026-09-09T17:31:58 a4a5cbad Edit     parser.add_argument(\n        "--company",\n        action="append",\n        dest="companies",\n        help= | NEW:     parser.add_argument(\n        "--company",\n        action="append",\n        dest="companies",\n        help=
+2026-09-09T17:32:16 a4a5cbad Edit     names = args.companies or sorted(SCRAPERS)\n    unknown = [n for n in names if n not in SCRAPERS]\n    if un | NEW:     names = args.companies or sorted(SCRAPERS)\n    unknown = [n for n in names if n not in SCRAPERS]\n    if un
+2026-09-09T17:33:18 a4a5cbad Edit     exit_code = cli.main(["--skip-browser"])\n\n    err = capsys.readouterr().err\n    assert "Skipping" in err a | NEW:     exit_code = cli.main(["--skip-browser"])\n\n    err = capsys.readouterr().err\n    assert "Skipping" in err a
+2026-09-09T17:34:33 a4a5cbad Bash source ~/.zshrc 2>/dev/null; cd /Users/HMF4BGW/go/src/github.com/applications\necho "=== 1. --exclude removes o | NEW: 
+2026-09-09T17:34:51 a4a5cbad Edit ```bash\n.venv/bin/python run.py                         # all registered companies\n.venv/bin/python run.py --c | NEW: ```bash\n.venv/bin/python run.py                         # all registered companies\n.venv/bin/python run.py --c
+2026-09-09T17:35:29 a4a5cbad Edit     # Exclusions. --exclude is for one run; state/skip_companies.txt is the\n    # standing list, for companies | NEW:     # Exclusions. --exclude drops a company from this run; state/skip_companies.txt\n    # is the standing list
+2026-09-09T20:26:10 a4a5cbad Bash cd /Users/HMF4BGW/go/src/github.com/applications; ls -la state/skip_companies.txt 2>/dev/null && echo "--- exi | NEW: 
+2026-09-09T20:26:27 a4a5cbad Write  | NEW: 
+2026-09-09T20:26:31 a4a5cbad Bash source ~/.zshrc 2>/dev/null; cd /Users/HMF4BGW/go/src/github.com/applications; .venv/bin/python3 -c "\nfrom pat | NEW: 
+2026-09-09T20:30:50 a4a5cbad Write  | NEW: 
+2026-09-09T20:30:56 a4a5cbad Bash source ~/.zshrc 2>/dev/null; cd /Users/HMF4BGW/go/src/github.com/applications; .venv/bin/python3 -c "\nimport s | NEW: 
+2026-09-09T20:31:09 a4a5cbad Bash cd /Users/HMF4BGW/go/src/github.com/applications; git status --short; git check-ignore -v state/skip_companies | NEW: 
+2026-09-09T21:50:12 a4a5cbad Edit Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services\nChime                  # i | NEW: Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services\nCapital One            # o
+2026-09-09T21:50:15 a4a5cbad Edit Roblox                 # by request\nSnap                   # dormant\nSnowflake              # nudged recruiter | NEW: Roblox                 # by request\nSnowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+2026-09-09T21:50:20 a4a5cbad Bash source ~/.zshrc 2>/dev/null; cd /Users/HMF4BGW/go/src/github.com/applications; .venv/bin/python3 -c "\nimport s | NEW: 
+2026-09-15T21:22:25 05ad3bf1 Bash cat state/skip_companies.txt 2>/dev/null; echo "---exit:$?---" | NEW: 
+2026-09-15T21:22:49 05ad3bf1 Read  | NEW: 
+2026-09-15T21:22:55 05ad3bf1 Edit # closed ones you don't want alerts from. As of 2026-09-09. | NEW: # closed ones you don't want alerts from. As of 2026-09-15.
+2026-09-15T21:22:58 05ad3bf1 Edit Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services\nCapital One            # o | NEW: Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services\nBloomberg              # b
+2026-09-15T21:23:00 05ad3bf1 Edit SpaceX                 # by request\nVanta                  # silent 5 days post-technical (9/4) | NEW: SpaceX                 # by request\nStubHub                # by request\nVanta                  # silent 5 days
+2026-09-15T21:23:13 05ad3bf1 Read  | NEW: 
+2026-09-15T21:23:15 05ad3bf1 Edit Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing\nPlaid                | NEW: Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing\nPayPal              
+2026-09-15T21:24:18 05ad3bf1 Read  | NEW: 
+2026-09-15T21:24:20 05ad3bf1 Edit Walmart Global Tech    # dormant | NEW: Walmart Global Tech    # dormant\nWorkday                # by request
+2026-09-15T21:33:02 05ad3bf1 Read  | NEW: 
+2026-09-15T21:33:04 05ad3bf1 Edit Google                 # silent, follow-up drafted\nIntuit                 # interview ~9/17 | NEW: Intuit                 # interview ~9/17
+2026-09-15T21:39:44 05ad3bf1 Bash grep -ni "openai" /Users/HMF4BGW/go/src/github.com/applications/state/skip_companies.txt | NEW: 
+2026-09-17T22:00:52 5c267ddd Read  | NEW: 
+2026-09-17T22:01:08 5c267ddd Bash awk '{ if (match($0, /#/)) print length($0), index($0,"#"), $0; }' state/skip_companies.txt | grep -v "^0 0" | NEW: 
+2026-09-17T22:01:24 5c267ddd Edit Datadog                # closed 9/2 (final-round reject); by request\nExpedia                # by request | NEW: Datadog                # closed 9/2 (final-round reject); by request\neBay                   # by request\nExped
+2026-09-17T22:01:26 5c267ddd Edit Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing\nPayPal               | NEW: Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing\nMastercard          
+2026-09-17T22:01:28 5c267ddd Edit StubHub                # by request\nVanta                  # silent 5 days post-technical (9/4) | NEW: StubHub                # by request\nTarget                 # by request\nVanta                  # silent 5 days
+2026-09-17T22:01:30 5c267ddd Edit Verkada                # closed 9/8 (post-interview reject); by request\nWalmart Global Tech    # dormant\nWorkd | NEW: Verkada                # closed 9/8 (post-interview reject); by request\nVisa                   # by request\nWa
+2026-09-17T22:01:33 5c267ddd Edit # closed ones you don't want alerts from. As of 2026-09-15. | NEW: # closed ones you don't want alerts from. As of 2026-09-17.
+2026-09-17T22:01:35 5c267ddd Read  | NEW: 
+2026-09-20T02:06:28 de784c28 Bash cat -A state/skip_companies.txt | head -40; sed -n 120,160p run.py; sed -n 45,62p README.md; git status --shor | NEW: 
+2026-09-20T02:06:33 de784c28 Bash ls -la state/ | head -20; echo ---; cat state/skip_companies.txt 2>&1; echo ---; .venv/bin/python3 - <<'EOF'\nf | NEW: 
+2026-09-20T02:06:42 de784c28 Edit Bloomberg              # by request\n | NEW: Bloomberg              # by request\nBroadcom               # by request\n
+2026-09-20T02:06:43 de784c28 Edit Nubank                 # by request\n | NEW: Nubank                 # by request\nOpenAI                 # by request\n
+2026-09-20T02:06:45 de784c28 Bash .venv/bin/python3 -c "\nfrom pathlib import Path\nfrom run import _read_skip_file\nfrom jobwatch.registry import  | NEW: 
+2026-09-23T22:02:43 db615a54 Bash cd /Users/HMF4BGW/go/src/github.com/applications; sed -n 1,200p tools/refilter_report.py | head -120; .venv/bi | NEW: 
+2026-10-02T01:11:30 6244f59e Read  | NEW: 
+2026-10-02T01:11:36 6244f59e Edit Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth\n | NEW: 
+2026-10-02T01:11:37 6244f59e Edit Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe\n | NEW: 
+2026-10-02T01:11:39 6244f59e Bash grep -rnE "skip_companies|STATE_DIR\s*=" --include="*.py" --include="*.yml" --include="*.yaml" --include="Dock | NEW: 
+2026-10-02T01:13:32 6244f59e Read  | NEW: 
+2026-10-02T01:13:35 6244f59e Edit Amazon                 # by request\n | NEW: Amazon                 # by request\nAmerican Express       # by request\n
+2026-10-02T01:13:36 6244f59e Edit Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30\n | NEW: Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30\nQualcomm               # by request\n
+2026-10-02T01:14:35 6244f59e Edit Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack\n | NEW: Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack\nAtlassian              # by request\n
+2026-10-02T01:15:09 6244f59e Edit Atlassian              # by request\n | NEW: Atlassian              # by request\nAurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core
+2026-10-02T01:15:12 6244f59e Edit Autodesk               # by request\nAurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core | NEW: Autodesk               # by request\n
+2026-10-02T01:15:13 6244f59e Bash sed -n '5,14p' state/skip_companies.txt | NEW: 
+2026-10-02T01:53:56 378f2f2a Bash cat state/skip_companies.txt 2>/dev/null | head -40; echo "--- registry"; grep -n "sorted(" run.py | head; gre | NEW: 
+
+
+FULL READ/WRITE CONTENTS:
+===== Bash 2026-09-09T20:26:10.585Z a4a5cbad cd /Users/HMF4BGW/go/src/github.com/applications; ls -la state/skip_companies.tx
+does not exist yet
+=====WRITE 2026-09-09T20:26:27.363Z a4a5cbad
+# Interview cooldown — companies with an active process as of 2026-09-09.
+# Delete a line once it closes (offer, rejection, or you withdraw).
+# jobwatch skips these on every run without an explicit --company.
+
+Amazon          # added by request 2026-09-09
+Anduril         # Zoom panel interviews being scheduled (9/9)
+Anthropic       # interview 9/22 - Staff SWE, Education
+Astranis        # video interview 9/10 - Senior Full Stack, Enterprise Systems
+Aurora          # technical interview 9/16 - Staff SWE, Core Services
+Chime           # technical interview ~9/15 - Senior SWE, Growth
+CrowdStrike     # coding interview 9/14; Cloud Backend comp aligned
+Klaviyo         # recruiter phone screen 9/22 - Senior SWE, Async Processing
+Plaid           # onsite block 9/15 - Senior SWE, Backend
+Snowflake       # virtual interview being scheduled - SWE, Observe
+Vanta           # technical interview was 9/4, awaiting outcome
+
+=====WRITE 2026-09-09T20:30:50.210Z a4a5cbad
+# Companies jobwatch should not scrape — active interview processes plus a few
+# closed ones you don't want alerts from. As of 2026-09-09.
+# Delete a line when you want alerts back. Applies to every run without --company.
+
+Amazon                 # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+Datadog                # closed 9/2 (final-round reject); by request
+Google                 # silent, follow-up drafted
+Intuit                 # interview ~9/17
+Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+Roblox                 # by request
+Snap                   # dormant
+Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+SpaceX                 # by request
+Vanta                  # silent 5 days post-technical (9/4)
+Verkada                # closed 9/8 (post-interview reject); by request
+Walmart Global Tech    # dormant
+
+# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+
+===== Bash 2026-09-15T21:22:25.549Z 05ad3bf1 cat state/skip_companies.txt 2>/dev/null; echo "---exit:$?---"
+# Companies jobwatch should not scrape — active interview processes plus a few
+# closed ones you don't want alerts from. As of 2026-09-09.
+# Delete a line when you want alerts back. Applies to every run without --company.
+
+Amazon                 # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Capital One            # offer (Lead SWE, Richmond), declining; by request
+Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+Datadog                # closed 9/2 (final-round reject); by request
+Google                 # silent, follow-up drafted
+Intuit                 # interview ~9/17
+Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+Roblox                 # by request
+Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+SpaceX                 # by request
+Vanta                  # silent 5 days post-technical (9/4)
+Verkada                # closed 9/8 (post-interview reject); by request
+Walmart Global Tech    # dormant
+
+# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+---exit:0---
+===== Read 2026-09-15T21:22:49.839Z 05ad3bf1 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-09.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Capital One            # offer (Lead SWE, Richmond), declining; by request
+11	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+12	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+13	Datadog                # closed 9/2 (final-round reject); by request
+14	Google                 # silent, follow-up drafted
+15	Intuit                 # interview ~9/17
+16	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+17	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+18	Roblox                 # by request
+19	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+20	SpaceX                 # by request
+21	Vanta                  # silent 5 days post-technical (9/4)
+22	Verkada                # closed 9/8 (post-interview reject); by request
+23	Walmart Global Tech    # dormant
+24	
+25	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+26	
+===== Read 2026-09-15T21:23:13.217Z 05ad3bf1 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-15.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Capital One            # offer (Lead SWE, Richmond), declining; by request
+12	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+13	Cloudflare             # by request
+14	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+15	Datadog                # closed 9/2 (final-round reject); by request
+16	Expedia                # by request
+17	Google                 # silent, follow-up drafted
+18	Intuit                 # interview ~9/17
+19	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+20	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+21	Roblox                 # by request
+22	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+23	SpaceX                 # by request
+24	StubHub                # by request
+25	Vanta                  # silent 5 days post-technical (9/4)
+26	Verkada                # closed 9/8 (post-interview reject); by request
+27	Walmart Global Tech    # dormant
+28	
+29	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+30	
+===== Read 2026-09-15T21:24:18.478Z 05ad3bf1 
+25	StubHub                # by request
+26	Vanta                  # silent 5 days post-technical (9/4)
+27	Verkada                # closed 9/8 (post-interview reject); by request
+28	Walmart Global Tech    # dormant
+29	
+30	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+===== Read 2026-09-15T21:33:02.504Z 05ad3bf1 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-15.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Capital One            # offer (Lead SWE, Richmond), declining; by request
+12	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+13	Cloudflare             # by request
+14	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+15	Datadog                # closed 9/2 (final-round reject); by request
+16	Expedia                # by request
+17	Google                 # silent, follow-up drafted
+18	Intuit                 # interview ~9/17
+19	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+20	PayPal                 # by request
+21	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+22	Roblox                 # by request
+23	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+24	SpaceX                 # by request
+25	StubHub                # by request
+26	Vanta                  # silent 5 days post-technical (9/4)
+27	Verkada                # closed 9/8 (post-interview reject); by request
+28	Walmart Global Tech    # dormant
+29	Workday                # by request
+30	
+31	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+32	
+===== Read 2026-09-17T22:00:52.397Z 5c267ddd 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-15.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Capital One            # offer (Lead SWE, Richmond), declining; by request
+12	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+13	Cloudflare             # by request
+14	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+15	Datadog                # closed 9/2 (final-round reject); by request
+16	Expedia                # by request
+17	Intuit                 # interview ~9/17
+18	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+19	PayPal                 # by request
+20	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+21	Roblox                 # by request
+22	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+23	SpaceX                 # by request
+24	StubHub                # by request
+25	Vanta                  # silent 5 days post-technical (9/4)
+26	Verkada                # closed 9/8 (post-interview reject); by request
+27	Walmart Global Tech    # dormant
+28	Workday                # by request
+29	
+30	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+31	
+===== Read 2026-09-17T22:01:35.059Z 5c267ddd 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-17.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Capital One            # offer (Lead SWE, Richmond), declining; by request
+12	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+13	Cloudflare             # by request
+14	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+15	Datadog                # closed 9/2 (final-round reject); by request
+16	eBay                   # by request
+17	Expedia                # by request
+18	Intuit                 # interview ~9/17
+19	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+20	Mastercard             # by request
+21	Nubank                 # by request
+22	PayPal                 # by request
+23	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+24	Roblox                 # by request
+25	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+26	SpaceX                 # by request
+27	StubHub                # by request
+28	Target                 # by request
+29	Vanta                  # silent 5 days post-technical (9/4)
+30	Verkada                # closed 9/8 (post-interview reject); by request
+31	Visa                   # by request
+32	Walmart Global Tech    # dormant
+33	Workday                # by request
+34	Zscaler                # by request
+35	
+36	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+37	
+===== Bash 2026-09-20T02:06:28.526Z de784c28 cat -A state/skip_companies.txt | head -40; sed -n 120,160p run.py; sed -n 45,62
+cat: illegal option -- A
+usage: cat [-belnstuv] [file ...]
+    if result.new_jobs:
+        return f"read {result.total_jobs}, {len(result.new_jobs)} new"
+    return f"read {result.total_jobs}"
+
+
+def _read_skip_file(path: Path) -> list[str]:
+    """Company names from the standing skip-list file, in file order.
+
+    One name per line. A blank line is ignored and everything from a `#` to the
+    end of the line is a comment, so a line can carry why the company is skipped
+    and when to revisit. The file is the place for an interview-cooldown list
+    that should outlast a single run; --exclude is the one-off equivalent.
+    """
+    if not path.exists():
+        return []
+    names = []
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        name = raw_line.split("#", 1)[0].strip()
+        if name:
+            names.append(name)
+    return names
+
+
+def _run_companies(names, args, *, store, fetch_page) -> list[CompanyResult]:
+    """Reports progress to stderr as it goes.
+
+    A full run is a few minutes and the per-company cost varies by three orders
+    of magnitude — one request for a Greenhouse board, ~185 for Microsoft — so a
+    silent run gives no way to tell steady progress from a hang. Each company
+    prints its name immediately and a dot per request as it works, then the
+    outcome and elapsed time on the same line. Report output goes to stdout, so
+    this stays out of it.
+    """
+    results = []
+    total = len(names)
+    width = max(len(n) for n in names) if names else 0
+    started_run = monotonic()
+    for index, name in enumerate(names):
+        scraper = SCRAPERS[name]
+        print(f"[{index + 1:>3}/{total}] {name:<{width}} ", end="", flush=True, file=sys.stderr)
+        started = monotonic()
+```
+
+Combine flags as needed, e.g. `--company Meta --dry-run --verbose`.
+
+### Skipping companies you're on a cooldown with
+
+`--exclude NAME` drops a company from a single run. For a company you've
+interviewed with and won't reapply to for months, put one name per line in
+`state/skip_companies.txt` instead — every run without an explicit `--company`
+leaves those out until you delete the line. A blank line is ignored and
+everything from a `#` onward is a comment, so a line can carry the reason and
+when to revisit:
+
+```
+# interview cooldown — delete the line when it lifts
+Datadog        # onsite 2026-09-05, revisit in December
+Stripe         # recruiter said reapply after 12 months
+```
+.gitignore:2:state/	state/skip_companies.txt
+===== Bash 2026-09-20T02:06:33.692Z de784c28 ls -la state/ | head -20; echo ---; cat state/skip_companies.txt 2>&1; echo ---;
+Exit code 1
+total 129640
+drwxr-xr-x@ 271 HMF4BGW  staff     8672 Sep 18 16:03 .
+drwxr-xr-x   35 HMF4BGW  staff     1120 Sep  9 13:37 ..
+-rw-------@   1 HMF4BGW  staff    49997 Sep 18 15:47 1x_technologies.json
+-rw-------@   1 HMF4BGW  staff    26298 Sep 18 15:47 abridge.json
+-rw-------@   1 HMF4BGW  staff   369033 Sep 18 15:47 adobe.json
+-rw-------@   1 HMF4BGW  staff   146195 Sep 18 15:47 adyen.json
+-rw-------@   1 HMF4BGW  staff   110762 Sep 18 15:47 affirm.json
+-rw-------@   1 HMF4BGW  staff    41363 Sep 18 15:47 agility_robotics.json
+-rw-------@   1 HMF4BGW  staff   131486 Sep 18 15:48 airbnb.json
+-rw-------@   1 HMF4BGW  staff    16325 Sep 18 15:48 airtable.json
+-rw-------@   1 HMF4BGW  staff   378792 Sep 18 15:48 airwallex.json
+-rw-------@   1 HMF4BGW  staff    10066 Sep 18 15:48 alchemy.json
+-rw-------@   1 HMF4BGW  staff  1410402 Sep  8 10:24 amazon.json
+-rw-------@   1 HMF4BGW  staff   727208 Sep 18 15:47 amd.json
+-rw-------@   1 HMF4BGW  staff   637020 Sep 18 15:48 american_express.json
+-rw-------@   1 HMF4BGW  staff  1289652 Sep  8 10:24 anduril.json
+-rw-------@   1 HMF4BGW  staff   295505 Sep  8 10:24 anthropic.json
+-rw-------@   1 HMF4BGW  staff    67863 Sep 18 15:48 apple.json
+-rw-------@   1 HMF4BGW  staff   171095 Sep 18 15:48 applied_intuition.json
+---
+# Companies jobwatch should not scrape — active interview processes plus a few
+# closed ones you don't want alerts from. As of 2026-09-17.
+# Delete a line when you want alerts back. Applies to every run without --company.
+
+Amazon                 # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Bloomberg              # by request
+Capital One            # offer (Lead SWE, Richmond), declining; by request
+Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+Cloudflare             # by request
+CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+Datadog                # closed 9/2 (final-round reject); by request
+eBay                   # by request
+Expedia                # by request
+Intuit                 # interview ~9/17
+Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+Mastercard             # by request
+Nubank                 # by request
+PayPal                 # by request
+Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+Roblox                 # by request
+Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+SpaceX                 # by request
+StubHub                # by request
+Target                 # by request
+Vanta                  # silent 5 days post-technical (9/4)
+Verkada                # closed 9/8 (post-interview reject); by request
+Visa                   # by request
+Walmart Global Tech    # dormant
+Workday                # by request
+Zscaler                # by request
+
+# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+---
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'SCRAPERS' from 'jobwatch.scrapers' (/Users/HMF4BGW/go/src/github.com/applications/jobwatch/scrapers/__init__.py)
+===== Bash 2026-09-23T22:02:43.917Z db615a54 cd /Users/HMF4BGW/go/src/github.com/applications; sed -n 1,200p tools/refilter_r
+"""Re-run the role filter over a report that was written unfiltered.
+
+When the filter fails mid-run — no credits, an unset key, an API outage —
+run.py deliberately prints every new job rather than losing them, because the
+snapshots have already been written and those jobs will never be reported
+again. That is the right call, but it can mean hundreds of unfiltered jobs
+scrolling past.
+
+The dated report under output/ holds every one of them, so the filter can be
+applied afterwards and the report re-rendered as it should have looked.
+
+Usage:
+    python tools/refilter_report.py                     # newest report
+    python tools/refilter_report.py output/2026-08-07.json
+    python tools/refilter_report.py --verbose           # show dropped jobs too
+
+Writes the filtered version alongside the original as
+`<name>-filtered.json` and `<name>-filtered.txt`, leaving the unfiltered
+record untouched.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from dataclasses import replace
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO_ROOT))
+
+from jobwatch.engine import CompanyResult  # noqa: E402
+from jobwatch.filters import apply_filters_by_group  # noqa: E402
+from jobwatch.models import Job  # noqa: E402
+from jobwatch.report import format_report  # noqa: E402
+
+STATE_DIR = REPO_ROOT / "state"
+OUTPUT_DIR = REPO_ROOT / "output"
+
+
+def newest_report(output_dir: Path) -> Path:
+    reports = sorted(output_dir.glob("*.json"))
+    reports = [p for p in reports if not p.stem.endswith("-filtered")]
+    if not reports:
+        raise SystemExit(f"no reports found in {output_dir}")
+    return max(reports, key=lambda p: p.stat().st_mtime)
+
+
+def load_results(path: Path) -> list[CompanyResult]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    results = []
+    for entry in raw:
+        jobs = [
+            Job(
+                company=job.get("company", entry["company"]),
+                job_id=str(job["job_id"]),
+                title=job["title"],
+                url=job["url"],
+                location=job.get("location"),
+                posted_date=job.get("posted_date"),
+            )
+            for job in entry.get("new_jobs") or []
+        ]
+        results.append(
+            CompanyResult(
+                company=entry["company"],
+                status=entry["status"],
+                new_jobs=jobs,
+                total_jobs=entry.get("total_jobs", 0),
+                detail=entry.get("detail"),
+            )
+        )
+    return results
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("report", nargs="?", help="Report to re-filter. Defaults to the newest.")
+    parser.add_argument("--verbose", action="store_true", help="Print each dropped job and why.")
+    args = parser.parse_args(argv)
+
+    path = Path(args.report) if args.report else newest_report(OUTPUT_DIR)
+    results = load_results(path)
+    pending = sum(len(r.new_jobs) for r in results)
+    print(f"Re-filtering {pending} jobs from {path.name}...", file=sys.stderr)
+    if not pending:
+        print("Nothing to filter.", file=sys.stderr)
+        return 0
+
+    def report_drop(job, verdict):
+        print(f"  dropped: {job.company} — {job.title} — {verdict.reason}", file=sys.stderr)
+
+    # Same cache the run uses, so anything classified before the failure is free
+    # and this pass is itself cached for next time.
+    filter
+===== Read 2026-10-02T01:11:30.962Z 6244f59e 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-17.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Broadcom               # by request
+12	Capital One            # offer (Lead SWE, Richmond), declining; by request
+13	Chime                  # interview Tue 9/15 3:00pm - Senior SWE, Growth
+14	Cloudflare             # by request
+15	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+16	Datadog                # closed 9/2 (final-round reject); by request
+17	eBay                   # by request
+18	Expedia                # by request
+19	Intuit                 # interview ~9/17
+20	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+21	Mastercard             # by request
+22	Nubank                 # by request
+23	OpenAI                 # by request
+24	PayPal                 # by request
+25	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+26	Roblox                 # by request
+27	Snowflake              # nudged recruiter 9/8, awaiting - SWE, Observe
+28	SpaceX                 # by request
+29	StubHub                # by request
+30	Target                 # by request
+31	Vanta                  # silent 5 days post-technical (9/4)
+32	Verkada                # closed 9/8 (post-interview reject); by request
+33	Visa                   # by request
+34	Walmart Global Tech    # dormant
+35	Workday                # by request
+36	Zscaler                # by request
+37	
+38	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+39	
+===== Read 2026-10-02T01:13:32.571Z 6244f59e 
+1	# Companies jobwatch should not scrape — active interview processes plus a few
+2	# closed ones you don't want alerts from. As of 2026-09-17.
+3	# Delete a line when you want alerts back. Applies to every run without --company.
+4	
+5	Amazon                 # by request
+6	Anduril                # panel scheduled, then stalled ~7 days
+7	Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+8	Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+9	Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+10	Bloomberg              # by request
+11	Broadcom               # by request
+12	Capital One            # offer (Lead SWE, Richmond), declining; by request
+13	Cloudflare             # by request
+14	CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+15	Datadog                # closed 9/2 (final-round reject); by request
+16	eBay                   # by request
+17	Expedia                # by request
+18	Intuit                 # interview ~9/17
+19	Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+20	Mastercard             # by request
+21	Nubank                 # by request
+22	OpenAI                 # by request
+23	PayPal                 # by request
+24	Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+25	Roblox                 # by request
+26	SpaceX                 # by request
+27	StubHub                # by request
+28	Target                 # by request
+29	Vanta                  # silent 5 days post-technical (9/4)
+30	Verkada                # closed 9/8 (post-interview reject); by request
+31	Visa                   # by request
+32	Walmart Global Tech    # dormant
+33	Workday                # by request
+34	Zscaler                # by request
+35	
+36	# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+37	
+===== Bash 2026-10-02T01:15:13.009Z 6244f59e sed -n '5,14p' state/skip_companies.txt
+Amazon                 # by request
+American Express       # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Atlassian              # by request
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Autodesk               # by request
+Bloomberg              # by request
+Broadcom               # by request
+===== Bash 2026-10-02T01:53:56.777Z 378f2f2a cat state/skip_companies.txt 2>/dev/null | head -40; echo "--- registry"; grep -
+# Companies jobwatch should not scrape — active interview processes plus a few
+# closed ones you don't want alerts from. As of 2026-09-17.
+# Delete a line when you want alerts back. Applies to every run without --company.
+
+Amazon                 # by request
+American Express       # by request
+Anduril                # panel scheduled, then stalled ~7 days
+Anthropic              # interview Tue 9/22 2:00pm - Staff SWE, Education
+Astranis               # interview Thu 9/10 12:45pm - Senior Full Stack
+Atlassian              # by request
+Aurora                 # interview Wed 9/16 9:00-11:15am - Staff SWE, Core Services
+Autodesk               # by request
+Bloomberg              # by request
+Broadcom               # by request
+Capital One            # offer (Lead SWE, Richmond), declining; by request
+Cloudflare             # by request
+CrowdStrike            # coding interview ~9/14; availability sent, awaiting
+Datadog                # closed 9/2 (final-round reject); by request
+eBay                   # by request
+Expedia                # by request
+Intuit                 # interview ~9/17
+Klaviyo                # recruiter screen Tue 9/22 10:00am - Senior SWE, Async Processing
+Mastercard             # by request
+Nubank                 # by request
+OpenAI                 # by request
+PayPal                 # by request
+Plaid                  # onsite Tue 9/15 - coding 10:30, deep dive 1:30
+Qualcomm               # by request
+Roblox                 # by request
+SpaceX                 # by request
+StubHub                # by request
+Target                 # by request
+Vanta                  # silent 5 days post-technical (9/4)
+Verkada                # closed 9/8 (post-interview reject); by request
+Visa                   # by request
+Walmart Global Tech    # dormant
+Workday                # by request
+Zscaler                # by request
+
+# Not tracked by jobwatch, so nothing to skip: Render, Audible.
+--- registry
+268:    names = args.companies or sorted(SCRAPERS)
+273:            f"Available: {', '.join(sorted(SCRAPERS))}",
+286:    unknown_excluded = sorted(n for n in excluded if n not in SCRAPERS)
+290:            f"Available: {', '.join(sorted(SCRAPERS))}",
+1:from __future__ import annotations
+3:import argparse
+4:import os
+5:import signal
+6:import sys
+7:import threading
+8:from contextlib import contextmanager
+9:from dataclasses import replace
+10:from pathlib import Path
+11:from time import monotonic, sleep
+13:from playwright.sync_api import sync_playwright
+15:from jobwatch.engine import CompanyResult, default_fetch_page, run_company
+16:from jobwatch.fetch import FetchError
+17:from jobwatch.filters import apply_filters_by_group
+18:from jobwatch.models import FetchMode
+19:from jobwatch.registry import SCRAPERS
+20:from jobwatch.report import format_report, write_report
+21:from jobwatch.store import JsonSnapshotStore, PostgresSnapshotStore

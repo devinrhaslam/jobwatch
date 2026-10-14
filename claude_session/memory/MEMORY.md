@@ -1,0 +1,30 @@
+# Memory
+
+- [Don't declare boards unscrapable](dont-declare-boards-unscrapable.md) — eight "impossible" careers boards, eight times wrong; exhaust the honest options first.
+- [Dead links are jobwatch's recurring bug](jobwatch-dead-links-are-the-recurring-bug.md) — every user-reported bug has been a job link that didn't resolve.
+- [Seed runs are jobwatch's fragile path](jobwatch-seed-runs-are-the-fragile-path.md) — a truncated seed corrupts quietly; test the seed, not the diff.
+- [The role filter leaks unnamed disciplines](jobwatch-filter-leaks-unnamed-disciplines.md) — a denylist plus a "prefer keep" tiebreaker; fix the rule, not the instance.
+- [Job search targeting criteria](job-search-targeting-criteria.md) — top comp plus household names; no quant firms; justify unfamiliar picks against the resume.
+- [Levels.fyi access path](levels-fyi-access-path.md) — the `.md` routes robots.txt advertises; leaderboard is account-gated and pads with fake rows; WAF trips at ~400 fast requests.
+- [Jobwatch productization plan](jobwatch-productization-plan.md) — turning the CLI into a multi-tenant alerts SaaS: Python→Postgres→Go→React, phased; Phase 0 done.
+- [Jobwatch local run environment](jobwatch-local-run-environment.md) — use `.venv/bin/python3` + `source ~/.zshrc`; `tools/refilter_report.py` recovers a fail-open (unfiltered) run without re-scraping.
+- [Jobwatch crash-before-report recovery](jobwatch-crash-before-report-recovery.md) — `tools/recover_interrupted_run.py` rebuilds a report from `state/` first_seen timestamps when a run died mid-scrape and never wrote to `output/` at all.
+- [Jobwatch Anthropic credits keep running out](jobwatch-anthropic-credits-recurring-interruption.md) — six occurrences now (08-10, 19, 26, 30, 09-01, 09-22); when the outage outlasts the run, hand-filter with the filters.py prompt.
+- [System design interview weak spot](system-design-interview-weak-spot.md) — recurring soft spot across Capital One, Datadog, and a Sept 2026 mock; the stall is the jump into high-level design.
+- [Datadog system design prep](datadog-system-design-prep.md) — artifact walkthrough of an incident-investigation agent; request-path traversal + 45/30 DS-vs-AI rubric weighting.
+- [Datadog code review round](datadog-code-review-round.md) — 60-min AI-enabled PR review; going with Go, run sheet artifact published.
+- [Audible behavioral round](audible-behavioral-round.md) — 5 People Principles, not 6, and they do not replace the 16 LPs.
+- [Capital One offer (Aug 2026)](capital-one-offer-2026-08.md) — Lead SWE Richmond, ~$210k total; declining, can't reach Devin's ~$330k bar.
+- [Email-service deep-dive project](email-service-deep-dive-project.md) — Devin's reusable SNS→SQS P0 story; several facts still unconfirmed.
+- [Plaid technical deep dive](plaid-technical-deep-dive.md) — 2×60-min first round; rubric adds prioritization and resourcing; deck in ~/Downloads.
+- [Render pptx via PowerPoint](pptx-render-via-powerpoint.md) — no LibreOffice here; the group-container PDF export stopped working 2026-10-13, per-slide Quick Look thumbnails are the fallback.
+- [Deep-dive decks follow story order](deep-dive-deck-story-order.md) — Devin's narrative order beats the template's; diagrams grow across build slides.
+- [Relocation comp bar](relocation-comp-bar.md) — ~$365k NYC / ~$331k SF to match the Richmond life; supersedes the flat $330k for out-of-market roles.
+- [Board moves need a re-seed](jobwatch-board-move-reseed.md) — ATS moves/re-IDs stick as suspicious forever; re-seed, then title-diff the old snapshot to recover the gap.
+- [Chime Growth rejection](chime-growth-rejection.md) — 2026-09-25 "fit" rejection after strong loop; match the HM-round story to the team.
+- [Seed-run blind spot](jobwatch-seed-blind-spot.md) — listings already up at first scrape never reach the digest; companies that keep listings up for months are invisible; page built 2026-09-27.
+- [Expedia HM feedback (Sept 2026)](expedia-hm-feedback-2026-09.md) — itemized written feedback: gaps were producer-side capacity/priority design and production AI depth.
+- [Inbox sweep method for the interview list](job-search-inbox-sweep-method.md) — four missed companies; never filter out recruiting-system senders, check starred, read every page.
+- [Zipline onsite (Oct 2026)](zipline-onsite-2026-10.md) — 2026-10-14 virtual onsite; 45-min panel presentation to engineers and non-technical stakeholders, then stakeholder, architecture, culture rounds.
+- [Slides: images over text](slides-prefer-images-over-text.md) — Devin wants icon-led slides with minimal text; he talks through the detail.
+- [StubHub technical rounds](stubhub-technical-rounds.md) — Oct 8-9 2026 code pair + system design; reported questions are the "marketing engine" and an email notification system, not Ticketmaster.
